@@ -16,6 +16,10 @@ const curriculumRoutes = require("./routes/curriculum.routes");
 const translationRoutes = require("./routes/translation.routes");
 const ttsRoutes = require("./routes/tts.routes");
 const flashcardRoutes = require("./routes/flashcard.routes");
+const subjectsRoutes = require("./routes/subjects.routes");
+const topicsRoutes = require("./routes/topics.routes");
+const lessonsRoutes = require("./routes/lessons.routes");
+const quizRoutes = require("./routes/quiz.routes");
 const errorHandler = require("./middleware/error.middleware");
 const sanitizeRequest = require("./middleware/sanitize.middleware");
 const nosqlSanitize = require("./middleware/nosqlSanitize.middleware");
@@ -126,6 +130,10 @@ v1Router.use("/curriculum", curriculumRoutes);
 v1Router.use("/translation", translationRoutes);
 v1Router.use("/tts", ttsRoutes);
 v1Router.use("/flashcards", flashcardRoutes);
+v1Router.use("/subjects", subjectsRoutes);
+v1Router.use("/topics", topicsRoutes);
+v1Router.use("/lessons", lessonsRoutes);
+v1Router.use("/quiz", quizRoutes);
 
 // Mount versioned & legacy fallback APIs
 app.use("/api/v1", v1Router);

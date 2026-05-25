@@ -7,6 +7,11 @@ const flashcardSchema = new mongoose.Schema(
       ref: "User",
       required: true
     },
+    studentId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+      required: true
+    },
     topicId: {
       type: String,
       required: true,
@@ -55,6 +60,14 @@ const flashcardSchema = new mongoose.Schema(
     lastReviewedAt: {
       type: Date,
       default: null
+    },
+    clientGeneratedId: {
+      type: String,
+      trim: true
+    },
+    schemaVersion: {
+      type: Number,
+      default: 1
     }
   },
   { timestamps: true }
@@ -63,5 +76,15 @@ const flashcardSchema = new mongoose.Schema(
 // Indexes
 flashcardSchema.index({ userId: 1, nextReviewAt: 1 });
 flashcardSchema.index({ userId: 1, topicId: 1 });
+flashcardSchema.index({ studentId: 1 });
+flashcardSchema.index({ nextReviewAt: 1 });
+flashcardSchema.index({ createdAt: 1 });
+
+// Sync userId & studentId pre-save
+flashcardSchema.pre("save", function (next) {
+  if (this.userId && !this.studentId) this.studentId = this.userId;
+  if (this.studentId && !this.userId) this.userId = this.studentId;
+  next();
+});
 
 module.exports = mongoose.model("Flashcard", flashcardSchema);

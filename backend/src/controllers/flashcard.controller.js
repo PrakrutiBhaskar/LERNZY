@@ -6,18 +6,29 @@ const { successResponse, errorResponse } = require("../utils/response.utils");
  */
 const createFlashcard = async (req, res, next) => {
   try {
-    const { topicId, frontText, backText, memoryHook, source = "bundled" } = req.body;
+    const { topicId, frontText, backText, memoryHook, source = "bundled", clientGeneratedId, schemaVersion = 1 } = req.body;
+
+    // Deduplication checks for replay/retry requests
+    if (clientGeneratedId) {
+      const existing = await Flashcard.findOne({ clientGeneratedId, userId: req.user._id });
+      if (existing) {
+        return successResponse(res, { flashcard: existing, isDuplicate: true }, "Flashcard processed (duplicate)", 200);
+      }
+    }
 
     const flashcard = await Flashcard.create({
       userId: req.user._id,
+      studentId: req.user._id,
       topicId,
       source,
       frontText,
       backText,
-      memoryHook: memoryHook || ""
+      memoryHook: memoryHook || "",
+      clientGeneratedId,
+      schemaVersion
     });
 
-    return successResponse(res, { flashcard }, "Flashcard created", 201);
+    return successResponse(res, { flashcard, isDuplicate: false }, "Flashcard created", 201);
   } catch (error) {
     return next(error);
   }
@@ -25,9 +36,6 @@ const createFlashcard = async (req, res, next) => {
 
 /**
  * Fetch flashcards for the authenticated student.
- * Optional query parameters:
- * - topicId: Filter by curriculum topic ID.
- * - dueOnly: If "true", returns only cards whose nextReviewAt is due (<= now).
  */
 const getFlashcards = async (req, res, next) => {
   try {
@@ -46,6 +54,23 @@ const getFlashcards = async (req, res, next) => {
 
     const flashcards = await Flashcard.find(query).sort({ nextReviewAt: 1 });
     return successResponse(res, { flashcards }, "Flashcards retrieved");
+  } catch (error) {
+    return next(error);
+  }
+};
+
+/**
+ * Fetch flashcards that are due for review (nextReviewAt <= now).
+ */
+const getDueFlashcards = async (req, res, next) => {
+  try {
+    const userId = req.user._id;
+    const flashcards = await Flashcard.find({
+      userId,
+      nextReviewAt: { $lte: new Date() }
+    }).sort({ nextReviewAt: 1 });
+
+    return successResponse(res, { flashcards }, "Due flashcards retrieved");
   } catch (error) {
     return next(error);
   }
@@ -118,5 +143,6 @@ const reviewFlashcard = async (req, res, next) => {
 module.exports = {
   createFlashcard,
   getFlashcards,
+  getDueFlashcards,
   reviewFlashcard
 };

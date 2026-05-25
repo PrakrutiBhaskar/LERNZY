@@ -1,6 +1,6 @@
 const express = require("express");
 const { body, param, query } = require("express-validator");
-const { createFlashcard, getFlashcards, reviewFlashcard } = require("../controllers/flashcard.controller");
+const { createFlashcard, getFlashcards, getDueFlashcards, reviewFlashcard } = require("../controllers/flashcard.controller");
 const authMiddleware = require("../middleware/auth.middleware");
 const validateRequest = require("../middleware/validate.middleware");
 
@@ -19,6 +19,11 @@ router.post(
   ],
   validateRequest,
   createFlashcard
+);
+
+router.get(
+  "/due",
+  getDueFlashcards
 );
 
 router.get(
