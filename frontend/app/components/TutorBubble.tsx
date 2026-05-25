@@ -17,7 +17,12 @@ export const TutorBubble: React.FC<TutorBubbleProps> = ({ message, style }) => {
   const { componentStyles } = useTheme();
 
   return (
-    <View style={[componentStyles.tutorBubble, style]}>
+    <View
+      accessible={true}
+      accessibilityRole="text"
+      accessibilityLabel={`Tutor says: ${message}`}
+      style={[componentStyles.tutorBubble, style]}
+    >
       <AppText variant="bodyLg">
         {message}
       </AppText>

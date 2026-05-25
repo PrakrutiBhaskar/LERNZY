@@ -54,6 +54,11 @@ export const QuizOption: React.FC<QuizOptionProps> = ({
     <Pressable
       onPress={onPress}
       disabled={disabled}
+      accessible={true}
+      accessibilityRole="radio"
+      accessibilityLabel={`Option: ${text}`}
+      accessibilityState={{ checked: selected, disabled }}
+      accessibilityHint={status === 'none' ? 'Tap to select this option' : `Evaluated as ${status}`}
       style={({ pressed }) => [
         getOptionStyle(),
         pressed && !disabled && { opacity: 0.95 },
