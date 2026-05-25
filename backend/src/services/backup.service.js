@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const zlib = require("zlib");
 const mongoose = require("mongoose");
 const logger = require("../utils/logger");
 
@@ -11,7 +12,7 @@ if (!fs.existsSync(BACKUPS_DIR)) {
 }
 
 /**
- * Generates a full database backup in JSON format
+ * Generates a full database backup in compressed JSON.gz format
  * @returns {Promise<string>} Path to the created backup file
  */
 async function createBackup() {
@@ -27,10 +28,14 @@ async function createBackup() {
     }
 
     const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
-    const backupFilePath = path.join(BACKUPS_DIR, `lernzy_backup_${timestamp}.json`);
+    const backupFilePath = path.join(BACKUPS_DIR, `lernzy_backup_${timestamp}.json.gz`);
     
-    fs.writeFileSync(backupFilePath, JSON.stringify(backupData, null, 2), "utf8");
-    logger.info(`Database backup created successfully: ${backupFilePath}`);
+    // Gzip compress the backup payload
+    const jsonString = JSON.stringify(backupData);
+    const compressed = zlib.gzipSync(jsonString);
+
+    fs.writeFileSync(backupFilePath, compressed);
+    logger.info(`Compressed database backup created successfully: ${backupFilePath}`);
     return backupFilePath;
   } catch (error) {
     logger.error("Failed to create database backup:", error);
@@ -40,7 +45,7 @@ async function createBackup() {
 
 /**
  * Restores a database backup and verifies data counts match
- * @param {string} backupFilePath - Path to the JSON backup file
+ * @param {string} backupFilePath - Path to the JSON.gz backup file
  * @returns {Promise<boolean>} True if verification succeeds
  */
 async function verifyRestore(backupFilePath) {
@@ -49,8 +54,10 @@ async function verifyRestore(backupFilePath) {
       throw new Error(`Backup file not found at ${backupFilePath}`);
     }
 
-    const rawData = fs.readFileSync(backupFilePath, "utf8");
-    const backupData = JSON.parse(rawData);
+    const compressedData = fs.readFileSync(backupFilePath);
+    // Decompress gzip payload
+    const jsonString = zlib.gunzipSync(compressedData).toString("utf8");
+    const backupData = JSON.parse(jsonString);
 
     // Run verification inside session if possible
     for (const modelName of Object.keys(backupData)) {
@@ -87,7 +94,7 @@ if (process.env.AUTO_BACKUP_ENABLED === "true") {
     logger.info("Triggering scheduled database backup...");
     try {
       const filePath = await createBackup();
-      // Optionally verify the backup immediately to confirm integrity
+      // Verify immediately to confirm integrity
       await verifyRestore(filePath);
     } catch (e) {
       logger.error("Scheduled backup flow failed:", e);

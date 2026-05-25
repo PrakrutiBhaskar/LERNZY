@@ -559,6 +559,29 @@ The backend provides versioned endpoints mounted at `/api` and `/api/v1`.
     }
     ```
 
+### 13.5 Silent JWT Refresh & Token Rotation Policy
+To secure student sessions, the system enforces a strict JWT rotation policy:
+- **Refresh Token Lifecycle**: Issued at signup/login with a signature validation period and written to a secure HTTP-Only cookie.
+- **Rotation on Refresh (`POST /api/v1/auth/refresh`)**:
+  - The endpoint validates the incoming refresh token.
+  - The server verifies that the token hash matches the stored `refreshTokenHash` in the user record, and the token version matches `refreshTokenVersion`.
+  - Upon successful verification, the server issues a new short-lived `accessToken` (e.g. 15 minutes) and a brand new `refreshToken` (rotated).
+  - The new refresh token hash is saved to the database. The old hash is invalidated.
+- **Token Reuse Detection / Attack Mitigation**: If a client attempts to refresh using a previously used refresh token (i.e. old hash mismatch), the system detects token reuse. Under this policy, the user's entire token session is revoked, setting `refreshTokenHash` to null, forcing the student to perform a full manual login.
+
+### 13.6 Offline Sync Conflict Resolution Policy
+Because LERNZY is designed for offline-first learning, clients collect actions in their local SQLite database when disconnected:
+- **Client Playback Queue**: Once an internet connection is established, the mobile client sends accumulated progress logs in sequential order to the server (`POST /api/v1/progress/events`).
+- **Conflict Handling Policies**:
+  - **Timestamp-Based Last-Write-Wins (LWW)**: Each progress log carries a `clientTimestamp`. The server compares it with any existing events on the same topic. If the server already contains a progress event logged at a timestamp newer than the client's record, it returns a `409 SYNC_CONFLICT` error with code `SYNC_CONFLICT`. The client should discard the local write.
+  - **Idempotency Deduplication**: Each replayed HTTP request contains an `Idempotency-Key` or `X-Idempotency-Key`. The backend stores successful responses in a Redis cache for 5 minutes. If a replayed request matches a cached key, the cached HTTP response is returned immediately with the header `X-Cache-Idempotency: HIT`, preventing duplicate writes and points calculations.
+
+### 13.7 Rate Limiter & Cost Control Tuning
+To control Gemini API inference costs, access to tutor endpoints is managed via `aiLimiter`:
+- **Threshold**: Defaults to `15` request submissions per minute per user/IP.
+- **Configuration**: Managed using environment variables `AI_RATE_LIMIT_MAX` (number of requests) and `AI_RATE_LIMIT_WINDOW_MS` (window duration in milliseconds).
+- **Enforcement**: Applied to standard ask (`POST /api/v1/ask`) and streaming SSE ask (`POST /api/v1/ask/stream`) routes.
+
 ---
 
 ## 14. Contract Versioning

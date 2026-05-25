@@ -21,7 +21,7 @@ const authLimiter = rateLimit({
 });
 
 const aiLimiter = rateLimit({
-  windowMs: 60 * 1000,
+  windowMs: Number(process.env.AI_RATE_LIMIT_WINDOW_MS || 60 * 1000),
   max: Number(process.env.AI_RATE_LIMIT_MAX || 15),
   standardHeaders: true,
   legacyHeaders: false,
