@@ -5,15 +5,16 @@ import { useLanguage } from '@/i18n/LanguageContext';
 import { useTheme } from '@/theme/theme';
 import { AppText } from '../components/AppText';
 import { Button } from '../components/Button';
-import { Card } from '../components/Card';
 import { ScreenContainer } from '../components/ScreenContainer';
 import { STORAGE_KEYS } from '@/utils/constants';
 import { getObject, setObject } from '@/utils/storage';
+import { ProgressBar } from '../components/ProgressBar';
+import { InterestGrid, InterestItem } from '../components/InterestGrid';
 
 export default function OnboardingInterests(): React.JSX.Element {
   const router = useRouter();
   const { language } = useLanguage();
-  const { colors, spacing } = useTheme();
+  const { colors } = useTheme();
 
   const [selectedInterests, setSelectedInterests] = useState<string[]>([]);
 
@@ -48,13 +49,13 @@ export default function OnboardingInterests(): React.JSX.Element {
     }
   };
 
-  const interestOptions = [
-    { key: 'space', emoji: '🚀', en: 'Space & Planets', hi: 'अंतरिक्ष और ग्रह', kn: 'ಬಾಹ್ಯಾಕಾಶ & ಗ್ರಹಗಳು' },
-    { key: 'nature', emoji: '🌿', en: 'Animals & Nature', hi: 'जानवर और प्रकृति', kn: 'ಪ್ರಾಣಿಗಳು & ಪ್ರಕೃತಿ' },
-    { key: 'robots', emoji: '🤖', en: 'Computers & Robots', hi: 'कंप्यूटर और रोबोट', kn: 'ಕಂಪ್ಯೂಟರ್ & ರೋಬೋಟ್‌ಗಳು' },
-    { key: 'history', emoji: '🏛️', en: 'History & Mysteries', hi: 'इतिहास और रहस्य', kn: 'ಇತಿಹಾಸ & ರಹಸ್ಯಗಳು' },
-    { key: 'sports', emoji: '⚽', en: 'Sports & Science', hi: 'खेल और विज्ञान', kn: 'ಕ್ರೀಡೆ & ವಿಜ್ಞಾನ' },
-    { key: 'stories', emoji: '📚', en: 'Stories & Poetry', hi: 'कहानियां और कविताएं', kn: 'ಕಥೆಗಳು & ಕವನಗಳು' },
+  const interestOptions: InterestItem[] = [
+    { id: 'space', label: language === 'en' ? 'Space & Planets' : language === 'hi' ? 'अंतरिक्ष और ग्रह' : 'ಬಾಹ್ಯಾಕಾಶ & ಗ್ರಹಗಳು', iconName: 'Rocket' },
+    { id: 'nature', label: language === 'en' ? 'Animals & Nature' : language === 'hi' ? 'जानवर और प्रकृति' : 'ಪ್ರಾಣಿಗಳು & ಪ್ರಕೃತಿ', iconName: 'Leaf' },
+    { id: 'robots', label: language === 'en' ? 'Computers & Robots' : language === 'hi' ? 'कंप्यूटर और रोबोट' : 'ಕಂಪ್ಯೂಟರ್ & ರೋಬೋಟ್‌ಗಳು', iconName: 'Bot' },
+    { id: 'history', label: language === 'en' ? 'History & Mysteries' : language === 'hi' ? 'इतिहास और रहस्य' : 'ಇತಿಹಾಸ & ರಹಸ್ಯಗಳು', iconName: 'Compass' },
+    { id: 'sports', label: language === 'en' ? 'Sports & Science' : language === 'hi' ? 'खेल और विज्ञान' : 'ಕ್ರೀಡೆ & ವಿಜ್ಞಾನ', iconName: 'Activity' },
+    { id: 'stories', label: language === 'en' ? 'Stories & Poetry' : language === 'hi' ? 'कहानियां और कविताएं' : 'ಕಥೆಗಳು & ಕವನಗಳು', iconName: 'BookOpen' },
   ];
 
   return (
@@ -65,6 +66,9 @@ export default function OnboardingInterests(): React.JSX.Element {
       contentContainerStyle={styles.container}
     >
       <View style={styles.content}>
+        <View style={{ marginBottom: 20 }}>
+          <ProgressBar progress={0.70} />
+        </View>
         <AppText variant="bodyLg" color={colors.textSecondary} style={styles.subtitle}>
           {language === 'en'
             ? 'Select at least one interest. We will use it to create personalized tutoring examples.'
@@ -73,35 +77,11 @@ export default function OnboardingInterests(): React.JSX.Element {
             : 'ಕನಿಷ್ಠ ಒಂದು ಆಸಕ್ತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಪಾಠಗಳಲ್ಲಿ ನಿಮ್ಮ ಇಷ್ಟದ ಉದಾಹರಣೆಗಳನ್ನು ನೀಡಲು ಇದು ಸಹಾಯ ಮಾಡುತ್ತದೆ.'}
         </AppText>
 
-        <View style={styles.grid}>
-          {interestOptions.map((interest) => {
-            const isSelected = selectedInterests.includes(interest.key);
-            const label = language === 'en' ? interest.en : language === 'hi' ? interest.hi : interest.kn;
-
-            return (
-              <Card
-                key={interest.key}
-                active={isSelected}
-                onPress={() => handleInterestPress(interest.key)}
-                style={[
-                  styles.interestCard,
-                  { padding: spacing.space4 }
-                ]}
-              >
-                <AppText variant="display" style={styles.emoji}>
-                  {interest.emoji}
-                </AppText>
-                <AppText
-                  variant="heading2"
-                  style={styles.label}
-                  color={isSelected ? colors.primary : colors.textPrimary}
-                >
-                  {label}
-                </AppText>
-              </Card>
-            );
-          })}
-        </View>
+        <InterestGrid
+          items={interestOptions}
+          selectedIds={selectedInterests}
+          onToggle={handleInterestPress}
+        />
       </View>
 
       <View style={styles.footer}>
@@ -125,27 +105,6 @@ const styles = StyleSheet.create({
   },
   subtitle: {
     marginBottom: 24,
-  },
-  grid: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    gap: 12,
-  },
-  interestCard: {
-    width: '48%', // double column layout
-    alignItems: 'center',
-    justifyContent: 'center',
-    minHeight: 140,
-    flexGrow: 1,
-  },
-  emoji: {
-    fontSize: 32,
-    marginBottom: 8,
-  },
-  label: {
-    fontWeight: '600',
-    textAlign: 'center',
-    fontSize: 15,
   },
   footer: {
     marginTop: 30,

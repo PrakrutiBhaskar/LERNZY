@@ -9,6 +9,7 @@ import { Card } from '../components/Card';
 import { ScreenContainer } from '../components/ScreenContainer';
 import { STORAGE_KEYS } from '@/utils/constants';
 import { getObject, setObject } from '@/utils/storage';
+import { ProgressBar } from '../components/ProgressBar';
 
 export default function OnboardingLearningStyle(): React.JSX.Element {
   const router = useRouter();
@@ -54,6 +55,9 @@ export default function OnboardingLearningStyle(): React.JSX.Element {
       contentContainerStyle={styles.container}
     >
       <View style={styles.content}>
+        <View style={{ marginBottom: 20 }}>
+          <ProgressBar progress={0.85} />
+        </View>
         <AppText variant="bodyLg" color={colors.textSecondary} style={styles.subtitle}>
           {language === 'en'
             ? 'How do you learn best? We will highlight these content formats in your topics.'

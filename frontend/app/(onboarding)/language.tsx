@@ -8,6 +8,7 @@ import { Button } from '../components/Button';
 import { Card } from '../components/Card';
 import { ScreenContainer } from '../components/ScreenContainer';
 import { LanguageCode } from '@/utils/constants';
+import { ProgressBar } from '../components/ProgressBar';
 
 export default function LanguageSelection(): React.JSX.Element {
   const router = useRouter();
@@ -26,6 +27,9 @@ export default function LanguageSelection(): React.JSX.Element {
       contentContainerStyle={styles.container}
     >
       <View style={styles.content}>
+        <View style={{ marginBottom: 20 }}>
+          <ProgressBar progress={0.15} />
+        </View>
         <AppText variant="bodyLg" color={colors.textSecondary} style={styles.subtitle}>
           Select the language you want to study and speak with your AI tutor in:
         </AppText>

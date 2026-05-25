@@ -9,6 +9,7 @@ import { InputField } from '../components/InputField';
 import { ScreenContainer } from '../components/ScreenContainer';
 import { STORAGE_KEYS } from '@/utils/constants';
 import { getObject, setObject } from '@/utils/storage';
+import { ProgressBar } from '../components/ProgressBar';
 
 export default function OnboardingName(): React.JSX.Element {
   const router = useRouter();
@@ -59,6 +60,9 @@ export default function OnboardingName(): React.JSX.Element {
       contentContainerStyle={styles.container}
     >
       <View style={styles.content}>
+        <View style={{ marginBottom: 20 }}>
+          <ProgressBar progress={0.30} />
+        </View>
         <AppText variant="bodyLg" color={colors.textSecondary} style={styles.subtitle}>
           {language === 'en'
             ? 'What should your AI tutor call you during lessons?'
