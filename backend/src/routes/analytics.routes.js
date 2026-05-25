@@ -1,13 +1,12 @@
 const express = require('express');
-const { body } = require("express-validator");
+const { body, query } = require("express-validator");
 const router = express.Router();
 const analyticsController = require('../controllers/analytics.controller');
 const validateRequest = require("../middleware/validate.middleware");
 const idempotency = require("../middleware/idempotency.middleware");
+const authMiddleware = require("../middleware/auth.middleware");
 
-// Note: Analytics route is intentionally not protected by auth middleware
-// to allow telemetry from unauthenticated/anonymous sessions as well.
-
+// Note: Logging is public for telemetry, but summary query is secure
 router.post(
   '/events',
   idempotency,
@@ -20,6 +19,16 @@ router.post(
   ],
   validateRequest,
   analyticsController.logEvents
+);
+
+router.get(
+  '/summary',
+  authMiddleware,
+  [
+    query("range").optional().isIn(["daily", "weekly"]).withMessage("range must be daily or weekly")
+  ],
+  validateRequest,
+  analyticsController.getActivitySummary
 );
 
 module.exports = router;

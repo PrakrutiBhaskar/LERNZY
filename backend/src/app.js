@@ -12,6 +12,10 @@ const progressRoutes = require("./routes/progress.routes");
 const mathRoutes = require("./routes/math.routes");
 const codeRoutes = require("./routes/code.routes");
 const analyticsRoutes = require("./routes/analytics.routes");
+const curriculumRoutes = require("./routes/curriculum.routes");
+const translationRoutes = require("./routes/translation.routes");
+const ttsRoutes = require("./routes/tts.routes");
+const flashcardRoutes = require("./routes/flashcard.routes");
 const errorHandler = require("./middleware/error.middleware");
 const sanitizeRequest = require("./middleware/sanitize.middleware");
 const nosqlSanitize = require("./middleware/nosqlSanitize.middleware");
@@ -118,6 +122,10 @@ v1Router.use("/progress", progressRoutes);
 v1Router.use("/math", mathRoutes);
 v1Router.use("/code", codeRoutes);
 v1Router.use("/analytics", analyticsRoutes);
+v1Router.use("/curriculum", curriculumRoutes);
+v1Router.use("/translation", translationRoutes);
+v1Router.use("/tts", ttsRoutes);
+v1Router.use("/flashcards", flashcardRoutes);
 
 // Mount versioned & legacy fallback APIs
 app.use("/api/v1", v1Router);

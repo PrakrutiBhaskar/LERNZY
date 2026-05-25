@@ -20,11 +20,15 @@ const fetchWithTimeout = async (url, options = {}, timeoutMs = 15000) => {
 };
 
 const normalizeLanguage = (language = "en") => {
-  return language === "kannada" ? "kn" : language;
+  const lowered = String(language).toLowerCase();
+  if (lowered === "kannada" || lowered === "kn") return "kn";
+  if (lowered === "hindi" || lowered === "hi") return "hi";
+  if (lowered === "english" || lowered === "en") return "en";
+  return lowered;
 };
 
 /**
- * If Kannada requested, optionally translate EN -> kn using Google Cloud Translate REST.
+ * If Kannada or Hindi requested, optionally translate EN -> target using Google Cloud Translate REST.
  * Falls back gracefully if credentials are absent.
  */
 const translateToLanguage = async ({ text, targetLanguage }) => {
@@ -72,14 +76,13 @@ const translateToLanguage = async ({ text, targetLanguage }) => {
 const maybeTranslate = async ({ text, language }) => {
   const normalized = normalizeLanguage(language);
 
-  if (normalized !== "kn") {
+  if (normalized !== "kn" && normalized !== "hi") {
     return text;
   }
 
-  // If Gemini is configured correctly, prompts already ask Kannada responses.
-  // Still allow post-translation polish when enabled.
-  if (process.env.KANNADA_POST_TRANSLATE === "true") {
-    return translateToLanguage({ text, targetLanguage: "kn" });
+  // If post-translation is enabled, call translation service
+  if (process.env.POST_TRANSLATE === "true" || process.env.KANNADA_POST_TRANSLATE === "true") {
+    return translateToLanguage({ text, targetLanguage: normalized });
   }
 
   return text;

@@ -375,10 +375,197 @@ All errors include a human-readable `message` and, where available, a `cause` (t
 
 ---
 
-## 13. Contract Versioning
+## 13. Backend HTTP REST + SSE APIs (for Mobile Integration)
+
+The backend provides versioned endpoints mounted at `/api` and `/api/v1`.
+
+### 13.1 Authentication
+- **`POST /api/auth/signup`**
+  - **Request Payload:**
+    ```json
+    {
+      "name": "Arjun",
+      "email": "arjun@example.com",
+      "password": "Password123!",
+      "preferredLanguage": "en",
+      "educationLevel": "beginner"
+    }
+    ```
+  - **Response Payload (201 Created):**
+    ```json
+    {
+      "success": true,
+      "message": "Signup successful",
+      "data": {
+        "accessToken": "...",
+        "refreshToken": "...",
+        "token": "...",
+        "user": {
+          "id": "...",
+          "name": "Arjun",
+          "email": "arjun@example.com",
+          "preferredLanguage": "en",
+          "educationLevel": "beginner",
+          "points": 0
+        }
+      },
+      "error": null
+    }
+    ```
+  - **Error Response (409 Conflict):**
+    ```json
+    {
+      "success": false,
+      "message": "Email already exists",
+      "data": null,
+      "error": { "code": "EMAIL_EXISTS" }
+    }
+    ```
+
+- **`POST /api/auth/login`**
+  - **Request Payload:**
+    ```json
+    {
+      "email": "arjun@example.com",
+      "password": "Password123!"
+    }
+    ```
+  - **Response Payload (200 OK):** Same payload structure as Signup.
+  - **Error Response (401 Unauthorized):**
+    ```json
+    {
+      "success": false,
+      "message": "Invalid email or password",
+      "data": null,
+      "error": { "code": "AUTH_INVALID" }
+    }
+    ```
+
+### 13.2 AI Tutor Q&A
+- **`POST /api/ask`**
+  - **Headers:** `Authorization: Bearer <accessToken>`
+  - **Request Payload:**
+    ```json
+    {
+      "question": "What is a fraction?",
+      "language": "en",
+      "outputType": "text",
+      "topic": "fractions",
+      "board": "state",
+      "grade": 6
+    }
+    ```
+  - **Response Payload (200 OK):**
+    ```json
+    {
+      "success": true,
+      "message": "Answer generated",
+      "data": {
+        "question": "What is a fraction?",
+        "language": "en",
+        "outputType": "text",
+        "explanation": "A fraction represents a part of a whole...",
+        "isVerified": false,
+        "modelMeta": {
+          "provider": "gemini",
+          "model": "gemini-2.0-flash"
+        },
+        "sse": {
+          "streamUrl": "/api/ask/stream",
+          "hint": "Use POST /api/ask/stream for token streaming (SSE fetch)."
+        }
+      },
+      "error": null
+    }
+    ```
+
+- **`POST /api/ask/stream`**
+  - Streams back server-sent events with Content-Type `text/event-stream`.
+  - **Events:**
+    - **`token`**: progressive response tokens.
+      ```
+      event: token
+      data: {"token": " A"}
+      ```
+    - **`done`**: final assembled and translated explanation text payload.
+      ```
+      event: done
+      data: {"explanationStream": "...", "explanation": "...", "language": "en", "outputType": "text", "isVerified": false}
+      ```
+    - **`error`**: stream failure notification.
+      ```
+      event: error
+      data: {"message": "Stream failed"}
+      ```
+
+### 13.3 Chat History
+- **`GET /api/history`**
+  - **Headers:** `Authorization: Bearer <accessToken>`
+  - **Query Params:**
+    - `page` (optional): Offset pagination page index (default: `1`).
+    - `limit` (optional): Page sizes (default: `20`, max: `100`).
+    - `cursor` (optional): Cursor ID (Mongo ObjectId) for cursor-based pagination.
+  - **Response Payload (200 OK):**
+    ```json
+    {
+      "success": true,
+      "message": "History fetched",
+      "data": {
+        "history": [...],
+        "pagination": {
+          "page": 1,
+          "limit": 20,
+          "total": 5,
+          "totalPages": 1,
+          "hasNextPage": false,
+          "hasPrevPage": false
+        }
+      },
+      "error": null
+    }
+    ```
+
+### 13.4 Curriculum
+- **`GET /api/curriculum`**
+  - **Headers:** `Authorization: Bearer <accessToken>`
+  - **Response Payload (200 OK):**
+    ```json
+    {
+      "success": true,
+      "message": "Curriculum nodes fetched successfully",
+      "data": [
+        {
+          "_id": "...",
+          "name": "Grade 6",
+          "nodeType": "grade",
+          "parent": null,
+          "tags": [],
+          "metadata": {},
+          "createdAt": "...",
+          "updatedAt": "..."
+        },
+        {
+          "_id": "...",
+          "name": "Mathematics",
+          "nodeType": "concept",
+          "parent": { "_id": "..." },
+          "tags": [],
+          "metadata": {},
+          "createdAt": "...",
+          "updatedAt": "..."
+        }
+      ],
+      "error": null
+    }
+    ```
+
+---
+
+## 14. Contract Versioning
 
 This file is the source of truth. When any contract changes:
 1. Update this file first.
 2. Update the implementation.
 3. Update relevant tests.
 4. Note the change in `DECISIONS.md` with a rationale.
+

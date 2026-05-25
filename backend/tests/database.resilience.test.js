@@ -41,6 +41,17 @@ jest.mock("../src/models/ProgressEvent.model", () => {
   };
 });
 
+// Mock Achievement model
+jest.mock("../src/models/Achievement.model", () => {
+  return {
+    findOne: jest.fn().mockResolvedValue(null),
+    create: jest.fn().mockResolvedValue({}),
+    find: jest.fn().mockReturnValue({
+      sort: jest.fn().mockResolvedValue([])
+    })
+  };
+});
+
 // Mock ChatHistory model
 jest.mock("../src/models/ChatHistory.model", () => {
   const actualChatHistory = jest.requireActual("../src/models/ChatHistory.model");

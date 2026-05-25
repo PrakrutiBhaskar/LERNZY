@@ -16,7 +16,7 @@ const questionValidators = [
     .trim()
     .isLength({ min: 3, max: 1200 })
     .withMessage("question is required"),
-  body("language").optional().isIn(["en", "kn", "kannada"]),
+  body("language").optional().isIn(["en", "kn", "hi", "english", "kannada", "hindi"]),
   body("outputType").optional().isIn(["text", "voice", "sign-language"]),
   body("topic").optional().isString().trim(),
   body("board").optional().isIn(["ncert", "state"]),

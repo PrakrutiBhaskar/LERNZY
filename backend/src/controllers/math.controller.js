@@ -1,5 +1,6 @@
 const mathService = require("../services/math.service");
 const MathAttempt = require("../models/MathAttempt.model");
+const achievementService = require("../services/achievement.service");
 const { successResponse, errorResponse } = require("../utils/response.utils");
 
 const generateProblem = async (req, res, next) => {
@@ -49,7 +50,13 @@ const submitAttempt = async (req, res, next) => {
       timeTakenSeconds
     });
 
-    return successResponse(res, { attempt }, "Attempt logged");
+    // Evaluate achievement milestones after logging
+    const unlockedAchievements = await achievementService.checkAndUnlock(req.user._id, {
+      type: "math_attempt",
+      payload: { isCorrect }
+    });
+
+    return successResponse(res, { attempt, unlockedAchievements }, "Attempt logged");
   } catch (error) {
     return next(error);
   }

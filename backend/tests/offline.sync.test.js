@@ -9,6 +9,11 @@ jest.mock("../src/models/User.model", () => ({
   })
 }));
 
+jest.mock("../src/models/Achievement.model", () => ({
+  findOne: jest.fn().mockResolvedValue(null),
+  create: jest.fn().mockResolvedValue({})
+}));
+
 const validToken = signAccessToken({ userId: "507f1f77bcf86cd799439011" });
 
 describe("Offline Sync & Conflict Resolution Tests", () => {

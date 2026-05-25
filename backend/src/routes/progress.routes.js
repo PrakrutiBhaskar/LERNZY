@@ -1,6 +1,6 @@
 const express = require("express");
 const { body } = require("express-validator");
-const { createEvent, getEvents } = require("../controllers/progress.controller");
+const { createEvent, getEvents, getMastery, getAchievements } = require("../controllers/progress.controller");
 const validateRequest = require("../middleware/validate.middleware");
 const authMiddleware = require("../middleware/auth.middleware");
 
@@ -24,5 +24,7 @@ router.post(
 );
 
 router.get("/events", getEvents);
+router.get("/mastery", getMastery);
+router.get("/achievements", getAchievements);
 
 module.exports = router;
