@@ -1,113 +1,280 @@
-import React, { useState } from 'react';
-import { View, StyleSheet, Pressable } from 'react-native';
-import { useLocalSearchParams } from 'expo-router';
+import React, { useState, useEffect } from 'react';
+import { View, StyleSheet, SafeAreaView } from 'react-native';
+import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { useTheme } from '@/theme/theme';
 import { AppText } from '../../components/AppText';
 import { Card } from '../../components/Card';
 import { Button } from '../../components/Button';
+import { ProgressBar } from '../../components/ProgressBar';
+import { TutorBubble } from '../../components/TutorBubble';
+import { FlashCard } from '../../components/FlashCard';
 import { ScreenContainer } from '../../components/ScreenContainer';
 
-interface CardData {
-  front: string;
-  back: string;
+interface FlashcardItem {
+  id: string;
+  front: { en: string; hi: string; kn: string };
+  back: { en: string; hi: string; kn: string };
+  memory_hook: { en: string; hi: string; kn: string };
 }
 
-const SAMPLE_CARDS: Record<string, CardData[]> = {
+const MOCK_FLASHCARDS_DB: Record<string, FlashcardItem[]> = {
   fractions: [
-    { front: "Numerator", back: "The top number in a fraction that shows how many parts we are taking." },
-    { front: "Denominator", back: "The bottom number in a fraction that shows the total number of equal parts." },
-    { front: "Equivalent Fractions", back: "Fractions that have different numbers but represent the exact same value (e.g. 1/2 and 2/4)." }
-  ],
-  forces: [
-    { front: "Gravity", back: "An attractive force that exists between all objects with mass." },
-    { front: "Friction", back: "A force that opposes motion between two surfaces that are touching." }
+    {
+      id: "fc001",
+      front: {
+        en: "What are unlike fractions?",
+        hi: "असमान भिन्न क्या होती हैं?",
+        kn: "ಅಸಮಾನ ಭಿನ್ನರಾಶಿಗಳು ಯಾವುವು?"
+      },
+      back: {
+        en: "Fractions with different denominators. For example, 1/3 and 1/4.",
+        hi: "अलग-अलग हरों वाली भिन्नें। उदाहरण के लिए, 1/3 और 1/4।",
+        kn: "ಬೇರೆ ಬೇರೆ ಛೇದಗಳನ್ನು ಹೊಂದಿರುವ ಭಿನ್ನರಾಶಿಗಳು. ಉದಾಹರಣೆಗೆ, 1/3 ಮತ್ತು 1/4."
+      },
+      memory_hook: {
+        en: "Unlike = Different bottom numbers",
+        hi: "असमान = अलग-अलग नीचे की संख्याएँ",
+        kn: "ಅಸಮಾನ = ಬೇರೆ ಬೇರೆ ಕೆಳಗಿನ ಸಂಖ್ಯೆಗಳು"
+      }
+    },
+    {
+      id: "fc002",
+      front: {
+        en: "What is a denominator?",
+        hi: "हर (Denominator) क्या है?",
+        kn: "ಛೇದ (Denominator) ಎಂದರೇನು?"
+      },
+      back: {
+        en: "The bottom number in a fraction that shows the total number of equal parts.",
+        hi: "एक भिन्न में नीचे की संख्या जो कुल बराबर भागों को दर्शाती है।",
+        kn: "ಭಿನ್ನರಾಶಿಯಲ್ಲಿನ ಕೆಳಗಿನ ಸಂಖ್ಯೆಯು ಒಟ್ಟು ಸಮಾನ ಭಾಗಗಳನ್ನು ಸೂಚಿಸುತ್ತದೆ."
+      },
+      memory_hook: {
+        en: "Denominator = Down (bottom) number",
+        hi: "हर = नीचे (Down) की संख्या",
+        kn: "ಛೇದ = ಕೆಳಗಿನ (Down) ಸಂಖ್ಯೆ"
+      }
+    },
+    {
+      id: "fc003",
+      front: {
+        en: "What is a numerator?",
+        hi: "अंश (Numerator) क्या है?",
+        kn: "ಅಂಶ (Numerator) ಎಂದರೇನು?"
+      },
+      back: {
+        en: "The top number in a fraction that shows how many parts we are taking.",
+        hi: "एक भिन्न में ऊपर की संख्या जो दर्शाती है कि हम कितने भाग ले रहे हैं।",
+        kn: "ಭಿನ್ನರಾಶಿಯಲ್ಲಿನ ಮೇಲಿನ ಸಂಖ್ಯೆಯು ನಾವು ತೆಗೆದುಕೊಳ್ಳುವ ಭಾಗಗಳನ್ನು ಸೂಚಿಸುತ್ತದೆ."
+      },
+      memory_hook: {
+        en: "Numerator = Number on top",
+        hi: "अंश = ऊपर की संख्या",
+        kn: "ಅಂಶ = ಮೇಲಿನ ಸಂಖ್ಯೆ"
+      }
+    }
   ]
 };
 
 export default function FlashcardsScreen(): React.JSX.Element {
   const { topicId } = useLocalSearchParams<{ topicId: string }>();
+  const router = useRouter();
   const { language } = useLanguage();
   const { colors, spacing } = useTheme();
 
   const key = topicId || 'fractions';
-  const defaultCards = [
-    { front: `Concept Front for ${topicId}`, back: "Concept explanation on the back of the card." }
-  ];
+  const sourceCards = MOCK_FLASHCARDS_DB[key] || MOCK_FLASHCARDS_DB.fractions;
 
-  const cards = SAMPLE_CARDS[key] || defaultCards;
+  // Active stack of cards remaining in review session
+  const [activeCards, setActiveCards] = useState<FlashcardItem[]>([]);
+  const [masteredCount, setMasteredCount] = useState(0);
+  const [totalCount, setTotalCount] = useState(0);
   const [currentIdx, setCurrentIdx] = useState(0);
-  const [isFlipped, setIsFlipped] = useState(false);
+  const [sessionDone, setSessionDone] = useState(false);
+  const [tutorTip, setTutorTip] = useState<string>('');
 
-  const handleNext = () => {
-    setIsFlipped(false);
-    setCurrentIdx((prev) => (prev + 1) % cards.length);
+  useEffect(() => {
+    // Reset deck on mount
+    setActiveCards([...sourceCards]);
+    setTotalCount(sourceCards.length);
+    setMasteredCount(0);
+    setCurrentIdx(0);
+    setSessionDone(false);
+    setTutorTip(language === 'en' ? "Tap the card to flip it and review the answer." : "उत्तर देखने के लिए फ्लैशकार्ड पर टैप करें।");
+  }, [topicId]);
+
+  const handleRating = (rating: 'hard' | 'good' | 'easy') => {
+    if (activeCards.length === 0) return;
+
+    const currentCard = activeCards[currentIdx];
+
+    if (rating === 'hard') {
+      // Spaced Repetition (SM-2): Move card to end of stack to review again soon
+      const updated = [...activeCards];
+      const [removed] = updated.splice(currentIdx, 1);
+      setActiveCards([...updated, removed]);
+      setTutorTip(language === 'en'
+        ? "Got it! We'll show you this card again soon."
+        : language === 'hi'
+        ? "ठीक है! हम इस कार्ड को जल्द ही फिर से दिखाएंगे।"
+        : "ಸರಿ! ಈ ಕಾರ್ಡ್ ಅನ್ನು ನಾವು ಶೀಘ್ರದಲ್ಲೇ ಮತ್ತೆ ತೋರಿಸುತ್ತೇವೆ."
+      );
+      // Point index back to 0 or keep it within bounds
+      if (currentIdx >= updated.length) {
+        setCurrentIdx(0);
+      }
+    } else {
+      // Good or Easy: Remove from active stack (marked as completed)
+      const updated = activeCards.filter((_, idx) => idx !== currentIdx);
+      setActiveCards(updated);
+      setMasteredCount((prev) => prev + 1);
+
+      if (rating === 'easy') {
+        setTutorTip(language === 'en' ? "Awesome! Mastered!" : language === 'hi' ? "शानदार! महारत हासिल की!" : "ಅದ್ಭುತ! ಕರಗತವಾಯಿತು!");
+      } else {
+        setTutorTip(language === 'en' ? "Good job! Keep going!" : language === 'hi' ? "बहुत बढ़िया! आगे बढ़ें!" : "ಉತ್ತಮ ಕೆಲಸ! ಮುಂದುವರಿಯಿರಿ!");
+      }
+
+      if (updated.length === 0) {
+        setSessionDone(true);
+      } else if (currentIdx >= updated.length) {
+        setCurrentIdx(0);
+      }
+    }
   };
 
-  const handlePrev = () => {
-    setIsFlipped(false);
-    setCurrentIdx((prev) => (prev - 1 + cards.length) % cards.length);
+  const handleFinish = () => {
+    router.replace('/(home)');
   };
 
-  const card = cards[currentIdx];
+  if (sessionDone) {
+    return (
+      <ScreenContainer
+        title={language === 'en' ? 'Review Completed' : language === 'hi' ? 'पुनरीक्षण समाप्त' : 'ಪುನರಾವರ್ತನೆ ಪೂರ್ಣಗೊಂಡಿದೆ'}
+        showBackButton={false}
+        scrollable={true}
+        contentContainerStyle={styles.completeContainer}
+      >
+        <Card style={styles.summaryCard}>
+          <AppText variant="display" style={styles.trophy}>
+            🎉
+          </AppText>
+          <AppText variant="heading1" style={styles.summaryTitle} color={colors.primary}>
+            {language === 'en' ? 'Review Complete!' : language === 'hi' ? 'पुनरीक्षण पूरा हुआ!' : 'ವಿಮರ್ಶೆ ಪೂರ್ಣಗೊಂಡಿದೆ!'}
+          </AppText>
+          <AppText variant="bodyLg" color={colors.textSecondary} style={styles.scoreText}>
+            {language === 'en'
+              ? `You reviewed all ${totalCount} flashcards!`
+              : language === 'hi'
+              ? `आपने सभी ${totalCount} फ्लैशकार्ड का पुनरीक्षण किया!`
+              : `ನೀವು ಎಲ್ಲಾ ${totalCount} ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿದ್ದೀರಿ!`
+            }
+          </AppText>
+
+          <TutorBubble
+            message={language === 'en'
+              ? "Spaced repetition helps lock concepts in memory! Great work studying today!"
+              : "स्मरण शक्ति मजबूत करने के लिए यह पुनरावृत्ति बहुत महत्वपूर्ण है! बहुत बढ़िया काम!"
+            }
+            style={styles.summaryBubble}
+          />
+
+          <Button
+            title={language === 'en' ? 'Back to Dashboard' : language === 'hi' ? 'डैशबोर्ड पर वापस जाएं' : 'ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ಗೆ ಹಿಂತಿರುಗಿ'}
+            onPress={handleFinish}
+            style={styles.finishBtn}
+          />
+        </Card>
+      </ScreenContainer>
+    );
+  }
+
+  const activeCard = activeCards[currentIdx];
+  const progressValue = totalCount > 0 ? masteredCount / totalCount : 0;
 
   return (
     <ScreenContainer
-      title={language === 'en' ? 'Study Flashcards' : language === 'hi' ? 'फ्लैशकार्ड सीखें' : 'ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್‌ಗಳು'}
+      title={language === 'en' ? 'Review Cards' : language === 'hi' ? 'कार्ड दोहराएं' : 'ಕಾರ್ಡ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ'}
       showBackButton={true}
-      scrollable={false}
-      contentContainerStyle={styles.container}
+      scrollable={true}
+      contentContainerStyle={[styles.container, { paddingBottom: 40 }]}
     >
-      <View style={styles.cardSection}>
-        <AppText variant="body" color={colors.textSecondary} style={styles.counter}>
-          {language === 'en' ? `Card ${currentIdx + 1} of ${cards.length}` : language === 'hi' ? `कार्ड ${currentIdx + 1}/${cards.length}` : `ಕಾರ್ಡ್ ${currentIdx + 1}/${cards.length}`}
-        </AppText>
-
-        {/* Flipped Card */}
-        <Pressable
-          onPress={() => setIsFlipped(!isFlipped)}
-          style={styles.pressableCard}
-        >
-          <Card
-            style={[
-              styles.flashcard,
-              isFlipped ? { borderColor: colors.primary, borderWidth: 2 } : null
-            ]}
-          >
-            <View style={styles.cardContent}>
-              <AppText variant="caption" color={colors.textSecondary} style={styles.hint}>
-                {isFlipped 
-                  ? (language === 'en' ? 'REVEALED' : language === 'hi' ? 'खुला हुआ' : 'ತಿಳಿದಿದೆ')
-                  : (language === 'en' ? 'TAP TO FLIP' : language === 'hi' ? 'पलटने के लिए टैप करें' : 'ತಿರುಗಿಸಲು ಒತ್ತಿ')}
-              </AppText>
-
-              <AppText
-                variant="display"
-                style={[
-                  styles.cardText,
-                  isFlipped ? styles.backText : styles.frontText
-                ]}
-              >
-                {isFlipped ? card.back : card.front}
-              </AppText>
-            </View>
-          </Card>
-        </Pressable>
+      {/* Progress tracking */}
+      <View style={styles.progressSection}>
+        <View style={styles.progressLabelRow}>
+          <AppText variant="caption" color={colors.textSecondary} style={{ fontWeight: '700' }}>
+            {language === 'en'
+              ? `CARDS REMAINING: ${activeCards.length}`
+              : language === 'hi'
+              ? `शेष कार्ड: ${activeCards.length}`
+              : `ಉಳಿದಿರುವ ಕಾರ್ಡ್‌ಗಳು: ${activeCards.length}`
+            }
+          </AppText>
+          <AppText variant="caption" color={colors.primary} style={{ fontWeight: '700' }}>
+            {masteredCount} / {totalCount} Mastered
+          </AppText>
+        </View>
+        <ProgressBar progress={progressValue} color={colors.primary} />
       </View>
 
-      {/* Nav Controls */}
-      <View style={[styles.controls, { marginBottom: spacing.space4 }]}>
-        <Button
-          variant="secondary"
-          title={language === 'en' ? 'Previous' : language === 'hi' ? 'पीछे' : 'ಹಿಂದಿನ'}
-          onPress={handlePrev}
-          style={styles.ctrlBtn}
-        />
-        <Button
-          title={language === 'en' ? 'Next' : language === 'hi' ? 'आगे' : 'ಮುಂದಿನ'}
-          onPress={handleNext}
-          style={styles.ctrlBtn}
-        />
+      {/* Tutor Bubble Tips */}
+      {tutorTip !== '' && (
+        <View style={styles.tutorRow}>
+          <View style={[styles.avatarCircle, { backgroundColor: colors.primarySubtle }]}>
+            <AppText variant="heading2" color={colors.primary}>V</AppText>
+          </View>
+          <TutorBubble message={tutorTip} style={styles.bubble} />
+        </View>
+      )}
+
+      {/* 3D animated flashcard */}
+      {activeCard && (
+        <View style={styles.cardArea}>
+          <FlashCard
+            key={activeCard.id} // reset flip state when card changes
+            frontText={activeCard.front[language] || activeCard.front.en}
+            backText={activeCard.back[language] || activeCard.back.en}
+            hintText={language === 'en' ? 'TAP TO FLIP' : 'पलटने के लिए टैप करें'}
+          />
+        </View>
+      )}
+
+      {/* Memory Hook Display */}
+      {activeCard && (
+        <Card style={[styles.hookCard, { borderColor: colors.primarySubtle }]}>
+          <AppText variant="caption" color={colors.primary} style={styles.hookLabel}>
+            💡 MEMORY HOOK
+          </AppText>
+          <AppText variant="bodyLg" style={styles.hookText}>
+            {activeCard.memory_hook[language] || activeCard.memory_hook.en}
+          </AppText>
+        </Card>
+      )}
+
+      {/* Spaced repetition review ratings */}
+      <View style={styles.ratingsWrapper}>
+        <AppText variant="caption" color={colors.textSecondary} style={styles.ratingsHint}>
+          How well did you remember this concept?
+        </AppText>
+        <View style={styles.buttonsRow}>
+          <Button
+            title="Hard"
+            variant="secondary"
+            onPress={() => handleRating('hard')}
+            style={[styles.ratingBtn, { borderColor: colors.warning }]}
+          />
+          <Button
+            title="Good"
+            onPress={() => handleRating('good')}
+            style={[styles.ratingBtn, { backgroundColor: colors.primary }]}
+          />
+          <Button
+            title="Easy"
+            onPress={() => handleRating('easy')}
+            style={[styles.ratingBtn, { backgroundColor: colors.success }]}
+          />
+        </View>
       </View>
     </ScreenContainer>
   );
@@ -115,62 +282,97 @@ export default function FlashcardsScreen(): React.JSX.Element {
 
 const styles = StyleSheet.create({
   container: {
-    justifyContent: 'space-between',
-    flex: 1,
+    gap: 16,
   },
-  cardSection: {
-    flex: 1,
-    alignItems: 'center',
+  completeContainer: {
     justifyContent: 'center',
-    paddingVertical: 10,
+    paddingVertical: 40,
   },
-  counter: {
-    fontWeight: '600',
-    marginBottom: 16,
+  progressSection: {
+    marginBottom: 8,
+    gap: 6,
   },
-  pressableCard: {
-    width: '100%',
-    height: '70%',
-    maxHeight: 380,
-  },
-  flashcard: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 24,
-  },
-  cardContent: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    width: '100%',
-    height: '100%',
-  },
-  hint: {
-    fontWeight: '700',
-    textTransform: 'uppercase',
-    letterSpacing: 1,
-    position: 'absolute',
-    top: 0,
-  },
-  cardText: {
-    textAlign: 'center',
-    fontWeight: '700',
-    lineHeight: 34,
-  },
-  frontText: {
-    fontSize: 28,
-  },
-  backText: {
-    fontSize: 20,
-    fontWeight: '500',
-    lineHeight: 28,
-  },
-  controls: {
+  progressLabelRow: {
     flexDirection: 'row',
-    gap: 12,
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  tutorRow: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    gap: 8,
+    marginBottom: 4,
+  },
+  avatarCircle: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 4,
+  },
+  bubble: {
+    flex: 1,
+  },
+  cardArea: {
+    width: '100%',
+    height: 250,
+  },
+  hookCard: {
+    padding: 14,
+    borderWidth: 1.5,
+    borderStyle: 'dashed',
+    marginTop: 4,
+  },
+  hookLabel: {
+    fontWeight: '700',
+    marginBottom: 4,
+    letterSpacing: 0.5,
+  },
+  hookText: {
+    lineHeight: 20,
+    fontStyle: 'italic',
+  },
+  ratingsWrapper: {
+    marginTop: 10,
+    gap: 10,
+    alignItems: 'center',
+  },
+  ratingsHint: {
+    fontWeight: '600',
+  },
+  buttonsRow: {
+    flexDirection: 'row',
+    gap: 10,
     width: '100%',
   },
-  ctrlBtn: {
+  ratingBtn: {
     flex: 1,
+    minHeight: 48,
+  },
+  summaryCard: {
+    padding: 30,
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 14,
+  },
+  trophy: {
+    fontSize: 70,
+    marginBottom: 10,
+  },
+  summaryTitle: {
+    fontWeight: '800',
+  },
+  scoreText: {
+    fontWeight: '700',
+    textAlign: 'center',
+  },
+  summaryBubble: {
+    width: '100%',
+    marginVertical: 12,
+  },
+  finishBtn: {
+    width: '100%',
+    marginTop: 10,
   },
 });

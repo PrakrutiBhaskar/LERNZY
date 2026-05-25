@@ -13,7 +13,7 @@ export interface TutorBubbleProps {
  * Employs fixed light purple background and asymmetry in the top-left corner
  * to simulate a speech bubble. Automatically utilizes --text-body-lg for tutor responses.
  */
-export const TutorBubble: React.FC<TutorBubbleProps> = ({ message, style }) => {
+export const TutorBubble: React.FC<TutorBubbleProps> = React.memo(({ message, style }) => {
   const { componentStyles } = useTheme();
 
   return (
@@ -28,4 +28,4 @@ export const TutorBubble: React.FC<TutorBubbleProps> = ({ message, style }) => {
       </AppText>
     </View>
   );
-};
+});

@@ -1,5 +1,5 @@
 # Style Guide — Design Tokens, Colours & Typography
-> Single source of truth for all visual design decisions in the Vidya Tutor app.
+> Single source of truth for all visual design decisions in the lernzy app.
 > Every developer and AI building UI must use these tokens. Do not hardcode values.
 
 ---

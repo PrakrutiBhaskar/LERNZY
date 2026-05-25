@@ -1,6 +1,6 @@
 # API Contracts — Internal Module Interfaces
 > Defines the TypeScript function signatures, input/output shapes, and behaviour contracts
-> between all major modules in the Vidya Tutor app. Every developer and AI assistant
+> between all major modules in the lernzy app. Every developer and AI assistant
 > working on this project must honour these contracts when implementing or modifying modules.
 
 ---

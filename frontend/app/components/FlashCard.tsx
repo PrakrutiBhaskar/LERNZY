@@ -14,7 +14,7 @@ export interface FlashCardProps {
  * Rotates cards in under 300ms using the React Native Animated thread,
  * ensuring high frames on low-resource GPU processors.
  */
-export const FlashCard: React.FC<FlashCardProps> = ({
+export const FlashCard: React.FC<FlashCardProps> = React.memo(({
   frontText,
   backText,
   hintText,
@@ -116,7 +116,7 @@ export const FlashCard: React.FC<FlashCardProps> = ({
       </Animated.View>
     </Pressable>
   );
-};
+});
 
 const styles = StyleSheet.create({
   cardContainer: {

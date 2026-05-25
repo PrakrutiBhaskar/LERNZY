@@ -5,7 +5,7 @@
 ---
 
 ```
-vidya-tutor/
+lernzy/
 │
 ├── PROJECT_CONTEXT.md              ← Full project context (for AI models)
 ├── SYSTEM_PROMPT.md                ← Master AI system prompt with variable reference

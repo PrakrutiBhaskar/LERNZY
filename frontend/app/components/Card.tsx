@@ -1,8 +1,7 @@
-import React from 'react';
-import { View, ViewStyle, Pressable, StyleProp } from 'react-native';
+import { View, ViewStyle, Pressable, StyleProp, ViewProps } from 'react-native';
 import { useTheme } from '@/theme/theme';
 
-export interface CardProps {
+export interface CardProps extends ViewProps {
   children: React.ReactNode;
   active?: boolean;
   onPress?: () => void;
@@ -14,6 +13,7 @@ export const Card: React.FC<CardProps> = ({
   active = false,
   onPress,
   style,
+  ...rest
 }) => {
   const { componentStyles } = useTheme();
   
@@ -28,6 +28,7 @@ export const Card: React.FC<CardProps> = ({
           pressed && { opacity: 0.9 }, // micro-interaction feedback
           style,
         ]}
+        {...rest}
       >
         {children}
       </Pressable>
@@ -35,7 +36,7 @@ export const Card: React.FC<CardProps> = ({
   }
 
   return (
-    <View style={[baseStyle, style]}>
+    <View style={[baseStyle, style]} {...rest}>
       {children}
     </View>
   );

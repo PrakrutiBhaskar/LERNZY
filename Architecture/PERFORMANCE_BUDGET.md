@@ -170,7 +170,7 @@ These budgets are targets, not CI-enforced gates (except APK size). Measure manu
 - **Inference timing:** log `Date.now()` before and after `runInference` during development builds; remove logs from production builds
 - **DB query timing:** wrap critical queries in `console.time` / `console.timeEnd` during profiling sessions
 - **Startup time:** use Android `adb shell am start -W` and React Native's `Performance.now()` in the root layout
-- **Memory:** Android Studio Profiler or `adb shell dumpsys meminfo com.vidyatutor.app`
+- **Memory:** Android Studio Profiler or `adb shell dumpsys meminfo com.lernzy.app`
 - **APK size:** `eas build --platform android` output + `bundlesize` in CI for JS bundle
 
 Performance is reviewed before every release milestone. Any budget exceeded by > 20% requires a documented decision in `DECISIONS.md`.

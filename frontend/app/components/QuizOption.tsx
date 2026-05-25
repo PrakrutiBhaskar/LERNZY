@@ -17,7 +17,7 @@ export interface QuizOptionProps {
  * Switches colors depending on selected state and evaluation status (correct/incorrect) post-submit.
  * Uses --text-body-lg as the reading font.
  */
-export const QuizOption: React.FC<QuizOptionProps> = ({
+export const QuizOption: React.FC<QuizOptionProps> = React.memo(({
   text,
   selected = false,
   status = 'none',
@@ -70,4 +70,4 @@ export const QuizOption: React.FC<QuizOptionProps> = ({
       </AppText>
     </Pressable>
   );
-};
+});
