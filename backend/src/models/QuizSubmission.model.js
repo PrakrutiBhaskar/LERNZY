@@ -51,7 +51,6 @@ const quizSubmissionSchema = new mongoose.Schema(
 // Indexes
 quizSubmissionSchema.index({ studentId: 1 });
 quizSubmissionSchema.index({ questionId: 1 });
-quizSubmissionSchema.index({ clientGeneratedId: 1 });
 quizSubmissionSchema.index({ createdAt: 1 });
 
 // Sync userId & studentId pre-save

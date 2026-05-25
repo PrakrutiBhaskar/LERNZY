@@ -92,7 +92,26 @@ const getActivitySummary = async (req, res, next) => {
   }
 };
 
+/**
+ * Expose real-time system performance metrics.
+ */
+const getMetrics = async (req, res, next) => {
+  try {
+    const metricsService = require("../services/metrics.service");
+    const data = await metricsService.getMetrics();
+    return res.status(200).json({
+      success: true,
+      message: "System metrics aggregation",
+      data,
+      error: null
+    });
+  } catch (error) {
+    return next(error);
+  }
+};
+
 module.exports = {
   logEvents,
-  getActivitySummary
+  getActivitySummary,
+  getMetrics
 };

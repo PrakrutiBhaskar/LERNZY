@@ -31,4 +31,9 @@ router.get(
   analyticsController.getActivitySummary
 );
 
+router.get(
+  '/metrics',
+  analyticsController.getMetrics
+);
+
 module.exports = router;

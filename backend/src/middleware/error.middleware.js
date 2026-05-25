@@ -4,16 +4,19 @@ const errorHandler = (err, req, res, _next) => {
   let statusCode = err.statusCode || 500;
   let code = err.code || "INTERNAL_ERROR";
   let message = err.message || "Internal server error";
+  let details = err.details || {};
 
   // Mongoose validation errors
   if (err.name === "ValidationError") {
     statusCode = 400;
     code = "VALIDATION_ERROR";
     message = Object.values(err.errors).map((e) => e.message).join(", ");
+    details = err.errors;
   } else if (err.name === "CastError") {
     statusCode = 400;
     code = "VALIDATION_ERROR";
     message = `Invalid format for field ${err.path}`;
+    details = { path: err.path, value: err.value };
   } else if (
     err.name === "MongoNetworkError" ||
     err.name === "MongoTimeoutError" ||
@@ -37,14 +40,16 @@ const errorHandler = (err, req, res, _next) => {
       message: err.message,
       path: req.originalUrl,
       method: req.method,
-      stack: err.stack
+      stack: err.stack,
+      requestId: req.requestId
     });
   } else {
     logger.warn("client_error", {
       statusCode,
       message: err.message,
       path: req.originalUrl,
-      method: req.method
+      method: req.method,
+      requestId: req.requestId
     });
   }
 
@@ -53,7 +58,10 @@ const errorHandler = (err, req, res, _next) => {
     message,
     data: null,
     error: {
-      code
+      code,
+      message,
+      requestId: req.requestId || null,
+      details
     }
   });
 };

@@ -1,13 +1,58 @@
 const logger = require("../utils/logger");
 const { buildUserPrompt, getSystemPrompt } = require("./prompt.service");
 const { CircuitBreaker, fetchWithRetry } = require("../utils/circuitBreaker");
+const metricsService = require("./metrics.service");
+const { AppError } = require("../utils/errors");
+
+let activeAIRequests = 0;
+
+const checkAndIncrementConcurrency = () => {
+  const maxConcurrent = parseInt(process.env.MAX_CONCURRENT_AI_CALLS, 10) || 20;
+  if (activeAIRequests >= maxConcurrent) {
+    metricsService.incrementAIMetric("rate_limit");
+    throw new AppError("Too many concurrent AI requests. Please try again later.", 503, "AI_CONCURRENCY_LIMIT_EXCEEDED");
+  }
+  activeAIRequests++;
+  metricsService.incrementAIMetric("requests");
+};
+
+const decrementConcurrency = () => {
+  activeAIRequests = Math.max(0, activeAIRequests - 1);
+};
+
+const withConcurrencyControl = (fn) => {
+  return async (...args) => {
+    checkAndIncrementConcurrency();
+    try {
+      return await fn(...args);
+    } finally {
+      decrementConcurrency();
+    }
+  };
+};
+
+const handleAIError = (error, fallbackUsed = false) => {
+  const errMsg = error.message ? error.message.toLowerCase() : "";
+  if (errMsg.includes("timeout") || errMsg.includes("timed out")) {
+    metricsService.incrementAIMetric("timeout");
+  } else if (errMsg.includes("safety") || errMsg.includes("block") || errMsg.includes("moderation")) {
+    metricsService.incrementAIMetric("moderation_failure");
+  } else {
+    metricsService.incrementAIMetric("provider_error");
+  }
+
+  if (fallbackUsed) {
+    metricsService.incrementAIMetric("fallback_used");
+  }
+};
 
 const geminiCircuit = new CircuitBreaker("Gemini", { failureThreshold: 3, cooldownPeriod: 30000 });
 const ollamaCircuit = new CircuitBreaker("Ollama", { failureThreshold: 3, cooldownPeriod: 30000 });
 
-const fetchWithTimeout = async (url, options = {}, timeoutMs = 15000) => {
+const fetchWithTimeout = async (url, options = {}, timeoutMs) => {
+  const finalTimeout = timeoutMs || parseInt(process.env.AI_TIMEOUT_MS, 10) || 15000;
   const controller = new AbortController();
-  const id = setTimeout(() => controller.abort(), timeoutMs);
+  const id = setTimeout(() => controller.abort(), finalTimeout);
   try {
     const response = await fetch(url, {
       ...options,
@@ -16,7 +61,7 @@ const fetchWithTimeout = async (url, options = {}, timeoutMs = 15000) => {
     return response;
   } catch (error) {
     if (error.name === "AbortError" || error.message?.includes("aborted")) {
-      throw new Error(`AI API request timed out after ${timeoutMs}ms`);
+      throw new Error(`AI API request timed out after ${finalTimeout}ms`);
     }
     throw error;
   } finally {
@@ -318,6 +363,7 @@ const generateJSONResponse = async ({ prompt, abortSignal }) => {
     return JSON.parse(cleanedText.trim());
   } catch (error) {
     logger.error("Failed to generate or parse JSON from AI", { error: error.message });
+    handleAIError(error, false);
     throw error;
   }
 };
@@ -332,6 +378,7 @@ const generateTextResponse = async ({ prompt, abortSignal }) => {
     }
   } catch (error) {
     logger.error("Failed to generate text from AI", { error: error.message });
+    handleAIError(error, false);
     throw error;
   }
 };
@@ -372,6 +419,8 @@ const generateTutorResponse = async ({ question, level, language, topic, board, 
     });
 
     const allowFallback = String(process.env.AI_FALLBACK_ENABLED || "true").toLowerCase() === "true";
+    handleAIError(error, allowFallback);
+
     if (!allowFallback) {
       throw error;
     }
@@ -424,13 +473,15 @@ const streamTutorResponse = async ({ question, level, language, topic, board, gr
       message: error.message
     });
 
+    const allowFallback = String(process.env.AI_FALLBACK_ENABLED || "true").toLowerCase() === "true";
+    handleAIError(error, allowFallback && !hasEmitted);
+
     // If we've already emitted tokens mid-stream, do not silently fallback!
     // Throw the error so the client's SSE session is terminated and gets notified.
     if (hasEmitted) {
       throw error;
     }
 
-    const allowFallback = String(process.env.AI_FALLBACK_ENABLED || "true").toLowerCase() === "true";
     if (!allowFallback) {
       throw error;
     }
@@ -441,9 +492,9 @@ const streamTutorResponse = async ({ question, level, language, topic, board, gr
 };
 
 module.exports = {
-  generateTutorResponse,
-  streamTutorResponse,
+  generateTutorResponse: withConcurrencyControl(generateTutorResponse),
+  streamTutorResponse: withConcurrencyControl(streamTutorResponse),
   getFallbackAnswer,
-  generateJSONResponse,
-  generateTextResponse
+  generateJSONResponse: withConcurrencyControl(generateJSONResponse),
+  generateTextResponse: withConcurrencyControl(generateTextResponse)
 };

@@ -9,16 +9,28 @@ const progressEventSchema = new mongoose.Schema(
     lessonId: { type: String, trim: true },
     module: { type: String, required: true },
     payload: { type: mongoose.Schema.Types.Mixed },
-    clientGeneratedId: { type: String, trim: true },
+    clientGeneratedId: { type: String, trim: true, index: true },
     schemaVersion: { type: Number, default: 1 },
-    timestamp: { type: Date, default: Date.now }
+    timestamp: { type: Date, default: Date.now },
+    status: {
+      type: String,
+      enum: ["PENDING", "PROCESSING", "COMPLETED", "FAILED", "DISCARDED", "DUPLICATE"],
+      default: "PENDING",
+      index: true
+    },
+    firstSeenAt: { type: Date },
+    lastRetriedAt: { type: Date },
+    retryCount: { type: Number, default: 0 },
+    processedAt: { type: Date },
+    discardReason: { type: String },
+    eventVersion: { type: String, default: "1.0.0", index: true },
+    producerVersion: { type: String, default: "1.0.0", index: true }
   },
   { timestamps: true }
 );
 
 // Indexes for query speed & duplicate prevention
 progressEventSchema.index({ studentId: 1 });
-progressEventSchema.index({ eventId: 1 });
 progressEventSchema.index({ lessonId: 1 });
 progressEventSchema.index({ createdAt: 1 });
 

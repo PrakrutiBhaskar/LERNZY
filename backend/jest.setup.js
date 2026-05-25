@@ -19,3 +19,30 @@ jest.mock("./src/utils/logger", () => ({
   http: jest.fn(),
   debug: jest.fn()
 }));
+
+jest.mock("./src/models/DeviceSession.model", () => {
+  return {
+    findOne: jest.fn().mockImplementation((query) => {
+      // Create a long hash of a token mock
+      const { hashToken } = require("./src/utils/crypto.utils");
+      const { signRefreshToken } = require("./src/utils/jwt.utils");
+      const token = signRefreshToken({ userId: query.userId?.toString() || "507f1f77bcf86cd799439011", tv: 0 });
+      return Promise.resolve({
+        userId: query.userId,
+        deviceId: query.deviceId || "default-device",
+        platform: "unknown",
+        refreshTokenHash: hashToken(token),
+        refreshVersion: 0,
+        save: jest.fn().mockResolvedValue(true)
+      });
+    }),
+    create: jest.fn().mockImplementation((doc) => {
+      return Promise.resolve({
+        ...doc,
+        save: jest.fn().mockResolvedValue(true)
+      });
+    }),
+    deleteMany: jest.fn().mockResolvedValue({ deletedCount: 1 }),
+    deleteOne: jest.fn().mockResolvedValue({ deletedCount: 1 })
+  };
+});

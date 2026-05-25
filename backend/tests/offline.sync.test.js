@@ -69,4 +69,70 @@ describe("Offline Sync & Conflict Resolution Tests", () => {
     
     findSpy.mockRestore();
   });
+
+  it("processes batch of progress events successfully", async () => {
+    const findSpy = jest.spyOn(ProgressEvent, "findOne").mockResolvedValue(null);
+    const createSpy = jest.spyOn(ProgressEvent, "create").mockImplementation((arr) => {
+      return Promise.resolve(arr.map((item, idx) => ({ _id: `new-id-${idx}`, ...item })));
+    });
+
+    const res = await request(app)
+      .post("/api/v1/progress/events")
+      .set("Authorization", `Bearer ${validToken}`)
+      .send([
+        { type: "lesson_completed", module: "math", clientTimestamp: Date.now() },
+        { type: "exercise_solved", module: "coding", clientTimestamp: Date.now() }
+      ]);
+
+    expect(res.status).toBe(200);
+    expect(res.body.success).toBe(true);
+    expect(res.body.data.diagnostics).toEqual({
+      replayed: 2,
+      duplicate: 0,
+      failed: 0,
+      retried: 0,
+      discarded: 0
+    });
+
+    findSpy.mockRestore();
+    createSpy.mockRestore();
+  });
+
+  it("handles mixed batch with duplicates, stale (conflict) events, and retries", async () => {
+    const findSpy = jest.spyOn(ProgressEvent, "findOne").mockImplementation((query) => {
+      if (query.eventId === "dup-id" || query.clientGeneratedId === "dup-id") {
+        return Promise.resolve({ _id: "existing-event-id", eventId: "dup-id", type: "lesson_completed", module: "math" });
+      }
+      if (query.module === "stale-module" && query.createdAt?.$gt) {
+        return Promise.resolve({ _id: "newer-event-id", createdAt: new Date() });
+      }
+      return Promise.resolve(null);
+    });
+
+    const createSpy = jest.spyOn(ProgressEvent, "create").mockImplementation((arr) => {
+      return Promise.resolve(arr.map((item, idx) => ({ _id: `new-id-${idx}`, ...item })));
+    });
+
+    const res = await request(app)
+      .post("/api/v1/progress/events")
+      .set("Authorization", `Bearer ${validToken}`)
+      .send([
+        { type: "lesson_completed", module: "math", eventId: "dup-id", clientTimestamp: Date.now() }, // duplicate
+        { type: "exercise_solved", module: "stale-module", clientTimestamp: Date.now() - 10000 }, // stale/conflict
+        { type: "lesson_completed", module: "math", eventId: "new-id", clientTimestamp: Date.now(), isRetry: true } // replayed & retried
+      ]);
+
+    expect(res.status).toBe(200);
+    expect(res.body.success).toBe(true);
+    expect(res.body.data.diagnostics).toEqual({
+      replayed: 1,
+      duplicate: 1,
+      failed: 0,
+      retried: 1,
+      discarded: 1
+    });
+
+    findSpy.mockRestore();
+    createSpy.mockRestore();
+  });
 });

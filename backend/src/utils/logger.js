@@ -5,6 +5,18 @@ const logger = winston.createLogger({
   format: winston.format.combine(
     winston.format.timestamp(),
     winston.format.errors({ stack: true }),
+    winston.format((info) => {
+      try {
+        const { getRequestId } = require("./context");
+        const rid = getRequestId();
+        if (rid) {
+          info.requestId = rid;
+        }
+      } catch (err) {
+        // ignore if context is loaded before setup
+      }
+      return info;
+    })(),
     winston.format.json()
   ),
   transports: [

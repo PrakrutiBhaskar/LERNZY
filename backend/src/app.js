@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const crypto = require("crypto");
 const helmet = require("helmet");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
@@ -27,6 +28,7 @@ const { globalLimiter } = require("./middleware/rateLimit.middleware");
 const { parseAllowedOrigins } = require("./utils/cors.utils");
 const { getRedisStatus } = require("./services/cache.service");
 const logger = require("./utils/logger");
+const { contextStorage } = require("./utils/context");
 
 const app = express();
 
@@ -58,7 +60,7 @@ app.use(
   })
 );
 
-app.use(express.json({ limit: "1mb" }));
+app.use(express.json({ limit: process.env.BODY_LIMIT || "250kb" }));
 app.use(cookieParser());
 
 app.use((err, req, res, next) => {
@@ -86,21 +88,59 @@ app.use(
   })
 );
 
+// Structured logging middleware for request/response logging
+app.use((req, res, next) => {
+  const start = Date.now();
+  const requestId = req.headers["x-request-id"] || req.headers["request-id"] || crypto.randomUUID();
+  req.requestId = requestId;
+  res.setHeader("x-request-id", requestId);
+
+  res.on("finish", () => {
+    const latency = Date.now() - start;
+    const logData = {
+      requestId,
+      userId: req.user ? (req.user._id || req.user.id) : null,
+      syncId: req.headers["x-sync-id"] || req.body?.syncId || null,
+      eventId: req.body?.eventId || req.body?.clientGeneratedId || null,
+      latency,
+      statusCode: res.statusCode,
+      method: req.method,
+      url: req.originalUrl || req.url,
+      ip: req.ip
+    };
+    logger.info(`HTTP ${req.method} ${req.originalUrl || req.url}`, logData);
+  });
+
+  contextStorage.run({ requestId }, () => {
+    next();
+  });
+});
+
 app.use(globalLimiter);
 
 // Group v1 Routes
 const v1Router = express.Router();
 
 v1Router.get("/health", (req, res) => {
-  res.status(200).json({
+  const mongoReady = mongoose.connection.readyState === 1;
+  const redisStatus = getRedisStatus();
+  const redisReady = redisStatus === "ready" || redisStatus === "connect" || redisStatus === "disabled";
+  const ready = mongoReady && redisReady;
+
+  return res.status(200).json({
     success: true,
     message: "AI Tutor backend is healthy",
-    data: null,
+    data: {
+      services: {
+        mongo: mongoReady ? "ready" : "not_ready",
+        redis: redisStatus
+      }
+    },
     error: null
   });
 });
 
-v1Router.get("/health/ready", (req, res) => {
+const readinessHandler = (req, res) => {
   const mongoReady = mongoose.connection.readyState === 1;
   const redisStatus = getRedisStatus();
   const redisReady = redisStatus === "ready" || redisStatus === "connect" || redisStatus === "disabled";
@@ -117,7 +157,10 @@ v1Router.get("/health/ready", (req, res) => {
     },
     error: ready ? null : { code: "SERVICE_NOT_READY" }
   });
-});
+};
+
+v1Router.get("/health/ready", readinessHandler);
+v1Router.get("/readiness", readinessHandler);
 
 v1Router.use("/auth", authRoutes);
 v1Router.use("/ask", askRoutes);

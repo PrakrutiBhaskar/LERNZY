@@ -6,18 +6,42 @@ const logger = require("../utils/logger");
 const jwt = require("jsonwebtoken");
 const crypto = require("crypto");
 const { getRedis } = require("../services/cache.service");
+const DeviceSession = require("../models/DeviceSession.model");
 
-const issueAuthTokens = async (user) => {
+const issueDeviceAuthTokens = async (user, deviceId = "default-device", platform = "unknown") => {
+  let session = await DeviceSession.findOne({ userId: user._id, deviceId });
+  const refreshVersion = session ? (session.refreshVersion || 0) + 1 : 0;
+
   const accessToken = signAccessToken({ userId: user._id.toString() });
   const refreshToken = signRefreshToken({
     userId: user._id.toString(),
-    tv: user.refreshTokenVersion || 0
+    deviceId,
+    tv: refreshVersion
   });
 
-  user.refreshTokenHash = hashToken(refreshToken);
-  await user.save();
+  const hashed = hashToken(refreshToken);
+
+  if (session) {
+    session.refreshTokenHash = hashed;
+    session.refreshVersion = refreshVersion;
+    session.platform = platform;
+    session.lastSeen = new Date();
+    await session.save();
+  } else {
+    session = await DeviceSession.create({
+      userId: user._id,
+      deviceId,
+      platform,
+      refreshTokenHash: hashed,
+      refreshVersion
+    });
+  }
 
   return { accessToken, refreshToken };
+};
+
+const issueAuthTokens = async (user) => {
+  return issueDeviceAuthTokens(user, "default-device", "unknown");
 };
 
 const setCookieToken = (res, refreshToken) => {
@@ -31,7 +55,7 @@ const setCookieToken = (res, refreshToken) => {
 
 const signup = async (req, res, next) => {
   try {
-    const { name, email, password, preferredLanguage, educationLevel, board, grade, interests, accessibility, locationTier } = req.body;
+    const { name, email, password, preferredLanguage, educationLevel, board, grade, interests, accessibility, locationTier, deviceId, platform } = req.body;
 
     const existingUser = await User.findOne({ email: email.toLowerCase() });
     if (existingUser) {
@@ -52,7 +76,7 @@ const signup = async (req, res, next) => {
       refreshTokenVersion: 0
     });
 
-    const tokens = await issueAuthTokens(user);
+    const tokens = await issueDeviceAuthTokens(user, deviceId, platform);
     setCookieToken(res, tokens.refreshToken);
 
     logger.info("user_signed_up", { userId: user._id.toString() });
@@ -87,7 +111,7 @@ const signup = async (req, res, next) => {
 
 const login = async (req, res, next) => {
   try {
-    const { email, password } = req.body;
+    const { email, password, deviceId, platform } = req.body;
 
     const user = await User.findOne({ email: email.toLowerCase() }).select("+password +refreshTokenHash");
     if (!user) {
@@ -139,7 +163,7 @@ const login = async (req, res, next) => {
       await user.save();
     }
 
-    const tokens = await issueAuthTokens(user);
+    const tokens = await issueDeviceAuthTokens(user, deviceId, platform);
     setCookieToken(res, tokens.refreshToken);
 
     logger.info("user_logged_in", { userId: user._id.toString() });
@@ -176,7 +200,6 @@ const refresh = async (req, res, next) => {
     }
 
     let decoded;
-
     try {
       decoded = verifyRefreshToken(refreshToken);
     } catch (error) {
@@ -187,28 +210,48 @@ const refresh = async (req, res, next) => {
       return errorResponse(res, "Invalid refresh token type", 401, { code: "REFRESH_BAD_TYPE" }, null);
     }
 
-    const user = await User.findById(decoded.userId).select("+refreshTokenHash");
+    const user = await User.findById(decoded.userId);
     if (!user) {
       return errorResponse(res, "Unauthorized", 401, { code: "USER_MISSING" }, null);
     }
 
+    const deviceId = decoded.deviceId || "default-device";
+    const session = await DeviceSession.findOne({ userId: decoded.userId, deviceId });
+
+    // 1. Reuse and hijacking protection: mismatch check
     const incomingHash = hashToken(refreshToken);
-    if (!user.refreshTokenHash || user.refreshTokenHash !== incomingHash) {
-      return errorResponse(res, "Unauthorized", 401, { code: "REFRESH_MISMATCH" }, null);
+    if (!session || session.refreshVersion !== decoded.tv || session.refreshTokenHash !== incomingHash) {
+      // Invalidate ALL active device sessions for this user to prevent session hijacking
+      await DeviceSession.deleteMany({ userId: decoded.userId });
+
+      res.clearCookie("refreshToken", {
+        httpOnly: true,
+        secure: process.env.NODE_ENV === "production",
+        sameSite: "strict"
+      });
+
+      return errorResponse(
+        res,
+        "Security breach: Refresh token reuse detected. All active sessions invalidated.",
+        401,
+        { code: "REFRESH_BREACH_DETECTED" },
+        null
+      );
     }
 
-    if (decoded.tv !== undefined && decoded.tv !== (user.refreshTokenVersion || 0)) {
-      return errorResponse(res, "Unauthorized", 401, { code: "REFRESH_VERSION_MISMATCH" }, null);
-    }
-
+    // 2. Rotate tokens
+    const nextVersion = (session.refreshVersion || 0) + 1;
     const accessToken = signAccessToken({ userId: user._id.toString() });
     const newRefreshToken = signRefreshToken({
       userId: user._id.toString(),
-      tv: user.refreshTokenVersion || 0
+      deviceId,
+      tv: nextVersion
     });
 
-    user.refreshTokenHash = hashToken(newRefreshToken);
-    await user.save();
+    session.refreshTokenHash = hashToken(newRefreshToken);
+    session.refreshVersion = nextVersion;
+    session.lastSeen = new Date();
+    await session.save();
 
     setCookieToken(res, newRefreshToken);
 
@@ -224,12 +267,20 @@ const refresh = async (req, res, next) => {
 
 const logout = async (req, res, next) => {
   try {
-    const user = await User.findById(req.user._id).select("+refreshTokenHash");
-    if (user) {
-      user.refreshTokenHash = undefined;
-      user.refreshTokenVersion = (user.refreshTokenVersion || 0) + 1;
-      await user.save();
+    const refreshToken = req.cookies?.refreshToken || req.body?.refreshToken;
+    let deviceId = "default-device";
+
+    if (refreshToken) {
+      try {
+        const decoded = verifyRefreshToken(refreshToken);
+        deviceId = decoded.deviceId || "default-device";
+      } catch (err) {
+        // ignore verify errors during logout
+      }
     }
+
+    // Delete the specific device session
+    await DeviceSession.deleteOne({ userId: req.user._id, deviceId });
 
     // Blacklist access token
     const authHeader = req.headers.authorization;
@@ -258,7 +309,7 @@ const logout = async (req, res, next) => {
       sameSite: "strict"
     });
 
-    logger.info("user_logged_out", { userId: req.user._id.toString() });
+    logger.info("user_logged_out", { userId: req.user._id.toString(), deviceId });
 
     return successResponse(res, null, "Logged out");
   } catch (error) {
