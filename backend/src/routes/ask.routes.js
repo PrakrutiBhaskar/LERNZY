@@ -1,0 +1,30 @@
+const express = require("express");
+const { body } = require("express-validator");
+const { askQuestion } = require("../controllers/ask.controller");
+const { streamAskQuestion } = require("../controllers/askStream.controller");
+const authMiddleware = require("../middleware/auth.middleware");
+const validateRequest = require("../middleware/validate.middleware");
+const safetyMiddleware = require("../middleware/safety.middleware");
+
+const { aiLimiter } = require("../middleware/rateLimit.middleware");
+
+const router = express.Router();
+
+const questionValidators = [
+  body("question")
+    .isString()
+    .trim()
+    .isLength({ min: 3, max: 1200 })
+    .withMessage("question is required"),
+  body("language").optional().isIn(["en", "kn", "kannada"]),
+  body("outputType").optional().isIn(["text", "voice", "sign-language"]),
+  body("topic").optional().isString().trim(),
+  body("board").optional().isIn(["ncert", "state"]),
+  body("grade").optional().isInt({ min: 1, max: 12 })
+];
+
+router.post("/", authMiddleware, aiLimiter, questionValidators, validateRequest, safetyMiddleware, askQuestion);
+
+router.post("/stream", authMiddleware, aiLimiter, questionValidators, validateRequest, safetyMiddleware, streamAskQuestion);
+
+module.exports = router;
