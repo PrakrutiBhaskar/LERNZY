@@ -1,0 +1,212 @@
+import React, { useState, useEffect } from 'react';
+import { View, StyleSheet, Alert } from 'react-native';
+import { useRouter } from 'expo-router';
+import { useLanguage } from '@/i18n/LanguageContext';
+import { useTheme } from '@/theme/theme';
+import { AppText } from '../components/AppText';
+import { Card } from '../components/Card';
+import { Button } from '../components/Button';
+import { InputField } from '../components/InputField';
+import { ScreenContainer } from '../components/ScreenContainer';
+import { STORAGE_KEYS, LanguageCode } from '@/utils/constants';
+import { getObject, setObject, removeItem } from '@/utils/storage';
+
+export default function SettingsScreen(): React.JSX.Element {
+  const router = useRouter();
+  const { language, setLanguage } = useLanguage();
+  const { colors, spacing } = useTheme();
+
+  const [name, setName] = useState('');
+  const [profile, setProfile] = useState<any>(null);
+
+  useEffect(() => {
+    async function loadProfile() {
+      const data = await getObject<any>(STORAGE_KEYS.STUDENT_PROFILE);
+      if (data) {
+        setProfile(data);
+        setName(data.name || '');
+      }
+    }
+    loadProfile();
+  }, []);
+
+  const handleSaveProfile = async () => {
+    if (!name.trim()) return;
+
+    try {
+      const updatedProfile = { ...profile, name: name.trim() };
+      await setObject(STORAGE_KEYS.STUDENT_PROFILE, updatedProfile);
+      setProfile(updatedProfile);
+      Alert.alert(
+        language === 'en' ? 'Success' : language === 'hi' ? 'सफलता' : 'ಯಶಸ್ಸು',
+        language === 'en' ? 'Profile updated successfully!' : language === 'hi' ? 'प्रोफ़ाइल सफलतापूर्वक अपडेट की गई!' : 'ಪ್ರೊಫೈಲ್ ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲ್ಪಟ್ಟಿದೆ!'
+      );
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+  const handleLanguageChange = async (lang: LanguageCode) => {
+    await setLanguage(lang);
+    if (profile) {
+      const updatedProfile = { ...profile, language: lang };
+      await setObject(STORAGE_KEYS.STUDENT_PROFILE, updatedProfile);
+      setProfile(updatedProfile);
+    }
+  };
+
+  const handleResetApp = async () => {
+    await removeItem(STORAGE_KEYS.ONBOARDING_DONE);
+    await removeItem(STORAGE_KEYS.STUDENT_PROFILE);
+    await removeItem(STORAGE_KEYS.SELECTED_LANGUAGE);
+    await removeItem(STORAGE_KEYS.MODELS_READY);
+    router.replace('/(onboarding)/welcome');
+  };
+
+  return (
+    <ScreenContainer
+      title={language === 'en' ? 'Settings' : language === 'hi' ? 'सेटिंग्स' : 'ಸಂಯೋಜನೆಗಳು'}
+      subtitle={language === 'en' ? 'Manage your account and AI settings' : language === 'hi' ? 'अपने खाते और एआई सेटिंग्स प्रबंधित करें' : 'ಖಾತೆ ಮತ್ತು ಎಐ ಸಂಯೋಜನೆಗಳನ್ನು ನಿರ್ವಹಿಸಿ'}
+      showBackButton={true}
+      scrollable={true}
+    >
+      <View style={styles.container}>
+        {/* Profile Card */}
+        <Card style={styles.settingsCard}>
+          <AppText variant="heading2" style={styles.sectionTitle}>
+            {language === 'en' ? 'Edit Profile' : language === 'hi' ? 'प्रोफ़ाइल संपादित करें' : 'ಪ್ರೊಫೈಲ್ ತಿದ್ದಿ'}
+          </AppText>
+          <InputField
+            label={language === 'en' ? 'Name' : language === 'hi' ? 'नाम' : 'ಹೆಸರು'}
+            value={name}
+            onChangeText={setName}
+            containerStyle={styles.input}
+          />
+          <Button
+            title={language === 'en' ? 'Save Changes' : language === 'hi' ? 'बदलाव सहेजें' : 'ಬದಲಾವಣೆ ಉಳಿಸಿ'}
+            onPress={handleSaveProfile}
+            style={styles.saveBtn}
+          />
+        </Card>
+
+        {/* Language Selection Card */}
+        <Card style={styles.settingsCard}>
+          <AppText variant="heading2" style={styles.sectionTitle}>
+            {language === 'en' ? 'UI Language' : language === 'hi' ? 'यूआई भाषा' : 'ಭಾಷೆ ಬದಲಿಸಿ'}
+          </AppText>
+          <View style={styles.langRow}>
+            <Button
+              variant={language === 'en' ? 'primary' : 'secondary'}
+              title="English"
+              onPress={() => handleLanguageChange('en')}
+              style={styles.langBtn}
+            />
+            <Button
+              variant={language === 'hi' ? 'primary' : 'secondary'}
+              title="हिन्दी"
+              onPress={() => handleLanguageChange('hi')}
+              style={styles.langBtn}
+            />
+            <Button
+              variant={language === 'kn' ? 'primary' : 'secondary'}
+              title="ಕನ್ನಡ"
+              onPress={() => handleLanguageChange('kn')}
+              style={styles.langBtn}
+            />
+          </View>
+        </Card>
+
+        {/* Offline AI Model Info Card */}
+        <Card style={styles.settingsCard}>
+          <AppText variant="heading2" style={styles.sectionTitle}>
+            {language === 'en' ? 'Offline AI Engines' : language === 'hi' ? 'ऑफ़लाइन एआई इंजन' : 'ಆಫ್‌ಲೈನ್ ಎಐ ಎಂಜಿನ್‌ಗಳು'}
+          </AppText>
+          <View style={styles.modelRow}>
+            <AppText variant="bodyLg" style={styles.modelName}>Phi-3 Mini LLM</AppText>
+            <AppText variant="caption" color={colors.success} style={styles.modelStatus}>
+              {language === 'en' ? 'Ready (Downloaded)' : language === 'hi' ? 'तैयार (डाउनलोड किया गया)' : 'ಸಿದ್ಧವಾಗಿದೆ (ಡೌನ್‌ಲೋಡ್ ಆಗಿದೆ)'}
+            </AppText>
+          </View>
+          <View style={styles.modelRow}>
+            <AppText variant="bodyLg" style={styles.modelName}>Whisper STT</AppText>
+            <AppText variant="caption" color={colors.success} style={styles.modelStatus}>
+              {language === 'en' ? 'Ready' : language === 'hi' ? 'तैयार' : 'ಸಿದ್ಧವಾಗಿದೆ'}
+            </AppText>
+          </View>
+          <View style={styles.modelRow}>
+            <AppText variant="bodyLg" style={styles.modelName}>Piper TTS</AppText>
+            <AppText variant="caption" color={colors.success} style={styles.modelStatus}>
+              {language === 'en' ? 'Ready' : language === 'hi' ? 'तैयार' : 'ಸಿದ್ಧವಾಗಿದೆ'}
+            </AppText>
+          </View>
+        </Card>
+
+        {/* App Danger Reset Card */}
+        <Card style={[styles.settingsCard, { borderColor: colors.error, borderWidth: 1.5 }]}>
+          <AppText variant="heading2" color={colors.error} style={styles.sectionTitle}>
+            {language === 'en' ? 'Danger Zone' : language === 'hi' ? 'खतरनाक क्षेत्र' : 'ಅಪಾಯಕಾರಿ ವಲಯ'}
+          </AppText>
+          <AppText variant="body" color={colors.textSecondary} style={styles.dangerDesc}>
+            {language === 'en' 
+              ? 'Resetting the app will clear your name, interests, and redownload local AI models.' 
+              : language === 'hi' 
+              ? 'ऐप को रीसेट करने से आपका नाम, रुचियां मिट जाएंगी और स्थानीय एआई मॉडल फिर से डाउनलोड होंगे।' 
+              : 'ರಿಸೆಟ್ ಮಾಡುವುದರಿಂದ ನಿಮ್ಮ ಹೆಸರು, ಆಸಕ್ತಿಗಳು ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಆದ ಎಐ ಮಾದರಿಗಳು ಅಳಿಸಲ್ಪಡುತ್ತವೆ.'}
+          </AppText>
+          <Button
+            variant="ghost"
+            title={language === 'en' ? 'Clear Data & Reset App' : language === 'hi' ? 'डेटा मिटाएं और ऐप रीसेट करें' : 'ಡೇಟಾ ಅಳಿಸಿ ಆಪ್ ರಿಸೆಟ್ ಮಾಡಿ'}
+            onPress={handleResetApp}
+            style={{ backgroundColor: colors.surfaceAlt }}
+          />
+        </Card>
+      </View>
+    </ScreenContainer>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    gap: 20,
+    marginTop: 10,
+  },
+  settingsCard: {
+    padding: 18,
+  },
+  sectionTitle: {
+    fontWeight: '700',
+    marginBottom: 14,
+  },
+  input: {
+    marginBottom: 12,
+  },
+  saveBtn: {
+    width: '100%',
+  },
+  langRow: {
+    flexDirection: 'row',
+    gap: 8,
+  },
+  langBtn: {
+    flex: 1,
+    minHeight: 40,
+    paddingVertical: 8,
+  },
+  modelRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingVertical: 10,
+    borderBottomWidth: 1.5,
+    borderBottomColor: '#F5F5F5',
+  },
+  modelName: {
+    fontWeight: '600',
+  },
+  modelStatus: {
+    fontWeight: '700',
+  },
+  dangerDesc: {
+    marginBottom: 16,
+    lineHeight: 20,
+  },
+});
