@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { View, StyleSheet, Pressable, Modal, SafeAreaView } from 'react-native';
+import { View, StyleSheet, Pressable, Modal } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { Image } from 'expo-image';
 import { useTheme } from '@/theme/theme';
 import { AppText } from './AppText';

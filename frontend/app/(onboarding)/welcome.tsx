@@ -99,6 +99,7 @@ const styles = StyleSheet.create({
   actionContainer: {
     width: '100%',
     marginTop: 20,
+    paddingBottom: 24,
   },
   btn: {
     width: '100%',
