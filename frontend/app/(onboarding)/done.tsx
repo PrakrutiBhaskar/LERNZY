@@ -40,7 +40,7 @@ export default function OnboardingDone(): React.JSX.Element {
       // Mark onboarding complete and models ready
       await setBoolean(STORAGE_KEYS.MODELS_READY, true);
       await setBoolean(STORAGE_KEYS.ONBOARDING_DONE, true);
-      
+
       // Go to home flow
       router.replace('/(home)');
     } catch (e) {
@@ -53,14 +53,14 @@ export default function OnboardingDone(): React.JSX.Element {
       return language === 'en'
         ? `Downloading offline AI models (${downloadProgress}%)...`
         : language === 'hi'
-        ? `ऑफ़लाइन एआई मॉडल डाउनलोड हो रहे हैं (${downloadProgress}%)...`
-        : `ಆಫ್‌ಲೈನ್ ಎಐ ಮಾದರಿಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ (${downloadProgress}%)...`;
+          ? `ऑफ़लाइन एआई मॉडल डाउनलोड हो रहे हैं (${downloadProgress}%)...`
+          : `ಆಫ್‌ಲೈನ್ ಎಐ ಮಾದರಿಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ (${downloadProgress}%)...`;
     }
     return language === 'en'
       ? 'Setup complete! You can learn offline now.'
       : language === 'hi'
-      ? 'सेटअप पूरा हुआ! अब आप ऑफ़लाइन सीख सकते हैं।'
-      : 'ಸ್ಥಾಪನೆ ಪೂರ್ಣಗೊಂಡಿದೆ! ನೀವೀಗ ಇಂಟರ್ನೆಟ್ ಇಲ್ಲದೆಯೂ ಕಲಿಯಬಹುದು.';
+        ? 'सेटअप पूरा हुआ! अब आप ऑफ़लाइन सीख सकते हैं।'
+        : 'ಸ್ಥಾಪನೆ ಪೂರ್ಣಗೊಂಡಿದೆ! ನೀವೀಗ ಇಂಟರ್ನೆಟ್ ಇಲ್ಲದೆಯೂ ಕಲಿಯಬಹುದು.';
   };
 
   return (
@@ -79,7 +79,7 @@ export default function OnboardingDone(): React.JSX.Element {
 
         <AppText variant="heading2" style={styles.title} color={colors.textPrimary}>
           {isDownloading
-            ? (language === 'en' ? 'Getting Vidya Ready' : language === 'hi' ? 'विद्या को तैयार कर रहे हैं' : 'ವಿದ್ಯಾ ಸಿದ್ಧಪಡಿಸಲಾಗುತ್ತಿದೆ')
+            ? (language === 'en' ? 'Getting lernzy Ready' : language === 'hi' ? 'विद्या को तैयार कर रहे हैं' : 'ವಿದ್ಯಾ ಸಿದ್ಧಪಡಿಸಲಾಗುತ್ತಿದೆ')
             : (language === 'en' ? 'Everything is Ready!' : language === 'hi' ? 'सब कुछ तैयार है!' : 'ಎಲ್ಲವೂ ಸಿದ್ಧವಾಗಿದೆ!')}
         </AppText>
 
@@ -87,8 +87,8 @@ export default function OnboardingDone(): React.JSX.Element {
           {language === 'en'
             ? 'We are setting up local language synthesis and reasoning engines on your phone. No internet connection will be required after this step.'
             : language === 'hi'
-            ? 'हम आपके फोन पर स्थानीय भाषा संश्लेषण और तर्क इंजन स्थापित कर रहे हैं। इस चरण के बाद किसी इंटरनेट कनेक्शन की आवश्यकता नहीं होगी।'
-            : 'ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ಸ್ಥಳೀಯ ಭಾಷಾ ಸಂಶ್ಲೇಷಣೆ ಮತ್ತು ತರ್ಕ ಎಂಜಿನ್‌ಗಳನ್ನು ನಾವು ಸ್ಥಾಪಿಸುತ್ತಿದ್ದೇವೆ. ಈ ಹಂತದ ನಂತರ ಯಾವುದೇ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕದ ಅಗತ್ಯವಿರುವುದಿಲ್ಲ.'}
+              ? 'हम आपके फोन पर स्थानीय भाषा संश्लेषण और तर्क इंजन स्थापित कर रहे हैं। इस चरण के बाद किसी इंटरनेट कनेक्शन की आवश्यकता नहीं होगी।'
+              : 'ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ಸ್ಥಳೀಯ ಭಾಷಾ ಸಂಶ್ಲೇಷಣೆ ಮತ್ತು ತರ್ಕ ಎಂಜಿನ್‌ಗಳನ್ನು ನಾವು ಸ್ಥಾಪಿಸುತ್ತಿದ್ದೇವೆ. ಈ ಹಂತದ ನಂತರ ಯಾವುದೇ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕದ ಅಗತ್ಯವಿರುವುದಿಲ್ಲ.'}
         </AppText>
 
         <Card style={styles.statusCard}>
@@ -98,7 +98,7 @@ export default function OnboardingDone(): React.JSX.Element {
           <AppText variant="bodyLg" style={styles.statusText} color={colors.textPrimary}>
             {getStatusText()}
           </AppText>
-          
+
           <View style={[styles.progressBg, { backgroundColor: colors.surfaceAlt }]}>
             <View
               style={[

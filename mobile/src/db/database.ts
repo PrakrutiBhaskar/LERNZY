@@ -4,7 +4,7 @@ import { migration001 } from './migrations/001_initial';
 import { migration002 } from './migrations/002_flashcards';
 
 export const DB_SCHEMA_VERSION = 2;
-export const DB_NAME = 'vidyatutor.db';
+export const DB_NAME = 'lernzytutor.db';
 
 let dbInstance: SQLite.SQLiteDatabase | null = null;
 

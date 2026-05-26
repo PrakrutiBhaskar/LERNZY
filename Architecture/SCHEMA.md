@@ -1,5 +1,5 @@
 # Database Schema — SQLite (On-Device)
-> Complete schema for the Vidya Tutor local SQLite database.
+> Complete schema for the lernzy Tutor local SQLite database.
 > All student data lives exclusively on the device — nothing is synced to any server.
 > File: managed by `src/db/database.ts` using `expo-sqlite` or `react-native-sqlite-storage`.
 
@@ -224,7 +224,7 @@ LIMIT 5;
 ```typescript
 import * as SQLite from 'expo-sqlite';
 
-const db = SQLite.openDatabaseSync('vidyatutor.db');
+const db = SQLite.openDatabaseSync('lernzytutor.db');
 
 export async function initDatabase(): Promise<void> {
   await runMigration('001_initial');

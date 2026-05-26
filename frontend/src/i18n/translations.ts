@@ -2,9 +2,9 @@ import { LanguageCode } from '../utils/constants';
 
 export const TRANSLATIONS = {
   en: {
-    appName: 'Vidya Tutor',
+    appName: 'lernzy Tutor',
     tagline: 'Your AI Learning Companion',
-    welcomeTitle: 'Welcome to Vidya Tutor',
+    welcomeTitle: 'Welcome to lernzy Tutor',
     welcomeSubtitle: 'Learn mathematics, science, English, and more in your own language, tailored to what you love!',
     selectLanguage: 'Choose your language',
     getStarted: 'Get Started',
@@ -18,7 +18,7 @@ export const TRANSLATIONS = {
     next: 'Next',
     errorTitle: 'Something went wrong',
     tryAgain: 'Try Again',
-    tutorGreeting: 'Hello! I am Vidya, your personal tutor. What would you like to learn today?',
+    tutorGreeting: 'Hello! I am lernzy, your personal tutor. What would you like to learn today?',
     quizTitle: 'Quiz Time!',
     submit: 'Submit Answer',
     correctAnswer: 'Correct! Well done.',

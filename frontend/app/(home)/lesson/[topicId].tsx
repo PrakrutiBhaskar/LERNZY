@@ -27,10 +27,10 @@ export default function LessonScreen(): React.JSX.Element {
       id: '1',
       sender: 'tutor',
       text: language === 'en'
-        ? `Welcome to our lesson on ${topicId}! I'm Vidya, your offline tutor. Let's read this together.`
+        ? `Welcome to our lesson on ${topicId}! I'm lernzy, your offline tutor. Let's read this together.`
         : language === 'hi'
-        ? `हमारे ${topicId} पाठ में आपका स्वागत है! मैं विद्या हूँ, आपकी ऑफ़लाइन ट्यूटर। आइए इसे मिलकर पढ़ें।`
-        : `${topicId} ಕುರಿತ ನಮ್ಮ ಪಾಠಕ್ಕೆ ಸುಸ್ವಾಗತ! ನಾನು ವಿದ್ಯಾ, ನಿಮ್ಮ ಆಫ್‌ಲೈನ್ ಶಿಕ್ಷಕಿ. ಬನ್ನಿ ಒಟ್ಟಿಗೆ ಕಲಿಯೋಣ.`,
+          ? `हमारे ${topicId} पाठ में आपका स्वागत है! मैं विद्या हूँ, आपकी ऑफ़लाइन ट्यूटर। आइए इसे मिलकर पढ़ें।`
+          : `${topicId} ಕುರಿತ ನಮ್ಮ ಪಾಠಕ್ಕೆ ಸುಸ್ವಾಗತ! ನಾನು ವಿದ್ಯಾ, ನಿಮ್ಮ ಆಫ್‌ಲೈನ್ ಶಿಕ್ಷಕಿ. ಬನ್ನಿ ಒಟ್ಟಿಗೆ ಕಲಿಯೋಣ.`,
     },
     {
       id: '2',
@@ -38,8 +38,8 @@ export default function LessonScreen(): React.JSX.Element {
       text: language === 'en'
         ? "In this topic, we will explore fundamental concepts. Feel free to type questions below if you get stuck!"
         : language === 'hi'
-        ? "इस विषय में, हम बुनियादी अवधारणाओं का पता लगाएंगे। यदि आप कहीं फंस जाते हैं तो नीचे अपने प्रश्न लिख सकते हैं!"
-        : "ಈ ವಿಷಯದಲ್ಲಿ, ನಾವು ಮೂಲಭೂತ ಪರಿಕಲ್ಪನೆಗಳನ್ನು ಅನ್ವೇಷಿಸುತ್ತೇವೆ. ನಿಮಗೆ ಸಂಶಯವಿದ್ದರೆ ಕೆಳಗೆ ಟೈಪ್ ಮಾಡಿ ಕೇಳಬಹುದು!",
+          ? "इस विषय में, हम बुनियादी अवधारणाओं का पता लगाएंगे। यदि आप कहीं फंस जाते हैं तो नीचे अपने प्रश्न लिख सकते हैं!"
+          : "ಈ ವಿಷಯದಲ್ಲಿ, ನಾವು ಮೂಲಭೂತ ಪರಿಕಲ್ಪನೆಗಳನ್ನು ಅನ್ವೇಷಿಸುತ್ತೇವೆ. ನಿಮಗೆ ಸಂಶಯವಿದ್ದರೆ ಕೆಳಗೆ ಟೈಪ್ ಮಾಡಿ ಕೇಳಬಹುದು!",
     },
   ]);
 
@@ -58,8 +58,8 @@ export default function LessonScreen(): React.JSX.Element {
       text: language === 'en'
         ? `That is a great question about ${topicId}! Since we are working offline, let me explain this simplified concept...`
         : language === 'hi'
-        ? `यह ${topicId} के बारे में एक बहुत अच्छा प्रश्न है! चूंकि हम ऑफ़लाइन काम कर रहे हैं, मैं आपको इस सरल अवधारणा को समझाती हूँ...`
-        : `${topicId} ಬಗ್ಗೆ ಇದು ಉತ್ತಮ ಪ್ರಶ್ನೆ! ನಾವು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿರುವುದರಿಂದ, ನಾನು ಸರಳವಾಗಿ ವಿವರಿಸುತ್ತೇನೆ...`,
+          ? `यह ${topicId} के बारे में एक बहुत अच्छा प्रश्न है! चूंकि हम ऑफ़लाइन काम कर रहे हैं, मैं आपको इस सरल अवधारणा को समझाती हूँ...`
+          : `${topicId} ಬಗ್ಗೆ ಇದು ಉತ್ತಮ ಪ್ರಶ್ನೆ! ನಾವು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿರುವುದರಿಂದ, ನಾನು ಸರಳವಾಗಿ ವಿವರಿಸುತ್ತೇನೆ...`,
     };
 
     setMessages((prev) => [...prev, studentMsg, tutorReply]);
@@ -100,7 +100,7 @@ export default function LessonScreen(): React.JSX.Element {
 
       <View style={[styles.inputRow, { marginTop: spacing.space4 }]}>
         <InputField
-          placeholder={language === 'en' ? 'Ask Vidya a question...' : language === 'hi' ? 'विद्या से एक प्रश्न पूछें...' : 'ವಿದ್ಯಾಗೆ ಪ್ರಶ್ನೆ ಕೇಳಿ...'}
+          placeholder={language === 'en' ? 'Ask lernzy a question...' : language === 'hi' ? 'विद्या से एक प्रश्न पूछें...' : 'ವಿದ್ಯಾಗೆ ಪ್ರಶ್ನೆ ಕೇಳಿ...'}
           value={inputVal}
           onChangeText={setInputVal}
           containerStyle={styles.inputContainer}

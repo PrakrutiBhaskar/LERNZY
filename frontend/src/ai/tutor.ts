@@ -23,7 +23,7 @@ export async function generateTutorResponse(
   try {
     // Placeholder response for architectural scaffolding
     return {
-      text: "Hello! I am Vidya, your offline learning companion. Once my local models are initialized, I will guide you through this lesson.",
+      text: "Hello! I am lernzy, your offline learning companion. Once my local models are initialized, I will guide you through this lesson.",
     };
   } catch (error: any) {
     throw new InferenceError(
