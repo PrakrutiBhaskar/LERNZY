@@ -57,7 +57,7 @@ Models are **not bundled** in the APK (too large for Play Store). They download 
 
 ### Storage Paths (Android)
 ```
-/data/data/com.lernzytutor.app/files/models/
+/data/data/com.lernzy.app/files/models/
   phi3_mini_int4.gguf
   whisper_tiny.bin
   piper_en.onnx

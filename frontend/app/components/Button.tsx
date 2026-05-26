@@ -1,9 +1,9 @@
 import React from 'react';
-import { Pressable, StyleSheet, ViewStyle, ActivityIndicator, StyleProp } from 'react-native';
+import { Pressable, StyleSheet, ViewStyle, ActivityIndicator, StyleProp, PressableProps } from 'react-native';
 import { useTheme } from '@/theme/theme';
 import { AppText } from './AppText';
 
-export interface ButtonProps {
+export interface ButtonProps extends PressableProps {
   onPress: () => void;
   title: string;
   variant?: 'primary' | 'secondary' | 'ghost';
@@ -21,6 +21,7 @@ export const Button: React.FC<ButtonProps> = ({
   loading = false,
   icon,
   style,
+  ...rest
 }) => {
   const { colors, componentStyles } = useTheme();
 
@@ -66,6 +67,7 @@ export const Button: React.FC<ButtonProps> = ({
         pressed && !disabled && !loading && { opacity: 0.8 },
         style,
       ]}
+      {...rest}
     >
       {loading ? (
         <ActivityIndicator

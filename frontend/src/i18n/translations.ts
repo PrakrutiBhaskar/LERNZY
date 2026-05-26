@@ -2,9 +2,9 @@ import { LanguageCode } from '../utils/constants';
 
 export const TRANSLATIONS = {
   en: {
-    appName: 'lernzy Tutor',
+    appName: 'Lernzy',
     tagline: 'Your AI Learning Companion',
-    welcomeTitle: 'Welcome to lernzy Tutor',
+    welcomeTitle: 'Welcome to Lernzy',
     welcomeSubtitle: 'Learn mathematics, science, English, and more in your own language, tailored to what you love!',
     selectLanguage: 'Choose your language',
     getStarted: 'Get Started',
@@ -28,9 +28,9 @@ export const TRANSLATIONS = {
     menuProgress: 'Progress',
   },
   hi: {
-    appName: 'विद्या ट्यूटर',
+    appName: 'लर्नज़ी',
     tagline: 'आपका एआई लर्निंग साथी',
-    welcomeTitle: 'विद्या ट्यूटर में आपका स्वागत है',
+    welcomeTitle: 'लर्नज़ी में आपका स्वागत है',
     welcomeSubtitle: 'गणित, विज्ञान, अंग्रेजी और अन्य विषयों को अपनी भाषा में सीखें, जो आपकी पसंद के अनुकूल हैं!',
     selectLanguage: 'अपनी भाषा चुनें',
     getStarted: 'शुरू करें',
@@ -54,9 +54,9 @@ export const TRANSLATIONS = {
     menuProgress: 'प्रगति',
   },
   kn: {
-    appName: 'ವಿದ್ಯಾ ಟ್ಯೂಟರ್',
+    appName: 'ಲರ್ನ್ಜಿ',
     tagline: 'ನಿಮ್ಮ ಐಐ ಕಲಿಕಾ ಜೊತೆಗಾರ',
-    welcomeTitle: 'ವಿದ್ಯಾ ಟ್ಯೂಟರ್‌ಗೆ ಸುಸ್ವಾಗತ',
+    welcomeTitle: 'ಲರ್ನ್ಜಿ ಗೆ ಸುಸ್ವಾಗತ',
     welcomeSubtitle: 'ಗಣಿತ, ವಿಜ್ಞಾನ, ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಇತರ ವಿಷಯಗಳನ್ನು ನಿಮ್ಮದೇ ಭಾಷೆಯಲ್ಲಿ ಕಲಿಯಿರಿ!',
     selectLanguage: 'ನಿಮ್ಮ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ',
     getStarted: 'ಪ್ರಾರಂಭಿಸಿ',

@@ -208,7 +208,7 @@ App open
               Yes → HomeScreen
 ```
 
-Model storage path: `/data/data/com.lernzytutor.app/files/models/`
+Model storage path: `/data/data/com.lernzy.app/files/models/`
 
 ---
 

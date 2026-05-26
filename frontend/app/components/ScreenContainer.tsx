@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet, ScrollView, ViewStyle, SafeAreaView, KeyboardAvoidingView, Platform, Pressable } from 'react-native';
+import { View, StyleSheet, ScrollView, ViewStyle, StyleProp, SafeAreaView, KeyboardAvoidingView, Platform, Pressable } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useTheme } from '@/theme/theme';
 import { AppText } from './AppText';
@@ -12,8 +12,8 @@ export interface ScreenContainerProps {
   showBackButton?: boolean;
   onBackPress?: () => void;
   scrollable?: boolean;
-  style?: ViewStyle;
-  contentContainerStyle?: ViewStyle;
+  style?: StyleProp<ViewStyle>;
+  contentContainerStyle?: StyleProp<ViewStyle>;
 }
 
 /**

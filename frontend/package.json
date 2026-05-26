@@ -1,5 +1,5 @@
 {
-  "name": "lernzy-tutor",
+  "name": "lernzy",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "dependencies": {
