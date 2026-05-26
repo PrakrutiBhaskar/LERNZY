@@ -3,10 +3,10 @@ import { View, StyleSheet } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { useTheme, useSubjectColor } from '@/theme/theme';
-import { AppText } from '../../components/AppText';
-import { Card } from '../../components/Card';
-import { Button } from '../../components/Button';
-import { ScreenContainer } from '../../components/ScreenContainer';
+import { AppText } from '../../../components/AppText';
+import { Card } from '../../../components/Card';
+import { Button } from '../../../components/Button';
+import { ScreenContainer } from '../../../components/ScreenContainer';
 
 interface TopicItem {
   id: string;

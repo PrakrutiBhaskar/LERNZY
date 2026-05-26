@@ -2,9 +2,9 @@ import React from 'react';
 import { View, StyleSheet, ScrollView } from 'react-native';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { useTheme } from '@/theme/theme';
-import { AppText } from '../components/AppText';
-import { Card } from '../components/Card';
-import { ScreenContainer } from '../components/ScreenContainer';
+import { AppText } from '../../components/AppText';
+import { Card } from '../../components/Card';
+import { ScreenContainer } from '../../components/ScreenContainer';
 
 export default function ProgressScreen(): React.JSX.Element {
   const { language } = useLanguage();

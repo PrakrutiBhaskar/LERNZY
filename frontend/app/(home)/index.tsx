@@ -3,18 +3,18 @@ import { View, StyleSheet, ScrollView, SafeAreaView, Pressable, ActivityIndicato
 import { useRouter } from 'expo-router';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { useTheme } from '@/theme/theme';
-import { AppText } from '../components/AppText';
-import { Button } from '../components/Button';
-import { TutorBubble } from '../components/TutorBubble';
-import { SubjectCard } from '../components/SubjectCard';
-import { ContinueCard } from '../components/ContinueCard';
-import { AchievementBadge } from '../components/AchievementBadge';
-import { SectionHeader } from '../components/SectionHeader';
+import { AppText } from '../../components/AppText';
+import { Button } from '../../components/Button';
+import { TutorBubble } from '../../components/TutorBubble';
+import { SubjectCard } from '../../components/SubjectCard';
+import { ContinueCard } from '../../components/ContinueCard';
+import { AchievementBadge } from '../../components/AchievementBadge';
+import { SectionHeader } from '../../components/SectionHeader';
 import { STORAGE_KEYS } from '@/utils/constants';
 import { getObject, removeItem } from '@/utils/storage';
 import { apiFetch } from '@/services/api';
 
-import { SkeletonLoader } from '../components/SkeletonLoader';
+import { SkeletonLoader } from '../../components/SkeletonLoader';
 
 interface SubjectItem {
   id: string;

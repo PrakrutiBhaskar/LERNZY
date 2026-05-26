@@ -47,7 +47,7 @@ export const InputField: React.FC<InputFieldProps> = ({
           isFocused && componentStyles.inputFocus,
           !!error && componentStyles.inputError,
           style,
-        ]}
+        ] as any}
         {...props}
       />
       {error && (

@@ -3,13 +3,13 @@ import { View, StyleSheet } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { useTheme } from '@/theme/theme';
-import { AppText } from '../components/AppText';
-import { Button } from '../components/Button';
-import { Card } from '../components/Card';
-import { ScreenContainer } from '../components/ScreenContainer';
+import { AppText } from '../../components/AppText';
+import { Button } from '../../components/Button';
+import { Card } from '../../components/Card';
+import { ScreenContainer } from '../../components/ScreenContainer';
 import { STORAGE_KEYS } from '@/utils/constants';
 import { getObject, setObject } from '@/utils/storage';
-import { ProgressBar } from '../components/ProgressBar';
+import { ProgressBar } from '../../components/ProgressBar';
 
 export default function OnboardingLearningStyle(): React.JSX.Element {
   const router = useRouter();

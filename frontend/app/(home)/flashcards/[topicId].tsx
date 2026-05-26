@@ -3,13 +3,13 @@ import { View, StyleSheet, SafeAreaView } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { useTheme } from '@/theme/theme';
-import { AppText } from '../../components/AppText';
-import { Card } from '../../components/Card';
-import { Button } from '../../components/Button';
-import { ProgressBar } from '../../components/ProgressBar';
-import { TutorBubble } from '../../components/TutorBubble';
-import { FlashCard } from '../../components/FlashCard';
-import { ScreenContainer } from '../../components/ScreenContainer';
+import { AppText } from '../../../components/AppText';
+import { Card } from '../../../components/Card';
+import { Button } from '../../../components/Button';
+import { ProgressBar } from '../../../components/ProgressBar';
+import { TutorBubble } from '../../../components/TutorBubble';
+import { FlashCard } from '../../../components/FlashCard';
+import { ScreenContainer } from '../../../components/ScreenContainer';
 
 interface FlashcardItem {
   id: string;

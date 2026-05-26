@@ -3,13 +3,13 @@ import { View, StyleSheet, ScrollView } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { useTheme } from '@/theme/theme';
-import { AppText } from '../components/AppText';
-import { Button } from '../components/Button';
-import { ScreenContainer } from '../components/ScreenContainer';
+import { AppText } from '../../components/AppText';
+import { Button } from '../../components/Button';
+import { ScreenContainer } from '../../components/ScreenContainer';
 import { STORAGE_KEYS } from '@/utils/constants';
 import { getObject, setObject } from '@/utils/storage';
-import { ProgressBar } from '../components/ProgressBar';
-import { InterestGrid, InterestItem } from '../components/InterestGrid';
+import { ProgressBar } from '../../components/ProgressBar';
+import { InterestGrid, InterestItem } from '../../components/InterestGrid';
 
 export default function OnboardingInterests(): React.JSX.Element {
   const router = useRouter();

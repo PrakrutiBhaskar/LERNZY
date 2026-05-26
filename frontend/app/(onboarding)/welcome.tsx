@@ -3,10 +3,10 @@ import { View, StyleSheet } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useTheme } from '@/theme/theme';
 import { useLanguage } from '@/i18n/LanguageContext';
-import { AppText } from '../components/AppText';
-import { Button } from '../components/Button';
-import { Card } from '../components/Card';
-import { ScreenContainer } from '../components/ScreenContainer';
+import { AppText } from '../../components/AppText';
+import { Button } from '../../components/Button';
+import { Card } from '../../components/Card';
+import { ScreenContainer } from '../../components/ScreenContainer';
 
 export default function Welcome(): React.JSX.Element {
   const router = useRouter();

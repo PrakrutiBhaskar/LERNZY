@@ -5,7 +5,7 @@ import { useFonts } from 'expo-font';
 import { View, ActivityIndicator } from 'react-native';
 import { initDatabase } from '@/db/database';
 import { LanguageProvider } from '@/i18n/LanguageContext';
-import { AppText } from './components/AppText';
+import { AppText } from '../components/AppText';
 import { COLORS } from '@/utils/theme';
 import { getBoolean } from '@/utils/storage';
 import { STORAGE_KEYS } from '@/utils/constants';
