@@ -22,12 +22,12 @@ describe("Offline Sync & Conflict Resolution Tests", () => {
   });
 
   it("permits standard progress event creation", async () => {
-    const createSpy = jest.spyOn(ProgressEvent, "create").mockResolvedValue({
+    const createSpy = jest.spyOn(ProgressEvent, "create").mockResolvedValue([{
       userId: "507f1f77bcf86cd799439011",
       type: "lesson_completed",
       module: "math",
       payload: { chapterId: 1 }
-    });
+    }]);
     
     const findSpy = jest.spyOn(ProgressEvent, "findOne").mockResolvedValue(null);
 
@@ -101,7 +101,7 @@ describe("Offline Sync & Conflict Resolution Tests", () => {
   it("handles mixed batch with duplicates, stale (conflict) events, and retries", async () => {
     const findSpy = jest.spyOn(ProgressEvent, "findOne").mockImplementation((query) => {
       if (query.eventId === "dup-id" || query.clientGeneratedId === "dup-id") {
-        return Promise.resolve({ _id: "existing-event-id", eventId: "dup-id", type: "lesson_completed", module: "math" });
+        return Promise.resolve({ _id: "existing-event-id", eventId: "dup-id", type: "lesson_completed", module: "math", status: "COMPLETED" });
       }
       if (query.module === "stale-module" && query.createdAt?.$gt) {
         return Promise.resolve({ _id: "newer-event-id", createdAt: new Date() });

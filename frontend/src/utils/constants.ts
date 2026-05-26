@@ -19,6 +19,9 @@ export const STORAGE_KEYS = {
   SELECTED_LANGUAGE: 'lernzy:selected_language',
   MODELS_READY: 'models_ready',
   STUDENT_PROFILE: 'lernzy:student_profile',
+  ACCESS_TOKEN: 'lernzy:access_token',
+  REFRESH_TOKEN: 'lernzy:refresh_token',
+  USER_PROFILE: 'lernzy:user_profile',
 } as const;
 
 /**

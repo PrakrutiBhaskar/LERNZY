@@ -1,6 +1,7 @@
 const request = require("supertest");
 const app = require("../src/app");
 const User = require("../src/models/User.model");
+const DeviceSession = require("../src/models/DeviceSession.model");
 const { signRefreshToken } = require("../src/utils/jwt.utils");
 const { hashToken } = require("../src/utils/crypto.utils");
 
@@ -63,13 +64,20 @@ describe("Auth Flow", () => {
     const refreshToken = signRefreshToken({ userId: "507f1f77bcf86cd799439011", tv: 0 });
     const hashed = hashToken(refreshToken);
 
-    User.findById.mockReturnValue({
-      select: jest.fn().mockResolvedValue({
-        _id: "507f1f77bcf86cd799439011",
-        refreshTokenHash: hashed,
-        refreshTokenVersion: 0,
-        save: jest.fn()
-      })
+    User.findById.mockResolvedValue({
+      _id: "507f1f77bcf86cd799439011",
+      refreshTokenHash: hashed,
+      refreshTokenVersion: 0,
+      save: jest.fn()
+    });
+
+    DeviceSession.findOne.mockResolvedValue({
+      userId: "507f1f77bcf86cd799439011",
+      deviceId: "default-device",
+      platform: "unknown",
+      refreshTokenHash: hashed,
+      refreshVersion: 0,
+      save: jest.fn().mockResolvedValue(true)
     });
 
     const res = await request(app).post("/api/auth/refresh").send({

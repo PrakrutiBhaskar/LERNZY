@@ -10,8 +10,10 @@ import { InputField } from '../components/InputField';
 import { ScreenContainer } from '../components/ScreenContainer';
 import { STORAGE_KEYS, LanguageCode } from '@/utils/constants';
 import { getObject, setObject, removeItem } from '@/utils/storage';
+import { useAuth } from '@/services/auth';
 
 export default function SettingsScreen(): React.JSX.Element {
+  const { user, isAuthenticated } = useAuth();
   const router = useRouter();
   const { language, setLanguage } = useLanguage();
   const { colors, spacing } = useTheme();
@@ -85,6 +87,31 @@ export default function SettingsScreen(): React.JSX.Element {
           <Button
             title={language === 'en' ? 'Save Changes' : language === 'hi' ? 'बदलाव सहेजें' : 'ಬದಲಾವಣೆ ಉಳಿಸಿ'}
             onPress={handleSaveProfile}
+            style={styles.saveBtn}
+          />
+        </Card>
+
+        {/* Cloud Sync Card */}
+        <Card style={styles.settingsCard}>
+          <AppText variant="heading2" style={styles.sectionTitle}>
+            {language === 'en' ? 'Cloud Synchronization' : language === 'hi' ? 'क्लाउड सिंक्रोनाइजेशन' : 'ಕ್ಲೌಡ್ ಸಿಂಕ್'}
+          </AppText>
+          <AppText variant="body" color={colors.textSecondary} style={{ marginBottom: 12, lineHeight: 20 }}>
+            {isAuthenticated && user
+              ? (language === 'en' 
+                ? `Logged in as ${user.email}. Offline progress and achievements are backing up automatically.` 
+                : `${user.email} के रूप में लॉग इन हैं। ऑफ़लाइन प्रगति और उपलब्धियां स्वचालित रूप से सिंक हो रही हैं।`)
+              : (language === 'en' 
+                ? 'Back up your progress, study points, and achievements to the cloud to restore them anytime.' 
+                : 'अपनी प्रगति, स्टडी पॉइंट्स और उपलब्धियों का क्लाउड पर बैकअप लें ताकि उन्हें कभी भी रीस्टोर किया जा सके।')}
+          </AppText>
+          <Button
+            title={
+              isAuthenticated
+                ? (language === 'en' ? 'Manage Cloud Sync' : 'क्लाउड सिंक प्रबंधित करें')
+                : (language === 'en' ? 'Connect Cloud Account' : 'क्लाउड खाता कनेक्ट करें')
+            }
+            onPress={() => router.push('/(home)/auth')}
             style={styles.saveBtn}
           />
         </Card>

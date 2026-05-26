@@ -14,6 +14,8 @@ import { ScreenContainer } from '../../components/ScreenContainer';
 import { STORAGE_KEYS } from '@/utils/constants';
 import { getObject } from '@/utils/storage';
 import { ArrowLeft, BookOpen, Volume2 } from 'lucide-react-native';
+import { getDb } from '@/db/database';
+import { queueProgressEvent } from '@/services/sync';
 
 const MOCK_LESSONS_DB: Record<string, any> = {
   fractions: {
@@ -120,6 +122,58 @@ export default function LessonScreen(): React.JSX.Element {
       }
     }
     loadLessonProfile();
+  }, [topicId]);
+
+  useEffect(() => {
+    let sessionId: number | null = null;
+    const startedAt = new Date().toISOString();
+    
+    async function startSession() {
+      try {
+        const db = getDb();
+        const student = await db.getFirstAsync<{ id: number }>('SELECT id FROM students LIMIT 1');
+        const studentId = student ? student.id : 1;
+        
+        const result = await db.runAsync(
+          `INSERT INTO sessions (student_id, subject, chapter_id, topic_id, mode, started_at)
+           VALUES (?, ?, ?, ?, ?, ?)`,
+          [studentId, 'mathematics', topicId || 'fractions', topicId || 'fractions', 'lesson', startedAt]
+        );
+        sessionId = result.lastInsertRowId;
+        console.log(`[Session Sync] Started lesson session: ${sessionId}`);
+      } catch (err) {
+        console.error('[Session Sync] Failed to start session:', err);
+      }
+    }
+    startSession();
+
+    return () => {
+      // End session on unmount
+      const endedAt = new Date().toISOString();
+      const duration = Math.round((new Date(endedAt).getTime() - new Date(startedAt).getTime()) / 1000);
+      
+      if (sessionId !== null) {
+        async function endSession() {
+          try {
+            const db = getDb();
+            await db.runAsync(
+              `UPDATE sessions SET ended_at = ?, duration_seconds = ? WHERE id = ?`,
+              [endedAt, duration, sessionId]
+            );
+            
+            // Queue the sync event for backend integration (rewards 10 XP on coding)
+            await queueProgressEvent('lesson_completed', 'coding', {
+              topicId: topicId || 'fractions',
+              durationSeconds: duration
+            });
+            console.log(`[Session Sync] Ended & queued lesson_completed event for: ${topicId || 'fractions'}`);
+          } catch (err) {
+            console.error('[Session Sync] Failed to end session:', err);
+          }
+        }
+        endSession();
+      }
+    };
   }, [topicId]);
 
   if (isLoading) {

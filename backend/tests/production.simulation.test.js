@@ -1,7 +1,7 @@
 const request = require("supertest");
 const mongoose = require("mongoose");
 const app = require("../src/app");
-const { signAccessToken } = require("../src/utils/jwt.utils");
+const { signAccessToken, signRefreshToken } = require("../src/utils/jwt.utils");
 const User = require("../src/models/User.model");
 const ProgressEvent = require("../src/models/ProgressEvent.model");
 const DeviceSession = require("../src/models/DeviceSession.model");
@@ -27,20 +27,29 @@ jest.mock("../src/services/cache.service", () => {
     getRedisStatus: jest.fn().mockImplementation(() => redisStatus),
     setRedisStatusForTesting: (status) => {
       redisStatus = status;
-    }
+    },
+    cacheGetJSON: jest.fn().mockResolvedValue(null),
+    cacheSetJSON: jest.fn().mockResolvedValue(true),
+    buildAskCacheKey: jest.fn().mockImplementation(({ question }) => `ask:${question}`)
   };
 });
 
 // Mock models
 jest.mock("../src/models/User.model", () => {
   return {
-    findById: jest.fn().mockReturnValue({
-      select: jest.fn().mockResolvedValue({
+    findById: jest.fn().mockImplementation(() => {
+      const userDoc = {
         _id: "507f1f77bcf86cd799439011",
         name: "Test Student",
         points: 100,
         save: jest.fn().mockResolvedValue(true)
-      })
+      };
+      const chain = {
+        select: jest.fn().mockImplementation(() => chain),
+        session: jest.fn().mockImplementation(() => chain),
+        then: (resolve) => resolve(userDoc)
+      };
+      return chain;
     }),
     findOne: jest.fn().mockResolvedValue(null),
     create: jest.fn(),
@@ -137,6 +146,15 @@ jest.mock("../src/models/QuizSubmission.model", () => {
   };
 });
 
+jest.mock("../src/models/ChatHistory.model", () => ({
+  create: jest.fn().mockResolvedValue({}),
+  find: jest.fn().mockReturnValue({
+    sort: jest.fn().mockReturnValue({
+      limit: jest.fn().mockResolvedValue([])
+    })
+  })
+}));
+
 // Mock achievement check service
 jest.mock("../src/services/achievement.service", () => ({
   checkAndUnlock: jest.fn().mockResolvedValue([])
@@ -146,6 +164,31 @@ const validUserId = "507f1f77bcf86cd799439011";
 const validToken = signAccessToken({ userId: validUserId });
 
 describe("LERNZY Backend Hardening — Integration Simulation Suite", () => {
+  let originalFetch;
+
+  beforeAll(() => {
+    originalFetch = global.fetch;
+    global.fetch = jest.fn().mockImplementation(() => {
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          resolve({
+            ok: false,
+            status: 400,
+            headers: {
+              get: () => "application/json"
+            },
+            text: () => Promise.resolve("Bad Request"),
+            json: () => Promise.resolve({ error: "Bad Request" })
+          });
+        }, 50);
+      });
+    });
+  });
+
+  afterAll(() => {
+    global.fetch = originalFetch;
+  });
+
   beforeEach(() => {
     jest.clearAllMocks();
   });
@@ -237,15 +280,16 @@ describe("LERNZY Backend Hardening — Integration Simulation Suite", () => {
   describe("3. AI Concurrency & Timeout Cascade Test", () => {
     it("enforces active queue limits and rejects requests when concurrency limit is hit", async () => {
       process.env.MAX_CONCURRENT_AI_CALLS = "2";
+      process.env.AI_TIMEOUT_MS = "100";
 
       const askPromises = [
-        request(app).post("/api/v1/ask").set("Authorization", `Bearer ${validToken}`).send({ question: "Q1" }),
-        request(app).post("/api/v1/ask").set("Authorization", `Bearer ${validToken}`).send({ question: "Q2" }),
-        request(app).post("/api/v1/ask").set("Authorization", `Bearer ${validToken}`).send({ question: "Q3" })
+        request(app).post("/api/v1/ask").set("Authorization", `Bearer ${validToken}`).send({ question: "Explain Q1" }),
+        request(app).post("/api/v1/ask").set("Authorization", `Bearer ${validToken}`).send({ question: "Explain Q2" }),
+        request(app).post("/api/v1/ask").set("Authorization", `Bearer ${validToken}`).send({ question: "Explain Q3" })
       ];
 
       const responses = await Promise.all(askPromises);
-      const isRejected = responses.some(res => res.status === 503 && res.body.error.code === "AI_CONCURRENCY_LIMIT_EXCEEDED");
+      const isRejected = responses.some(res => res.status === 503 && res.body.error && res.body.error.code === "AI_CONCURRENCY_LIMIT_EXCEEDED");
       
       expect(isRejected).toBe(true);
     });
@@ -283,7 +327,7 @@ describe("LERNZY Backend Hardening — Integration Simulation Suite", () => {
 
       const res = await request(app)
         .post("/api/v1/auth/refresh")
-        .send({ refreshToken: signAccessToken({ userId: validUserId, deviceId: "device-1", tv: 2 }) });
+        .send({ refreshToken: signRefreshToken({ userId: validUserId, deviceId: "device-1", tv: 2 }) });
 
       expect(res.status).toBe(401);
       expect(res.body.error.code).toBe("REFRESH_BREACH_DETECTED");

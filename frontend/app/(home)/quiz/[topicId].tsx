@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { View, StyleSheet, SafeAreaView } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useLanguage } from '@/i18n/LanguageContext';
@@ -10,6 +10,8 @@ import { QuizOption } from '../../components/QuizOption';
 import { ProgressBar } from '../../components/ProgressBar';
 import { TutorBubble } from '../../components/TutorBubble';
 import { ScreenContainer } from '../../components/ScreenContainer';
+import { getDb } from '@/db/database';
+import { queueProgressEvent } from '@/services/sync';
 
 interface Question {
   id: string;
@@ -95,6 +97,35 @@ export default function QuizScreen(): React.JSX.Element {
   const [submitted, setSubmitted] = useState(false);
   const [score, setScore] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
+
+  useEffect(() => {
+    if (quizCompleted) {
+      async function saveResult() {
+        try {
+          const db = getDb();
+          const student = await db.getFirstAsync<{ id: number }>('SELECT id FROM students LIMIT 1');
+          const studentId = student ? student.id : 1;
+          
+          await db.runAsync(
+            `INSERT INTO quiz_results (student_id, topic_id, score, total, difficulty_level, attempted_at)
+             VALUES (?, ?, ?, ?, ?, ?)`,
+            [studentId, quizKey, score, totalQuestions, 'mixed', new Date().toISOString()]
+          );
+          
+          // Queue the progress event to be synched to backend
+          await queueProgressEvent('exercise_solved', 'math', {
+            topicId: quizKey,
+            score,
+            total: totalQuestions
+          });
+          console.log(`[Quiz Sync] Saved & queued exercise_solved event for: ${quizKey}`);
+        } catch (err) {
+          console.error('[Quiz Sync] Failed to save quiz result:', err);
+        }
+      }
+      saveResult();
+    }
+  }, [quizCompleted]);
 
   const activeQuestion = questions[currentIdx];
   const totalQuestions = questions.length;

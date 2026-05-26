@@ -11,6 +11,7 @@ export default function HomeLayout() {
       <Stack.Screen name="flashcards/[topicId]" />
       <Stack.Screen name="progress" />
       <Stack.Screen name="settings" />
+      <Stack.Screen name="auth" />
     </Stack>
   );
 }
