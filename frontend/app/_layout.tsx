@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Slot, useRouter, useSegments } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useFonts } from 'expo-font';
-import { View, ActivityIndicator } from 'react-native';
+import { View, ActivityIndicator, StyleSheet } from 'react-native';
 import { initDatabase } from '@/db/database';
 import { LanguageProvider } from '@/i18n/LanguageContext';
 import { AppText } from '../components/AppText';
@@ -15,40 +15,47 @@ SplashScreen.preventAutoHideAsync().catch(() => {});
 
 const appStartTime = performance.now();
 
-function RouteGuard({ children }: { children: React.ReactNode }) {
+function RouteGuard({ children, isReady }: { children: React.ReactNode; isReady: boolean }) {
   const router = useRouter();
   const segments = useSegments();
-  const [checking, setChecking] = useState(true);
 
   useEffect(() => {
+    if (!isReady) return;
+
+    let active = true;
     async function runGuard() {
       try {
         const onboardingComplete = await getBoolean(STORAGE_KEYS.ONBOARDING_DONE, false);
-        const inOnboarding = segments[0] === '(onboarding)';
+        const firstSegment = segments[0] as string | undefined;
+        const inOnboarding = firstSegment === '(onboarding)';
+        const inHome = firstSegment === '(home)';
+        const isRoot = firstSegment === undefined || firstSegment === '' || firstSegment === 'index';
 
-        if (!onboardingComplete && !inOnboarding) {
-          // If onboarding is incomplete and user is not in onboarding stack, redirect
-          router.replace('/(onboarding)/welcome');
-        } else if (onboardingComplete && inOnboarding) {
-          // If onboarding is complete and user is trying to access onboarding, redirect
-          router.replace('/(home)');
-        }
+        if (!active) return;
+
+        // Defer navigation action to ensure the layout/navigation tree is fully settled
+        setTimeout(() => {
+          if (!active) return;
+          if (!onboardingComplete) {
+            if (!inOnboarding) {
+              router.replace('/(onboarding)/welcome');
+            }
+          } else {
+            if (isRoot || inOnboarding) {
+              router.replace('/(home)');
+            }
+          }
+        }, 0);
       } catch (err) {
         console.error('Guard evaluation error:', err);
-      } finally {
-        setChecking(false);
       }
     }
     runGuard();
-  }, [segments]);
 
-  if (checking) {
-    return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: COLORS.bg }}>
-        <ActivityIndicator size="large" color={COLORS.primary} />
-      </View>
-    );
-  }
+    return () => {
+      active = false;
+    };
+  }, [segments, isReady]);
 
   return <>{children}</>;
 }
@@ -111,33 +118,31 @@ export default function RootLayout(): React.JSX.Element | null {
     }
   }, [fontsLoaded, fontError, dbReady, dbError]);
 
-  // If there's a startup DB error, render a friendly message
-  if (dbError) {
-    return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: COLORS.bg, padding: 20 }}>
-        <AppText variant="heading1" color={COLORS.error} style={{ marginBottom: 10 }}>
-          Database Error
-        </AppText>
-        <AppText variant="body" color={COLORS.textSecondary} style={{ textAlign: 'center' }}>
-          {dbError}
-        </AppText>
-      </View>
-    );
-  }
-
-  // Keep showing splash screen until fonts and DB are ready
-  if ((!fontsLoaded && !fontError) || (!dbReady && !dbError)) {
-    return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: COLORS.bg }}>
-        <ActivityIndicator size="large" color={COLORS.primary} />
-      </View>
-    );
-  }
+  const isLoaded = (fontsLoaded || fontError) && (dbReady || dbError);
 
   return (
     <LanguageProvider>
-      <RouteGuard>
-        <Slot />
+      <RouteGuard isReady={!!isLoaded && !dbError}>
+        <View style={{ flex: 1 }}>
+          <Slot />
+          
+          {!isLoaded && (
+            <View style={[StyleSheet.absoluteFill, { justifyContent: 'center', alignItems: 'center', backgroundColor: COLORS.bg }]}>
+              <ActivityIndicator size="large" color={COLORS.primary} />
+            </View>
+          )}
+
+          {!!dbError && (
+            <View style={[StyleSheet.absoluteFill, { justifyContent: 'center', alignItems: 'center', backgroundColor: COLORS.bg, padding: 20 }]}>
+              <AppText variant="heading1" color={COLORS.error} style={{ marginBottom: 10 }}>
+                Database Error
+              </AppText>
+              <AppText variant="body" color={COLORS.textSecondary} style={{ textAlign: 'center' }}>
+                {dbError}
+              </AppText>
+            </View>
+          )}
+        </View>
       </RouteGuard>
     </LanguageProvider>
   );
