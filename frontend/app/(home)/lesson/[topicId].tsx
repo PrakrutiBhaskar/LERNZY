@@ -16,6 +16,7 @@ import { getObject } from '@/utils/storage';
 import { ArrowLeft, BookOpen, Volume2 } from 'lucide-react-native';
 import { getDb } from '@/db/database';
 import { queueProgressEvent } from '@/services/sync';
+import { apiFetch } from '@/services/api';
 
 const MOCK_LESSONS_DB: Record<string, any> = {
   fractions: {
@@ -104,7 +105,9 @@ export default function LessonScreen(): React.JSX.Element {
   const [isNarrating, setIsNarrating] = useState(false);
 
   // Get current topic structure or fallback
-  const currentTopic = MOCK_LESSONS_DB[topicId] || MOCK_LESSONS_DB.fractions;
+  const [currentTopic, setCurrentTopic] = useState<any>(
+    MOCK_LESSONS_DB[topicId || 'fractions'] || MOCK_LESSONS_DB.fractions
+  );
 
   useEffect(() => {
     async function loadLessonProfile() {
@@ -114,10 +117,26 @@ export default function LessonScreen(): React.JSX.Element {
         if (savedProfile) {
           setProfile(savedProfile);
         }
-        // Simulate minor offline content extraction delay (1s)
-        const timer = setTimeout(() => setIsLoading(false), 900);
-        return () => clearTimeout(timer);
+        
+        // Fully integrated backend fetch
+        try {
+          const response = await apiFetch(`/api/v1/topics/${topicId || 'fractions'}/lessons`);
+          if (response.ok) {
+            const res = await response.json();
+            if (res && res.success && Array.isArray(res.data) && res.data.length > 0) {
+              const firstLessonNode = res.data[0];
+              if (firstLessonNode && firstLessonNode.metadata) {
+                setCurrentTopic(firstLessonNode.metadata);
+                console.log('[Lesson Integration] Successfully loaded lesson node from backend:', firstLessonNode.name);
+              }
+            }
+          }
+        } catch (apiErr: any) {
+          console.log('[Lesson Integration] Failed to fetch lesson from server, falling back to local asset map:', apiErr.message);
+        }
       } catch (err) {
+        console.error(err);
+      } finally {
         setIsLoading(false);
       }
     }
@@ -188,6 +207,13 @@ export default function LessonScreen(): React.JSX.Element {
   }
 
   // Inject student name and interest variables
+  const interestKey = (profile?.interests && profile.interests.length > 0) ? profile.interests[0] : 'default';
+  const interestPlace = currentTopic.interest_placeholders.INTEREST_PLACE[interestKey]?.[language] ||
+                        currentTopic.interest_placeholders.INTEREST_PLACE[interestKey]?.en || 'classroom';
+  
+  const baseStory = currentTopic.base_story_template[language] || currentTopic.base_story_template.en;
+  const resolvedStory = baseStory
+    .replace('{{STUDENT_NAME}}', profile?.name || 'Friend')
     .replace('{{INTEREST_PLACE}}', interestPlace);
 
   const titleText = currentTopic.title[language] || currentTopic.title.en;

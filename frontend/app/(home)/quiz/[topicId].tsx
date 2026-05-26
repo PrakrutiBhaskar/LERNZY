@@ -12,6 +12,7 @@ import { TutorBubble } from '../../components/TutorBubble';
 import { ScreenContainer } from '../../components/ScreenContainer';
 import { getDb } from '@/db/database';
 import { queueProgressEvent } from '@/services/sync';
+import { apiFetch } from '@/services/api';
 
 interface Question {
   id: string;
@@ -90,13 +91,33 @@ export default function QuizScreen(): React.JSX.Element {
   const { colors, spacing } = useTheme();
 
   const quizKey = topicId || 'fractions';
-  const questions = MOCK_QUIZ_BANK[quizKey] || MOCK_QUIZ_BANK.fractions;
+  const [questions, setQuestions] = useState<Question[]>(
+    MOCK_QUIZ_BANK[quizKey] || MOCK_QUIZ_BANK.fractions
+  );
 
   const [currentIdx, setCurrentIdx] = useState(0);
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
   const [submitted, setSubmitted] = useState(false);
   const [score, setScore] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
+
+  useEffect(() => {
+    async function loadQuizQuestions() {
+      try {
+        const response = await apiFetch(`/api/v1/topics/${quizKey}`);
+        if (response.ok) {
+          const res = await response.json();
+          if (res && res.success && res.data && res.data.metadata && Array.isArray(res.data.metadata.quizQuestions)) {
+            setQuestions(res.data.metadata.quizQuestions);
+            console.log('[Quiz Integration] Successfully loaded quiz questions from backend for topic:', quizKey);
+          }
+        }
+      } catch (apiErr: any) {
+        console.log('[Quiz Integration] Failed to fetch quiz questions from server, using local fallback bank:', apiErr.message);
+      }
+    }
+    loadQuizQuestions();
+  }, [quizKey]);
 
   useEffect(() => {
     if (quizCompleted) {

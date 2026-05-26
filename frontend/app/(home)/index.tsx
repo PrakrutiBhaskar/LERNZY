@@ -12,6 +12,7 @@ import { AchievementBadge } from '../components/AchievementBadge';
 import { SectionHeader } from '../components/SectionHeader';
 import { STORAGE_KEYS } from '@/utils/constants';
 import { getObject, removeItem } from '@/utils/storage';
+import { apiFetch } from '@/services/api';
 
 import { SkeletonLoader } from '../components/SkeletonLoader';
 
@@ -99,6 +100,54 @@ const BADGES_DATA = [
   { emoji: '🎒', name: 'Dedicated Learner', description: 'Study for 5 consecutive days.', unlocked: false },
 ];
 
+function mapCurriculumToSubjects(nodes: any[]): SubjectItem[] {
+  const concepts = nodes.filter(n => n.nodeType === 'concept');
+  return concepts.map(concept => {
+    const name = concept.name;
+    let nameKey: any = 'subjectMath';
+    let iconName = 'BookOpen';
+    
+    if (name.toLowerCase().includes('math')) {
+      nameKey = 'subjectMath';
+      iconName = 'Calculator';
+    } else if (name.toLowerCase().includes('science')) {
+      nameKey = 'subjectScience';
+      iconName = 'FlaskConical';
+    } else if (name.toLowerCase().includes('social')) {
+      nameKey = 'subjectSocial';
+      iconName = 'Globe';
+    } else if (name.toLowerCase().includes('english')) {
+      nameKey = 'subjectEnglish';
+      iconName = 'BookOpen';
+    } else if (name.toLowerCase().includes('kannada')) {
+      nameKey = 'subjectKannada';
+      iconName = 'Languages';
+    }
+    
+    // Count child topics
+    const childTopics = nodes.filter(n => 
+      n.nodeType === 'topic' && 
+      (n.parent === concept._id || (n.parent && n.parent._id === concept._id))
+    );
+    
+    const description = concept.metadata?.description || {
+      en: `Learn about ${name} and master key skills.`,
+      hi: `${name} के बारे में जानें और कौशल हासिल करें।`,
+      kn: `${name} ಬಗ್ಗೆ ತಿಳಿಯಿರಿ ಮತ್ತು ಕೌಶಲ್ಯಗಳನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ.`
+    };
+    
+    return {
+      id: concept._id,
+      name,
+      nameKey,
+      desc: typeof description === 'string' ? { en: description, hi: description, kn: description } : description,
+      topicCount: childTopics.length || 1,
+      progressPercent: 0,
+      iconName
+    };
+  });
+}
+
 export default function Home(): React.JSX.Element {
   const router = useRouter();
   const { language, t } = useLanguage();
@@ -107,6 +156,7 @@ export default function Home(): React.JSX.Element {
   const [profile, setProfile] = useState<{ name: string } | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [resumeData, setResumeData] = useState<{ subject: string; topic: string; progress: number } | null>(null);
+  const [subjects, setSubjects] = useState<SubjectItem[]>(SUBJECTS_DATA);
 
   useEffect(() => {
     async function loadDashboard() {
@@ -122,6 +172,23 @@ export default function Home(): React.JSX.Element {
           topic: 'Fractions & Decimals',
           progress: 35
         });
+
+        // Load dynamic subjects
+        try {
+          const response = await apiFetch('/api/v1/curriculum');
+          if (response.ok) {
+            const res = await response.json();
+            if (res && res.success && Array.isArray(res.data) && res.data.length > 0) {
+              const mapped = mapCurriculumToSubjects(res.data);
+              if (mapped.length > 0) {
+                setSubjects(mapped);
+                console.log('[Home Integration] Loaded dynamic concepts from backend:', mapped.map(s => s.name));
+              }
+            }
+          }
+        } catch (apiErr: any) {
+          console.log('[Home Integration] Server offline or database down, using local subjects list:', apiErr.message);
+        }
       } catch (err) {
         console.error(err);
       } finally {
@@ -274,7 +341,7 @@ export default function Home(): React.JSX.Element {
         {/* Subject cards listing */}
         <SectionHeader title={language === 'en' ? 'Your Subjects' : language === 'hi' ? 'आपके विषय' : 'ನಿಮ್ಮ ವಿಷಯಗಳು'} />
         <View style={styles.subjectsList}>
-          {SUBJECTS_DATA.map((sub) => {
+          {subjects.map((sub) => {
             const localizedDesc = sub.desc[language] || sub.desc.en;
             return (
               <SubjectCard

@@ -65,9 +65,30 @@ const getLessonById = async (req, res, next) => {
   }
 };
 
+/**
+ * Fetches a single topic node by its ID.
+ */
+const getTopicById = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const topic = await CurriculumNode.findById(id).lean();
+    if (!topic) {
+      return res.status(404).json({
+        success: false,
+        message: "Topic node not found",
+        error: { code: "NOT_FOUND" }
+      });
+    }
+    return successResponse(res, topic, "Topic fetched successfully");
+  } catch (error) {
+    return next(error);
+  }
+};
+
 module.exports = {
   getCurriculum,
   getSubjectTopics,
   getTopicLessons,
-  getLessonById
+  getLessonById,
+  getTopicById
 };
