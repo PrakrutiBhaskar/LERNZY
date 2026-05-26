@@ -70,16 +70,20 @@ export default function OnboardingDone(): React.JSX.Element {
       scrollable={true}
       contentContainerStyle={styles.container}
     >
+      {/* Background Decorative Glow Blobs */}
+      <View style={[styles.glowBlobLeft, { backgroundColor: colors.primarySubtle }]} />
+      <View style={[styles.glowBlobRight, { backgroundColor: colors.primarySubtle }]} />
+
       <View style={styles.content}>
-        <View style={[styles.avatarCircle, { backgroundColor: colors.primarySubtle }]}>
-          <AppText variant="display" color={colors.primary}>
+        <View style={[styles.avatarCircle, { backgroundColor: colors.primary }]}>
+          <AppText variant="display" color={colors.textOnPrimary} style={styles.avatarChar}>
             {isDownloading ? '⚙️' : '🎉'}
           </AppText>
         </View>
 
         <AppText variant="heading2" style={styles.title} color={colors.textPrimary}>
           {isDownloading
-            ? (language === 'en' ? 'Getting lernzy Ready' : language === 'hi' ? 'विद्या को तैयार कर रहे हैं' : 'ವಿದ್ಯಾ ಸಿದ್ಧಪಡಿಸಲಾಗುತ್ತಿದೆ')
+            ? (language === 'en' ? 'Getting Lernzy Ready' : language === 'hi' ? 'विद्या को तैयार कर रहे हैं' : 'ವಿದ್ಯಾ ಸಿದ್ಧಪಡಿಸಲಾಗುತ್ತಿದೆ')
             : (language === 'en' ? 'Everything is Ready!' : language === 'hi' ? 'सब कुछ तैयार है!' : 'ಎಲ್ಲವೂ ಸಿದ್ಧವಾಗಿದೆ!')}
         </AppText>
 
@@ -91,7 +95,7 @@ export default function OnboardingDone(): React.JSX.Element {
               : 'ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ಸ್ಥಳೀಯ ಭಾಷಾ ಸಂಶ್ಲೇಷಣೆ ಮತ್ತು ತರ್ಕ ಎಂಜಿನ್‌ಗಳನ್ನು ನಾವು ಸ್ಥಾಪಿಸುತ್ತಿದ್ದೇವೆ. ಈ ಹಂತದ ನಂತರ ಯಾವುದೇ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕದ ಅಗತ್ಯವಿರುವುದಿಲ್ಲ.'}
         </AppText>
 
-        <Card style={styles.statusCard}>
+        <Card style={[styles.statusCard, { borderColor: `${colors.primary}15`, borderWidth: 1 }]}>
           {isDownloading && (
             <ActivityIndicator size="small" color={colors.primary} style={styles.spinner} />
           )}
@@ -115,6 +119,7 @@ export default function OnboardingDone(): React.JSX.Element {
           title={language === 'en' ? 'Start Learning' : language === 'hi' ? 'पढ़ना शुरू करें' : 'ಕಲಿಕೆ ಆರಂಭಿಸಿ'}
           disabled={isDownloading}
           onPress={handleFinish}
+          style={styles.btn}
         />
       </View>
     </ScreenContainer>
@@ -124,13 +129,34 @@ export default function OnboardingDone(): React.JSX.Element {
 const styles = StyleSheet.create({
   container: {
     justifyContent: 'space-between',
-    paddingVertical: 20,
+    paddingVertical: 24,
     flexGrow: 1,
+  },
+  glowBlobLeft: {
+    position: 'absolute',
+    top: -50,
+    left: -50,
+    width: 250,
+    height: 250,
+    borderRadius: 125,
+    opacity: 0.5,
+    zIndex: -1,
+  },
+  glowBlobRight: {
+    position: 'absolute',
+    bottom: -60,
+    right: -60,
+    width: 280,
+    height: 280,
+    borderRadius: 140,
+    opacity: 0.45,
+    zIndex: -1,
   },
   content: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    marginVertical: 15,
   },
   avatarCircle: {
     width: 80,
@@ -139,6 +165,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 20,
+    shadowColor: '#5B4FCF',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.2,
+    shadowRadius: 6,
+    elevation: 4,
+  },
+  avatarChar: {
+    fontSize: 36,
   },
   title: {
     fontWeight: '700',
@@ -149,32 +183,49 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginBottom: 30,
     lineHeight: 22,
+    fontWeight: '500',
   },
   statusCard: {
     width: '100%',
-    padding: 16,
+    padding: 20,
+    borderRadius: 16,
+    backgroundColor: '#FFFFFF',
+    shadowColor: '#1C1B18',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.03,
+    shadowRadius: 8,
+    elevation: 2,
     alignItems: 'center',
   },
   spinner: {
-    marginBottom: 10,
+    marginBottom: 12,
   },
   statusText: {
     fontWeight: '600',
-    marginBottom: 12,
+    marginBottom: 14,
     textAlign: 'center',
   },
   progressBg: {
     width: '100%',
-    height: 8,
-    borderRadius: 4,
+    height: 10,
+    borderRadius: 5,
     overflow: 'hidden',
   },
   progressFill: {
     height: '100%',
-    borderRadius: 4,
+    borderRadius: 5,
   },
   footer: {
     marginTop: 20,
+    paddingBottom: 24,
     width: '100%',
+  },
+  btn: {
+    width: '100%',
+    shadowColor: '#5B4FCF',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.2,
+    shadowRadius: 6,
+    elevation: 4,
   },
 });

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, StyleSheet, ScrollView } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { useTheme } from '@/theme/theme';
@@ -65,6 +65,10 @@ export default function OnboardingInterests(): React.JSX.Element {
       scrollable={true}
       contentContainerStyle={styles.container}
     >
+      {/* Background Decorative Glow Blobs */}
+      <View style={[styles.glowBlobLeft, { backgroundColor: colors.primarySubtle }]} />
+      <View style={[styles.glowBlobRight, { backgroundColor: colors.primarySubtle }]} />
+
       <View style={styles.content}>
         <View style={{ marginBottom: 20 }}>
           <ProgressBar progress={0.70} />
@@ -85,10 +89,21 @@ export default function OnboardingInterests(): React.JSX.Element {
       </View>
 
       <View style={styles.footer}>
+        {/* Onboarding step dot indicators */}
+        <View style={styles.dotContainer}>
+          <View style={[styles.dot, { backgroundColor: colors.border }]} />
+          <View style={[styles.dot, { backgroundColor: colors.border }]} />
+          <View style={[styles.dot, { backgroundColor: colors.border }]} />
+          <View style={[styles.dot, { backgroundColor: colors.border }]} />
+          <View style={[styles.dot, styles.activeDot, { backgroundColor: colors.primary }]} />
+          <View style={[styles.dot, { backgroundColor: colors.border }]} />
+        </View>
+
         <Button
           title={language === 'en' ? 'Next' : language === 'hi' ? 'आगे' : 'ಮುಂದಕ್ಕೆ'}
           disabled={selectedInterests.length === 0}
           onPress={handleNext}
+          style={styles.btn}
         />
       </View>
     </ScreenContainer>
@@ -98,17 +113,62 @@ export default function OnboardingInterests(): React.JSX.Element {
 const styles = StyleSheet.create({
   container: {
     justifyContent: 'space-between',
-    paddingVertical: 10,
+    paddingVertical: 24,
     flexGrow: 1,
+  },
+  glowBlobLeft: {
+    position: 'absolute',
+    top: -50,
+    left: -50,
+    width: 250,
+    height: 250,
+    borderRadius: 125,
+    opacity: 0.5,
+    zIndex: -1,
+  },
+  glowBlobRight: {
+    position: 'absolute',
+    bottom: -60,
+    right: -60,
+    width: 280,
+    height: 280,
+    borderRadius: 140,
+    opacity: 0.45,
+    zIndex: -1,
   },
   content: {
     flex: 1,
   },
   subtitle: {
     marginBottom: 24,
+    fontWeight: '500',
   },
   footer: {
     marginTop: 30,
+    paddingBottom: 24,
     width: '100%',
+  },
+  dotContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: 8,
+    marginBottom: 24,
+  },
+  dot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+  },
+  activeDot: {
+    width: 20,
+  },
+  btn: {
+    width: '100%',
+    shadowColor: '#5B4FCF',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.2,
+    shadowRadius: 6,
+    elevation: 4,
   },
 });
