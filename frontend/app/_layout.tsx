@@ -3,6 +3,7 @@ import { Slot, useRouter, useSegments } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useFonts } from 'expo-font';
 import { View, ActivityIndicator, StyleSheet } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { initDatabase } from '@/db/database';
 import { LanguageProvider } from '@/i18n/LanguageContext';
 import { AppText } from '../components/AppText';
@@ -61,9 +62,11 @@ function RouteGuard({ children, isReady }: { children: React.ReactNode; isReady:
 }
 
 export default function RootLayout(): React.JSX.Element | null {
+  const segments = useSegments();
   const [dbReady, setDbReady] = useState<boolean>(false);
   const [dbError, setDbError] = useState<string | null>(null);
   const [fontsProfiled, setFontsProfiled] = useState<boolean>(false);
+  const inHome = segments[0] === '(home)';
 
   // Load custom fonts using expo-font
   const [fontsLoaded, fontError] = useFonts({
@@ -121,29 +124,31 @@ export default function RootLayout(): React.JSX.Element | null {
   const isLoaded = (fontsLoaded || fontError) && (dbReady || dbError);
 
   return (
-    <LanguageProvider>
-      <RouteGuard isReady={!!isLoaded && !dbError}>
-        <View style={{ flex: 1 }}>
-          <Slot />
+    <SafeAreaProvider>
+      <LanguageProvider>
+        <RouteGuard isReady={!!isLoaded}>
+          <View style={{ flex: 1 }}>
+            <Slot />
           
-          {!isLoaded && (
-            <View style={[StyleSheet.absoluteFill, { justifyContent: 'center', alignItems: 'center', backgroundColor: COLORS.bg }]}>
-              <ActivityIndicator size="large" color={COLORS.primary} />
-            </View>
-          )}
+            {!isLoaded && (
+              <View style={[StyleSheet.absoluteFill, { justifyContent: 'center', alignItems: 'center', backgroundColor: COLORS.bg }]}>
+                <ActivityIndicator size="large" color={COLORS.primary} />
+              </View>
+            )}
 
-          {!!dbError && (
-            <View style={[StyleSheet.absoluteFill, { justifyContent: 'center', alignItems: 'center', backgroundColor: COLORS.bg, padding: 20 }]}>
-              <AppText variant="heading1" color={COLORS.error} style={{ marginBottom: 10 }}>
-                Database Error
-              </AppText>
-              <AppText variant="body" color={COLORS.textSecondary} style={{ textAlign: 'center' }}>
-                {dbError}
-              </AppText>
-            </View>
-          )}
-        </View>
-      </RouteGuard>
-    </LanguageProvider>
+            {!!dbError && inHome && (
+              <View style={[StyleSheet.absoluteFill, { justifyContent: 'center', alignItems: 'center', backgroundColor: COLORS.bg, padding: 20 }]}>
+                <AppText variant="heading1" color={COLORS.error} style={{ marginBottom: 10 }}>
+                  Database Error
+                </AppText>
+                <AppText variant="body" color={COLORS.textSecondary} style={{ textAlign: 'center' }}>
+                  {dbError}
+                </AppText>
+              </View>
+            )}
+          </View>
+        </RouteGuard>
+      </LanguageProvider>
+    </SafeAreaProvider>
   );
 }

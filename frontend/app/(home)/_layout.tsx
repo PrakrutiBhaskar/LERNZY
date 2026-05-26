@@ -9,6 +9,7 @@ export default function HomeLayout() {
       <Stack.Screen name="lesson/[topicId]" />
       <Stack.Screen name="quiz/[topicId]" />
       <Stack.Screen name="flashcards/[topicId]" />
+      <Stack.Screen name="coding-sandbox" />
       <Stack.Screen name="progress" />
       <Stack.Screen name="settings" />
       <Stack.Screen name="auth" />

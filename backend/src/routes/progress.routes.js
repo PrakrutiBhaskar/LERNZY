@@ -42,8 +42,19 @@ const validateProgressEvent = (req, res, next) => {
       details.push({ field: `${prefix}payload`, message: "payload must be an object" });
     }
     
-    if (ev && ev.clientTimestamp !== undefined && typeof ev.clientTimestamp !== "number") {
-      details.push({ field: `${prefix}clientTimestamp`, message: "clientTimestamp must be a number" });
+    if (
+      ev &&
+      ev.clientTimestamp !== undefined &&
+      typeof ev.clientTimestamp !== "number" &&
+      typeof ev.clientTimestamp !== "string"
+    ) {
+      details.push({ field: `${prefix}clientTimestamp`, message: "clientTimestamp must be a number or ISO string" });
+    } else if (
+      ev &&
+      typeof ev.clientTimestamp === "string" &&
+      Number.isNaN(Date.parse(ev.clientTimestamp))
+    ) {
+      details.push({ field: `${prefix}clientTimestamp`, message: "clientTimestamp must be a valid date string" });
     }
   });
 

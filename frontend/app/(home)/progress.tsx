@@ -59,7 +59,7 @@ export default function ProgressScreen(): React.JSX.Element {
 
         <View style={styles.badgesList}>
           <Card style={styles.badgeCard}>
-            <View style={[styles.badgeIconBg, { backgroundColor: '#FFF9E6' }]}>
+            <View style={[styles.badgeIconBg, { backgroundColor: colors.warningSubtle }]}>
               <AppText variant="display">🏆</AppText>
             </View>
             <View style={styles.badgeText}>
@@ -73,7 +73,7 @@ export default function ProgressScreen(): React.JSX.Element {
           </Card>
 
           <Card style={styles.badgeCard}>
-            <View style={[styles.badgeIconBg, { backgroundColor: '#EBF5FF' }]}>
+            <View style={[styles.badgeIconBg, { backgroundColor: colors.primarySubtle }]}>
               <AppText variant="display">🔥</AppText>
             </View>
             <View style={styles.badgeText}>

@@ -7,7 +7,7 @@ const { validateEnvironment } = require("./config/env");
 const { initRedis, getRedis } = require("./services/cache.service");
 const logger = require("./utils/logger");
 
-const PORT = Number(process.env.PORT || 5000);
+const PORT = Number(process.env.PORT || 5001);
 
 const startServer = async () => {
   try {

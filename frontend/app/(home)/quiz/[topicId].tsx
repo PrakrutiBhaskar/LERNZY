@@ -10,9 +10,16 @@ import { QuizOption } from '../../../components/QuizOption';
 import { ProgressBar } from '../../../components/ProgressBar';
 import { TutorBubble } from '../../../components/TutorBubble';
 import { ScreenContainer } from '../../../components/ScreenContainer';
-import { getDb } from '@/db/database';
+import { ensureLocalStudent, getDb } from '@/db/database';
 import { queueProgressEvent } from '@/services/sync';
 import { apiFetch } from '@/services/api';
+import { STORAGE_KEYS } from '@/utils/constants';
+import { getObject } from '@/utils/storage';
+import {
+  getQuizQuestions,
+  getTopicSubject,
+  Question as QuizQuestion,
+} from '@/content/learningContent';
 
 interface Question {
   id: string;
@@ -91,8 +98,8 @@ export default function QuizScreen(): React.JSX.Element {
   const { colors, spacing } = useTheme();
 
   const quizKey = topicId || 'fractions';
-  const [questions, setQuestions] = useState<Question[]>(
-    MOCK_QUIZ_BANK[quizKey] || MOCK_QUIZ_BANK.fractions
+  const [questions, setQuestions] = useState<QuizQuestion[]>(
+    getQuizQuestions(quizKey)
   );
 
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -103,6 +110,13 @@ export default function QuizScreen(): React.JSX.Element {
 
   useEffect(() => {
     async function loadQuizQuestions() {
+      setQuestions(getQuizQuestions(quizKey));
+      setCurrentIdx(0);
+      setSelectedIdx(null);
+      setSubmitted(false);
+      setScore(0);
+      setQuizCompleted(false);
+
       try {
         const response = await apiFetch(`/api/v1/topics/${quizKey}`);
         if (response.ok) {
@@ -124,8 +138,8 @@ export default function QuizScreen(): React.JSX.Element {
       async function saveResult() {
         try {
           const db = getDb();
-          const student = await db.getFirstAsync<{ id: number }>('SELECT id FROM students LIMIT 1');
-          const studentId = student ? student.id : 1;
+          const savedProfile = await getObject<any>(STORAGE_KEYS.STUDENT_PROFILE);
+          const studentId = await ensureLocalStudent(savedProfile || {});
           
           await db.runAsync(
             `INSERT INTO quiz_results (student_id, topic_id, score, total, difficulty_level, attempted_at)
@@ -134,7 +148,7 @@ export default function QuizScreen(): React.JSX.Element {
           );
           
           // Queue the progress event to be synched to backend
-          await queueProgressEvent('exercise_solved', 'math', {
+          await queueProgressEvent('exercise_solved', getTopicSubject(quizKey), {
             topicId: quizKey,
             score,
             total: totalQuestions

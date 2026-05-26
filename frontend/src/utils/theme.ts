@@ -2,32 +2,33 @@ import { ViewStyle } from 'react-native';
 
 export const COLORS = {
   // Primary Brand Colours
-  primary: '#5B4FCF',
-  primaryLight: '#8B80E8',
-  primarySubtle: '#EEECfB',
+  primary: '#A78BFA',
+  primaryLight: '#C4B5FD',
+  primarySubtle: '#241F3A',
 
   // Accent Colours (per subject)
-  subjectMath: '#E8760A',
-  subjectScience: '#2A9D5C',
-  subjectSocial: '#D4500F',
-  subjectEnglish: '#1A7AB5',
-  subjectKannada: '#B5320A',
+  subjectMath: '#F59E0B',
+  subjectScience: '#34D399',
+  subjectSocial: '#FB7185',
+  subjectEnglish: '#38BDF8',
+  subjectKannada: '#F97316',
+  subjectCoding: '#22D3EE',
 
   // Semantic Colours
-  success: '#2A9D5C',
-  warning: '#F4A40A',
-  error: '#D63B2F',
-  info: '#1A7AB5',
+  success: '#34D399',
+  warning: '#FBBF24',
+  error: '#F87171',
+  info: '#38BDF8',
 
   // Neutral / Surface Colours
-  bg: '#FAFAF8',
-  surface: '#FFFFFF',
-  surfaceAlt: '#F2F1ED',
-  border: '#DDD9CE',
-  textPrimary: '#1C1B18',
-  textSecondary: '#6B6860',
-  textDisabled: '#AEABA0',
-  textOnPrimary: '#FFFFFF',
+  bg: '#070A12',
+  surface: '#111827',
+  surfaceAlt: '#1F2937',
+  border: '#334155',
+  textPrimary: '#F8FAFC',
+  textSecondary: '#CBD5E1',
+  textDisabled: '#64748B',
+  textOnPrimary: '#070A12',
 } as const;
 
 export const SPACING = {

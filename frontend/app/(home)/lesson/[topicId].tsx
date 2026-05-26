@@ -15,7 +15,7 @@ import { ScreenContainer } from '../../../components/ScreenContainer';
 import { STORAGE_KEYS } from '@/utils/constants';
 import { getObject } from '@/utils/storage';
 import { ArrowLeft, BookOpen, Volume2 } from 'lucide-react-native';
-import { getDb } from '@/db/database';
+import { ensureLocalStudent, getDb } from '@/db/database';
 import { queueProgressEvent } from '@/services/sync';
 import { apiFetch } from '@/services/api';
 
@@ -151,8 +151,8 @@ export default function LessonScreen(): React.JSX.Element {
     async function startSession() {
       try {
         const db = getDb();
-        const student = await db.getFirstAsync<{ id: number }>('SELECT id FROM students LIMIT 1');
-        const studentId = student ? student.id : 1;
+        const savedProfile = await getObject<any>(STORAGE_KEYS.STUDENT_PROFILE);
+        const studentId = await ensureLocalStudent(savedProfile || {});
         
         const result = await db.runAsync(
           `INSERT INTO sessions (student_id, subject, chapter_id, topic_id, mode, started_at)

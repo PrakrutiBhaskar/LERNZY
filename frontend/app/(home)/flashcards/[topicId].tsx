@@ -10,6 +10,10 @@ import { ProgressBar } from '../../../components/ProgressBar';
 import { TutorBubble } from '../../../components/TutorBubble';
 import { FlashCard } from '../../../components/FlashCard';
 import { ScreenContainer } from '../../../components/ScreenContainer';
+import {
+  FlashcardItem as LearningFlashcardItem,
+  getFlashcards,
+} from '@/content/learningContent';
 
 interface FlashcardItem {
   id: string;
@@ -84,10 +88,10 @@ export default function FlashcardsScreen(): React.JSX.Element {
   const { colors, spacing } = useTheme();
 
   const key = topicId || 'fractions';
-  const sourceCards = MOCK_FLASHCARDS_DB[key] || MOCK_FLASHCARDS_DB.fractions;
+  const sourceCards = getFlashcards(key);
 
   // Active stack of cards remaining in review session
-  const [activeCards, setActiveCards] = useState<FlashcardItem[]>([]);
+  const [activeCards, setActiveCards] = useState<LearningFlashcardItem[]>([]);
   const [masteredCount, setMasteredCount] = useState(0);
   const [totalCount, setTotalCount] = useState(0);
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -102,7 +106,7 @@ export default function FlashcardsScreen(): React.JSX.Element {
     setCurrentIdx(0);
     setSessionDone(false);
     setTutorTip(language === 'en' ? "Tap the card to flip it and review the answer." : "उत्तर देखने के लिए फ्लैशकार्ड पर टैप करें।");
-  }, [topicId]);
+  }, [key, language, sourceCards]);
 
   const handleRating = (rating: 'hard' | 'good' | 'easy') => {
     if (activeCards.length === 0) return;
@@ -327,7 +331,7 @@ const styles = StyleSheet.create({
   hookLabel: {
     fontWeight: '700',
     marginBottom: 4,
-    letterSpacing: 0.5,
+    letterSpacing: 0,
   },
   hookText: {
     lineHeight: 20,

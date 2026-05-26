@@ -20,7 +20,7 @@ import { SkeletonLoader } from '../../components/SkeletonLoader';
 interface SubjectItem {
   id: string;
   name: string;
-  nameKey: 'subjectMath' | 'subjectScience' | 'subjectSocial' | 'subjectEnglish' | 'subjectKannada';
+  nameKey: 'subjectMath' | 'subjectScience' | 'subjectSocial' | 'subjectEnglish' | 'subjectKannada' | 'subjectCoding';
   desc: { en: string; hi: string; kn: string };
   topicCount: number;
   progressPercent: number;
@@ -93,6 +93,19 @@ const SUBJECTS_DATA: SubjectItem[] = [
     progressPercent: 50,
     iconName: 'Languages',
   },
+  {
+    id: 'coding',
+    name: 'Coding',
+    nameKey: 'subjectCoding',
+    desc: {
+      en: 'Logic, algorithms, apps, and beginner programming.',
+      hi: 'Logic, algorithms, apps, and beginner programming.',
+      kn: 'Logic, algorithms, apps, and beginner programming.',
+    },
+    topicCount: 4,
+    progressPercent: 0,
+    iconName: 'Code2',
+  },
 ];
 
 const BADGES_DATA = [
@@ -123,6 +136,13 @@ function mapCurriculumToSubjects(nodes: any[]): SubjectItem[] {
     } else if (name.toLowerCase().includes('kannada')) {
       nameKey = 'subjectKannada';
       iconName = 'Languages';
+    } else if (
+      name.toLowerCase().includes('coding') ||
+      name.toLowerCase().includes('code') ||
+      name.toLowerCase().includes('program')
+    ) {
+      nameKey = 'subjectCoding';
+      iconName = 'Code2';
     }
     
     // Count child topics
@@ -147,6 +167,21 @@ function mapCurriculumToSubjects(nodes: any[]): SubjectItem[] {
       iconName
     };
   });
+}
+
+function mergeWithDefaultSubjects(dynamicSubjects: SubjectItem[]): SubjectItem[] {
+  const knownSubjects = new Set(
+    dynamicSubjects.flatMap((subject) => [
+      subject.id.toLowerCase(),
+      subject.name.toLowerCase().replace(/[^a-z]/g, ''),
+    ])
+  );
+  const missingDefaults = SUBJECTS_DATA.filter((subject) => {
+    const normalizedName = subject.name.toLowerCase().replace(/[^a-z]/g, '');
+    return !knownSubjects.has(subject.id.toLowerCase()) && !knownSubjects.has(normalizedName);
+  });
+
+  return [...dynamicSubjects, ...missingDefaults];
 }
 
 export default function Home(): React.JSX.Element {
@@ -182,7 +217,7 @@ export default function Home(): React.JSX.Element {
             if (res && res.success && Array.isArray(res.data) && res.data.length > 0) {
               const mapped = mapCurriculumToSubjects(res.data);
               if (mapped.length > 0) {
-                setSubjects(mapped);
+                setSubjects(mergeWithDefaultSubjects(mapped));
                 console.log('[Home Integration] Loaded dynamic concepts from backend:', mapped.map(s => s.name));
               }
             }
@@ -355,7 +390,7 @@ export default function Home(): React.JSX.Element {
                 iconName={sub.iconName}
                 onPress={() => router.push({
                   pathname: '/(home)/subject/[id]',
-                  params: { id: sub.id }
+                  params: { id: sub.id, name: sub.name }
                 })}
               />
             );

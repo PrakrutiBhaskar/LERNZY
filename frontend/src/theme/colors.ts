@@ -1,34 +1,35 @@
 export const colors = {
   // Primary Brand Colours
-  primary: '#5B4FCF',
-  primaryLight: '#8B80E8',
-  primarySubtle: '#EEECfB',
+  primary: '#A78BFA',
+  primaryLight: '#C4B5FD',
+  primarySubtle: '#241F3A',
 
   // Accent Colours (per subject)
-  subjectMath: '#E8760A',
-  subjectScience: '#2A9D5C',
-  subjectSocial: '#D4500F',
-  subjectEnglish: '#1A7AB5',
-  subjectKannada: '#B5320A',
+  subjectMath: '#F59E0B',
+  subjectScience: '#34D399',
+  subjectSocial: '#FB7185',
+  subjectEnglish: '#38BDF8',
+  subjectKannada: '#F97316',
+  subjectCoding: '#22D3EE',
 
   // Semantic Colours
-  success: '#2A9D5C',
-  successSubtle: '#E8F7EE',
-  warning: '#F4A40A',
-  warningSubtle: '#FEF5E7',
-  error: '#D63B2F', // Only for system errors, never for wrong quiz answers
-  info: '#1A7AB5',
+  success: '#34D399',
+  successSubtle: '#10372D',
+  warning: '#FBBF24',
+  warningSubtle: '#3A2D0D',
+  error: '#F87171', // Only for system errors, never for wrong quiz answers
+  info: '#38BDF8',
 
   // Neutral / Surface Colours
-  bg: '#FAFAF8',
-  surface: '#FFFFFF',
-  surfaceAlt: '#F2F1ED',
-  border: '#DDD9CE',
-  textPrimary: '#1C1B18',
-  textSecondary: '#6B6860',
-  textDisabled: '#AEABA0',
-  textOnPrimary: '#FFFFFF',
-  tutorBubble: '#F0EEFD', // fixed — slight purple tint, always
+  bg: '#070A12',
+  surface: '#111827',
+  surfaceAlt: '#1F2937',
+  border: '#334155',
+  textPrimary: '#F8FAFC',
+  textSecondary: '#CBD5E1',
+  textDisabled: '#64748B',
+  textOnPrimary: '#070A12',
+  tutorBubble: '#1E1B36',
 } as const;
 
 export const subjectColors = {
@@ -39,6 +40,9 @@ export const subjectColors = {
   socialstudies: colors.subjectSocial,
   english: colors.subjectEnglish,
   kannada: colors.subjectKannada,
+  coding: colors.subjectCoding,
+  code: colors.subjectCoding,
+  programming: colors.subjectCoding,
 } as const;
 
 export type ColorsType = typeof colors;

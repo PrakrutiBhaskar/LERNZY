@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS students (
   grade             INTEGER NOT NULL CHECK (grade IN (6, 7, 8)),
   language          TEXT    NOT NULL CHECK (language IN ('en', 'hi', 'kn')),
   interests_json    TEXT    NOT NULL DEFAULT '[]',
-  learning_style    TEXT    NOT NULL DEFAULT 'mixed' CHECK (learning_style IN ('stories', 'diagrams', 'mixed')),
+  learning_style    TEXT    NOT NULL DEFAULT 'mixed' CHECK (learning_style IN ('reading', 'audio', 'quiz', 'mixed')),
   state_board       TEXT    NOT NULL DEFAULT 'karnataka',
   onboarding_done   INTEGER NOT NULL DEFAULT 0,
   created_at        TEXT    NOT NULL DEFAULT (datetime('now')),

@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
   },
   subjectText: {
     fontWeight: '700',
-    letterSpacing: 0.5,
+    letterSpacing: 0,
   },
   topicName: {
     fontWeight: '700',

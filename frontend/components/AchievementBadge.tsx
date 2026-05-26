@@ -40,7 +40,7 @@ export const AchievementBadge: React.FC<AchievementBadgeProps> = React.memo(({
         <View
           style={[
             styles.emojiWrapper,
-            { backgroundColor: unlocked ? '#FFF8E7' : colors.surfaceAlt }
+            { backgroundColor: unlocked ? colors.warningSubtle : colors.surfaceAlt }
           ]}
         >
           <AppText variant="display" style={styles.emoji}>
@@ -99,6 +99,6 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     marginTop: 4,
     textTransform: 'uppercase',
-    letterSpacing: 0.5,
+    letterSpacing: 0,
   },
 });

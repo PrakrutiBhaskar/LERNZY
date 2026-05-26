@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
+import { Code2 } from 'lucide-react-native';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { useTheme, useSubjectColor } from '@/theme/theme';
 import { AppText } from '../../../components/AppText';
 import { Card } from '../../../components/Card';
 import { Button } from '../../../components/Button';
 import { ScreenContainer } from '../../../components/ScreenContainer';
+import { apiFetch } from '@/services/api';
+import { TOPICS_BY_SUBJECT as SUBJECT_TOPIC_BANK } from '@/content/learningContent';
 
 interface TopicItem {
   id: string;
@@ -32,23 +35,73 @@ const TOPICS_BY_SUBJECT: Record<string, TopicItem[]> = {
   kannada: [
     { id: 'sandhi', title: { en: 'Kannada Sandhigalu', hi: 'कन्नड़ संधि', kn: 'ಕನ್ನಡ ಸಂಧಿಗಳು' }, desc: { en: 'Understand joint word formations in grammar.', hi: 'व्याकरण में संयुक्त शब्द रूपों को समझें।', kn: 'ಕನ್ನಡ ವ್ಯಾಕರಣದಲ್ಲಿ ಸಂಧಿ ಪದಗಳ ರಚನೆಯನ್ನು ತಿಳಿಯಿರಿ.' } },
   ],
+  coding: [
+    { id: 'coding-basics', title: { en: 'Coding Basics', hi: 'Coding Basics', kn: 'Coding Basics' }, desc: { en: 'Learn commands, sequences, and how programs follow instructions.', hi: 'Learn commands, sequences, and how programs follow instructions.', kn: 'Learn commands, sequences, and how programs follow instructions.' } },
+    { id: 'logic-loops', title: { en: 'Logic & Loops', hi: 'Logic & Loops', kn: 'Logic & Loops' }, desc: { en: 'Use conditions and repeated steps to solve small problems.', hi: 'Use conditions and repeated steps to solve small problems.', kn: 'Use conditions and repeated steps to solve small problems.' } },
+    { id: 'build-an-app', title: { en: 'Build a Mini App', hi: 'Build a Mini App', kn: 'Build a Mini App' }, desc: { en: 'Plan screens, buttons, and simple interactions for an app idea.', hi: 'Plan screens, buttons, and simple interactions for an app idea.', kn: 'Plan screens, buttons, and simple interactions for an app idea.' } },
+  ],
 };
 
 export default function SubjectDetails(): React.JSX.Element {
-  const { id } = useLocalSearchParams<{ id: string }>();
+  const { id, name } = useLocalSearchParams<{ id: string; name?: string }>();
   const router = useRouter();
   const { language } = useLanguage();
   const { colors, spacing } = useTheme();
 
   const subjectId = id || 'math';
-  const subjectName = 
+  const fallbackSubjectName =
     subjectId === 'math' ? 'Mathematics' :
     subjectId === 'science' ? 'Science' :
     subjectId === 'social' ? 'Social Studies' :
-    subjectId === 'english' ? 'English' : 'Kannada';
+    subjectId === 'english' ? 'English' :
+    subjectId === 'coding' ? 'Coding' : 'Kannada';
+  const subjectName = name || fallbackSubjectName;
 
   const subjectColor = useSubjectColor(subjectName);
-  const topics = TOPICS_BY_SUBJECT[subjectId] || [];
+  const isCodingSubject = /coding|code|program/.test(`${subjectId} ${subjectName}`.toLowerCase());
+  const [topics, setTopics] = useState<TopicItem[]>(SUBJECT_TOPIC_BANK[subjectId] || []);
+
+  useEffect(() => {
+    let active = true;
+
+    async function loadBackendTopics() {
+      if (SUBJECT_TOPIC_BANK[subjectId]) {
+        setTopics(SUBJECT_TOPIC_BANK[subjectId]);
+        return;
+      }
+
+      try {
+        const response = await apiFetch(`/api/v1/subjects/${subjectId}/topics`);
+        if (!response.ok) return;
+
+        const res = await response.json();
+        if (!active || !res?.success || !Array.isArray(res.data)) return;
+
+        const mappedTopics = res.data.map((topic: any) => {
+          const title = topic.name || 'Topic';
+          const description = topic.metadata?.description || `Learn about ${title}.`;
+
+          return {
+            id: topic._id,
+            title: typeof title === 'string' ? { en: title, hi: title, kn: title } : title,
+            desc: typeof description === 'string'
+              ? { en: description, hi: description, kn: description }
+              : description,
+          };
+        });
+
+        setTopics(mappedTopics);
+      } catch (error) {
+        console.log('[Subject Integration] Backend topics unavailable, using local fallback.', error);
+      }
+    }
+
+    loadBackendTopics();
+
+    return () => {
+      active = false;
+    };
+  }, [subjectId]);
 
   return (
     <ScreenContainer
@@ -58,6 +111,32 @@ export default function SubjectDetails(): React.JSX.Element {
       scrollable={true}
     >
       <View style={styles.list}>
+        {isCodingSubject && (
+          <Card style={[styles.sandboxCard, { borderColor: subjectColor }]}>
+            <View style={styles.sandboxHeader}>
+              <View style={[styles.sandboxIcon, { backgroundColor: `${subjectColor}20` }]}>
+                <Code2 size={24} color={subjectColor} />
+              </View>
+              <View style={styles.sandboxCopy}>
+                <AppText variant="heading2" style={styles.topicTitle}>
+                  Coding Sandbox
+                </AppText>
+                <AppText variant="body" color={colors.textSecondary} style={styles.topicDesc}>
+                  Write JavaScript, run it, and check small challenges.
+                </AppText>
+              </View>
+            </View>
+            <Button
+              variant="secondary"
+              title="Open Sandbox"
+              onPress={() => router.push('/(home)/coding-sandbox')}
+              icon={<Code2 size={18} color={subjectColor} />}
+              textColor={subjectColor}
+              style={[styles.sandboxButton, { borderColor: subjectColor }]}
+            />
+          </Card>
+        )}
+
         {topics.map((topic) => {
           const titleText = topic.title[language] || topic.title.en;
           const descText = topic.desc[language] || topic.desc.en;
@@ -76,13 +155,14 @@ export default function SubjectDetails(): React.JSX.Element {
               {/* Action grid for this topic */}
               <View style={styles.actionGrid}>
                 <Button
-                  variant="primary"
+                  variant="secondary"
                   title={language === 'en' ? 'Read' : language === 'hi' ? 'पढ़ें' : 'ಓದಿ'}
                   onPress={() => router.push({
                     pathname: '/(home)/lesson/[topicId]',
                     params: { topicId: topic.id }
                   })}
-                  style={[styles.actionBtn, { backgroundColor: subjectColor }]}
+                  textColor={subjectColor}
+                  style={[styles.actionBtn, { borderColor: subjectColor }]}
                 />
                 
                 <Button
@@ -92,6 +172,7 @@ export default function SubjectDetails(): React.JSX.Element {
                     pathname: '/(home)/quiz/[topicId]',
                     params: { topicId: topic.id }
                   })}
+                  textColor={colors.primary}
                   style={[styles.actionBtn, { borderColor: subjectColor }]}
                 />
 
@@ -102,6 +183,7 @@ export default function SubjectDetails(): React.JSX.Element {
                     pathname: '/(home)/flashcards/[topicId]',
                     params: { topicId: topic.id }
                   })}
+                  textColor={colors.textPrimary}
                   style={styles.actionBtn}
                 />
               </View>
@@ -140,12 +222,37 @@ const styles = StyleSheet.create({
     marginBottom: 16,
     lineHeight: 20,
   },
+  sandboxCard: {
+    borderWidth: 1.5,
+    padding: 18,
+  },
+  sandboxHeader: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    gap: 12,
+  },
+  sandboxIcon: {
+    width: 44,
+    height: 44,
+    borderRadius: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  sandboxCopy: {
+    flex: 1,
+  },
+  sandboxButton: {
+    backgroundColor: 'transparent',
+    marginTop: 14,
+    minHeight: 44,
+  },
   actionGrid: {
     flexDirection: 'row',
     gap: 8,
   },
   actionBtn: {
     flex: 1,
+    backgroundColor: 'transparent',
     paddingVertical: 8,
     minHeight: 40,
   },

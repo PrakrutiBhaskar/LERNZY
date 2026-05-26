@@ -7,7 +7,7 @@ export interface QueuedEvent {
   type: string;
   module: string;
   payload: string; // JSON string
-  client_timestamp: string;
+  client_timestamp: string | number;
   retry_count: number;
 }
 
@@ -55,7 +55,7 @@ export async function queueProgressEvent(
     await initSyncQueueTable();
     const db = getDb();
     const clientGeneratedId = generateUUID();
-    const clientTimestamp = new Date().toISOString();
+    const clientTimestamp = Date.now();
     const payloadStr = JSON.stringify(payload);
 
     await db.runAsync(
@@ -114,7 +114,7 @@ export async function syncQueuedEvents(): Promise<void> {
       module: e.module,
       payload: JSON.parse(e.payload),
       clientGeneratedId: e.client_generated_id,
-      clientTimestamp: e.client_timestamp,
+      clientTimestamp: Number(e.client_timestamp),
       eventVersion: '1.0.0',
       producerVersion: '1.0.0',
     }));
@@ -182,7 +182,7 @@ export async function syncQueuedEvents(): Promise<void> {
       const meResponse = await apiFetch('/api/v1/auth/me');
       if (meResponse.ok) {
         const meBody = await meResponse.json();
-        const updatedUser = meBody.data;
+        const updatedUser = meBody.data?.user;
         if (updatedUser) {
           await setAuthTokens(auth.accessToken!, auth.refreshToken!, updatedUser);
         }

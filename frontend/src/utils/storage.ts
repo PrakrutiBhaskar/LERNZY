@@ -1,9 +1,14 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { Platform } from 'react-native';
+
+const isNodeWebRender = Platform.OS === 'web' && typeof window === 'undefined';
 
 /**
  * Gets a string item from AsyncStorage.
  */
 export async function getItem(key: string): Promise<string | null> {
+  if (isNodeWebRender) return null;
+
   try {
     return await AsyncStorage.getItem(key);
   } catch (error) {
@@ -16,6 +21,8 @@ export async function getItem(key: string): Promise<string | null> {
  * Sets a string item in AsyncStorage.
  */
 export async function setItem(key: string, value: string): Promise<void> {
+  if (isNodeWebRender) return;
+
   try {
     await AsyncStorage.setItem(key, value);
   } catch (error) {
@@ -27,6 +34,8 @@ export async function setItem(key: string, value: string): Promise<void> {
  * Removes an item from AsyncStorage.
  */
 export async function removeItem(key: string): Promise<void> {
+  if (isNodeWebRender) return;
+
   try {
     await AsyncStorage.removeItem(key);
   } catch (error) {

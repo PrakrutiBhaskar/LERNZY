@@ -35,7 +35,7 @@ export const componentStyles = {
   } as ViewStyle,
 
   secondaryButton: {
-    backgroundColor: 'transparent',
+    backgroundColor: colors.surfaceAlt,
     borderWidth: 1.5,
     borderColor: colors.primary,
     borderRadius: radius.md,
@@ -48,7 +48,7 @@ export const componentStyles = {
   } as ViewStyle,
 
   ghostButton: {
-    backgroundColor: 'transparent',
+    backgroundColor: colors.surfaceAlt,
     borderRadius: radius.md,
     paddingVertical: 12,
     paddingHorizontal: 16,
@@ -86,7 +86,7 @@ export const componentStyles = {
   } as TextStyle,
 
   ghostButtonText: {
-    color: colors.primary,
+    color: colors.textPrimary,
     fontSize: typeScale.button.fontSize,
     lineHeight: typeScale.button.lineHeight,
     fontWeight: typeScale.button.fontWeight,
@@ -223,6 +223,9 @@ export function useSubjectColor(subject: string): string {
   }
   if (normalized === 'kannada') {
     return subjectColors.kannada;
+  }
+  if (normalized === 'coding' || normalized === 'code' || normalized === 'programming') {
+    return subjectColors.coding;
   }
 
   return colors.primary; // Fallback brand color

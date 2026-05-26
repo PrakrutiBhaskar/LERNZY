@@ -42,7 +42,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   };
 
   const t = (key: TranslationKey): string => {
-    const dict = TRANSLATIONS[language] || TRANSLATIONS.en;
+    const dict = (TRANSLATIONS[language] || TRANSLATIONS.en) as Partial<typeof TRANSLATIONS.en>;
     return dict[key] || TRANSLATIONS.en[key] || String(key);
   };
 

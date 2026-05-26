@@ -1,174 +1,144 @@
-import React, { useState, useEffect } from 'react';
-import { View, StyleSheet } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
+import { Check } from 'lucide-react-native';
+import { OnboardingFrame } from '../../components/OnboardingFrame';
+import { loadOnboardingProfile, saveOnboardingProfile } from '@/onboarding/profile';
 import { useLanguage } from '@/i18n/LanguageContext';
-import { useTheme } from '@/theme/theme';
-import { AppText } from '../../components/AppText';
-import { Button } from '../../components/Button';
-import { ScreenContainer } from '../../components/ScreenContainer';
-import { STORAGE_KEYS } from '@/utils/constants';
-import { getObject, setObject } from '@/utils/storage';
-import { ProgressBar } from '../../components/ProgressBar';
-import { InterestGrid, InterestItem } from '../../components/InterestGrid';
+import { getOnboardingCopy } from '@/onboarding/copy';
 
-export default function OnboardingInterests(): React.JSX.Element {
+const INTEREST_IDS = ['space', 'nature', 'robots', 'sports', 'stories', 'history'] as const;
+
+export default function InterestsScreen(): React.JSX.Element {
   const router = useRouter();
   const { language } = useLanguage();
-  const { colors } = useTheme();
-
-  const [selectedInterests, setSelectedInterests] = useState<string[]>([]);
+  const copy = getOnboardingCopy(language);
+  const [selected, setSelected] = useState<string[]>([]);
 
   useEffect(() => {
-    async function loadSavedInterests() {
-      const profile = await getObject<any>(STORAGE_KEYS.STUDENT_PROFILE);
-      if (profile && profile.interests) {
-        setSelectedInterests(profile.interests);
+    let active = true;
+
+    async function loadInterests() {
+      const profile = await loadOnboardingProfile();
+      if (active) {
+        setSelected(profile.interests);
       }
     }
-    loadSavedInterests();
+
+    loadInterests();
+
+    return () => {
+      active = false;
+    };
   }, []);
 
-  const handleInterestPress = (key: string) => {
-    if (selectedInterests.includes(key)) {
-      setSelectedInterests(selectedInterests.filter((i) => i !== key));
-    } else {
-      setSelectedInterests([...selectedInterests, key]);
-    }
+  const toggleInterest = (id: string) => {
+    setSelected((current) =>
+      current.includes(id)
+        ? current.filter((item) => item !== id)
+        : [...current, id]
+    );
   };
 
   const handleNext = async () => {
-    if (selectedInterests.length === 0) return;
-
-    try {
-      const profile = (await getObject<any>(STORAGE_KEYS.STUDENT_PROFILE)) || {};
-      profile.interests = selectedInterests;
-      await setObject(STORAGE_KEYS.STUDENT_PROFILE, profile);
-      router.push('/(onboarding)/learning-style');
-    } catch (e) {
-      console.error(e);
-    }
+    await saveOnboardingProfile({ interests: selected });
+    router.push('/(onboarding)/learning-style');
   };
 
-  const interestOptions: InterestItem[] = [
-    { id: 'space', label: language === 'en' ? 'Space & Planets' : language === 'hi' ? 'अंतरिक्ष और ग्रह' : 'ಬಾಹ್ಯಾಕಾಶ & ಗ್ರಹಗಳು', iconName: 'Rocket' },
-    { id: 'nature', label: language === 'en' ? 'Animals & Nature' : language === 'hi' ? 'जानवर और प्रकृति' : 'ಪ್ರಾಣಿಗಳು & ಪ್ರಕೃತಿ', iconName: 'Leaf' },
-    { id: 'robots', label: language === 'en' ? 'Computers & Robots' : language === 'hi' ? 'कंप्यूटर और रोबोट' : 'ಕಂಪ್ಯೂಟರ್ & ರೋಬೋಟ್‌ಗಳು', iconName: 'Bot' },
-    { id: 'history', label: language === 'en' ? 'History & Mysteries' : language === 'hi' ? 'इतिहास और रहस्य' : 'ಇತಿಹಾಸ & ರಹಸ್ಯಗಳು', iconName: 'Compass' },
-    { id: 'sports', label: language === 'en' ? 'Sports & Science' : language === 'hi' ? 'खेल और विज्ञान' : 'ಕ್ರೀಡೆ & ವಿಜ್ಞಾನ', iconName: 'Activity' },
-    { id: 'stories', label: language === 'en' ? 'Stories & Poetry' : language === 'hi' ? 'कहानियां और कविताएं' : 'ಕಥೆಗಳು & ಕವನಗಳು', iconName: 'BookOpen' },
-  ];
-
   return (
-    <ScreenContainer
-      title={language === 'en' ? 'What do you love?' : language === 'hi' ? 'आपको क्या पसंद है?' : 'ನಿಮಗೇನು ಇಷ್ಟ?'}
-      showBackButton={true}
-      scrollable={true}
-      contentContainerStyle={styles.container}
+    <OnboardingFrame
+      title={copy.interestsTitle}
+      subtitle={copy.interestsSubtitle}
+      actionLabel={copy.next}
+      onAction={handleNext}
+      actionDisabled={selected.length === 0}
+      step={5}
     >
-      {/* Background Decorative Glow Blobs */}
-      <View style={[styles.glowBlobLeft, { backgroundColor: colors.primarySubtle }]} />
-      <View style={[styles.glowBlobRight, { backgroundColor: colors.primarySubtle }]} />
+      <View style={styles.grid}>
+        {INTEREST_IDS.map((id, index) => {
+          const active = selected.includes(id);
+          const item = copy.interests[id];
 
-      <View style={styles.content}>
-        <View style={{ marginBottom: 20 }}>
-          <ProgressBar progress={0.70} />
-        </View>
-        <AppText variant="bodyLg" color={colors.textSecondary} style={styles.subtitle}>
-          {language === 'en'
-            ? 'Select at least one interest. We will use it to create personalized tutoring examples.'
-            : language === 'hi'
-            ? 'कम से कम एक रुचि चुनें। हम इसका उपयोग व्यक्तिगत उदाहरण बनाने के लिए करेंगे।'
-            : 'ಕನಿಷ್ಠ ಒಂದು ಆಸಕ್ತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಪಾಠಗಳಲ್ಲಿ ನಿಮ್ಮ ಇಷ್ಟದ ಉದಾಹರಣೆಗಳನ್ನು ನೀಡಲು ಇದು ಸಹಾಯ ಮಾಡುತ್ತದೆ.'}
-        </AppText>
-
-        <InterestGrid
-          items={interestOptions}
-          selectedIds={selectedInterests}
-          onToggle={handleInterestPress}
-        />
+          return (
+            <Pressable
+              key={id}
+              onPress={() => toggleInterest(id)}
+              style={({ pressed }) => [
+                styles.card,
+                index > 1 && styles.cardRowSpacing,
+                active && styles.cardActive,
+                pressed && styles.pressed,
+              ]}
+              accessibilityRole="checkbox"
+              accessibilityState={{ checked: active }}
+            >
+              <View style={[styles.check, active && styles.checkActive]}>
+                {active ? <Check size={15} color="#070A12" strokeWidth={3} /> : null}
+              </View>
+              <Text style={[styles.cardTitle, active && styles.cardTitleActive]}>
+                {item.title}
+              </Text>
+              <Text style={styles.cardSubtitle}>{item.subtitle}</Text>
+            </Pressable>
+          );
+        })}
       </View>
-
-      <View style={styles.footer}>
-        {/* Onboarding step dot indicators */}
-        <View style={styles.dotContainer}>
-          <View style={[styles.dot, { backgroundColor: colors.border }]} />
-          <View style={[styles.dot, { backgroundColor: colors.border }]} />
-          <View style={[styles.dot, { backgroundColor: colors.border }]} />
-          <View style={[styles.dot, { backgroundColor: colors.border }]} />
-          <View style={[styles.dot, styles.activeDot, { backgroundColor: colors.primary }]} />
-          <View style={[styles.dot, { backgroundColor: colors.border }]} />
-        </View>
-
-        <Button
-          title={language === 'en' ? 'Next' : language === 'hi' ? 'आगे' : 'ಮುಂದಕ್ಕೆ'}
-          disabled={selectedInterests.length === 0}
-          onPress={handleNext}
-          style={styles.btn}
-        />
-      </View>
-    </ScreenContainer>
+    </OnboardingFrame>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    justifyContent: 'space-between',
-    paddingVertical: 24,
-    flexGrow: 1,
-  },
-  glowBlobLeft: {
-    position: 'absolute',
-    top: -50,
-    left: -50,
-    width: 250,
-    height: 250,
-    borderRadius: 125,
-    opacity: 0.5,
-    zIndex: -1,
-  },
-  glowBlobRight: {
-    position: 'absolute',
-    bottom: -60,
-    right: -60,
-    width: 280,
-    height: 280,
-    borderRadius: 140,
-    opacity: 0.45,
-    zIndex: -1,
-  },
-  content: {
-    flex: 1,
-  },
-  subtitle: {
-    marginBottom: 24,
-    fontWeight: '500',
-  },
-  footer: {
-    marginTop: 30,
-    paddingBottom: 24,
-    width: '100%',
-  },
-  dotContainer: {
+  grid: {
     flexDirection: 'row',
-    justifyContent: 'center',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+  },
+  card: {
+    width: '48%',
+    minHeight: 132,
+    borderWidth: 1.5,
+    borderColor: '#334155',
+    borderRadius: 16,
+    backgroundColor: '#111827',
+    padding: 14,
+  },
+  cardRowSpacing: {
+    marginTop: 12,
+  },
+  cardActive: {
+    borderColor: '#A78BFA',
+    backgroundColor: '#241F3A',
+  },
+  pressed: {
+    opacity: 0.78,
+  },
+  check: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    borderWidth: 1.5,
+    borderColor: '#334155',
     alignItems: 'center',
-    gap: 8,
-    marginBottom: 24,
+    justifyContent: 'center',
+    marginBottom: 16,
   },
-  dot: {
-    width: 8,
-    height: 8,
-    borderRadius: 4,
+  checkActive: {
+    borderColor: '#A78BFA',
+    backgroundColor: '#A78BFA',
   },
-  activeDot: {
-    width: 20,
+  cardTitle: {
+    color: '#F8FAFC',
+    fontSize: 17,
+    lineHeight: 22,
+    fontWeight: '800',
   },
-  btn: {
-    width: '100%',
-    shadowColor: '#5B4FCF',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.2,
-    shadowRadius: 6,
-    elevation: 4,
+  cardTitleActive: {
+    color: '#C4B5FD',
+  },
+  cardSubtitle: {
+    color: '#CBD5E1',
+    fontSize: 13,
+    lineHeight: 18,
+    marginTop: 4,
   },
 });

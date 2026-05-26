@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 14,
     fontWeight: '700',
-    letterSpacing: 1,
+    letterSpacing: 0,
   },
   textFront: {
     textAlign: 'center',
