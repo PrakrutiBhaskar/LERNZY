@@ -14,7 +14,7 @@ export default function Welcome(): React.JSX.Element {
   const { t } = useLanguage();
 
   return (
-    <ScreenContainer scrollable={false} contentContainerStyle={styles.container}>
+    <ScreenContainer scrollable={true} contentContainerStyle={styles.container}>
       <View style={styles.heroContent}>
         {/* Decorative Badge */}
         <View style={[styles.illustrationCircle, { backgroundColor: colors.primarySubtle }]}>
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
   container: {
     justifyContent: 'space-between',
     paddingVertical: 20,
-    flex: 1,
+    flexGrow: 1,
   },
   heroContent: {
     alignItems: 'center',

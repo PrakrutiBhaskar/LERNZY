@@ -23,7 +23,7 @@ export default function LanguageSelection(): React.JSX.Element {
     <ScreenContainer
       title={t('selectLanguage')}
       showBackButton={true}
-      scrollable={false}
+      scrollable={true}
       contentContainerStyle={styles.container}
     >
       <View style={styles.content}>
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
   container: {
     justifyContent: 'space-between',
     paddingVertical: 10,
-    flex: 1,
+    flexGrow: 1,
   },
   content: {
     flex: 1,

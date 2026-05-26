@@ -51,7 +51,7 @@ export default function OnboardingGrade(): React.JSX.Element {
     <ScreenContainer
       title={language === 'en' ? 'Select Your Class' : language === 'hi' ? 'अपनी कक्षा चुनें' : 'ನಿಮ್ಮ ತರಗತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ'}
       showBackButton={true}
-      scrollable={false}
+      scrollable={true}
       contentContainerStyle={styles.container}
     >
       <View style={styles.content}>
@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
   container: {
     justifyContent: 'space-between',
     paddingVertical: 10,
-    flex: 1,
+    flexGrow: 1,
   },
   content: {
     flex: 1,

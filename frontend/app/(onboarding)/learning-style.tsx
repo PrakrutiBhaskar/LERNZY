@@ -51,7 +51,7 @@ export default function OnboardingLearningStyle(): React.JSX.Element {
     <ScreenContainer
       title={language === 'en' ? 'Choose Learning Style' : language === 'hi' ? 'सीखने की शैली चुनें' : 'ಕಲಿಕಾ ಶೈಲಿಯನ್ನು ಆರಿಸಿ'}
       showBackButton={true}
-      scrollable={false}
+      scrollable={true}
       contentContainerStyle={styles.container}
     >
       <View style={styles.content}>
@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
   container: {
     justifyContent: 'space-between',
     paddingVertical: 10,
-    flex: 1,
+    flexGrow: 1,
   },
   content: {
     flex: 1,

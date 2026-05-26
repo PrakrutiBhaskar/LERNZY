@@ -67,7 +67,7 @@ export default function OnboardingDone(): React.JSX.Element {
     <ScreenContainer
       title={language === 'en' ? 'Model Setup' : language === 'hi' ? 'मॉडल सेटअप' : 'ಮಾದರಿ ಸ್ಥಾಪನೆ'}
       showBackButton={false}
-      scrollable={false}
+      scrollable={true}
       contentContainerStyle={styles.container}
     >
       <View style={styles.content}>
@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
   container: {
     justifyContent: 'space-between',
     paddingVertical: 20,
-    flex: 1,
+    flexGrow: 1,
   },
   content: {
     flex: 1,

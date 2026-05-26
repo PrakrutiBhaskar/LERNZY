@@ -99,6 +99,7 @@ const styles = StyleSheet.create({
   container: {
     justifyContent: 'space-between',
     paddingVertical: 10,
+    flexGrow: 1,
   },
   content: {
     flex: 1,

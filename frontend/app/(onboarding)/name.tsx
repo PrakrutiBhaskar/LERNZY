@@ -56,7 +56,7 @@ export default function OnboardingName(): React.JSX.Element {
     <ScreenContainer
       title={language === 'en' ? 'Introduce Yourself' : language === 'hi' ? 'अपना परिचय दें' : 'ನಿಮ್ಮ ಪರಿಚಯ ಮಾಡಿಕೊಳ್ಳಿ'}
       showBackButton={true}
-      scrollable={false}
+      scrollable={true}
       contentContainerStyle={styles.container}
     >
       <View style={styles.content}>
@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
   container: {
     justifyContent: 'space-between',
     paddingVertical: 10,
-    flex: 1,
+    flexGrow: 1,
   },
   content: {
     flex: 1,
