@@ -28,6 +28,7 @@ export const AppText: React.FC<AppTextProps> = ({
       style={[
         { color: color || colors.textPrimary },
         fontStyle,
+        { flexShrink: 1 },
         style,
       ]}
       {...props}

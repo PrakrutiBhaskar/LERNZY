@@ -139,6 +139,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
+    paddingHorizontal: 4,
+    width: '100%',
   },
 
   iconContainer: {
@@ -148,6 +150,7 @@ const styles = StyleSheet.create({
   },
 
   text: {
+    flexShrink: 1,
     textAlign: 'center',
   },
 });

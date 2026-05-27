@@ -87,8 +87,8 @@ export const SubjectCard: React.FC<SubjectCardProps> = React.memo(({
 
 const styles = StyleSheet.create({
   card: {
-    paddingLeft: 12,
-    paddingVertical: 16,
+    paddingLeft: 16,
+    paddingVertical: 18,
   },
   header: {
     flexDirection: 'row',
@@ -119,8 +119,7 @@ const styles = StyleSheet.create({
     borderRadius: 6,
   },
   desc: {
-    marginBottom: 14,
-    lineHeight: 20,
+    marginBottom: 18,
   },
   progressContainer: {
     flexDirection: 'row',

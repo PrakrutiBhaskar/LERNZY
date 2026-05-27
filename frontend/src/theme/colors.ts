@@ -22,12 +22,12 @@ export const colors = {
 
   // Neutral / Surface Colours
   bg: '#070A12',
-  surface: '#111827',
-  surfaceAlt: '#1F2937',
-  border: '#334155',
+  surface: '#141B2A',
+  surfaceAlt: '#243044',
+  border: '#475569',
   textPrimary: '#F8FAFC',
-  textSecondary: '#CBD5E1',
-  textDisabled: '#64748B',
+  textSecondary: '#D9E2F1',
+  textDisabled: '#94A3B8',
   textOnPrimary: '#070A12',
   tutorBubble: '#1E1B36',
 } as const;

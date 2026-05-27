@@ -286,7 +286,7 @@ export default function FlashcardsScreen(): React.JSX.Element {
 
 const styles = StyleSheet.create({
   container: {
-    gap: 16,
+    gap: 20,
   },
   completeContainer: {
     justifyContent: 'center',
@@ -294,7 +294,7 @@ const styles = StyleSheet.create({
   },
   progressSection: {
     marginBottom: 8,
-    gap: 6,
+    gap: 8,
   },
   progressLabelRow: {
     flexDirection: 'row',
@@ -304,7 +304,7 @@ const styles = StyleSheet.create({
   tutorRow: {
     flexDirection: 'row',
     alignItems: 'flex-start',
-    gap: 8,
+    gap: 10,
     marginBottom: 4,
   },
   avatarCircle: {
@@ -320,10 +320,10 @@ const styles = StyleSheet.create({
   },
   cardArea: {
     width: '100%',
-    height: 250,
+    minHeight: 280,
   },
   hookCard: {
-    padding: 14,
+    padding: 18,
     borderWidth: 1.5,
     borderStyle: 'dashed',
     marginTop: 4,
@@ -334,12 +334,12 @@ const styles = StyleSheet.create({
     letterSpacing: 0,
   },
   hookText: {
-    lineHeight: 20,
+    lineHeight: 27,
     fontStyle: 'italic',
   },
   ratingsWrapper: {
-    marginTop: 10,
-    gap: 10,
+    marginTop: 14,
+    gap: 12,
     alignItems: 'center',
   },
   ratingsHint: {
@@ -347,12 +347,12 @@ const styles = StyleSheet.create({
   },
   buttonsRow: {
     flexDirection: 'row',
-    gap: 10,
+    gap: 12,
     width: '100%',
   },
   ratingBtn: {
     flex: 1,
-    minHeight: 48,
+    minHeight: 52,
   },
   summaryCard: {
     padding: 30,

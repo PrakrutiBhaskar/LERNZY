@@ -205,12 +205,12 @@ export default function SubjectDetails(): React.JSX.Element {
 
 const styles = StyleSheet.create({
   list: {
-    gap: 20,
-    marginTop: 10,
+    gap: 18,
+    marginTop: 12,
   },
   topicCard: {
     borderLeftWidth: 6,
-    paddingLeft: 14,
+    paddingLeft: 16,
   },
   cardHeader: {
     marginBottom: 6,
@@ -219,8 +219,7 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   topicDesc: {
-    marginBottom: 16,
-    lineHeight: 20,
+    marginBottom: 18,
   },
   sandboxCard: {
     borderWidth: 1.5,
@@ -248,13 +247,16 @@ const styles = StyleSheet.create({
   },
   actionGrid: {
     flexDirection: 'row',
-    gap: 8,
+    flexWrap: 'wrap',
+    gap: 10,
   },
   actionBtn: {
-    flex: 1,
+    flexGrow: 1,
+    flexBasis: 96,
     backgroundColor: 'transparent',
-    paddingVertical: 8,
-    minHeight: 40,
+    paddingHorizontal: 8,
+    paddingVertical: 10,
+    minHeight: 46,
   },
   emptyCard: {
     padding: 30,

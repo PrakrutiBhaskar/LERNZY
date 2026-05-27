@@ -102,8 +102,10 @@ export const componentStyles = {
   // Cards
   standardCard: {
     backgroundColor: colors.surface,
+    borderWidth: 1,
+    borderColor: colors.border,
     borderRadius: radius.md,
-    padding: spacing.space4,
+    padding: spacing.space5,
     ...shadows.card,
   } as ViewStyle,
 
@@ -112,7 +114,7 @@ export const componentStyles = {
     borderWidth: 1.5,
     borderColor: colors.primary,
     borderRadius: radius.md,
-    padding: spacing.space4,
+    padding: spacing.space5,
     ...shadows.none,
   } as ViewStyle,
 
@@ -142,7 +144,7 @@ export const componentStyles = {
     backgroundColor: colors.tutorBubble,
     borderRadius: radius.lg,
     borderTopLeftRadius: 4, // "speech bubble from top-left"
-    padding: spacing.space4,
+    padding: spacing.space5,
     maxWidth: '90%',
   } as ViewStyle,
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, StyleSheet, ScrollView, Pressable } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useLanguage } from '@/i18n/LanguageContext';
@@ -14,10 +14,30 @@ import { LoadingDots } from '../../../components/LoadingDots';
 import { ScreenContainer } from '../../../components/ScreenContainer';
 import { STORAGE_KEYS } from '@/utils/constants';
 import { getObject } from '@/utils/storage';
-import { ArrowLeft, BookOpen, Volume2 } from 'lucide-react-native';
 import { ensureLocalStudent, getDb } from '@/db/database';
 import { queueProgressEvent } from '@/services/sync';
 import { apiFetch } from '@/services/api';
+import {
+  getLessonContent,
+  getTopicSubject,
+  LessonContent,
+} from '@/content/learningContent';
+
+function mergeLessonContent(topicId: string, metadata: Partial<LessonContent>): LessonContent {
+  const fallback = getLessonContent(topicId);
+
+  return {
+    ...fallback,
+    ...metadata,
+    title: metadata.title || fallback.title,
+    base_story_template: metadata.base_story_template || fallback.base_story_template,
+    concept_explanation: metadata.concept_explanation || fallback.concept_explanation,
+    worked_example: metadata.worked_example || fallback.worked_example,
+    key_points: metadata.key_points || fallback.key_points,
+    interest_placeholders: metadata.interest_placeholders || fallback.interest_placeholders,
+    diagram: metadata.diagram || fallback.diagram,
+  };
+}
 
 const MOCK_LESSONS_DB: Record<string, any> = {
   fractions: {
@@ -105,15 +125,18 @@ export default function LessonScreen(): React.JSX.Element {
   const [profile, setProfile] = useState<{ name: string; interests?: string[] }>({ name: 'Friend', interests: ['space'] });
   const [isNarrating, setIsNarrating] = useState(false);
 
-  // Get current topic structure or fallback
-  const [currentTopic, setCurrentTopic] = useState<any>(
-    MOCK_LESSONS_DB[topicId || 'fractions'] || MOCK_LESSONS_DB.fractions
+  const topicKey = topicId || 'fractions';
+  const subjectKey = getTopicSubject(topicKey);
+
+  const [currentTopic, setCurrentTopic] = useState<LessonContent>(
+    getLessonContent(topicKey)
   );
 
   useEffect(() => {
     async function loadLessonProfile() {
       try {
         setIsLoading(true);
+        setCurrentTopic(getLessonContent(topicKey));
         const savedProfile = await getObject<any>(STORAGE_KEYS.STUDENT_PROFILE);
         if (savedProfile) {
           setProfile(savedProfile);
@@ -121,13 +144,13 @@ export default function LessonScreen(): React.JSX.Element {
         
         // Fully integrated backend fetch
         try {
-          const response = await apiFetch(`/api/v1/topics/${topicId || 'fractions'}/lessons`);
+          const response = await apiFetch(`/api/v1/topics/${topicKey}/lessons`);
           if (response.ok) {
             const res = await response.json();
             if (res && res.success && Array.isArray(res.data) && res.data.length > 0) {
               const firstLessonNode = res.data[0];
               if (firstLessonNode && firstLessonNode.metadata) {
-                setCurrentTopic(firstLessonNode.metadata);
+                setCurrentTopic(mergeLessonContent(topicKey, firstLessonNode.metadata));
                 console.log('[Lesson Integration] Successfully loaded lesson node from backend:', firstLessonNode.name);
               }
             }
@@ -142,7 +165,7 @@ export default function LessonScreen(): React.JSX.Element {
       }
     }
     loadLessonProfile();
-  }, [topicId]);
+  }, [topicKey]);
 
   useEffect(() => {
     let sessionId: number | null = null;
@@ -157,7 +180,7 @@ export default function LessonScreen(): React.JSX.Element {
         const result = await db.runAsync(
           `INSERT INTO sessions (student_id, subject, chapter_id, topic_id, mode, started_at)
            VALUES (?, ?, ?, ?, ?, ?)`,
-          [studentId, 'mathematics', topicId || 'fractions', topicId || 'fractions', 'lesson', startedAt]
+          [studentId, subjectKey, topicKey, topicKey, 'lesson', startedAt]
         );
         sessionId = result.lastInsertRowId;
         console.log(`[Session Sync] Started lesson session: ${sessionId}`);
@@ -182,11 +205,11 @@ export default function LessonScreen(): React.JSX.Element {
             );
             
             // Queue the sync event for backend integration (rewards 10 XP on coding)
-            await queueProgressEvent('lesson_completed', 'coding', {
-              topicId: topicId || 'fractions',
+            await queueProgressEvent('lesson_completed', subjectKey, {
+              topicId: topicKey,
               durationSeconds: duration
             });
-            console.log(`[Session Sync] Ended & queued lesson_completed event for: ${topicId || 'fractions'}`);
+            console.log(`[Session Sync] Ended & queued lesson_completed event for: ${topicKey}`);
           } catch (err) {
             console.error('[Session Sync] Failed to end session:', err);
           }
@@ -194,7 +217,7 @@ export default function LessonScreen(): React.JSX.Element {
         endSession();
       }
     };
-  }, [topicId]);
+  }, [subjectKey, topicKey]);
 
   if (isLoading) {
     return (
@@ -269,7 +292,7 @@ export default function LessonScreen(): React.JSX.Element {
       {/* 2. Concept Explanation */}
       <Card style={styles.card}>
         <AppText variant="heading2" style={styles.sectionTitle} color={colors.primary}>
-          📚 What's Going On?
+          What's Going On?
         </AppText>
         <AppText variant="bodyLg" color={colors.textPrimary} style={styles.bodyText}>
           {conceptText}
@@ -279,16 +302,16 @@ export default function LessonScreen(): React.JSX.Element {
       {/* 3. Diagram Viewer (Visual explanation) */}
       <View style={styles.diagramContainer}>
         <DiagramViewer
-          source="https://picsum.photos/seed/math/360/240"
-          caption="Visualizing Addition of Unlike Fractions (1/3 + 1/4)"
-          description="A circle split into three equal portions represents 1/3. Another circle split into four equal portions represents 1/4. We divide both into 12 equal sections to combine them as 4/12 and 3/12, making 7/12 total."
+          source={currentTopic.diagram.source}
+          caption={currentTopic.diagram.caption}
+          description={currentTopic.diagram.description}
         />
       </View>
 
       {/* 4. Worked Example */}
       <Card style={styles.card}>
         <AppText variant="heading2" style={styles.sectionTitle} color={colors.primary}>
-          📝 Step-by-Step Example
+          Step-by-Step Example
         </AppText>
         
         <View style={[styles.problemBox, { backgroundColor: colors.surfaceAlt, borderRadius: radius.md }]}>
@@ -312,12 +335,12 @@ export default function LessonScreen(): React.JSX.Element {
       {/* 5. Key Points */}
       <Card style={styles.card}>
         <AppText variant="heading2" style={styles.sectionTitle} color={colors.primary}>
-          💡 Key Reminders
+          Key Reminders
         </AppText>
         <View style={styles.stepsBox}>
           {keyPointsList.map((point: string, i: number) => (
             <View key={i} style={styles.stepRow}>
-              <AppText variant="heading2" style={{ marginRight: 6 }}>⭐</AppText>
+              <View style={[styles.bullet, { backgroundColor: colors.primary }]} />
               <AppText variant="bodyLg" style={styles.stepText}>
                 {point}
               </AppText>
@@ -329,7 +352,7 @@ export default function LessonScreen(): React.JSX.Element {
       {/* 6. Quiz CTA section */}
       <Card style={[styles.ctaCard, { backgroundColor: colors.primarySubtle }]}>
         <AppText variant="heading1" style={styles.ctaTitle} color={colors.primary}>
-          Ready for a Challenge? 🧠
+          Ready for a Challenge?
         </AppText>
         <AppText variant="bodyLg" color={colors.textSecondary} style={styles.ctaDesc}>
           Let's test what you just learned with a fun, short quiz!
@@ -349,7 +372,7 @@ export default function LessonScreen(): React.JSX.Element {
 
 const styles = StyleSheet.create({
   container: {
-    gap: 16,
+    gap: 20,
   },
   center: {
     flex: 1,
@@ -374,7 +397,7 @@ const styles = StyleSheet.create({
   tutorContainer: {
     flexDirection: 'row',
     alignItems: 'flex-start',
-    gap: 8,
+    gap: 10,
   },
   avatarCircle: {
     width: 36,
@@ -400,20 +423,20 @@ const styles = StyleSheet.create({
     lineHeight: 24,
   },
   card: {
-    padding: 18,
+    padding: 22,
   },
   sectionTitle: {
     fontWeight: '700',
-    marginBottom: 12,
+    marginBottom: 14,
   },
   bodyText: {
-    lineHeight: 26,
+    lineHeight: 29,
   },
   diagramContainer: {
     width: '100%',
   },
   problemBox: {
-    paddingVertical: 18,
+    paddingVertical: 20,
     paddingHorizontal: 20,
     alignItems: 'center',
     justifyContent: 'center',
@@ -421,10 +444,12 @@ const styles = StyleSheet.create({
   },
   problemText: {
     fontWeight: '800',
-    fontSize: 28,
+    fontSize: 26,
+    lineHeight: 34,
+    textAlign: 'center',
   },
   stepsBox: {
-    gap: 12,
+    gap: 14,
   },
   stepRow: {
     flexDirection: 'row',
@@ -440,10 +465,10 @@ const styles = StyleSheet.create({
   },
   stepText: {
     flex: 1,
-    lineHeight: 24,
+    lineHeight: 28,
   },
   ctaCard: {
-    padding: 20,
+    padding: 24,
     alignItems: 'center',
     marginTop: 10,
   },

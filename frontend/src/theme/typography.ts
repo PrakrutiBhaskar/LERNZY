@@ -25,43 +25,43 @@ export interface TypographyToken {
 
 export const typeScale: Record<TypographyVariant, TypographyToken> = {
   display: {
-    fontSize: 28,
-    lineHeight: 36, // 28 * 1.3 = 36.4
+    fontSize: 30,
+    lineHeight: 39,
     fontWeight: '700',
   },
   heading1: {
-    fontSize: 22,
-    lineHeight: 30, // 22 * 1.35 = 29.7
+    fontSize: 24,
+    lineHeight: 32,
     fontWeight: '700',
   },
   heading2: {
-    fontSize: 18,
-    lineHeight: 25, // 18 * 1.4 = 25.2
+    fontSize: 19,
+    lineHeight: 27,
     fontWeight: '600',
   },
   bodyLg: {
-    fontSize: 16,
-    lineHeight: 26, // 16 * 1.6 = 25.6
+    fontSize: 17,
+    lineHeight: 28,
     fontWeight: '400',
   },
   body: {
-    fontSize: 15,
-    lineHeight: 24, // 15 * 1.6 = 24
+    fontSize: 16,
+    lineHeight: 26,
     fontWeight: '400',
   },
   bodySm: {
-    fontSize: 13,
-    lineHeight: 20, // 13 * 1.5 = 19.5
+    fontSize: 14,
+    lineHeight: 22,
     fontWeight: '400',
   },
   caption: {
-    fontSize: 11,
-    lineHeight: 15, // 11 * 1.4 = 15.4
+    fontSize: 12,
+    lineHeight: 17,
     fontWeight: '400',
   },
   button: {
-    fontSize: 15,
-    lineHeight: 15,
+    fontSize: 16,
+    lineHeight: 20,
     fontWeight: '600',
   },
 };

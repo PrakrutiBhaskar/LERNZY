@@ -370,7 +370,7 @@ export default function QuizScreen(): React.JSX.Element {
 
 const styles = StyleSheet.create({
   container: {
-    gap: 16,
+    gap: 20,
   },
   completeContainer: {
     justifyContent: 'center',
@@ -378,7 +378,7 @@ const styles = StyleSheet.create({
   },
   progressSection: {
     marginBottom: 8,
-    gap: 6,
+    gap: 8,
   },
   progressLabelRow: {
     flexDirection: 'row',
@@ -388,7 +388,7 @@ const styles = StyleSheet.create({
   tutorRow: {
     flexDirection: 'row',
     alignItems: 'flex-start',
-    gap: 8,
+    gap: 10,
     marginBottom: 4,
   },
   avatarCircle: {
@@ -403,21 +403,21 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   questionCard: {
-    padding: 20,
+    padding: 24,
   },
   questionText: {
     fontWeight: '700',
-    lineHeight: 26,
+    lineHeight: 30,
   },
   optionsList: {
-    gap: 12,
+    gap: 14,
   },
   optionItem: {
-    paddingVertical: 14,
-    paddingHorizontal: 16,
+    paddingVertical: 16,
+    paddingHorizontal: 18,
   },
   explanationCard: {
-    padding: 16,
+    padding: 20,
     borderLeftWidth: 5,
   },
   explTitle: {
@@ -425,7 +425,7 @@ const styles = StyleSheet.create({
     marginBottom: 6,
   },
   actionSection: {
-    marginTop: 10,
+    marginTop: 14,
   },
   summaryCard: {
     padding: 30,

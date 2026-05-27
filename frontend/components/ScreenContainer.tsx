@@ -47,7 +47,7 @@ export const ScreenContainer: React.FC<ScreenContainerProps> = ({
     if (!title && !showBackButton) return null;
 
     return (
-      <View style={[styles.headerContainer, { marginBottom: spacing.space4 }]}>
+      <View style={[styles.headerContainer, { marginBottom: spacing.space5 }]}>
         {showBackButton && (
           <Pressable
             onPress={handleBack}
@@ -67,7 +67,7 @@ export const ScreenContainer: React.FC<ScreenContainerProps> = ({
             </AppText>
           )}
           {subtitle && (
-            <AppText variant="bodySm" color={colors.textSecondary}>
+            <AppText variant="body" color={colors.textSecondary} style={styles.subtitle}>
               {subtitle}
             </AppText>
           )}
@@ -95,7 +95,7 @@ export const ScreenContainer: React.FC<ScreenContainerProps> = ({
             style={styles.scrollView}
             contentContainerStyle={[
               styles.scrollContent,
-              { paddingHorizontal: spacing.space5, paddingBottom: spacing.space8 },
+              { paddingHorizontal: spacing.space5, paddingBottom: spacing.space12 },
               contentContainerStyle,
             ]}
           >
@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     paddingHorizontal: 20,
-    paddingTop: 10,
+    paddingTop: 14,
     gap: 12,
   },
   backButton: {
@@ -147,5 +147,8 @@ const styles = StyleSheet.create({
   },
   title: {
     fontWeight: '700',
+  },
+  subtitle: {
+    marginTop: 4,
   },
 });
