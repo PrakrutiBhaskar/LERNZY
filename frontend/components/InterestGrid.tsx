@@ -53,13 +53,14 @@ export const InterestGrid: React.FC<InterestGridProps> = ({
                   styles.card,
                   {
                     padding: spacing.space4,
-                    borderColor: isSelected ? colors.primary : colors.surfaceAlt,
+                    backgroundColor: isSelected ? colors.primarySubtle : colors.tertiaryFixed,
                   },
                 ]}
               >
                 <IconComponent
-                  size={28}
-                  color={isSelected ? colors.primary : colors.textSecondary}
+                  size={38}
+                  strokeWidth={2.4}
+                  color={isSelected ? colors.primary : colors.tertiary}
                   style={styles.icon}
                 />
                 <AppText
@@ -96,11 +97,11 @@ const styles = StyleSheet.create({
     height: 100,
     alignItems: 'center',
     justifyContent: 'center',
-    borderRadius: 16,
-    borderWidth: 2,
+    borderRadius: 24,
+    overflow: 'hidden',
   },
   icon: {
-    marginBottom: 6,
+    marginBottom: 4,
   },
   label: {
     fontWeight: '700',

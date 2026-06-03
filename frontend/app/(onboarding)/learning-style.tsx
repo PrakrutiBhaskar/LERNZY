@@ -9,6 +9,8 @@ import {
 } from '@/onboarding/profile';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { getOnboardingCopy } from '@/onboarding/copy';
+import { type ColorsType } from '@/theme/colors';
+import { useTheme } from '@/theme/theme';
 
 type SelectableLearningStyle = Exclude<LearningStyleId, 'mixed'>;
 
@@ -18,6 +20,8 @@ export default function LearningStyleScreen(): React.JSX.Element {
   const router = useRouter();
   const { language } = useLanguage();
   const copy = getOnboardingCopy(language);
+  const { colors } = useTheme();
+  const styles = createStyles(colors);
   const [selected, setSelected] = useState<SelectableLearningStyle | null>(null);
 
   useEffect(() => {
@@ -87,7 +91,7 @@ export default function LearningStyleScreen(): React.JSX.Element {
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: ColorsType) => StyleSheet.create({
   list: {
     width: '100%',
   },
@@ -96,17 +100,14 @@ const styles = StyleSheet.create({
   },
   option: {
     minHeight: 94,
-    borderWidth: 1.5,
-    borderColor: '#334155',
-    borderRadius: 18,
-    backgroundColor: '#111827',
+    borderRadius: 24,
+    backgroundColor: colors.surfaceContainerLowest,
     padding: 18,
     flexDirection: 'row',
     alignItems: 'center',
   },
   optionActive: {
-    borderColor: '#A78BFA',
-    backgroundColor: '#241F3A',
+    backgroundColor: colors.primarySubtle,
   },
   pressed: {
     opacity: 0.78,
@@ -115,35 +116,34 @@ const styles = StyleSheet.create({
     width: 24,
     height: 24,
     borderRadius: 12,
-    borderWidth: 2,
-    borderColor: '#334155',
+    backgroundColor: colors.surfaceContainerHighest,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 14,
   },
   radioActive: {
-    borderColor: '#A78BFA',
+    backgroundColor: colors.primaryContainer,
   },
   radioDot: {
     width: 12,
     height: 12,
     borderRadius: 6,
-    backgroundColor: '#A78BFA',
+    backgroundColor: colors.textOnPrimary,
   },
   textCol: {
     flex: 1,
   },
   optionTitle: {
-    color: '#F8FAFC',
+    color: colors.textPrimary,
     fontSize: 18,
     lineHeight: 24,
     fontWeight: '800',
   },
   optionTitleActive: {
-    color: '#C4B5FD',
+    color: colors.primary,
   },
   optionSubtitle: {
-    color: '#CBD5E1',
+    color: colors.textSecondary,
     fontSize: 14,
     lineHeight: 20,
     marginTop: 4,

@@ -40,7 +40,7 @@ export const SubjectCard: React.FC<SubjectCardProps> = React.memo(({
       onPress={onPress}
       style={[
         styles.card,
-        { borderLeftWidth: 6, borderLeftColor: subjectColor }
+        { backgroundColor: `${subjectColor}12` }
       ]}
       accessible={true}
       accessibilityRole="button"
@@ -87,7 +87,7 @@ export const SubjectCard: React.FC<SubjectCardProps> = React.memo(({
 
 const styles = StyleSheet.create({
   card: {
-    paddingLeft: 16,
+    paddingLeft: 18,
     paddingVertical: 18,
   },
   header: {
@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
   badge: {
     paddingHorizontal: 8,
     paddingVertical: 4,
-    borderRadius: 6,
+    borderRadius: 16,
   },
   desc: {
     marginBottom: 18,

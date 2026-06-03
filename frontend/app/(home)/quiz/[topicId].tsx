@@ -333,7 +333,7 @@ export default function QuizScreen(): React.JSX.Element {
 
       {/* Adaptive Explanation Card */}
       {submitted && (
-        <Card style={[styles.explanationCard, { borderLeftColor: colors.success }]}>
+        <Card style={[styles.explanationCard, { backgroundColor: colors.successSubtle }]}>
           <AppText variant="heading2" color={colors.success} style={styles.explTitle}>
             {selectedIdx === activeQuestion.correct_index
               ? (language === 'en' ? 'Correct!' : language === 'hi' ? 'सही उत्तर!' : 'ಸರಿಯಾದ ಉತ್ತರ!')
@@ -418,7 +418,6 @@ const styles = StyleSheet.create({
   },
   explanationCard: {
     padding: 20,
-    borderLeftWidth: 5,
   },
   explTitle: {
     fontWeight: '700',

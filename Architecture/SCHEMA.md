@@ -224,11 +224,7 @@ LIMIT 5;
 ```typescript
 import * as SQLite from 'expo-sqlite';
 
-<<<<<<< HEAD
-const db = SQLite.openDatabaseSync('lernzytutor.db');
-=======
 const db = SQLite.openDatabaseSync('lernzy.db');
->>>>>>> a079109adeeaff26d55b11069bb98ccd713d9f87
 
 export async function initDatabase(): Promise<void> {
   await runMigration('001_initial');

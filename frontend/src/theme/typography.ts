@@ -25,8 +25,8 @@ export interface TypographyToken {
 
 export const typeScale: Record<TypographyVariant, TypographyToken> = {
   display: {
-    fontSize: 30,
-    lineHeight: 39,
+    fontSize: 44,
+    lineHeight: 54,
     fontWeight: '700',
   },
   heading1: {
@@ -35,8 +35,8 @@ export const typeScale: Record<TypographyVariant, TypographyToken> = {
     fontWeight: '700',
   },
   heading2: {
-    fontSize: 19,
-    lineHeight: 27,
+    fontSize: 20,
+    lineHeight: 28,
     fontWeight: '600',
   },
   bodyLg: {
@@ -71,7 +71,7 @@ export const typeScale: Record<TypographyVariant, TypographyToken> = {
  *
  * Rules implemented:
  * 1. Sets NotoSans, NotoSansDevanagari, or NotoSansKannada based on language.
- * 2. Add 2px extra line height for 'kn' and 'hi' scripts.
+ * 2. Give Kannada a 20% larger line height for vowel markers.
  * 3. Use 16sp (bodyLg) as the absolute minimum size for 'kn' and 'hi' scripts (raises body, bodySm, caption).
  */
 export function getFontStyle(variant: TypographyVariant, lang: LanguageCode = 'en'): TextStyle {
@@ -86,8 +86,14 @@ export function getFontStyle(variant: TypographyVariant, lang: LanguageCode = 'e
     lineHeight = typeScale.bodyLg.lineHeight;
   }
 
-  // Rule 2: Kannada and Devanagari scripts are taller than Latin -> add 2px extra line height
-  if (lang === 'hi' || lang === 'kn') {
+  if (lang === 'kn' && (variant === 'display' || variant === 'heading1' || variant === 'heading2')) {
+    size += 2;
+  }
+
+  // Kannada vowel markers need additional vertical room.
+  if (lang === 'kn') {
+    lineHeight = Math.ceil(lineHeight * 1.2);
+  } else if (lang === 'hi') {
     lineHeight += 2;
   }
 

@@ -246,7 +246,7 @@ export default function FlashcardsScreen(): React.JSX.Element {
 
       {/* Memory Hook Display */}
       {activeCard && (
-        <Card style={[styles.hookCard, { borderColor: colors.primarySubtle }]}>
+        <Card style={[styles.hookCard, { backgroundColor: colors.primarySubtle }]}>
           <AppText variant="caption" color={colors.primary} style={styles.hookLabel}>
             💡 MEMORY HOOK
           </AppText>
@@ -266,7 +266,7 @@ export default function FlashcardsScreen(): React.JSX.Element {
             title="Hard"
             variant="secondary"
             onPress={() => handleRating('hard')}
-            style={[styles.ratingBtn, { borderColor: colors.warning }]}
+            style={[styles.ratingBtn, { backgroundColor: colors.warningSubtle }]}
           />
           <Button
             title="Good"
@@ -324,8 +324,6 @@ const styles = StyleSheet.create({
   },
   hookCard: {
     padding: 18,
-    borderWidth: 1.5,
-    borderStyle: 'dashed',
     marginTop: 4,
   },
   hookLabel: {

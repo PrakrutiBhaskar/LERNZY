@@ -9,10 +9,12 @@ import {
   View,
   ViewStyle,
 } from 'react-native';
-import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { ChevronLeft } from 'lucide-react-native';
 import { useLanguage } from '@/i18n/LanguageContext';
+import { type ColorsType } from '@/theme/colors';
+import { useTheme } from '@/theme/theme';
 import { LanguageCode } from '@/utils/constants';
 import { getOnboardingCopy } from '@/onboarding/copy';
 
@@ -46,6 +48,8 @@ export function OnboardingFrame({
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { language } = useLanguage();
+  const { colors } = useTheme();
+  const styles = createStyles(colors);
   const copy = getOnboardingCopy(copyLanguage || language);
   const [busy, setBusy] = useState(false);
   const [actionError, setActionError] = useState<string | null>(null);
@@ -66,9 +70,11 @@ export function OnboardingFrame({
   };
 
   return (
-    <SafeAreaView style={styles.safeArea}>
+    <View style={[styles.container, { paddingTop: insets.top }]}>
+      <View pointerEvents="none" style={styles.textureTop} />
+      <View pointerEvents="none" style={styles.textureBottom} />
       <KeyboardAvoidingView
-        behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+        behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
         style={styles.keyboard}
       >
         <View style={styles.header}>
@@ -79,7 +85,7 @@ export function OnboardingFrame({
               accessibilityRole="button"
               accessibilityLabel={copy.back}
             >
-              <ChevronLeft size={24} color="#A78BFA" />
+              <ChevronLeft size={24} color={colors.primary} />
             </Pressable>
           ) : (
             <View style={styles.backPlaceholder} />
@@ -112,7 +118,7 @@ export function OnboardingFrame({
           <View style={styles.body}>{children}</View>
         </ScrollView>
 
-        <View style={[styles.footer, { paddingBottom: Math.max(insets.bottom, 16) + 12 }]}>
+        <View style={[styles.footer, { paddingBottom: insets.bottom + 16 }]}>
           {actionError ? <Text style={styles.errorText}>{actionError}</Text> : null}
           <Pressable
             onPress={handleAction}
@@ -131,14 +137,35 @@ export function OnboardingFrame({
           </Pressable>
         </View>
       </KeyboardAvoidingView>
-    </SafeAreaView>
+    </View>
   );
 }
 
-const styles = StyleSheet.create({
-  safeArea: {
+const createStyles = (colors: ColorsType) => StyleSheet.create({
+  container: {
     flex: 1,
-    backgroundColor: '#070A12',
+    backgroundColor: colors.bg,
+    overflow: 'hidden',
+  },
+  textureTop: {
+    position: 'absolute',
+    width: 260,
+    height: 260,
+    borderRadius: 130,
+    backgroundColor: colors.surfaceVariant,
+    opacity: 0.38,
+    top: -138,
+    right: -94,
+  },
+  textureBottom: {
+    position: 'absolute',
+    width: 190,
+    height: 190,
+    borderRadius: 95,
+    backgroundColor: colors.primarySubtle,
+    opacity: 0.46,
+    bottom: 86,
+    left: -112,
   },
   keyboard: {
     flex: 1,
@@ -154,9 +181,7 @@ const styles = StyleSheet.create({
     borderRadius: 22,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#111827',
-    borderWidth: 1,
-    borderColor: '#334155',
+    backgroundColor: colors.surfaceContainerHigh,
   },
   backPlaceholder: {
     width: 44,
@@ -178,7 +203,7 @@ const styles = StyleSheet.create({
     marginBottom: 22,
   },
   stepText: {
-    color: '#CBD5E1',
+    color: colors.textSecondary,
     fontSize: 13,
     lineHeight: 18,
     fontWeight: '800',
@@ -189,23 +214,23 @@ const styles = StyleSheet.create({
   progressTrack: {
     height: 8,
     borderRadius: 4,
-    backgroundColor: '#1F2937',
+    backgroundColor: colors.surfaceAlt,
     overflow: 'hidden',
   },
   progressFill: {
     height: '100%',
     borderRadius: 4,
-    backgroundColor: '#A78BFA',
+    backgroundColor: colors.primary,
   },
   title: {
-    color: '#F8FAFC',
+    color: colors.textPrimary,
     fontSize: 30,
     lineHeight: 38,
     fontWeight: '800',
     textAlign: 'left',
   },
   subtitle: {
-    color: '#CBD5E1',
+    color: colors.textSecondary,
     fontSize: 16,
     lineHeight: 23,
     textAlign: 'left',
@@ -218,12 +243,12 @@ const styles = StyleSheet.create({
   footer: {
     paddingHorizontal: 24,
     paddingTop: 14,
-    backgroundColor: '#070A12',
-    borderTopWidth: 1,
-    borderTopColor: '#334155',
+    backgroundColor: colors.surfaceBright,
+    borderTopLeftRadius: 32,
+    borderTopRightRadius: 32,
   },
   errorText: {
-    color: '#F87171',
+    color: colors.error,
     fontSize: 13,
     lineHeight: 18,
     fontWeight: '700',
@@ -232,32 +257,25 @@ const styles = StyleSheet.create({
   },
   actionButton: {
     minHeight: 58,
-    borderRadius: 14,
-    backgroundColor: '#A78BFA',
+    borderRadius: 24,
+    backgroundColor: colors.primaryContainer,
     alignItems: 'center',
     justifyContent: 'center',
-    shadowColor: '#000000',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.24,
-    shadowRadius: 8,
-    elevation: 4,
   },
   actionButtonPressed: {
     opacity: 0.88,
     transform: [{ scale: 0.99 }],
   },
   actionButtonDisabled: {
-    backgroundColor: '#1F2937',
-    shadowOpacity: 0,
-    elevation: 0,
+    backgroundColor: colors.surfaceContainerHighest,
   },
   actionText: {
-    color: '#070A12',
+    color: colors.textOnPrimary,
     fontSize: 16,
     lineHeight: 20,
     fontWeight: '800',
   },
   actionTextDisabled: {
-    color: '#64748B',
+    color: colors.textDisabled,
   },
 });

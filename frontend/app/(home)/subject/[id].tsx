@@ -112,7 +112,7 @@ export default function SubjectDetails(): React.JSX.Element {
     >
       <View style={styles.list}>
         {isCodingSubject && (
-          <Card style={[styles.sandboxCard, { borderColor: subjectColor }]}>
+          <Card style={[styles.sandboxCard, { backgroundColor: `${subjectColor}12` }]}>
             <View style={styles.sandboxHeader}>
               <View style={[styles.sandboxIcon, { backgroundColor: `${subjectColor}20` }]}>
                 <Code2 size={24} color={subjectColor} />
@@ -132,7 +132,7 @@ export default function SubjectDetails(): React.JSX.Element {
               onPress={() => router.push('/(home)/coding-sandbox')}
               icon={<Code2 size={18} color={subjectColor} />}
               textColor={subjectColor}
-              style={[styles.sandboxButton, { borderColor: subjectColor }]}
+              style={styles.sandboxButton}
             />
           </Card>
         )}
@@ -142,7 +142,7 @@ export default function SubjectDetails(): React.JSX.Element {
           const descText = topic.desc[language] || topic.desc.en;
 
           return (
-            <Card key={topic.id} style={[styles.topicCard, { borderLeftColor: subjectColor }]}>
+            <Card key={topic.id} style={[styles.topicCard, { backgroundColor: `${subjectColor}12` }]}>
               <View style={styles.cardHeader}>
                 <AppText variant="heading2" style={styles.topicTitle}>
                   {titleText}
@@ -162,7 +162,7 @@ export default function SubjectDetails(): React.JSX.Element {
                     params: { topicId: topic.id }
                   })}
                   textColor={subjectColor}
-                  style={[styles.actionBtn, { borderColor: subjectColor }]}
+                  style={styles.actionBtn}
                 />
                 
                 <Button
@@ -173,7 +173,7 @@ export default function SubjectDetails(): React.JSX.Element {
                     params: { topicId: topic.id }
                   })}
                   textColor={colors.primary}
-                  style={[styles.actionBtn, { borderColor: subjectColor }]}
+                  style={styles.actionBtn}
                 />
 
                 <Button
@@ -209,8 +209,7 @@ const styles = StyleSheet.create({
     marginTop: 12,
   },
   topicCard: {
-    borderLeftWidth: 6,
-    paddingLeft: 16,
+    paddingLeft: 18,
   },
   cardHeader: {
     marginBottom: 6,
@@ -222,7 +221,6 @@ const styles = StyleSheet.create({
     marginBottom: 18,
   },
   sandboxCard: {
-    borderWidth: 1.5,
     padding: 18,
   },
   sandboxHeader: {
@@ -241,7 +239,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   sandboxButton: {
-    backgroundColor: 'transparent',
     marginTop: 14,
     minHeight: 44,
   },
@@ -253,7 +250,6 @@ const styles = StyleSheet.create({
   actionBtn: {
     flexGrow: 1,
     flexBasis: 96,
-    backgroundColor: 'transparent',
     paddingHorizontal: 8,
     paddingVertical: 10,
     minHeight: 46,

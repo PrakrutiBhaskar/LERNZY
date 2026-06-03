@@ -172,7 +172,7 @@ export default function AuthScreen(): React.JSX.Element {
               {language === 'en' ? 'Syncing Active' : 'सिंक सक्रिय है'}
             </AppText>
             
-            <View style={styles.infoBox}>
+            <View style={[styles.infoBox, { backgroundColor: colors.surfaceContainerLow }]}>
               <View style={styles.infoRow}>
                 <AppText variant="bodyLg" color={colors.textSecondary}>{language === 'en' ? 'Name:' : 'नाम:'}</AppText>
                 <AppText variant="bodyLg" style={styles.infoVal}>{user.name}</AppText>
@@ -304,10 +304,8 @@ const styles = StyleSheet.create({
     width: '100%',
     gap: 12,
     marginBottom: 24,
-    borderTopWidth: 1,
-    borderBottomWidth: 1,
-    borderColor: '#EEEEEE',
-    paddingVertical: 16,
+    padding: 16,
+    borderRadius: 24,
   },
   infoRow: {
     flexDirection: 'row',
@@ -326,7 +324,7 @@ const styles = StyleSheet.create({
   tabRow: {
     flexDirection: 'row',
     padding: 4,
-    borderRadius: 12,
+    borderRadius: 24,
     gap: 4,
   },
   tabBtn: {

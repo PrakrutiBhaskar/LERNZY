@@ -1,162 +1,1078 @@
-import React from 'react';
-import { View, StyleSheet, ScrollView } from 'react-native';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
+import { ActivityIndicator, Pressable, StyleSheet, View } from 'react-native';
+import { useRouter } from 'expo-router';
+import * as Icons from 'lucide-react-native';
+
 import { useLanguage } from '@/i18n/LanguageContext';
 import { useTheme } from '@/theme/theme';
+import { apiFetch } from '@/services/api';
 import { AppText } from '../../components/AppText';
+import { Button } from '../../components/Button';
 import { Card } from '../../components/Card';
+import { ProgressBar } from '../../components/ProgressBar';
 import { ScreenContainer } from '../../components/ScreenContainer';
+import { SectionHeader } from '../../components/SectionHeader';
+
+type IconName = keyof typeof Icons;
+
+interface SubjectProgress {
+  id: string;
+  name: string;
+  module: string;
+  iconName: IconName;
+  lessonsCompleted: number;
+  lessonsTotal: number;
+  masteryPercent: number;
+  quizAverage: number;
+  minutes: number;
+  lastPracticed: string;
+}
+
+interface AchievementItem {
+  key: string;
+  name: string;
+  description: string;
+  iconName: IconName;
+  unlocked: boolean;
+  progress: number;
+  earnedAt?: string;
+}
+
+interface MasteryApiItem {
+  module?: string;
+  masteryPercentage?: number;
+  totalAttempts?: number;
+  correctAttempts?: number;
+}
+
+interface AchievementApiItem {
+  badgeKey?: string;
+  earnedAt?: string;
+  createdAt?: string;
+}
+
+const DEFAULT_SUBJECTS: SubjectProgress[] = [
+  {
+    id: 'math',
+    name: 'Mathematics',
+    module: 'math',
+    iconName: 'Calculator',
+    lessonsCompleted: 6,
+    lessonsTotal: 10,
+    masteryPercent: 68,
+    quizAverage: 82,
+    minutes: 95,
+    lastPracticed: 'Today',
+  },
+  {
+    id: 'science',
+    name: 'Science',
+    module: 'science',
+    iconName: 'FlaskConical',
+    lessonsCompleted: 3,
+    lessonsTotal: 8,
+    masteryPercent: 44,
+    quizAverage: 76,
+    minutes: 52,
+    lastPracticed: 'Yesterday',
+  },
+  {
+    id: 'english',
+    name: 'English',
+    module: 'english',
+    iconName: 'BookOpen',
+    lessonsCompleted: 5,
+    lessonsTotal: 7,
+    masteryPercent: 72,
+    quizAverage: 88,
+    minutes: 74,
+    lastPracticed: '2 days ago',
+  },
+  {
+    id: 'coding',
+    name: 'Coding',
+    module: 'coding',
+    iconName: 'Code2',
+    lessonsCompleted: 2,
+    lessonsTotal: 6,
+    masteryPercent: 35,
+    quizAverage: 69,
+    minutes: 36,
+    lastPracticed: 'This week',
+  },
+];
+
+const WEEKLY_ACTIVITY = [
+  { day: 'Mon', minutes: 18 },
+  { day: 'Tue', minutes: 26 },
+  { day: 'Wed', minutes: 12 },
+  { day: 'Thu', minutes: 34 },
+  { day: 'Fri', minutes: 22 },
+  { day: 'Sat', minutes: 40 },
+  { day: 'Sun', minutes: 28 },
+];
+
+const ACHIEVEMENT_CATALOG: AchievementItem[] = [
+  {
+    key: 'first_steps',
+    name: 'First Steps',
+    description: 'Finish your first lesson room session.',
+    iconName: 'Footprints',
+    unlocked: true,
+    progress: 1,
+    earnedAt: 'Yesterday',
+  },
+  {
+    key: 'quiz_whiz',
+    name: 'Quiz Whiz',
+    description: 'Score 100 percent in any quiz.',
+    iconName: 'BadgeCheck',
+    unlocked: true,
+    progress: 1,
+    earnedAt: '2 days ago',
+  },
+  {
+    key: 'steady_streak',
+    name: 'Steady Streak',
+    description: 'Study for 5 days in a row.',
+    iconName: 'Flame',
+    unlocked: false,
+    progress: 0.6,
+  },
+  {
+    key: 'deep_focus',
+    name: 'Deep Focus',
+    description: 'Learn for 120 minutes in one week.',
+    iconName: 'Timer',
+    unlocked: false,
+    progress: 0.78,
+  },
+];
+
+const clampPercent = (value: number) => Math.max(0, Math.min(100, Math.round(value)));
+
+function formatEarnedAt(dateValue?: string): string | undefined {
+  if (!dateValue) return undefined;
+
+  const parsed = new Date(dateValue);
+  if (Number.isNaN(parsed.getTime())) return dateValue;
+
+  return parsed.toLocaleDateString(undefined, {
+    month: 'short',
+    day: 'numeric',
+  });
+}
+
+function getIcon(name: IconName): React.ComponentType<any> {
+  return ((Icons as any)[name] || (Icons as any).BookOpen) as React.ComponentType<any>;
+}
+
+function normalizeModule(value = ''): string {
+  const clean = value.toLowerCase().replace(/[^a-z]/g, '');
+
+  if (clean.includes('math')) return 'math';
+  if (clean.includes('science')) return 'science';
+  if (clean.includes('english')) return 'english';
+  if (clean.includes('coding') || clean.includes('code') || clean.includes('program')) return 'coding';
+  if (clean.includes('social')) return 'social';
+  if (clean.includes('kannada')) return 'kannada';
+
+  return clean;
+}
+
+function mergeMastery(defaults: SubjectProgress[], mastery: MasteryApiItem[]): SubjectProgress[] {
+  if (!mastery.length) return defaults;
+
+  const masteryByModule = new Map(
+    mastery.map((item) => [normalizeModule(item.module), item])
+  );
+
+  return defaults.map((subject) => {
+    const apiSubject = masteryByModule.get(subject.module);
+    if (!apiSubject || typeof apiSubject.masteryPercentage !== 'number') return subject;
+
+    const masteryPercent = clampPercent(apiSubject.masteryPercentage);
+    const attempts = apiSubject.totalAttempts || 0;
+    const correct = apiSubject.correctAttempts || 0;
+    const quizAverage = attempts > 0 ? clampPercent((correct / attempts) * 100) : subject.quizAverage;
+
+    return {
+      ...subject,
+      masteryPercent,
+      quizAverage,
+      lessonsCompleted: Math.max(subject.lessonsCompleted, Math.round((masteryPercent / 100) * subject.lessonsTotal)),
+    };
+  });
+}
+
+function mergeAchievements(apiAchievements: AchievementApiItem[]): AchievementItem[] {
+  if (!apiAchievements.length) return ACHIEVEMENT_CATALOG;
+
+  const earned = new Map(
+    apiAchievements
+      .filter((item) => item.badgeKey)
+      .map((item) => [item.badgeKey as string, item])
+  );
+
+  return ACHIEVEMENT_CATALOG.map((badge) => {
+    const apiBadge = earned.get(badge.key);
+    if (!apiBadge) return badge;
+
+    return {
+      ...badge,
+      unlocked: true,
+      progress: 1,
+      earnedAt: formatEarnedAt(apiBadge.earnedAt || apiBadge.createdAt) || badge.earnedAt,
+    };
+  });
+}
 
 export default function ProgressScreen(): React.JSX.Element {
+  const router = useRouter();
   const { language } = useLanguage();
   const { colors, spacing } = useTheme();
 
+  const [subjects, setSubjects] = useState<SubjectProgress[]>(DEFAULT_SUBJECTS);
+  const [achievements, setAchievements] = useState<AchievementItem[]>(ACHIEVEMENT_CATALOG);
+  const [isLoading, setIsLoading] = useState(true);
+  const [isRefreshing, setIsRefreshing] = useState(false);
+  const [syncMessage, setSyncMessage] = useState('Showing saved progress');
+
+  const copy = useMemo(() => {
+    const fallback = {
+      title: 'My Progress',
+      subtitle: 'Your learning map, streaks, badges, and next steps.',
+      refresh: 'Refresh',
+      continueLearning: 'Continue learning',
+      quickStats: 'Overview',
+      weeklyActivity: 'Weekly activity',
+      subjectMastery: 'Subject mastery',
+      quizPerformance: 'Quiz performance',
+      achievements: 'Achievements',
+      nextSteps: 'Recommended next steps',
+      complete: 'complete',
+      lessons: 'lessons',
+      quizAvg: 'quiz avg',
+      mins: 'mins',
+      earned: 'Earned',
+      locked: 'Locked',
+      startPractice: 'Start practice',
+      viewSubjects: 'View subjects',
+    };
+
+    return fallback;
+  }, [language]);
+
+  const loadProgress = useCallback(async (refreshing = false) => {
+    if (refreshing) {
+      setIsRefreshing(true);
+    } else {
+      setIsLoading(true);
+    }
+
+    try {
+      const [masteryResponse, achievementResponse] = await Promise.all([
+        apiFetch('/api/v1/progress/mastery'),
+        apiFetch('/api/v1/progress/achievements'),
+      ]);
+
+      let nextSubjects = DEFAULT_SUBJECTS;
+      let nextAchievements = ACHIEVEMENT_CATALOG;
+      let loadedFromServer = false;
+
+      if (masteryResponse.ok) {
+        const body = await masteryResponse.json();
+        const mastery = body?.data?.mastery;
+        if (Array.isArray(mastery)) {
+          nextSubjects = mergeMastery(DEFAULT_SUBJECTS, mastery);
+          loadedFromServer = true;
+        }
+      }
+
+      if (achievementResponse.ok) {
+        const body = await achievementResponse.json();
+        const apiAchievements = body?.data?.achievements;
+        if (Array.isArray(apiAchievements)) {
+          nextAchievements = mergeAchievements(apiAchievements);
+          loadedFromServer = true;
+        }
+      }
+
+      setSubjects(nextSubjects);
+      setAchievements(nextAchievements);
+      setSyncMessage(loadedFromServer ? 'Synced with Lernzy cloud' : 'Showing saved progress');
+    } catch (error) {
+      setSubjects(DEFAULT_SUBJECTS);
+      setAchievements(ACHIEVEMENT_CATALOG);
+      setSyncMessage('Offline mode: showing saved progress');
+    } finally {
+      setIsLoading(false);
+      setIsRefreshing(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    loadProgress();
+  }, [loadProgress]);
+
+  const totalLessons = subjects.reduce((sum, subject) => sum + subject.lessonsTotal, 0);
+  const completedLessons = subjects.reduce((sum, subject) => sum + subject.lessonsCompleted, 0);
+  const totalMinutes = subjects.reduce((sum, subject) => sum + subject.minutes, 0);
+  const overallProgress = totalLessons > 0 ? clampPercent((completedLessons / totalLessons) * 100) : 0;
+  const averageQuiz = subjects.length
+    ? clampPercent(subjects.reduce((sum, subject) => sum + subject.quizAverage, 0) / subjects.length)
+    : 0;
+  const unlockedCount = achievements.filter((badge) => badge.unlocked).length;
+  const weeklyTotal = WEEKLY_ACTIVITY.reduce((sum, item) => sum + item.minutes, 0);
+  const strongestSubject = subjects.reduce((best, subject) =>
+    subject.masteryPercent > best.masteryPercent ? subject : best,
+  subjects[0]);
+  const focusSubject = subjects.reduce((lowest, subject) =>
+    subject.masteryPercent < lowest.masteryPercent ? subject : lowest,
+  subjects[0]);
+
+  const getSubjectColor = (module: string) => {
+    switch (module) {
+      case 'math':
+        return colors.subjectMath;
+      case 'science':
+        return colors.subjectScience;
+      case 'english':
+        return colors.subjectEnglish;
+      case 'coding':
+        return colors.subjectCoding;
+      case 'social':
+        return colors.subjectSocial;
+      case 'kannada':
+        return colors.subjectKannada;
+      default:
+        return colors.primary;
+    }
+  };
+
+  if (isLoading) {
+    return (
+      <ScreenContainer
+        title={copy.title}
+        subtitle={copy.subtitle}
+        showBackButton={true}
+        scrollable={false}
+      >
+        <View style={styles.loadingState}>
+          <ActivityIndicator size="large" color={colors.primary} />
+          <AppText variant="bodyLg" color={colors.textSecondary} style={styles.loadingText}>
+            Loading progress...
+          </AppText>
+        </View>
+      </ScreenContainer>
+    );
+  }
+
   return (
     <ScreenContainer
-      title={language === 'en' ? 'My Progress' : language === 'hi' ? 'मेरी प्रगति' : 'ನನ್ನ ಪ್ರಗತಿ'}
-      subtitle={language === 'en' ? 'Track your offline learning achievements' : language === 'hi' ? 'अपनी ऑफ़लाइन सीखने की उपलब्धियों को ट्रैक करें' : 'ನಿಮ್ಮ ಕಲಿಕೆಯ ಪ್ರಗತಿಯನ್ನು ಇಲ್ಲಿ ನೋಡಿ'}
+      title={copy.title}
+      subtitle={copy.subtitle}
       showBackButton={true}
       scrollable={true}
+      contentContainerStyle={{ gap: spacing.space5 }}
     >
-      <View style={styles.container}>
-        {/* Stats Grid */}
-        <View style={styles.statsRow}>
-          <Card style={styles.statCard}>
-            <AppText variant="display" color={colors.primary} style={styles.statNum}>
-              120
+      <Card style={[styles.heroCard, { backgroundColor: colors.surfaceBright }]}>
+        <View style={styles.heroTop}>
+          <View style={styles.heroText}>
+            <AppText variant="caption" color={colors.textSecondary} style={styles.overline}>
+              {syncMessage.toUpperCase()}
             </AppText>
-            <AppText variant="caption" color={colors.textSecondary} style={styles.statLabel}>
-              {language === 'en' ? 'Mins Learnt' : language === 'hi' ? 'मिनट सीखा' : 'ನಿಮಿಷ ಕಲಿಕೆ'}
+            <AppText variant="display" color={colors.primary} style={styles.heroPercent}>
+              {overallProgress}%
             </AppText>
-          </Card>
-
-          <Card style={styles.statCard}>
-            <AppText variant="display" color={colors.success} style={styles.statNum}>
-              5
+            <AppText variant="bodyLg" color={colors.textPrimary} style={styles.heroTitle}>
+              Overall syllabus progress
             </AppText>
-            <AppText variant="caption" color={colors.textSecondary} style={styles.statLabel}>
-              {language === 'en' ? 'Quizzes Done' : language === 'hi' ? 'क्विज़ पूर्ण' : 'ರಸಪ್ರಶ್ನೆಗಳು'}
+            <AppText variant="body" color={colors.textSecondary}>
+              {completedLessons} of {totalLessons} lessons complete. Best momentum: {strongestSubject.name}.
             </AppText>
-          </Card>
-        </View>
-
-        {/* Dynamic overall progress */}
-        <Card style={styles.overallCard}>
-          <AppText variant="heading2" style={styles.sectionTitle}>
-            {language === 'en' ? 'Syllabus Complete' : language === 'hi' ? 'पाठ्यक्रम पूरा' : 'ಪಠ್ಯಕ್ರಮ ಪೂರ್ಣಗೊಂಡಿದೆ'}
-          </AppText>
-          <View style={[styles.progressBg, { backgroundColor: colors.surfaceAlt }]}>
-            <View style={[styles.progressFill, { backgroundColor: colors.primary, width: '65%' }]} />
           </View>
-          <AppText variant="caption" color={colors.textSecondary} style={styles.percentText}>
-            65% {language === 'en' ? 'Overall Progress' : language === 'hi' ? 'कुल प्रगति' : 'ಒಟ್ಟು ಪ್ರಗತಿ'}
-          </AppText>
-        </Card>
 
-        {/* Badges Section */}
-        <AppText variant="heading1" style={styles.sectionHeader}>
-          {language === 'en' ? 'Badges Unlocked' : language === 'hi' ? 'अनलॉक किए गए बैज' : 'ಪಡೆದ ಬ್ಯಾಡ್ಜ್‌ಗಳು'}
-        </AppText>
-
-        <View style={styles.badgesList}>
-          <Card style={styles.badgeCard}>
-            <View style={[styles.badgeIconBg, { backgroundColor: colors.warningSubtle }]}>
-              <AppText variant="display">🏆</AppText>
-            </View>
-            <View style={styles.badgeText}>
-              <AppText variant="heading2" style={styles.badgeName}>
-                {language === 'en' ? 'First Steps' : language === 'hi' ? 'पहला कदम' : 'ಮೊದಲ ಹೆಜ್ಜೆ'}
-              </AppText>
-              <AppText variant="body" color={colors.textSecondary}>
-                {language === 'en' ? 'Completed your first offline topic.' : language === 'hi' ? 'अपना पहला ऑफ़लाइन विषय पूरा किया।' : 'ನಿಮ್ಮ ಮೊದಲ ಆಫ್‌ಲೈನ್ ಪಾಠವನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ್ದೀರಿ.'}
-              </AppText>
-            </View>
-          </Card>
-
-          <Card style={styles.badgeCard}>
-            <View style={[styles.badgeIconBg, { backgroundColor: colors.primarySubtle }]}>
-              <AppText variant="display">🔥</AppText>
-            </View>
-            <View style={styles.badgeText}>
-              <AppText variant="heading2" style={styles.badgeName}>
-                {language === 'en' ? 'Quiz Whiz' : language === 'hi' ? 'क्विज़ विज़' : 'ರಸಪ್ರಶ್ನೆ ಚತುರ'}
-              </AppText>
-              <AppText variant="body" color={colors.textSecondary}>
-                {language === 'en' ? 'Scored 100% on any lesson quiz.' : language === 'hi' ? 'किसी भी पाठ प्रश्नोत्तरी में 100% स्कोर किया।' : 'ರಸಪ್ರಶ್ನೆಯಲ್ಲಿ 100% ಅಂಕಗಳನ್ನು ಗಳಿಸಿದ್ದೀರಿ.'}
-              </AppText>
-            </View>
-          </Card>
+          <View style={[styles.scoreBadge, { backgroundColor: colors.primarySubtle }]}>
+            {React.createElement(getIcon('Trophy'), {
+              size: 28,
+              color: colors.primary,
+              strokeWidth: 2.4,
+            })}
+            <AppText variant="caption" color={colors.primary} style={styles.scoreBadgeText}>
+              Level 4
+            </AppText>
+          </View>
         </View>
+
+        <ProgressBar progress={overallProgress / 100} height={12} color={colors.primary} />
+
+        <View style={styles.heroActions}>
+          <Button
+            title={copy.continueLearning}
+            onPress={() => router.push('/(home)')}
+            icon={React.createElement(getIcon('PlayCircle'), {
+              size: 18,
+              color: colors.textOnPrimary,
+            })}
+            style={styles.heroButton}
+          />
+          <Button
+            title={copy.refresh}
+            variant="secondary"
+            loading={isRefreshing}
+            onPress={() => loadProgress(true)}
+            icon={React.createElement(getIcon('RefreshCw'), {
+              size: 18,
+              color: colors.primary,
+            })}
+            style={styles.heroButton}
+          />
+        </View>
+      </Card>
+
+      <SectionHeader title={copy.quickStats} />
+      <View style={styles.metricGrid}>
+        <MetricCard
+          iconName="Clock"
+          label="Learning time"
+          value={`${totalMinutes}`}
+          detail={copy.mins}
+          color={colors.subjectEnglish}
+        />
+        <MetricCard
+          iconName="CheckCircle2"
+          label="Lessons done"
+          value={`${completedLessons}`}
+          detail={`of ${totalLessons}`}
+          color={colors.success}
+        />
+        <MetricCard
+          iconName="Target"
+          label="Quiz average"
+          value={`${averageQuiz}%`}
+          detail={copy.quizAvg}
+          color={colors.subjectScience}
+        />
+        <MetricCard
+          iconName="Award"
+          label="Badges"
+          value={`${unlockedCount}`}
+          detail={`of ${achievements.length}`}
+          color={colors.warning}
+        />
+      </View>
+
+      <SectionHeader title={copy.weeklyActivity} />
+      <Card style={styles.weeklyCard}>
+        <View style={styles.weeklyHeader}>
+          <View>
+            <AppText variant="heading2" style={styles.cardHeading}>
+              {weeklyTotal} minutes this week
+            </AppText>
+            <AppText variant="body" color={colors.textSecondary}>
+              Keep the rhythm steady with one short session today.
+            </AppText>
+          </View>
+          <View style={[styles.smallIconBubble, { backgroundColor: colors.successSubtle }]}>
+            {React.createElement(getIcon('CalendarCheck'), {
+              size: 22,
+              color: colors.success,
+            })}
+          </View>
+        </View>
+        <View style={styles.barChart}>
+          {WEEKLY_ACTIVITY.map((item) => {
+            const height = 28 + (item.minutes / 40) * 72;
+            const isPeak = item.minutes === Math.max(...WEEKLY_ACTIVITY.map((day) => day.minutes));
+
+            return (
+              <View key={item.day} style={styles.barItem}>
+                <View style={[styles.barTrack, { backgroundColor: colors.surfaceAlt }]}>
+                  <View
+                    style={[
+                      styles.barFill,
+                      {
+                        height,
+                        backgroundColor: isPeak ? colors.primary : colors.subjectCoding,
+                      },
+                    ]}
+                  />
+                </View>
+                <AppText variant="caption" color={colors.textSecondary} style={styles.barLabel}>
+                  {item.day}
+                </AppText>
+              </View>
+            );
+          })}
+        </View>
+      </Card>
+
+      <SectionHeader title={copy.subjectMastery} />
+      <View style={styles.subjectList}>
+        {subjects.map((subject) => (
+          <SubjectProgressRow
+            key={subject.id}
+            subject={subject}
+            color={getSubjectColor(subject.module)}
+            onPress={() =>
+              router.push({
+                pathname: '/(home)/subject/[id]',
+                params: { id: subject.id, name: subject.name },
+              })
+            }
+          />
+        ))}
+      </View>
+
+      <SectionHeader title={copy.quizPerformance} />
+      <Card style={styles.quizCard}>
+        <View style={styles.quizHeader}>
+          <View>
+            <AppText variant="heading2" style={styles.cardHeading}>
+              {averageQuiz}% average score
+            </AppText>
+            <AppText variant="body" color={colors.textSecondary}>
+              Next focus: {focusSubject.name}. A 10 minute review can lift this quickly.
+            </AppText>
+          </View>
+          <View style={[styles.smallIconBubble, { backgroundColor: colors.primarySubtle }]}>
+            {React.createElement(getIcon('Brain'), {
+              size: 22,
+              color: colors.primary,
+            })}
+          </View>
+        </View>
+
+        <View style={styles.quizRows}>
+          {subjects.map((subject) => (
+            <View key={subject.id} style={styles.quizRow}>
+              <View style={styles.quizNameRow}>
+                <View style={[styles.subjectDot, { backgroundColor: getSubjectColor(subject.module) }]} />
+                <AppText variant="body" style={styles.quizName}>
+                  {subject.name}
+                </AppText>
+              </View>
+              <View style={styles.quizProgress}>
+                <ProgressBar
+                  progress={subject.quizAverage / 100}
+                  height={7}
+                  color={getSubjectColor(subject.module)}
+                />
+              </View>
+              <AppText variant="caption" color={colors.textSecondary} style={styles.quizScore}>
+                {subject.quizAverage}%
+              </AppText>
+            </View>
+          ))}
+        </View>
+      </Card>
+
+      <SectionHeader title={copy.achievements} />
+      <View style={styles.achievementList}>
+        {achievements.map((badge) => (
+          <AchievementRow key={badge.key} badge={badge} />
+        ))}
+      </View>
+
+      <SectionHeader title={copy.nextSteps} />
+      <View style={styles.nextSteps}>
+        <NextStepCard
+          iconName="Target"
+          title={`Practice ${focusSubject.name}`}
+          description={`Review the lowest mastery area and try one quiz. Current mastery: ${focusSubject.masteryPercent}%.`}
+          buttonLabel={copy.startPractice}
+          color={getSubjectColor(focusSubject.module)}
+          onPress={() =>
+            router.push({
+              pathname: '/(home)/subject/[id]',
+              params: { id: focusSubject.id, name: focusSubject.name },
+            })
+          }
+        />
+        <NextStepCard
+          iconName="BookOpen"
+          title="Open subject map"
+          description="Choose a fresh lesson or continue the topic that is already in motion."
+          buttonLabel={copy.viewSubjects}
+          color={colors.primary}
+          onPress={() => router.push('/(home)')}
+        />
       </View>
     </ScreenContainer>
   );
 }
 
+interface MetricCardProps {
+  iconName: IconName;
+  label: string;
+  value: string;
+  detail: string;
+  color: string;
+}
+
+function MetricCard({ iconName, label, value, detail, color }: MetricCardProps) {
+  const { colors } = useTheme();
+
+  return (
+    <Card style={styles.metricCard}>
+      <View style={[styles.metricIcon, { backgroundColor: `${color}18` }]}>
+        {React.createElement(getIcon(iconName), {
+          size: 20,
+          color,
+          strokeWidth: 2.4,
+        })}
+      </View>
+      <AppText variant="display" color={color} style={styles.metricValue}>
+        {value}
+      </AppText>
+      <AppText variant="caption" color={colors.textSecondary} style={styles.metricLabel}>
+        {label}
+      </AppText>
+      <AppText variant="caption" color={colors.textDisabled} style={styles.metricDetail}>
+        {detail}
+      </AppText>
+    </Card>
+  );
+}
+
+interface SubjectProgressRowProps {
+  subject: SubjectProgress;
+  color: string;
+  onPress: () => void;
+}
+
+function SubjectProgressRow({ subject, color, onPress }: SubjectProgressRowProps) {
+  const { colors } = useTheme();
+
+  return (
+    <Card onPress={onPress} style={styles.subjectCard}>
+      <View style={styles.subjectHeader}>
+        <View style={[styles.subjectIcon, { backgroundColor: `${color}18` }]}>
+          {React.createElement(getIcon(subject.iconName), {
+            size: 22,
+            color,
+            strokeWidth: 2.4,
+          })}
+        </View>
+        <View style={styles.subjectTitleBlock}>
+          <AppText variant="heading2" style={styles.subjectName}>
+            {subject.name}
+          </AppText>
+          <AppText variant="caption" color={colors.textSecondary}>
+            Last practiced: {subject.lastPracticed}
+          </AppText>
+        </View>
+        <AppText variant="heading2" color={color} style={styles.subjectPercent}>
+          {subject.masteryPercent}%
+        </AppText>
+      </View>
+
+      <ProgressBar progress={subject.masteryPercent / 100} color={color} height={8} />
+
+      <View style={styles.subjectMeta}>
+        <AppText variant="caption" color={colors.textSecondary}>
+          {subject.lessonsCompleted}/{subject.lessonsTotal} lessons
+        </AppText>
+        <AppText variant="caption" color={colors.textSecondary}>
+          {subject.minutes} mins
+        </AppText>
+        <AppText variant="caption" color={colors.textSecondary}>
+          {subject.quizAverage}% quiz avg
+        </AppText>
+      </View>
+    </Card>
+  );
+}
+
+interface AchievementRowProps {
+  badge: AchievementItem;
+}
+
+function AchievementRow({ badge }: AchievementRowProps) {
+  const { colors } = useTheme();
+  const badgeColor = badge.unlocked ? colors.warning : colors.textDisabled;
+
+  return (
+    <Card style={[styles.badgeCard, !badge.unlocked && styles.lockedBadge]}>
+      <View style={[styles.badgeIcon, { backgroundColor: badge.unlocked ? colors.warningSubtle : colors.surfaceAlt }]}>
+        {React.createElement(getIcon(badge.unlocked ? badge.iconName : 'Lock'), {
+          size: 22,
+          color: badgeColor,
+          strokeWidth: 2.4,
+        })}
+      </View>
+      <View style={styles.badgeBody}>
+        <View style={styles.badgeTitleRow}>
+          <AppText variant="heading2" style={styles.badgeTitle}>
+            {badge.name}
+          </AppText>
+          <AppText variant="caption" color={badge.unlocked ? colors.success : colors.textDisabled} style={styles.badgeStatus}>
+            {badge.unlocked ? 'Unlocked' : 'Locked'}
+          </AppText>
+        </View>
+        <AppText variant="body" color={colors.textSecondary}>
+          {badge.description}
+        </AppText>
+        <View style={styles.badgeProgressRow}>
+          <View style={styles.badgeProgressBar}>
+            <ProgressBar
+              progress={badge.progress}
+              height={6}
+              color={badge.unlocked ? colors.warning : colors.textDisabled}
+            />
+          </View>
+          <AppText variant="caption" color={colors.textSecondary} style={styles.badgeProgressText}>
+            {Math.round(badge.progress * 100)}%
+          </AppText>
+        </View>
+        {badge.unlocked && badge.earnedAt && (
+          <AppText variant="caption" color={colors.success} style={styles.earnedText}>
+            Earned: {badge.earnedAt}
+          </AppText>
+        )}
+      </View>
+    </Card>
+  );
+}
+
+interface NextStepCardProps {
+  iconName: IconName;
+  title: string;
+  description: string;
+  buttonLabel: string;
+  color: string;
+  onPress: () => void;
+}
+
+function NextStepCard({ iconName, title, description, buttonLabel, color, onPress }: NextStepCardProps) {
+  const { colors } = useTheme();
+
+  return (
+    <Card style={styles.nextStepCard}>
+      <View style={styles.nextStepHeader}>
+        <View style={[styles.nextStepIcon, { backgroundColor: `${color}18` }]}>
+          {React.createElement(getIcon(iconName), {
+            size: 22,
+            color,
+            strokeWidth: 2.4,
+          })}
+        </View>
+        <View style={styles.nextStepCopy}>
+          <AppText variant="heading2" style={styles.nextStepTitle}>
+            {title}
+          </AppText>
+          <AppText variant="body" color={colors.textSecondary}>
+            {description}
+          </AppText>
+        </View>
+      </View>
+      <Pressable
+        onPress={onPress}
+        style={({ pressed }) => [
+          styles.inlineAction,
+          { backgroundColor: `${color}18` },
+          pressed && { opacity: 0.75 },
+        ]}
+        accessible={true}
+        accessibilityRole="button"
+        accessibilityLabel={buttonLabel}
+      >
+        <AppText variant="button" color={color} style={styles.inlineActionText}>
+          {buttonLabel}
+        </AppText>
+        {React.createElement(getIcon('ArrowRight'), {
+          size: 18,
+          color,
+        })}
+      </Pressable>
+    </Card>
+  );
+}
+
 const styles = StyleSheet.create({
-  container: {
-    gap: 24,
-    marginTop: 10,
-  },
-  statsRow: {
-    flexDirection: 'row',
-    gap: 12,
-  },
-  statCard: {
+  loadingState: {
     flex: 1,
     alignItems: 'center',
-    paddingVertical: 20,
+    justifyContent: 'center',
+    gap: 12,
   },
-  statNum: {
+  loadingText: {
+    fontWeight: '600',
+  },
+  heroCard: {
+    gap: 18,
+  },
+  heroTop: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    gap: 14,
+  },
+  heroText: {
+    flex: 1,
+    gap: 4,
+  },
+  overline: {
+    fontWeight: '800',
+    letterSpacing: 0,
+  },
+  heroPercent: {
+    fontWeight: '800',
+    lineHeight: 56,
+  },
+  heroTitle: {
+    fontWeight: '800',
+  },
+  scoreBadge: {
+    width: 74,
+    minHeight: 74,
+    borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 4,
+  },
+  scoreBadgeText: {
+    fontWeight: '800',
+  },
+  heroActions: {
+    flexDirection: 'row',
+    gap: 10,
+  },
+  heroButton: {
+    flex: 1,
+  },
+  metricGrid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 12,
+  },
+  metricCard: {
+    width: '48%',
+    minHeight: 154,
+    gap: 6,
+  },
+  metricIcon: {
+    width: 38,
+    height: 38,
+    borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 4,
+  },
+  metricValue: {
+    fontWeight: '800',
+  },
+  metricLabel: {
+    fontWeight: '800',
+  },
+  metricDetail: {
+    fontWeight: '700',
+  },
+  weeklyCard: {
+    gap: 18,
+  },
+  weeklyHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'flex-start',
+    gap: 12,
+  },
+  cardHeading: {
     fontWeight: '800',
     marginBottom: 4,
   },
-  statLabel: {
-    fontWeight: '600',
+  smallIconBubble: {
+    width: 44,
+    height: 44,
+    borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
-  overallCard: {
-    padding: 18,
+  barChart: {
+    height: 132,
+    flexDirection: 'row',
+    alignItems: 'flex-end',
+    justifyContent: 'space-between',
+    gap: 8,
   },
-  sectionTitle: {
-    fontWeight: '700',
-    marginBottom: 12,
+  barItem: {
+    flex: 1,
+    alignItems: 'center',
+    gap: 8,
   },
-  progressBg: {
-    height: 10,
-    borderRadius: 5,
+  barTrack: {
+    width: '100%',
+    height: 108,
+    borderRadius: 8,
+    justifyContent: 'flex-end',
     overflow: 'hidden',
-    marginBottom: 8,
   },
-  progressFill: {
-    height: '100%',
-    borderRadius: 5,
+  barFill: {
+    width: '100%',
+    borderRadius: 8,
   },
-  percentText: {
-    fontWeight: '600',
+  barLabel: {
+    fontWeight: '800',
   },
-  sectionHeader: {
+  subjectList: {
+    gap: 12,
+  },
+  subjectCard: {
+    gap: 12,
+  },
+  subjectHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+  },
+  subjectIcon: {
+    width: 44,
+    height: 44,
+    borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  subjectTitleBlock: {
+    flex: 1,
+  },
+  subjectName: {
+    fontWeight: '800',
+  },
+  subjectPercent: {
+    fontWeight: '800',
+    minWidth: 54,
+    textAlign: 'right',
+  },
+  subjectMeta: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+    gap: 10,
+  },
+  quizCard: {
+    gap: 16,
+  },
+  quizHeader: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    justifyContent: 'space-between',
+    gap: 12,
+  },
+  quizRows: {
+    gap: 12,
+  },
+  quizRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    minHeight: 28,
+  },
+  quizNameRow: {
+    width: 104,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  subjectDot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+  },
+  quizName: {
     fontWeight: '700',
-    marginTop: 8,
   },
-  badgesList: {
+  quizProgress: {
+    flex: 1,
+  },
+  quizScore: {
+    minWidth: 42,
+    textAlign: 'right',
+    fontWeight: '800',
+  },
+  achievementList: {
     gap: 12,
   },
   badgeCard: {
     flexDirection: 'row',
-    alignItems: 'center',
-    padding: 16,
-    gap: 16,
+    gap: 14,
   },
-  badgeIconBg: {
-    width: 60,
-    height: 60,
-    borderRadius: 30,
+  lockedBadge: {
+    opacity: 0.72,
+  },
+  badgeIcon: {
+    width: 48,
+    height: 48,
+    borderRadius: 8,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  badgeText: {
+  badgeBody: {
+    flex: 1,
+    gap: 6,
+  },
+  badgeTitleRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'baseline',
+    gap: 10,
+  },
+  badgeTitle: {
+    fontWeight: '800',
+  },
+  badgeStatus: {
+    fontWeight: '800',
+  },
+  badgeProgressRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+  },
+  badgeProgressBar: {
     flex: 1,
   },
-  badgeName: {
-    fontWeight: '700',
-    marginBottom: 2,
+  badgeProgressText: {
+    width: 38,
+    textAlign: 'right',
+    fontWeight: '800',
+  },
+  earnedText: {
+    fontWeight: '800',
+  },
+  nextSteps: {
+    gap: 12,
+    marginBottom: 10,
+  },
+  nextStepCard: {
+    gap: 14,
+  },
+  nextStepHeader: {
+    flexDirection: 'row',
+    gap: 12,
+  },
+  nextStepIcon: {
+    width: 44,
+    height: 44,
+    borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  nextStepCopy: {
+    flex: 1,
+  },
+  nextStepTitle: {
+    fontWeight: '800',
+    marginBottom: 4,
+  },
+  inlineAction: {
+    minHeight: 44,
+    borderRadius: 8,
+    paddingHorizontal: 14,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+  },
+  inlineActionText: {
+    fontWeight: '800',
   },
 });

@@ -9,7 +9,6 @@ import {
   AuthState,
   performTokenRefresh
 } from './api';
-import { syncQueuedEvents } from './sync';
 
 /**
  * Authentication service methods.
@@ -56,9 +55,6 @@ export const authService = {
 
     const { accessToken, refreshToken, user } = resBody.data;
     await setAuthTokens(accessToken, refreshToken, user);
-    
-    // Attempt sync of any pre-existing offline events
-    syncQueuedEvents().catch(() => {});
 
     return user;
   },
@@ -85,9 +81,6 @@ export const authService = {
 
     const { accessToken, refreshToken, user } = resBody.data;
     await setAuthTokens(accessToken, refreshToken, user);
-
-    // Replay queue on login
-    syncQueuedEvents().catch(() => {});
 
     return user;
   },

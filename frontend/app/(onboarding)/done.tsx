@@ -5,11 +5,15 @@ import { OnboardingFrame } from '../../components/OnboardingFrame';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { finishOnboarding, loadOnboardingProfile } from '@/onboarding/profile';
 import { getOnboardingCopy } from '@/onboarding/copy';
+import { type ColorsType } from '@/theme/colors';
+import { useTheme } from '@/theme/theme';
 
 export default function DoneScreen(): React.JSX.Element {
   const router = useRouter();
   const { language } = useLanguage();
   const copy = getOnboardingCopy(language);
+  const { colors } = useTheme();
+  const styles = createStyles(colors);
   const [progress, setProgress] = useState(0);
   const ready = progress >= 100;
 
@@ -61,7 +65,7 @@ export default function DoneScreen(): React.JSX.Element {
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: ColorsType) => StyleSheet.create({
   content: {
     flex: 1,
     justifyContent: 'center',
@@ -71,12 +75,12 @@ const styles = StyleSheet.create({
     width: 120,
     height: 120,
     borderRadius: 60,
-    backgroundColor: '#241F3A',
+    backgroundColor: colors.successSubtle,
     alignItems: 'center',
     justifyContent: 'center',
   },
   successText: {
-    color: '#C4B5FD',
+    color: colors.success,
     fontSize: 28,
     lineHeight: 34,
     fontWeight: '900',
@@ -86,16 +90,16 @@ const styles = StyleSheet.create({
     height: 12,
     borderRadius: 6,
     overflow: 'hidden',
-    backgroundColor: '#1F2937',
+    backgroundColor: colors.surfaceContainerHighest,
     marginTop: 28,
   },
   progressFill: {
     height: '100%',
     borderRadius: 6,
-    backgroundColor: '#34D399',
+    backgroundColor: colors.success,
   },
   bodyText: {
-    color: '#CBD5E1',
+    color: colors.textSecondary,
     fontSize: 16,
     lineHeight: 24,
     textAlign: 'center',

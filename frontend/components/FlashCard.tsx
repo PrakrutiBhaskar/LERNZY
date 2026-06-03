@@ -99,9 +99,7 @@ export const FlashCard: React.FC<FlashCardProps> = React.memo(({
           styles.cardBack,
           backStyle,
           {
-            backgroundColor: colors.surface,
-            borderColor: colors.primary,
-            borderWidth: 2,
+            backgroundColor: colors.primarySubtle,
             padding: spacing.space5,
             ...shadows.none,
           },

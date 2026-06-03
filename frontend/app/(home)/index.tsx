@@ -16,6 +16,7 @@ import { getObject, removeItem } from '@/utils/storage';
 import { apiFetch } from '@/services/api';
 
 import { SkeletonLoader } from '../../components/SkeletonLoader';
+import { CompanionBar } from '../../components/CompanionBar';
 
 interface SubjectItem {
   id: string;
@@ -424,6 +425,7 @@ export default function Home(): React.JSX.Element {
           style={styles.resetBtn}
         />
       </ScrollView>
+      <CompanionBar />
     </SafeAreaView>
   );
 }

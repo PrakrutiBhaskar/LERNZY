@@ -22,6 +22,8 @@ export const STORAGE_KEYS = {
   ACCESS_TOKEN: 'lernzy:access_token',
   REFRESH_TOKEN: 'lernzy:refresh_token',
   USER_PROFILE: 'lernzy:user_profile',
+  CLOUD_SYNC_ENABLED: 'lernzy:cloud_sync_enabled',
+  THEME_MODE: 'lernzy:theme_mode',
 } as const;
 
 /**

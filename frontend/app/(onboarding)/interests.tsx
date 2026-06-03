@@ -1,18 +1,30 @@
 import React, { useEffect, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
-import { Check } from 'lucide-react-native';
+import { BookOpen, Bot, Check, Landmark, Leaf, Orbit, Trophy } from 'lucide-react-native';
 import { OnboardingFrame } from '../../components/OnboardingFrame';
 import { loadOnboardingProfile, saveOnboardingProfile } from '@/onboarding/profile';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { getOnboardingCopy } from '@/onboarding/copy';
+import { type ColorsType } from '@/theme/colors';
+import { useTheme } from '@/theme/theme';
 
 const INTEREST_IDS = ['space', 'nature', 'robots', 'sports', 'stories', 'history'] as const;
+const INTEREST_ICONS = {
+  space: Orbit,
+  nature: Leaf,
+  robots: Bot,
+  sports: Trophy,
+  stories: BookOpen,
+  history: Landmark,
+} as const;
 
 export default function InterestsScreen(): React.JSX.Element {
   const router = useRouter();
   const { language } = useLanguage();
   const copy = getOnboardingCopy(language);
+  const { colors } = useTheme();
+  const styles = createStyles(colors);
   const [selected, setSelected] = useState<string[]>([]);
 
   useEffect(() => {
@@ -58,6 +70,7 @@ export default function InterestsScreen(): React.JSX.Element {
         {INTEREST_IDS.map((id, index) => {
           const active = selected.includes(id);
           const item = copy.interests[id];
+          const InterestIcon = INTEREST_ICONS[id];
 
           return (
             <Pressable
@@ -72,8 +85,14 @@ export default function InterestsScreen(): React.JSX.Element {
               accessibilityRole="checkbox"
               accessibilityState={{ checked: active }}
             >
+              <InterestIcon
+                size={42}
+                strokeWidth={2.4}
+                color={active ? colors.primary : colors.tertiary}
+                style={styles.interestIcon}
+              />
               <View style={[styles.check, active && styles.checkActive]}>
-                {active ? <Check size={15} color="#070A12" strokeWidth={3} /> : null}
+                {active ? <Check size={15} color={colors.textOnPrimary} strokeWidth={3} /> : null}
               </View>
               <Text style={[styles.cardTitle, active && styles.cardTitleActive]}>
                 {item.title}
@@ -87,7 +106,7 @@ export default function InterestsScreen(): React.JSX.Element {
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: ColorsType) => StyleSheet.create({
   grid: {
     flexDirection: 'row',
     flexWrap: 'wrap',
@@ -96,18 +115,16 @@ const styles = StyleSheet.create({
   card: {
     width: '48%',
     minHeight: 132,
-    borderWidth: 1.5,
-    borderColor: '#334155',
-    borderRadius: 16,
-    backgroundColor: '#111827',
+    borderRadius: 24,
+    backgroundColor: colors.tertiaryFixed,
     padding: 14,
+    overflow: 'hidden',
   },
   cardRowSpacing: {
     marginTop: 12,
   },
   cardActive: {
-    borderColor: '#A78BFA',
-    backgroundColor: '#241F3A',
+    backgroundColor: colors.primarySubtle,
   },
   pressed: {
     opacity: 0.78,
@@ -116,29 +133,33 @@ const styles = StyleSheet.create({
     width: 24,
     height: 24,
     borderRadius: 12,
-    borderWidth: 1.5,
-    borderColor: '#334155',
+    backgroundColor: colors.surfaceBright,
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 16,
   },
   checkActive: {
-    borderColor: '#A78BFA',
-    backgroundColor: '#A78BFA',
+    backgroundColor: colors.primaryContainer,
   },
   cardTitle: {
-    color: '#F8FAFC',
+    color: colors.textPrimary,
     fontSize: 17,
     lineHeight: 22,
     fontWeight: '800',
   },
   cardTitleActive: {
-    color: '#C4B5FD',
+    color: colors.primary,
   },
   cardSubtitle: {
-    color: '#CBD5E1',
+    color: colors.textSecondary,
     fontSize: 13,
     lineHeight: 18,
     marginTop: 4,
+  },
+  interestIcon: {
+    position: 'absolute',
+    top: -7,
+    right: -5,
+    opacity: 0.38,
   },
 });

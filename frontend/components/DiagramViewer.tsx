@@ -130,11 +130,6 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     alignItems: 'center',
     justifyContent: 'center',
-    elevation: 2,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.1,
-    shadowRadius: 2,
   },
   captionText: {
     textAlign: 'center',
@@ -171,11 +166,6 @@ const styles = StyleSheet.create({
   descContainer: {
     borderTopLeftRadius: 18,
     borderTopRightRadius: 18,
-    elevation: 4,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: -2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
   },
   descTitle: {
     fontWeight: '700',

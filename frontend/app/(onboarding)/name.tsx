@@ -5,11 +5,15 @@ import { OnboardingFrame } from '../../components/OnboardingFrame';
 import { loadOnboardingProfile, saveOnboardingProfile } from '@/onboarding/profile';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { getOnboardingCopy } from '@/onboarding/copy';
+import { type ColorsType } from '@/theme/colors';
+import { useTheme } from '@/theme/theme';
 
 export default function NameScreen(): React.JSX.Element {
   const router = useRouter();
   const { language } = useLanguage();
   const copy = getOnboardingCopy(language);
+  const { colors } = useTheme();
+  const styles = createStyles(colors);
   const [name, setName] = useState('');
 
   useEffect(() => {
@@ -48,7 +52,7 @@ export default function NameScreen(): React.JSX.Element {
           value={name}
           onChangeText={setName}
           placeholder={copy.namePlaceholder}
-          placeholderTextColor="#64748B"
+          placeholderTextColor={colors.textDisabled}
           maxLength={30}
           autoCapitalize="words"
           returnKeyType="done"
@@ -59,18 +63,16 @@ export default function NameScreen(): React.JSX.Element {
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: ColorsType) => StyleSheet.create({
   form: {
     width: '100%',
   },
   input: {
     minHeight: 60,
-    borderWidth: 1.5,
-    borderColor: '#334155',
     borderRadius: 18,
-    backgroundColor: '#111827',
+    backgroundColor: colors.surfaceContainerHighest,
     paddingHorizontal: 18,
-    color: '#F8FAFC',
+    color: colors.textPrimary,
     fontSize: 18,
     lineHeight: 24,
     fontWeight: '600',

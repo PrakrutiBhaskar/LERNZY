@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, StyleSheet, Alert } from 'react-native';
+import { View, StyleSheet, Alert, Pressable } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { useTheme } from '@/theme/theme';
@@ -11,12 +11,13 @@ import { ScreenContainer } from '../../components/ScreenContainer';
 import { STORAGE_KEYS, LanguageCode } from '@/utils/constants';
 import { getObject, setObject, removeItem } from '@/utils/storage';
 import { useAuth } from '@/services/auth';
+import { Moon, Sun } from 'lucide-react-native';
 
 export default function SettingsScreen(): React.JSX.Element {
   const { user, isAuthenticated } = useAuth();
   const router = useRouter();
   const { language, setLanguage } = useLanguage();
-  const { colors, spacing } = useTheme();
+  const { colors, mode, toggleMode } = useTheme();
 
   const [name, setName] = useState('');
   const [profile, setProfile] = useState<any>(null);
@@ -143,6 +144,47 @@ export default function SettingsScreen(): React.JSX.Element {
           </View>
         </Card>
 
+        {/* Appearance Card */}
+        <Card style={styles.settingsCard}>
+          <View style={styles.appearanceRow}>
+            <View style={styles.appearanceCopy}>
+              <AppText variant="heading2" style={styles.appearanceTitle}>
+                {language === 'en' ? 'Appearance' : language === 'hi' ? 'थीम' : 'ಥೀಮ್'}
+              </AppText>
+              <AppText variant="body" color={colors.textSecondary}>
+                {mode === 'dark'
+                  ? (language === 'en' ? 'Dark theme is active' : language === 'hi' ? 'डार्क थीम सक्रिय है' : 'ಡಾರ್ಕ್ ಥೀಮ್ ಸಕ್ರಿಯವಾಗಿದೆ')
+                  : (language === 'en' ? 'Light theme is active' : language === 'hi' ? 'लाइट थीम सक्रिय है' : 'ಲೈಟ್ ಥೀಮ್ ಸಕ್ರಿಯವಾಗಿದೆ')}
+              </AppText>
+            </View>
+            <Pressable
+              onPress={toggleMode}
+              accessibilityRole="switch"
+              accessibilityState={{ checked: mode === 'dark' }}
+              accessibilityLabel="Toggle dark theme"
+              style={({ pressed }) => [
+                styles.themeSwitch,
+                { backgroundColor: mode === 'dark' ? colors.primaryContainer : colors.surfaceContainerHighest },
+                pressed && { opacity: 0.82 },
+              ]}
+            >
+              <View
+                style={[
+                  styles.themeThumb,
+                  {
+                    backgroundColor: colors.surface,
+                    transform: [{ translateX: mode === 'dark' ? 28 : 0 }],
+                  },
+                ]}
+              >
+                {mode === 'dark'
+                  ? <Moon size={16} strokeWidth={2.5} color={colors.primary} />
+                  : <Sun size={16} strokeWidth={2.5} color={colors.primary} />}
+              </View>
+            </Pressable>
+          </View>
+        </Card>
+
         {/* Offline AI Model Info Card */}
         <Card style={styles.settingsCard}>
           <AppText variant="heading2" style={styles.sectionTitle}>
@@ -169,7 +211,7 @@ export default function SettingsScreen(): React.JSX.Element {
         </Card>
 
         {/* App Danger Reset Card */}
-        <Card style={[styles.settingsCard, { borderColor: colors.error, borderWidth: 1.5 }]}>
+        <Card style={[styles.settingsCard, { backgroundColor: colors.errorSubtle }]}>
           <AppText variant="heading2" color={colors.error} style={styles.sectionTitle}>
             {language === 'en' ? 'Danger Zone' : language === 'hi' ? 'खतरनाक क्षेत्र' : 'ಅಪಾಯಕಾರಿ ವಲಯ'}
           </AppText>
@@ -219,12 +261,38 @@ const styles = StyleSheet.create({
     minHeight: 40,
     paddingVertical: 8,
   },
+  appearanceRow: {
+    minHeight: 56,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: 16,
+  },
+  appearanceCopy: {
+    flex: 1,
+  },
+  appearanceTitle: {
+    fontWeight: '700',
+    marginBottom: 4,
+  },
+  themeSwitch: {
+    width: 68,
+    height: 40,
+    borderRadius: 20,
+    padding: 4,
+    justifyContent: 'center',
+  },
+  themeThumb: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
   modelRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     paddingVertical: 10,
-    borderBottomWidth: 1.5,
-    borderBottomColor: '#F5F5F5',
   },
   modelName: {
     fontWeight: '600',

@@ -5,6 +5,8 @@ import { OnboardingFrame } from '../../components/OnboardingFrame';
 import { loadOnboardingProfile, saveOnboardingProfile } from '@/onboarding/profile';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { getOnboardingCopy } from '@/onboarding/copy';
+import { type ColorsType } from '@/theme/colors';
+import { useTheme } from '@/theme/theme';
 
 const GRADES = [6, 7, 8];
 
@@ -12,6 +14,8 @@ export default function GradeScreen(): React.JSX.Element {
   const router = useRouter();
   const { language } = useLanguage();
   const copy = getOnboardingCopy(language);
+  const { colors } = useTheme();
+  const styles = createStyles(colors);
   const [grade, setGrade] = useState<number | null>(null);
 
   useEffect(() => {
@@ -78,7 +82,7 @@ export default function GradeScreen(): React.JSX.Element {
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: ColorsType) => StyleSheet.create({
   grid: {
     width: '100%',
   },
@@ -87,17 +91,14 @@ const styles = StyleSheet.create({
   },
   gradeCard: {
     minHeight: 88,
-    borderWidth: 1.5,
-    borderColor: '#334155',
-    borderRadius: 18,
-    backgroundColor: '#111827',
+    borderRadius: 24,
+    backgroundColor: colors.surfaceContainerLowest,
     paddingHorizontal: 18,
     flexDirection: 'row',
     alignItems: 'center',
   },
   gradeCardActive: {
-    borderColor: '#A78BFA',
-    backgroundColor: '#241F3A',
+    backgroundColor: colors.primarySubtle,
   },
   pressed: {
     opacity: 0.78,
@@ -106,8 +107,8 @@ const styles = StyleSheet.create({
     width: 52,
     height: 52,
     borderRadius: 26,
-    color: '#A78BFA',
-    backgroundColor: '#241F3A',
+    color: colors.primary,
+    backgroundColor: colors.primarySubtle,
     textAlign: 'center',
     textAlignVertical: 'center',
     fontSize: 24,
@@ -116,16 +117,16 @@ const styles = StyleSheet.create({
     marginRight: 18,
   },
   gradeNumberActive: {
-    color: '#070A12',
-    backgroundColor: '#A78BFA',
+    color: colors.textOnPrimary,
+    backgroundColor: colors.primaryContainer,
   },
   gradeLabel: {
-    color: '#F8FAFC',
+    color: colors.textPrimary,
     fontSize: 20,
     lineHeight: 26,
     fontWeight: '800',
   },
   gradeLabelActive: {
-    color: '#C4B5FD',
+    color: colors.primary,
   },
 });

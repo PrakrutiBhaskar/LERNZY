@@ -281,7 +281,7 @@ export default function LessonScreen(): React.JSX.Element {
 
       {/* Narrating Subtitle simulation widget */}
       {isNarrating && (
-        <Card style={[styles.subCard, { borderColor: colors.primary }]}>
+        <Card style={[styles.subCard, { backgroundColor: colors.primarySubtle }]}>
           <LoadingDots color={colors.primary} size={8} />
           <AppText variant="bodyLg" style={styles.narrationSubtitle}>
             "{resolvedStory}"
@@ -412,8 +412,6 @@ const styles = StyleSheet.create({
   },
   subCard: {
     padding: 16,
-    borderWidth: 1.5,
-    borderStyle: 'dashed',
     alignItems: 'center',
     gap: 10,
   },

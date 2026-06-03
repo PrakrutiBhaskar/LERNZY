@@ -147,7 +147,6 @@ export default function CodingSandbox(): React.JSX.Element {
                 styles.challengeChip,
                 {
                   backgroundColor: active ? colors.primary : colors.surfaceAlt,
-                  borderColor: active ? colors.primary : colors.border,
                 },
               ]}
             >
@@ -163,7 +162,7 @@ export default function CodingSandbox(): React.JSX.Element {
         })}
       </View>
 
-      <Card style={[styles.editorCard, { borderColor: colors.border }]}>
+      <Card style={styles.editorCard}>
         <View style={styles.panelHeader}>
           <View style={styles.panelTitle}>
             <Code2 size={18} color={colors.primary} />
@@ -184,7 +183,6 @@ export default function CodingSandbox(): React.JSX.Element {
             styles.editor,
             {
               backgroundColor: colors.bg,
-              borderColor: colors.border,
               borderRadius: radius.md,
               color: colors.textPrimary,
             },
@@ -217,7 +215,7 @@ export default function CodingSandbox(): React.JSX.Element {
         />
       </View>
 
-      <Card style={[styles.consoleCard, { borderColor: error ? colors.error : colors.border }]}>
+      <Card style={[styles.consoleCard, error && { backgroundColor: colors.errorSubtle }]}>
         <View style={styles.panelTitle}>
           <Terminal size={18} color={error ? colors.error : colors.success} />
           <AppText variant="heading2" style={styles.panelTitleText}>
@@ -257,7 +255,6 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   challengeChip: {
-    borderWidth: 1.5,
     borderRadius: 999,
     paddingHorizontal: 12,
     paddingVertical: 8,
@@ -268,7 +265,6 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   editorCard: {
-    borderWidth: 1.5,
     padding: 14,
     gap: 12,
   },
@@ -287,7 +283,6 @@ const styles = StyleSheet.create({
   },
   editor: {
     minHeight: 260,
-    borderWidth: 1,
     padding: 14,
     fontSize: 15,
     lineHeight: 22,
@@ -303,7 +298,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
   },
   consoleCard: {
-    borderWidth: 1.5,
     padding: 14,
     gap: 12,
   },

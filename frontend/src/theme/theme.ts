@@ -1,11 +1,12 @@
-import { useContext } from 'react';
+import { useContext, useMemo } from 'react';
 import { ViewStyle, TextStyle } from 'react-native';
-import { colors, subjectColors, SubjectType } from './colors';
+import { colors, type ColorsType } from './colors';
 import { spacing } from './spacing';
 import { radius } from './radius';
 import { shadows } from './shadows';
 import { getFontStyle, typeScale, TypographyVariant } from './typography';
 import { LanguageContext } from '../i18n/LanguageContext';
+import { useThemeMode } from './ThemeContext';
 
 export const theme = {
   colors,
@@ -21,7 +22,8 @@ export const theme = {
 export type ThemeType = typeof theme;
 
 // Reusable base styles using ONLY tokens
-export const componentStyles = {
+function createComponentStyles(colors: ColorsType) {
+  return {
   // Buttons
   primaryButton: {
     backgroundColor: colors.primary,
@@ -35,11 +37,9 @@ export const componentStyles = {
   } as ViewStyle,
 
   secondaryButton: {
-    backgroundColor: colors.surfaceAlt,
-    borderWidth: 1.5,
-    borderColor: colors.primary,
+    backgroundColor: colors.surfaceContainerHigh,
     borderRadius: radius.md,
-    paddingVertical: 11, // 11px + 1.5px border * 2 = 14px total padding depth matches primary
+    paddingVertical: 12,
     paddingHorizontal: 24,
     minHeight: 48,
     justifyContent: 'center',
@@ -101,9 +101,7 @@ export const componentStyles = {
 
   // Cards
   standardCard: {
-    backgroundColor: colors.surface,
-    borderWidth: 1,
-    borderColor: colors.border,
+    backgroundColor: colors.surfaceContainerLowest,
     borderRadius: radius.md,
     padding: spacing.space5,
     ...shadows.card,
@@ -111,8 +109,6 @@ export const componentStyles = {
 
   activeCard: {
     backgroundColor: colors.primarySubtle,
-    borderWidth: 1.5,
-    borderColor: colors.primary,
     borderRadius: radius.md,
     padding: spacing.space5,
     ...shadows.none,
@@ -120,9 +116,7 @@ export const componentStyles = {
 
   // Input Fields
   inputField: {
-    backgroundColor: colors.surface,
-    borderWidth: 1.5,
-    borderColor: colors.border,
+    backgroundColor: colors.surfaceContainerHighest,
     borderRadius: radius.md,
     paddingVertical: 12,
     paddingHorizontal: 14,
@@ -132,11 +126,11 @@ export const componentStyles = {
   } as ViewStyle,
 
   inputFocus: {
-    borderColor: colors.primary,
+    backgroundColor: colors.primarySubtle,
   } as ViewStyle,
 
   inputError: {
-    borderColor: colors.error,
+    backgroundColor: colors.errorSubtle,
   } as ViewStyle,
 
   // Tutor Bubble
@@ -150,9 +144,7 @@ export const componentStyles = {
 
   // Quiz Options
   quizOptionDefault: {
-    backgroundColor: colors.surface,
-    borderWidth: 1.5,
-    borderColor: colors.border,
+    backgroundColor: colors.surfaceContainerLowest,
     borderRadius: radius.md,
     padding: spacing.space4,
     ...shadows.card,
@@ -160,8 +152,6 @@ export const componentStyles = {
 
   quizOptionSelected: {
     backgroundColor: colors.primarySubtle,
-    borderColor: colors.primary,
-    borderWidth: 1.5,
     borderRadius: radius.md,
     padding: spacing.space4,
     ...shadows.none,
@@ -169,20 +159,19 @@ export const componentStyles = {
 
   quizOptionCorrect: {
     backgroundColor: colors.successSubtle,
-    borderColor: colors.success,
-    borderWidth: 1.5,
     borderRadius: radius.md,
     padding: spacing.space4,
   } as ViewStyle,
 
   quizOptionIncorrect: {
     backgroundColor: colors.warningSubtle,
-    borderColor: colors.warning,
-    borderWidth: 1.5,
     borderRadius: radius.md,
     padding: spacing.space4,
   } as ViewStyle,
-};
+  };
+}
+
+export const componentStyles = createComponentStyles(colors);
 
 /**
  * Hook to retrieve the active theme tokens.
@@ -191,14 +180,22 @@ export const componentStyles = {
 export function useTheme() {
   const context = useContext(LanguageContext);
   const lang = context ? context.language : 'en';
+  const { colors: activeColors, mode, setMode, toggleMode } = useThemeMode();
+  const activeComponentStyles = useMemo(
+    () => createComponentStyles(activeColors),
+    [activeColors]
+  );
 
   return {
-    colors,
+    colors: activeColors,
     spacing,
     radius,
     shadows,
     language: lang,
-    componentStyles,
+    mode,
+    setMode,
+    toggleMode,
+    componentStyles: activeComponentStyles,
     // Automatically curry the language into getFontStyle
     getFontStyle: (variant: TypographyVariant) => getFontStyle(variant, lang),
   };
@@ -208,26 +205,28 @@ export function useTheme() {
  * Hook to resolve a subject-specific accent color dynamically.
  */
 export function useSubjectColor(subject: string): string {
+  const { colors } = useTheme();
+
   // Normalize names: e.g. "Social Studies" -> "socialstudies" -> "social"
   const normalized = subject.toLowerCase().replace(/[^a-z]/g, '');
 
   if (normalized === 'math' || normalized === 'mathematics') {
-    return subjectColors.math;
+    return colors.subjectMath;
   }
   if (normalized === 'science') {
-    return subjectColors.science;
+    return colors.subjectScience;
   }
   if (normalized === 'social' || normalized === 'socialstudies' || normalized === 'socialscience') {
-    return subjectColors.social;
+    return colors.subjectSocial;
   }
   if (normalized === 'english') {
-    return subjectColors.english;
+    return colors.subjectEnglish;
   }
   if (normalized === 'kannada') {
-    return subjectColors.kannada;
+    return colors.subjectKannada;
   }
   if (normalized === 'coding' || normalized === 'code' || normalized === 'programming') {
-    return subjectColors.coding;
+    return colors.subjectCoding;
   }
 
   return colors.primary; // Fallback brand color

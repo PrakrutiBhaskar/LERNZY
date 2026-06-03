@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { View, ActivityIndicator } from 'react-native';
 import { useRouter } from 'expo-router';
-import { COLORS } from '@/utils/theme';
+import { useTheme } from '@/theme/theme';
 import { STORAGE_KEYS } from '@/utils/constants';
 import { getBoolean } from '@/utils/storage';
 
@@ -11,6 +11,7 @@ import { getBoolean } from '@/utils/storage';
  */
 export default function Index(): React.JSX.Element {
   const router = useRouter();
+  const { colors } = useTheme();
 
   useEffect(() => {
     let active = true;
@@ -30,8 +31,8 @@ export default function Index(): React.JSX.Element {
   }, [router]);
 
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: COLORS.bg }}>
-      <ActivityIndicator size="large" color={COLORS.primary} />
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: colors.bg }}>
+      <ActivityIndicator size="large" color={colors.primary} />
     </View>
   );
 }

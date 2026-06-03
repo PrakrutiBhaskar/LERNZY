@@ -7,7 +7,8 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { initDatabase } from '@/db/database';
 import { LanguageProvider } from '@/i18n/LanguageContext';
 import { AppText } from '../components/AppText';
-import { COLORS } from '@/utils/theme';
+import { ThemeProvider } from '@/theme/ThemeContext';
+import { useTheme } from '@/theme/theme';
 import { getBoolean } from '@/utils/storage';
 import { STORAGE_KEYS } from '@/utils/constants';
 
@@ -59,6 +60,43 @@ function RouteGuard({ children, isReady }: { children: React.ReactNode; isReady:
   }, [segments, isReady]);
 
   return <>{children}</>;
+}
+
+function ThemedAppShell({
+  dbError,
+  isLoaded,
+  inHome,
+}: {
+  dbError: string | null;
+  isLoaded: boolean;
+  inHome: boolean;
+}) {
+  const { colors } = useTheme();
+
+  return (
+    <RouteGuard isReady={!!isLoaded}>
+      <View style={{ flex: 1 }}>
+        <Slot />
+
+        {!isLoaded && (
+          <View style={[StyleSheet.absoluteFill, { justifyContent: 'center', alignItems: 'center', backgroundColor: colors.bg }]}>
+            <ActivityIndicator size="large" color={colors.primary} />
+          </View>
+        )}
+
+        {!!dbError && inHome && (
+          <View style={[StyleSheet.absoluteFill, { justifyContent: 'center', alignItems: 'center', backgroundColor: colors.bg, padding: 20 }]}>
+            <AppText variant="heading1" color={colors.error} style={{ marginBottom: 10 }}>
+              Database Error
+            </AppText>
+            <AppText variant="body" color={colors.textSecondary} style={{ textAlign: 'center' }}>
+              {dbError}
+            </AppText>
+          </View>
+        )}
+      </View>
+    </RouteGuard>
+  );
 }
 
 export default function RootLayout(): React.JSX.Element | null {
@@ -125,30 +163,11 @@ export default function RootLayout(): React.JSX.Element | null {
 
   return (
     <SafeAreaProvider>
-      <LanguageProvider>
-        <RouteGuard isReady={!!isLoaded}>
-          <View style={{ flex: 1 }}>
-            <Slot />
-          
-            {!isLoaded && (
-              <View style={[StyleSheet.absoluteFill, { justifyContent: 'center', alignItems: 'center', backgroundColor: COLORS.bg }]}>
-                <ActivityIndicator size="large" color={COLORS.primary} />
-              </View>
-            )}
-
-            {!!dbError && inHome && (
-              <View style={[StyleSheet.absoluteFill, { justifyContent: 'center', alignItems: 'center', backgroundColor: COLORS.bg, padding: 20 }]}>
-                <AppText variant="heading1" color={COLORS.error} style={{ marginBottom: 10 }}>
-                  Database Error
-                </AppText>
-                <AppText variant="body" color={COLORS.textSecondary} style={{ textAlign: 'center' }}>
-                  {dbError}
-                </AppText>
-              </View>
-            )}
-          </View>
-        </RouteGuard>
-      </LanguageProvider>
+      <ThemeProvider>
+        <LanguageProvider>
+          <ThemedAppShell dbError={dbError} isLoaded={!!isLoaded} inHome={inHome} />
+        </LanguageProvider>
+      </ThemeProvider>
     </SafeAreaProvider>
   );
 }
