@@ -2,7 +2,7 @@ import { ensureLocalStudent, LocalStudentProfile } from '@/db/database';
 import { LanguageCode, STORAGE_KEYS } from '@/utils/constants';
 import { getObject, setBoolean, setObject } from '@/utils/storage';
 
-export type LearningStyleId = 'reading' | 'audio' | 'quiz' | 'mixed';
+export type LearningStyleId = 'reading' | 'audio' | 'quiz' | 'visual' | 'story' | 'exam' | 'interactive' | 'mixed';
 
 export interface StudentOnboardingProfile extends LocalStudentProfile {
   name: string;
@@ -35,8 +35,8 @@ function cleanGrade(value: unknown): number {
 }
 
 function cleanLearningStyle(value: unknown): LearningStyleId {
-  return value === 'reading' || value === 'audio' || value === 'quiz'
-    ? value
+  return value === 'reading' || value === 'audio' || value === 'quiz' || value === 'visual' || value === 'story' || value === 'exam' || value === 'interactive'
+    ? value as LearningStyleId
     : DEFAULT_PROFILE.learningStyle;
 }
 

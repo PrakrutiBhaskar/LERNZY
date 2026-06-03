@@ -10,8 +10,213 @@ export const DB_NAME = 'lernzy.db';
 let dbInstance: SQLite.SQLiteDatabase | null = null;
 
 export function isLocalDatabaseAvailable(): boolean {
-  return !(Platform.OS === 'web' && typeof globalThis.SharedArrayBuffer === 'undefined');
+  if (Platform.OS === 'web') {
+    return false;
+  }
+  try {
+    return !!SQLite;
+  } catch (err) {
+    return false;
+  }
 }
+
+const mockDb = {
+  async runAsync(sql: string, params: any[] = []): Promise<{ lastInsertRowId: number; changes: number }> {
+    console.log('[Mock DB Web] runAsync:', sql, params);
+    const lowerSql = sql.toLowerCase();
+    
+    if (lowerSql.includes('insert into students')) {
+      const name = params[0];
+      const grade = params[1];
+      const lang = params[2];
+      const interests = params[3];
+      const style = params[4];
+      
+      const students = JSON.parse(localStorage.getItem('lernzy_local_students') || '[]');
+      const id = students.length + 1;
+      students.push({ id, name, grade, language: lang, interests_json: interests, learning_style: style });
+      localStorage.setItem('lernzy_local_students', JSON.stringify(students));
+      return { lastInsertRowId: id, changes: 1 };
+    }
+    
+    if (lowerSql.includes('update students')) {
+      const name = params[0];
+      const grade = params[1];
+      const lang = params[2];
+      const interests = params[3];
+      const style = params[4];
+      const id = params[5];
+      
+      const students = JSON.parse(localStorage.getItem('lernzy_local_students') || '[]');
+      const student = students.find((s: any) => s.id === id);
+      if (student) {
+        student.name = name;
+        student.grade = grade;
+        student.language = lang;
+        student.interests_json = interests;
+        student.learning_style = style;
+      }
+      localStorage.setItem('lernzy_local_students', JSON.stringify(students));
+      return { lastInsertRowId: id, changes: 1 };
+    }
+    
+    if (lowerSql.includes('insert into sessions')) {
+      const student_id = params[0];
+      const subject = params[1];
+      const chapter_id = params[2];
+      const topic_id = params[3];
+      const mode = params[4];
+      const started_at = params[5];
+      
+      const sessions = JSON.parse(localStorage.getItem('lernzy_local_sessions') || '[]');
+      const id = sessions.length + 1;
+      sessions.push({ id, student_id, subject, chapter_id, topic_id, mode, started_at, ended_at: null, duration_seconds: null });
+      localStorage.setItem('lernzy_local_sessions', JSON.stringify(sessions));
+      return { lastInsertRowId: id, changes: 1 };
+    }
+    
+    if (lowerSql.includes('update sessions')) {
+      const ended_at = params[0];
+      const duration = params[1];
+      const id = params[2];
+      
+      const sessions = JSON.parse(localStorage.getItem('lernzy_local_sessions') || '[]');
+      const session = sessions.find((s: any) => s.id === id);
+      if (session) {
+        session.ended_at = ended_at;
+        session.duration_seconds = duration;
+      }
+      localStorage.setItem('lernzy_local_sessions', JSON.stringify(sessions));
+      return { lastInsertRowId: id, changes: 1 };
+    }
+    
+    if (lowerSql.includes('insert into quiz_results')) {
+      const student_id = params[0];
+      const topic_id = params[1];
+      const score = params[2];
+      const total = params[3];
+      const diff = params[4];
+      const attempted_at = params[5];
+      
+      const results = JSON.parse(localStorage.getItem('lernzy_local_quiz_results') || '[]');
+      const id = results.length + 1;
+      results.push({ id, student_id, topic_id, score, total, difficulty_level: diff, attempted_at });
+      localStorage.setItem('lernzy_local_quiz_results', JSON.stringify(results));
+      return { lastInsertRowId: id, changes: 1 };
+    }
+
+    if (lowerSql.includes('insert into achievements')) {
+      const student_id = params[0];
+      const badge_key = params[1];
+      const achievements = JSON.parse(localStorage.getItem('lernzy_local_achievements') || '[]');
+      const exists = achievements.some((a: any) => a.student_id === student_id && a.badge_key === badge_key);
+      if (!exists) {
+        achievements.push({ student_id, badge_key, earned_at: new Date().toISOString() });
+        localStorage.setItem('lernzy_local_achievements', JSON.stringify(achievements));
+      }
+      return { lastInsertRowId: 1, changes: 1 };
+    }
+
+    return { lastInsertRowId: 0, changes: 0 };
+  },
+
+  async getFirstAsync<T>(sql: string, params: any[] = []): Promise<T | null> {
+    console.log('[Mock DB Web] getFirstAsync:', sql, params);
+    const lowerSql = sql.toLowerCase();
+    
+    if (lowerSql.includes('from students')) {
+      const students = JSON.parse(localStorage.getItem('lernzy_local_students') || '[]');
+      if (students.length === 0) {
+        const defaultStudent = { id: 1, name: 'Friend', grade: 6, language: 'en', interests_json: '[]', learning_style: 'mixed' };
+        students.push(defaultStudent);
+        localStorage.setItem('lernzy_local_students', JSON.stringify(students));
+        return defaultStudent as unknown as T;
+      }
+      return students[0] as unknown as T;
+    }
+    
+    if (lowerSql.includes('from sessions')) {
+      const sessions = JSON.parse(localStorage.getItem('lernzy_local_sessions') || '[]');
+      
+      if (lowerSql.includes('order by started_at desc limit 1')) {
+        const studentId = params[0];
+        const studentSessions = sessions.filter((s: any) => s.student_id === studentId);
+        if (studentSessions.length === 0) return null;
+        return studentSessions[studentSessions.length - 1] as unknown as T;
+      }
+      
+      if (lowerSql.includes('mode = \'lesson\' and ended_at is not null')) {
+        const studentId = params[0];
+        const topicId = params[1];
+        const match = sessions.find((s: any) => s.student_id === studentId && s.topic_id === topicId && s.mode === 'lesson' && s.ended_at);
+        return match ? match : null;
+      }
+    }
+    
+    if (lowerSql.includes('from quiz_results')) {
+      const results = JSON.parse(localStorage.getItem('lernzy_local_quiz_results') || '[]');
+      const studentId = params[0];
+      const topicId = params[1];
+      const match = results.find((r: any) => r.student_id === studentId && r.topic_id === topicId);
+      return match ? match : null;
+    }
+    
+    return null;
+  },
+
+  async getAllAsync<T>(sql: string, params: any[] = []): Promise<T[]> {
+    console.log('[Mock DB Web] getAllAsync:', sql, params);
+    const lowerSql = sql.toLowerCase();
+    
+    if (lowerSql.includes('from sessions') && lowerSql.includes('union') && lowerSql.includes('from quiz_results')) {
+      const studentId = params[0];
+      const sessions = JSON.parse(localStorage.getItem('lernzy_local_sessions') || '[]');
+      const results = JSON.parse(localStorage.getItem('lernzy_local_quiz_results') || '[]');
+      
+      const compSet = new Set<string>();
+      sessions.forEach((s: any) => {
+        if (s.student_id === studentId && s.ended_at) {
+          compSet.add(s.topic_id);
+        }
+      });
+      results.forEach((r: any) => {
+        if (r.student_id === studentId) {
+          compSet.add(r.topic_id);
+        }
+      });
+      
+      return Array.from(compSet).map(topic_id => ({ topic_id } as unknown as T));
+    }
+    
+    if (lowerSql.includes('from quiz_results')) {
+      const results = JSON.parse(localStorage.getItem('lernzy_local_quiz_results') || '[]');
+      const studentId = params[0];
+      return results.filter((r: any) => r.student_id === studentId) as unknown as T[];
+    }
+    
+    if (lowerSql.includes('from sessions')) {
+      const sessions = JSON.parse(localStorage.getItem('lernzy_local_sessions') || '[]');
+      const studentId = params[0];
+      return sessions.filter((s: any) => s.student_id === studentId) as unknown as T[];
+    }
+    
+    if (lowerSql.includes('from achievements')) {
+      const achievements = JSON.parse(localStorage.getItem('lernzy_local_achievements') || '[]');
+      const studentId = params[0];
+      return achievements.filter((a: any) => a.student_id === studentId) as unknown as T[];
+    }
+    
+    return [];
+  },
+
+  async execAsync(sql: string): Promise<void> {
+    console.log('[Mock DB Web] execAsync:', sql);
+  },
+
+  async withTransactionAsync(callback: () => Promise<void>): Promise<void> {
+    await callback();
+  }
+};
 
 /**
  * Gets the current active SQLite database connection.
@@ -19,13 +224,18 @@ export function isLocalDatabaseAvailable(): boolean {
  */
 export function getDb(): SQLite.SQLiteDatabase {
   if (!isLocalDatabaseAvailable()) {
-    throw new DBError('Local database is unavailable in this web environment.');
+    return mockDb as unknown as SQLite.SQLiteDatabase;
   }
 
-  if (!dbInstance) {
-    dbInstance = SQLite.openDatabaseSync(DB_NAME);
+  try {
+    if (!dbInstance) {
+      dbInstance = SQLite.openDatabaseSync(DB_NAME);
+    }
+    return dbInstance;
+  } catch (err) {
+    console.warn('[DB] Failed to open SQLite database, falling back to mock:', err);
+    return mockDb as unknown as SQLite.SQLiteDatabase;
   }
-  return dbInstance;
 }
 
 /**
@@ -65,6 +275,10 @@ function normalizeLearningStyle(style: LocalStudentProfile['learningStyle']): st
   if (style === 'reading' || style === 'audio' || style === 'quiz') {
     return style;
   }
+  if (style === 'visual') return 'reading';
+  if (style === 'story') return 'audio';
+  if (style === 'exam') return 'reading';
+  if (style === 'interactive') return 'quiz';
   return 'mixed';
 }
 
@@ -73,7 +287,7 @@ function normalizeLearningStyle(style: LocalStudentProfile['learningStyle']): st
  */
 export async function ensureLocalStudent(profile: LocalStudentProfile = {}): Promise<number> {
   if (!isLocalDatabaseAvailable()) {
-    return 0;
+    return 1;
   }
 
   const db = getDb();

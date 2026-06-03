@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "grade": 6,
+  "subject": "social",
+  "chapter_id": "ch15_motions_of_earth",
+  "chapter_title": {
+    "en": "Motions of the Earth",
+    "hi": "पृथ्वी की गतियां",
+    "kn": "ಭೂಮಿಯ ಚಲನೆಗಳು"
+  },
+  "topics": [
+    {
+      "topic_id": "social_grade6_ch15_motions_of_earth_basics",
+      "title": {
+        "en": "Motions of the Earth - Fundamentals",
+        "hi": "पृथ्वी की गतियां - बुनियादी बातें",
+        "kn": "ಭೂಮಿಯ ಚಲನೆಗಳು - ಮೂಲತಮxt್ವಗಳು"
+      },
+      "learning_objectives": [
+        "Define force as push or pull",
+        "Calculate pressure given force and contact area",
+        "Identify contact and non-contact forces"
+      ],
+      "estimated_minutes": 15,
+      "base_story_template": {
+        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Motions of the Earth. This lesson is key to mapping how inputs transform to outputs.",
+        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम पृथ्वी की गतियां का अध्ययन करेंगे॥",
+        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಭೂಮಿಯ ಚಲನೆಗಳು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
+      },
+      "concept_explanation": {
+        "en": "A force is a push or pull on an object resulting from its interaction with another object. Pressure is the force applied perpendicular to the surface of an object per unit area (Pressure = Force / Area).",
+        "hi": "बल किसी वस्तु पर लगने वाला खिंचाव या धक्का है॥ दाब प्रति अनुप्रव्थ क्षेत्रफल पर लञाया गया बल है (दाब = बल / क्षेत्रफल)॥",
+        "kn": "ಬಲವು ತಷ್ಳುವಿಕೆ ಅಥವಾ ಎಳೆಯುವಿಕೆಯಾಗಿದೆ. ಒತ್ತಡವು ಪ್ರತಿ ಏರಿಯಾ ಮೇಲಿನ ಬಲವಾಗಿದೆ (ಒತ್ತಡ = ಬಲ / ಏರಿಯಾ)."
+      },
+      "worked_example": {
+        "problem": "Calculate the pressure when a force of 100 N is applied over an area of 2 square meters.",
+        "steps": [
+          {
+            "en": "Step 1: Identify given values: Force (F) = 100 N, Area (A) = 2 m².",
+            "hi": "चरण 1: दिए गए बल (F) = 100 N और क्षेत्रफल (A) = 2 m² को पहचानें॥",
+            "kn": "ಹಂತ 1: ಬಲ (F) = 100 N ಮತ್ತು ಏರಿಯಾ (A) = 2 m² ಗುರುತಿಸಿ."
+          },
+          {
+            "en": "Step 2: Recall the formula: Pressure (P) = Force / Area.",
+            "hi": "चरण 2: सूत्र लागू करें: दाब = बल / क्षेत्रफल॥",
+            "kn": "ಹಂತ 2: ಒತ್ತಡದ ಸೂತ್ರ: ಒತ್ತಡ = ಬಲ / ಏರಿಯಾ."
+          },
+          {
+            "en": "Step 3: Substitute and solve: P = 100 / 2 = 50 N/m² (or Pascals).",
+            "hi": "चरण 3: मान रखकर हल करें: P = 100/2 = 50 Pa॥",
+            "kn": "ಹಂತ 3: ಲೆಕ್ಕವನ್ನು ಪರ಻fವರ್ತಿಸಿ: P = 100 / 2 = 50 Pa."
+          }
+        ],
+        "answer": "50 Pascals"
+      },
+      "key_points": {
+        "en": [
+          "Force can change the state of motion or shape of an object.",
+          "SI unit of force is Newton (N), and pressure is Pascal (Pa).",
+          "Friction is a contact force that opposes motion."
+        ],
+        "hi": [
+          "बल किसी वस्तु की गति या आकार को बदल सकता है॥",
+          "बल का मात्रक न्यूटन (N) है और दाब का पास्कल (Pa) है॥",
+          "चिपक्ता बल गति का विरोध करता है॥"
+        ],
+        "kn": [
+          "ಬಲವು ವಸ್ತುವಿನ ಚಲನೆನ್ನು ಅಥವಾ ಆಕಾರವನ್ನು ಬದಲಿಸಬಹುದು.",
+          "ಬಲದ ಮಾನ ನ್ಯೂಟನ್, ಮತ್ತು ಒತ್ತಡದು ಪ್ರತ್ಯೇಕವಾಗಿ ಪ್ಯಾಸ್ಕಲ್.",
+          "ಘರ್ಷಣೆಯು ಚಲನೆನ್ನು ವಿರೋಧಿಸುವ ಬಲಾಗಿದೆ."
+        ]
+      },
+      "interest_placeholders": {
+        "INTEREST_PLACE": {
+          "space": {
+            "en": "inside the control deck of a space shuttle",
+            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
+            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
+          },
+          "nature": {
+            "en": "at the forest wildlife sanctuary camp",
+            "hi": "वन्यजीव अभ्यारण्य शिविर में",
+            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
+          },
+          "robots": {
+            "en": "next to the compiler terminal in a robot lab",
+            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
+            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
+          },
+          "sports": {
+            "en": "on the stadium practice field",
+            "hi": "खेल के म्यान में",
+            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
+          },
+          "stories": {
+            "en": "near the ancient archives desk of the library",
+            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
+            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
+          },
+          "history": {
+            "en": "near the watchtower of Chitradurga Fort",
+            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
+            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
+          },
+          "default": {
+            "en": "in the school study room",
+            "hi": "स्कूल के अध्ययन कक्ष में",
+            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -14,7 +14,7 @@ import { LoadingDots } from '../../../components/LoadingDots';
 import { ScreenContainer } from '../../../components/ScreenContainer';
 import { STORAGE_KEYS } from '@/utils/constants';
 import { getObject } from '@/utils/storage';
-import { ensureLocalStudent, getDb } from '@/db/database';
+import { ensureLocalStudent, getDb, isLocalDatabaseAvailable } from '@/db/database';
 import { queueProgressEvent } from '@/services/sync';
 import { apiFetch } from '@/services/api';
 import {
@@ -122,7 +122,7 @@ export default function LessonScreen(): React.JSX.Element {
   const { colors, spacing, radius } = useTheme();
 
   const [isLoading, setIsLoading] = useState(true);
-  const [profile, setProfile] = useState<{ name: string; interests?: string[] }>({ name: 'Friend', interests: ['space'] });
+  const [profile, setProfile] = useState<{ name: string; interests?: string[]; learningStyle?: string }>({ name: 'Friend', interests: ['space'], learningStyle: 'mixed' });
   const [isNarrating, setIsNarrating] = useState(false);
 
   const topicKey = topicId || 'fractions';
@@ -140,6 +140,9 @@ export default function LessonScreen(): React.JSX.Element {
         const savedProfile = await getObject<any>(STORAGE_KEYS.STUDENT_PROFILE);
         if (savedProfile) {
           setProfile(savedProfile);
+          if (savedProfile.learningStyle === 'audio' || savedProfile.learningStyle === 'story') {
+            setIsNarrating(true);
+          }
         }
         
         // Fully integrated backend fetch
@@ -172,6 +175,10 @@ export default function LessonScreen(): React.JSX.Element {
     const startedAt = new Date().toISOString();
     
     async function startSession() {
+      if (!isLocalDatabaseAvailable()) {
+        console.log('[Session Sync] Local database is unavailable in this environment (web). Skipping session tracking.');
+        return;
+      }
       try {
         const db = getDb();
         const savedProfile = await getObject<any>(STORAGE_KEYS.STUDENT_PROFILE);
@@ -195,7 +202,7 @@ export default function LessonScreen(): React.JSX.Element {
       const endedAt = new Date().toISOString();
       const duration = Math.round((new Date(endedAt).getTime() - new Date(startedAt).getTime()) / 1000);
       
-      if (sessionId !== null) {
+      if (sessionId !== null && isLocalDatabaseAvailable()) {
         async function endSession() {
           try {
             const db = getDb();
@@ -245,6 +252,172 @@ export default function LessonScreen(): React.JSX.Element {
   const stepsList = currentTopic.worked_example.steps[language] || currentTopic.worked_example.steps.en;
   const keyPointsList = currentTopic.key_points[language] || currentTopic.key_points.en;
 
+  const learningStyle = profile?.learningStyle || 'mixed';
+  
+  const renderStory = () => (
+    <View style={styles.tutorContainer}>
+      <View style={[styles.avatarCircle, { backgroundColor: colors.primarySubtle }]}>
+        <AppText variant="heading2" color={colors.primary}>V</AppText>
+      </View>
+      <TutorBubble message={resolvedStory} style={styles.bubble} />
+    </View>
+  );
+
+  const renderConcept = () => (
+    <Card style={[styles.card, learningStyle === 'reading' && { borderLeftWidth: 4, borderLeftColor: colors.primary }]}>
+      <AppText variant="heading2" style={styles.sectionTitle} color={colors.primary}>
+        {learningStyle === 'reading' ? "Chapter Narrative" : "What's Going On?"}
+      </AppText>
+      <AppText variant="bodyLg" color={colors.textPrimary} style={styles.bodyText}>
+        {conceptText}
+      </AppText>
+    </Card>
+  );
+
+  const renderDiagram = () => (
+    <View style={styles.diagramContainer}>
+      <DiagramViewer
+        source={currentTopic.diagram.source}
+        caption={currentTopic.diagram.caption}
+        description={currentTopic.diagram.description}
+      />
+    </View>
+  );
+
+  const renderExample = () => (
+    <Card style={styles.card}>
+      <AppText variant="heading2" style={styles.sectionTitle} color={colors.primary}>
+        Step-by-Step Example
+      </AppText>
+      
+      <View style={[styles.problemBox, { backgroundColor: colors.surfaceAlt, borderRadius: radius.md }]}>
+        <AppText variant="heading1" style={styles.problemText}>
+          {currentTopic.worked_example.problem}
+        </AppText>
+      </View>
+
+      <View style={styles.stepsBox}>
+        {stepsList.map((step: string, i: number) => (
+          <View key={i} style={styles.stepRow}>
+            <View style={[styles.bullet, { backgroundColor: colors.primary }]} />
+            <AppText variant="bodyLg" style={styles.stepText}>
+              {step}
+            </AppText>
+          </View>
+        ))}
+      </View>
+    </Card>
+  );
+
+  const renderKeyPoints = () => (
+    <Card style={[styles.card, learningStyle === 'quiz' && { backgroundColor: colors.surfaceAlt }]}>
+      <AppText variant="heading2" style={styles.sectionTitle} color={colors.primary}>
+        Key Reminders
+      </AppText>
+      <View style={styles.stepsBox}>
+        {keyPointsList.map((point: string, i: number) => (
+          <View key={i} style={styles.stepRow}>
+            <View style={[styles.bullet, { backgroundColor: colors.primary }]} />
+            <AppText variant="bodyLg" style={styles.stepText}>
+              {point}
+            </AppText>
+          </View>
+        ))}
+      </View>
+    </Card>
+  );
+
+  const renderQuizCta = () => (
+    <Card style={[styles.ctaCard, { backgroundColor: colors.primarySubtle }]}>
+      <AppText variant="heading1" style={styles.ctaTitle} color={colors.primary}>
+        Ready for a Challenge?
+      </AppText>
+      <AppText variant="bodyLg" color={colors.textSecondary} style={styles.ctaDesc}>
+        Let's test what you just learned with a fun, short quiz!
+      </AppText>
+      <Button
+        title="Take the Quiz!"
+        onPress={() => router.push({
+          pathname: '/(home)/quiz/[topicId]',
+          params: { topicId }
+        })}
+        style={styles.ctaBtn}
+      />
+    </Card>
+  );
+
+  // Determine block rendering order based on style preference
+  const renderBlocks = () => {
+    switch (learningStyle) {
+      case 'visual':
+        return (
+          <>
+            {renderDiagram()}
+            {renderStory()}
+            {renderConcept()}
+            {renderExample()}
+            {renderKeyPoints()}
+            {renderQuizCta()}
+          </>
+        );
+      case 'story':
+        return (
+          <>
+            {renderStory()}
+            {isNarrating && (
+              <Card style={[styles.subCard, { backgroundColor: colors.primarySubtle }]}>
+                <LoadingDots color={colors.primary} size={8} />
+                <AppText variant="bodyLg" style={styles.narrationSubtitle}>
+                  "{resolvedStory}"
+                </AppText>
+              </Card>
+            )}
+            {renderConcept()}
+            {renderDiagram()}
+            {renderExample()}
+            {renderKeyPoints()}
+            {renderQuizCta()}
+          </>
+        );
+      case 'exam':
+        return (
+          <>
+            <View style={{ borderLeftWidth: 4, borderLeftColor: colors.primary, paddingLeft: 4 }}>
+              {renderKeyPoints()}
+            </View>
+            {renderExample()}
+            {renderConcept()}
+            {renderDiagram()}
+            {renderStory()}
+            {renderQuizCta()}
+          </>
+        );
+      case 'interactive':
+      case 'quiz':
+        return (
+          <>
+            {renderStory()}
+            {renderQuizCta()}
+            {renderConcept()}
+            {renderDiagram()}
+            {renderExample()}
+            {renderKeyPoints()}
+          </>
+        );
+      default: // mixed, reading, audio
+        return (
+          <>
+            {renderStory()}
+            {renderConcept()}
+            {renderDiagram()}
+            {renderExample()}
+            {renderKeyPoints()}
+            {renderQuizCta()}
+          </>
+        );
+    }
+  };
+
   return (
     <ScreenContainer
       title={titleText}
@@ -271,101 +444,7 @@ export default function LessonScreen(): React.JSX.Element {
         </View>
       </View>
 
-      {/* 1. The Hook (Story bubble representation) */}
-      <View style={styles.tutorContainer}>
-        <View style={[styles.avatarCircle, { backgroundColor: colors.primarySubtle }]}>
-          <AppText variant="heading2" color={colors.primary}>V</AppText>
-        </View>
-        <TutorBubble message={resolvedStory} style={styles.bubble} />
-      </View>
-
-      {/* Narrating Subtitle simulation widget */}
-      {isNarrating && (
-        <Card style={[styles.subCard, { backgroundColor: colors.primarySubtle }]}>
-          <LoadingDots color={colors.primary} size={8} />
-          <AppText variant="bodyLg" style={styles.narrationSubtitle}>
-            "{resolvedStory}"
-          </AppText>
-        </Card>
-      )}
-
-      {/* 2. Concept Explanation */}
-      <Card style={styles.card}>
-        <AppText variant="heading2" style={styles.sectionTitle} color={colors.primary}>
-          What's Going On?
-        </AppText>
-        <AppText variant="bodyLg" color={colors.textPrimary} style={styles.bodyText}>
-          {conceptText}
-        </AppText>
-      </Card>
-
-      {/* 3. Diagram Viewer (Visual explanation) */}
-      <View style={styles.diagramContainer}>
-        <DiagramViewer
-          source={currentTopic.diagram.source}
-          caption={currentTopic.diagram.caption}
-          description={currentTopic.diagram.description}
-        />
-      </View>
-
-      {/* 4. Worked Example */}
-      <Card style={styles.card}>
-        <AppText variant="heading2" style={styles.sectionTitle} color={colors.primary}>
-          Step-by-Step Example
-        </AppText>
-        
-        <View style={[styles.problemBox, { backgroundColor: colors.surfaceAlt, borderRadius: radius.md }]}>
-          <AppText variant="heading1" style={styles.problemText}>
-            {currentTopic.worked_example.problem}
-          </AppText>
-        </View>
-
-        <View style={styles.stepsBox}>
-          {stepsList.map((step: string, i: number) => (
-            <View key={i} style={styles.stepRow}>
-              <View style={[styles.bullet, { backgroundColor: colors.primary }]} />
-              <AppText variant="bodyLg" style={styles.stepText}>
-                {step}
-              </AppText>
-            </View>
-          ))}
-        </View>
-      </Card>
-
-      {/* 5. Key Points */}
-      <Card style={styles.card}>
-        <AppText variant="heading2" style={styles.sectionTitle} color={colors.primary}>
-          Key Reminders
-        </AppText>
-        <View style={styles.stepsBox}>
-          {keyPointsList.map((point: string, i: number) => (
-            <View key={i} style={styles.stepRow}>
-              <View style={[styles.bullet, { backgroundColor: colors.primary }]} />
-              <AppText variant="bodyLg" style={styles.stepText}>
-                {point}
-              </AppText>
-            </View>
-          ))}
-        </View>
-      </Card>
-
-      {/* 6. Quiz CTA section */}
-      <Card style={[styles.ctaCard, { backgroundColor: colors.primarySubtle }]}>
-        <AppText variant="heading1" style={styles.ctaTitle} color={colors.primary}>
-          Ready for a Challenge?
-        </AppText>
-        <AppText variant="bodyLg" color={colors.textSecondary} style={styles.ctaDesc}>
-          Let's test what you just learned with a fun, short quiz!
-        </AppText>
-        <Button
-          title="Take the Quiz!"
-          onPress={() => router.push({
-            pathname: '/(home)/quiz/[topicId]',
-            params: { topicId }
-          })}
-          style={styles.ctaBtn}
-        />
-      </Card>
+      {renderBlocks()}
     </ScreenContainer>
   );
 }

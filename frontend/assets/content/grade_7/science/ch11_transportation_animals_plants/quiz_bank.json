@@ -1,0 +1,366 @@
+{
+  "version": "1.0",
+  "topic_id": "science_grade7_ch11_transportation_animals_plants_basics",
+  "questions": [
+    {
+      "id": "q01",
+      "difficulty": "easy",
+      "question": {
+        "en": "Which of the following is essential for photosynthesis to capture energy? (Q1)",
+        "hi": "Which of the following is essential for photosynthesis to capture energy? (Q1)",
+        "kn": "Which of the following is essential for photosynthesis to capture energy? (Q1)"
+      },
+      "options": {
+        "en": [
+          "Chlorophyll",
+          "Nitrogen",
+          "Oxygen",
+          "Iron"
+        ],
+        "hi": [
+          "Chlorophyll",
+          "Nitrogen",
+          "Oxygen",
+          "Iron"
+        ],
+        "kn": [
+          "Chlorophyll",
+          "Nitrogen",
+          "Oxygen",
+          "Iron"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
+        "hi": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
+        "kn": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q02",
+      "difficulty": "easy",
+      "question": {
+        "en": "What gas do plants absorb from the atmosphere for photosynthesis? (Q2)",
+        "hi": "What gas do plants absorb from the atmosphere for photosynthesis? (Q2)",
+        "kn": "What gas do plants absorb from the atmosphere for photosynthesis? (Q2)"
+      },
+      "options": {
+        "en": [
+          "Carbon Dioxide",
+          "Oxygen",
+          "Hydrogen",
+          "Helium"
+        ],
+        "hi": [
+          "Carbon Dioxide",
+          "Oxygen",
+          "Hydrogen",
+          "Helium"
+        ],
+        "kn": [
+          "Carbon Dioxide",
+          "Oxygen",
+          "Hydrogen",
+          "Helium"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Plants take in carbon dioxide through stomata to produce glucose.",
+        "hi": "Plants take in carbon dioxide through stomata to produce glucose.",
+        "kn": "Plants take in carbon dioxide through stomata to produce glucose."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q03",
+      "difficulty": "easy",
+      "question": {
+        "en": "Which of the following is essential for photosynthesis to capture energy? (Q3)",
+        "hi": "Which of the following is essential for photosynthesis to capture energy? (Q3)",
+        "kn": "Which of the following is essential for photosynthesis to capture energy? (Q3)"
+      },
+      "options": {
+        "en": [
+          "Chlorophyll",
+          "Nitrogen",
+          "Oxygen",
+          "Iron"
+        ],
+        "hi": [
+          "Chlorophyll",
+          "Nitrogen",
+          "Oxygen",
+          "Iron"
+        ],
+        "kn": [
+          "Chlorophyll",
+          "Nitrogen",
+          "Oxygen",
+          "Iron"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
+        "hi": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
+        "kn": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q04",
+      "difficulty": "medium",
+      "question": {
+        "en": "What gas do plants absorb from the atmosphere for photosynthesis? (Q4)",
+        "hi": "What gas do plants absorb from the atmosphere for photosynthesis? (Q4)",
+        "kn": "What gas do plants absorb from the atmosphere for photosynthesis? (Q4)"
+      },
+      "options": {
+        "en": [
+          "Carbon Dioxide",
+          "Oxygen",
+          "Hydrogen",
+          "Helium"
+        ],
+        "hi": [
+          "Carbon Dioxide",
+          "Oxygen",
+          "Hydrogen",
+          "Helium"
+        ],
+        "kn": [
+          "Carbon Dioxide",
+          "Oxygen",
+          "Hydrogen",
+          "Helium"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Plants take in carbon dioxide through stomata to produce glucose.",
+        "hi": "Plants take in carbon dioxide through stomata to produce glucose.",
+        "kn": "Plants take in carbon dioxide through stomata to produce glucose."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q05",
+      "difficulty": "medium",
+      "question": {
+        "en": "Which of the following is essential for photosynthesis to capture energy? (Q5)",
+        "hi": "Which of the following is essential for photosynthesis to capture energy? (Q5)",
+        "kn": "Which of the following is essential for photosynthesis to capture energy? (Q5)"
+      },
+      "options": {
+        "en": [
+          "Chlorophyll",
+          "Nitrogen",
+          "Oxygen",
+          "Iron"
+        ],
+        "hi": [
+          "Chlorophyll",
+          "Nitrogen",
+          "Oxygen",
+          "Iron"
+        ],
+        "kn": [
+          "Chlorophyll",
+          "Nitrogen",
+          "Oxygen",
+          "Iron"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
+        "hi": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
+        "kn": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q06",
+      "difficulty": "medium",
+      "question": {
+        "en": "What gas do plants absorb from the atmosphere for photosynthesis? (Q6)",
+        "hi": "What gas do plants absorb from the atmosphere for photosynthesis? (Q6)",
+        "kn": "What gas do plants absorb from the atmosphere for photosynthesis? (Q6)"
+      },
+      "options": {
+        "en": [
+          "Carbon Dioxide",
+          "Oxygen",
+          "Hydrogen",
+          "Helium"
+        ],
+        "hi": [
+          "Carbon Dioxide",
+          "Oxygen",
+          "Hydrogen",
+          "Helium"
+        ],
+        "kn": [
+          "Carbon Dioxide",
+          "Oxygen",
+          "Hydrogen",
+          "Helium"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Plants take in carbon dioxide through stomata to produce glucose.",
+        "hi": "Plants take in carbon dioxide through stomata to produce glucose.",
+        "kn": "Plants take in carbon dioxide through stomata to produce glucose."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q07",
+      "difficulty": "medium",
+      "question": {
+        "en": "Which of the following is essential for photosynthesis to capture energy? (Q7)",
+        "hi": "Which of the following is essential for photosynthesis to capture energy? (Q7)",
+        "kn": "Which of the following is essential for photosynthesis to capture energy? (Q7)"
+      },
+      "options": {
+        "en": [
+          "Chlorophyll",
+          "Nitrogen",
+          "Oxygen",
+          "Iron"
+        ],
+        "hi": [
+          "Chlorophyll",
+          "Nitrogen",
+          "Oxygen",
+          "Iron"
+        ],
+        "kn": [
+          "Chlorophyll",
+          "Nitrogen",
+          "Oxygen",
+          "Iron"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
+        "hi": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
+        "kn": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q08",
+      "difficulty": "hard",
+      "question": {
+        "en": "What gas do plants absorb from the atmosphere for photosynthesis? (Q8)",
+        "hi": "What gas do plants absorb from the atmosphere for photosynthesis? (Q8)",
+        "kn": "What gas do plants absorb from the atmosphere for photosynthesis? (Q8)"
+      },
+      "options": {
+        "en": [
+          "Carbon Dioxide",
+          "Oxygen",
+          "Hydrogen",
+          "Helium"
+        ],
+        "hi": [
+          "Carbon Dioxide",
+          "Oxygen",
+          "Hydrogen",
+          "Helium"
+        ],
+        "kn": [
+          "Carbon Dioxide",
+          "Oxygen",
+          "Hydrogen",
+          "Helium"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Plants take in carbon dioxide through stomata to produce glucose.",
+        "hi": "Plants take in carbon dioxide through stomata to produce glucose.",
+        "kn": "Plants take in carbon dioxide through stomata to produce glucose."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q09",
+      "difficulty": "hard",
+      "question": {
+        "en": "Which of the following is essential for photosynthesis to capture energy? (Q9)",
+        "hi": "Which of the following is essential for photosynthesis to capture energy? (Q9)",
+        "kn": "Which of the following is essential for photosynthesis to capture energy? (Q9)"
+      },
+      "options": {
+        "en": [
+          "Chlorophyll",
+          "Nitrogen",
+          "Oxygen",
+          "Iron"
+        ],
+        "hi": [
+          "Chlorophyll",
+          "Nitrogen",
+          "Oxygen",
+          "Iron"
+        ],
+        "kn": [
+          "Chlorophyll",
+          "Nitrogen",
+          "Oxygen",
+          "Iron"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
+        "hi": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
+        "kn": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q010",
+      "difficulty": "hard",
+      "question": {
+        "en": "What gas do plants absorb from the atmosphere for photosynthesis? (Q10)",
+        "hi": "What gas do plants absorb from the atmosphere for photosynthesis? (Q10)",
+        "kn": "What gas do plants absorb from the atmosphere for photosynthesis? (Q10)"
+      },
+      "options": {
+        "en": [
+          "Carbon Dioxide",
+          "Oxygen",
+          "Hydrogen",
+          "Helium"
+        ],
+        "hi": [
+          "Carbon Dioxide",
+          "Oxygen",
+          "Hydrogen",
+          "Helium"
+        ],
+        "kn": [
+          "Carbon Dioxide",
+          "Oxygen",
+          "Hydrogen",
+          "Helium"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Plants take in carbon dioxide through stomata to produce glucose.",
+        "hi": "Plants take in carbon dioxide through stomata to produce glucose.",
+        "kn": "Plants take in carbon dioxide through stomata to produce glucose."
+      },
+      "diagram_ref": null
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "version": "1.0",
+  "topic_id": "social_studies_grade7_ch15_water_basics",
+  "questions": [
+    {
+      "id": "q01",
+      "difficulty": "easy",
+      "question": {
+        "en": "Review question 1 for Water. What is the fundamental concept?",
+        "hi": "जल के लिए समीक्षा प्रश्न 1. मुख्य अवधारणा क्या है?",
+        "kn": "ನೀರು ಗಾಗಿ ವಿಮರ್ಶೆ ಪ್ರಶ್ನೆ 1. ಮೂಲ ಪರಿಕಲ್ಪನೆ ಯಾವುದು?"
+      },
+      "options": {
+        "en": [
+          "Primary Choice",
+          "Secondary Option",
+          "Alternative Option",
+          "Incorrect Selection"
+        ],
+        "hi": [
+          "प्राथमिक विकल्प",
+          "द्वितीयक विकल्प",
+          "वैकल्पिक विकल्प",
+          "गलत चयन"
+        ],
+        "kn": [
+          "ಪ್ರಾಥಮಿಕ ಆಯ್ಕೆ",
+          "ದ್ವಿತೀಯ ಆಯ್ಕೆ",
+          "ಪರ್ಯಾಯ ಆಯ್ಕೆ",
+          "ತಪ್ಪಾದ ಆಯ್ಕೆ"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "The correct option matches the fundamental rule taught in this lesson.",
+        "hi": "सही विकल्प इस पाठ में सिखाए गए मूल नियम से मेल खाता है।",
+        "kn": "ಸರಿಯಾದ ಆಯ್ಕೆಯು ಈ ಪಾಠದಲ್ಲಿ ಕಲಿಸಿದ ಮೂಲ ನಿಯಮಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q02",
+      "difficulty": "easy",
+      "question": {
+        "en": "Review question 2 for Water. What is the fundamental concept?",
+        "hi": "जल के लिए समीक्षा प्रश्न 2. मुख्य अवधारणा क्या है?",
+        "kn": "ನೀರು ಗಾಗಿ ವಿಮರ್ಶೆ ಪ್ರಶ್ನೆ 2. ಮೂಲ ಪರಿಕಲ್ಪನೆ ಯಾವುದು?"
+      },
+      "options": {
+        "en": [
+          "Primary Choice",
+          "Secondary Option",
+          "Alternative Option",
+          "Incorrect Selection"
+        ],
+        "hi": [
+          "प्राथमिक विकल्प",
+          "द्वितीयक विकल्प",
+          "वैकल्पिक विकल्प",
+          "गलत चयन"
+        ],
+        "kn": [
+          "ಪ್ರಾಥಮಿಕ ಆಯ್ಕೆ",
+          "ದ್ವಿತೀಯ ಆಯ್ಕೆ",
+          "ಪರ್ಯಾಯ ಆಯ್ಕೆ",
+          "ತಪ್ಪಾದ ಆಯ್ಕೆ"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "The correct option matches the fundamental rule taught in this lesson.",
+        "hi": "सही विकल्प इस पाठ में सिखाए गए मूल नियम से मेल खाता है।",
+        "kn": "ಸರಿಯಾದ ಆಯ್ಕೆಯು ಈ ಪಾಠದಲ್ಲಿ ಕಲಿಸಿದ ಮೂಲ ನಿಯಮಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q03",
+      "difficulty": "easy",
+      "question": {
+        "en": "Review question 3 for Water. What is the fundamental concept?",
+        "hi": "जल के लिए समीक्षा प्रश्न 3. मुख्य अवधारणा क्या है?",
+        "kn": "ನೀರು ಗಾಗಿ ವಿಮರ್ಶೆ ಪ್ರಶ್ನೆ 3. ಮೂಲ ಪರಿಕಲ್ಪನೆ ಯಾವುದು?"
+      },
+      "options": {
+        "en": [
+          "Primary Choice",
+          "Secondary Option",
+          "Alternative Option",
+          "Incorrect Selection"
+        ],
+        "hi": [
+          "प्राथमिक विकल्प",
+          "द्वितीयक विकल्प",
+          "वैकल्पिक विकल्प",
+          "गलत चयन"
+        ],
+        "kn": [
+          "ಪ್ರಾಥಮಿಕ ಆಯ್ಕೆ",
+          "ದ್ವಿತೀಯ ಆಯ್ಕೆ",
+          "ಪರ್ಯಾಯ ಆಯ್ಕೆ",
+          "ತಪ್ಪಾದ ಆಯ್ಕೆ"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "The correct option matches the fundamental rule taught in this lesson.",
+        "hi": "सही विकल्प इस पाठ में सिखाए गए मूल नियम से मेल खाता है।",
+        "kn": "ಸರಿಯಾದ ಆಯ್ಕೆಯು ಈ ಪಾಠದಲ್ಲಿ ಕಲಿಸಿದ ಮೂಲ ನಿಯಮಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q04",
+      "difficulty": "medium",
+      "question": {
+        "en": "Review question 4 for Water. What is the fundamental concept?",
+        "hi": "जल के लिए समीक्षा प्रश्न 4. मुख्य अवधारणा क्या है?",
+        "kn": "ನೀರು ಗಾಗಿ ವಿಮರ್ಶೆ ಪ್ರಶ್ನೆ 4. ಮೂಲ ಪರಿಕಲ್ಪನೆ ಯಾವುದು?"
+      },
+      "options": {
+        "en": [
+          "Primary Choice",
+          "Secondary Option",
+          "Alternative Option",
+          "Incorrect Selection"
+        ],
+        "hi": [
+          "प्राथमिक विकल्प",
+          "द्वितीयक विकल्प",
+          "वैकल्पिक विकल्प",
+          "गलत चयन"
+        ],
+        "kn": [
+          "ಪ್ರಾಥಮಿಕ ಆಯ್ಕೆ",
+          "ದ್ವಿತೀಯ ಆಯ್ಕೆ",
+          "ಪರ್ಯಾಯ ಆಯ್ಕೆ",
+          "ತಪ್ಪಾದ ಆಯ್ಕೆ"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "The correct option matches the fundamental rule taught in this lesson.",
+        "hi": "सही विकल्प इस पाठ में सिखाए गए मूल नियम से मेल खाता है।",
+        "kn": "ಸರಿಯಾದ ಆಯ್ಕೆಯು ಈ ಪಾಠದಲ್ಲಿ ಕಲಿಸಿದ ಮೂಲ ನಿಯಮಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q05",
+      "difficulty": "medium",
+      "question": {
+        "en": "Review question 5 for Water. What is the fundamental concept?",
+        "hi": "जल के लिए समीक्षा प्रश्न 5. मुख्य अवधारणा क्या है?",
+        "kn": "ನೀರು ಗಾಗಿ ವಿಮರ್ಶೆ ಪ್ರಶ್ನೆ 5. ಮೂಲ ಪರಿಕಲ್ಪನೆ ಯಾವುದು?"
+      },
+      "options": {
+        "en": [
+          "Primary Choice",
+          "Secondary Option",
+          "Alternative Option",
+          "Incorrect Selection"
+        ],
+        "hi": [
+          "प्राथमिक विकल्प",
+          "द्वितीयक विकल्प",
+          "वैकल्पिक विकल्प",
+          "गलत चयन"
+        ],
+        "kn": [
+          "ಪ್ರಾಥಮಿಕ ಆಯ್ಕೆ",
+          "ದ್ವಿತೀಯ ಆಯ್ಕೆ",
+          "ಪರ್ಯಾಯ ಆಯ್ಕೆ",
+          "ತಪ್ಪಾದ ಆಯ್ಕೆ"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "The correct option matches the fundamental rule taught in this lesson.",
+        "hi": "सही विकल्प इस पाठ में सिखाए गए मूल नियम से मेल खाता है।",
+        "kn": "ಸರಿಯಾದ ಆಯ್ಕೆಯು ಈ ಪಾಠದಲ್ಲಿ ಕಲಿಸಿದ ಮೂಲ ನಿಯಮಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q06",
+      "difficulty": "medium",
+      "question": {
+        "en": "Review question 6 for Water. What is the fundamental concept?",
+        "hi": "जल के लिए समीक्षा प्रश्न 6. मुख्य अवधारणा क्या है?",
+        "kn": "ನೀರು ಗಾಗಿ ವಿಮರ್ಶೆ ಪ್ರಶ್ನೆ 6. ಮೂಲ ಪರಿಕಲ್ಪನೆ ಯಾವುದು?"
+      },
+      "options": {
+        "en": [
+          "Primary Choice",
+          "Secondary Option",
+          "Alternative Option",
+          "Incorrect Selection"
+        ],
+        "hi": [
+          "प्राथमिक विकल्प",
+          "द्वितीयक विकल्प",
+          "वैकल्पिक विकल्प",
+          "गलत चयन"
+        ],
+        "kn": [
+          "ಪ್ರಾಥಮಿಕ ಆಯ್ಕೆ",
+          "ದ್ವಿತೀಯ ಆಯ್ಕೆ",
+          "ಪರ್ಯಾಯ ಆಯ್ಕೆ",
+          "ತಪ್ಪಾದ ಆಯ್ಕೆ"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "The correct option matches the fundamental rule taught in this lesson.",
+        "hi": "सही विकल्प इस पाठ में सिखाए गए मूल नियम से मेल खाता है।",
+        "kn": "ಸರಿಯಾದ ಆಯ್ಕೆಯು ಈ ಪಾಠದಲ್ಲಿ ಕಲಿಸಿದ ಮೂಲ ನಿಯಮಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q07",
+      "difficulty": "medium",
+      "question": {
+        "en": "Review question 7 for Water. What is the fundamental concept?",
+        "hi": "जल के लिए समीक्षा प्रश्न 7. मुख्य अवधारणा क्या है?",
+        "kn": "ನೀರು ಗಾಗಿ ವಿಮರ್ಶೆ ಪ್ರಶ್ನೆ 7. ಮೂಲ ಪರಿಕಲ್ಪನೆ ಯಾವುದು?"
+      },
+      "options": {
+        "en": [
+          "Primary Choice",
+          "Secondary Option",
+          "Alternative Option",
+          "Incorrect Selection"
+        ],
+        "hi": [
+          "प्राथमिक विकल्प",
+          "द्वितीयक विकल्प",
+          "वैकल्पिक विकल्प",
+          "गलत चयन"
+        ],
+        "kn": [
+          "ಪ್ರಾಥಮಿಕ ಆಯ್ಕೆ",
+          "ದ್ವಿತೀಯ ಆಯ್ಕೆ",
+          "ಪರ್ಯಾಯ ಆಯ್ಕೆ",
+          "ತಪ್ಪಾದ ಆಯ್ಕೆ"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "The correct option matches the fundamental rule taught in this lesson.",
+        "hi": "सही विकल्प इस पाठ में सिखाए गए मूल नियम से मेल खाता है।",
+        "kn": "ಸರಿಯಾದ ಆಯ್ಕೆಯು ಈ ಪಾಠದಲ್ಲಿ ಕಲಿಸಿದ ಮೂಲ ನಿಯಮಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q08",
+      "difficulty": "hard",
+      "question": {
+        "en": "Review question 8 for Water. What is the fundamental concept?",
+        "hi": "जल के लिए समीक्षा प्रश्न 8. मुख्य अवधारणा क्या है?",
+        "kn": "ನೀರು ಗಾಗಿ ವಿಮರ್ಶೆ ಪ್ರಶ್ನೆ 8. ಮೂಲ ಪರಿಕಲ್ಪನೆ ಯಾವುದು?"
+      },
+      "options": {
+        "en": [
+          "Primary Choice",
+          "Secondary Option",
+          "Alternative Option",
+          "Incorrect Selection"
+        ],
+        "hi": [
+          "प्राथमिक विकल्प",
+          "द्वितीयक विकल्प",
+          "वैकल्पिक विकल्प",
+          "गलत चयन"
+        ],
+        "kn": [
+          "ಪ್ರಾಥಮಿಕ ಆಯ್ಕೆ",
+          "ದ್ವಿತೀಯ ಆಯ್ಕೆ",
+          "ಪರ್ಯಾಯ ಆಯ್ಕೆ",
+          "ತಪ್ಪಾದ ಆಯ್ಕೆ"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "The correct option matches the fundamental rule taught in this lesson.",
+        "hi": "सही विकल्प इस पाठ में सिखाए गए मूल नियम से मेल खाता है।",
+        "kn": "ಸರಿಯಾದ ಆಯ್ಕೆಯು ಈ ಪಾಠದಲ್ಲಿ ಕಲಿಸಿದ ಮೂಲ ನಿಯಮಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q09",
+      "difficulty": "hard",
+      "question": {
+        "en": "Review question 9 for Water. What is the fundamental concept?",
+        "hi": "जल के लिए समीक्षा प्रश्न 9. मुख्य अवधारणा क्या है?",
+        "kn": "ನೀರು ಗಾಗಿ ವಿಮರ್ಶೆ ಪ್ರಶ್ನೆ 9. ಮೂಲ ಪರಿಕಲ್ಪನೆ ಯಾವುದು?"
+      },
+      "options": {
+        "en": [
+          "Primary Choice",
+          "Secondary Option",
+          "Alternative Option",
+          "Incorrect Selection"
+        ],
+        "hi": [
+          "प्राथमिक विकल्प",
+          "द्वितीयक विकल्प",
+          "वैकल्पिक विकल्प",
+          "गलत चयन"
+        ],
+        "kn": [
+          "ಪ್ರಾಥಮಿಕ ಆಯ್ಕೆ",
+          "ದ್ವಿತೀಯ ಆಯ್ಕೆ",
+          "ಪರ್ಯಾಯ ಆಯ್ಕೆ",
+          "ತಪ್ಪಾದ ಆಯ್ಕೆ"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "The correct option matches the fundamental rule taught in this lesson.",
+        "hi": "सही विकल्प इस पाठ में सिखाए गए मूल नियम से मेल खाता है।",
+        "kn": "ಸರಿಯಾದ ಆಯ್ಕೆಯು ಈ ಪಾಠದಲ್ಲಿ ಕಲಿಸಿದ ಮೂಲ ನಿಯಮಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q010",
+      "difficulty": "hard",
+      "question": {
+        "en": "Review question 10 for Water. What is the fundamental concept?",
+        "hi": "जल के लिए समीक्षा प्रश्न 10. मुख्य अवधारणा क्या है?",
+        "kn": "ನೀರು ಗಾಗಿ ವಿಮರ್ಶೆ ಪ್ರಶ್ನೆ 10. ಮೂಲ ಪರಿಕಲ್ಪನೆ ಯಾವುದು?"
+      },
+      "options": {
+        "en": [
+          "Primary Choice",
+          "Secondary Option",
+          "Alternative Option",
+          "Incorrect Selection"
+        ],
+        "hi": [
+          "प्राथमिक विकल्प",
+          "द्वितीयक विकल्प",
+          "वैकल्पिक विकल्प",
+          "गलत चयन"
+        ],
+        "kn": [
+          "ಪ್ರಾಥಮಿಕ ಆಯ್ಕೆ",
+          "ದ್ವಿತೀಯ ಆಯ್ಕೆ",
+          "ಪರ್ಯಾಯ ಆಯ್ಕೆ",
+          "ತಪ್ಪಾದ ಆಯ್ಕೆ"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "The correct option matches the fundamental rule taught in this lesson.",
+        "hi": "सही विकल्प इस पाठ में सिखाए गए मूल नियम से मेल खाता है।",
+        "kn": "ಸರಿಯಾದ ಆಯ್ಕೆಯು ಈ ಪಾಠದಲ್ಲಿ ಕಲಿಸಿದ ಮೂಲ ನಿಯಮಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ."
+      },
+      "diagram_ref": null
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "grade": 7,
+  "subject": "math",
+  "chapter_id": "ch02_fractions_decimals",
+  "chapter_title": {
+    "en": "Fractions and Decimals",
+    "hi": "भिन्न एवं दशमलव",
+    "kn": "ಭಿನ್ನರಾಶಿಗಳು ಮತ್ತು ದಶಮಾಂಶಗಳು"
+  },
+  "topics": [
+    {
+      "topic_id": "math_grade7_ch02_fractions_decimals_basics",
+      "title": {
+        "en": "Fractions and Decimals - Fundamentals",
+        "hi": "भिन्न एवं दशमलव - बुनियादी बातें",
+        "kn": "ಭಿನ್ನರಾಶಿಗಳು ಮತ್ತು ದಶಮಾಂಶಗಳು - ಮೂಲತಮxt್ವಗಳು"
+      },
+      "learning_objectives": [
+        "Identify numerators and denominators",
+        "Convert unlike fractions to equivalent like fractions using LCM",
+        "Add and subtract fractions and convert to decimals"
+      ],
+      "estimated_minutes": 15,
+      "base_story_template": {
+        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Fractions and Decimals. This lesson is key to mapping how inputs transform to outputs.",
+        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम भिन्न एवं दशमलव का अध्ययन करेंगे॥",
+        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಭಿನ್ನರಾಶಿಗಳು ಮತ್ತು ದಶಮಾಂಶಗಳು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
+      },
+      "concept_explanation": {
+        "en": "Fractions represent parts of a whole, consisting of a numerator (top) and denominator (bottom). Unlike fractions have different denominators and require finding the Least Common Multiple (LCM) before adding or subtracting.",
+        "hi": "भिन्न एक संपूर्ण के भागों को दर्शाती है, जिसमें एक अंश (ऊपर) और हर (नीचे) होता है॥",
+        "kn": "ಭಿನ್ನರಾಶಿಗಳು ಒಂದು ಪೂರ್ಣ ವಸ್ತುವಿನ ಭಾಗಗಳನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತವೆ."
+      },
+      "worked_example": {
+        "problem": "Calculate 1/3 + 2/5 = ?",
+        "steps": [
+          {
+            "en": "Step 1: Find the LCM of denominators 3 and 5, which is 15.",
+            "hi": "चरण 1: हरों 3 और 5 का LCM ज्ञात करें, जो कि 15 है॥",
+            "kn": "ಹಂತ 1: ಛೇದಗಳಾದ 3 ಮತ್ತು 5 ರ ಲಸಾಅ ಕಂಡುಹಿಡಿಯಿರಿ, ಅದು 15 ಆಗಿದೆ."
+          },
+          {
+            "en": "Step 2: Convert fractions: 1/3 becomes 5/15, and 2/5 becomes 6/15.",
+            "hi": "चरण 2: भिन्नों को बदलकर 5/15 हो जाता है, और 2/5 बदलकर 6/15 हो जाता है॥",
+            "kn": "ಹಂತ 2: ಭಿನ್ನರಾಶಿಗಳನ್ನು ಪರ಻fವರ್ತಿಸಿ: 1/3 ಇದು 5/15 ಆಗುತ್ತದೆ, ಮತ್ತು 2/5 ಇದು 6/15 ಆಗುತ್ತದೆ."
+          },
+          {
+            "en": "Step 3: Add the numerators: 5/15 + 6/15 = 11/15.",
+            "hi": "चरण 3: अंशों को जोड़ें: 5/15 + 6/15 = 11/15॥",
+            "kn": "ಹಂತ 3: ಅವನ್ನು ಛೇದದಿಂದ ಭಾಗಿಸುವ ಮುಲಕ ಭಿನ್ನರಾಶಿಯನ್ನು ದಶಮಾಂಶಕ್ಕೆ ಪರ಻fವರ್ತಿಸಬಹುದು."
+          }
+        ],
+        "answer": "11/15"
+      },
+      "key_points": {
+        "en": [
+          "Never add the denominators together.",
+          "LCM is the smallest multiple shared by two numbers.",
+          "Fractions can be converted to decimals by dividing numerator by denominator."
+        ],
+        "hi": [
+          "हरों को कभी भी आपस में न जोड़ें॥",
+          "LCM दो संख्याओं द्वारा साज्हा किया गया सबसे छोटा गुणज है॥",
+          "भिन्नों को दशमलव में बदलने के लिए अंश को हर से भाग दिया जाता है॥"
+        ],
+        "kn": [
+          "ಛೇದಗಳನ್ನು ಕೂಡಬೇಡಿ.",
+          "ಲಸಾಅ ಮೂಲಕ ಹೋಲಿಸಬಹುದು.",
+          "ಭಿನ್ನರಾಶಿಯನ್ನು ದಶಮಾಂಮ್ಕ್ಕೆ ಪರ಻fವರ್ತಿಸಬಹುದು."
+        ]
+      },
+      "interest_placeholders": {
+        "INTEREST_PLACE": {
+          "space": {
+            "en": "inside the control deck of a space shuttle",
+            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
+            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
+          },
+          "nature": {
+            "en": "at the forest wildlife sanctuary camp",
+            "hi": "वन्यजीव अभ्यारण्य शिविर में",
+            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
+          },
+          "robots": {
+            "en": "next to the compiler terminal in a robot lab",
+            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
+            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
+          },
+          "sports": {
+            "en": "on the stadium practice field",
+            "hi": "खेल के म्यान में",
+            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
+          },
+          "stories": {
+            "en": "near the ancient archives desk of the library",
+            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
+            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
+          },
+          "history": {
+            "en": "near the watchtower of Chitradurga Fort",
+            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
+            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
+          },
+          "default": {
+            "en": "in the school study room",
+            "hi": "स्कूल के अध्ययन कक्ष में",
+            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
+          }
+        }
+      }
+    }
+  ]
+}

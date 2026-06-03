@@ -12,6 +12,7 @@ import { STORAGE_KEYS, LanguageCode } from '@/utils/constants';
 import { getObject, setObject, removeItem } from '@/utils/storage';
 import { useAuth } from '@/services/auth';
 import { Moon, Sun } from 'lucide-react-native';
+import { ensureLocalStudent, isLocalDatabaseAvailable } from '@/db/database';
 
 export default function SettingsScreen(): React.JSX.Element {
   const { user, isAuthenticated } = useAuth();
@@ -20,6 +21,8 @@ export default function SettingsScreen(): React.JSX.Element {
   const { colors, mode, toggleMode } = useTheme();
 
   const [name, setName] = useState('');
+  const [grade, setGrade] = useState<number>(6);
+  const [learningStyle, setLearningStyle] = useState<string>('mixed');
   const [profile, setProfile] = useState<any>(null);
 
   useEffect(() => {
@@ -28,6 +31,8 @@ export default function SettingsScreen(): React.JSX.Element {
       if (data) {
         setProfile(data);
         setName(data.name || '');
+        setGrade(data.grade ? Number(data.grade) : 6);
+        setLearningStyle(data.learningStyle || 'mixed');
       }
     }
     loadProfile();
@@ -37,8 +42,22 @@ export default function SettingsScreen(): React.JSX.Element {
     if (!name.trim()) return;
 
     try {
-      const updatedProfile = { ...profile, name: name.trim() };
+      const updatedProfile = {
+        ...profile,
+        name: name.trim(),
+        grade: Number(grade),
+        learningStyle: learningStyle,
+      };
       await setObject(STORAGE_KEYS.STUDENT_PROFILE, updatedProfile);
+
+      if (isLocalDatabaseAvailable()) {
+        try {
+          await ensureLocalStudent(updatedProfile);
+        } catch (dbErr) {
+          console.warn('Failed to sync updated profile to SQLite:', dbErr);
+        }
+      }
+
       setProfile(updatedProfile);
       Alert.alert(
         language === 'en' ? 'Success' : language === 'hi' ? 'सफलता' : 'ಯಶಸ್ಸು',
@@ -85,6 +104,43 @@ export default function SettingsScreen(): React.JSX.Element {
             onChangeText={setName}
             containerStyle={styles.input}
           />
+
+          <AppText variant="bodyLg" style={{ fontWeight: '600', marginTop: 12, marginBottom: 8 }}>
+            {language === 'en' ? 'Grade' : language === 'hi' ? 'कक्षा' : 'ತರಗತಿ'}
+          </AppText>
+          <View style={[styles.langRow, { marginBottom: 12 }]}>
+            {[6, 7, 8].map((g) => (
+              <Button
+                key={g}
+                variant={grade === g ? 'primary' : 'secondary'}
+                title={`${language === 'en' ? 'Grade' : language === 'hi' ? 'कक्षा' : 'ತರಗತಿ'} ${g}`}
+                onPress={() => setGrade(g)}
+                style={styles.langBtn}
+              />
+            ))}
+          </View>
+
+          <AppText variant="bodyLg" style={{ fontWeight: '600', marginTop: 12, marginBottom: 8 }}>
+            {language === 'en' ? 'Learning Preference' : language === 'hi' ? 'सीखने की प्राथमिकता' : 'ಕಲಿಕೆಯ ಆದ್ಯತೆ'}
+          </AppText>
+          <View style={[styles.langRow, { flexWrap: 'wrap', gap: 6, marginBottom: 16 }]}>
+            {[
+              { id: 'mixed', label: { en: 'Mixed', hi: 'मिश्रित', kn: 'ಮಿಶ್ರ' } },
+              { id: 'visual', label: { en: 'Visual', hi: 'दृश्य', kn: 'ದೃಶ್ಯ' } },
+              { id: 'story', label: { en: 'Story', hi: 'कहानी', kn: 'ಕಥೆ' } },
+              { id: 'exam', label: { en: 'Exam', hi: 'परीक्षा', kn: 'ಪರೀಕ್ಷೆ' } },
+              { id: 'interactive', label: { en: 'Interactive', hi: 'इंटरैक्टिव', kn: 'ಸಂವಾದಾತ್ಮಕ' } },
+            ].map((styleOpt) => (
+              <Button
+                key={styleOpt.id}
+                variant={learningStyle === styleOpt.id ? 'primary' : 'secondary'}
+                title={styleOpt.label[language as 'en' | 'hi' | 'kn'] || styleOpt.label.en}
+                onPress={() => setLearningStyle(styleOpt.id)}
+                style={{ flexBasis: '45%', minHeight: 40, paddingVertical: 8 }}
+              />
+            ))}
+          </View>
+
           <Button
             title={language === 'en' ? 'Save Changes' : language === 'hi' ? 'बदलाव सहेजें' : 'ಬದಲಾವಣೆ ಉಳಿಸಿ'}
             onPress={handleSaveProfile}

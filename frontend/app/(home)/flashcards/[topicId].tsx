@@ -13,7 +13,11 @@ import { ScreenContainer } from '../../../components/ScreenContainer';
 import {
   FlashcardItem as LearningFlashcardItem,
   getFlashcards,
+  getTopicSubject,
 } from '@/content/learningContent';
+import { ensureLocalStudent, getDb, isLocalDatabaseAvailable } from '@/db/database';
+import { STORAGE_KEYS } from '@/utils/constants';
+import { getObject } from '@/utils/storage';
 
 interface FlashcardItem {
   id: string;
@@ -88,7 +92,8 @@ export default function FlashcardsScreen(): React.JSX.Element {
   const { colors, spacing } = useTheme();
 
   const key = topicId || 'fractions';
-  const sourceCards = getFlashcards(key);
+  const sourceCards = React.useMemo(() => getFlashcards(key), [key]);
+  const subjectKey = React.useMemo(() => getTopicSubject(key), [key]);
 
   // Active stack of cards remaining in review session
   const [activeCards, setActiveCards] = useState<LearningFlashcardItem[]>([]);
@@ -99,13 +104,58 @@ export default function FlashcardsScreen(): React.JSX.Element {
   const [tutorTip, setTutorTip] = useState<string>('');
 
   useEffect(() => {
+    let sessionId: number | null = null;
+    const startedAt = new Date().toISOString();
+    
+    async function startSession() {
+      try {
+        const db = getDb();
+        const savedProfile = await getObject<any>(STORAGE_KEYS.STUDENT_PROFILE);
+        const studentId = await ensureLocalStudent(savedProfile || {});
+        
+        const result = await db.runAsync(
+          `INSERT INTO sessions (student_id, subject, chapter_id, topic_id, mode, started_at)
+           VALUES (?, ?, ?, ?, ?, ?)`,
+          [studentId, subjectKey, key, key, 'flashcard', startedAt]
+        );
+        sessionId = result.lastInsertRowId;
+        console.log(`[Flashcard Session] Started: ${sessionId}`);
+      } catch (err) {
+        console.error('[Flashcard Session] Failed to start:', err);
+      }
+    }
+    startSession();
+
+    return () => {
+      const endedAt = new Date().toISOString();
+      const duration = Math.round((new Date(endedAt).getTime() - new Date(startedAt).getTime()) / 1000);
+      
+      if (sessionId !== null) {
+        async function endSession() {
+          try {
+            const db = getDb();
+            await db.runAsync(
+              `UPDATE sessions SET ended_at = ?, duration_seconds = ? WHERE id = ?`,
+              [endedAt, duration, sessionId]
+            );
+            console.log(`[Flashcard Session] Ended: ${sessionId}`);
+          } catch (err) {
+            console.error('[Flashcard Session] Failed to end:', err);
+          }
+        }
+        endSession();
+      }
+    };
+  }, [subjectKey, key]);
+
+  useEffect(() => {
     // Reset deck on mount
     setActiveCards([...sourceCards]);
     setTotalCount(sourceCards.length);
     setMasteredCount(0);
     setCurrentIdx(0);
     setSessionDone(false);
-    setTutorTip(language === 'en' ? "Tap the card to flip it and review the answer." : "उत्तर देखने के लिए फ्लैशकार्ड पर टैप करें।");
+    setTutorTip(language === 'en' ? "Tap the card to flip it and review the answer." : "उत्तर देखने के लिए फ्लैशकार्ड पर tap करें।");
   }, [key, language, sourceCards]);
 
   const handleRating = (rating: 'hard' | 'good' | 'easy') => {

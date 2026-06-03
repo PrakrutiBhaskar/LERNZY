@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { ActivityIndicator, Pressable, StyleSheet, View } from 'react-native';
-import { useRouter } from 'expo-router';
+import { useRouter, useFocusEffect } from 'expo-router';
 import * as Icons from 'lucide-react-native';
 
 import { useLanguage } from '@/i18n/LanguageContext';
@@ -12,6 +12,10 @@ import { Card } from '../../components/Card';
 import { ProgressBar } from '../../components/ProgressBar';
 import { ScreenContainer } from '../../components/ScreenContainer';
 import { SectionHeader } from '../../components/SectionHeader';
+import { getDb, isLocalDatabaseAvailable } from '@/db/database';
+import { STORAGE_KEYS } from '@/utils/constants';
+import { getObject } from '@/utils/storage';
+import { TOPICS_BY_SUBJECT } from '@/content/learningContent';
 
 type IconName = keyof typeof Icons;
 
@@ -51,65 +55,36 @@ interface AchievementApiItem {
   createdAt?: string;
 }
 
-const DEFAULT_SUBJECTS: SubjectProgress[] = [
-  {
-    id: 'math',
-    name: 'Mathematics',
-    module: 'math',
-    iconName: 'Calculator',
-    lessonsCompleted: 6,
-    lessonsTotal: 10,
-    masteryPercent: 68,
-    quizAverage: 82,
-    minutes: 95,
-    lastPracticed: 'Today',
-  },
-  {
-    id: 'science',
-    name: 'Science',
-    module: 'science',
-    iconName: 'FlaskConical',
-    lessonsCompleted: 3,
-    lessonsTotal: 8,
-    masteryPercent: 44,
-    quizAverage: 76,
-    minutes: 52,
-    lastPracticed: 'Yesterday',
-  },
-  {
-    id: 'english',
-    name: 'English',
-    module: 'english',
-    iconName: 'BookOpen',
-    lessonsCompleted: 5,
-    lessonsTotal: 7,
-    masteryPercent: 72,
-    quizAverage: 88,
-    minutes: 74,
-    lastPracticed: '2 days ago',
-  },
-  {
-    id: 'coding',
-    name: 'Coding',
-    module: 'coding',
-    iconName: 'Code2',
-    lessonsCompleted: 2,
-    lessonsTotal: 6,
-    masteryPercent: 35,
-    quizAverage: 69,
-    minutes: 36,
-    lastPracticed: 'This week',
-  },
+const SUBJECTS_METADATA = [
+  { id: 'math', name: 'Mathematics', module: 'math', iconName: 'Calculator' as IconName },
+  { id: 'science', name: 'Science', module: 'science', iconName: 'FlaskConical' as IconName },
+  { id: 'social', name: 'Social Studies', module: 'social', iconName: 'Globe' as IconName },
+  { id: 'english', name: 'English', module: 'english', iconName: 'BookOpen' as IconName },
+  { id: 'kannada', name: 'Kannada', module: 'kannada', iconName: 'Languages' as IconName },
+  { id: 'coding', name: 'Coding', module: 'coding', iconName: 'Code2' as IconName },
 ];
 
+const DEFAULT_SUBJECTS: SubjectProgress[] = SUBJECTS_METADATA.map(s => ({
+  id: s.id,
+  name: s.name,
+  module: s.module,
+  iconName: s.iconName,
+  lessonsCompleted: 0,
+  lessonsTotal: 0,
+  masteryPercent: 0,
+  quizAverage: 0,
+  minutes: 0,
+  lastPracticed: 'Never',
+}));
+
 const WEEKLY_ACTIVITY = [
-  { day: 'Mon', minutes: 18 },
-  { day: 'Tue', minutes: 26 },
-  { day: 'Wed', minutes: 12 },
-  { day: 'Thu', minutes: 34 },
-  { day: 'Fri', minutes: 22 },
-  { day: 'Sat', minutes: 40 },
-  { day: 'Sun', minutes: 28 },
+  { day: 'Mon', minutes: 0 },
+  { day: 'Tue', minutes: 0 },
+  { day: 'Wed', minutes: 0 },
+  { day: 'Thu', minutes: 0 },
+  { day: 'Fri', minutes: 0 },
+  { day: 'Sat', minutes: 0 },
+  { day: 'Sun', minutes: 0 },
 ];
 
 const ACHIEVEMENT_CATALOG: AchievementItem[] = [
@@ -118,18 +93,16 @@ const ACHIEVEMENT_CATALOG: AchievementItem[] = [
     name: 'First Steps',
     description: 'Finish your first lesson room session.',
     iconName: 'Footprints',
-    unlocked: true,
-    progress: 1,
-    earnedAt: 'Yesterday',
+    unlocked: false,
+    progress: 0,
   },
   {
     key: 'quiz_whiz',
     name: 'Quiz Whiz',
     description: 'Score 100 percent in any quiz.',
     iconName: 'BadgeCheck',
-    unlocked: true,
-    progress: 1,
-    earnedAt: '2 days ago',
+    unlocked: false,
+    progress: 0,
   },
   {
     key: 'steady_streak',
@@ -137,7 +110,7 @@ const ACHIEVEMENT_CATALOG: AchievementItem[] = [
     description: 'Study for 5 days in a row.',
     iconName: 'Flame',
     unlocked: false,
-    progress: 0.6,
+    progress: 0,
   },
   {
     key: 'deep_focus',
@@ -145,7 +118,7 @@ const ACHIEVEMENT_CATALOG: AchievementItem[] = [
     description: 'Learn for 120 minutes in one week.',
     iconName: 'Timer',
     unlocked: false,
-    progress: 0.78,
+    progress: 0,
   },
 ];
 
@@ -178,53 +151,6 @@ function normalizeModule(value = ''): string {
   if (clean.includes('kannada')) return 'kannada';
 
   return clean;
-}
-
-function mergeMastery(defaults: SubjectProgress[], mastery: MasteryApiItem[]): SubjectProgress[] {
-  if (!mastery.length) return defaults;
-
-  const masteryByModule = new Map(
-    mastery.map((item) => [normalizeModule(item.module), item])
-  );
-
-  return defaults.map((subject) => {
-    const apiSubject = masteryByModule.get(subject.module);
-    if (!apiSubject || typeof apiSubject.masteryPercentage !== 'number') return subject;
-
-    const masteryPercent = clampPercent(apiSubject.masteryPercentage);
-    const attempts = apiSubject.totalAttempts || 0;
-    const correct = apiSubject.correctAttempts || 0;
-    const quizAverage = attempts > 0 ? clampPercent((correct / attempts) * 100) : subject.quizAverage;
-
-    return {
-      ...subject,
-      masteryPercent,
-      quizAverage,
-      lessonsCompleted: Math.max(subject.lessonsCompleted, Math.round((masteryPercent / 100) * subject.lessonsTotal)),
-    };
-  });
-}
-
-function mergeAchievements(apiAchievements: AchievementApiItem[]): AchievementItem[] {
-  if (!apiAchievements.length) return ACHIEVEMENT_CATALOG;
-
-  const earned = new Map(
-    apiAchievements
-      .filter((item) => item.badgeKey)
-      .map((item) => [item.badgeKey as string, item])
-  );
-
-  return ACHIEVEMENT_CATALOG.map((badge) => {
-    const apiBadge = earned.get(badge.key);
-    if (!apiBadge) return badge;
-
-    return {
-      ...badge,
-      unlocked: true,
-      progress: 1,
-      earnedAt: formatEarnedAt(apiBadge.earnedAt || apiBadge.createdAt) || badge.earnedAt,
-    };
-  });
 }
 
 export default function ProgressScreen(): React.JSX.Element {
@@ -271,49 +197,163 @@ export default function ProgressScreen(): React.JSX.Element {
     }
 
     try {
-      const [masteryResponse, achievementResponse] = await Promise.all([
-        apiFetch('/api/v1/progress/mastery'),
-        apiFetch('/api/v1/progress/achievements'),
-      ]);
+      const savedProfile = await getObject<any>(STORAGE_KEYS.STUDENT_PROFILE);
+      const grade = savedProfile?.grade ? Number(savedProfile.grade) : 6;
 
-      let nextSubjects = DEFAULT_SUBJECTS;
-      let nextAchievements = ACHIEVEMENT_CATALOG;
-      let loadedFromServer = false;
+      let studentId: number | null = null;
+      let completedTopics = new Set<string>();
+      let quizResultsList: { topic_id: string; score: number; total: number }[] = [];
+      let sessionsList: { subject: string; duration_seconds: number; ended_at: string; mode: string }[] = [];
+      let earnedBadges = new Set<string>();
 
-      if (masteryResponse.ok) {
-        const body = await masteryResponse.json();
-        const mastery = body?.data?.mastery;
-        if (Array.isArray(mastery)) {
-          nextSubjects = mergeMastery(DEFAULT_SUBJECTS, mastery);
-          loadedFromServer = true;
+      if (isLocalDatabaseAvailable()) {
+        try {
+          const db = getDb();
+          const student = await db.getFirstAsync<{ id: number }>('SELECT id FROM students LIMIT 1');
+          if (student) {
+            studentId = student.id;
+            
+            // 1. Get completed topic IDs
+            const completedRows = await db.getAllAsync<{ topic_id: string }>(
+              `SELECT DISTINCT topic_id FROM sessions WHERE student_id = ? AND ended_at IS NOT NULL
+               UNION
+               SELECT DISTINCT topic_id FROM quiz_results WHERE student_id = ?`,
+              [student.id, student.id]
+            );
+            completedTopics = new Set(completedRows.map(r => r.topic_id));
+
+            // 2. Get quiz results
+            quizResultsList = await db.getAllAsync<{ topic_id: string; score: number; total: number }>(
+              `SELECT topic_id, score, total FROM quiz_results WHERE student_id = ?`,
+              [student.id]
+            );
+
+            // 3. Get sessions
+            sessionsList = await db.getAllAsync<{ subject: string; duration_seconds: number; ended_at: string; mode: string }>(
+              `SELECT subject, duration_seconds, ended_at, mode FROM sessions WHERE student_id = ?`,
+              [student.id]
+            );
+
+            // 4. Get earned achievements
+            const achievementRows = await db.getAllAsync<{ badge_key: string }>(
+              `SELECT badge_key FROM achievements WHERE student_id = ?`,
+              [student.id]
+            );
+            earnedBadges = new Set(achievementRows.map(r => r.badge_key));
+          }
+        } catch (dbErr) {
+          console.error('Error fetching progress from SQLite:', dbErr);
         }
       }
 
-      if (achievementResponse.ok) {
-        const body = await achievementResponse.json();
-        const apiAchievements = body?.data?.achievements;
-        if (Array.isArray(apiAchievements)) {
-          nextAchievements = mergeAchievements(apiAchievements);
-          loadedFromServer = true;
-        }
-      }
+      // Map dynamic subjects
+      const updatedSubjects: SubjectProgress[] = SUBJECTS_METADATA.map(sub => {
+        const allTopics = TOPICS_BY_SUBJECT[sub.id] || [];
+        const gradeTopics = allTopics.filter(t => {
+          const id = t.id.toLowerCase();
+          if (id.includes('grade6') || id.includes('grade7') || id.includes('grade8')) {
+            return id.includes(`grade${grade}`);
+          }
+          return true;
+        });
 
-      setSubjects(nextSubjects);
-      setAchievements(nextAchievements);
-      setSyncMessage(loadedFromServer ? 'Synced with Lernzy cloud' : 'Showing saved progress');
+        const lessonsTotal = gradeTopics.length;
+        const lessonsCompleted = gradeTopics.filter(t => completedTopics.has(t.id)).length;
+        const masteryPercent = lessonsTotal > 0 ? Math.round((lessonsCompleted / lessonsTotal) * 100) : 0;
+
+        // Quiz stats for this subject's topics
+        const subjectTopicIds = new Set(gradeTopics.map(t => t.id));
+        const subQuizzes = quizResultsList.filter(q => subjectTopicIds.has(q.topic_id));
+        const totalScore = subQuizzes.reduce((sum, q) => sum + q.score, 0);
+        const totalPossible = subQuizzes.reduce((sum, q) => sum + q.total, 0);
+        const quizAverage = totalPossible > 0 ? Math.round((totalScore / totalPossible) * 100) : 0;
+
+        // Study time (duration in minutes)
+        const subSessions = sessionsList.filter(s => s.subject === sub.id);
+        const totalSeconds = subSessions.reduce((sum, s) => sum + (s.duration_seconds || 0), 0);
+        const minutes = Math.round(totalSeconds / 60);
+
+        // Last practiced
+        const lastSession = subSessions
+          .filter(s => s.ended_at)
+          .sort((a, b) => new Date(b.ended_at).getTime() - new Date(a.ended_at).getTime())[0];
+        
+        let lastPracticed = 'Never';
+        if (lastSession) {
+          const diffMs = Date.now() - new Date(lastSession.ended_at).getTime();
+          const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+          if (diffDays <= 0) lastPracticed = 'Today';
+          else if (diffDays === 1) lastPracticed = 'Yesterday';
+          else if (diffDays < 7) lastPracticed = `${diffDays} days ago`;
+          else lastPracticed = 'This week';
+        }
+
+        return {
+          id: sub.id,
+          name: sub.name,
+          module: sub.module,
+          iconName: sub.iconName,
+          lessonsCompleted,
+          lessonsTotal,
+          masteryPercent,
+          quizAverage,
+          minutes,
+          lastPracticed,
+        };
+      }).filter(s => s.lessonsTotal > 0);
+
+      // Map dynamic achievements
+      const updatedAchievements = ACHIEVEMENT_CATALOG.map(badge => {
+        const unlocked = earnedBadges.has(badge.key);
+        let isUnlocked = unlocked;
+        let progress = unlocked ? 1 : 0;
+        
+        if (badge.key === 'first_steps') {
+          const hasLesson = sessionsList.some(s => s.mode === 'lesson' && s.ended_at);
+          if (hasLesson) {
+            isUnlocked = true;
+            progress = 1;
+          }
+        } else if (badge.key === 'quiz_whiz') {
+          const hasPerfectQuiz = quizResultsList.some(q => q.score === q.total && q.total > 0);
+          if (hasPerfectQuiz) {
+            isUnlocked = true;
+            progress = 1;
+          }
+        } else if (badge.key === 'steady_streak') {
+          progress = 0;
+        } else if (badge.key === 'deep_focus') {
+          const totalMins = updatedSubjects.reduce((sum, s) => sum + s.minutes, 0);
+          progress = Math.min(1, totalMins / 120);
+          if (progress >= 1) {
+            isUnlocked = true;
+          }
+        }
+
+        return {
+          ...badge,
+          unlocked: isUnlocked,
+          progress,
+        };
+      });
+
+      setSubjects(updatedSubjects);
+      setAchievements(updatedAchievements);
+      setSyncMessage('Showing saved progress');
     } catch (error) {
-      setSubjects(DEFAULT_SUBJECTS);
-      setAchievements(ACHIEVEMENT_CATALOG);
-      setSyncMessage('Offline mode: showing saved progress');
+      console.error(error);
+      setSyncMessage('Error loading progress');
     } finally {
       setIsLoading(false);
       setIsRefreshing(false);
     }
   }, []);
 
-  useEffect(() => {
-    loadProgress();
-  }, [loadProgress]);
+  useFocusEffect(
+    useCallback(() => {
+      loadProgress();
+    }, [loadProgress])
+  );
 
   const totalLessons = subjects.reduce((sum, subject) => sum + subject.lessonsTotal, 0);
   const completedLessons = subjects.reduce((sum, subject) => sum + subject.lessonsCompleted, 0);

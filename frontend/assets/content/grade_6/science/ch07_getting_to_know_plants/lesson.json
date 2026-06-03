@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "grade": 6,
+  "subject": "science",
+  "chapter_id": "ch07_getting_to_know_plants",
+  "chapter_title": {
+    "en": "Getting to Know Plants",
+    "hi": "पौधों को जानिए",
+    "kn": "ಸಸ್ಯಗಳನ್ನು ತಿಳಿಯುವುದು"
+  },
+  "topics": [
+    {
+      "topic_id": "science_grade6_ch07_getting_to_know_plants_basics",
+      "title": {
+        "en": "Getting to Know Plants - Fundamentals",
+        "hi": "पौधों को जानिए - बुनियादी बातें",
+        "kn": "ಸಸ್ಯಗಳನ್ನು ತಿಳಿಯುವುದು - ಮೂಲತಮxt್ವಗಳು"
+      },
+      "learning_objectives": [
+        "Understand the role of chlorophyll and sunlight",
+        "Write the chemical equation for photosynthesis",
+        "Explain how water and nutrients are absorbed by roots"
+      ],
+      "estimated_minutes": 15,
+      "base_story_template": {
+        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Getting to Know Plants. This lesson is key to mapping how inputs transform to outputs.",
+        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम पौधों को जानिए का अध्ययन करेंगे॥",
+        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಸಸ್ಯಗಳನ್ನು ತಿಳಿಯುವುದು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
+      },
+      "concept_explanation": {
+        "en": "Photosynthesis is the process by which green plants prepare their own food. Using chlorophyll, leaves capture sunlight and convert carbon dioxide and water into glucose (food) and oxygen.",
+        "hi": "प्रकाश संश्लेषण वह प्रक्रिया है जिसके द्वारा हरे पौधे अपना भोजन स्वयं बनाते हैं॥",
+        "kn": "ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯು ಹಸಿರು ಸಸ್ಯಗಳು ತಮ್ಮದೇ ಆಹಾರವನ್ನು ತಯಾರಿಸುವ ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ."
+      },
+      "worked_example": {
+        "problem": "Identify the inputs and outputs of photosynthesis.",
+        "steps": [
+          {
+            "en": "Step 1: Leaves absorb carbon dioxide from the air and water from the soil.",
+            "hi": "चरण 1: पत्तियाँ हवा से कार्बन डाइक्साइड और मिट्टी से पानी अवशोषित करती हैं॥",
+            "kn": "ಹಂತ 1: ಎಲೆಗಳು ಗಾಳಿಯಿಂದ ಇಂಗಾಲದ ಡೈಂಕ್ಸೈಡ್ ಮತ್ತು ಮಣ್ಣಿನಿಂದ ನೀರನ್ನು ಹೀರಿಕೊಳ್ಳುತ್ತವೆ."
+          },
+          {
+            "en": "Step 2: Chlorophyll traps sunlight energy inside the plant cells.",
+            "hi": "चरण 2: क्लोरोफिल पौधे की कोशिकाओं के भीतर सूर्य के प्रकाश की ऊर्जा को पकड़ता है॥",
+            "kn": "ಹಂತ 2: ಹರಿತ್ತು ಸಸ್ಯದ ಜೀವಕೋಶಗಳೊಳಗೆ ಸೂರ್ಯನ ಬೆಳಕಿನ ಸಾಮರ್ಥ್ಥಯನ್ನು ಹೀರುತ್ತದೆ."
+          },
+          {
+            "en": "Step 3: Carbon dioxide and water combine to form glucose, releasing oxygen.",
+            "hi": "चरण 3: कार्बन डाइक्साइड और पानी मिलकर ग्लूकोज बनाते हैं और क्सीजन छोड़ते हैं॥",
+            "kn": "ಹಂತ 3: ಇಂಗಾಲದ ಡೈಂಕ್ಸೈಡ್ ಮತ್ನೀರು ಸೇರಿ ಗ್ಲುಕೋಸ್ ಮಾಡಿ ಆಮ್ಲಜನಕವನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತವೆ."
+          }
+        ],
+        "answer": "Carbon Dioxide + Water + Sunlight -> Glucose + Oxygen"
+      },
+      "key_points": {
+        "en": [
+          "Chlorophyll is the green pigment that absorbs light energy.",
+          "Stomata are tiny pores on leaves that allow gas exchange.",
+          "Oxygen released during photosynthesis supports life on Earth."
+        ],
+        "hi": [
+          "क्लोरोयफिल वह हरा वर्णक है जो प्रकाश ऊर्जा को सोखता है॥",
+          "रंध्र (Stomata) पत्तियों पर छोटे छिद्र होता हैं॥",
+          "प्रकाश संश्लेषण के दौरान मुक्त क्सीजन जीवन का आधार है॥"
+        ],
+        "kn": [
+          "ಹರಿತ್ತು ಬೆಳಕಿನ ಶಕ್ತಿಥನ್ನು ಹೀರುವ ಹಸಿರು ವರ್ಣಕವಾಗಿದೆ.",
+          "ಪತ್ರರಂధ್ರಗಳು (Stomata) ಎಲೆಗಳ ಮೇಲಿನ ಸಣ್ಣ ರಂಧ್ರಗಳು.",
+          "ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯ ಸಮಯದಲ್ಲಿ ಬಿಡುಗಡೆಯಾಗುವ ಆಮ್ಲಜನಕ ಪ್ರಾಣವಾಯುವಾಗಿದೆ."
+        ]
+      },
+      "interest_placeholders": {
+        "INTEREST_PLACE": {
+          "space": {
+            "en": "inside the control deck of a space shuttle",
+            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
+            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
+          },
+          "nature": {
+            "en": "at the forest wildlife sanctuary camp",
+            "hi": "वन्यजीव अभ्यारण्य शिविर में",
+            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
+          },
+          "robots": {
+            "en": "next to the compiler terminal in a robot lab",
+            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
+            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
+          },
+          "sports": {
+            "en": "on the stadium practice field",
+            "hi": "खेल के म्यान में",
+            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
+          },
+          "stories": {
+            "en": "near the ancient archives desk of the library",
+            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
+            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
+          },
+          "history": {
+            "en": "near the watchtower of Chitradurga Fort",
+            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
+            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
+          },
+          "default": {
+            "en": "in the school study room",
+            "hi": "स्कूल के अध्ययन कक्ष में",
+            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
+          }
+        }
+      }
+    }
+  ]
+}

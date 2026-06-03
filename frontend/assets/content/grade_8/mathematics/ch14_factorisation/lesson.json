@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "grade": 8,
+  "subject": "mathematics",
+  "chapter_id": "ch14_factorisation",
+  "chapter_title": {
+    "en": "Factorisation",
+    "hi": "गुणनखंडन",
+    "kn": "ಅಪವರ್ತನ"
+  },
+  "topics": [
+    {
+      "topic_id": "mathematics_grade8_ch14_factorisation_basics",
+      "title": {
+        "en": "Factorisation - Fundamentals",
+        "hi": "गुणनखंडन - बुनियादी बातें",
+        "kn": "ಅಪವರ್ತನ - ಮೂಲತತ್ವಗಳು"
+      },
+      "learning_objectives": [
+        "Understand key concepts of Factorisation",
+        "Apply rules and solve related exercises",
+        "Analyze practical day-to-day applications"
+      ],
+      "estimated_minutes": 15,
+      "base_story_template": {
+        "en": "Welcome {{STUDENT_NAME}} to our learning session {{INTEREST_PLACE}}! Today we explore Factorisation. This lesson is key to mapping how inputs transform to outputs.",
+        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम गुणनखंडन का अध्ययन करेंगे।",
+        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುಸ್ವಾಗತ {{STUDENT_NAME}}! ಇಂದು ನಾವು ಅಪವರ್ತನ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
+      },
+      "concept_explanation": {
+        "en": "Learn and understand Factorisation in detail. This topic is essential for academic mastery and covers all required standard competencies.",
+        "hi": "गुणनखंडन को विस्तार से समझें। यह विषय शैक्षणिक दक्षता के लिए आवश्यक है।",
+        "kn": "ಅಪವರ್ತನ ಅನ್ನು ವಿವರವಾಗಿ ಕಲಿಯಿರಿ. ಈ ವಿಷಯವು ಶೈಕ್ಷಣಿಕ ಪರಿಣತಿಗೆ ಅತ್ಯಗತ್ಯವಾಗಿದೆ."
+      },
+      "worked_example": {
+        "problem": "Basic exercise for Factorisation",
+        "steps": [
+          {
+            "en": "Step 1: Identify the variables and targets.",
+            "hi": "चरण 1: चरों और लक्ष्यों की पहचान करें।",
+            "kn": "ಹಂತ 1: ಚರಾಕ್ಷರಗಳು ಮತ್ತು ಗುರಿಗಳನ್ನು ಗುರುತಿಸಿ."
+          },
+          {
+            "en": "Step 2: Apply the governing rule.",
+            "hi": "चरण 2: संबंधित नियम लागू करें।",
+            "kn": "ಹಂತ 2: ಆಡಳಿತ ನಿಯಮವನ್ನು ಅನ್ವಯಿಸಿ."
+          },
+          {
+            "en": "Step 3: Solve to obtain the final answer.",
+            "hi": "चरण 3: अंतिम उत्तर प्राप्त करने के लिए हल करें।",
+            "kn": "ಹಂತ 3: ಅಂತಿಮ ಉತ್ತರ ಪಡೆಯಲು ಪರಿಹರಿಸಿ."
+          }
+        ],
+        "answer": "Solved successfully"
+      },
+      "key_points": {
+        "en": [
+          "Understanding Factorisation builds crucial basic skills.",
+          "Active practice improves retention.",
+          "Use context clues to evaluate your answers."
+        ],
+        "hi": [
+          "गुणनखंडन को समझने से बुनियादी कौशल का विकास होता है।",
+          "नियमित अभ्यास से सीखने की क्षमता बढ़ती है।",
+          "उत्तरों की जांच के लिए सुरागों का उपयोग करें।"
+        ],
+        "kn": [
+          "ಅಪವರ್ತನ ಅನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದು ಪ್ರಮುಖ ಕೌಶಲ್ಯಗಳನ್ನು ಬೆಳೆಸುತ್ತದೆ.",
+          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿಯನ್ನು ಸುಧಾರಿಸುತ್ತದೆ.",
+          "ಉತ್ತರಗಳನ್ನು ಮೌಲ್ಯಮಾಪನ ಮಾಡಲು ಸುಳಿವುಗಳನ್ನು ಬಳಸಿ."
+        ]
+      },
+      "interest_placeholders": {
+        "INTEREST_PLACE": {
+          "space": {
+            "en": "inside the control deck of a space shuttle",
+            "hi": "अंतरिक्ष यान के नियंत्रण डेक के अंदर",
+            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಕೆಯ ನಿಯಂತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
+          },
+          "nature": {
+            "en": "at the forest wildlife sanctuary camp",
+            "hi": "वन्यजीव अभयारण्य शिविर में",
+            "kn": "ಅರಣ್ಯ ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿಬಿರದಲ್ಲಿ"
+          },
+          "robots": {
+            "en": "next to the compiler terminal in a robot lab",
+            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
+            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್‌ನಲ್ಲಿ ಕಂಪೈಲರ್ ಟರ್ಮಿನಲ್ ಪಕ್ಕದಲ್ಲಿ"
+          },
+          "sports": {
+            "en": "on the stadium practice field",
+            "hi": "खेल के मैदान में",
+            "kn": "ಕ್ರೀಡಾಂಗಣದ ತಾಲೀಮು ಮೈದಾನದಲ್ಲಿ"
+          },
+          "stories": {
+            "en": "near the ancient archives desk of the library",
+            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
+            "kn": "ಗ್ರಂಥಾಲಯದ ಪ್ರಾಚೀನ ದಾಖಲೆಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
+          },
+          "history": {
+            "en": "near the watchtower of Chitradurga Fort",
+            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
+            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
+          },
+          "default": {
+            "en": "in the school study room",
+            "hi": "स्कूल के अध्ययन कक्ष में",
+            "kn": "ಶಾಲೆಯ ಅಧ್ಯಯನ ಕೊಠಡಿಯಲ್ಲಿ"
+          }
+        }
+      }
+    }
+  ]
+}

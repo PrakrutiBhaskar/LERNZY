@@ -12,9 +12,9 @@ import { getOnboardingCopy } from '@/onboarding/copy';
 import { type ColorsType } from '@/theme/colors';
 import { useTheme } from '@/theme/theme';
 
-type SelectableLearningStyle = Exclude<LearningStyleId, 'mixed'>;
+type SelectableLearningStyle = 'visual' | 'story' | 'exam' | 'interactive';
 
-const STYLE_IDS: SelectableLearningStyle[] = ['reading', 'audio', 'quiz'];
+const STYLE_IDS: SelectableLearningStyle[] = ['visual', 'story', 'exam', 'interactive'];
 
 export default function LearningStyleScreen(): React.JSX.Element {
   const router = useRouter();

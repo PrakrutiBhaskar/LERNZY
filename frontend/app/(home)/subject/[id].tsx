@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import { View, StyleSheet } from 'react-native';
-import { useLocalSearchParams, useRouter } from 'expo-router';
+import { useLocalSearchParams, useRouter, useFocusEffect } from 'expo-router';
 import { Code2 } from 'lucide-react-native';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { useTheme, useSubjectColor } from '@/theme/theme';
@@ -10,37 +10,14 @@ import { Button } from '../../../components/Button';
 import { ScreenContainer } from '../../../components/ScreenContainer';
 import { apiFetch } from '@/services/api';
 import { TOPICS_BY_SUBJECT as SUBJECT_TOPIC_BANK } from '@/content/learningContent';
+import { STORAGE_KEYS } from '@/utils/constants';
+import { getObject } from '@/utils/storage';
 
 interface TopicItem {
   id: string;
   title: { en: string; hi: string; kn: string };
   desc: { en: string; hi: string; kn: string };
 }
-
-const TOPICS_BY_SUBJECT: Record<string, TopicItem[]> = {
-  math: [
-    { id: 'fractions', title: { en: 'Fractions & Decimals', hi: 'भिन्न और दशमलव', kn: 'ಭಿನ್ನರಾಶಿಗಳು ಮತ್ತು ದಶಮಾಂಶಗಳು' }, desc: { en: 'Understand parts of a whole and basic divisions.', hi: 'एक पूरे के हिस्सों और बुनियादी विभाजनों को समझें।', kn: 'ಒಂದಿಡೀ ಭಾಗಗಳು ಮತ್ತು ಮೂಲಭೂತ ಭಾಗಾಕಾರಗಳನ್ನು ತಿಳಿಯಿರಿ.' } },
-    { id: 'algebra', title: { en: 'Introduction to Algebra', hi: 'बीजगणित का परिचय', kn: 'ಬೀಜಗಣಿತದ ಪರಿಚಯ' }, desc: { en: 'Learn how variables replace numbers in equations.', hi: 'सीखें कि समीकरणों में चर संख्याओं का स्थान कैसे लेते हैं।', kn: 'ಸಮೀಕರಣಗಳಲ್ಲಿ ಚರಾಂಶಗಳು ಸಂಖ್ಯೆಗಳನ್ನು ಹೇಗೆ ಬದಲಾಯಿಸುತ್ತವೆ ಎಂಬುದನ್ನು ಕಲಿಯಿರಿ.' } },
-  ],
-  science: [
-    { id: 'forces', title: { en: 'Force & Motion', hi: 'बल और गति', kn: 'ಬಲ ಮತ್ತು ಚಲನೆ' }, desc: { en: 'Explore Newton laws, friction, and gravity.', hi: 'न्यूटन के नियमों, घर्षण और गुरुत्वाकर्षण का पता लगाएं।', kn: 'ನ್ಯೂಟನ್ ನಿಯಮಗಳು, ಘರ್ಷಣೆ ಮತ್ತು ಗುರುತ್ವಾಕರ್ಷಣೆಯನ್ನು ಅನ್ವೇಷಿಸಿ.' } },
-    { id: 'plants', title: { en: 'Photosynthesis', hi: 'प्रकाश संश्लेषण', kn: 'ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆ' }, desc: { en: 'How green plants turn sunlight into energy.', hi: 'हरे पौधे सूर्य के प्रकाश को ऊर्जा में कैसे बदलते हैं।', kn: 'ಹಸಿರು ಸಸ್ಯಗಳು ಸೂರ್ಯನ ಬೆಳಕನ್ನು ಶಕ್ತಿಯನ್ನಾಗಿ ಹೇಗೆ ಪರಿವರ್ತಿಸುತ್ತವೆ.' } },
-  ],
-  social: [
-    { id: 'indus', title: { en: 'Indus Valley Civilization', hi: 'सिंधु घाटी सभ्यता', kn: 'ಸಿಂಧೂ ಕಣಿವೆ ನಾಗರಿಕತೆ' }, desc: { en: 'Discover the ancient cities of Harappa and Mohenjo-daro.', hi: 'हड़प्पा और मोहनजोदड़ो के प्राचीन शहरों की खोज करें।', kn: 'ಹರಪ್ಪ ಮತ್ತು ಮೊಹೆಂಜೊ-ದಾರೋ ಪುರಾತನ ನಗರಗಳನ್ನು ಅನ್ವೇಷಿಸಿ.' } },
-  ],
-  english: [
-    { id: 'tenses', title: { en: 'Active & Passive Voice', hi: 'सक्रिय और निष्क्रिय आवाज', kn: 'ಕರ್ತರಿ ಮತ್ತು ಕರ್ಮಣಿ ಪ್ರಯೋಗ' }, desc: { en: 'Master subject-verb emphasis in sentences.', hi: 'वाक्यों में कर्ता-क्रिया के महत्व में महारत हासिल करें।', kn: 'ವಾಕ್ಯಗಳಲ್ಲಿ ಕರ್ತೃ-ಕ್ರಿಯಾಪದದ ಒತ್ತು ನೀಡುವುದನ್ನು ಕಲಿಯಿರಿ.' } },
-  ],
-  kannada: [
-    { id: 'sandhi', title: { en: 'Kannada Sandhigalu', hi: 'कन्नड़ संधि', kn: 'ಕನ್ನಡ ಸಂಧಿಗಳು' }, desc: { en: 'Understand joint word formations in grammar.', hi: 'व्याकरण में संयुक्त शब्द रूपों को समझें।', kn: 'ಕನ್ನಡ ವ್ಯಾಕರಣದಲ್ಲಿ ಸಂಧಿ ಪದಗಳ ರಚನೆಯನ್ನು ತಿಳಿಯಿರಿ.' } },
-  ],
-  coding: [
-    { id: 'coding-basics', title: { en: 'Coding Basics', hi: 'Coding Basics', kn: 'Coding Basics' }, desc: { en: 'Learn commands, sequences, and how programs follow instructions.', hi: 'Learn commands, sequences, and how programs follow instructions.', kn: 'Learn commands, sequences, and how programs follow instructions.' } },
-    { id: 'logic-loops', title: { en: 'Logic & Loops', hi: 'Logic & Loops', kn: 'Logic & Loops' }, desc: { en: 'Use conditions and repeated steps to solve small problems.', hi: 'Use conditions and repeated steps to solve small problems.', kn: 'Use conditions and repeated steps to solve small problems.' } },
-    { id: 'build-an-app', title: { en: 'Build a Mini App', hi: 'Build a Mini App', kn: 'Build a Mini App' }, desc: { en: 'Plan screens, buttons, and simple interactions for an app idea.', hi: 'Plan screens, buttons, and simple interactions for an app idea.', kn: 'Plan screens, buttons, and simple interactions for an app idea.' } },
-  ],
-};
 
 export default function SubjectDetails(): React.JSX.Element {
   const { id, name } = useLocalSearchParams<{ id: string; name?: string }>();
@@ -59,49 +36,68 @@ export default function SubjectDetails(): React.JSX.Element {
 
   const subjectColor = useSubjectColor(subjectName);
   const isCodingSubject = /coding|code|program/.test(`${subjectId} ${subjectName}`.toLowerCase());
-  const [topics, setTopics] = useState<TopicItem[]>(SUBJECT_TOPIC_BANK[subjectId] || []);
+  const [topics, setTopics] = useState<TopicItem[]>([]);
+  const [grade, setGrade] = useState<number>(6);
 
-  useEffect(() => {
-    let active = true;
+  useFocusEffect(
+    useCallback(() => {
+      let active = true;
 
-    async function loadBackendTopics() {
-      if (SUBJECT_TOPIC_BANK[subjectId]) {
-        setTopics(SUBJECT_TOPIC_BANK[subjectId]);
-        return;
+      async function loadTopicsAndProfile() {
+        try {
+          const profile = await getObject<any>(STORAGE_KEYS.STUDENT_PROFILE);
+          const studentGrade = profile?.grade ? Number(profile.grade) : 6;
+          if (!active) return;
+          setGrade(studentGrade);
+
+          let finalTopics = SUBJECT_TOPIC_BANK[subjectId] || [];
+
+          if (finalTopics.length === 0) {
+            try {
+              const response = await apiFetch(`/api/v1/subjects/${subjectId}/topics`);
+              if (response.ok) {
+                const res = await response.json();
+                if (active && res?.success && Array.isArray(res.data)) {
+                  finalTopics = res.data.map((topic: any) => {
+                    const title = topic.name || 'Topic';
+                    const description = topic.metadata?.description || `Learn about ${title}.`;
+
+                    return {
+                      id: topic._id,
+                      title: typeof title === 'string' ? { en: title, hi: title, kn: title } : title,
+                      desc: typeof description === 'string'
+                        ? { en: description, hi: description, kn: description }
+                        : description,
+                    };
+                  });
+                }
+              }
+            } catch (error) {
+              console.log('[Subject Integration] Backend topics unavailable.', error);
+            }
+          }
+
+          const filtered = finalTopics.filter(topic => {
+            const topicIdLower = topic.id.toLowerCase();
+            if (topicIdLower.includes('grade6') || topicIdLower.includes('grade7') || topicIdLower.includes('grade8')) {
+              return topicIdLower.includes(`grade${studentGrade}`);
+            }
+            return true;
+          });
+
+          setTopics(filtered);
+        } catch (err) {
+          console.error(err);
+        }
       }
 
-      try {
-        const response = await apiFetch(`/api/v1/subjects/${subjectId}/topics`);
-        if (!response.ok) return;
+      loadTopicsAndProfile();
 
-        const res = await response.json();
-        if (!active || !res?.success || !Array.isArray(res.data)) return;
-
-        const mappedTopics = res.data.map((topic: any) => {
-          const title = topic.name || 'Topic';
-          const description = topic.metadata?.description || `Learn about ${title}.`;
-
-          return {
-            id: topic._id,
-            title: typeof title === 'string' ? { en: title, hi: title, kn: title } : title,
-            desc: typeof description === 'string'
-              ? { en: description, hi: description, kn: description }
-              : description,
-          };
-        });
-
-        setTopics(mappedTopics);
-      } catch (error) {
-        console.log('[Subject Integration] Backend topics unavailable, using local fallback.', error);
-      }
-    }
-
-    loadBackendTopics();
-
-    return () => {
-      active = false;
-    };
-  }, [subjectId]);
+      return () => {
+        active = false;
+      };
+    }, [subjectId])
+  );
 
   return (
     <ScreenContainer

@@ -1,0 +1,366 @@
+{
+  "version": "1.0",
+  "topic_id": "social_grade6_ch15_motions_of_earth_basics",
+  "questions": [
+    {
+      "id": "q01",
+      "difficulty": "easy",
+      "question": {
+        "en": "Which of the following is a non-contact force? (Q1)",
+        "hi": "Which of the following is a non-contact force? (Q1)",
+        "kn": "Which of the following is a non-contact force? (Q1)"
+      },
+      "options": {
+        "en": [
+          "Gravitational force",
+          "Friction",
+          "Tension",
+          "Air resistance"
+        ],
+        "hi": [
+          "Gravitational force",
+          "Friction",
+          "Tension",
+          "Air resistance"
+        ],
+        "kn": [
+          "Gravitational force",
+          "Friction",
+          "Tension",
+          "Air resistance"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Gravity acts over a distance without physical contact.",
+        "hi": "Gravity acts over a distance without physical contact.",
+        "kn": "Gravity acts over a distance without physical contact."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q02",
+      "difficulty": "easy",
+      "question": {
+        "en": "If area decreases while force stays constant, what happens to pressure? (Q2)",
+        "hi": "If area decreases while force stays constant, what happens to pressure? (Q2)",
+        "kn": "If area decreases while force stays constant, what happens to pressure? (Q2)"
+      },
+      "options": {
+        "en": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It drops to zero"
+        ],
+        "hi": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It drops to zero"
+        ],
+        "kn": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It drops to zero"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
+        "hi": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
+        "kn": "Since Pressure = Force/Area, decreasing the area increases the pressure."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q03",
+      "difficulty": "easy",
+      "question": {
+        "en": "Which of the following is a non-contact force? (Q3)",
+        "hi": "Which of the following is a non-contact force? (Q3)",
+        "kn": "Which of the following is a non-contact force? (Q3)"
+      },
+      "options": {
+        "en": [
+          "Gravitational force",
+          "Friction",
+          "Tension",
+          "Air resistance"
+        ],
+        "hi": [
+          "Gravitational force",
+          "Friction",
+          "Tension",
+          "Air resistance"
+        ],
+        "kn": [
+          "Gravitational force",
+          "Friction",
+          "Tension",
+          "Air resistance"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Gravity acts over a distance without physical contact.",
+        "hi": "Gravity acts over a distance without physical contact.",
+        "kn": "Gravity acts over a distance without physical contact."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q04",
+      "difficulty": "medium",
+      "question": {
+        "en": "If area decreases while force stays constant, what happens to pressure? (Q4)",
+        "hi": "If area decreases while force stays constant, what happens to pressure? (Q4)",
+        "kn": "If area decreases while force stays constant, what happens to pressure? (Q4)"
+      },
+      "options": {
+        "en": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It drops to zero"
+        ],
+        "hi": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It drops to zero"
+        ],
+        "kn": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It drops to zero"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
+        "hi": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
+        "kn": "Since Pressure = Force/Area, decreasing the area increases the pressure."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q05",
+      "difficulty": "medium",
+      "question": {
+        "en": "Which of the following is a non-contact force? (Q5)",
+        "hi": "Which of the following is a non-contact force? (Q5)",
+        "kn": "Which of the following is a non-contact force? (Q5)"
+      },
+      "options": {
+        "en": [
+          "Gravitational force",
+          "Friction",
+          "Tension",
+          "Air resistance"
+        ],
+        "hi": [
+          "Gravitational force",
+          "Friction",
+          "Tension",
+          "Air resistance"
+        ],
+        "kn": [
+          "Gravitational force",
+          "Friction",
+          "Tension",
+          "Air resistance"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Gravity acts over a distance without physical contact.",
+        "hi": "Gravity acts over a distance without physical contact.",
+        "kn": "Gravity acts over a distance without physical contact."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q06",
+      "difficulty": "medium",
+      "question": {
+        "en": "If area decreases while force stays constant, what happens to pressure? (Q6)",
+        "hi": "If area decreases while force stays constant, what happens to pressure? (Q6)",
+        "kn": "If area decreases while force stays constant, what happens to pressure? (Q6)"
+      },
+      "options": {
+        "en": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It drops to zero"
+        ],
+        "hi": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It drops to zero"
+        ],
+        "kn": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It drops to zero"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
+        "hi": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
+        "kn": "Since Pressure = Force/Area, decreasing the area increases the pressure."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q07",
+      "difficulty": "medium",
+      "question": {
+        "en": "Which of the following is a non-contact force? (Q7)",
+        "hi": "Which of the following is a non-contact force? (Q7)",
+        "kn": "Which of the following is a non-contact force? (Q7)"
+      },
+      "options": {
+        "en": [
+          "Gravitational force",
+          "Friction",
+          "Tension",
+          "Air resistance"
+        ],
+        "hi": [
+          "Gravitational force",
+          "Friction",
+          "Tension",
+          "Air resistance"
+        ],
+        "kn": [
+          "Gravitational force",
+          "Friction",
+          "Tension",
+          "Air resistance"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Gravity acts over a distance without physical contact.",
+        "hi": "Gravity acts over a distance without physical contact.",
+        "kn": "Gravity acts over a distance without physical contact."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q08",
+      "difficulty": "hard",
+      "question": {
+        "en": "If area decreases while force stays constant, what happens to pressure? (Q8)",
+        "hi": "If area decreases while force stays constant, what happens to pressure? (Q8)",
+        "kn": "If area decreases while force stays constant, what happens to pressure? (Q8)"
+      },
+      "options": {
+        "en": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It drops to zero"
+        ],
+        "hi": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It drops to zero"
+        ],
+        "kn": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It drops to zero"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
+        "hi": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
+        "kn": "Since Pressure = Force/Area, decreasing the area increases the pressure."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q09",
+      "difficulty": "hard",
+      "question": {
+        "en": "Which of the following is a non-contact force? (Q9)",
+        "hi": "Which of the following is a non-contact force? (Q9)",
+        "kn": "Which of the following is a non-contact force? (Q9)"
+      },
+      "options": {
+        "en": [
+          "Gravitational force",
+          "Friction",
+          "Tension",
+          "Air resistance"
+        ],
+        "hi": [
+          "Gravitational force",
+          "Friction",
+          "Tension",
+          "Air resistance"
+        ],
+        "kn": [
+          "Gravitational force",
+          "Friction",
+          "Tension",
+          "Air resistance"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Gravity acts over a distance without physical contact.",
+        "hi": "Gravity acts over a distance without physical contact.",
+        "kn": "Gravity acts over a distance without physical contact."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q010",
+      "difficulty": "hard",
+      "question": {
+        "en": "If area decreases while force stays constant, what happens to pressure? (Q10)",
+        "hi": "If area decreases while force stays constant, what happens to pressure? (Q10)",
+        "kn": "If area decreases while force stays constant, what happens to pressure? (Q10)"
+      },
+      "options": {
+        "en": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It drops to zero"
+        ],
+        "hi": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It drops to zero"
+        ],
+        "kn": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It drops to zero"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
+        "hi": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
+        "kn": "Since Pressure = Force/Area, decreasing the area increases the pressure."
+      },
+      "diagram_ref": null
+    }
+  ]
+}

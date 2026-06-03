@@ -89,6 +89,26 @@ const isValidAIResponse = (text) => {
   const trimmed = text.trim();
   if (trimmed.length < 10) return false;
   if (trimmed === "{}" || trimmed === "[]") return false;
+  
+  // Validation layer to automatically reject placeholder or template language
+  const lower = trimmed.toLowerCase();
+  const forbiddenPatterns = [
+    "concept 1",
+    "definition 1",
+    "primary choice",
+    "secondary option",
+    "lorem ipsum",
+    "understand key concepts",
+    "generic phrase",
+    "placeholder explanation",
+    "unrelated options"
+  ];
+  for (const pattern of forbiddenPatterns) {
+    if (lower.includes(pattern)) {
+      logger.warn(`AI Response rejected: contains forbidden placeholder pattern "${pattern}"`);
+      return false;
+    }
+  }
   return true;
 };
 

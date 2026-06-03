@@ -1,0 +1,366 @@
+{
+  "version": "1.0",
+  "topic_id": "science_grade8_ch14_chemical_effects_electric_basics",
+  "questions": [
+    {
+      "id": "q01",
+      "difficulty": "easy",
+      "question": {
+        "en": "Which scientific term describes the fundamental unit or phenomenon of Chemical Effects of Electric Current? (Q1)",
+        "hi": "Which scientific term describes the fundamental unit or phenomenon of Chemical Effects of Electric Current? (Q1)",
+        "kn": "Which scientific term describes the fundamental unit or phenomenon of Chemical Effects of Electric Current? (Q1)"
+      },
+      "options": {
+        "en": [
+          "Matter and energy exchange",
+          "Chemical solution",
+          "Inertial frame",
+          "Biological cell structure"
+        ],
+        "hi": [
+          "Matter and energy exchange",
+          "Chemical solution",
+          "Inertial frame",
+          "Biological cell structure"
+        ],
+        "kn": [
+          "Matter and energy exchange",
+          "Chemical solution",
+          "Inertial frame",
+          "Biological cell structure"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
+        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
+        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q02",
+      "difficulty": "easy",
+      "question": {
+        "en": "What is the standard tool used to measure changes in a Chemical Effects of Electric Current experiment? (Q2)",
+        "hi": "What is the standard tool used to measure changes in a Chemical Effects of Electric Current experiment? (Q2)",
+        "kn": "What is the standard tool used to measure changes in a Chemical Effects of Electric Current experiment? (Q2)"
+      },
+      "options": {
+        "en": [
+          "Calibrated sensor or thermometer",
+          "Barometer",
+          "Microscope",
+          "Stethoscope"
+        ],
+        "hi": [
+          "Calibrated sensor or thermometer",
+          "Barometer",
+          "Microscope",
+          "Stethoscope"
+        ],
+        "kn": [
+          "Calibrated sensor or thermometer",
+          "Barometer",
+          "Microscope",
+          "Stethoscope"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
+        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
+        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q03",
+      "difficulty": "easy",
+      "question": {
+        "en": "Which scientific term describes the fundamental unit or phenomenon of Chemical Effects of Electric Current? (Q3)",
+        "hi": "Which scientific term describes the fundamental unit or phenomenon of Chemical Effects of Electric Current? (Q3)",
+        "kn": "Which scientific term describes the fundamental unit or phenomenon of Chemical Effects of Electric Current? (Q3)"
+      },
+      "options": {
+        "en": [
+          "Matter and energy exchange",
+          "Chemical solution",
+          "Inertial frame",
+          "Biological cell structure"
+        ],
+        "hi": [
+          "Matter and energy exchange",
+          "Chemical solution",
+          "Inertial frame",
+          "Biological cell structure"
+        ],
+        "kn": [
+          "Matter and energy exchange",
+          "Chemical solution",
+          "Inertial frame",
+          "Biological cell structure"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
+        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
+        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q04",
+      "difficulty": "medium",
+      "question": {
+        "en": "What is the standard tool used to measure changes in a Chemical Effects of Electric Current experiment? (Q4)",
+        "hi": "What is the standard tool used to measure changes in a Chemical Effects of Electric Current experiment? (Q4)",
+        "kn": "What is the standard tool used to measure changes in a Chemical Effects of Electric Current experiment? (Q4)"
+      },
+      "options": {
+        "en": [
+          "Calibrated sensor or thermometer",
+          "Barometer",
+          "Microscope",
+          "Stethoscope"
+        ],
+        "hi": [
+          "Calibrated sensor or thermometer",
+          "Barometer",
+          "Microscope",
+          "Stethoscope"
+        ],
+        "kn": [
+          "Calibrated sensor or thermometer",
+          "Barometer",
+          "Microscope",
+          "Stethoscope"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
+        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
+        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q05",
+      "difficulty": "medium",
+      "question": {
+        "en": "Which scientific term describes the fundamental unit or phenomenon of Chemical Effects of Electric Current? (Q5)",
+        "hi": "Which scientific term describes the fundamental unit or phenomenon of Chemical Effects of Electric Current? (Q5)",
+        "kn": "Which scientific term describes the fundamental unit or phenomenon of Chemical Effects of Electric Current? (Q5)"
+      },
+      "options": {
+        "en": [
+          "Matter and energy exchange",
+          "Chemical solution",
+          "Inertial frame",
+          "Biological cell structure"
+        ],
+        "hi": [
+          "Matter and energy exchange",
+          "Chemical solution",
+          "Inertial frame",
+          "Biological cell structure"
+        ],
+        "kn": [
+          "Matter and energy exchange",
+          "Chemical solution",
+          "Inertial frame",
+          "Biological cell structure"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
+        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
+        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q06",
+      "difficulty": "medium",
+      "question": {
+        "en": "What is the standard tool used to measure changes in a Chemical Effects of Electric Current experiment? (Q6)",
+        "hi": "What is the standard tool used to measure changes in a Chemical Effects of Electric Current experiment? (Q6)",
+        "kn": "What is the standard tool used to measure changes in a Chemical Effects of Electric Current experiment? (Q6)"
+      },
+      "options": {
+        "en": [
+          "Calibrated sensor or thermometer",
+          "Barometer",
+          "Microscope",
+          "Stethoscope"
+        ],
+        "hi": [
+          "Calibrated sensor or thermometer",
+          "Barometer",
+          "Microscope",
+          "Stethoscope"
+        ],
+        "kn": [
+          "Calibrated sensor or thermometer",
+          "Barometer",
+          "Microscope",
+          "Stethoscope"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
+        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
+        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q07",
+      "difficulty": "medium",
+      "question": {
+        "en": "Which scientific term describes the fundamental unit or phenomenon of Chemical Effects of Electric Current? (Q7)",
+        "hi": "Which scientific term describes the fundamental unit or phenomenon of Chemical Effects of Electric Current? (Q7)",
+        "kn": "Which scientific term describes the fundamental unit or phenomenon of Chemical Effects of Electric Current? (Q7)"
+      },
+      "options": {
+        "en": [
+          "Matter and energy exchange",
+          "Chemical solution",
+          "Inertial frame",
+          "Biological cell structure"
+        ],
+        "hi": [
+          "Matter and energy exchange",
+          "Chemical solution",
+          "Inertial frame",
+          "Biological cell structure"
+        ],
+        "kn": [
+          "Matter and energy exchange",
+          "Chemical solution",
+          "Inertial frame",
+          "Biological cell structure"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
+        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
+        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q08",
+      "difficulty": "hard",
+      "question": {
+        "en": "What is the standard tool used to measure changes in a Chemical Effects of Electric Current experiment? (Q8)",
+        "hi": "What is the standard tool used to measure changes in a Chemical Effects of Electric Current experiment? (Q8)",
+        "kn": "What is the standard tool used to measure changes in a Chemical Effects of Electric Current experiment? (Q8)"
+      },
+      "options": {
+        "en": [
+          "Calibrated sensor or thermometer",
+          "Barometer",
+          "Microscope",
+          "Stethoscope"
+        ],
+        "hi": [
+          "Calibrated sensor or thermometer",
+          "Barometer",
+          "Microscope",
+          "Stethoscope"
+        ],
+        "kn": [
+          "Calibrated sensor or thermometer",
+          "Barometer",
+          "Microscope",
+          "Stethoscope"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
+        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
+        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q09",
+      "difficulty": "hard",
+      "question": {
+        "en": "Which scientific term describes the fundamental unit or phenomenon of Chemical Effects of Electric Current? (Q9)",
+        "hi": "Which scientific term describes the fundamental unit or phenomenon of Chemical Effects of Electric Current? (Q9)",
+        "kn": "Which scientific term describes the fundamental unit or phenomenon of Chemical Effects of Electric Current? (Q9)"
+      },
+      "options": {
+        "en": [
+          "Matter and energy exchange",
+          "Chemical solution",
+          "Inertial frame",
+          "Biological cell structure"
+        ],
+        "hi": [
+          "Matter and energy exchange",
+          "Chemical solution",
+          "Inertial frame",
+          "Biological cell structure"
+        ],
+        "kn": [
+          "Matter and energy exchange",
+          "Chemical solution",
+          "Inertial frame",
+          "Biological cell structure"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
+        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
+        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q010",
+      "difficulty": "hard",
+      "question": {
+        "en": "What is the standard tool used to measure changes in a Chemical Effects of Electric Current experiment? (Q10)",
+        "hi": "What is the standard tool used to measure changes in a Chemical Effects of Electric Current experiment? (Q10)",
+        "kn": "What is the standard tool used to measure changes in a Chemical Effects of Electric Current experiment? (Q10)"
+      },
+      "options": {
+        "en": [
+          "Calibrated sensor or thermometer",
+          "Barometer",
+          "Microscope",
+          "Stethoscope"
+        ],
+        "hi": [
+          "Calibrated sensor or thermometer",
+          "Barometer",
+          "Microscope",
+          "Stethoscope"
+        ],
+        "kn": [
+          "Calibrated sensor or thermometer",
+          "Barometer",
+          "Microscope",
+          "Stethoscope"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
+        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
+        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
+      },
+      "diagram_ref": null
+    }
+  ]
+}

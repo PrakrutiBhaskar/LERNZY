@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import { View, StyleSheet, ScrollView, Pressable, ActivityIndicator } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { useRouter } from 'expo-router';
+import { useRouter, useFocusEffect } from 'expo-router';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { useTheme } from '@/theme/theme';
 import { AppText } from '../../components/AppText';
@@ -13,7 +13,8 @@ import { AchievementBadge } from '../../components/AchievementBadge';
 import { SectionHeader } from '../../components/SectionHeader';
 import { STORAGE_KEYS } from '@/utils/constants';
 import { getObject, removeItem } from '@/utils/storage';
-import { apiFetch } from '@/services/api';
+import { getDb, isLocalDatabaseAvailable } from '@/db/database';
+import { TOPICS_BY_SUBJECT } from '@/content/learningContent';
 
 import { SkeletonLoader } from '../../components/SkeletonLoader';
 import { CompanionBar } from '../../components/CompanionBar';
@@ -28,7 +29,7 @@ interface SubjectItem {
   iconName: string;
 }
 
-const SUBJECTS_DATA: SubjectItem[] = [
+const SUBJECTS_DATA: Omit<SubjectItem, 'topicCount' | 'progressPercent'>[] = [
   {
     id: 'math',
     name: 'Mathematics',
@@ -38,8 +39,6 @@ const SUBJECTS_DATA: SubjectItem[] = [
       hi: 'संख्याएँ, भिन्न, बीजगणित, और आकार।',
       kn: 'ಸಂಖ್ಯೆಗಳು, ಭಿನ್ನರಾಶಿಗಳು, ಬೀಜಗಣಿತ ಮತ್ತು ಆಕಾರಗಳು.',
     },
-    topicCount: 4,
-    progressPercent: 40,
     iconName: 'Calculator',
   },
   {
@@ -51,8 +50,6 @@ const SUBJECTS_DATA: SubjectItem[] = [
       hi: 'पदार्थ, बल, ऊर्जा, पौधे, और जानवर।',
       kn: 'ದ್ರವ್ಯ, ಬಲ, ಶಕ್ತಿ, ಸಸ್ಯಗಳು ಮತ್ತು ಪ್ರಾಣಿಗಳು.',
     },
-    topicCount: 3,
-    progressPercent: 20,
     iconName: 'FlaskConical',
   },
   {
@@ -64,8 +61,6 @@ const SUBJECTS_DATA: SubjectItem[] = [
       hi: 'हमारा इतिहास, पृथ्वी का भूगोल, और सामुदायिक जीवन।',
       kn: 'ನಮ್ಮ ಇತಿಹಾಸ, ಭೂಗೋಳ ಮತ್ತು ಸಾಮುದಾಯಿಕ ಜೀವನ.',
     },
-    topicCount: 2,
-    progressPercent: 0,
     iconName: 'Globe',
   },
   {
@@ -77,8 +72,6 @@ const SUBJECTS_DATA: SubjectItem[] = [
       hi: 'व्याकरण, पढ़ने की समझ, और रचनात्मक लेखन।',
       kn: 'ವ್ಯಾಕರಣ, ಓದುವ ಗ್ರಹಿಕೆ ಮತ್ತು ಸೃಜನಶೀಲ ಬರವಣಿಗೆ.',
     },
-    topicCount: 3,
-    progressPercent: 65,
     iconName: 'BookOpen',
   },
   {
@@ -90,8 +83,6 @@ const SUBJECTS_DATA: SubjectItem[] = [
       hi: 'कन्नड़ साहित्य, व्याकरण, और वाक्य संरचनाएँ।',
       kn: 'ಕನ್ನಡ ಸಾಹಿತ್ಯ, ವ್ಯಾಕರಣ ಮತ್ತು ವಾಕ್ಯ ರಚನೆಗಳು.',
     },
-    topicCount: 2,
-    progressPercent: 50,
     iconName: 'Languages',
   },
   {
@@ -103,8 +94,6 @@ const SUBJECTS_DATA: SubjectItem[] = [
       hi: 'Logic, algorithms, apps, and beginner programming.',
       kn: 'Logic, algorithms, apps, and beginner programming.',
     },
-    topicCount: 4,
-    progressPercent: 0,
     iconName: 'Code2',
   },
 ];
@@ -115,125 +104,140 @@ const BADGES_DATA = [
   { emoji: '🎒', name: 'Dedicated Learner', description: 'Study for 5 consecutive days.', unlocked: false },
 ];
 
-function mapCurriculumToSubjects(nodes: any[]): SubjectItem[] {
-  const concepts = nodes.filter(n => n.nodeType === 'concept');
-  return concepts.map(concept => {
-    const name = concept.name;
-    let nameKey: any = 'subjectMath';
-    let iconName = 'BookOpen';
-    
-    if (name.toLowerCase().includes('math')) {
-      nameKey = 'subjectMath';
-      iconName = 'Calculator';
-    } else if (name.toLowerCase().includes('science')) {
-      nameKey = 'subjectScience';
-      iconName = 'FlaskConical';
-    } else if (name.toLowerCase().includes('social')) {
-      nameKey = 'subjectSocial';
-      iconName = 'Globe';
-    } else if (name.toLowerCase().includes('english')) {
-      nameKey = 'subjectEnglish';
-      iconName = 'BookOpen';
-    } else if (name.toLowerCase().includes('kannada')) {
-      nameKey = 'subjectKannada';
-      iconName = 'Languages';
-    } else if (
-      name.toLowerCase().includes('coding') ||
-      name.toLowerCase().includes('code') ||
-      name.toLowerCase().includes('program')
-    ) {
-      nameKey = 'subjectCoding';
-      iconName = 'Code2';
+function filterTopicsByGrade(topics: any[], grade: number) {
+  return topics.filter(topic => {
+    const id = topic.id.toLowerCase();
+    if (id.includes('grade6') || id.includes('grade7') || id.includes('grade8')) {
+      return id.includes(`grade${grade}`);
     }
-    
-    // Count child topics
-    const childTopics = nodes.filter(n => 
-      n.nodeType === 'topic' && 
-      (n.parent === concept._id || (n.parent && n.parent._id === concept._id))
-    );
-    
-    const description = concept.metadata?.description || {
-      en: `Learn about ${name} and master key skills.`,
-      hi: `${name} के बारे में जानें और कौशल हासिल करें।`,
-      kn: `${name} ಬಗ್ಗೆ ತಿಳಿಯಿರಿ ಮತ್ತು ಕೌಶಲ್ಯಗಳನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ.`
-    };
-    
-    return {
-      id: concept._id,
-      name,
-      nameKey,
-      desc: typeof description === 'string' ? { en: description, hi: description, kn: description } : description,
-      topicCount: childTopics.length || 1,
-      progressPercent: 0,
-      iconName
-    };
+    return true;
   });
-}
-
-function mergeWithDefaultSubjects(dynamicSubjects: SubjectItem[]): SubjectItem[] {
-  const knownSubjects = new Set(
-    dynamicSubjects.flatMap((subject) => [
-      subject.id.toLowerCase(),
-      subject.name.toLowerCase().replace(/[^a-z]/g, ''),
-    ])
-  );
-  const missingDefaults = SUBJECTS_DATA.filter((subject) => {
-    const normalizedName = subject.name.toLowerCase().replace(/[^a-z]/g, '');
-    return !knownSubjects.has(subject.id.toLowerCase()) && !knownSubjects.has(normalizedName);
-  });
-
-  return [...dynamicSubjects, ...missingDefaults];
 }
 
 export default function Home(): React.JSX.Element {
   const router = useRouter();
   const { language, t } = useLanguage();
   const { colors, spacing } = useTheme();
-  
-  const [profile, setProfile] = useState<{ name: string } | null>(null);
+
+  const [profile, setProfile] = useState<{ name: string; grade?: number } | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
-  const [resumeData, setResumeData] = useState<{ subject: string; topic: string; progress: number } | null>(null);
-  const [subjects, setSubjects] = useState<SubjectItem[]>(SUBJECTS_DATA);
+  const [resumeData, setResumeData] = useState<{ subject: string; topic: string; progress: number; topicId: string } | null>(null);
+  const [subjects, setSubjects] = useState<SubjectItem[]>([]);
 
-  useEffect(() => {
-    async function loadDashboard() {
-      try {
-        setIsLoading(true);
-        // Load profile info
-        const savedProfile = await getObject<{ name: string }>(STORAGE_KEYS.STUDENT_PROFILE);
-        setProfile(savedProfile);
-        
-        // Load simulated recent activity
-        setResumeData({
-          subject: 'Mathematics',
-          topic: 'Fractions & Decimals',
-          progress: 35
-        });
+  useFocusEffect(
+    useCallback(() => {
+      let active = true;
 
-        // Load dynamic subjects
+      async function loadDashboard() {
         try {
-          const response = await apiFetch('/api/v1/curriculum');
-          if (response.ok) {
-            const res = await response.json();
-            if (res && res.success && Array.isArray(res.data) && res.data.length > 0) {
-              const mapped = mapCurriculumToSubjects(res.data);
-              if (mapped.length > 0) {
-                setSubjects(mergeWithDefaultSubjects(mapped));
-                console.log('[Home Integration] Loaded dynamic concepts from backend:', mapped.map(s => s.name));
+          if (!active) return;
+          setIsLoading(true);
+          const savedProfile = await getObject<any>(STORAGE_KEYS.STUDENT_PROFILE);
+          setProfile(savedProfile);
+
+          const grade = savedProfile?.grade ? Number(savedProfile.grade) : 6;
+
+          let studentId: number | null = null;
+          let completedTopicIds = new Set<string>();
+
+          if (isLocalDatabaseAvailable()) {
+            try {
+              const db = getDb();
+              const student = await db.getFirstAsync<{ id: number }>('SELECT id FROM students LIMIT 1');
+              if (student) {
+                studentId = student.id;
+                const completedRows = await db.getAllAsync<{ topic_id: string }>(
+                  `SELECT DISTINCT topic_id FROM sessions WHERE student_id = ? AND ended_at IS NOT NULL
+                   UNION
+                   SELECT DISTINCT topic_id FROM quiz_results WHERE student_id = ?`,
+                  [student.id, student.id]
+                );
+                completedTopicIds = new Set(completedRows.map(r => r.topic_id));
               }
+            } catch (dbErr) {
+              console.error('Error fetching dashboard progress from SQLite:', dbErr);
             }
           }
-        } catch (apiErr: any) {
-          console.log('[Home Integration] Server offline or database down, using local subjects list:', apiErr.message);
+
+          const filteredSubjects: SubjectItem[] = SUBJECTS_DATA.map(subj => {
+            const allTopics = TOPICS_BY_SUBJECT[subj.id] || [];
+            const gradeTopics = filterTopicsByGrade(allTopics, grade);
+            const completedCount = gradeTopics.filter(t => completedTopicIds.has(t.id)).length;
+            const progressPercent = gradeTopics.length > 0 ? Math.round((completedCount / gradeTopics.length) * 100) : 0;
+
+            return {
+              ...subj,
+              topicCount: gradeTopics.length,
+              progressPercent,
+            };
+          }).filter(subj => subj.topicCount > 0);
+
+          setSubjects(filteredSubjects);
+
+          // Get the single most recent session for continue learning
+          let recentResume = null;
+          if (studentId && isLocalDatabaseAvailable()) {
+            try {
+              const db = getDb();
+              const recent = await db.getFirstAsync<{ subject: string; topic_id: string }>(
+                `SELECT subject, topic_id FROM sessions WHERE student_id = ? ORDER BY started_at DESC LIMIT 1`,
+                [studentId]
+              );
+              if (recent) {
+                const subId = recent.subject;
+                const subName = subId === 'math' ? 'Mathematics' :
+                                subId === 'science' ? 'Science' :
+                                subId === 'social' ? 'Social Studies' :
+                                subId === 'english' ? 'English' :
+                                subId === 'kannada' ? 'Kannada' : 'Coding';
+                
+                const topicsList = TOPICS_BY_SUBJECT[subId] || [];
+                const tItem = topicsList.find(t => t.id === recent.topic_id);
+                const tTitle = tItem ? (tItem.title[language] || tItem.title.en) : recent.topic_id;
+
+                const isLessonDone = await db.getFirstAsync(
+                  `SELECT id FROM sessions WHERE student_id = ? AND topic_id = ? AND mode = 'lesson' AND ended_at IS NOT NULL`,
+                  [studentId, recent.topic_id]
+                );
+                const isQuizDone = await db.getFirstAsync(
+                  `SELECT id FROM quiz_results WHERE student_id = ? AND topic_id = ?`,
+                  [studentId, recent.topic_id]
+                );
+
+                let progress = 0;
+                if (isLessonDone) progress += 50;
+                if (isQuizDone) progress += 50;
+
+                recentResume = {
+                  subject: subName,
+                  topic: tTitle,
+                  progress,
+                  topicId: recent.topic_id
+                };
+              }
+            } catch (dbErr) {
+              console.error('Error fetching resume session from SQLite:', dbErr);
+            }
+          }
+
+          setResumeData(recentResume);
+
+        } catch (err) {
+          console.error(err);
+        } finally {
+          if (active) {
+            setIsLoading(false);
+          }
         }
-      } catch (err) {
-        console.error(err);
-      } finally {
-        setIsLoading(false);
       }
-    }
-    loadDashboard();
-  }, []);
+
+      loadDashboard();
+
+      return () => {
+        active = false;
+      };
+    }, [language])
+  );
 
   const handleReset = async () => {
     await removeItem(STORAGE_KEYS.ONBOARDING_DONE);
@@ -249,7 +253,6 @@ export default function Home(): React.JSX.Element {
     return (
       <SafeAreaView style={[styles.safeArea, { backgroundColor: colors.bg }]}>
         <View style={[styles.scrollContent, { paddingHorizontal: spacing.space5, paddingVertical: spacing.space6, gap: 16 }]}>
-          {/* Header row skeleton */}
           <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
             <View style={{ gap: 8, flex: 1 }}>
               <SkeletonLoader variant="rect" width="55%" height={26} />
@@ -261,21 +264,17 @@ export default function Home(): React.JSX.Element {
             </View>
           </View>
 
-          {/* Tutor bubble skeleton */}
           <View style={{ flexDirection: 'row', gap: 10, marginTop: 10 }}>
             <SkeletonLoader variant="circle" width={44} height={44} />
             <SkeletonLoader variant="rect" width="82%" height={60} style={{ borderRadius: 12 }} />
           </View>
 
-          {/* Continue Card skeleton */}
           <View style={{ marginTop: 10 }}>
             <SkeletonLoader variant="rect" width="100%" height={100} style={{ borderRadius: 16 }} />
           </View>
 
-          {/* Subjects title skeleton */}
           <SkeletonLoader variant="rect" width="40%" height={22} style={{ marginTop: 10 }} />
 
-          {/* Subject card skeletons */}
           <View style={{ gap: 14 }}>
             <SkeletonLoader variant="card" width="100%" />
             <SkeletonLoader variant="card" width="100%" />
@@ -293,7 +292,6 @@ export default function Home(): React.JSX.Element {
           { paddingHorizontal: spacing.space5, paddingVertical: spacing.space6 },
         ]}
       >
-        {/* Header greeting and fast access buttons */}
         <View style={styles.headerContainer}>
           <View style={styles.headerText}>
             <AppText variant="display" color={colors.primary} style={styles.greeting}>
@@ -333,7 +331,6 @@ export default function Home(): React.JSX.Element {
           </View>
         </View>
 
-        {/* Conversational speech bubble */}
         <View style={styles.tutorContainer}>
           <View style={[styles.avatarCircle, { backgroundColor: colors.primarySubtle }]}>
             <AppText variant="heading1" color={colors.primary}>V</AppText>
@@ -348,7 +345,6 @@ export default function Home(): React.JSX.Element {
           />
         </View>
 
-        {/* Continue learning block */}
         <SectionHeader title={language === 'en' ? 'Continue Learning' : language === 'hi' ? 'पढ़ना जारी रखें' : 'ಕಲಿಕೆಯನ್ನು ಮುಂದುವರಿಸಿ'} />
         {resumeData ? (
           <View style={styles.sectionContainer}>
@@ -358,7 +354,7 @@ export default function Home(): React.JSX.Element {
               progressPercent={resumeData.progress}
               onResume={() => router.push({
                 pathname: '/(home)/lesson/[topicId]',
-                params: { topicId: 'fractions' }
+                params: { topicId: resumeData.topicId }
               })}
             />
           </View>
@@ -375,7 +371,6 @@ export default function Home(): React.JSX.Element {
           </View>
         )}
 
-        {/* Subject cards listing */}
         <SectionHeader title={language === 'en' ? 'Your Subjects' : language === 'hi' ? 'आपके विषय' : 'ನಿಮ್ಮ ವಿಷಯಗಳು'} />
         <View style={styles.subjectsList}>
           {subjects.map((sub) => {
@@ -398,7 +393,6 @@ export default function Home(): React.JSX.Element {
           })}
         </View>
 
-        {/* Achievement badges listing */}
         <SectionHeader
           title={language === 'en' ? 'Milestones & Badges' : language === 'hi' ? 'मील के पत्थर और बैज' : 'ಮೈಲಿಗಲ್ಲುಗಳು & ಬ್ಯಾಡ್ಜ್‌ಗಳು'}
           actionText={language === 'en' ? 'See All' : language === 'hi' ? 'सभी देखें' : 'ಎಲ್ಲಾ ನೋಡಿ'}
@@ -417,7 +411,6 @@ export default function Home(): React.JSX.Element {
           ))}
         </View>
 
-        {/* Debug resetting widget */}
         <Button
           variant="ghost"
           title={language === 'en' ? 'Restart Lernzy Onboarding' : language === 'hi' ? 'लर्नज़ी ऑनबोर्डिंग पुनः प्रारंभ करें' : 'ಲರ್ನ್ಜಿ ಆನ್ಬೋರ್ಡಿಂಗ್ ಮರುಪ್ರಾರಂಭಿಸಿ'}

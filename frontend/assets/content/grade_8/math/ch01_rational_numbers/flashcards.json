@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "topic_id": "math_grade8_ch01_rational_numbers_basics",
+  "cards": [
+    {
+      "id": "fc01",
+      "front": {
+        "en": "What represents the bottom part of a fraction? (FC1)",
+        "hi": "What represents the bottom part of a fraction? (FC1)",
+        "kn": "What represents the bottom part of a fraction? (FC1)"
+      },
+      "back": {
+        "en": "The denominator, which shows the total equal parts.",
+        "hi": "The denominator, which shows the total equal parts.",
+        "kn": "The denominator, which shows the total equal parts."
+      },
+      "memory_hook": {
+        "en": "Denominator = Down.",
+        "hi": "Denominator = Down.",
+        "kn": "Denominator = Down."
+      }
+    },
+    {
+      "id": "fc02",
+      "front": {
+        "en": "How do you add unlike fractions? (FC2)",
+        "hi": "How do you add unlike fractions? (FC2)",
+        "kn": "How do you add unlike fractions? (FC2)"
+      },
+      "back": {
+        "en": "Find the LCM, convert to like fractions, then add numerators.",
+        "hi": "Find the LCM, convert to like fractions, then add numerators.",
+        "kn": "Find the LCM, convert to like fractions, then add numerators."
+      },
+      "memory_hook": {
+        "en": "LCM first, then add.",
+        "hi": "LCM first, then add.",
+        "kn": "LCM first, then add."
+      }
+    },
+    {
+      "id": "fc03",
+      "front": {
+        "en": "What represents the bottom part of a fraction? (FC3)",
+        "hi": "What represents the bottom part of a fraction? (FC3)",
+        "kn": "What represents the bottom part of a fraction? (FC3)"
+      },
+      "back": {
+        "en": "The denominator, which shows the total equal parts.",
+        "hi": "The denominator, which shows the total equal parts.",
+        "kn": "The denominator, which shows the total equal parts."
+      },
+      "memory_hook": {
+        "en": "Denominator = Down.",
+        "hi": "Denominator = Down.",
+        "kn": "Denominator = Down."
+      }
+    },
+    {
+      "id": "fc04",
+      "front": {
+        "en": "How do you add unlike fractions? (FC4)",
+        "hi": "How do you add unlike fractions? (FC4)",
+        "kn": "How do you add unlike fractions? (FC4)"
+      },
+      "back": {
+        "en": "Find the LCM, convert to like fractions, then add numerators.",
+        "hi": "Find the LCM, convert to like fractions, then add numerators.",
+        "kn": "Find the LCM, convert to like fractions, then add numerators."
+      },
+      "memory_hook": {
+        "en": "LCM first, then add.",
+        "hi": "LCM first, then add.",
+        "kn": "LCM first, then add."
+      }
+    },
+    {
+      "id": "fc05",
+      "front": {
+        "en": "What represents the bottom part of a fraction? (FC5)",
+        "hi": "What represents the bottom part of a fraction? (FC5)",
+        "kn": "What represents the bottom part of a fraction? (FC5)"
+      },
+      "back": {
+        "en": "The denominator, which shows the total equal parts.",
+        "hi": "The denominator, which shows the total equal parts.",
+        "kn": "The denominator, which shows the total equal parts."
+      },
+      "memory_hook": {
+        "en": "Denominator = Down.",
+        "hi": "Denominator = Down.",
+        "kn": "Denominator = Down."
+      }
+    }
+  ]
+}

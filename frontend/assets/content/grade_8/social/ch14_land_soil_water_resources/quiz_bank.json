@@ -1,0 +1,366 @@
+{
+  "version": "1.0",
+  "topic_id": "social_grade8_ch14_land_soil_water_resources_basics",
+  "questions": [
+    {
+      "id": "q01",
+      "difficulty": "easy",
+      "question": {
+        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Land, Soil, Water, Natural Vegetation and Wildlife Resources? (Q1)",
+        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Land, Soil, Water, Natural Vegetation and Wildlife Resources? (Q1)",
+        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Land, Soil, Water, Natural Vegetation and Wildlife Resources? (Q1)"
+      },
+      "options": {
+        "en": [
+          "Socio-economic developments",
+          "Planetary orbits",
+          "Algebraic factors",
+          "Chemical structures"
+        ],
+        "hi": [
+          "Socio-economic developments",
+          "Planetary orbits",
+          "Algebraic factors",
+          "Chemical structures"
+        ],
+        "kn": [
+          "Socio-economic developments",
+          "Planetary orbits",
+          "Algebraic factors",
+          "Chemical structures"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
+        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
+        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q02",
+      "difficulty": "easy",
+      "question": {
+        "en": "Who or what body regulates the civic issues related to Land, Soil, Water, Natural Vegetation and Wildlife Resources in a community? (Q2)",
+        "hi": "Who or what body regulates the civic issues related to Land, Soil, Water, Natural Vegetation and Wildlife Resources in a community? (Q2)",
+        "kn": "Who or what body regulates the civic issues related to Land, Soil, Water, Natural Vegetation and Wildlife Resources in a community? (Q2)"
+      },
+      "options": {
+        "en": [
+          "Local government and administration",
+          "Sports federation",
+          "Science research institute",
+          "Private bank"
+        ],
+        "hi": [
+          "Local government and administration",
+          "Sports federation",
+          "Science research institute",
+          "Private bank"
+        ],
+        "kn": [
+          "Local government and administration",
+          "Sports federation",
+          "Science research institute",
+          "Private bank"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Civics deals with governance, public facilities, and societal regulations.",
+        "hi": "Civics deals with governance, public facilities, and societal regulations.",
+        "kn": "Civics deals with governance, public facilities, and societal regulations."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q03",
+      "difficulty": "easy",
+      "question": {
+        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Land, Soil, Water, Natural Vegetation and Wildlife Resources? (Q3)",
+        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Land, Soil, Water, Natural Vegetation and Wildlife Resources? (Q3)",
+        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Land, Soil, Water, Natural Vegetation and Wildlife Resources? (Q3)"
+      },
+      "options": {
+        "en": [
+          "Socio-economic developments",
+          "Planetary orbits",
+          "Algebraic factors",
+          "Chemical structures"
+        ],
+        "hi": [
+          "Socio-economic developments",
+          "Planetary orbits",
+          "Algebraic factors",
+          "Chemical structures"
+        ],
+        "kn": [
+          "Socio-economic developments",
+          "Planetary orbits",
+          "Algebraic factors",
+          "Chemical structures"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
+        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
+        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q04",
+      "difficulty": "medium",
+      "question": {
+        "en": "Who or what body regulates the civic issues related to Land, Soil, Water, Natural Vegetation and Wildlife Resources in a community? (Q4)",
+        "hi": "Who or what body regulates the civic issues related to Land, Soil, Water, Natural Vegetation and Wildlife Resources in a community? (Q4)",
+        "kn": "Who or what body regulates the civic issues related to Land, Soil, Water, Natural Vegetation and Wildlife Resources in a community? (Q4)"
+      },
+      "options": {
+        "en": [
+          "Local government and administration",
+          "Sports federation",
+          "Science research institute",
+          "Private bank"
+        ],
+        "hi": [
+          "Local government and administration",
+          "Sports federation",
+          "Science research institute",
+          "Private bank"
+        ],
+        "kn": [
+          "Local government and administration",
+          "Sports federation",
+          "Science research institute",
+          "Private bank"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Civics deals with governance, public facilities, and societal regulations.",
+        "hi": "Civics deals with governance, public facilities, and societal regulations.",
+        "kn": "Civics deals with governance, public facilities, and societal regulations."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q05",
+      "difficulty": "medium",
+      "question": {
+        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Land, Soil, Water, Natural Vegetation and Wildlife Resources? (Q5)",
+        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Land, Soil, Water, Natural Vegetation and Wildlife Resources? (Q5)",
+        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Land, Soil, Water, Natural Vegetation and Wildlife Resources? (Q5)"
+      },
+      "options": {
+        "en": [
+          "Socio-economic developments",
+          "Planetary orbits",
+          "Algebraic factors",
+          "Chemical structures"
+        ],
+        "hi": [
+          "Socio-economic developments",
+          "Planetary orbits",
+          "Algebraic factors",
+          "Chemical structures"
+        ],
+        "kn": [
+          "Socio-economic developments",
+          "Planetary orbits",
+          "Algebraic factors",
+          "Chemical structures"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
+        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
+        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q06",
+      "difficulty": "medium",
+      "question": {
+        "en": "Who or what body regulates the civic issues related to Land, Soil, Water, Natural Vegetation and Wildlife Resources in a community? (Q6)",
+        "hi": "Who or what body regulates the civic issues related to Land, Soil, Water, Natural Vegetation and Wildlife Resources in a community? (Q6)",
+        "kn": "Who or what body regulates the civic issues related to Land, Soil, Water, Natural Vegetation and Wildlife Resources in a community? (Q6)"
+      },
+      "options": {
+        "en": [
+          "Local government and administration",
+          "Sports federation",
+          "Science research institute",
+          "Private bank"
+        ],
+        "hi": [
+          "Local government and administration",
+          "Sports federation",
+          "Science research institute",
+          "Private bank"
+        ],
+        "kn": [
+          "Local government and administration",
+          "Sports federation",
+          "Science research institute",
+          "Private bank"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Civics deals with governance, public facilities, and societal regulations.",
+        "hi": "Civics deals with governance, public facilities, and societal regulations.",
+        "kn": "Civics deals with governance, public facilities, and societal regulations."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q07",
+      "difficulty": "medium",
+      "question": {
+        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Land, Soil, Water, Natural Vegetation and Wildlife Resources? (Q7)",
+        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Land, Soil, Water, Natural Vegetation and Wildlife Resources? (Q7)",
+        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Land, Soil, Water, Natural Vegetation and Wildlife Resources? (Q7)"
+      },
+      "options": {
+        "en": [
+          "Socio-economic developments",
+          "Planetary orbits",
+          "Algebraic factors",
+          "Chemical structures"
+        ],
+        "hi": [
+          "Socio-economic developments",
+          "Planetary orbits",
+          "Algebraic factors",
+          "Chemical structures"
+        ],
+        "kn": [
+          "Socio-economic developments",
+          "Planetary orbits",
+          "Algebraic factors",
+          "Chemical structures"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
+        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
+        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q08",
+      "difficulty": "hard",
+      "question": {
+        "en": "Who or what body regulates the civic issues related to Land, Soil, Water, Natural Vegetation and Wildlife Resources in a community? (Q8)",
+        "hi": "Who or what body regulates the civic issues related to Land, Soil, Water, Natural Vegetation and Wildlife Resources in a community? (Q8)",
+        "kn": "Who or what body regulates the civic issues related to Land, Soil, Water, Natural Vegetation and Wildlife Resources in a community? (Q8)"
+      },
+      "options": {
+        "en": [
+          "Local government and administration",
+          "Sports federation",
+          "Science research institute",
+          "Private bank"
+        ],
+        "hi": [
+          "Local government and administration",
+          "Sports federation",
+          "Science research institute",
+          "Private bank"
+        ],
+        "kn": [
+          "Local government and administration",
+          "Sports federation",
+          "Science research institute",
+          "Private bank"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Civics deals with governance, public facilities, and societal regulations.",
+        "hi": "Civics deals with governance, public facilities, and societal regulations.",
+        "kn": "Civics deals with governance, public facilities, and societal regulations."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q09",
+      "difficulty": "hard",
+      "question": {
+        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Land, Soil, Water, Natural Vegetation and Wildlife Resources? (Q9)",
+        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Land, Soil, Water, Natural Vegetation and Wildlife Resources? (Q9)",
+        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Land, Soil, Water, Natural Vegetation and Wildlife Resources? (Q9)"
+      },
+      "options": {
+        "en": [
+          "Socio-economic developments",
+          "Planetary orbits",
+          "Algebraic factors",
+          "Chemical structures"
+        ],
+        "hi": [
+          "Socio-economic developments",
+          "Planetary orbits",
+          "Algebraic factors",
+          "Chemical structures"
+        ],
+        "kn": [
+          "Socio-economic developments",
+          "Planetary orbits",
+          "Algebraic factors",
+          "Chemical structures"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
+        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
+        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "q010",
+      "difficulty": "hard",
+      "question": {
+        "en": "Who or what body regulates the civic issues related to Land, Soil, Water, Natural Vegetation and Wildlife Resources in a community? (Q10)",
+        "hi": "Who or what body regulates the civic issues related to Land, Soil, Water, Natural Vegetation and Wildlife Resources in a community? (Q10)",
+        "kn": "Who or what body regulates the civic issues related to Land, Soil, Water, Natural Vegetation and Wildlife Resources in a community? (Q10)"
+      },
+      "options": {
+        "en": [
+          "Local government and administration",
+          "Sports federation",
+          "Science research institute",
+          "Private bank"
+        ],
+        "hi": [
+          "Local government and administration",
+          "Sports federation",
+          "Science research institute",
+          "Private bank"
+        ],
+        "kn": [
+          "Local government and administration",
+          "Sports federation",
+          "Science research institute",
+          "Private bank"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Civics deals with governance, public facilities, and societal regulations.",
+        "hi": "Civics deals with governance, public facilities, and societal regulations.",
+        "kn": "Civics deals with governance, public facilities, and societal regulations."
+      },
+      "diagram_ref": null
+    }
+  ]
+}

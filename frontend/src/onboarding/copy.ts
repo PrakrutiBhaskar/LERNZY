@@ -38,6 +38,10 @@ export const onboardingCopy = {
     learningTitle: 'How Do You Learn Best?',
     learningSubtitle: 'Choose one style. You can change this later.',
     learningStyles: {
+      visual: { title: 'Visual Learner', subtitle: 'More diagrams, images, and visual guides.' },
+      story: { title: 'Story-based Learning', subtitle: 'Learn through engaging tales and narratives.' },
+      exam: { title: 'Exam-focused', subtitle: 'Concise key points and practice-heavy flow.' },
+      interactive: { title: 'Interactive Learning', subtitle: 'More quizzes, games, and checkpoints.' },
       reading: { title: 'Read and Understand', subtitle: 'Clear notes, stories, and diagrams.' },
       audio: { title: 'Listen and Learn', subtitle: 'Audio-friendly lessons and explanations.' },
       quiz: { title: 'Practice and Play', subtitle: 'Quizzes, cards, and quick challenges.' },
@@ -89,6 +93,10 @@ export const onboardingCopy = {
     learningTitle: 'आप सबसे अच्छा कैसे सीखते हैं?',
     learningSubtitle: 'एक तरीका चुनें। आप इसे बाद में बदल सकते हैं।',
     learningStyles: {
+      visual: { title: 'दृश्य माध्यम (Visual)', subtitle: 'अधिक आरेख, चित्र और दृश्य मार्गदर्शिकाएँ।' },
+      story: { title: 'कहानी आधारित (Story)', subtitle: 'आकर्षक कहानियों और कथाओं के माध्यम से सीखें।' },
+      exam: { title: 'परीक्षा केंद्रित (Exam)', subtitle: 'संक्षिप्त मुख्य बिंदु और अभ्यास-भारी प्रवाह।' },
+      interactive: { title: 'इंटरैक्टिव (Interactive)', subtitle: 'अधिक क्विज़, खेल और चेकपॉइंट।' },
       reading: { title: 'पढ़कर समझना', subtitle: 'स्पष्ट नोट्स, कहानियां और चित्र।' },
       audio: { title: 'सुनकर सीखना', subtitle: 'ऑडियो के लिए आसान पाठ और समझाइश।' },
       quiz: { title: 'अभ्यास और खेल', subtitle: 'क्विज, कार्ड और छोटे चैलेंज।' },
@@ -140,6 +148,10 @@ export const onboardingCopy = {
     learningTitle: 'ನೀವು ಹೇಗೆ ಚೆನ್ನಾಗಿ ಕಲಿಯುತ್ತೀರಿ?',
     learningSubtitle: 'ಒಂದು ಶೈಲಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಇದನ್ನು ನಂತರ ಬದಲಾಯಿಸಬಹುದು.',
     learningStyles: {
+      visual: { title: 'ದೃಶ್ಯ ಕಲಿಕೆ (Visual)', subtitle: 'ಹೆಚ್ಚಿನ ರೇಖಾಚಿತ್ರಗಳು, ಚಿತ್ರಗಳು ಮತ್ತು ದೃಶ್ಯ ಮಾರ್ಗದರ್ಶಿಗಳು.' },
+      story: { title: 'ಕಥೆ ಆಧಾರಿತ ಕಲಿಕೆ (Story)', subtitle: 'ಆಕರ್ಷಕ ಕಥೆಗಳು ಮತ್ತು ನಿರೂಪಣೆಗಳ ಮೂಲಕ ಕಲಿಯಿರಿ.' },
+      exam: { title: 'ಪರೀಕ್ಷಾ ಕೇಂದ್ರಿತ (Exam)', subtitle: 'ಸಂಕ್ಷಿಪ್ತ ಪ್ರಮುಖ ಅಂಶಗಳು ಮತ್ತು ತಾಲೀಮು.' },
+      interactive: { title: 'ಸಂವಾದಾತ್ಮಕ ಕಲಿಕೆ (Interactive)', subtitle: 'ಹೆಚ್ಚಿನ ರಸಪ್ರಶ್ನೆಗಳು ಮತ್ತು ಆಟಗಳು.' },
       reading: { title: 'ಓದಿ ಅರ್ಥಮಾಡಿಕೊಳ್ಳಿ', subtitle: 'ಸ್ಪಷ್ಟ ಟಿಪ್ಪಣಿಗಳು, ಕಥೆಗಳು ಮತ್ತು ಚಿತ್ರಗಳು.' },
       audio: { title: 'ಕೇಳಿ ಕಲಿಯಿರಿ', subtitle: 'ಆಡಿಯೋಗೆ ಅನುಕೂಲವಾದ ಪಾಠಗಳು ಮತ್ತು ವಿವರಣೆಗಳು.' },
       quiz: { title: 'ಅಭ್ಯಾಸ ಮತ್ತು ಆಟ', subtitle: 'ಕ್ವಿಜ್‌ಗಳು, ಕಾರ್ಡ್‌ಗಳು ಮತ್ತು ಚಿಕ್ಕ ಸವಾಲುಗಳು.' },

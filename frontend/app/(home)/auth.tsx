@@ -77,7 +77,7 @@ export default function AuthScreen(): React.JSX.Element {
           email: email.trim().toLowerCase(),
           password: password,
           preferredLanguage: localProfile?.language || language || 'en',
-          educationLevel: localProfile?.learningStyle === 'stories' ? 'beginner' : 'intermediate',
+          educationLevel: localProfile?.learningStyle === 'story' ? 'beginner' : 'intermediate',
           grade: localProfile?.grade ? parseInt(localProfile.grade, 10) : 6,
           interests: localProfile?.interests || [],
         });

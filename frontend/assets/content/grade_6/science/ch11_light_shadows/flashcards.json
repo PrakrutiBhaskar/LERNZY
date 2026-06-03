@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "topic_id": "science_grade6_ch11_light_shadows_basics",
+  "cards": [
+    {
+      "id": "fc01",
+      "front": {
+        "en": "What is the SI unit of force? (FC1)",
+        "hi": "What is the SI unit of force? (FC1)",
+        "kn": "What is the SI unit of force? (FC1)"
+      },
+      "back": {
+        "en": "The Newton (N).",
+        "hi": "The Newton (N).",
+        "kn": "The Newton (N)."
+      },
+      "memory_hook": {
+        "en": "Newton = Force scale.",
+        "hi": "Newton = Force scale.",
+        "kn": "Newton = Force scale."
+      }
+    },
+    {
+      "id": "fc02",
+      "front": {
+        "en": "What is the formula for pressure? (FC2)",
+        "hi": "What is the formula for pressure? (FC2)",
+        "kn": "What is the formula for pressure? (FC2)"
+      },
+      "back": {
+        "en": "Pressure = Force / Area.",
+        "hi": "Pressure = Force / Area.",
+        "kn": "Pressure = Force / Area."
+      },
+      "memory_hook": {
+        "en": "Force divided by area.",
+        "hi": "Force divided by area.",
+        "kn": "Force divided by area."
+      }
+    },
+    {
+      "id": "fc03",
+      "front": {
+        "en": "What is the SI unit of force? (FC3)",
+        "hi": "What is the SI unit of force? (FC3)",
+        "kn": "What is the SI unit of force? (FC3)"
+      },
+      "back": {
+        "en": "The Newton (N).",
+        "hi": "The Newton (N).",
+        "kn": "The Newton (N)."
+      },
+      "memory_hook": {
+        "en": "Newton = Force scale.",
+        "hi": "Newton = Force scale.",
+        "kn": "Newton = Force scale."
+      }
+    },
+    {
+      "id": "fc04",
+      "front": {
+        "en": "What is the formula for pressure? (FC4)",
+        "hi": "What is the formula for pressure? (FC4)",
+        "kn": "What is the formula for pressure? (FC4)"
+      },
+      "back": {
+        "en": "Pressure = Force / Area.",
+        "hi": "Pressure = Force / Area.",
+        "kn": "Pressure = Force / Area."
+      },
+      "memory_hook": {
+        "en": "Force divided by area.",
+        "hi": "Force divided by area.",
+        "kn": "Force divided by area."
+      }
+    },
+    {
+      "id": "fc05",
+      "front": {
+        "en": "What is the SI unit of force? (FC5)",
+        "hi": "What is the SI unit of force? (FC5)",
+        "kn": "What is the SI unit of force? (FC5)"
+      },
+      "back": {
+        "en": "The Newton (N).",
+        "hi": "The Newton (N).",
+        "kn": "The Newton (N)."
+      },
+      "memory_hook": {
+        "en": "Newton = Force scale.",
+        "hi": "Newton = Force scale.",
+        "kn": "Newton = Force scale."
+      }
+    }
+  ]
+}
