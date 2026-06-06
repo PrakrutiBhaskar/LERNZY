@@ -1,0 +1,84 @@
+{
+  "version": "1.0",
+  "grade": 7,
+  "subject": "coding",
+  "chapter_id": "build-an-app",
+  "chapter_title": {
+    "en": "Build a Mini App",
+    "hi": "Build a Mini App",
+    "kn": "Build a Mini App"
+  },
+  "topics": [
+    {
+      "topic_id": "build-an-app",
+      "title": {
+        "en": "Build a Mini App",
+        "hi": "Build a Mini App",
+        "kn": "Build a Mini App"
+      },
+      "learning_objectives": [
+        "Design screen layouts.",
+        "Wire up button events.",
+        "Build interactive prototypes."
+      ],
+      "estimated_minutes": 10,
+      "base_story_template": {
+        "en": "Welcome {{STUDENT_NAME}}! Let's explore build-an-app together at the {{INTEREST_PLACE}}.",
+        "hi": "भारत आपका स्वागत है {{STUDENT_NAME}}! आइए {{INTEREST_PLACE}} पर एक साथ build-an-app का अन्वेषण करें।",
+        "kn": "ಸ್ವಾಗತ {{STUDENT_NAME}}! {{INTEREST_PLACE}} ನಲ್ಲಿ build-an-app ಅನ್ನು ಒಟ್ಟಿಗೆ ಅನ್ವೇಷಿಸೋಣ."
+      },
+      "concept_explanation": {
+        "en": "Plan screens, buttons, and simple interactions for an app idea.",
+        "hi": "Plan screens, buttons, and simple interactions for an app idea.",
+        "kn": "Plan screens, buttons, and simple interactions for an app idea."
+      },
+      "worked_example": {
+        "problem": "A button changes screen colors.",
+        "steps": {
+          "en": [
+            "Create screen layout.",
+            "Add button listener.",
+            "Change background on press."
+          ],
+          "hi": [
+            "Create screen layout.",
+            "Add button listener.",
+            "Change background on press."
+          ],
+          "kn": [
+            "Create screen layout.",
+            "Add button listener.",
+            "Change background on press."
+          ]
+        },
+        "answer": "Color changed"
+      },
+      "key_points": {
+        "en": [
+          "User flow describes the path.",
+          "Buttons trigger events.",
+          "Keep interfaces simple."
+        ],
+        "hi": [
+          "User flow describes the path.",
+          "Buttons trigger events.",
+          "Keep interfaces simple."
+        ],
+        "kn": [
+          "User flow describes the path.",
+          "Buttons trigger events.",
+          "Keep interfaces simple."
+        ]
+      },
+      "interest_placeholders": {
+        "INTEREST_PLACE": {
+          "default": {
+            "en": "school classroom",
+            "hi": "विद्यालय",
+            "kn": "ಶಾಲೆ"
+          }
+        }
+      }
+    }
+  ]
+}

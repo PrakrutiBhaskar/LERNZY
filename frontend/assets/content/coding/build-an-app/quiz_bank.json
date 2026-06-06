@@ -1,0 +1,76 @@
+{
+  "version": "1.0",
+  "topic_id": "build-an-app",
+  "questions": [
+    {
+      "id": "build-an-app-q1",
+      "question": {
+        "en": "What is user flow?",
+        "hi": "What is user flow?",
+        "kn": "What is user flow?"
+      },
+      "options": {
+        "en": [
+          "Steps a user follows",
+          "Water flow",
+          "Grammar rule",
+          "Color choice"
+        ],
+        "hi": [
+          "Steps a user follows",
+          "Water flow",
+          "Grammar rule",
+          "Color choice"
+        ],
+        "kn": [
+          "Steps a user follows",
+          "Water flow",
+          "Grammar rule",
+          "Color choice"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "User flow is the path through a task.",
+        "hi": "User flow is the path through a task.",
+        "kn": "User flow is the path through a task."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "build-an-app-fq1",
+      "question": {
+        "en": "What is an event?",
+        "hi": "What is an event?",
+        "kn": "What is an event?"
+      },
+      "options": {
+        "en": [
+          "An action like a click that triggers code.",
+          "Option A",
+          "Option B",
+          "Option C"
+        ],
+        "hi": [
+          "An action like a click that triggers code.",
+          "Option A",
+          "Option B",
+          "Option C"
+        ],
+        "kn": [
+          "An action like a click that triggers code.",
+          "Option A",
+          "Option B",
+          "Option C"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "An action like a click that triggers code.",
+        "hi": "An action like a click that triggers code.",
+        "kn": "An action like a click that triggers code."
+      },
+      "diagram_ref": null
+    }
+  ]
+}

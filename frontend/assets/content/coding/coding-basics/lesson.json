@@ -1,0 +1,84 @@
+{
+  "version": "1.0",
+  "grade": 7,
+  "subject": "coding",
+  "chapter_id": "coding-basics",
+  "chapter_title": {
+    "en": "Coding Basics",
+    "hi": "Coding Basics",
+    "kn": "Coding Basics"
+  },
+  "topics": [
+    {
+      "topic_id": "coding-basics",
+      "title": {
+        "en": "Coding Basics",
+        "hi": "Coding Basics",
+        "kn": "Coding Basics"
+      },
+      "learning_objectives": [
+        "Define algorithm.",
+        "Sequence steps correctly.",
+        "Test simple code."
+      ],
+      "estimated_minutes": 10,
+      "base_story_template": {
+        "en": "Welcome {{STUDENT_NAME}}! Let's explore coding-basics together at the {{INTEREST_PLACE}}.",
+        "hi": "भारत आपका स्वागत है {{STUDENT_NAME}}! आइए {{INTEREST_PLACE}} पर एक साथ coding-basics का अन्वेषण करें।",
+        "kn": "ಸ್ವಾಗತ {{STUDENT_NAME}}! {{INTEREST_PLACE}} ನಲ್ಲಿ coding-basics ಅನ್ನು ಒಟ್ಟಿಗೆ ಅನ್ವೇಷಿಸೋಣ."
+      },
+      "concept_explanation": {
+        "en": "Learn commands, sequences, and how programs follow instructions.",
+        "hi": "Learn commands, sequences, and how programs follow instructions.",
+        "kn": "Learn commands, sequences, and how programs follow instructions."
+      },
+      "worked_example": {
+        "problem": "Step-by-step coffee recipe.",
+        "steps": {
+          "en": [
+            "Boil water.",
+            "Add coffee powder.",
+            "Filter and serve."
+          ],
+          "hi": [
+            "Boil water.",
+            "Add coffee powder.",
+            "Filter and serve."
+          ],
+          "kn": [
+            "Boil water.",
+            "Add coffee powder.",
+            "Filter and serve."
+          ]
+        },
+        "answer": "Coffee ready"
+      },
+      "key_points": {
+        "en": [
+          "Sequence matters in coding.",
+          "Every instruction must be exact.",
+          "Test code to find errors."
+        ],
+        "hi": [
+          "Sequence matters in coding.",
+          "Every instruction must be exact.",
+          "Test code to find errors."
+        ],
+        "kn": [
+          "Sequence matters in coding.",
+          "Every instruction must be exact.",
+          "Test code to find errors."
+        ]
+      },
+      "interest_placeholders": {
+        "INTEREST_PLACE": {
+          "default": {
+            "en": "school classroom",
+            "hi": "विद्यालय",
+            "kn": "ಶಾಲೆ"
+          }
+        }
+      }
+    }
+  ]
+}

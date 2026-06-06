@@ -1,96 +1,32 @@
 {
-  "version": "1.0",
-  "topic_id": "english_grade6_ch02_friendly_mongoose_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "English",
+  "textbook": "A Pact with the Sun",
+  "chapter_number": 2,
+  "chapter_title": "The Friendly Mongoose",
+  "total_cards": 20,
   "cards": [
-    {
-      "id": "fc01",
-      "front": {
-        "en": "What is the core idea of The Friendly Mongoose? (FC1)",
-        "hi": "What is the core idea of The Friendly Mongoose? (FC1)",
-        "kn": "What is the core idea of The Friendly Mongoose? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc02",
-      "front": {
-        "en": "Why is The Friendly Mongoose important? (FC2)",
-        "hi": "Why is The Friendly Mongoose important? (FC2)",
-        "kn": "Why is The Friendly Mongoose important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc03",
-      "front": {
-        "en": "What is the core idea of The Friendly Mongoose? (FC3)",
-        "hi": "What is the core idea of The Friendly Mongoose? (FC3)",
-        "kn": "What is the core idea of The Friendly Mongoose? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc04",
-      "front": {
-        "en": "Why is The Friendly Mongoose important? (FC4)",
-        "hi": "Why is The Friendly Mongoose important? (FC4)",
-        "kn": "Why is The Friendly Mongoose important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc05",
-      "front": {
-        "en": "What is the core idea of The Friendly Mongoose? (FC5)",
-        "hi": "What is the core idea of The Friendly Mongoose? (FC5)",
-        "kn": "What is the core idea of The Friendly Mongoose? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    }
+    { "id": "fc01", "type": "Recall", "difficulty": "Easy", "front": "What kind of animal is a mongoose?", "back": "A small, quick, and brave animal known for its ability to fight and kill snakes. It is often kept as a pet in Indian villages.", "memory_hook": "Mongoose = snake fighter. The name sounds fierce because it IS fierce!" },
+    { "id": "fc02", "type": "Recall", "difficulty": "Easy", "front": "Who are the main characters in 'The Friendly Mongoose'?", "back": "The Farmer, the Farmer's Wife, the Baby, the Mongoose (hero), and the Cobra (villain).", "memory_hook": "5 characters: 2 humans + 1 baby + 1 hero mongoose + 1 villain cobra." },
+    { "id": "fc03", "type": "Recall", "difficulty": "Easy", "front": "Why did the farmer's wife leave the baby alone?", "back": "She had to fetch water from the well. She could not take the baby along with the heavy water pot, so she left the baby at home with the mongoose.", "memory_hook": "Water pot too heavy + baby too small = left baby with mongoose." },
+    { "id": "fc04", "type": "Recall", "difficulty": "Easy", "front": "What danger entered the house while the wife was away?", "back": "A cobra — a large, deadly, venomous snake — entered the house and moved toward the baby's cradle.", "memory_hook": "Cobra = deadly threat. Mongoose = protector. Good vs Evil!" },
+    { "id": "fc05", "type": "Concept", "difficulty": "Easy", "front": "What did the mongoose do when the cobra entered?", "back": "The mongoose fought the cobra bravely and killed it, saving the baby's life.", "memory_hook": "Mongoose's job: protect the baby. Mission: accomplished (tragically)." },
+    { "id": "fc06", "type": "Recall", "difficulty": "Easy", "front": "What did the wife see when she returned from the well?", "back": "She saw the mongoose sitting at the doorstep with its mouth covered in blood.", "memory_hook": "Bloody mouth = wrong conclusion for the wife. Correct answer = cobra's blood!" },
+    { "id": "fc07", "type": "Concept", "difficulty": "Easy", "front": "What did the wife assume when she saw blood on the mongoose?", "back": "She assumed — without checking — that the mongoose had killed her baby.", "memory_hook": "Assume = ASS + U + ME. Assuming makes a mess!" },
+    { "id": "fc08", "type": "Recall", "difficulty": "Easy", "front": "What did the wife do when she saw the mongoose's bloody mouth?", "back": "She threw her heavy water pot at the mongoose and killed it instantly.", "memory_hook": "Heavy pot + hasty throw = mongoose dead. One second, irreversible." },
+    { "id": "fc09", "type": "Recall", "difficulty": "Easy", "front": "What did the wife find when she rushed inside?", "back": "She found the baby safe and sound in the cradle, and a dead cobra lying on the floor.", "memory_hook": "Baby = safe. Cobra = dead. Mongoose = hero. Wife = too late." },
+    { "id": "fc10", "type": "Why/How", "difficulty": "Easy", "front": "Why is the mongoose called 'friendly' in the title?", "back": "The mongoose was friendly toward the family — loyal, protective, and selfless. It gave its life saving the very baby it was trusted to protect.", "memory_hook": "Friendly = loyal + protective + selfless. The mongoose had all three." },
+    { "id": "fc11", "type": "Definition", "difficulty": "Easy", "front": "What does the word 'hasty' mean?", "back": "Hasty means acting too quickly without thinking carefully. A hasty action is one done in a hurry, without pausing to consider the facts.", "memory_hook": "Hasty rhymes with 'Pasty' (mess). Hasty decisions = messy consequences." },
+    { "id": "fc12", "type": "Definition", "difficulty": "Easy", "front": "What does 'irreversible' mean? Give an example from the story.", "back": "Irreversible means something that cannot be undone. In the story, the death of the mongoose is irreversible — the wife cannot bring it back to life.", "memory_hook": "Irreversible = no 'undo' button. Once done, done forever." },
+    { "id": "fc13", "type": "Application", "difficulty": "Easy", "front": "What is the moral of 'The Friendly Mongoose'?", "back": "Never act in haste. Always think before you act. Hasty actions lead to irreversible consequences and deep regret.", "memory_hook": "Think → Act. NOT Act → Think. Wrong order = tragedy." },
+    { "id": "fc14", "type": "Why/How", "difficulty": "Easy", "front": "How was the cobra's blood on the mongoose's mouth misunderstood?", "back": "The wife saw blood and jumped to the conclusion that the mongoose had bitten the baby. She did not consider that the blood could be from a fight with another animal.", "memory_hook": "Blood does not always mean a loved one was hurt. Check before you conclude!" },
+    { "id": "fc15", "type": "Concept", "difficulty": "Easy", "front": "What does the mongoose's action teach us about loyalty?", "back": "The mongoose risked its own life to save the baby. It was completely loyal to the family that raised it, even at the cost of its own life.", "memory_hook": "Loyalty = staying true even when it costs you. The mongoose paid the highest price." },
+    { "id": "fc16", "type": "Definition", "difficulty": "Easy", "front": "What is a 'consequence'?", "back": "A consequence is the result or outcome of an action. In the story, the consequence of the wife's hasty action was the death of the innocent, loyal mongoose.", "memory_hook": "Consequence = what comes AFTER. Actions have consequences — always." },
+    { "id": "fc17", "type": "Application", "difficulty": "Easy", "front": "Give a real-life example of a hasty decision and its consequence.", "back": "A student sees their friend copying in an exam and immediately reports them, without realizing the friend was just checking the question paper. The friend is punished unfairly — a hasty action caused injustice.", "memory_hook": "See → Think → Then act. Not See → Act → Think." },
+    { "id": "fc18", "type": "Recall", "difficulty": "Easy", "front": "What similar story exists in the Panchatantra?", "back": "The Panchatantra has a story called 'The Brahmin and the Mongoose' — a Brahmin's mongoose kills a snake to protect the Brahmin's son, but the Brahmin kills the mongoose without checking. The moral is the same.", "memory_hook": "Panchatantra's mongoose story = same lesson, different characters. India's oldest life lessons!" },
+    { "id": "fc19", "type": "Why/How", "difficulty": "Easy", "front": "Why did the wife feel grief after killing the mongoose?", "back": "She felt grief because she realized she had killed an innocent, loyal creature that had saved her baby's life. She could not undo what she had done — the remorse was overwhelming.", "memory_hook": "Grief = deep regret for an irreversible action. The wife's sorrow was permanent." },
+    { "id": "fc20", "type": "Application", "difficulty": "Easy", "front": "What one question could the wife have asked herself before throwing the pot?", "back": "'Let me first check if my baby is safe.' That one thought — that one pause — would have saved the mongoose's life and prevented the tragedy.", "memory_hook": "One pause = one life saved. Always pause before a drastic action." }
   ]
 }

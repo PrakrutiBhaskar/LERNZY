@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "topic_id": "coding-basics",
+  "cards": [
+    {
+      "id": "fc01",
+      "front": {
+        "en": "What is an algorithm?",
+        "hi": "What is an algorithm?",
+        "kn": "What is an algorithm?"
+      },
+      "back": {
+        "en": "A set of step-by-step instructions to solve a problem.",
+        "hi": "A set of step-by-step instructions to solve a problem.",
+        "kn": "A set of step-by-step instructions to solve a problem."
+      },
+      "memory_hook": {
+        "en": "Like a cooking recipe.",
+        "hi": "Like a cooking recipe.",
+        "kn": "Like a cooking recipe."
+      }
+    }
+  ]
+}

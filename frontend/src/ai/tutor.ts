@@ -103,11 +103,10 @@ export async function generateTutorResponse(
       text: result.text || result.content || '',
     };
   } catch (error: any) {
-    throw new InferenceError(
-      `Failed to generate tutor response: ${error.message || error}`,
-      true, // retryable
-      error
-    );
+    console.warn(`Local LLM failed, falling back gracefully: ${error.message || error}`);
+    return {
+      text: `I'm having trouble running my local AI engine right now. Let's study ${context.topic || 'the topic'} using the lesson examples and key points!`,
+    };
   }
 }
 
@@ -170,11 +169,10 @@ export async function streamTutorResponseLocal(
     if (error.name === 'AbortError' || options.abortSignal?.aborted) {
       return;
     }
-    callbacks.onError(
-      error instanceof Error
-        ? error
-        : new InferenceError(`Failed to stream tutor response: ${String(error)}`, true)
-    );
+    console.warn(`Local LLM stream failed, falling back gracefully: ${error.message || error}`);
+    const fallbackText = `I'm having trouble running my local AI engine right now. Let's study ${options.topic || 'the topic'} using the lesson examples and key points!`;
+    callbacks.onToken(fallbackText);
+    callbacks.onDone({ explanation: fallbackText });
   } finally {
     if (options.abortSignal && abortListener) {
       options.abortSignal.removeEventListener('abort', abortListener);

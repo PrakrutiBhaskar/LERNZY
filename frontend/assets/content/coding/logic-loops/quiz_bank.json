@@ -1,0 +1,76 @@
+{
+  "version": "1.0",
+  "topic_id": "logic-loops",
+  "questions": [
+    {
+      "id": "logic-loops-q1",
+      "question": {
+        "en": "What checks a condition?",
+        "hi": "What checks a condition?",
+        "kn": "What checks a condition?"
+      },
+      "options": {
+        "en": [
+          "If statement",
+          "Variable",
+          "Font size",
+          "Margin"
+        ],
+        "hi": [
+          "If statement",
+          "Variable",
+          "Font size",
+          "Margin"
+        ],
+        "kn": [
+          "If statement",
+          "Variable",
+          "Font size",
+          "Margin"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "If statements make decisions based on conditions.",
+        "hi": "If statements make decisions based on conditions.",
+        "kn": "If statements make decisions based on conditions."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "logic-loops-fq1",
+      "question": {
+        "en": "What is a loop?",
+        "hi": "What is a loop?",
+        "kn": "What is a loop?"
+      },
+      "options": {
+        "en": [
+          "An instruction that repeats a block of code.",
+          "Option A",
+          "Option B",
+          "Option C"
+        ],
+        "hi": [
+          "An instruction that repeats a block of code.",
+          "Option A",
+          "Option B",
+          "Option C"
+        ],
+        "kn": [
+          "An instruction that repeats a block of code.",
+          "Option A",
+          "Option B",
+          "Option C"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "An instruction that repeats a block of code.",
+        "hi": "An instruction that repeats a block of code.",
+        "kn": "An instruction that repeats a block of code."
+      },
+      "diagram_ref": null
+    }
+  ]
+}

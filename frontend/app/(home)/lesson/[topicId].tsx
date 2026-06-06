@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter } from 'expo-router';
@@ -23,9 +23,7 @@ import {
   LessonContent,
 } from '@/content/learningContent';
 
-function mergeLessonContent(topicId: string, metadata: Partial<LessonContent>): LessonContent {
-  const fallback = getLessonContent(topicId);
-
+function mergeLessonContent(fallback: LessonContent, metadata: Partial<LessonContent>): LessonContent {
   return {
     ...fallback,
     ...metadata,
@@ -128,15 +126,18 @@ export default function LessonScreen(): React.JSX.Element {
   const topicKey = topicId || 'fractions';
   const subjectKey = getTopicSubject(topicKey);
 
-  const [currentTopic, setCurrentTopic] = useState<LessonContent>(
-    getLessonContent(topicKey)
-  );
+  const [currentTopic, setCurrentTopic] = useState<LessonContent | null>(null);
+
+  const sessionIdRef = useRef<number | null>(null);
+  const isMountedRef = useRef(true);
 
   useEffect(() => {
+    isMountedRef.current = true;
     async function loadLessonProfile() {
       try {
         setIsLoading(true);
-        setCurrentTopic(getLessonContent(topicKey));
+        const localContent = await getLessonContent(topicKey);
+        setCurrentTopic(localContent);
         const savedProfile = await getObject<any>(STORAGE_KEYS.STUDENT_PROFILE);
         if (savedProfile) {
           setProfile(savedProfile);
@@ -153,7 +154,7 @@ export default function LessonScreen(): React.JSX.Element {
             if (res && res.success && Array.isArray(res.data) && res.data.length > 0) {
               const firstLessonNode = res.data[0];
               if (firstLessonNode && firstLessonNode.metadata) {
-                setCurrentTopic(mergeLessonContent(topicKey, firstLessonNode.metadata));
+                setCurrentTopic(mergeLessonContent(localContent, firstLessonNode.metadata));
                 console.log('[Lesson Integration] Successfully loaded lesson node from backend:', firstLessonNode.name);
               }
             }
@@ -171,7 +172,7 @@ export default function LessonScreen(): React.JSX.Element {
   }, [topicKey]);
 
   useEffect(() => {
-    let sessionId: number | null = null;
+    isMountedRef.current = true;
     const startedAt = new Date().toISOString();
     
     async function startSession() {
@@ -189,8 +190,24 @@ export default function LessonScreen(): React.JSX.Element {
            VALUES (?, ?, ?, ?, ?, ?)`,
           [studentId, subjectKey, topicKey, topicKey, 'lesson', startedAt]
         );
-        sessionId = result.lastInsertRowId;
-        console.log(`[Session Sync] Started lesson session: ${sessionId}`);
+        const newSessionId = result.lastInsertRowId;
+        sessionIdRef.current = newSessionId;
+        console.log(`[Session Sync] Started lesson session: ${newSessionId}`);
+        
+        // Delayed end if unmount happened while inserting
+        if (!isMountedRef.current) {
+          const endedAt = new Date().toISOString();
+          const duration = Math.round((new Date(endedAt).getTime() - new Date(startedAt).getTime()) / 1000);
+          await db.runAsync(
+            `UPDATE sessions SET ended_at = ?, duration_seconds = ? WHERE id = ?`,
+            [endedAt, duration, newSessionId]
+          );
+          await queueProgressEvent('lesson_completed', subjectKey, {
+            topicId: topicKey,
+            durationSeconds: duration
+          });
+          console.log(`[Session Sync] Delayed Ended lesson session: ${newSessionId}`);
+        }
       } catch (err) {
         console.error('[Session Sync] Failed to start session:', err);
       }
@@ -198,17 +215,18 @@ export default function LessonScreen(): React.JSX.Element {
     startSession();
 
     return () => {
-      // End session on unmount
+      isMountedRef.current = false;
       const endedAt = new Date().toISOString();
       const duration = Math.round((new Date(endedAt).getTime() - new Date(startedAt).getTime()) / 1000);
+      const currentSessionId = sessionIdRef.current;
       
-      if (sessionId !== null && isLocalDatabaseAvailable()) {
+      if (currentSessionId !== null && isLocalDatabaseAvailable()) {
         async function endSession() {
           try {
             const db = getDb();
             await db.runAsync(
               `UPDATE sessions SET ended_at = ?, duration_seconds = ? WHERE id = ?`,
-              [endedAt, duration, sessionId]
+              [endedAt, duration, currentSessionId]
             );
             
             // Queue the sync event for backend integration (rewards 10 XP on coding)
@@ -226,7 +244,7 @@ export default function LessonScreen(): React.JSX.Element {
     };
   }, [subjectKey, topicKey]);
 
-  if (isLoading) {
+  if (isLoading || !currentTopic) {
     return (
       <SafeAreaView style={[styles.center, { backgroundColor: colors.bg }]}>
         <LoadingDots />
@@ -247,10 +265,28 @@ export default function LessonScreen(): React.JSX.Element {
     .replace('{{STUDENT_NAME}}', profile?.name || 'Friend')
     .replace('{{INTEREST_PLACE}}', interestPlace);
 
-  const titleText = currentTopic.title[language] || currentTopic.title.en;
-  const conceptText = currentTopic.concept_explanation[language] || currentTopic.concept_explanation.en;
-  const stepsList = currentTopic.worked_example.steps[language] || currentTopic.worked_example.steps.en;
-  const keyPointsList = currentTopic.key_points[language] || currentTopic.key_points.en;
+  const titleText = typeof currentTopic.title === 'object' ? (currentTopic.title[language] || currentTopic.title.en) : String(currentTopic.title || '');
+  const conceptText = typeof currentTopic.concept_explanation === 'object' ? (currentTopic.concept_explanation[language] || currentTopic.concept_explanation.en) : String(currentTopic.concept_explanation || '');
+  
+  let stepsList: string[] = [];
+  if (currentTopic.worked_example && currentTopic.worked_example.steps) {
+    const rawSteps = currentTopic.worked_example.steps;
+    if (Array.isArray(rawSteps)) {
+      stepsList = rawSteps.map((s: any) => (s && typeof s === 'object') ? (s[language] || s.en || '') : String(s || ''));
+    } else if (typeof rawSteps === 'object') {
+      stepsList = (rawSteps as any)[language] || (rawSteps as any).en || [];
+    }
+  }
+
+  let keyPointsList: string[] = [];
+  if (currentTopic.key_points) {
+    const rawPoints = currentTopic.key_points;
+    if (Array.isArray(rawPoints)) {
+      keyPointsList = rawPoints.map((p: any) => (p && typeof p === 'object') ? (p[language] || p.en || '') : String(p || ''));
+    } else if (typeof rawPoints === 'object') {
+      keyPointsList = (rawPoints as any)[language] || (rawPoints as any).en || [];
+    }
+  }
 
   const learningStyle = profile?.learningStyle || 'mixed';
   

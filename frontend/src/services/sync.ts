@@ -36,6 +36,17 @@ export async function initSyncQueueTable(): Promise<void> {
         client_timestamp TEXT NOT NULL,
         retry_count INTEGER DEFAULT 0
       );
+      CREATE TABLE IF NOT EXISTS dead_letter_queue (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        client_generated_id TEXT UNIQUE,
+        type TEXT NOT NULL,
+        module TEXT NOT NULL,
+        payload TEXT NOT NULL,
+        client_timestamp TEXT NOT NULL,
+        retry_count INTEGER,
+        error_message TEXT,
+        created_at TEXT
+      );
     `);
   } catch (error) {
     console.error('Failed to initialize sync queue table:', error);
@@ -91,25 +102,26 @@ export async function syncQueuedEvents(): Promise<void> {
   }
 
   isSyncing = true;
+  let currentBatch: QueuedEvent[] = [];
   
   try {
     await initSyncQueueTable();
     const db = getDb();
     
-    // Get all events in the queue
-    const queuedEvents = await db.getAllAsync<QueuedEvent>(
-      'SELECT * FROM sync_queue ORDER BY client_timestamp ASC'
+    // Get up to 20 events in the queue (Chunked sync batching)
+    currentBatch = await db.getAllAsync<QueuedEvent>(
+      'SELECT * FROM sync_queue ORDER BY client_timestamp ASC LIMIT 20'
     );
 
-    if (queuedEvents.length === 0) {
+    if (currentBatch.length === 0) {
       isSyncing = false;
       return;
     }
 
-    console.log(`Attempting to sync ${queuedEvents.length} progress events...`);
+    console.log(`Attempting to sync ${currentBatch.length} progress events...`);
 
     // Prepare payload
-    const eventsPayload = queuedEvents.map((e) => ({
+    const eventsPayload = currentBatch.map((e) => ({
       type: e.type,
       module: e.module,
       payload: JSON.parse(e.payload),
@@ -147,11 +159,32 @@ export async function syncQueuedEvents(): Promise<void> {
       if (status === 'COMPLETED' || status === 'DUPLICATE' || status === 'DISCARDED') {
         await db.runAsync('DELETE FROM sync_queue WHERE client_generated_id = ?', [clientGeneratedId]);
       } else if (status === 'FAILED') {
-        // Increment retry count in local queue
-        await db.runAsync(
-          'UPDATE sync_queue SET retry_count = retry_count + 1 WHERE client_generated_id = ?',
-          [clientGeneratedId]
-        );
+        // Increment retry count in local queue, discard if exceeds max limit (5)
+        const currentEvent = currentBatch.find((e) => e.client_generated_id === clientGeneratedId);
+        const newRetryCount = (currentEvent?.retry_count || 0) + 1;
+        if (newRetryCount >= 5) {
+          await db.runAsync('DELETE FROM sync_queue WHERE client_generated_id = ?', [clientGeneratedId]);
+          await db.runAsync(
+            `INSERT OR IGNORE INTO dead_letter_queue (client_generated_id, type, module, payload, client_timestamp, retry_count, error_message, created_at)
+             VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+            [
+              clientGeneratedId,
+              currentEvent?.type || 'unknown',
+              currentEvent?.module || 'unknown',
+              currentEvent?.payload || '{}',
+              String(currentEvent?.client_timestamp || Date.now()),
+              newRetryCount,
+              'Server returned FAILED status',
+              new Date().toISOString(),
+            ]
+          );
+          console.warn(`Event ${clientGeneratedId} exceeded max retries on server FAILED. Moved to DLQ.`);
+        } else {
+          await db.runAsync(
+            'UPDATE sync_queue SET retry_count = ? WHERE client_generated_id = ?',
+            [newRetryCount, clientGeneratedId]
+          );
+        }
       }
     }
 
@@ -189,8 +222,45 @@ export async function syncQueuedEvents(): Promise<void> {
       }
     }
 
-  } catch (error) {
+    // If batch was full, recursively trigger next batch sync in background
+    if (currentBatch.length === 20) {
+      isSyncing = false;
+      setTimeout(() => {
+        syncQueuedEvents().catch((err) => console.warn('Background chunk sync failed:', err));
+      }, 250);
+      return;
+    }
+
+  } catch (error: any) {
     console.warn('Offline sync failed (device is likely offline or server unreachable):', error);
+    // Increment retry count for the current batch to prevent deadlocks
+    const db = getDb();
+    for (const event of currentBatch) {
+      const newRetry = (event.retry_count || 0) + 1;
+      if (newRetry >= 5) {
+        await db.runAsync('DELETE FROM sync_queue WHERE client_generated_id = ?', [event.client_generated_id]);
+        await db.runAsync(
+          `INSERT OR IGNORE INTO dead_letter_queue (client_generated_id, type, module, payload, client_timestamp, retry_count, error_message, created_at)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+          [
+            event.client_generated_id,
+            event.type,
+            event.module,
+            event.payload,
+            String(event.client_timestamp),
+            newRetry,
+            error.message || String(error),
+            new Date().toISOString(),
+          ]
+        );
+        console.warn(`Event ${event.client_generated_id} exceeded max retries. Moved to DLQ.`);
+      } else {
+        await db.runAsync(
+          'UPDATE sync_queue SET retry_count = ? WHERE client_generated_id = ?',
+          [newRetry, event.client_generated_id]
+        );
+      }
+    }
   } finally {
     isSyncing = false;
   }

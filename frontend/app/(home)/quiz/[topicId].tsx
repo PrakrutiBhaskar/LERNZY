@@ -98,9 +98,7 @@ export default function QuizScreen(): React.JSX.Element {
   const { colors, spacing } = useTheme();
 
   const quizKey = topicId || 'fractions';
-  const [questions, setQuestions] = useState<QuizQuestion[]>(
-    getQuizQuestions(quizKey)
-  );
+  const [questions, setQuestions] = useState<QuizQuestion[]>([]);
 
   const [currentIdx, setCurrentIdx] = useState(0);
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
@@ -110,7 +108,8 @@ export default function QuizScreen(): React.JSX.Element {
 
   useEffect(() => {
     async function loadQuizQuestions() {
-      setQuestions(getQuizQuestions(quizKey));
+      const localQs = await getQuizQuestions(quizKey);
+      setQuestions(localQs);
       setCurrentIdx(0);
       setSelectedIdx(null);
       setSubmitted(false);
@@ -161,6 +160,19 @@ export default function QuizScreen(): React.JSX.Element {
       saveResult();
     }
   }, [quizCompleted]);
+
+  if (questions.length === 0) {
+    return (
+      <ScreenContainer
+        title={language === 'en' ? 'Practice Challenge' : 'Loading...'}
+        showBackButton={true}
+      >
+        <AppText variant="body" style={{ textAlign: 'center', marginTop: 40 }}>
+          Loading questions...
+        </AppText>
+      </ScreenContainer>
+    );
+  }
 
   const activeQuestion = questions[currentIdx];
   const totalQuestions = questions.length;

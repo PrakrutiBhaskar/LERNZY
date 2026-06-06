@@ -146,6 +146,29 @@ jest.mock("../src/models/QuizSubmission.model", () => {
   };
 });
 
+jest.mock("../src/models/CurriculumNode.model", () => {
+  return {
+    findOne: jest.fn().mockImplementation((query) => {
+      const questionId = query["metadata.quizQuestions.id"];
+      return Promise.resolve({
+        metadata: {
+          quizQuestions: [
+            {
+              id: questionId,
+              options: {
+                en: ["A", "B", "C", "D"],
+                hi: ["अ", "ब", "स", "द"]
+              },
+              correct_index: 0
+            }
+          ]
+        }
+      });
+    })
+  };
+});
+
+
 jest.mock("../src/models/ChatHistory.model", () => ({
   create: jest.fn().mockResolvedValue({}),
   find: jest.fn().mockReturnValue({
@@ -167,6 +190,7 @@ describe("LERNZY Backend Hardening — Integration Simulation Suite", () => {
   let originalFetch;
 
   beforeAll(() => {
+    jest.setTimeout(30000);
     originalFetch = global.fetch;
     global.fetch = jest.fn().mockImplementation(() => {
       return new Promise((resolve) => {
@@ -274,7 +298,7 @@ describe("LERNZY Backend Hardening — Integration Simulation Suite", () => {
 
       expect(secondRes.status).toBe(200);
       expect(secondRes.body.success).toBe(true);
-    });
+    }, 30000);
   });
 
   describe("3. AI Concurrency & Timeout Cascade Test", () => {

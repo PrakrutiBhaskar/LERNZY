@@ -1,114 +1,217 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board",
   "grade": 6,
-  "subject": "english",
+  "subject": "English",
   "chapter_id": "ch01_two_birds",
-  "chapter_title": {
-    "en": "A Tale of Two Birds",
-    "hi": "दो पक्षियों की कहानी",
-    "kn": "ಎರಡು ಹಕ್ಕಿಗಳ ಕಥೆ"
+  "chapter_title": "A Tale of Two Birds",
+  "estimated_study_time_minutes": 45,
+  "difficulty": "Easy",
+  "language": "English",
+
+  "learning_objectives": [
+    "Understand the plot and characters of the story 'A Tale of Two Birds'",
+    "Identify the theme: the influence of environment and company on one's character",
+    "Learn and use new vocabulary from the story in context",
+    "Distinguish between the behavior of the two birds and explain why they differ",
+    "Understand the moral of the story and relate it to real life",
+    "Answer comprehension questions based on the story",
+    "Appreciate the importance of good surroundings and good company"
+  ],
+
+  "prerequisite_knowledge": [
+    "Basic reading comprehension skills",
+    "Understanding of simple sentences",
+    "Familiarity with the concept of fables and morals"
+  ],
+
+  "introduction": {
+    "why_important": "This story teaches one of life's most important lessons: the people and environment around us shape who we become. This is relevant to every student's life.",
+    "real_life_relevance": "Just like the two birds in the story, children who grow up in good, caring environments tend to develop good values, while those exposed to negative influences may develop bad habits.",
+    "karnataka_context": "In Karnataka, grandparents and elders often tell similar stories from the Panchatantra and Jataka tales to teach children the value of good company (Satsang). The idea of 'Sangati dosha' (bad company spoiling character) is a well-known concept in Kannada culture.",
+    "connection_to_previous_learning": "In Class 5, students read simple stories with morals. This chapter builds on that by asking students to analyze WHY characters behave differently."
   },
-  "topics": [
-    {
-      "topic_id": "english_grade6_ch01_two_birds_basics",
-      "title": {
-        "en": "A Tale of Two Birds - Fundamentals",
-        "hi": "दो पक्षियों की कहानी - बुनियादी बातें",
-        "kn": "ಎರಡು ಹಕ್ಕಿಗಳ ಕಥೆ - ಮೂಲತಮxt್ವಗಳು"
+
+  "story_summary": {
+    "characters": [
+      {
+        "name": "The Hermit / Rishi",
+        "role": "A kind, wise old sage who lives in a forest hermitage"
       },
-      "learning_objectives": [
-        "Understand key concepts of A Tale of Two Birds",
-        "Solve exercises and apply rules related to A Tale of Two Birds",
-        "Analyze practical examples of A Tale of Two Birds in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore A Tale of Two Birds. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम दो पक्षियों की कहानी का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಎರಡು ಹಕ್ಕಿಗಳ ಕಥೆ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
+      {
+        "name": "The Robber / Dacoit",
+        "role": "A violent, rough man who lives in the same forest"
       },
-      "concept_explanation": {
-        "en": "In this chapter, we explore A Tale of Two Birds in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम दो पक्षियों की कहानी का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಎರಡು ಹಕ್ಕಿಗಳ ಕಥೆ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
+      {
+        "name": "Bird 1 (near the hermitage)",
+        "role": "Speaks gently and welcomes visitors politely"
       },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of A Tale of Two Birds.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in A Tale of Two Birds.",
-            "hi": "चरण 1: दो पक्षियों की कहानी के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಎರಡು ಹಕ್ಕಿಗಳ ಕಥೆ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
+      {
+        "name": "Bird 2 (near the robbers' den)",
+        "role": "Speaks rudely, warns visitors to run away or they will be robbed"
       },
-      "key_points": {
-        "en": [
-          "Mastering A Tale of Two Birds builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "दो पक्षियों की कहानी में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಎರಡು ಹಕ್ಕಿಗಳ ಕಥೆ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
+      {
+        "name": "The King",
+        "role": "Traveller who encounters both birds and draws a conclusion"
       }
+    ],
+    "plot": [
+      "A king is travelling through a forest and gets separated from his army.",
+      "He comes across a bird near a hermitage. The bird greets him kindly and invites him in to rest.",
+      "The king is surprised and pleased by the bird's gentle, welcoming speech.",
+      "Further into the forest, the king meets another bird near a band of robbers.",
+      "This second bird speaks rudely and warns the king that he will be robbed and tied up.",
+      "The king wonders: both birds look the same — they are twins — yet they speak so differently!",
+      "A wise hermit explains: both birds were separated as babies by a storm.",
+      "One bird grew up near the hermitage and learned gentle, holy speech.",
+      "The other grew up near robbers and learned their rough, threatening language.",
+      "Moral: Our surroundings and company shape our character and speech."
+    ],
+    "moral": "A person's character is shaped by the company they keep and the environment they grow up in. Good company leads to good habits; bad company leads to bad habits."
+  },
+
+  "core_concepts": [
+    {
+      "concept_name": "Environment shapes character",
+      "simple_explanation": "The place where you live and the people around you teach you how to talk and behave.",
+      "detailed_explanation": "The two birds in the story are twins — they were born the same way. But because they grew up in different places, they became very different. The bird near the hermitage learned kindness. The bird near robbers learned cruelty. This shows that nature (who you are at birth) is less powerful than nurture (how and where you are raised).",
+      "real_life_example": "A child who grows up in a house where everyone reads books will naturally love reading. A child who always sees people fighting at home may think fighting is normal.",
+      "karnataka_example": "In villages across Karnataka, it is common for parents to say 'Olleya sangadalli iro' (Stay in good company). Families carefully choose schools and neighborhoods because they believe environment shapes character.",
+      "common_mistakes": "Students often think the birds were different because one was smarter or better. In fact, they were identical twins — the ONLY difference was their environment.",
+      "memory_tip": "Remember: Birds of a feather flock together. The bird near good people became good. Simple!"
+    },
+    {
+      "concept_name": "The power of language and speech",
+      "simple_explanation": "The way we speak shows where we come from and what we have learned.",
+      "detailed_explanation": "Bird 1 said 'Come in, rest, the hermit will be pleased to see you.' Bird 2 said 'Run away or you will be robbed!' Same type of bird, completely different speech. Language is not just about words — it reflects values, upbringing, and the people around us.",
+      "real_life_example": "A student who reads a lot and talks to educated people will naturally speak well and use rich vocabulary.",
+      "karnataka_example": "Kannada has a saying: 'Maataadidare gothagatte matthu manashtu' — 'When a person speaks, their character and mind are revealed.' This matches exactly what the king discovers in the story.",
+      "common_mistakes": "Students sometimes think the rude bird was bad by nature. The story says it is not about nature but about what the bird heard and learned every day.",
+      "memory_tip": "Your words = mirror of your world. What you hear daily, you repeat."
+    },
+    {
+      "concept_name": "Fable as a literary form",
+      "simple_explanation": "A fable is a short story, often with animals as characters, that teaches a moral lesson.",
+      "detailed_explanation": "This story is a fable. Fables use animals to represent human qualities. Here, the birds represent two types of people — those raised in good environments and those raised in bad ones. Famous fable collections include Aesop's Fables (Greek), Panchatantra (Indian), and Jataka Tales (Buddhist).",
+      "real_life_example": "Aesop's fable of the tortoise and the hare teaches: slow and steady wins the race.",
+      "karnataka_example": "The Panchatantra, written by Vishnu Sharma, is one of the oldest collections of fables in the world and originates from ancient India. Stories like 'The Monkey and the Crocodile' are still read in Karnataka schools.",
+      "common_mistakes": "Students sometimes confuse fables with fairy tales. Fables always have an explicit moral lesson; fairy tales focus more on adventure and magic.",
+      "memory_tip": "Fable = animal characters + clear moral. 'A Tale of Two Birds' = Fable!"
     }
+  ],
+
+  "key_terms_glossary": [
+    { "term": "Hermitage", "meaning": "A peaceful place in the forest where a holy person (hermit or rishi) lives and meditates" },
+    { "term": "Fable", "meaning": "A short story with animal characters that teaches a moral lesson" },
+    { "term": "Moral", "meaning": "The lesson or message of a story" },
+    { "term": "Environment", "meaning": "The surroundings and conditions in which a person or animal lives" },
+    { "term": "Character", "meaning": "The set of qualities, habits, and values that define a person" },
+    { "term": "Nurture", "meaning": "The influence of surroundings and upbringing on a person's development" },
+    { "term": "Hospitable", "meaning": "Friendly and welcoming to guests" },
+    { "term": "Dacoit / Robber", "meaning": "A person who steals from others, often violently" },
+    { "term": "Sage / Rishi", "meaning": "A wise and holy person who has deep knowledge and lives a simple life" },
+    { "term": "Influence", "meaning": "The effect that a person, place, or thing has on someone's behavior or development" }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Comprehension",
+      "question": "Why did the two birds speak so differently even though they were twins?",
+      "step_by_step_answer": [
+        "Step 1: Identify what we know — both birds are twins, born of the same parents.",
+        "Step 2: Identify the difference — they grew up in different places.",
+        "Step 3: Bird 1 grew up near a hermitage and heard gentle, polite, holy speech every day.",
+        "Step 4: Bird 2 grew up near robbers and heard rough, threatening, violent speech every day.",
+        "Step 5: Over time, each bird copied what it heard and became like its surroundings.",
+        "Conclusion: Their different speech reflects their different environments, not their natural birth."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Vocabulary in context",
+      "question": "Use the word 'hospitable' in a sentence related to the story.",
+      "step_by_step_answer": [
+        "Step 1: Recall meaning — hospitable means warm, welcoming, and friendly to guests.",
+        "Step 2: Identify who in the story was hospitable — Bird 1, near the hermitage.",
+        "Step 3: Write sentence: 'Bird 1 was very hospitable; it invited the king to come in, rest, and meet the hermit.'"
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Moral application",
+      "question": "How does the moral of this story apply to your school life?",
+      "step_by_step_answer": [
+        "Step 1: State the moral — your environment and company shape your character.",
+        "Step 2: Think of a school example — choosing friends who study hard vs friends who bunk class.",
+        "Step 3: Apply it — if you spend time with hardworking, honest students, you are likely to become hardworking and honest too.",
+        "Step 4: Conclusion: Just like the birds, we should choose our company wisely."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Environment shapes character",
+      "questions": [
+        { "type": "Recall", "q": "Where did Bird 1 grow up?", "a": "Near a hermitage in the forest." },
+        { "type": "Recall", "q": "What kind of people lived near Bird 2?", "a": "Robbers / dacoits." },
+        { "type": "Understanding", "q": "Why were the two birds different even though they were twins?", "a": "Because they grew up in completely different environments — one near a holy man, the other near robbers." },
+        { "type": "Understanding", "q": "What does the hermit's explanation tell us about how character is formed?", "a": "It tells us that what we see, hear, and experience daily shapes our character and values." },
+        { "type": "Application", "q": "If a child grew up in a house full of books and readers, what kind of habit might they develop? Use the story's logic to explain.", "a": "The child would likely develop a love for reading, just as Bird 1 developed gentle speech by living among gentle people." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "The two birds in the story are twins but are raised in different environments.",
+    "Bird 1, raised near a hermitage, is kind and welcoming.",
+    "Bird 2, raised near robbers, is rude and threatening.",
+    "The moral is: good company and good surroundings shape good character.",
+    "This story is a fable — a short story with animal characters and a clear moral lesson.",
+    "Language and speech reflect a person's upbringing and environment.",
+    "We should be careful about the company we keep and the places we spend time in.",
+    "The story teaches that nurture (environment) is very powerful in shaping who we become."
+  ],
+
+  "mind_map": {
+    "root": "A Tale of Two Birds",
+    "branches": [
+      {
+        "branch": "Characters",
+        "sub": ["Bird 1 (near hermitage)", "Bird 2 (near robbers)", "The King", "The Hermit/Rishi", "The Robbers"]
+      },
+      {
+        "branch": "Plot",
+        "sub": ["King lost in forest", "Meets kind Bird 1", "Meets rude Bird 2", "Hermit explains the difference", "King understands the moral"]
+      },
+      {
+        "branch": "Theme",
+        "sub": ["Environment shapes character", "Power of good company", "Language reflects upbringing"]
+      },
+      {
+        "branch": "Literary Form",
+        "sub": ["Fable", "Animal characters", "Clear moral lesson", "Similar to Panchatantra"]
+      },
+      {
+        "branch": "Moral",
+        "sub": ["Good company → Good character", "Bad company → Bad habits", "Choose your surroundings wisely"]
+      }
+    ]
+  },
+
+  "revision_notes": "A Tale of Two Birds is a fable about twin birds separated as babies by a storm. One bird grows up near a hermitage and becomes kind and welcoming. The other grows up near robbers and becomes rude and threatening. A king who travels through the forest meets both birds and is puzzled. A wise hermit explains that the birds' different environments made them different. The moral: our surroundings and the company we keep shape our character and speech. Key vocabulary: fable, hermitage, moral, hospitable, environment, nurture. Remember: nature (birth) vs nurture (upbringing) — this story says nurture wins.",
+
+  "must_remember_facts": [
+    "The two birds are twins — they are identical at birth.",
+    "A storm separates the birds when they are babies.",
+    "Bird 1 grows up near a hermit's hermitage — speaks kindly.",
+    "Bird 2 grows up near a den of robbers — speaks rudely.",
+    "The king is the traveller who encounters both birds.",
+    "The hermit explains the reason for the birds' different behavior.",
+    "The story is a FABLE — it uses animals to teach a human lesson.",
+    "The moral: good company and environment lead to good character.",
+    "This story is part of the Karnataka State Board Grade 6 English textbook.",
+    "Related Indian literary tradition: Panchatantra fables by Vishnu Sharma."
   ]
 }

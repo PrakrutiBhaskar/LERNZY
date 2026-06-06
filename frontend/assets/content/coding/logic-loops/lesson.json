@@ -1,0 +1,84 @@
+{
+  "version": "1.0",
+  "grade": 7,
+  "subject": "coding",
+  "chapter_id": "logic-loops",
+  "chapter_title": {
+    "en": "Logic & Loops",
+    "hi": "Logic & Loops",
+    "kn": "Logic & Loops"
+  },
+  "topics": [
+    {
+      "topic_id": "logic-loops",
+      "title": {
+        "en": "Logic & Loops",
+        "hi": "Logic & Loops",
+        "kn": "Logic & Loops"
+      },
+      "learning_objectives": [
+        "Write if-else logic.",
+        "Repeat actions with loops.",
+        "Solve logic challenges."
+      ],
+      "estimated_minutes": 10,
+      "base_story_template": {
+        "en": "Welcome {{STUDENT_NAME}}! Let's explore logic-loops together at the {{INTEREST_PLACE}}.",
+        "hi": "भारत आपका स्वागत है {{STUDENT_NAME}}! आइए {{INTEREST_PLACE}} पर एक साथ logic-loops का अन्वेषण करें।",
+        "kn": "ಸ್ವಾಗತ {{STUDENT_NAME}}! {{INTEREST_PLACE}} ನಲ್ಲಿ logic-loops ಅನ್ನು ಒಟ್ಟಿಗೆ ಅನ್ವೇಷಿಸೋಣ."
+      },
+      "concept_explanation": {
+        "en": "Use conditions and repeated steps to solve small problems.",
+        "hi": "Use conditions and repeated steps to solve small problems.",
+        "kn": "Use conditions and repeated steps to solve small problems."
+      },
+      "worked_example": {
+        "problem": "If rainy, take umbrella.",
+        "steps": {
+          "en": [
+            "Check weather.",
+            "If rainy, get umbrella.",
+            "Else, go out normally."
+          ],
+          "hi": [
+            "Check weather.",
+            "If rainy, get umbrella.",
+            "Else, go out normally."
+          ],
+          "kn": [
+            "Check weather.",
+            "If rainy, get umbrella.",
+            "Else, go out normally."
+          ]
+        },
+        "answer": "Ready to go"
+      },
+      "key_points": {
+        "en": [
+          "Conditionals decide what code runs.",
+          "Loops repeat tasks.",
+          "Logic solves problems."
+        ],
+        "hi": [
+          "Conditionals decide what code runs.",
+          "Loops repeat tasks.",
+          "Logic solves problems."
+        ],
+        "kn": [
+          "Conditionals decide what code runs.",
+          "Loops repeat tasks.",
+          "Logic solves problems."
+        ]
+      },
+      "interest_placeholders": {
+        "INTEREST_PLACE": {
+          "default": {
+            "en": "school classroom",
+            "hi": "विद्यालय",
+            "kn": "ಶಾಲೆ"
+          }
+        }
+      }
+    }
+  ]
+}

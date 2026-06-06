@@ -1,0 +1,76 @@
+{
+  "version": "1.0",
+  "topic_id": "coding-basics",
+  "questions": [
+    {
+      "id": "coding-basics-q1",
+      "question": {
+        "en": "What is a sequence?",
+        "hi": "What is a sequence?",
+        "kn": "What is a sequence?"
+      },
+      "options": {
+        "en": [
+          "Ordered steps",
+          "Random choices",
+          "Colors only",
+          "None"
+        ],
+        "hi": [
+          "Ordered steps",
+          "Random choices",
+          "Colors only",
+          "None"
+        ],
+        "kn": [
+          "Ordered steps",
+          "Random choices",
+          "Colors only",
+          "None"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "A sequence is the order in which steps are run.",
+        "hi": "A sequence is the order in which steps are run.",
+        "kn": "A sequence is the order in which steps are run."
+      },
+      "diagram_ref": null
+    },
+    {
+      "id": "coding-basics-fq1",
+      "question": {
+        "en": "What is an algorithm?",
+        "hi": "What is an algorithm?",
+        "kn": "What is an algorithm?"
+      },
+      "options": {
+        "en": [
+          "A set of step-by-step instructions to solve a problem.",
+          "Option A",
+          "Option B",
+          "Option C"
+        ],
+        "hi": [
+          "A set of step-by-step instructions to solve a problem.",
+          "Option A",
+          "Option B",
+          "Option C"
+        ],
+        "kn": [
+          "A set of step-by-step instructions to solve a problem.",
+          "Option A",
+          "Option B",
+          "Option C"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "A set of step-by-step instructions to solve a problem.",
+        "hi": "A set of step-by-step instructions to solve a problem.",
+        "kn": "A set of step-by-step instructions to solve a problem."
+      },
+      "diagram_ref": null
+    }
+  ]
+}

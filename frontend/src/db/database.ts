@@ -20,6 +20,8 @@ export function isLocalDatabaseAvailable(): boolean {
   }
 }
 
+import { getAuthState } from '../services/api';
+
 const mockDb = {
   async runAsync(sql: string, params: any[] = []): Promise<{ lastInsertRowId: number; changes: number }> {
     console.log('[Mock DB Web] runAsync:', sql, params);
@@ -117,7 +119,7 @@ const mockDb = {
       return { lastInsertRowId: 1, changes: 1 };
     }
 
-    return { lastInsertRowId: 0, changes: 0 };
+    throw new Error(`[Mock DB Web] Unsupported SQL command: ${sql}`);
   },
 
   async getFirstAsync<T>(sql: string, params: any[] = []): Promise<T | null> {
@@ -125,14 +127,30 @@ const mockDb = {
     const lowerSql = sql.toLowerCase();
     
     if (lowerSql.includes('from students')) {
-      const students = JSON.parse(localStorage.getItem('lernzy_local_students') || '[]');
-      if (students.length === 0) {
-        const defaultStudent = { id: 1, name: 'Friend', grade: 6, language: 'en', interests_json: '[]', learning_style: 'mixed' };
-        students.push(defaultStudent);
-        localStorage.setItem('lernzy_local_students', JSON.stringify(students));
-        return defaultStudent as unknown as T;
+      const auth = getAuthState();
+      let studentName = 'Friend';
+      let studentId = 1;
+      if (auth.isAuthenticated && auth.user) {
+        studentName = auth.user.name || 'Friend';
+        const str = auth.user._id || auth.user.email || '1';
+        let hash = 0;
+        for (let i = 0; i < str.length; i++) {
+          hash = (hash << 5) - hash + str.charCodeAt(i);
+          hash |= 0;
+        }
+        studentId = Math.abs(hash);
+      } else {
+        studentId = 999;
+        studentName = 'Guest';
       }
-      return students[0] as unknown as T;
+      const students = JSON.parse(localStorage.getItem('lernzy_local_students') || '[]');
+      let student = students.find((s: any) => s.id === studentId);
+      if (!student) {
+        student = { id: studentId, name: studentName, grade: 6, language: 'en', interests_json: '[]', learning_style: 'mixed' };
+        students.push(student);
+        localStorage.setItem('lernzy_local_students', JSON.stringify(students));
+      }
+      return student as unknown as T;
     }
     
     if (lowerSql.includes('from sessions')) {
@@ -161,7 +179,7 @@ const mockDb = {
       return match ? match : null;
     }
     
-    return null;
+    throw new Error(`[Mock DB Web] Unsupported SQL query (getFirstAsync): ${sql}`);
   },
 
   async getAllAsync<T>(sql: string, params: any[] = []): Promise<T[]> {
@@ -206,7 +224,7 @@ const mockDb = {
       return achievements.filter((a: any) => a.student_id === studentId) as unknown as T[];
     }
     
-    return [];
+    throw new Error(`[Mock DB Web] Unsupported SQL query (getAllAsync): ${sql}`);
   },
 
   async execAsync(sql: string): Promise<void> {
@@ -287,7 +305,17 @@ function normalizeLearningStyle(style: LocalStudentProfile['learningStyle']): st
  */
 export async function ensureLocalStudent(profile: LocalStudentProfile = {}): Promise<number> {
   if (!isLocalDatabaseAvailable()) {
-    return 1;
+    const auth = getAuthState();
+    if (auth.isAuthenticated && auth.user) {
+      const str = auth.user._id || auth.user.email || '1';
+      let hash = 0;
+      for (let i = 0; i < str.length; i++) {
+        hash = (hash << 5) - hash + str.charCodeAt(i);
+        hash |= 0;
+      }
+      return Math.abs(hash);
+    }
+    return 999;
   }
 
   const db = getDb();

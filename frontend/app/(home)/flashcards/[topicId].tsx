@@ -92,7 +92,6 @@ export default function FlashcardsScreen(): React.JSX.Element {
   const { colors, spacing } = useTheme();
 
   const key = topicId || 'fractions';
-  const sourceCards = React.useMemo(() => getFlashcards(key), [key]);
   const subjectKey = React.useMemo(() => getTopicSubject(key), [key]);
 
   // Active stack of cards remaining in review session
@@ -150,13 +149,21 @@ export default function FlashcardsScreen(): React.JSX.Element {
 
   useEffect(() => {
     // Reset deck on mount
-    setActiveCards([...sourceCards]);
-    setTotalCount(sourceCards.length);
-    setMasteredCount(0);
-    setCurrentIdx(0);
-    setSessionDone(false);
-    setTutorTip(language === 'en' ? "Tap the card to flip it and review the answer." : "उत्तर देखने के लिए फ्लैशकार्ड पर tap करें।");
-  }, [key, language, sourceCards]);
+    async function loadCards() {
+      try {
+        const cards = await getFlashcards(key);
+        setActiveCards([...cards]);
+        setTotalCount(cards.length);
+        setMasteredCount(0);
+        setCurrentIdx(0);
+        setSessionDone(false);
+        setTutorTip(language === 'en' ? "Tap the card to flip it and review the answer." : "उत्तर देखने के लिए फ्लैशकार्ड पर tap करें।");
+      } catch (err) {
+        console.error(err);
+      }
+    }
+    loadCards();
+  }, [key, language]);
 
   const handleRating = (rating: 'hard' | 'good' | 'easy') => {
     if (activeCards.length === 0) return;

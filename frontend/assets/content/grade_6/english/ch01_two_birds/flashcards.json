@@ -1,96 +1,171 @@
 {
-  "version": "1.0",
-  "topic_id": "english_grade6_ch01_two_birds_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board",
+  "grade": 6,
+  "subject": "English",
+  "chapter": "A Tale of Two Birds",
+  "topic_id": "english_grade6_ch01_two_birds",
+  "total_cards": 20,
   "cards": [
     {
       "id": "fc01",
-      "front": {
-        "en": "What is the core idea of A Tale of Two Birds? (FC1)",
-        "hi": "What is the core idea of A Tale of Two Birds? (FC1)",
-        "kn": "What is the core idea of A Tale of Two Birds? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a fable?",
+      "back": "A fable is a short story, usually with animal characters, that teaches a moral lesson.",
+      "memory_hook": "Fable = Animals + Moral. Think Panchatantra!"
     },
     {
       "id": "fc02",
-      "front": {
-        "en": "Why is A Tale of Two Birds important? (FC2)",
-        "hi": "Why is A Tale of Two Birds important? (FC2)",
-        "kn": "Why is A Tale of Two Birds important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What is the relationship between the two birds in the story?",
+      "back": "They are twins — they were born from the same parents.",
+      "memory_hook": "Same parents, same birth — but VERY different lives!"
     },
     {
       "id": "fc03",
-      "front": {
-        "en": "What is the core idea of A Tale of Two Birds? (FC3)",
-        "hi": "What is the core idea of A Tale of Two Birds? (FC3)",
-        "kn": "What is the core idea of A Tale of Two Birds? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Why were the two birds separated?",
+      "back": "A storm blew through the forest and separated the two birds when they were babies.",
+      "memory_hook": "Storm = separation = two different life paths."
     },
     {
       "id": "fc04",
-      "front": {
-        "en": "Why is A Tale of Two Birds important? (FC4)",
-        "hi": "Why is A Tale of Two Birds important? (FC4)",
-        "kn": "Why is A Tale of Two Birds important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Where did Bird 1 grow up?",
+      "back": "Bird 1 grew up near a hermitage (the home of a holy sage/rishi) in the forest.",
+      "memory_hook": "Hermitage = Holy place = Kind bird."
     },
     {
       "id": "fc05",
-      "front": {
-        "en": "What is the core idea of A Tale of Two Birds? (FC5)",
-        "hi": "What is the core idea of A Tale of Two Birds? (FC5)",
-        "kn": "What is the core idea of A Tale of Two Birds? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Where did Bird 2 grow up?",
+      "back": "Bird 2 grew up near a den of robbers (dacoits) in the forest.",
+      "memory_hook": "Robbers' den = Rude bird."
+    },
+    {
+      "id": "fc06",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "How did Bird 1 greet the king?",
+      "back": "Bird 1 greeted the king kindly, welcomed him, and invited him to come in and rest, saying the hermit would be pleased to see him.",
+      "memory_hook": "Bird 1 = Welcoming, polite, warm."
+    },
+    {
+      "id": "fc07",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What did Bird 2 say to the king?",
+      "back": "Bird 2 warned the king in a rough, threatening way — telling him to run away or he would be caught, robbed, and tied up.",
+      "memory_hook": "Bird 2 = Threatening, rude, dangerous-sounding."
+    },
+    {
+      "id": "fc08",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why was the king puzzled when he met both birds?",
+      "back": "Both birds looked exactly alike (they were twins), yet they spoke in completely opposite ways — one kind, one rude. The king could not understand why.",
+      "memory_hook": "Same looks, opposite speech = puzzled king!"
+    },
+    {
+      "id": "fc09",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Who explained the reason for the birds' different behavior?",
+      "back": "The wise hermit (rishi/sage) living in the forest hermitage explained it to the king.",
+      "memory_hook": "King confused → Hermit explains → Mystery solved."
+    },
+    {
+      "id": "fc10",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What was the hermit's explanation for the birds' different behavior?",
+      "back": "The hermit said: both birds were twins but got separated by a storm as babies. One grew up hearing gentle, holy speech near the hermitage. The other heard only rough, violent talk near robbers. So each bird spoke like its surroundings.",
+      "memory_hook": "You become what you hear. Surroundings shape speech and character."
+    },
+    {
+      "id": "fc11",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What does the word 'hermitage' mean?",
+      "back": "A hermitage is a quiet, peaceful place in the forest where a holy man (hermit or rishi) lives, meditates, and teaches.",
+      "memory_hook": "Hermit lives in a hermitage. Think: a sage's forest home."
+    },
+    {
+      "id": "fc12",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What does 'hospitable' mean?",
+      "back": "Hospitable means being warm, friendly, and welcoming to guests.",
+      "memory_hook": "Hospital takes care of you → Hospitable = someone who takes care of guests."
+    },
+    {
+      "id": "fc13",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "What is the moral of 'A Tale of Two Birds'?",
+      "back": "Good company and a good environment shape good character. Bad company and bad surroundings lead to bad habits and behavior.",
+      "memory_hook": "Company you keep = Character you become."
+    },
+    {
+      "id": "fc14",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "How does the story show that environment is more powerful than birth?",
+      "back": "The two birds had identical birth (twins, same parents). But because their environments were opposite, their characters became completely opposite. This shows environment (nurture) was more powerful than their identical birth (nature).",
+      "memory_hook": "Nature vs Nurture — in this story, NURTURE wins."
+    },
+    {
+      "id": "fc15",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is the meaning of 'moral' in a story?",
+      "back": "A moral is the lesson or message that the author wants the reader to learn from the story.",
+      "memory_hook": "Moral = Message = What you should learn and remember."
+    },
+    {
+      "id": "fc16",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "Name two famous collections of fables from India.",
+      "back": "1. Panchatantra — written by Vishnu Sharma (ancient India). 2. Jataka Tales — Buddhist stories about the Buddha's past lives.",
+      "memory_hook": "Panchatantra + Jataka = India's greatest fable collections."
+    },
+    {
+      "id": "fc17",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Give a real-life example that matches the moral of this story.",
+      "back": "A child who grows up surrounded by readers and learners will love reading and studying. A child who always hears arguments and negativity may develop a short temper. Environment shapes us.",
+      "memory_hook": "Just like the birds — your daily surroundings shape your daily habits."
+    },
+    {
+      "id": "fc18",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Who is the main human character who travels through the forest in the story?",
+      "back": "A King (a royal traveller) who gets separated from his army while travelling through the forest.",
+      "memory_hook": "King = the observer who sees both birds and learns the lesson."
+    },
+    {
+      "id": "fc19",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "What does Bird 1's speech tell us about the hermitage?",
+      "back": "Bird 1's gentle, welcoming speech tells us that the hermitage was a peaceful, kind, and holy place where people spoke with care and respect.",
+      "memory_hook": "Gentle speech → gentle place. You reflect your home."
+    },
+    {
+      "id": "fc20",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "What lesson from this story can you apply in choosing your friends?",
+      "back": "Choose friends who are honest, hardworking, and kind. Spending time with such people will help you develop good habits and a good character — just as Bird 1 became kind by living near good people.",
+      "memory_hook": "Choose your company like you choose food — pick what is good for you!"
     }
   ]
 }
