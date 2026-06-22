@@ -1,366 +1,242 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch13_earth_solar_system_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science — Geography",
+  "textbook": "Our Environment — Textbook for Class VI",
+  "chapter_number": 13,
+  "chapter_title": "The Earth in the Solar System",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of The Earth in the Solar System? (Q1)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of The Earth in the Solar System? (Q1)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of The Earth in the Solar System? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "What is our home galaxy called?",
+      "options": ["A) Andromeda", "B) Milky Way", "C) Sombrero", "D) Triangulum"],
+      "correct_answer": "B) Milky Way",
+      "explanation": "Our solar system is located in the Milky Way galaxy — a barred spiral galaxy containing 200–400 billion stars. The Milky Way is visible on clear dark nights as a faint band of light across the sky. Andromeda is our nearest large neighbouring galaxy, about 2.5 million light-years away."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to The Earth in the Solar System in a community? (Q2)",
-        "hi": "Who or what body regulates the civic issues related to The Earth in the Solar System in a community? (Q2)",
-        "kn": "Who or what body regulates the civic issues related to The Earth in the Solar System in a community? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "Which is the correct order of planets from the Sun?",
+      "options": [
+        "A) Mercury, Earth, Venus, Mars, Jupiter, Saturn, Uranus, Neptune",
+        "B) Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
+        "C) Venus, Mercury, Earth, Mars, Saturn, Jupiter, Uranus, Neptune",
+        "D) Mercury, Venus, Mars, Earth, Jupiter, Saturn, Neptune, Uranus"
+      ],
+      "correct_answer": "B) Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
+      "explanation": "The correct order is: Mercury (1st, closest), Venus (2nd), Earth (3rd), Mars (4th), Jupiter (5th), Saturn (6th), Uranus (7th), Neptune (8th, farthest). Mnemonic: My Very Educated Mother Just Served Us Nachos. Note: Pluto is no longer counted as a planet — it was reclassified as a dwarf planet in 2006."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of The Earth in the Solar System? (Q3)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of The Earth in the Solar System? (Q3)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of The Earth in the Solar System? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "Earth is called the 'Blue Planet' because:",
+      "options": [
+        "A) Earth's sky is blue due to scattered sunlight",
+        "B) About 71% of Earth's surface is covered by water",
+        "C) Earth is surrounded by a blue atmosphere",
+        "D) Earth's rocks have a blue tinge"
+      ],
+      "correct_answer": "B) About 71% of Earth's surface is covered by water",
+      "explanation": "Earth is called the Blue Planet because approximately 71% of its surface is covered by water (oceans, seas). When viewed from space, Earth appears predominantly blue. No other planet in the solar system has such large amounts of liquid water on its surface — making Earth unique both in appearance and in its ability to support life."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to The Earth in the Solar System in a community? (Q4)",
-        "hi": "Who or what body regulates the civic issues related to The Earth in the Solar System in a community? (Q4)",
-        "kn": "Who or what body regulates the civic issues related to The Earth in the Solar System in a community? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "Which is the largest planet in the solar system?",
+      "options": ["A) Saturn", "B) Earth", "C) Jupiter", "D) Neptune"],
+      "correct_answer": "C) Jupiter",
+      "explanation": "Jupiter is by far the largest planet in the solar system. It is so large that all other planets combined could fit inside it with room to spare. Jupiter's diameter is about 11 times that of Earth and its mass is 318 times Earth's mass. Saturn is the second largest. Mercury is the smallest planet."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of The Earth in the Solar System? (Q5)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of The Earth in the Solar System? (Q5)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of The Earth in the Solar System? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "The Moon shines at night because it:",
+      "options": [
+        "A) Produces its own light like the Sun",
+        "B) Reflects sunlight",
+        "C) Absorbs heat from Earth and radiates it",
+        "D) Is made of glowing rocks"
+      ],
+      "correct_answer": "B) Reflects sunlight",
+      "explanation": "The Moon does not produce any light of its own. It shines because it reflects sunlight — like a mirror. This is proven by the Moon's phases: as the Moon orbits Earth, different portions are lit by the Sun, creating the cycle of new moon to full moon. During a lunar eclipse (when Earth blocks sunlight from reaching the Moon), the Moon goes dark — proving it has no light of its own."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to The Earth in the Solar System in a community? (Q6)",
-        "hi": "Who or what body regulates the civic issues related to The Earth in the Solar System in a community? (Q6)",
-        "kn": "Who or what body regulates the civic issues related to The Earth in the Solar System in a community? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "A 'shooting star' is actually:",
+      "options": [
+        "A) A small star that has moved into Earth's sky",
+        "B) A meteoroid burning up as it enters Earth's atmosphere",
+        "C) A comet passing near Earth",
+        "D) An asteroid exploding in space"
+      ],
+      "correct_answer": "B) A meteoroid burning up as it enters Earth's atmosphere",
+      "explanation": "A 'shooting star' is a meteor — a meteoroid (small rocky/metallic body from space) that enters Earth's atmosphere and burns up due to friction with air, producing a streak of light. It is not a star at all. If the meteoroid survives its journey through the atmosphere and lands on Earth's surface, it is called a meteorite."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of The Earth in the Solar System? (Q7)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of The Earth in the Solar System? (Q7)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of The Earth in the Solar System? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "Where is the asteroid belt located?",
+      "options": [
+        "A) Between Earth and Mars",
+        "B) Between Mars and Jupiter",
+        "C) Between Jupiter and Saturn",
+        "D) Beyond Neptune"
+      ],
+      "correct_answer": "B) Between Mars and Jupiter",
+      "explanation": "The asteroid belt is a region between the orbits of Mars and Jupiter containing millions of rocky bodies (asteroids) of various sizes. Jupiter's immense gravitational influence is thought to have prevented these rocky bodies from combining into a planet. The asteroid belt also separates the inner rocky planets from the outer gas/ice giants."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to The Earth in the Solar System in a community? (Q8)",
-        "hi": "Who or what body regulates the civic issues related to The Earth in the Solar System in a community? (Q8)",
-        "kn": "Who or what body regulates the civic issues related to The Earth in the Solar System in a community? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "Which planet is the hottest in the solar system?",
+      "options": ["A) Mercury", "B) Earth", "C) Mars", "D) Venus"],
+      "correct_answer": "D) Venus",
+      "explanation": "Venus is the hottest planet with an average surface temperature of about 465°C — hotter than Mercury despite being farther from the Sun. This is because Venus has a very thick atmosphere composed mainly of CO₂, which creates an extreme greenhouse effect, trapping heat. Mercury, though closest to the Sun, has virtually no atmosphere and experiences extreme temperature swings."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of The Earth in the Solar System? (Q9)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of The Earth in the Solar System? (Q9)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of The Earth in the Solar System? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "Earth's Moon is a:",
+      "options": ["A) Star", "B) Planet", "C) Natural satellite", "D) Asteroid"],
+      "correct_answer": "C) Natural satellite",
+      "explanation": "The Moon is Earth's natural satellite — a celestial body that orbits Earth under the influence of Earth's gravity. It is 'natural' (as opposed to man-made satellites like ISRO's satellites). The Moon orbits Earth at a distance of approximately 3,84,000 km and takes about 27.3 days to complete one orbit."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to The Earth in the Solar System in a community? (Q10)",
-        "hi": "Who or what body regulates the civic issues related to The Earth in the Solar System in a community? (Q10)",
-        "kn": "Who or what body regulates the civic issues related to The Earth in the Solar System in a community? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "ISRO, which manages India's space missions including Chandrayaan-3, is headquartered in:",
+      "options": ["A) Mumbai", "B) New Delhi", "C) Bengaluru", "D) Chennai"],
+      "correct_answer": "C) Bengaluru",
+      "explanation": "ISRO (Indian Space Research Organisation) is headquartered in Bengaluru, Karnataka. It manages India's satellite, lunar, and interplanetary missions. Chandrayaan-3 (2023), which successfully landed near the Moon's south pole — the first ever landing at the lunar south pole — was developed and mission-controlled from ISRO Bengaluru."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "Which of the following CORRECTLY distinguishes between a star and a planet?",
+      "options": [
+        "A) Stars orbit planets; planets orbit galaxies",
+        "B) Stars produce their own light through nuclear fusion; planets only reflect light from stars",
+        "C) Stars are found only in the Milky Way; planets are found in all galaxies",
+        "D) Stars are smaller than planets but brighter"
+      ],
+      "correct_answer": "B) Stars produce their own light through nuclear fusion; planets only reflect light from stars",
+      "explanation": "The fundamental distinction: stars (like our Sun) are massive balls of hot plasma that generate their own light and heat through nuclear fusion of hydrogen into helium. Planets orbit stars and only reflect the star's light — they produce no light of their own. Stars are vastly larger and hotter than planets. The Sun is a relatively average-sized star; Earth is one of the smallest planets."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "Why is Earth described as being in the 'Goldilocks zone'?",
+      "options": [
+        "A) Earth has the perfect amount of gold in its crust",
+        "B) Earth is at just the right distance from the Sun — not too hot, not too cold — for liquid water to exist",
+        "C) Earth is the middle planet between Mercury and Neptune",
+        "D) Earth's temperature is controlled by Goldilocks clouds in the atmosphere"
+      ],
+      "correct_answer": "B) Earth is at just the right distance from the Sun — not too hot, not too cold — for liquid water to exist",
+      "explanation": "The 'Goldilocks zone' (habitable zone) is the range of distances from a star where liquid water can exist on a planet's surface — not so close that water boils away (like Venus) and not so far that it freezes completely (like Mars). Earth is perfectly positioned in this zone. Liquid water is considered essential for life as we know it, making this positioning crucial for Earth's habitability."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "Why was Pluto reclassified from a planet to a dwarf planet in 2006?",
+      "options": [
+        "A) Pluto was found to be made of ice, not rock like a real planet",
+        "B) Pluto is too small and has not cleared its orbital neighbourhood of other debris",
+        "C) Pluto orbits the Sun in the wrong direction",
+        "D) Pluto was discovered to be a moon of Neptune"
+      ],
+      "correct_answer": "B) Pluto is too small and has not cleared its orbital neighbourhood of other debris",
+      "explanation": "In 2006, the International Astronomical Union (IAU) defined three criteria for a planet: (1) Orbits the Sun, (2) Has sufficient mass for gravity to make it roughly spherical, (3) Has cleared its orbital neighbourhood of other debris. Pluto meets criteria 1 and 2 but NOT criterion 3 — it shares its orbital region with many other Kuiper Belt Objects. Therefore, it was reclassified as a dwarf planet."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "Chandrayaan-3 (2023) was historically significant because it:",
+      "options": [
+        "A) Was the first spacecraft to orbit Mars",
+        "B) Was the first mission to land near the Moon's south pole",
+        "C) Discovered a new planet in the solar system",
+        "D) Brought back the first Moon rock samples to India"
+      ],
+      "correct_answer": "B) Was the first mission to land near the Moon's south pole",
+      "explanation": "Chandrayaan-3's Vikram lander and Pragyan rover successfully soft-landed near the Moon's south pole (at ~69°S latitude) on August 23, 2023 — the first ever soft landing at the lunar south pole by any country. This was significant because the Moon's south pole is believed to have water ice in permanently shadowed craters. India became only the fourth country to achieve a lunar soft landing (after USA, USSR, China)."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "A comet's tail always points:",
+      "options": [
+        "A) In the direction the comet is moving",
+        "B) Towards the Sun",
+        "C) Away from the Sun",
+        "D) Towards Earth"
+      ],
+      "correct_answer": "C) Away from the Sun",
+      "explanation": "A comet's tail always points away from the Sun, regardless of the direction the comet is travelling. This is because the solar wind (a stream of charged particles from the Sun) and solar radiation pressure push the gas and dust of the comet's tail away from the Sun. So when a comet is moving away from the Sun, its tail actually leads the comet. When approaching the Sun, the tail trails behind."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Why do we always see only one side of the Moon from Earth?",
+      "options": [
+        "A) The other side of the Moon has no surface features",
+        "B) The Moon does not rotate on its own axis",
+        "C) The Moon's rotation period equals its orbital period around Earth",
+        "D) Earth's gravity prevents the Moon from turning"
+      ],
+      "correct_answer": "C) The Moon's rotation period equals its orbital period around Earth",
+      "explanation": "The Moon takes approximately 27.3 days to complete one orbit around Earth AND also takes 27.3 days to rotate once on its axis — called synchronous rotation. Because both periods are equal, the same face of the Moon always faces Earth. Earth's gravity over billions of years has 'tidally locked' the Moon into this synchronized motion. The far side of the Moon was first photographed only in 1959 by a Soviet spacecraft."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "If a meteoroid enters Earth's atmosphere and partially burns up but still reaches the ground, what is it called?",
+      "options": ["A) Meteor", "B) Meteorite", "C) Asteroid", "D) Comet"],
+      "correct_answer": "B) Meteorite",
+      "explanation": "A meteoroid is a small rocky body in space. When it enters Earth's atmosphere and burns up (partially or completely), it becomes a meteor (shooting star). If it survives the journey through the atmosphere and reaches Earth's surface, it is called a meteorite. Meteorites are scientifically valuable — they contain material from the early solar system. Most meteorites come from the asteroid belt."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "Which of the following is the correct hierarchy from largest to smallest?",
+      "options": [
+        "A) Universe → Solar System → Galaxy → Planet",
+        "B) Galaxy → Universe → Solar System → Planet",
+        "C) Universe → Galaxy → Solar System → Planet",
+        "D) Solar System → Galaxy → Universe → Planet"
+      ],
+      "correct_answer": "C) Universe → Galaxy → Solar System → Planet",
+      "explanation": "The correct size hierarchy (largest to smallest): Universe (contains everything) → Galaxy (massive star systems like the Milky Way, contained in the universe) → Solar System (one star and its orbiting bodies, contained in a galaxy) → Planet (individual body orbiting a star, contained in a solar system). Our address: Universe → Milky Way Galaxy → Solar System → Earth → Northern Hemisphere → India → Karnataka."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "Earth has liquid water while Venus (similar in size) does not. What is the PRIMARY reason?",
+      "options": [
+        "A) Venus has no hydrogen, so water molecules cannot form",
+        "B) Venus is slightly closer to the Sun and has a runaway greenhouse effect that vaporised all water",
+        "C) Earth's magnetic field attracts water from space",
+        "D) Venus rotates too slowly, causing water to freeze on one side"
+      ],
+      "correct_answer": "B) Venus is slightly closer to the Sun and has a runaway greenhouse effect that vaporised all water",
+      "explanation": "Venus is only slightly closer to the Sun than Earth, but this small difference started a 'runaway greenhouse effect': more solar heat caused water to evaporate; water vapour is a greenhouse gas, which trapped more heat; this caused more evaporation; the cycle continued until all water vaporised. The hydrogen was then lost to space. Today Venus has a dense CO₂ atmosphere at 465°C. Earth avoided this fate because it is just far enough from the Sun for liquid water to persist."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "What does it mean that a light-year is a unit of DISTANCE, not time? Why is it misleading?",
+      "options": [
+        "A) It is not misleading — a light-year measures the number of years light has existed",
+        "B) It is misleading because 'year' suggests time; but a light-year is actually the distance light covers in one year (~9.46 trillion km)",
+        "C) A light-year and a calendar year are the same unit used in different contexts",
+        "D) Light-years measure time on distant planets where time passes differently"
+      ],
+      "correct_answer": "B) It is misleading because 'year' suggests time; but a light-year is actually the distance light covers in one year (~9.46 trillion km)",
+      "explanation": "The term 'light-year' is commonly misunderstood as a measure of time because 'year' is a unit of time. However, a light-year is a unit of DISTANCE — the distance that light (travelling at 3 × 10⁸ m/s) covers in one year: approximately 9.46 trillion kilometres. It is used in astronomy because space distances are too enormous for kilometres. When we say a star is '4 light-years away', we mean it is 4 × 9.46 trillion km away — not that it will take 4 years to reach (at normal speeds it would take hundreds of thousands of years)."
     }
   ]
 }

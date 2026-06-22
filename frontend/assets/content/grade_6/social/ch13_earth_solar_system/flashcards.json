@@ -1,96 +1,172 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch13_earth_solar_system_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science — Geography",
+  "textbook": "Our Environment — Textbook for Class VI",
+  "chapter_number": 13,
+  "chapter_title": "The Earth in the Solar System",
+  "total_cards": 20,
   "cards": [
     {
       "id": "fc01",
-      "front": {
-        "en": "What is the core idea of The Earth in the Solar System? (FC1)",
-        "hi": "What is the core idea of The Earth in the Solar System? (FC1)",
-        "kn": "What is the core idea of The Earth in the Solar System? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is the universe? How old is it approximately?",
+      "back": "The universe is the totality of all space, time, matter, and energy — everything that exists. It contains an estimated 2 trillion galaxies. It is approximately 13.8 billion years old and continues to expand. The universe began with the Big Bang — a rapid expansion from an extremely hot, dense point.",
+      "memory_hook": "Universe = ALL. Everything you can see, touch, imagine — and infinitely more — is the universe. 13.8 billion years old. For comparison, Earth is only 4.5 billion years old — the universe existed for over 9 billion years before Earth was born."
     },
     {
       "id": "fc02",
-      "front": {
-        "en": "Why is The Earth in the Solar System important? (FC2)",
-        "hi": "Why is The Earth in the Solar System important? (FC2)",
-        "kn": "Why is The Earth in the Solar System important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a galaxy? What is our galaxy called?",
+      "back": "A galaxy is a massive system of stars, gas, dust, and dark matter held together by gravity. Galaxies come in spiral, elliptical, and irregular shapes. Our galaxy is called the Milky Way — it is a spiral galaxy containing 200–400 billion stars. The solar system is located in one of the Milky Way's spiral arms, about 26,000 light-years from the galactic centre.",
+      "memory_hook": "Milky Way = home galaxy. Why 'Milky'? Because on dark nights it looks like a faint milky white band across the sky — billions of distant stars blending into a glowing stripe. We live inside it, looking outward."
     },
     {
       "id": "fc03",
-      "front": {
-        "en": "What is the core idea of The Earth in the Solar System? (FC3)",
-        "hi": "What is the core idea of The Earth in the Solar System? (FC3)",
-        "kn": "What is the core idea of The Earth in the Solar System? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What is the solar system? What is at its centre?",
+      "back": "The solar system is the Sun and everything that orbits it — 8 planets, 200+ moons, millions of asteroids, thousands of comets, and countless meteoroids. The Sun is at the centre and contains 99.86% of the solar system's total mass. The Sun's immense gravity holds the entire system together. The solar system is located within the Milky Way galaxy.",
+      "memory_hook": "SOLAR = Sun-Orbiting League of Astronomical Residents. The Sun is the boss (99.86% mass). Everything else just orbits it because of gravity. The Sun rules — everything follows."
     },
     {
       "id": "fc04",
-      "front": {
-        "en": "Why is The Earth in the Solar System important? (FC4)",
-        "hi": "Why is The Earth in the Solar System important? (FC4)",
-        "kn": "Why is The Earth in the Solar System important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Name the eight planets of the solar system in order from the Sun.",
+      "back": "1. Mercury (closest) 2. Venus 3. Earth 4. Mars 5. Jupiter 6. Saturn 7. Uranus 8. Neptune (farthest). Inner rocky planets: Mercury, Venus, Earth, Mars. Outer gas/ice giants: Jupiter, Saturn, Uranus, Neptune. Pluto is now a dwarf planet (since 2006) and is NOT counted among the eight.",
+      "memory_hook": "My Very Educated Mother Just Served Us Nachos = Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune. Eight plates at the table — no ninth guest (Pluto got uninvited in 2006)."
     },
     {
       "id": "fc05",
-      "front": {
-        "en": "What is the core idea of The Earth in the Solar System? (FC5)",
-        "hi": "What is the core idea of The Earth in the Solar System? (FC5)",
-        "kn": "What is the core idea of The Earth in the Solar System? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is the difference between a star and a planet?",
+      "back": "Star: Produces its own light and heat through nuclear fusion of hydrogen into helium. Very large, very hot, and very bright. Example: the Sun is our nearest star. Planet: Does NOT produce its own light — only reflects light received from a star. Orbits a star. Much cooler and smaller than stars (generally). Example: Earth orbits the Sun and reflects its light. Key test: stars twinkle (light bends through atmosphere over a point source); planets do not twinkle as much (they are close enough to appear as tiny discs).",
+      "memory_hook": "Star = solar-powered lamp (makes own light). Planet = mirror ball (reflects the lamp's light). One glows, the other borrows. The Sun is a lamp; Earth is a mirror. Night sky: twinkling = star, steady = planet."
+    },
+    {
+      "id": "fc06",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "Why is Earth called the 'Blue Planet'?",
+      "back": "Earth is called the Blue Planet because approximately 71% of its surface is covered by water (oceans, seas, lakes, rivers). When viewed from space, Earth appears predominantly blue due to the colour of the water reflecting in sunlight. Earth is the only planet in the solar system with such large amounts of liquid water on its surface — making it unique in appearance and in ability to support life.",
+      "memory_hook": "Blue = water. 71% of Earth's surface is ocean = mostly blue when seen from space. The 'Blue Marble' photo from Apollo 17 (1972) shows this perfectly. No other planet looks blue — Mars is red, Jupiter is brown-orange, Saturn is yellowish."
+    },
+    {
+      "id": "fc07",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "Why is Earth called the 'Unique Planet' or the planet of life?",
+      "back": "Earth is uniquely suited for life because of: (1) Liquid water — present in large amounts, essential for all known life. (2) Oxygen-rich atmosphere — 21% oxygen supports animal respiration; nitrogen dilutes it safely. (3) Goldilocks distance — Earth is at just the right distance from the Sun (not too hot, not too cold) for liquid water to exist. (4) Moderate temperature range — average ~15°C, suitable for life. (5) Ozone layer — shields life from harmful UV radiation. (6) Magnetic field — protects from solar wind. No other planet in our solar system has all these conditions simultaneously.",
+      "memory_hook": "Earth = the JUST RIGHT planet. Goldilocks zone: not too close (Venus = too hot), not too far (Mars = too cold), but JUST RIGHT for liquid water and life. Earth won the cosmic lottery."
+    },
+    {
+      "id": "fc08",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is the Moon? Why does it shine at night?",
+      "back": "The Moon is Earth's only natural satellite — a large rocky body that orbits Earth at an average distance of ~3,84,000 km. The Moon does NOT produce its own light. It shines at night because it reflects sunlight — like a mirror. The Moon takes approximately 27.3 days to orbit Earth. It also rotates on its own axis in the same 27.3 days, which is why we always see the same side of the Moon from Earth (synchronous rotation). The Moon's gravity causes tides in Earth's oceans.",
+      "memory_hook": "Moon = Earth's night light, powered by the Sun's electricity. It doesn't have its own bulb — it borrows the Sun's light and reflects it to us. Without the Sun, the Moon would be invisible."
+    },
+    {
+      "id": "fc09",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What are asteroids? Where are most of them found?",
+      "back": "Asteroids are small, rocky, irregularly shaped bodies that orbit the Sun. They are the leftover rocky material from the formation of the solar system ~4.6 billion years ago. Most asteroids are found in the asteroid belt — a region between the orbits of Mars and Jupiter. The asteroid belt contains millions of asteroids ranging in size from dust particles to dwarf-planet-sized bodies (like Ceres, the largest asteroid). Asteroids do not have atmospheres and are not round like planets.",
+      "memory_hook": "Asteroid belt = solar system's rocky junkyard between Mars and Jupiter. They're the 'building material' left over after the planets formed. Jupiter's gravity prevented them from combining into a planet."
+    },
+    {
+      "id": "fc10",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a comet? What makes a comet visible?",
+      "back": "A comet is an icy body (made of ice, dust, and rock) that orbits the Sun in a long elliptical orbit. When a comet travels close to the Sun, solar heat vaporises its ice, forming a bright glowing tail (coma and tail) that always points away from the Sun. Famous comets: Halley's Comet (appears every ~76 years; last seen in 1986, next in 2061). Comets originate from the Oort Cloud (a distant shell of icy bodies at the edge of the solar system) or the Kuiper Belt (beyond Neptune).",
+      "memory_hook": "Comet = dirty snowball with a hair. 'Hair' = the glowing tail formed by vaporising ice near the Sun. The tail always blows AWAY from the Sun (pushed by solar wind). Halley's Comet = the most famous visitor that comes every 76 years."
+    },
+    {
+      "id": "fc11",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "Distinguish between a meteoroid, meteor, and meteorite.",
+      "back": "Meteoroid: A small rocky or metallic body in space, ranging from a grain of sand to a boulder. Very common in space. Meteor: A meteoroid that enters Earth's atmosphere and burns up due to friction with air — seen as a streak of light in the sky. Commonly called a 'shooting star' (though it is not a star). Meteorite: A meteoroid that survives its journey through Earth's atmosphere and lands on Earth's surface. Meteorites are classified as stony, iron, or stony-iron based on composition.",
+      "memory_hook": "Three stages of a space rock's Earth encounter: Oid (in space) → Or (burning in atmosphere = shooting star) → Ite (landed on Earth). ROID = in voID (space). MeteOR = flaming ball of fire (Or = burns). MeteorITE = landed on land (ITE = site, it's on a site now)."
+    },
+    {
+      "id": "fc12",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is a light-year? Why is it used instead of kilometres for space distances?",
+      "back": "A light-year is the distance that light travels in one year — approximately 9.46 trillion kilometres (9.46 × 10¹² km). It is used because space distances are so enormous that kilometres become impractical. For example, the nearest star to Earth (Proxima Centauri) is about 4.24 light-years away — that's ~40 trillion km. Writing 40 trillion km is cumbersome; '4.24 light-years' is much simpler. Light-year is a distance, NOT a time — a common misconception.",
+      "memory_hook": "Light travels 300,000 km per second. In one year it travels 9.46 trillion km. Space is so vast that even light needs years to cross it. The Sun's light takes only 8 minutes to reach Earth — so the Sun is 8 light-minutes away. The nearest star = 4.24 light-YEARS. Scale difference = mind-blowing."
+    },
+    {
+      "id": "fc13",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Which is the largest planet? Which is the smallest? Which is the hottest?",
+      "back": "Largest planet: Jupiter — so large that all other planets in the solar system could fit inside it combined. Smallest planet: Mercury — about the size of our Moon. Hottest planet: Venus (not Mercury!) — Venus has a thick CO₂ atmosphere that traps solar heat (extreme greenhouse effect), making its surface temperature ~465°C, even hotter than Mercury's maximum of ~430°C. Mercury is hotter during the day than Venus but drops extremely cold at night because it has no atmosphere to retain heat.",
+      "memory_hook": "JuMVen: Jupiter = Jumbo. Mercury = Miniscule. Venus = Very hot. Three superlatives in one. Don't be tricked by 'Mercury is closest = hottest' — Venus wins because of its thick blanket of CO₂."
+    },
+    {
+      "id": "fc14",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Name the four inner rocky planets and the four outer gas/ice giants.",
+      "back": "Inner rocky (terrestrial) planets — small, dense, rocky surfaces, close to the Sun: Mercury, Venus, Earth, Mars. Outer gas/ice giants — large, mostly gaseous/icy, far from Sun: Jupiter, Saturn, Uranus, Neptune. Jupiter and Saturn are gas giants (mostly hydrogen and helium). Uranus and Neptune are ice giants (mostly water, ammonia, methane ices). The asteroid belt separates the inner and outer planets (between Mars and Jupiter).",
+      "memory_hook": "Inner = MVEM = 4 rocky small ones close to the Sun. Outer = JSUN = 4 giant gassy/icy ones far from the Sun. The asteroid belt is the dividing wall between the inner neighbourhood and the outer suburbs of the solar system."
+    },
+    {
+      "id": "fc15",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Saturn is known for its rings. What are they made of?",
+      "back": "Saturn's rings are made of billions of pieces of ice, rock, and dust — ranging in size from tiny grains to chunks as large as a house. The rings extend up to 282,000 km from Saturn but are remarkably thin (only about 10–100 metres in many places). All four outer planets (Jupiter, Saturn, Uranus, Neptune) actually have ring systems, but Saturn's are the most prominent and visible. Saturn's rings were first observed by Galileo in 1610.",
+      "memory_hook": "Saturn = the ringed showoff of the solar system. Its rings are like a giant disc of icy gravel orbiting the planet. Think of it as Saturn wearing a glittering hula-hoop made of ice and rock — visible even through a small telescope."
+    },
+    {
+      "id": "fc16",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "India's contribution to Moon science: What did Chandrayaan-1 and Chandrayaan-3 achieve?",
+      "back": "Chandrayaan-1 (2008): India's first lunar mission. Its Moon Impact Probe confirmed the presence of water molecules (hydroxyl ions) in lunar soil, especially near the poles — a major scientific discovery. Chandrayaan-3 (2023): India's third lunar mission. Its Vikram lander and Pragyan rover successfully landed near the Moon's south pole (at ~69°S latitude) — the first ever soft landing at the lunar south pole by any nation. The rover confirmed the presence of sulphur, aluminium, iron, calcium, and other elements on the surface. Both missions were developed and managed from ISRO, Bengaluru.",
+      "memory_hook": "Chandrayaan = Moon vehicle (Sanskrit: Chandra = Moon, Yaan = vehicle). Chandrayaan-1 found water on Moon (2008). Chandrayaan-3 landed where no one had landed before (2023 — lunar south pole). India = one of four countries to soft-land on the Moon (USA, USSR, China, India)."
+    },
+    {
+      "id": "fc17",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why do we always see the same side of the Moon from Earth?",
+      "back": "The Moon takes approximately 27.3 days to orbit Earth AND also takes approximately 27.3 days to rotate once on its own axis. Since the orbital period and rotation period are identical (synchronous rotation), the same face of the Moon always points towards Earth. The far side of the Moon (sometimes called the 'dark side') is never visible from Earth — it was first photographed by a Soviet spacecraft in 1959. China's Chang'e 4 (2019) was the first mission to land on the Moon's far side.",
+      "memory_hook": "Moon's orbital period = Moon's rotation period. It's like a dancer who turns to face you at the exact same speed as they circle you — you always see their face, never their back. Earth's gravity locked the Moon into this synchronous dance billions of years ago."
+    },
+    {
+      "id": "fc18",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is the Milky Way? How can we see it?",
+      "back": "The Milky Way is our home galaxy — a barred spiral galaxy containing 200–400 billion stars, including our Sun. Its diameter is approximately 100,000 light-years. Our solar system is located in one of the Milky Way's spiral arms (the Orion Arm), about 26,000 light-years from the galactic centre. From Earth, the Milky Way appears as a faint, hazy band of white light stretching across the night sky — best visible in dark rural areas away from city light pollution. This band is the combined glow of billions of distant stars in the plane of our galaxy.",
+      "memory_hook": "Milky Way = galaxy = river of stars. You're standing inside the Milky Way looking out — that faint white band across a dark sky IS your galaxy seen edge-on. Bengaluru's light pollution hides it; go to Coorg or Hampi at night and you can see it clearly."
+    },
+    {
+      "id": "fc19",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "How do we know that the Moon does not have its own light?",
+      "back": "Several observations confirm the Moon reflects light rather than producing it: (1) Phases of the Moon — the Moon appears to change shape (new moon, crescent, full) because different portions are illuminated by the Sun as the Moon orbits Earth. If the Moon produced its own light, it would always be fully bright. (2) Lunar eclipse — when Earth comes between the Sun and Moon, the Moon goes dark — if it produced its own light, it wouldn't disappear. (3) During a solar eclipse, the Moon blocks sunlight — the same source illuminates both. These observations prove the Moon is a reflector, not a producer, of light.",
+      "memory_hook": "Moon phases prove reflection: new moon = no sunlight reaches the side facing us = Moon appears dark. Full moon = Sun directly illuminates the side facing us = full brightness. A truly glowing Moon would always be full. Phases = proof of reflected light."
+    },
+    {
+      "id": "fc20",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Classify: Sun, Earth, Moon, Halley's Comet, asteroid Ceres, and a shooting star — by celestial body type.",
+      "back": "Sun — Star (produces own light through nuclear fusion). Earth — Planet (orbits the Sun, does not produce own light, has cleared its orbital path). Moon — Natural satellite (orbits Earth, reflects sunlight). Halley's Comet — Comet (icy body, elliptical orbit, develops a tail near the Sun). Ceres — Dwarf planet / large asteroid (in asteroid belt, not large enough to clear its orbit). Shooting star — Meteor (a meteoroid burning in Earth's atmosphere — not a star at all!).",
+      "memory_hook": "Classify by: Does it make own light? → Star. Does it orbit a star? → Planet or dwarf planet. Does it orbit a planet? → Satellite/moon. Is it icy with a tail? → Comet. Rocky in the asteroid belt? → Asteroid. Burning streak in sky? → Meteor (NOT a star!)."
     }
   ]
 }

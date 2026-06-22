@@ -1,114 +1,168 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "science",
-  "chapter_id": "ch06_changes_around_us",
-  "chapter_title": {
-    "en": "Changes Around Us",
-    "hi": "हमारे चारों ओर के परिवर्तन",
-    "kn": "ನಮ್ಮ ಸುತ್ತಲಿನ ಬದಲಾವಣೆಗಳು"
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 6,
+  "chapter_title": "Changes Around Us",
+  "estimated_study_time_minutes": 40,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Distinguish between reversible and irreversible changes",
+    "Identify and classify everyday changes as reversible or irreversible with reasons",
+    "Understand the concept of expansion and contraction due to heat",
+    "Explain how dissolving, condensation, and physical state changes relate to reversibility",
+    "Connect the concept of irreversibility to burning, cooking, and chemical changes",
+    "Use correct scientific vocabulary: reversible, irreversible, expansion, contraction"
+  ],
+
+  "prerequisite_knowledge": [
+    "Awareness that things around us change — water becomes ice, wood burns, milk turns to curd",
+    "Basic understanding of heating and cooling from daily experience",
+    "Familiarity with materials from Chapter 4 (materials and their properties)"
+  ],
+
+  "introduction": {
+    "why_important": "Everything around us is changing constantly — ice melts, iron rusts, wood burns, dough becomes bread. Knowing which changes can be undone and which cannot is fundamental to science, engineering, cooking, and environmental understanding.",
+    "real_life_relevance": "When you fold paper, you can unfold it — but once you tear it, you cannot make it whole again. When you melt butter, you can cool it back — but once you fry something in it, the fried food cannot become raw again. Reversibility is all around us.",
+    "karnataka_context": "Karnataka's volcanic Deccan Plateau rock formed through irreversible cooling of lava millions of years ago. The famous Mysuru silk weaving — once the silk is cut and sewn into a saree, the process is irreversible. Traditional Karnataka pottery (from Dharwad, Bidar, Molakalmuru) involves firing clay — an irreversible change. Reversible changes appear in Karnataka's summer evaporation of Bellandur lake and seasonal flooding of paddy fields.",
+    "connection_to_previous_learning": "Chapter 4 introduced materials and their properties. Chapter 5 covered physical separation. This chapter examines what happens when materials change — and whether those changes can be undone."
   },
-  "topics": [
+
+  "story_summary": {
+    "characters": [
+      { "name": "Reversible Changes", "role": "Changes that can be undone — the original substance can be recovered" },
+      { "name": "Irreversible Changes", "role": "Changes that cannot be undone — the original substance cannot be recovered" },
+      { "name": "Heat and Expansion", "role": "Heating causes most materials to expand; cooling causes them to contract — both usually reversible" }
+    ],
+    "plot": [
+      "The chapter opens with the observation that changes happen everywhere and all the time.",
+      "It introduces the key question: can every change be reversed?",
+      "Reversible changes are explored — melting of ice, dissolving of salt in water, stretching a rubber band, folding paper.",
+      "Irreversible changes are explored — burning of paper, cooking an egg, souring of milk, breaking a glass.",
+      "The concept of expansion (materials getting bigger when heated) is introduced with examples.",
+      "Contraction (materials getting smaller when cooled) is paired with expansion.",
+      "The chapter explains why railways have gaps in tracks (thermal expansion), and how tight jar lids can be loosened by heating.",
+      "It distinguishes between physical changes (usually reversible) and chemical changes (usually irreversible).",
+      "Students are encouraged to observe changes at home and classify them."
+    ],
+    "moral": "Not all changes can be undone. Understanding which changes are reversible and which are permanent helps us make better decisions in science, cooking, and everyday life."
+  },
+
+  "core_concepts": [
     {
-      "topic_id": "science_grade6_ch06_changes_around_us_basics",
-      "title": {
-        "en": "Changes Around Us - Fundamentals",
-        "hi": "हमारे चारों ओर के परिवर्तन - बुनियादी बातें",
-        "kn": "ನಮ್ಮ ಸುತ್ತಲಿನ ಬದಲಾವಣೆಗಳು - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of Changes Around Us",
-        "Solve exercises and apply rules related to Changes Around Us",
-        "Analyze practical examples of Changes Around Us in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Changes Around Us. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम हमारे चारों ओर के परिवर्तन का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ನಮ್ಮ ಸುತ್ತಲಿನ ಬದಲಾವಣೆಗಳು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Changes Around Us in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम हमारे चारों ओर के परिवर्तन का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ನಮ್ಮ ಸುತ್ತಲಿನ ಬದಲಾವಣೆಗಳು ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Changes Around Us.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Changes Around Us.",
-            "hi": "चरण 1: हमारे चारों ओर के परिवर्तन के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ನಮ್ಮ ಸುತ್ತಲಿನ ಬದಲಾವಣೆಗಳು ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Changes Around Us builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "हमारे चारों ओर के परिवर्तन में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ನಮ್ಮ ಸುತ್ತಲಿನ ಬದಲಾವಣೆಗಳು ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Reversible Changes",
+      "simple_explanation": "A reversible change is one where you can get the original substance back. The change can be undone.",
+      "detailed_explanation": "A reversible change does not produce a new substance — the original substance can be recovered. Examples: (1) Melting of ice — ice melts to water (heating), and water freezes back to ice (cooling). The substance is still water/H₂O throughout. (2) Dissolving salt in water — the salt dissolves and seems to disappear, but it can be recovered by evaporating the water. (3) Stretching a rubber band — it returns to original shape when released. (4) Folding paper — can be unfolded. (5) Melting of wax — wax candle melts when heated, solidifies when cooled. (6) Blowing up a balloon — can be deflated. Reversible changes are usually physical changes — they involve a change in shape, size, or state, but not chemical composition.",
+      "real_life_example": "When you heat butter, it melts into liquid. When you cool it, it solidifies again. The butter is unchanged chemically — this is a reversible change. Similarly, when you dissolve sugar in water for lemonade, the sugar hasn't been destroyed — you could evaporate the water and get the sugar back.",
+      "karnataka_example": "During Karnataka's hot summer, water from lakes like Lalbagh Lake in Bengaluru evaporates (reversible — clouds form and rain brings the water back). The seasonal floods in the Cauvery delta represent the reversible water cycle.",
+      "common_mistakes": "Students sometimes think dissolving is irreversible because you cannot see the dissolved substance. It IS reversible — you can recover the dissolved substance by evaporation. However, if the dissolution causes a chemical reaction (like dissolving a tablet that fizzes), that may be irreversible.",
+      "memory_tip": "REVERSIBLE = can REVERSE = can go BACK. Melt → freeze back. Dissolve → evaporate back. Stretch → release back."
+    },
+    {
+      "concept_name": "Irreversible Changes",
+      "simple_explanation": "An irreversible change is one where you CANNOT get the original substance back. A new substance is usually formed.",
+      "detailed_explanation": "An irreversible change produces a new substance with different properties. The original cannot be recovered. Examples: (1) Burning of paper — paper burns to ash and smoke. You cannot get paper back from ash. (2) Cooking an egg — raw egg proteins change permanently when cooked. Cooked egg cannot become raw again. (3) Souring of milk — milk turns sour (curd) due to bacterial action. You cannot get fresh milk back from curd. (4) Rusting of iron — iron combines with oxygen and moisture to form rust (iron oxide). Rust ≠ iron. (5) Burning of wood — wood turns to ash, charcoal, and gases. Cannot be reversed. (6) Setting of cement — liquid cement sets into hard solid permanently. Irreversible changes involve chemical reactions — new substances with different properties are formed.",
+      "real_life_example": "When you cook a dosa batter on a hot tawa, the liquid batter turns into a crispy dosa — you cannot turn the dosa back into liquid batter. When wood burns in your chulha, the ash that remains is not wood — it's a new substance. Both are irreversible.",
+      "karnataka_example": "Traditional Bidar craft (Bidriware) involves irreversible changes — zinc and copper alloy is cast into shapes and blackened using a special soil process. Once made, the shape and composition cannot be reversed. Karnataka's iron ore smelting in Bellary and iron-related industries involve irreversible chemical changes.",
+      "common_mistakes": "Students confuse 'cannot easily undo' with 'irreversible'. Irreversible means you CANNOT get the original back AT ALL — not just that it is difficult. Also, some students think all cooking is reversible — cooking is irreversible because chemical bonds in proteins and starches change permanently.",
+      "memory_tip": "IRREVERSIBLE = IR = It's REALLY final. Burn, Cook, Rust, Rot, Set cement — all irreversible. Remember the BCRRS rule."
+    },
+    {
+      "concept_name": "Expansion and Contraction",
+      "simple_explanation": "When things are heated, they usually expand (get bigger). When cooled, they contract (get smaller). This is almost always reversible.",
+      "detailed_explanation": "Thermal expansion: most substances (solids, liquids, and gases) expand when heated because their particles vibrate more and need more space. Thermal contraction: when cooled, particles slow down and the substance shrinks. This is usually reversible — heat it up, it expands; cool it down, it contracts. Practical applications: (1) Railway tracks have gaps at joints to allow expansion in summer heat — without gaps, tracks would buckle. (2) Electrical wires hang loosely between poles for the same reason (they contract in winter). (3) A tight metal jar lid can be loosened by running hot water over it — the metal expands, loosening the grip. (4) Thermometers work because mercury or alcohol expands when temperature rises. (5) Balloon expands when heated; shrinks when cooled.",
+      "real_life_example": "If you've ever had trouble opening a glass jar with a metal lid, running the lid under hot water for 30 seconds usually works — the metal lid expands slightly more than the glass, loosening the seal. This is thermal expansion in action.",
+      "karnataka_example": "The railway lines on the Konkan Railway (passing through coastal Karnataka) have expansion joints at regular intervals to accommodate the significant temperature variation between the cool monsoon season and the hot summer — without these, tracks would buckle in the heat.",
+      "common_mistakes": "Students sometimes think expansion is irreversible. It is NOT — cooling the expanded material will contract it back. However, if heating causes a chemical change (like burning), that's irreversible — the expansion was just the physical part. Also, water is unusual — it EXPANDS when it freezes (solidifies), which is the exception to the general rule.",
+      "memory_tip": "HEAT → EXPAND (getting Excited and spreading out). COOL → CONTRACT (getting Cold and Curling inward). HC → EC: Heat/Contract... wait — HE+CC: Heat-Expands, Cold-Contracts."
     }
+  ],
+
+  "key_vocabulary": [
+    { "term": "Change", "definition": "Any alteration in the physical or chemical properties of a substance." },
+    { "term": "Reversible change", "definition": "A change that can be undone and the original substance can be recovered. Usually a physical change." },
+    { "term": "Irreversible change", "definition": "A change that cannot be undone; a new substance with different properties is formed. Usually a chemical change." },
+    { "term": "Expansion", "definition": "An increase in the size or volume of a substance, usually caused by heating." },
+    { "term": "Contraction", "definition": "A decrease in the size or volume of a substance, usually caused by cooling." },
+    { "term": "Physical change", "definition": "A change in the shape, size, or state of a substance without changing its chemical composition. Usually reversible." },
+    { "term": "Chemical change", "definition": "A change that produces a new substance with different properties. Usually irreversible." }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Reversible Changes",
+      "questions": [
+        { "type": "Recall", "q": "Is melting of ice a reversible or irreversible change? Give a reason.", "a": "Reversible. Melted ice (water) can be frozen again to get ice. No new substance is formed — it is still water/H₂O throughout. It is a change of state, not a chemical change." },
+        { "type": "Application", "q": "Salt dissolves in water and you cannot see it. Is this a reversible change? How can you prove it?", "a": "Yes, it is reversible. You can recover the salt by evaporating the water — the salt will reappear as crystals. The salt was never destroyed — it was only dispersed into the water." }
+      ]
+    },
+    {
+      "after_concept": "Irreversible Changes",
+      "questions": [
+        { "type": "Understanding", "q": "Why is burning of paper an irreversible change?", "a": "When paper burns, it is chemically transformed into ash, water vapour, carbon dioxide, and smoke. These are all new substances with completely different properties. You cannot take ash and turn it back into paper." },
+        { "type": "Application", "q": "Is souring of milk reversible or irreversible? Explain.", "a": "Irreversible. When milk sours, bacteria chemically convert lactose (milk sugar) into lactic acid, permanently changing the composition. You cannot turn sour curd back into fresh milk." }
+      ]
+    },
+    {
+      "after_concept": "Expansion and Contraction",
+      "questions": [
+        { "type": "Application", "q": "Why do railway tracks have small gaps at the joints between rails?", "a": "Railway tracks (metal) expand when heated in summer. If there were no gaps, the expanding rails would push against each other and buckle (bend and warp). The gaps provide space for the metal to expand without damaging the tracks." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "A reversible change can be undone — the original substance can be recovered.",
+    "An irreversible change cannot be undone — a new substance is formed.",
+    "Physical changes (melting, dissolving, stretching) are usually reversible.",
+    "Chemical changes (burning, cooking, rusting) are usually irreversible.",
+    "Heating causes most substances to expand; cooling causes them to contract.",
+    "Expansion and contraction are reversible physical changes.",
+    "Railway tracks have expansion joints to prevent buckling in heat.",
+    "Dissolving is reversible (evaporate to recover the dissolved substance).",
+    "Cooking an egg, burning paper, souring of milk are all irreversible.",
+    "Karnataka examples: Bidar craft (irreversible), railway expansion joints on Konkan Railway (expansion), water cycle (reversible)."
+  ],
+
+  "mind_map": {
+    "root": "Changes Around Us",
+    "branches": [
+      {
+        "branch": "Reversible Changes",
+        "sub": ["Melting of ice", "Dissolving of salt", "Stretching rubber band", "Folding paper", "Melting wax"]
+      },
+      {
+        "branch": "Irreversible Changes",
+        "sub": ["Burning of paper/wood", "Cooking food", "Souring of milk", "Rusting of iron", "Setting of cement"]
+      },
+      {
+        "branch": "Expansion and Contraction",
+        "sub": ["Heat → Expansion", "Cooling → Contraction", "Railway track gaps", "Tight jar lid — heat to open", "Thermometer works on expansion"]
+      },
+      {
+        "branch": "Physical vs Chemical Change",
+        "sub": ["Physical = shape/size/state change, usually reversible", "Chemical = new substance formed, usually irreversible"]
+      },
+      {
+        "branch": "Karnataka Connections",
+        "sub": ["Bidriware craft — irreversible", "Konkan Railway expansion joints", "Water cycle — reversible", "Clay pottery firing — irreversible"]
+      }
+    ]
+  },
+
+  "revision_notes": "Chapter 6 distinguishes between reversible and irreversible changes. Reversible: original substance can be recovered, usually physical changes — melting ice (water → ice → water), dissolving salt in water (recover by evaporation), stretching rubber band, folding paper, melting wax. Irreversible: new substance formed, cannot undo — burning paper (ash/smoke formed), cooking egg (proteins denature), souring milk (chemical change by bacteria), rusting iron (new compound — iron oxide), setting cement. Expansion and contraction: most substances expand when heated and contract when cooled (reversible). This principle explains: railway track expansion joints, loose electrical wires, opening tight jar lids with hot water, thermometers. Water is exceptional — it expands when frozen. Karnataka: Bidriware/pottery firing are irreversible; Konkan Railway expansion joints; monsoon water cycle is reversible.",
+
+  "must_remember_facts": [
+    "Reversible change = can undo. Irreversible change = cannot undo (new substance formed).",
+    "Melting ice, dissolving salt, stretching rubber band = REVERSIBLE.",
+    "Burning paper/wood, cooking egg, souring milk, rusting iron = IRREVERSIBLE.",
+    "Physical changes are usually reversible. Chemical changes are usually irreversible.",
+    "Heat → Expansion. Cold → Contraction. (Exception: water expands on freezing.)",
+    "Railway tracks have gaps to allow expansion in summer — without gaps, tracks buckle.",
+    "Dissolving is reversible — evaporate the water and get the dissolved substance back.",
+    "Cooking is irreversible — cooked food cannot become raw again."
   ]
 }

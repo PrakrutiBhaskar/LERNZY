@@ -1,114 +1,212 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "social",
-  "chapter_id": "ch01_history_sources",
-  "chapter_title": {
-    "en": "What, Where, How and When",
-    "hi": "क्या, कहाँ, कैसे और कब",
-    "kn": "ಏನು, ಎಲ್ಲಿ, ಹೇಗೆ ಮತ್ತು ಯಾವಾಗ"
+  "subject": "Social Science — History",
+  "textbook": "Our Pasts-I",
+  "chapter_number": 1,
+  "chapter_title": "What, Where, How and When?",
+  "estimated_study_time_minutes": 45,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Understand what history is and why studying the past is important",
+    "Identify the different kinds of sources historians and archaeologists use to learn about the past",
+    "Distinguish between manuscripts, inscriptions, and archaeological remains as sources",
+    "Explain where the earliest people in the subcontinent lived — along the Narmada, Indus, Ganga, and other rivers",
+    "Understand the significance of BCE and CE date systems used in history",
+    "Appreciate that there were many different pasts — not one single story",
+    "Know the various names used for the Indian subcontinent — Bharata, India, Hindustan",
+    "Connect the chapter's themes to Karnataka and local history"
+  ],
+
+  "prerequisite_knowledge": [
+    "Basic awareness of India as a country and its rivers (Ganga, Indus, Narmada)",
+    "Understanding of what the words 'past' and 'present' mean",
+    "General knowledge that people lived in India thousands of years ago",
+    "Basic map-reading — ability to locate rivers and regions on a map of India"
+  ],
+
+  "introduction": {
+    "why_important": "Before studying any history chapter, we must first understand HOW historians know what they know. This chapter is the foundation — it explains the tools, sources, and methods used to study the past, and sets up everything that follows in the textbook.",
+    "real_life_relevance": "Every time you read a history book, watch a documentary about ancient India, or visit a museum, you are benefiting from the work of historians and archaeologists who used manuscripts, inscriptions, and excavated objects to piece together the past. Understanding how this works helps you become a smarter, more critical reader of history.",
+    "karnataka_context": "Karnataka has an extraordinarily rich historical record. Inscriptions in Kannada — some of the oldest in the language — have been found across the state, from Halmidi (5th–6th century CE, the oldest known Kannada inscription) to Shravanabelagola. The Hoysala, Rashtrakuta, Chalukya, and Vijayanagara kingdoms all left behind manuscripts, inscriptions, temples, and coins that historians study exactly as described in this chapter. Karnataka's Archaeological Department actively excavates sites that reveal layers of the past.",
+    "connection_to_previous_learning": "This is Chapter 1 — the introductory chapter. It prepares students for all subsequent chapters by establishing vocabulary (BCE, CE, manuscripts, inscriptions, archaeology) and methods that will be referenced throughout the textbook."
   },
-  "topics": [
+
+  "chapter_summary": {
+    "key_topics": [
+      "What can we know about the past — food, clothing, houses, occupations, games, stories, songs of people from different periods",
+      "Where did people live — along rivers like the Narmada (earliest gatherers), Indus and tributaries (earliest cities), Ganga and its tributaries (later kingdoms)",
+      "How do we find out about the past — through manuscripts, inscriptions, and archaeological remains (tools, pots, buildings, coins, seals)",
+      "Names of the land — India/Bharata used for the subcontinent; Hindustan used later; different groups had different names",
+      "BCE (Before Common Era) and CE (Common Era) — how historians date events; dates go backwards before BCE",
+      "One past or many pasts — different people (hunters, farmers, rulers, merchants, crafts persons, women, children) had different experiences of the same period"
+    ],
+    "moral_lesson": "History is not just about kings and wars — it is the story of all people: farmers, crafts persons, merchants, women, children. Everyone had a past worth knowing."
+  },
+
+  "core_concepts": [
     {
-      "topic_id": "social_grade6_ch01_history_sources_basics",
-      "title": {
-        "en": "What, Where, How and When - Fundamentals",
-        "hi": "क्या, कहाँ, कैसे और कब - बुनियादी बातें",
-        "kn": "ಏನು, ಎಲ್ಲಿ, ಹೇಗೆ ಮತ್ತು ಯಾವಾಗ - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of What, Where, How and When",
-        "Solve exercises and apply rules related to What, Where, How and When",
-        "Analyze practical examples of What, Where, How and When in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore What, Where, How and When. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम क्या, कहाँ, कैसे और कब का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಏನು, ಎಲ್ಲಿ, ಹೇಗೆ ಮತ್ತು ಯಾವಾಗ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore What, Where, How and When in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम क्या, कहाँ, कैसे और कब का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಏನು, ಎಲ್ಲಿ, ಹೇಗೆ ಮತ್ತು ಯಾವಾಗ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of What, Where, How and When.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in What, Where, How and When.",
-            "hi": "चरण 1: क्या, कहाँ, कैसे और कब के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಏನು, ಎಲ್ಲಿ, ಹೇಗೆ ಮತ್ತು ಯಾವಾಗ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering What, Where, How and When builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "क्या, कहाँ, कैसे और कब में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಏನು, ಎಲ್ಲಿ, ಹೇಗೆ ಮತ್ತು ಯಾವಾಗ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Sources of History: Manuscripts, Inscriptions, and Archaeology",
+      "simple_explanation": "Historians use three main types of sources to learn about the past: manuscripts (handwritten books), inscriptions (writing on stone or metal), and archaeological remains (objects, buildings, tools dug up from the ground).",
+      "detailed_explanation": "A manuscript is a handwritten book, often on palm leaf or birch bark, containing religious texts, poems, plays, or scientific knowledge. They were usually preserved in temples and monasteries and can tell us about ideas, languages, and beliefs. Inscriptions are writings carved on stone pillars, temple walls, or copper plates — they are more durable than manuscripts and often record royal orders, grants of land, or victories. Archaeological remains include everything that is excavated — tools, pottery, jewellery, buildings, seeds, animal bones, and coins. Archaeologists carefully excavate sites (dig systematically) to find and study these remains. Each type of source has strengths and limitations, and historians use all three together to build a complete picture of the past.",
+      "real_life_example": "Imagine your great-grandmother's diary (like a manuscript), a stone memorial in a park (like an inscription), and old coins and tools in a box in your attic (like archaeological remains). Historians use exactly these kinds of things — just much older — to understand ancient life.",
+      "karnataka_example": "The Halmidi inscription (around 5th–6th century CE, found in Hassan district, Karnataka) is the oldest known Kannada language inscription. It is a real-world example of an inscription used to study Karnataka's early history. The Vijayanagara ruins at Hampi are a major archaeological site in Karnataka that archaeologists continue to excavate and study today.",
+      "common_mistakes": "Students often think only inscriptions on stone count — but copper plate inscriptions and palm leaf manuscripts are equally important. Also, students confuse BCE and CE: BCE dates count backwards (500 BCE is earlier than 200 BCE), while CE dates count forwards (200 CE is earlier than 500 CE).",
+      "memory_tip": "Remember the three sources with MIA: Manuscripts = Ideas written by hand; Inscriptions = Carved on stone/metal; Archaeology = Objects dug from the earth. MIA = Manuscripts, Inscriptions, Archaeology!"
+    },
+    {
+      "concept_name": "BCE and CE Dating System",
+      "simple_explanation": "Historians use BCE (Before Common Era) and CE (Common Era) to organise dates in history. BCE dates go backwards — the higher the number, the further back in time. CE dates go forwards — the higher the number, the more recent.",
+      "detailed_explanation": "The year 0 is the dividing point. Dates before this are called BCE (Before Common Era) — formerly known as BC. Dates after this are called CE (Common Era) — formerly known as AD. The confusing part for students is that BCE dates work backwards: 3000 BCE is earlier (further in the past) than 1000 BCE. So if wheat was first grown 8000 years ago, that would be approximately 6000 BCE. This system is used by historians worldwide because it is a neutral, internationally accepted standard. In NCERT textbooks, BP (Before Present) is sometimes also used for very ancient dates.",
+      "real_life_example": "Think of a number line. Zero is in the middle. Numbers to the right (CE) get bigger as you go forward in time: 100 CE → 500 CE → 2000 CE. Numbers to the left (BCE) get bigger as you go backward in time: 100 BCE → 500 BCE → 3000 BCE. The bigger the BCE number, the longer ago it was.",
+      "karnataka_example": "The Halmidi inscription from Karnataka dates to approximately the 5th–6th century CE — meaning about 450–550 years after the year 0. The Neolithic settlements found at Brahmagiri in Karnataka date to around 2000–1800 BCE — meaning about 3800–4000 years ago. Both use the BCE/CE system.",
+      "common_mistakes": "The most common mistake is thinking that a higher BCE number means more recent. It does not — 500 BCE is approximately 2500 years ago, while 100 BCE is approximately 2100 years ago. 500 BCE is older (further in the past) than 100 BCE. Think of BCE as a countdown TO the year 0.",
+      "memory_tip": "BCE = Before Count Ended (at year 0). Think of BCE as a rocket countdown: 3, 2, 1... The higher the number, the earlier in the countdown — the further from launch (year 0). CE = Count Entered (positive territory after year 0)."
+    },
+    {
+      "concept_name": "Many Pasts, Not One",
+      "simple_explanation": "History is not just the story of kings and wars. Different groups of people — hunters, farmers, merchants, women, priests, crafts persons, children — all had different experiences of the same time period. History has many stories, not just one.",
+      "detailed_explanation": "One of the most important ideas in this chapter is that the past is complex and multi-layered. While rulers and their wars are often what we hear about first, the chapter emphasises that historians today try to understand the lives of all kinds of people. A farmer's experience of ancient India was very different from a ruler's or a trader's or a priest's. Women had different experiences from men. People living along the Narmada had different lives from those along the Ganga or Indus. When we say 'one past or many pasts', the NCERT textbook is encouraging students to think critically — to ask whose story is being told, and whose might be missing. This is called a multi-perspective approach to history.",
+      "real_life_example": "Think about your school day. If you wrote about it, you might describe your favourite subject and lunch. Your teacher would write about attendance, marking, and teaching challenges. The school peon would write about cleaning and opening the gate. The principal would write about administration. All are true — but all are different 'pasts' of the same day. History works the same way.",
+      "karnataka_example": "Karnataka's Vachana literature (10th–12th century CE) gives us the 'past' of ordinary weavers, potters, and shepherds — not just kings. Saints like Basavanna, Allama Prabhu, and Akka Mahadevi came from common backgrounds and their Vachanas tell us about daily life, social injustice, and religious experience from the ground level — exactly the 'many pasts' that this chapter discusses.",
+      "common_mistakes": "Students often think history is only about rulers and battles. This chapter specifically asks us to think about hunters, herders, farmers, merchants, priests, crafts persons, artists, musicians, and scientists — all of whom had lives worth studying. History is everyone's story.",
+      "memory_tip": "Many Pasts = Many People. Use FARMER: Farmers, Artists, Rulers, Merchants, Everyone, Rs (crafts peRsons). History tells FARMER's story — not just the king's!"
     }
+  ],
+
+  "key_terms_glossary": [
+    {
+      "term": "Manuscript",
+      "meaning": "A handwritten book, usually on palm leaf or birch bark. Manuscripts contain religious texts, poems, plays, scientific knowledge, and epics. They were preserved in temples and monasteries. They are an important primary source for historians."
+    },
+    {
+      "term": "Inscription",
+      "meaning": "Writing carved or engraved on a hard surface like stone, metal, or brick. Inscriptions are very durable and often record royal orders, land grants, victories, or religious dedications. The Halmidi inscription in Karnataka is one of the oldest Kannada inscriptions."
+    },
+    {
+      "term": "Archaeology / Archaeologist",
+      "meaning": "Archaeology is the scientific study of the human past through the systematic excavation and analysis of physical remains (tools, pottery, buildings, coins, bones). An archaeologist is a trained specialist who carries out this work."
+    },
+    {
+      "term": "Excavation",
+      "meaning": "The careful, systematic digging of a historical site by archaeologists. During excavation, objects are found, recorded, and studied. Unlike random digging, excavation preserves the context of each find (what was found near what), which is critical for interpretation."
+    },
+    {
+      "term": "BCE (Before Common Era)",
+      "meaning": "A system of dating used in history. BCE dates count backwards from the year 0. The higher the BCE number, the further back in time. For example, 3000 BCE is much earlier than 500 BCE. BCE was previously called 'BC' (Before Christ)."
+    },
+    {
+      "term": "CE (Common Era)",
+      "meaning": "A system of dating used in history. CE dates count forwards from the year 0. The higher the CE number, the more recent the date. For example, 500 CE is earlier than 1500 CE. CE was previously called 'AD' (Anno Domini)."
+    },
+    {
+      "term": "Subcontinent",
+      "meaning": "A large landmass that is part of a continent but is geographically distinct. The Indian subcontinent includes present-day India, Pakistan, Bangladesh, Nepal, Bhutan, and Sri Lanka. It is separated from the rest of Asia by the Himalayas."
+    },
+    {
+      "term": "Tributary",
+      "meaning": "A smaller river that flows into a larger river. For example, the Yamuna and the Son are tributaries of the Ganga. The earliest cities of the Indus civilisation were built along the Indus and its tributaries."
+    },
+    {
+      "term": "Bharata",
+      "meaning": "One of the ancient names for the Indian subcontinent, derived from a legendary king named Bharata. It is still used today — India's official name in the Constitution is 'Bharat'. The NCERT chapter discusses how the subcontinent has had many different names at different times."
+    },
+    {
+      "term": "Primary Source",
+      "meaning": "A source created at the time of the event being studied. Manuscripts, inscriptions, and archaeological remains are all primary sources. Secondary sources (like your textbook) are created later, using primary sources. Historians prefer primary sources for accuracy."
+    }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Comprehension",
+      "question": "Name the three main sources historians use to find out about the past. Give one example of each.",
+      "step_by_step_answer": [
+        "Step 1: Recall the three types of sources from the chapter — manuscripts, inscriptions, and archaeological remains.",
+        "Step 2: Manuscript — a handwritten book. Example: The Rigveda written on birch bark, or palm leaf texts found in temples.",
+        "Step 3: Inscription — writing on stone or metal. Example: Ashoka's edicts carved on stone pillars found across India.",
+        "Step 4: Archaeological remains — objects and structures dug from the earth. Example: Pottery, tools, and buildings excavated at Harappa and Mohenjo-daro.",
+        "Conclusion: Historians use all three sources together because each gives different kinds of information — manuscripts for ideas and language, inscriptions for royal orders and dates, and archaeology for everyday material life."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Vocabulary in context",
+      "question": "Explain the difference between BCE and CE using two historical dates: 2500 BCE (Harappan civilisation) and 268 CE (Ashoka's reign).",
+      "step_by_step_answer": [
+        "Step 1: Recall the meaning — BCE = Before Common Era (counts backwards from year 0); CE = Common Era (counts forwards from year 0).",
+        "Step 2: 2500 BCE means 2500 years BEFORE the year 0. So it was approximately 2500 + 2024 = about 4524 years ago from today.",
+        "Step 3: 268 CE means 268 years AFTER year 0. So it was approximately 2024 - 268 = about 1756 years ago from today.",
+        "Step 4: Which is older? 2500 BCE is much older than 268 CE because BCE dates go backwards — the higher the number, the further back in time.",
+        "Conclusion: The Harappan civilisation (2500 BCE) is much older than Ashoka's reign (268 CE). BCE dates count backwards — bigger number = further in the past."
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Application / Critical Thinking",
+      "question": "The chapter says 'there were many pasts, not just one.' What does this mean? Give an example of how two different people in ancient India might have experienced the same period differently.",
+      "step_by_step_answer": [
+        "Step 1: Understand the concept — different people (rulers, farmers, traders, women, crafts persons) all lived through the same historical period, but their experiences were very different.",
+        "Step 2: Think of two contrasting people in ancient India — say, a king and a hunter-gatherer living along the Narmada at the same time.",
+        "Step 3: The king's experience — he lived in a palace, commanded armies, issued orders, collected taxes. His 'past' is full of politics and power.",
+        "Step 4: The hunter-gatherer's experience — they collected fruits and roots from the forest, hunted animals, moved from place to place following seasonal resources. Their 'past' is about survival, nature, and community.",
+        "Conclusion: Both people were 'alive' at the same time in history, but their experiences were completely different. History has many pasts — the chapter encourages us to study ALL of them, not just kings and battles."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Sources of History",
+      "questions": [
+        { "type": "Recall", "q": "What is a manuscript?", "a": "A manuscript is a handwritten book, usually written on palm leaf or birch bark, containing religious texts, poems, plays, or scientific knowledge. They were preserved in temples and monasteries." },
+        { "type": "Recall", "q": "What is an inscription? Give one example.", "a": "An inscription is writing carved on stone, metal, or brick. Example: Ashoka's edicts on stone pillars, or the Halmidi inscription in Karnataka." },
+        { "type": "Understanding", "q": "Why do historians use all three sources (manuscripts, inscriptions, archaeology) rather than relying on just one?", "a": "Because each source gives different kinds of information. Manuscripts provide ideas and language; inscriptions provide royal orders and dates; archaeology provides material evidence of daily life. Together they give a more complete picture of the past." },
+        { "type": "Understanding", "q": "Which source is more durable — a manuscript or an inscription? Why?", "a": "An inscription is more durable because it is carved on hard stone or metal, which lasts for thousands of years. Manuscripts on palm leaf or bark decay over time unless carefully preserved." },
+        { "type": "Application", "q": "If you were an archaeologist excavating a 2000-year-old site, what kinds of objects might you find that could tell you about the people who lived there?", "a": "Possible answers: pottery (tells about food and cooking), coins (tells about trade and rulers), tools (tells about occupations), jewellery (tells about wealth and fashion), seeds and animal bones (tells about diet), building remains (tells about how they built houses)." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "History is the study of the past — what people ate, wore, lived in, worked at, believed in, and experienced.",
+    "The three main sources of history are: Manuscripts (handwritten books on palm leaf/bark), Inscriptions (writing on stone/metal), and Archaeological remains (objects dug from the earth).",
+    "Archaeologists carry out systematic excavations to find and study objects from the past.",
+    "BCE (Before Common Era) dates count backwards — larger number = earlier in time. CE (Common Era) dates count forwards.",
+    "The Indian subcontinent has been known by many names: Bharata, India, Hindustan — each used at different times and by different groups.",
+    "The earliest people lived along river banks — the Narmada (earliest gatherers), the Indus and tributaries (earliest cities), the Ganga and tributaries (later kingdoms).",
+    "History has many pasts — the lives of farmers, hunters, women, crafts persons, and traders are as important as the lives of kings.",
+    "Historians always ask: What? Where? How? When? — the four questions that are the title of this chapter.",
+    "Karnataka connection: The Halmidi inscription (oldest Kannada inscription) and the Hampi ruins are real examples of the sources discussed in this chapter.",
+    "Being a critical reader of history means asking: Whose story is being told? Whose story might be missing?"
+  ],
+
+  "mind_map": {
+    "root": "What, Where, How and When?",
+    "branches": [
+      { "branch": "Sources of History", "sub": ["Manuscripts — handwritten books", "Inscriptions — carved on stone/metal", "Archaeology — objects from excavations"] },
+      { "branch": "Where People Lived", "sub": ["Narmada — earliest gatherers", "Indus & tributaries — earliest cities", "Ganga & tributaries — later kingdoms", "Sulaiman/Kirthar hills — early agriculture"] },
+      { "branch": "Dating System", "sub": ["BCE — Before Common Era (counts back)", "CE — Common Era (counts forward)", "Bigger BCE = further in past"] },
+      { "branch": "Names of the Land", "sub": ["Bharata — ancient name", "India — used by Greeks/Persians", "Hindustan — used by Central Asians"] },
+      { "branch": "Many Pasts", "sub": ["Rulers, farmers, hunters", "Merchants, crafts persons", "Women, children, priests", "All had different experiences"] }
+    ]
+  },
+
+  "revision_notes": "Chapter 1 of Our Pasts-I introduces the discipline of history — why we study the past and how we find out about it. Historians use three main sources: manuscripts (handwritten books on palm leaf or birch bark, preserved in temples and monasteries), inscriptions (writing carved on stone or metal, very durable), and archaeological remains (objects, buildings, tools, coins, pottery excavated by archaeologists). The Indian subcontinent has been known as Bharata, India, and Hindustan at different times. Early people lived along rivers — the Narmada (earliest skilled gatherers), the Indus and its tributaries (earliest cities, about 4700 years ago), and the Ganga and its tributaries (later kingdoms). Agriculture began in the Sulaiman and Kirthar hills about 8000 years ago, and in the Garo hills and Vindhyas too. Dates in history use the BCE/CE system: BCE dates count backwards (larger number = further in the past); CE dates count forwards. The chapter emphasises that history has 'many pasts' — the lives of hunters, farmers, merchants, women, and crafts persons are as important as those of kings. Key vocabulary: manuscript, inscription, archaeology, excavation, BCE, CE, tributary, subcontinent, Bharata.",
+
+  "must_remember_facts": [
+    "Three sources of history: Manuscripts, Inscriptions, Archaeological remains.",
+    "Manuscripts are written on palm leaf or birch bark and preserved in temples/monasteries.",
+    "Inscriptions are carved on stone or metal — more durable than manuscripts.",
+    "Archaeologists carry out systematic excavation to find objects from the past.",
+    "BCE = Before Common Era (larger number = further back in time). CE = Common Era (larger number = more recent).",
+    "Earliest gatherers lived along the Narmada river — several hundred thousand years ago.",
+    "Earliest cities were on the banks of the Indus and its tributaries — about 4700 years ago.",
+    "First agriculture: Sulaiman and Kirthar hills (wheat and barley), about 8000 years ago.",
+    "Names of the Indian subcontinent: Bharata (ancient), India (Greek/Persian), Hindustan (Central Asian).",
+    "History has many pasts — it is the story of all people, not just rulers."
   ]
 }

@@ -1,366 +1,262 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch21_understanding_diversity_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science",
+  "textbook": "Social and Political Life — Textbook for Class VI",
+  "chapter_number": 21,
+  "chapter_title": "Understanding Diversity",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Understanding Diversity? (Q1)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Understanding Diversity? (Q1)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Understanding Diversity? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "What does 'diversity' mean in the context of India?",
+      "options": [
+        "A) All people in India speaking the same language",
+        "B) The existence of many different languages, religions, cultures, and customs among India's people",
+        "C) India having only one religion",
+        "D) All Indians eating the same food"
+      ],
+      "correct_answer": "B) The existence of many different languages, religions, cultures, and customs among India's people",
+      "explanation": "Diversity means the presence of many different kinds of people, cultures, languages, and traditions within a society. India is one of the most diverse countries in the world — with over 1,600 mother tongues, major world religions, hundreds of ethnic groups, and varied food/clothing/art traditions. This diversity is shaped by India's geography, history, and the interactions of many communities over thousands of years."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Understanding Diversity in a community? (Q2)",
-        "hi": "Who or what body regulates the civic issues related to Understanding Diversity in a community? (Q2)",
-        "kn": "Who or what body regulates the civic issues related to Understanding Diversity in a community? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "The phrase 'Unity in Diversity' means:",
+      "options": [
+        "A) India has only one culture",
+        "B) Despite enormous differences in culture, language, and religion, Indians are united as one nation",
+        "C) India's diversity is a weakness",
+        "D) Only certain religions should be respected"
+      ],
+      "correct_answer": "B) Despite enormous differences in culture, language, and religion, Indians are united as one nation",
+      "explanation": "'Unity in Diversity' — popularised by Jawaharlal Nehru — captures India's unique achievement: 1.4 billion people from hundreds of communities, languages, and religions sharing one Constitution, one citizenship, and common national symbols. The phrase recognises that difference does not mean division. India's strength lies in its people being united despite — and because of — their extraordinary diversity."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Understanding Diversity? (Q3)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Understanding Diversity? (Q3)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Understanding Diversity? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "Which of the following is an example of India's linguistic diversity?",
+      "options": [
+        "A) All Indians speaking English",
+        "B) India having 22 officially scheduled languages and over 1,600 mother tongues",
+        "C) Hindi being the only language of India",
+        "D) All South Indians speaking the same language"
+      ],
+      "correct_answer": "B) India having 22 officially scheduled languages and over 1,600 mother tongues",
+      "explanation": "India's linguistic diversity is extraordinary — the 8th Schedule of the Constitution recognises 22 languages, but India actually has over 1,600 distinct mother tongues. These belong to different language families: Indo-Aryan (Hindi, Bengali, Marathi), Dravidian (Kannada, Tamil, Telugu, Malayalam), Tibeto-Burman (Manipuri, Bodo), and others. In Karnataka alone, Kannada, Tulu, Kodava, Konkani, and Beary are all spoken."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Understanding Diversity in a community? (Q4)",
-        "hi": "Who or what body regulates the civic issues related to Understanding Diversity in a community? (Q4)",
-        "kn": "Who or what body regulates the civic issues related to Understanding Diversity in a community? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "Why do people in different parts of India eat different foods?",
+      "options": [
+        "A) People in different areas have different favourite colours",
+        "B) Geography, climate, religion, and historical trade routes shape different food traditions",
+        "C) The government assigns different foods to different states",
+        "D) Food choices are random and have no reason"
+      ],
+      "correct_answer": "B) Geography, climate, religion, and historical trade routes shape different food traditions",
+      "explanation": "Food diversity in India is shaped by: geography (rice in wet regions like Karnataka coast/Bengal; wheat in dry plains of Punjab/Rajasthan; ragi in semi-arid Deccan); religion (some communities avoid meat, beef, or pork); climate (spicy food in hot regions to promote sweating); and trade history (spices from Kerala influenced global and local cuisines). Karnataka's ragi mudde reflects the Deccan plateau's semi-arid farming traditions."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Understanding Diversity? (Q5)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Understanding Diversity? (Q5)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Understanding Diversity? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "What is a 'stereotype'?",
+      "options": [
+        "A) A fair and accurate description of a community",
+        "B) An oversimplified, generalised belief about all members of a group",
+        "C) A government policy for social welfare",
+        "D) A type of traditional Indian art form"
+      ],
+      "correct_answer": "B) An oversimplified, generalised belief about all members of a group",
+      "explanation": "A stereotype is a fixed, overgeneralised belief about a particular group — assuming all members share certain traits. Examples: 'all people from a certain region are dishonest' or 'women cannot do technical work.' Stereotypes are harmful because they prevent seeing people as individuals, lead to discrimination, and are based on prejudice rather than reality. Stereotypes can be unlearned through education and personal experience."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Understanding Diversity in a community? (Q6)",
-        "hi": "Who or what body regulates the civic issues related to Understanding Diversity in a community? (Q6)",
-        "kn": "Who or what body regulates the civic issues related to Understanding Diversity in a community? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "Karnataka's Mysuru Dasara is recognised by UNESCO as a significant cultural event. What does this reflect?",
+      "options": [
+        "A) That Karnataka has no other festivals",
+        "B) The cultural richness and diversity of Karnataka's traditions",
+        "C) That only royal families celebrate festivals",
+        "D) That UNESCO controls Karnataka's government"
+      ],
+      "correct_answer": "B) The cultural richness and diversity of Karnataka's traditions",
+      "explanation": "Mysuru Dasara is a 400-year-old festival celebrating the victory of good over evil (the goddess Chamundeshwari's victory over the demon Mahishasura). Recognised by UNESCO as an Intangible Cultural Heritage event, it reflects Karnataka's rich cultural heritage — combining royal tradition, religious celebration, folk arts, and public participation. It is one expression of Karnataka's contribution to India's cultural diversity."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Understanding Diversity? (Q7)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Understanding Diversity? (Q7)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Understanding Diversity? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "Which ancient trade route helped spread ideas, religions, and cultures across Asia and into India?",
+      "options": ["A) The Grand Trunk Road", "B) The Silk Route", "C) The National Highway", "D) The Spice Coast"],
+      "correct_answer": "B) The Silk Route",
+      "explanation": "The Silk Route was an ancient network of trade paths connecting India, China, Central Asia, Persia, Arabia, and Europe. Through this route: Buddhism spread from India to East and Southeast Asia; Indian mathematics (zero, decimal system) reached the Arab world; Greek artistic influences reached Northwest India (Gandhara art); new crops and languages entered India. Trade routes were cultural exchange highways that shaped India's diversity."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Understanding Diversity in a community? (Q8)",
-        "hi": "Who or what body regulates the civic issues related to Understanding Diversity in a community? (Q8)",
-        "kn": "Who or what body regulates the civic issues related to Understanding Diversity in a community? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "Which of these is an example of respecting diversity?",
+      "options": [
+        "A) Making fun of a classmate's regional accent",
+        "B) Attending a friend's religious festival with curiosity and respect",
+        "C) Refusing to eat food from a different community",
+        "D) Assuming all people from one state are the same"
+      ],
+      "correct_answer": "B) Attending a friend's religious festival with curiosity and respect",
+      "explanation": "Respecting diversity means accepting and appreciating differences without prejudice. Attending a friend's religious or cultural celebration with genuine curiosity and respect is a concrete act of respecting diversity — you are acknowledging that their traditions are valid and worthy of interest. Making fun of accents, refusing to engage with other cultures, and stereotyping are all examples of disrespecting diversity."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Understanding Diversity? (Q9)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Understanding Diversity? (Q9)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Understanding Diversity? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Moderate",
+      "question": "The NCERT chapter discusses Ladakh and Kerala as examples of diversity within India. Which statement correctly contrasts them?",
+      "options": [
+        "A) Ladakh is a tropical region; Kerala is a cold desert",
+        "B) Ladakh is a high-altitude cold desert with Buddhist and Muslim communities; Kerala is a tropical coastal state with Hindu, Christian, and Muslim communities",
+        "C) Both states have identical cultures and the same language",
+        "D) Ladakh and Kerala are part of the same state"
+      ],
+      "correct_answer": "B) Ladakh is a high-altitude cold desert with Buddhist and Muslim communities; Kerala is a tropical coastal state with Hindu, Christian, and Muslim communities",
+      "explanation": "Ladakh (now a Union Territory) is a high-altitude cold desert with Tibetan Buddhist and Muslim Balti communities, yak herding, barley farming, and Tibetan-influenced culture. Kerala is a tropical coastal state with nearly equal proportions of Hindus, Christians (some of the world's oldest Christian communities, dating to 52 CE), and Muslims; known for Ayurveda, Kathakali, rice and fish cuisine, and high literacy. Both are Indian — this contrast illustrates the breadth of India's diversity."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Understanding Diversity in a community? (Q10)",
-        "hi": "Who or what body regulates the civic issues related to Understanding Diversity in a community? (Q10)",
-        "kn": "Who or what body regulates the civic issues related to Understanding Diversity in a community? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Moderate",
+      "question": "How did Arab traders contribute to India's diversity?",
+      "options": [
+        "A) They brought the English language to India",
+        "B) They came to Kerala's Malabar coast for spices and brought Islam, contributing to India's Muslim community",
+        "C) They introduced Christianity to South India",
+        "D) They built the Taj Mahal"
+      ],
+      "correct_answer": "B) They came to Kerala's Malabar coast for spices and brought Islam, contributing to India's Muslim community",
+      "explanation": "Arab traders came to Kerala's Malabar coast (and Karnataka's Tulu Nadu coast) for black pepper, cardamom, and other spices — major trade commodities for centuries. Many Arab traders settled, married local women, and converted local communities — establishing some of India's earliest Muslim communities (the Mappilas of Kerala, the Bearys of coastal Karnataka). They brought Arabic language elements, trading practices, and Islamic traditions — adding to India's religious and cultural diversity."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "Karnataka has won the most Jnanpith Awards for its literature among all Indian languages. This fact demonstrates:",
+      "options": [
+        "A) That other Indian languages have no literature",
+        "B) Karnataka's significant contribution to India's literary and cultural diversity",
+        "C) That Kannada is the official national language",
+        "D) That all Kannadigas are writers"
+      ],
+      "correct_answer": "B) Karnataka's significant contribution to India's literary and cultural diversity",
+      "explanation": "Kannada literature has received 8 Jnanpith Awards — India's highest literary honour — the most for any single Indian language (shared with Hindi). Recipients include Kuvempu, D.R. Bendre, V.K. Gokak, U.R. Ananthamurthy, Girish Karnad, and others. This reflects Karnataka's rich literary tradition spanning over 1,500 years from ancient texts like Kavirajamarga. Karnataka's contribution to India's literary heritage is a powerful part of the country's cultural diversity."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "Which of the following is NOT a factor that contributes to India's cultural diversity?",
+      "options": [
+        "A) India's varied geography (mountains, coasts, deserts, plains)",
+        "B) India's long history of trade, migration, and conquest",
+        "C) India having only one official religion",
+        "D) The coexistence of many language groups (Indo-Aryan, Dravidian, Tibeto-Burman)"
+      ],
+      "correct_answer": "C) India having only one official religion",
+      "explanation": "India does NOT have one official religion — the Indian Constitution declares India a secular state (Article 25-28 guarantee freedom of religion). India's religious diversity (Hinduism, Islam, Christianity, Sikhism, Buddhism, Jainism, Zoroastrianism, Judaism, and tribal faiths) is itself a major contributor to its cultural diversity. The other options — geography, history of trade/migration, and multiple language groups — are genuine contributing factors to India's diversity."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "Why is it incorrect to say 'all South Indians are the same'?",
+      "options": [
+        "A) South India has only one state",
+        "B) South Indian states have distinct languages, cuisines, cultures, and artistic traditions that differ significantly from each other",
+        "C) South Indians all speak Tamil",
+        "D) South India is not part of India"
+      ],
+      "correct_answer": "B) South Indian states have distinct languages, cuisines, cultures, and artistic traditions that differ significantly from each other",
+      "explanation": "South India (Karnataka, Tamil Nadu, Kerala, Andhra Pradesh, Telangana, Goa) has enormous internal diversity. Languages: Kannada, Tamil, Malayalam, Telugu, Tulu, Konkani — all structurally different with different scripts. Cuisines: Udupi vegetarian ≠ Kerala fish curry ≠ Andhra spicy biryani. Arts: Yakshagana (Karnataka) ≠ Kathakali (Kerala) ≠ Bharatanatyam (Tamil Nadu). Treating the entire South as homogeneous ignores distinct civilisations that developed independently over millennia."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "Prejudice is best defined as:",
+      "options": [
+        "A) A fair assessment of someone based on their actions",
+        "B) An unfair preconceived opinion about a person or group based on their identity",
+        "C) A government policy for equal rights",
+        "D) A type of legal judgement in court"
+      ],
+      "correct_answer": "B) An unfair preconceived opinion about a person or group based on their identity",
+      "explanation": "Prejudice is judging someone before knowing them — forming a negative opinion based on their caste, religion, gender, region, or language rather than their individual character or actions. Prejudice is based on stereotypes and leads to discrimination. It is the opposite of fair assessment (which is based on actual knowledge and experience). Prejudice can be unlearned through education, empathy, and meaningful cross-community interaction."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "How does the geography of coastal Karnataka (Dakshina Kannada and Udupi) influence its culture?",
+      "options": [
+        "A) Coastal geography has no influence on culture",
+        "B) Proximity to the sea creates fishing traditions, coconut-based cuisine, Tulu language, and port-based trade history including Arab trader influence",
+        "C) Coastal Karnataka has the same culture as landlocked regions",
+        "D) Only the climate changes near the coast, not the culture"
+      ],
+      "correct_answer": "B) Proximity to the sea creates fishing traditions, coconut-based cuisine, Tulu language, and port-based trade history including Arab trader influence",
+      "explanation": "Coastal Karnataka's culture is deeply shaped by the Arabian Sea: fishing is a major livelihood (creating fishing communities with distinct traditions); coconut grows abundantly in the coastal climate and features in almost every dish; the Tulu language (not Kannada) is the primary tongue of Dakshina Kannada and Udupi; ports like Mangaluru had centuries of Arab, Portuguese, and British trade, creating Beary Muslim communities, Catholic Konkani communities, and the famous Udupi vegetarian cuisine — all products of geographic and historical interaction."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "The Hoysala temples at Belur and Halebid in Karnataka are UNESCO World Heritage Sites. What aspect of India's diversity do they represent?",
+      "options": [
+        "A) India's linguistic diversity",
+        "B) Karnataka's contribution to India's architectural and artistic diversity",
+        "C) India's religious uniformity",
+        "D) Karnataka's agricultural diversity"
+      ],
+      "correct_answer": "B) Karnataka's contribution to India's architectural and artistic diversity",
+      "explanation": "The Hoysala temples (12th–13th century) at Belur, Halebid, and Somnathpur are masterpieces of Indian temple architecture — featuring star-shaped platforms, incredibly detailed stone carvings (friezes of elephants, horses, mythological scenes), and distinctive Hoysala sculptural style. Inscribed as UNESCO World Heritage Sites in 2023, they represent Karnataka's unique contribution to India's architectural diversity. India's diversity is not only in living communities but also in its incredible built heritage across regions."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "Which Indian musical tradition was significantly developed by Purandaradasa, who lived in Karnataka?",
+      "options": ["A) Hindustani classical music", "B) Carnatic classical music", "C) Rabindra Sangeet", "D) Baul music"],
+      "correct_answer": "B) Carnatic classical music",
+      "explanation": "Purandaradasa (1484–1564 CE) is called the 'Pitamaha (grandfather) of Carnatic music' — he systematised the teaching of Carnatic music by creating a graded curriculum of exercises (swaravali, alankaras, geetes), composing thousands of devotional songs (kirtanas), and establishing the framework still used to teach Carnatic music today. Born in Karnataka (Purandaradasa was active in Hampi/Vijayanagara), his contribution is central to South India's classical musical tradition — a distinct expression of India's cultural diversity from North India's Hindustani tradition."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Advanced",
+      "question": "A student argues: 'India should have one language and one religion to be truly united.' Based on the chapter's ideas, what is the most appropriate response?",
+      "options": [
+        "A) Agree — uniformity creates unity",
+        "B) Disagree — India's unity comes from shared citizenship and the Constitution, not uniformity of language or religion; diversity is a strength, not a weakness",
+        "C) Agree — other countries have only one language, so India should too",
+        "D) Disagree — India should have no religions at all"
+      ],
+      "correct_answer": "B) Disagree — India's unity comes from shared citizenship and the Constitution, not uniformity of language or religion; diversity is a strength, not a weakness",
+      "explanation": "The chapter argues that India's unity is founded not on sameness but on shared democratic values, citizenship, and constitutional rights. Forcing uniformity would destroy the rich diversity that is India's cultural wealth and violate the constitutional rights to religion (Article 25) and language (Article 29). Many countries have multiple languages (Switzerland: 4 official languages; South Africa: 11 official languages) and are united. Unity through respect for difference is stronger and more democratic than unity through forced conformity."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "Basavanna's 12th-century Vachana movement in Karnataka challenged caste discrimination and promoted social equality. How does this connect to the chapter's theme of diversity and respect?",
+      "options": [
+        "A) It has no connection to diversity",
+        "B) It shows that voices for equality and respect within India's own traditions are part of India's diverse heritage, and that challenging discrimination has deep roots in Indian society",
+        "C) It shows that Karnataka rejected all Hindu traditions",
+        "D) It proves that religion always causes discrimination"
+      ],
+      "correct_answer": "B) It shows that voices for equality and respect within India's own traditions are part of India's diverse heritage, and that challenging discrimination has deep roots in Indian society",
+      "explanation": "Basavanna (1131–1168 CE), the 12th-century Karnataka philosopher-saint, founded the Lingayat faith and the Vachana movement. He explicitly rejected caste hierarchy, welcomed people of all castes and genders into his community (anubhava mantapa — a social assembly), and wrote accessible devotional poetry (vachanas) in Kannada rather than Sanskrit. His movement shows that reform, egalitarianism, and respect for human diversity have deep roots within India's own cultural heritage — diversity and the fight against discrimination are not foreign imports."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "India's Constitution grants the right to preserve one's language and culture (Article 29) and prohibits discrimination based on religion, race, caste, sex, or place of birth (Article 15). How do these articles together reflect the theme of 'Understanding Diversity'?",
+      "options": [
+        "A) These articles show the Constitution wants everyone to be the same",
+        "B) These articles reflect that India's Constitution actively protects diversity while ensuring equality — each community can maintain its identity while being equal citizens",
+        "C) Article 29 applies only to the majority community",
+        "D) Article 15 means the government can discriminate based on religion"
+      ],
+      "correct_answer": "B) These articles reflect that India's Constitution actively protects diversity while ensuring equality — each community can maintain its identity while being equal citizens",
+      "explanation": "Articles 15 and 29 together express India's constitutional approach to diversity: Article 15 ensures all citizens are equal before the law regardless of religion, race, caste, sex, or birthplace (no discrimination). Article 29 protects any section of citizens having a distinct language, script, or culture — they have the right to conserve it. Together, they say: 'You are equal in citizenship AND you can remain different in culture.' This is the Constitution's legal expression of 'Unity in Diversity' — equality without erasure of identity."
     }
   ]
 }

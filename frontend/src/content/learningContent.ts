@@ -2446,125 +2446,6 @@ export const TOPICS_BY_SUBJECT: Record<string, TopicItem[]> = {
       }
     }
   ],
-  "kannada": [
-    {
-      "id": "kannada_grade6_ch01_prose_basics",
-      "title": {
-        "en": "Prose (ಗದ್ಯ) (G6)",
-        "hi": "गद्य (ಕನ್ನಡ) (G6)",
-        "kn": "ಗದ್ಯ ಭಾಗ (G6)"
-      },
-      "desc": {
-        "en": "Learn and master Prose (ಗದ್ಯ) for Grade 6.",
-        "hi": "कक्षा 6 के लिए गद्य (ಕನ್ನಡ) में महारत हासिल करें।",
-        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಗದ್ಯ ಭಾಗ ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
-      }
-    },
-    {
-      "id": "kannada_grade6_ch02_poetry_basics",
-      "title": {
-        "en": "Poetry (ಪದ್ಯ) (G6)",
-        "hi": "पद्य (ಕನ್ನಡ) (G6)",
-        "kn": "ಪದ್ಯ ಭಾಗ (G6)"
-      },
-      "desc": {
-        "en": "Learn and master Poetry (ಪದ್ಯ) for Grade 6.",
-        "hi": "कक्षा 6 के लिए पद्य (ಕನ್ನಡ) में महारत हासिल करें।",
-        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಪದ್ಯ ಭಾಗ ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
-      }
-    },
-    {
-      "id": "kannada_grade6_ch03_sandhi_basics",
-      "title": {
-        "en": "Sandhi (ಸಂಧಿ) (G6)",
-        "hi": "ಕನ್ನಡ ಸಂಧಿ (G6)",
-        "kn": "ಸಂಧಿ ಪ್ರಕರಣ (G6)"
-      },
-      "desc": {
-        "en": "Learn and master Sandhi (ಸಂಧಿ) for Grade 6.",
-        "hi": "कक्षा 6 के लिए ಕನ್ನಡ ಸಂಧಿ में महारत हासिल करें।",
-        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಸಂಧಿ ಪ್ರಕರಣ ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
-      }
-    },
-    {
-      "id": "kannada_grade6_ch04_samasa_basics",
-      "title": {
-        "en": "Samasa (ಸಮಾಸ) (G6)",
-        "hi": "ಕನ್ನಡ ಸಮಾಸ (G6)",
-        "kn": "ಸಮಾಸ ಪ್ರಕರಣ (G6)"
-      },
-      "desc": {
-        "en": "Learn and master Samasa (ಸಮಾಸ) for Grade 6.",
-        "hi": "कक्षा 6 के लिए ಕನ್ನಡ ಸಮಾಸ में महारत हासिल करें।",
-        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಸಮಾಸ ಪ್ರಕರಣ ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
-      }
-    },
-    {
-      "id": "kannada_grade6_ch05_vacana_basics",
-      "title": {
-        "en": "Vacana (ವಚನ) (G6)",
-        "hi": "ಕನ್ನಡ ವಚನಗಳು (G6)",
-        "kn": "ವಚನಗಳು (G6)"
-      },
-      "desc": {
-        "en": "Learn and master Vacana (ವಚನ) for Grade 6.",
-        "hi": "कक्षा 6 के लिए ಕನ್ನಡ ವಚನಗಳು में महारत हासिल करें।",
-        "kn": "ತರಗತಿ 6 ಗಾಗಿ ವಚನಗಳು ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
-      }
-    },
-    {
-      "id": "kannada_grade6_ch06_linga_basics",
-      "title": {
-        "en": "Linga (ಲಿಂಗ) (G6)",
-        "hi": "ಕನ್ನಡ ಲಿಂಗಗಳು (G6)",
-        "kn": "ಲಿಂಗಗಳು (G6)"
-      },
-      "desc": {
-        "en": "Learn and master Linga (ಲಿಂಗ) for Grade 6.",
-        "hi": "कक्षा 6 के लिए ಕನ್ನಡ ಲಿಂಗಗಳು में महारत हासिल करें।",
-        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಲಿಂಗಗಳು ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
-      }
-    },
-    {
-      "id": "kannada_grade6_ch07_vibhakti_basics",
-      "title": {
-        "en": "Vibhakti (ವಿಭಕ್ತಿ) (G6)",
-        "hi": "ಕನ್ನಡ ವಿಭಕ್ತಿ ಪ್ರತ್ಯಯಗಳು (G6)",
-        "kn": "ವಿಭಕ್ತಿ ಪ್ರತ್ಯಯಗಳು (G6)"
-      },
-      "desc": {
-        "en": "Learn and master Vibhakti (ವಿಭಕ್ತಿ) for Grade 6.",
-        "hi": "कक्षा 6 के लिए ಕನ್ನಡ ವಿಭಕ್ತಿ ಪ್ರತ್ಯಯಗಳು में महारत हासिल करें।",
-        "kn": "ತರಗತಿ 6 ಗಾಗಿ ವಿಭಕ್ತಿ ಪ್ರತ್ಯಯಗಳು ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
-      }
-    },
-    {
-      "id": "kannada_grade6_ch08_kriyapada_basics",
-      "title": {
-        "en": "Verb forms (ಕ್ರಿಯಾಪದ) (G6)",
-        "hi": "ಕನ್ನಡ ಕ್ರಿಯಾಪದಗಳು (G6)",
-        "kn": "ಕ್ರಿಯಾಪದಗಳು (G6)"
-      },
-      "desc": {
-        "en": "Learn and master Verb forms (ಕ್ರಿಯಾಪದ) for Grade 6.",
-        "hi": "कक्षा 6 के लिए ಕನ್ನಡ ಕ್ರಿಯಾಪದಗಳು में महारत हासिल करें।",
-        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಕ್ರಿಯಾಪದಗಳು ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
-      }
-    },
-    {
-      "id": "kannada_grade6_ch09_alankara_basics",
-      "title": {
-        "en": "Figures of speech (ಅಲಂಕಾರ) (G6)",
-        "hi": "ಕನ್ನಡ ಅಲಂಕಾರಗಳು (G6)",
-        "kn": "ಅಲಂಕಾರಗಳು (G6)"
-      },
-      "desc": {
-        "en": "Learn and master Figures of speech (ಅಲಂಕಾರ) for Grade 6.",
-        "hi": "कक्षा 6 के लिए ಕನ್ನಡ ಅಲಂಕಾರಗಳು में महारत हासिल करें।",
-        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಅಲಂಕಾರಗಳು ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
-      }
-    }
-  ],
   "coding": [
     {
       "id": "coding-basics",
@@ -2669,15 +2550,6 @@ export const LAZY_LESSONS: Record<string, () => Promise<any>> = {
   "english_grade6_ch13_poetry_wonderful_words_basics": () => import('../../assets/content/grade_6/english/ch13_poetry_wonderful_words/lesson.json'),
   "english_grade6_ch14_poetry_water_basics": () => import('../../assets/content/grade_6/english/ch14_poetry_water/lesson.json'),
   "english_grade6_ch15_poetry_beauty_basics": () => import('../../assets/content/grade_6/english/ch15_poetry_beauty/lesson.json'),
-  "kannada_grade6_ch01_prose_basics": () => import('../../assets/content/grade_6/kannada/ch01_prose/lesson.json'),
-  "kannada_grade6_ch02_poetry_basics": () => import('../../assets/content/grade_6/kannada/ch02_poetry/lesson.json'),
-  "kannada_grade6_ch03_sandhi_basics": () => import('../../assets/content/grade_6/kannada/ch03_sandhi/lesson.json'),
-  "kannada_grade6_ch04_samasa_basics": () => import('../../assets/content/grade_6/kannada/ch04_samasa/lesson.json'),
-  "kannada_grade6_ch05_vacana_basics": () => import('../../assets/content/grade_6/kannada/ch05_vacana/lesson.json'),
-  "kannada_grade6_ch06_linga_basics": () => import('../../assets/content/grade_6/kannada/ch06_linga/lesson.json'),
-  "kannada_grade6_ch07_vibhakti_basics": () => import('../../assets/content/grade_6/kannada/ch07_vibhakti/lesson.json'),
-  "kannada_grade6_ch08_kriyapada_basics": () => import('../../assets/content/grade_6/kannada/ch08_kriyapada/lesson.json'),
-  "kannada_grade6_ch09_alankara_basics": () => import('../../assets/content/grade_6/kannada/ch09_alankara/lesson.json'),
   "math_grade7_ch01_integers_basics": () => import('../../assets/content/grade_7/math/ch01_integers/lesson.json'),
   "math_grade7_ch02_fractions_decimals_basics": () => import('../../assets/content/grade_7/math/ch02_fractions_decimals/lesson.json'),
   "math_grade7_ch03_data_handling_basics": () => import('../../assets/content/grade_7/math/ch03_data_handling/lesson.json'),
@@ -2868,15 +2740,6 @@ export const LAZY_QUIZZES: Record<string, () => Promise<any>> = {
   "english_grade6_ch13_poetry_wonderful_words_basics": () => import('../../assets/content/grade_6/english/ch13_poetry_wonderful_words/quiz_bank.json'),
   "english_grade6_ch14_poetry_water_basics": () => import('../../assets/content/grade_6/english/ch14_poetry_water/quiz_bank.json'),
   "english_grade6_ch15_poetry_beauty_basics": () => import('../../assets/content/grade_6/english/ch15_poetry_beauty/quiz_bank.json'),
-  "kannada_grade6_ch01_prose_basics": () => import('../../assets/content/grade_6/kannada/ch01_prose/quiz_bank.json'),
-  "kannada_grade6_ch02_poetry_basics": () => import('../../assets/content/grade_6/kannada/ch02_poetry/quiz_bank.json'),
-  "kannada_grade6_ch03_sandhi_basics": () => import('../../assets/content/grade_6/kannada/ch03_sandhi/quiz_bank.json'),
-  "kannada_grade6_ch04_samasa_basics": () => import('../../assets/content/grade_6/kannada/ch04_samasa/quiz_bank.json'),
-  "kannada_grade6_ch05_vacana_basics": () => import('../../assets/content/grade_6/kannada/ch05_vacana/quiz_bank.json'),
-  "kannada_grade6_ch06_linga_basics": () => import('../../assets/content/grade_6/kannada/ch06_linga/quiz_bank.json'),
-  "kannada_grade6_ch07_vibhakti_basics": () => import('../../assets/content/grade_6/kannada/ch07_vibhakti/quiz_bank.json'),
-  "kannada_grade6_ch08_kriyapada_basics": () => import('../../assets/content/grade_6/kannada/ch08_kriyapada/quiz_bank.json'),
-  "kannada_grade6_ch09_alankara_basics": () => import('../../assets/content/grade_6/kannada/ch09_alankara/quiz_bank.json'),
   "math_grade7_ch01_integers_basics": () => import('../../assets/content/grade_7/math/ch01_integers/quiz_bank.json'),
   "math_grade7_ch02_fractions_decimals_basics": () => import('../../assets/content/grade_7/math/ch02_fractions_decimals/quiz_bank.json'),
   "math_grade7_ch03_data_handling_basics": () => import('../../assets/content/grade_7/math/ch03_data_handling/quiz_bank.json'),

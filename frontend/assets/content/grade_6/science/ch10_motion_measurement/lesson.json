@@ -1,114 +1,140 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "science",
-  "chapter_id": "ch10_motion_measurement",
-  "chapter_title": {
-    "en": "Motion and Measurement of Distances",
-    "hi": "गति एवं दूरियों का मापन",
-    "kn": "ಚಲನೆ ಮತ್ತು ದೂರಗಳ ಅಳತೆ"
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 10,
+  "chapter_title": "Motion and Measurement of Distances",
+  "estimated_study_time_minutes": 45,
+  "difficulty": "Easy",
+  "learning_objectives": [
+    "Understand why standard units of measurement are necessary",
+    "Know the SI unit of length (metre) and its common multiples and submultiples",
+    "Convert between km, m, cm, and mm accurately",
+    "Classify motion as rectilinear, circular, or periodic with examples",
+    "Use a ruler correctly to measure lengths and avoid common errors",
+    "Measure the length of curved lines using the thread method",
+    "Relate motion and measurement to daily life and Karnataka's infrastructure"
+  ],
+  "prerequisite_knowledge": [
+    "Basic awareness that objects can move and that distances can be measured",
+    "Familiarity with numbers and basic arithmetic (multiplication and division)",
+    "Recognition of common measuring tools like rulers",
+    "General knowledge of common distances (length of a book, height of a room)"
+  ],
+  "introduction": {
+    "why_important": "Measurement is the language of science. Without standard units, science, trade, engineering, and medicine would be impossible. Understanding motion is the first step toward physics — speed, velocity, acceleration, and force all build on the concept of motion and distance.",
+    "real_life_relevance": "Every time you buy fabric by the metre, travel a distance in km, or check your height in cm, you are using the concepts from this chapter. KSRTC routes are measured in km. Namma Metro track lengths are measured in km. Your school corridor can be measured in metres. This chapter gives you the tools to measure the world around you.",
+    "karnataka_context": "Karnataka's infrastructure makes measurement vivid and real. The Namma Metro (Bengaluru) covers 73 km of track. NH 275 (Bengaluru-Mysuru) is 150 km. The state has 2.5 lakh km of roads, all measured in km. The Vidhana Soudha pillars are 18 m tall. The Jog Falls in Shivamogga drops 253 m. Karnataka's agricultural fields are measured in acres and hectares (converted from square metres). Every engineering, transport, and agricultural activity in Karnataka depends on precise length measurement.",
+    "connection_to_previous_learning": "Chapter 9 described habitats — including how far animals travel and how large their territories are. This chapter provides the tools to actually measure such distances. It also connects to daily experience: students walk to school, travel by bus, and play in a field — all involve distance and motion."
   },
-  "topics": [
+  "story_summary": {
+    "characters": [
+      {"name": "The Metre", "role": "The hero — the standard SI unit of length, the basis for all other length measurements"},
+      {"name": "The Ruler", "role": "The measurement instrument — the tool that makes comparing lengths possible"},
+      {"name": "The Moving Objects", "role": "Cars, pendulums, planets, wheels — each demonstrating a different type of motion"}
+    ],
+    "plot": [
+      "The chapter opens with the problem of inconsistent measurement — if everyone uses their own handspan, chaos follows.",
+      "It traces the historical development of measurement from body-based units (cubit, foot, handspan) to standard units.",
+      "It introduces the SI system and the metre as the universal unit of length, with km, cm, and mm as related units.",
+      "It explains how to correctly use a ruler to measure length, including common errors to avoid.",
+      "It presents the thread method for measuring curved lengths.",
+      "It introduces the concept of motion — an object in motion changes position relative to its surroundings.",
+      "It classifies motion into three types: rectilinear, circular, and periodic, with everyday examples.",
+      "It concludes with examples of compound motion (objects showing more than one type simultaneously)."
+    ],
+    "moral": "Precise measurement and careful observation of motion are the foundations of all science and engineering. Standard units make human cooperation in science and trade possible."
+  },
+  "core_concepts": [
     {
-      "topic_id": "science_grade6_ch10_motion_measurement_basics",
-      "title": {
-        "en": "Motion and Measurement of Distances - Fundamentals",
-        "hi": "गति एवं दूरियों का मापन - बुनियादी बातें",
-        "kn": "ಚಲನೆ ಮತ್ತು ದೂರಗಳ ಅಳತೆ - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Define force as push or pull",
-        "Calculate pressure given force and contact area",
-        "Identify contact and non-contact forces"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Motion and Measurement of Distances. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम गति एवं दूरियों का मापन का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಚಲನೆ ಮತ್ತು ದೂರಗಳ ಅಳತೆ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "A force is a push or pull on an object resulting from its interaction with another object. Pressure is the force applied perpendicular to the surface of an object per unit area (Pressure = Force / Area).",
-        "hi": "बल किसी वस्तु पर लगने वाला खिंचाव या धक्का है॥ दाब प्रति अनुप्रव्थ क्षेत्रफल पर लञाया गया बल है (दाब = बल / क्षेत्रफल)॥",
-        "kn": "ಬಲವು ತಷ್ಳುವಿಕೆ ಅಥವಾ ಎಳೆಯುವಿಕೆಯಾಗಿದೆ. ಒತ್ತಡವು ಪ್ರತಿ ಏರಿಯಾ ಮೇಲಿನ ಬಲವಾಗಿದೆ (ಒತ್ತಡ = ಬಲ / ಏರಿಯಾ)."
-      },
-      "worked_example": {
-        "problem": "Calculate the pressure when a force of 100 N is applied over an area of 2 square meters.",
-        "steps": [
-          {
-            "en": "Step 1: Identify given values: Force (F) = 100 N, Area (A) = 2 m².",
-            "hi": "चरण 1: दिए गए बल (F) = 100 N और क्षेत्रफल (A) = 2 m² को पहचानें॥",
-            "kn": "ಹಂತ 1: ಬಲ (F) = 100 N ಮತ್ತು ಏರಿಯಾ (A) = 2 m² ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Recall the formula: Pressure (P) = Force / Area.",
-            "hi": "चरण 2: सूत्र लागू करें: दाब = बल / क्षेत्रफल॥",
-            "kn": "ಹಂತ 2: ಒತ್ತಡದ ಸೂತ್ರ: ಒತ್ತಡ = ಬಲ / ಏರಿಯಾ."
-          },
-          {
-            "en": "Step 3: Substitute and solve: P = 100 / 2 = 50 N/m² (or Pascals).",
-            "hi": "चरण 3: मान रखकर हल करें: P = 100/2 = 50 Pa॥",
-            "kn": "ಹಂತ 3: ಲೆಕ್ಕವನ್ನು ಪರ಻fವರ್ತಿಸಿ: P = 100 / 2 = 50 Pa."
-          }
-        ],
-        "answer": "50 Pascals"
-      },
-      "key_points": {
-        "en": [
-          "Force can change the state of motion or shape of an object.",
-          "SI unit of force is Newton (N), and pressure is Pascal (Pa).",
-          "Friction is a contact force that opposes motion."
-        ],
-        "hi": [
-          "बल किसी वस्तु की गति या आकार को बदल सकता है॥",
-          "बल का मात्रक न्यूटन (N) है और दाब का पास्कल (Pa) है॥",
-          "चिपक्ता बल गति का विरोध करता है॥"
-        ],
-        "kn": [
-          "ಬಲವು ವಸ್ತುವಿನ ಚಲನೆನ್ನು ಅಥವಾ ಆಕಾರವನ್ನು ಬದಲಿಸಬಹುದು.",
-          "ಬಲದ ಮಾನ ನ್ಯೂಟನ್, ಮತ್ತು ಒತ್ತಡದು ಪ್ರತ್ಯೇಕವಾಗಿ ಪ್ಯಾಸ್ಕಲ್.",
-          "ಘರ್ಷಣೆಯು ಚಲನೆನ್ನು ವಿರೋಧಿಸುವ ಬಲಾಗಿದೆ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Need for Standard Units of Measurement",
+      "simple_explanation": "Before standard units, people used body parts to measure. This caused confusion because everyone's body is different. Standard units like the metre are the same for everyone, everywhere.",
+      "detailed_explanation": "Early humans measured length using body parts: the cubit (elbow to fingertip, ~45 cm), handspan (spread hand, ~20 cm), foot (~30 cm), and pace (one step). These were convenient but inconsistent — a merchant's cubit differed from the buyer's cubit, causing trade disputes. As civilisations grew, inconsistent measurement caused serious problems in construction, trade, and navigation. The solution was to agree on standard units. In 1790, France led the creation of the metric system based on the metre, defined as 1/10,000,000 of the distance from the equator to the North Pole. Today's SI metre is defined by the speed of light. The SI system is used in science and most countries worldwide. India uses SI units officially; the Imperial system (feet, miles) is still used informally in some contexts.",
+      "real_life_example": "Imagine buying 2 metres of cloth for a school uniform. If the shopkeeper uses 'their metre' (slightly shorter), you'd get less fabric than you paid for. Standard units prevent such fraud. Similarly, when Karnataka engineers design a bridge, every contractor uses the same metre — otherwise sections wouldn't fit together.",
+      "karnataka_example": "Karnataka's textile industry in Dharwad, Gadag, and Bengaluru produces silk and cotton fabric. Every length of fabric sold must be measured in standard metres. The Silk Board in Bengaluru certifies silk fabric lengths. KEB (Karnataka Electricity Board) measures electrical cable lengths in metres for billing infrastructure. All road construction in Karnataka uses the PWD (Public Works Department) standard measurements in metres and kilometres.",
+      "common_mistakes": "Students sometimes think the Imperial system (feet, inches) is wrong — it is simply non-SI. Many countries still use it. Also, students confuse the metre with the yard (approximately 0.9 m). The most important practical error is starting ruler measurements from the '1' mark instead of '0' — always start from zero.",
+      "memory_tip": "Standard = SAME for everyone. Non-standard = personal, inconsistent. The metre is the world's agreed-upon 'handspan' — except everyone's metre is exactly the same."
+    },
+    {
+      "concept_name": "SI Units and Conversions",
+      "simple_explanation": "The metre (m) is the SI unit of length. We use kilometre (km) for large distances, centimetre (cm) for small objects, and millimetre (mm) for very small measurements. All conversions are multiples of 10.",
+      "detailed_explanation": "The metric system is decimal-based: 1 km = 1000 m; 1 m = 100 cm; 1 m = 1000 mm; 1 cm = 10 mm. To convert to a smaller unit, multiply (km → m: ×1000; m → cm: ×100; cm → mm: ×10). To convert to a larger unit, divide (mm → cm: ÷10; cm → m: ÷100; m → km: ÷1000). The SI prefix 'kilo' always means 1000; 'centi' always means 1/100; 'milli' always means 1/1000. These prefixes apply to all SI units (kilogram, milligram, kilolitre, millilitre). Choosing the right unit matters: we don't express the Bengaluru-Mumbai distance in mm (it would be 980,000,000 mm — impractical). Choose the unit that gives a convenient number.",
+      "real_life_example": "A doctor's prescription may read: 'Tablet: 500 mg (milligrams)'. A race track is '400 m'. A highway is '73 km'. A baby's length at birth is '50 cm'. A paper's thickness is '0.1 mm'. Each context uses the most convenient unit. Learning to convert between them lets you use any unit the context requires.",
+      "karnataka_example": "Jog Falls in Shivamogga, Karnataka, drops 253 metres — one of India's highest waterfalls. The Bengaluru-Mysuru Expressway is 117 km long. A typical Kannada textbook is about 28 cm long. The width of a human hair is about 0.07 mm. Karnataka's Vidhana Soudha (state legislature building) is 60 m tall. Knowing which unit to use for each of these makes communication clear and precise.",
+      "common_mistakes": "Common conversion errors: (1) 1 km = 100 m (wrong — it is 1000 m); (2) 1 m = 10 cm (wrong — it is 100 cm); (3) Dividing when going to smaller unit (wrong — always multiply when going smaller). A systematic approach: draw the conversion ladder (km → m → cm → mm) and remember: going down (smaller units) = multiply; going up (larger units) = divide.",
+      "memory_tip": "Kilo = King (1000). Centi = Cent (100 cents in a rupee — 100 cm in a metre). Milli = Mini (1/1000 — very tiny). Going smaller: add zeros. Going bigger: remove zeros."
+    },
+    {
+      "concept_name": "Types of Motion",
+      "simple_explanation": "Motion means changing position. There are three types: rectilinear (straight line), circular (in a circle), and periodic (repeating regularly). Many objects show more than one type at once.",
+      "detailed_explanation": "Rectilinear motion: motion along a straight line. Examples: a ball rolling on a flat floor, a car on a straight road, a stone falling vertically. Circular motion: motion along a circular path. The object continuously changes direction. Examples: fan blades, a merry-go-round, Earth's orbit, clock hands. Periodic motion: motion that repeats at regular time intervals. The object returns to the same position. Examples: pendulum of a clock, vibrating string, Earth's daily rotation. Key insight: these categories overlap. A ceiling fan shows circular motion (each blade traces a circle) and periodic motion (each rotation takes the same time). A rolling wheel shows circular motion (spinning) and rectilinear motion (moving forward). Always identify ALL applicable types for a given motion.",
+      "real_life_example": "At a Bengaluru traffic signal: a car stopped at the signal is at REST. When the light turns green, the car moves on the straight road — RECTILINEAR. The signal light's arm (if circular) rotates — CIRCULAR. The signal itself switches red-yellow-green-red repeatedly — PERIODIC. Four motion concepts visible at one intersection.",
+      "karnataka_example": "Namma Metro trains in Bengaluru: on a straight track section — rectilinear motion. On a curved elevated section turning a corner — circular motion. The Metro runs every 10–15 minutes — periodic schedule. The Metro wheel on the track: circular motion of the wheel + rectilinear motion of the train = compound motion. Karnataka's Bhadra dam turbines spin continuously — circular and periodic motion generating electricity for the state.",
+      "common_mistakes": "Students often classify pendulum motion as circular — it is NOT circular. A pendulum swings back and forth in an arc, but it is classified as periodic (or oscillatory) motion, not circular. Circular motion requires the object to travel a complete circle. Also, some students think only moving vehicles show motion — the Earth, clock hands, and even breathing (chest expansion and contraction) are all types of motion.",
+      "memory_tip": "RCP — Rectilinear (Road/Ruler-straight), Circular (Circle/Clock), Periodic (Pendulum/Pattern-repeating). Test any motion: Is it straight? Circular? Repeating? Apply RCP."
+    },
+    {
+      "concept_name": "Measuring Length Correctly",
+      "simple_explanation": "To measure length, use a ruler from the zero mark (not the edge). For curves, use the thread method. Always record measurements with the correct unit.",
+      "detailed_explanation": "Using a ruler correctly: (1) Place the ruler flat along the object; (2) Align the zero (0) mark — not the ruler edge — with one end of the object; (3) Read the measurement at the other end of the object; (4) Read from directly above (not at an angle) to avoid parallax error; (5) Record with unit (e.g. 7.5 cm, not just 7.5). Measuring curved lines (thread method): lay a flexible thread along the curve; mark the end point on the thread; straighten the thread and measure with a ruler. The result is the length of the curved line. Precautions: ensure thread has no kinks; follow the curve exactly; hold the end point while straightening. Precision: a ruler can typically measure to 1 mm accuracy. For more precise measurements, vernier calipers (higher classes) are used.",
+      "real_life_example": "Tailors use a measuring tape (flexible ruler) to measure body curves — the circumference of a waist, the length of an arm. Architects use metre-long folding rules for room dimensions. Surveyors use laser distance measurers for field measurements. All these are adaptations of the basic principle: flexible tools for curves, rigid tools for straight measurements.",
+      "karnataka_example": "Karnataka's sericulture (silk) industry measures silk thread length in metres per cocoon — typically 500–1500 m per cocoon. Quality graders use calibrated instruments to measure thread diameter in mm. Silk weavers in Mysuru measure fabric in metres. The thread-length analogy is literal — measuring curved silk thread requires the same thread method as measuring a curved line on paper.",
+      "common_mistakes": "The most common error: starting measurement from the '1 cm' mark instead of '0'. This gives a reading that is 1 cm too large. Second error: reading the scale from an angle (parallax error) — always look straight down at the ruler. Third error: forgetting to include the unit in the answer — '8' has no meaning; '8 cm' is a measurement.",
+      "memory_tip": "ZERO is the hero — always start from zero. Thread for curves (like sewing thread follows the cloth curve). Units always — a number without a unit is like a sentence without a verb: incomplete."
     }
+  ],
+  "quick_check_questions": [
+    {
+      "after_concept": "SI Units and Conversions",
+      "questions": [
+        {"type": "Recall", "q": "Convert 2.5 km into metres.", "a": "2.5 km = 2.5 × 1000 = 2500 m."},
+        {"type": "Recall", "q": "How many millimetres are in 1 metre?", "a": "1 m = 100 cm; 1 cm = 10 mm; so 1 m = 1000 mm."},
+        {"type": "Application", "q": "A classroom is 9 m long. Express this in cm.", "a": "9 m = 9 × 100 = 900 cm."}
+      ]
+    },
+    {
+      "after_concept": "Types of Motion",
+      "questions": [
+        {"type": "Recall", "q": "Name the three types of motion with one example each.", "a": "Rectilinear: car on straight road. Circular: ceiling fan blades. Periodic: swinging pendulum."},
+        {"type": "Application", "q": "A ball is thrown straight up and comes back down. What type of motion is this?", "a": "Rectilinear (straight up) + periodic (returns to starting point). Primarily rectilinear motion."}
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Non-standard units (handspan, cubit) vary from person to person; standard SI units are the same for everyone.",
+    "The SI unit of length is the metre (m).",
+    "Key conversions: 1 km = 1000 m; 1 m = 100 cm; 1 cm = 10 mm.",
+    "Going to a smaller unit: multiply. Going to a larger unit: divide.",
+    "Always start ruler measurements from the zero (0) mark, not the edge.",
+    "Use the thread method to measure curved lengths.",
+    "Rectilinear motion = straight line. Circular motion = circular path. Periodic motion = repeating.",
+    "An object can show more than one type of motion at the same time (compound motion).",
+    "A pendulum's motion is periodic; a ceiling fan's motion is circular and periodic.",
+    "Motion and rest are relative — they depend on the reference point."
+  ],
+  "mind_map": {
+    "root": "Motion and Measurement of Distances",
+    "branches": [
+      {"branch": "Need for Measurement", "sub": ["Non-standard units — handspan, cubit, foot", "Problems — inconsistent, personal", "Solution — SI standard units"]},
+      {"branch": "SI Units of Length", "sub": ["Metre (m) — base unit", "Kilometre (km) = 1000 m", "Centimetre (cm) = 1/100 m", "Millimetre (mm) = 1/1000 m"]},
+      {"branch": "Measuring Length", "sub": ["Ruler — start at zero, avoid parallax", "Thread method — for curved lines", "Record with correct unit always"]},
+      {"branch": "Types of Motion", "sub": ["Rectilinear — straight line (car, falling ball)", "Circular — circular path (fan, clock hands)", "Periodic — repeating (pendulum, Earth's rotation)"]},
+      {"branch": "Karnataka Connections", "sub": ["Namma Metro — 73 km track", "Jog Falls — 253 m drop", "Bengaluru-Mysuru Expressway — 117 km", "Sericulture — silk thread length in metres"]}
+    ]
+  },
+  "revision_notes": "Chapter 10 covers measurement and motion. Standard units solve the problem of inconsistent non-standard units (handspan, cubit). The SI unit of length is the metre (m). Conversions: 1 km = 1000 m; 1 m = 100 cm; 1 m = 1000 mm; 1 cm = 10 mm. Converting to smaller unit: multiply; to larger unit: divide. Ruler measurement: always start from zero, read from directly above (avoid parallax), record with unit. Curved lengths: thread method (lay along curve, mark end, straighten and measure). Motion = change in position with respect to surroundings. Three types: Rectilinear (straight line — car on road), Circular (circular path — fan blades, clock hands), Periodic (repeating at regular intervals — pendulum, Earth's rotation). Compound motion: a rolling wheel shows both circular and rectilinear. Rest and motion are relative — depend on reference point. Karnataka examples: Namma Metro (73 km), Jog Falls (253 m drop), KSRTC routes measured in km.",
+  "must_remember_facts": [
+    "SI unit of length = metre (m). SI stands for Système Internationale d'Unités.",
+    "1 km = 1000 m; 1 m = 100 cm; 1 m = 1000 mm; 1 cm = 10 mm.",
+    "Non-standard units (handspan, cubit) vary from person to person — that is why standard units were developed.",
+    "Always measure from the ZERO mark on a ruler, not from the edge or the 1 cm mark.",
+    "Use the THREAD METHOD to measure curved lengths — lay thread along curve, mark end, measure straightened thread.",
+    "Rectilinear motion = straight line. Circular motion = circular path. Periodic motion = repeating at regular intervals.",
+    "A pendulum's motion is PERIODIC (and approximately circular-arc), NOT purely circular.",
+    "A rolling wheel shows BOTH circular (spinning) and rectilinear (forward) motion simultaneously.",
+    "Rest and motion are RELATIVE — the same object can be at rest relative to one observer and in motion relative to another.",
+    "Bengaluru Namma Metro covers 73 km of track — a real-world example of kilometre-scale measurement in Karnataka."
   ]
 }

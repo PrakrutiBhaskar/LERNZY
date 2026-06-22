@@ -1,96 +1,172 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch23_what_is_government_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science",
+  "textbook": "Social and Political Life — Textbook for Class VI",
+  "chapter_number": 23,
+  "chapter_title": "What is Government?",
+  "total_cards": 20,
   "cards": [
     {
       "id": "fc01",
-      "front": {
-        "en": "What is the core idea of What is Government?? (FC1)",
-        "hi": "What is the core idea of What is Government?? (FC1)",
-        "kn": "What is the core idea of What is Government?? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a government? Why do human societies need one?",
+      "back": "A government is the system or group of people that manages and runs a country or state — making laws, maintaining order, providing services, and representing the country in the world. Why needed: (1) Without government, there would be no system to resolve disputes between people; (2) No one would build and maintain roads, schools, hospitals, or public safety; (3) No force to protect citizens from external threats (army/police); (4) No mechanism to collect and spend public resources fairly; (5) Complex societies with millions of people cannot function without an organised authority system. Even small communities need rules and a system to enforce them.",
+      "memory_hook": "GOVERNMENT = SOCIETY'S MANAGEMENT SYSTEM. Like a school needs a principal, timetable, and rules to function — a country needs a government. Without it: chaos, no services, no safety."
     },
     {
       "id": "fc02",
-      "front": {
-        "en": "Why is What is Government? important? (FC2)",
-        "hi": "Why is What is Government? important? (FC2)",
-        "kn": "Why is What is Government? important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What are the three main levels of government in India?",
+      "back": "India has three levels of government: (1) Central (National) Government — governs the entire country; makes laws on national matters (defence, foreign affairs, currency, railways); headed by the Prime Minister; Parliament (Lok Sabha + Rajya Sabha) makes national laws; (2) State Government — governs each state; makes laws on state matters (police, agriculture, health); headed by the Chief Minister; State Legislature (Vidhan Sabha) makes state laws; (3) Local Government — governs cities, towns, and villages; Gram Panchayat (village), Municipal Corporation (city), Municipal Council (town); handles local issues (roads, water, sanitation, local schools). India's federal system divides power among all three levels.",
+      "memory_hook": "CSL: Central, State, Local — India's THREE-TIER GOVERNMENT CAKE. Centre is the top layer, State the middle, Local the base. Each tier has its own flavour (powers) and responsibility."
     },
     {
       "id": "fc03",
-      "front": {
-        "en": "What is the core idea of What is Government?? (FC3)",
-        "hi": "What is the core idea of What is Government?? (FC3)",
-        "kn": "What is the core idea of What is Government?? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a democracy? How is it different from a monarchy?",
+      "back": "A democracy is a system of government in which power belongs to the people — they choose their leaders through elections and hold them accountable. Key features: free and fair elections, adult franchise (every adult can vote), multiple political parties, freedom of speech and press, rule of law. A monarchy is a system where a king or queen holds supreme power, usually by hereditary succession (born into the royal family). The king/queen makes decisions without necessarily needing public consent. Modern constitutional monarchies (like the UK) have symbolic monarchs with real power held by an elected Parliament. India is a democracy — not a monarchy.",
+      "memory_hook": "DEMOCRACY = PEOPLE POWER. DEMOS (people) + KRATOS (power) in Greek. The people are the real rulers — they hire and fire leaders through elections. Monarchy = KING POWER. Born royal → born to rule. India chose Democracy in 1947."
     },
     {
       "id": "fc04",
-      "front": {
-        "en": "Why is What is Government? important? (FC4)",
-        "hi": "Why is What is Government? important? (FC4)",
-        "kn": "Why is What is Government? important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is the difference between a democratic government and an authoritarian government?",
+      "back": "Democratic government: power comes from the people through free elections; citizens have rights (speech, assembly, press); leaders are accountable and can be replaced; rule of law applies to everyone including leaders; multiple parties compete for power. Authoritarian government: power is held by a person or small group without genuine popular consent; citizens have limited rights; leaders are not accountable to the public; elections (if any) are not free or fair; opposition is suppressed. Examples: India, USA, UK are democracies. Historical examples of authoritarian rule: Nazi Germany under Hitler, USSR under Stalin. Some modern authoritarian governments: North Korea, Belarus.",
+      "memory_hook": "DEMOCRACY: power flows UP from citizens to leaders (leaders serve people). AUTHORITARIAN: power flows DOWN from leader to citizens (people serve leader). Arrow of power = opposite directions."
     },
     {
       "id": "fc05",
-      "front": {
-        "en": "What is the core idea of What is Government?? (FC5)",
-        "hi": "What is the core idea of What is Government?? (FC5)",
-        "kn": "What is the core idea of What is Government?? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What is universal adult franchise? When was it established in India?",
+      "back": "Universal adult franchise means that every adult citizen — regardless of caste, religion, gender, education, or wealth — has the right to vote in elections. In India, universal adult franchise was established by the Constitution which came into effect on January 26, 1950. The minimum voting age is 18 years (reduced from 21 years in 1989 by the 61st Constitutional Amendment). India's first general election (1951–52) was the world's largest democratic exercise at the time — approximately 17.6 crore eligible voters. Today, India's voter base exceeds 96 crore people — the world's largest democracy.",
+      "memory_hook": "UNIVERSAL = NO EXCEPTIONS. Every adult Indian has one vote — the richest billionaire and the poorest labourer have exactly equal say in choosing the government. ADULT = 18+. This equality at the ballot box is democracy's most powerful promise."
+    },
+    {
+      "id": "fc06",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What are the three branches of government? What does each do?",
+      "back": "The three branches of government (separation of powers): (1) Legislature (Parliament/Vidhan Sabha) — makes laws; consists of elected representatives of the people; in India: Lok Sabha (directly elected) + Rajya Sabha (indirectly elected) = Parliament at the Centre; Vidhan Sabha at the state level; (2) Executive (Cabinet/Prime Minister/Chief Minister) — implements laws and runs government; the President is the constitutional head, but the Prime Minister and Council of Ministers actually govern; (3) Judiciary (Courts — Supreme Court, High Courts, District Courts) — interprets laws and adjudicates disputes; ensures laws are constitutional; protects citizens' rights. Each branch checks and balances the others — no branch can dominate.",
+      "memory_hook": "LIE: Legislature (makes laws), Implement (Executive runs them), Enforce (Judiciary checks them). Three branches = GOVERNMENT'S THREE LEGS. Remove one leg → the stool falls. Checks and balances keep democracy stable."
+    },
+    {
+      "id": "fc07",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What is the difference between the Lok Sabha and the Rajya Sabha?",
+      "back": "Lok Sabha (House of the People): directly elected by citizens; 543 constituencies, one MP per constituency; elected for 5-year term; can be dissolved; the Prime Minister must have majority here; called the 'lower house.' Rajya Sabha (Council of States): indirectly elected by State Legislative Assemblies (MLAs vote); 245 members; permanent house — cannot be dissolved; members serve 6-year terms (1/3 retire every 2 years); represents states at the Centre; called the 'upper house.' Both houses together form Parliament. A law must be passed by both houses (usually) to become law. The Lok Sabha is more powerful in financial matters (only Lok Sabha passes the Budget).",
+      "memory_hook": "LOK SABHA = PEOPLE'S HOUSE (directly elected, more powerful). RAJYA SABHA = STATES' HOUSE (elected by state MLAs, permanent). Like two chambers of Parliament checking each other. LOK (people) = direct voice. RAJYA (states) = state voice."
+    },
+    {
+      "id": "fc08",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a constitution? What is its role in a democracy?",
+      "back": "A constitution is the supreme document of a country that establishes the structure of government, defines the powers and limits of each branch, and guarantees citizens' fundamental rights. It is the highest law — all other laws must conform to it. India's Constitution (adopted November 26, 1949; effective January 26, 1950) is the world's longest written constitution. Role in democracy: (1) Sets rules that prevent tyranny by any branch or leader; (2) Guarantees Fundamental Rights that no government can take away; (3) Defines how laws are made, how leaders are chosen, and how disputes are resolved; (4) Reflects the nation's core values — justice, equality, liberty, fraternity.",
+      "memory_hook": "CONSTITUTION = THE RULEBOOK FOR RUNNING INDIA. Like a school has rules that even the principal must follow — India's Constitution has rules that even the Prime Minister must follow. It is supreme. No one is above it."
+    },
+    {
+      "id": "fc09",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "What specific responsibilities does the Karnataka State Government have? Name five.",
+      "back": "Karnataka State Government's responsibilities (State List powers): (1) Law and order — Karnataka Police, Karnataka Prisons Department; (2) Agriculture — Karnataka Raitha Suri schemes, agricultural subsidies, irrigation; (3) Education — primary and secondary school curriculum, government schools (SSLC board), Karnataka Examination Authority; (4) Health — government hospitals, PHCs (Primary Health Centres), health schemes; (5) Roads and transport — state highways, KSRTC buses; (6) Water supply and sanitation — BWSSB (Bengaluru), ZP water supply for rural areas; (7) Revenue administration — land records, registration; (8) Social welfare — SC/ST scholarships, Morarji Desai schools. The Chief Minister heads the state executive; Vidhan Sabha makes state laws.",
+      "memory_hook": "State Government = YOUR DAILY LIFE MANAGER. Roads you travel, school you attend, hospital you visit, police who respond to crime — all State Government. Centre handles army and foreign policy; State handles your daily life."
+    },
+    {
+      "id": "fc10",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "What happens in a country without a government? Use an example.",
+      "back": "A country without an effective government experiences: (1) No rule of law — the powerful dominate the weak without consequence; (2) No public services — no roads, schools, hospitals built or maintained; (3) No security — no army or police to protect citizens from violence; (4) No economy — no standardised currency, no trade regulation, no contract enforcement; (5) No dispute resolution — conflicts settled by violence rather than law. Historical examples: Somalia in the 1990s (government collapse → warlords, famine, chaos); Afghanistan during civil war periods. Even communities without formal governments tend to create informal rules and enforcement — showing the universal human need for governance. The question is not whether to have government but what kind.",
+      "memory_hook": "NO GOVERNMENT = NO REFEREE IN A CONTACT SPORT. Imagine cricket with no umpire — strongest player makes all decisions, fights break out, no one can trust the game. Society without government = that cricket match."
+    },
+    {
+      "id": "fc11",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is the role of elections in a democracy?",
+      "back": "Elections are the mechanism through which citizens choose their representatives and hold them accountable. Role of elections: (1) Transfer of power peacefully — allows governments to change without violence; (2) Accountability — leaders must answer to voters to be re-elected; (3) Representation — different groups and viewpoints get voiced through their elected representatives; (4) Legitimacy — a government elected by the people has the legal and moral authority to govern; (5) Feedback — electoral results show whether people approve of the government's performance. India's elections are managed by the Election Commission of India (ECI) — an independent constitutional body. India holds elections at multiple levels: Lok Sabha, Vidhan Sabha, Panchayat, Municipal.",
+      "memory_hook": "ELECTION = DEMOCRACY'S HEARTBEAT. Like a heart pumping blood, elections pump legitimacy into the government. Stop the heartbeat → democracy dies. Regular free elections = democracy alive."
+    },
+    {
+      "id": "fc12",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Who is the head of the Karnataka State Government? Who is the head of the Central Government?",
+      "back": "Karnataka State Government: (1) Constitutional/Formal head — Governor (appointed by the President of India; represents Centre in the state; ceremonial role); (2) Actual/Functional head — Chief Minister (elected leader of the majority party in the Vidhan Sabha; runs the state government with the Council of Ministers). Central Government: (1) Constitutional/Formal head — President of India (elected by an electoral college of MPs and MLAs; ceremonial role); (2) Actual/Functional head — Prime Minister (leader of the majority party in Lok Sabha; runs the Central Government with the Union Cabinet). In India's parliamentary system, real executive power is with the elected leaders (CM/PM), not the constitutional heads (Governor/President).",
+      "memory_hook": "GOVERNOR/PRESIDENT = Ceremonial rubber stamp (formal). CHIEF MINISTER/PRIME MINISTER = Real power (actual). Like a school's chief patron vs. the principal who actually runs the school. Honorary vs. functional."
+    },
+    {
+      "id": "fc13",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "How does a law get made in India? Describe the basic process.",
+      "back": "The law-making process in India: (1) A Bill (proposed law) is introduced in either the Lok Sabha or Rajya Sabha; (2) Members discuss and debate the Bill — amendments can be proposed; (3) The Bill is voted on — must pass by majority in the house where introduced; (4) The Bill goes to the other house (Lok Sabha → Rajya Sabha, or vice versa) for discussion and vote; (5) If both houses pass it, the Bill goes to the President (for Central laws) or Governor (for State laws); (6) President/Governor gives assent (signs it) → the Bill becomes an Act (law); (7) The new Act is published in the Official Gazette and comes into force. Money Bills (Budget) can only be introduced in Lok Sabha. The Judiciary can strike down laws that violate the Constitution.",
+      "memory_hook": "BILL'S JOURNEY: Introduced → Debated → Voted (House 1) → Voted (House 2) → Presidential Assent → LAW. A bill is like a proposal — it becomes a law only after both houses agree and the President signs. Democratic law-making has checks at every step."
+    },
+    {
+      "id": "fc14",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a federal system of government? Is India a federal country?",
+      "back": "A federal system divides governmental power between two or more levels — typically a central/national government and state/provincial governments — each with defined areas of authority. Yes, India is a federal country: the Constitution divides powers between the Centre and States through three lists — Union List (only Centre can make laws, e.g., defence, foreign affairs, railways), State List (only States can make laws, e.g., police, agriculture, education), Concurrent List (both Centre and States can make laws, e.g., forests, marriage, bankruptcy). Local governments form a third tier (added by the 73rd and 74th Amendments). India is called a 'quasi-federal' state because the Centre is given more power than in classic federations like the USA.",
+      "memory_hook": "FEDERAL = POWER-SHARING PARTNERSHIP. Centre and States are partners, not master-servant. Each has its domain. Karnataka handles its police; the Centre handles the army. Neither can do the other's job without constitutional authority."
+    },
+    {
+      "id": "fc15",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "How does the government in Karnataka affect a Class 6 student's daily life? Give four examples.",
+      "back": "Karnataka Government's impact on a Class 6 student's daily life: (1) School — the government runs lakhs of Kannada-medium government schools; sets the SSLC curriculum; provides free textbooks under the 'Vidyavikasa' programme; mid-day meals (PM POSHAN) are state-administered; (2) Roads — the student travels to school on roads built and maintained by BBMP (Bengaluru) or PWD; (3) Water — drinking water at home comes from BWSSB/ZP water supply schemes; (4) Safety — Karnataka Police patrols the neighbourhood; (5) Health — free vaccination (immunisation) at government PHCs; Ayushman Bharat and Arogya Karnataka provide health coverage; (6) Bus — KSRTC/BMTC provides subsidised public transport. Every essential service the student relies on involves government at some level.",
+      "memory_hook": "GOVERNMENT IS EVERYWHERE IN YOUR DAY. Wake up → drink government-supplied water → eat (price-controlled essentials) → travel on government road → learn in government-curricula school → drink mid-day meal → come home safely (police) → electricity (KPTCL). Your entire day = government's impact."
+    },
+    {
+      "id": "fc16",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What are Fundamental Rights? Name three that are directly relevant to students.",
+      "back": "Fundamental Rights (Part III, Articles 12–35 of the Constitution) are basic rights guaranteed to every Indian citizen that cannot be taken away by the government except in special circumstances. Six categories: (1) Right to Equality (Articles 14–18) — equal treatment, no discrimination; (2) Right to Freedom (Articles 19–22) — speech, assembly, movement, profession; (3) Right against Exploitation (Articles 23–24) — no forced labour, no child labour; (4) Right to Freedom of Religion (Articles 25–28); (5) Cultural and Educational Rights (Articles 29–30); (6) Right to Constitutional Remedies (Article 32). Relevant to students: Right to Education (Article 21A — free and compulsory education for ages 6–14); Right against Exploitation (Article 24 — no child labour, protecting students from being employed); Right to Equality (Article 15 — equal access to schools regardless of caste/gender).",
+      "memory_hook": "FUNDAMENTAL RIGHTS = CONSTITUTION'S GIFTS TO CITIZENS. Six categories, can't be taken away. For students: RTE (free education), no child labour, equal access to school. Know these — they protect you."
+    },
+    {
+      "id": "fc17",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why is the rule of law important in a democracy?",
+      "back": "The rule of law means that everyone — citizens and government — is subject to the same laws; no one is above the law. Importance: (1) Prevents tyranny — even the Prime Minister can be prosecuted if they break the law; (2) Ensures predictability — people can plan their lives knowing the rules won't change arbitrarily; (3) Protects rights — the judiciary can strike down government actions that violate citizens' rights; (4) Ensures fairness — the same law applies to rich and poor, powerful and powerless; (5) Builds trust — when people trust that laws are fair and equally applied, they are more likely to follow them. Without rule of law, 'might makes right' — whoever has power decides what the rules are. India's Constitution is the supreme law — even Parliament cannot pass laws that violate it.",
+      "memory_hook": "RULE OF LAW = THE LAW IS KING, NOT THE KING. In a democracy, no person — not even the most powerful leader — is above the law. The law rules everyone equally. A government that breaks its own laws loses all legitimacy."
+    },
+    {
+      "id": "fc18",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is the difference between a government's responsibilities and a citizen's responsibilities?",
+      "back": "Government responsibilities (what the government owes citizens): provide security (police, army), maintain infrastructure (roads, schools, hospitals), make fair laws and enforce them, protect fundamental rights, collect taxes and spend them justly, represent the country internationally, provide public services. Citizen responsibilities (what citizens owe the government and each other): pay taxes honestly, follow laws, vote in elections, obey court decisions, serve on jury (as applicable), respect others' rights, not engage in corruption, hold the government accountable through legal means, participate in community life. Democracy is a two-way contract: the government serves the people AND the people participate actively and responsibly.",
+      "memory_hook": "DEMOCRACY = TWO-WAY DEAL. Government: serve citizens, protect rights, provide services. Citizens: vote, pay taxes, follow laws, hold government accountable. One side ignores the deal → democracy weakens. Both sides must keep their part."
+    },
+    {
+      "id": "fc19",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "What is the Election Commission of India? What is its role?",
+      "back": "The Election Commission of India (ECI) is an independent constitutional body established by Article 324 of the Constitution, responsible for supervising, directing, and controlling elections throughout India — to Parliament, State Legislatures, and the offices of President and Vice President. Its roles: (1) Announces election schedules and model code of conduct; (2) Registers political parties and allocates election symbols; (3) Deploys central security forces during elections; (4) Counts and declares results; (5) Takes action against violations of election law; (6) Manages the voter roll (Electoral Roll). The ECI is independent of the government — ensuring elections are free and fair regardless of which party is in power. The Chief Election Commissioner can only be removed like a Supreme Court judge — very difficult — ensuring independence.",
+      "memory_hook": "ECI = DEMOCRACY'S REFEREE. Like a cricket umpire, the ECI applies the rules impartially, regardless of which team (party) is playing. No government can fire the Chief Election Commissioner easily — independence is built in."
+    },
+    {
+      "id": "fc20",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "How does Karnataka's Vidhan Sabha function? Who is the Speaker?",
+      "back": "Karnataka Vidhan Sabha (State Legislative Assembly): 224 elected members (MLAs — Members of the Legislative Assembly) from 224 constituencies across Karnataka. Functions: (1) Makes laws on subjects in the State List (police, agriculture, education, health, roads); (2) Passes the state Budget (annual income and expenditure plan); (3) Holds the government accountable — debates, question hour, no-confidence motions; (4) Elects the Chief Minister (leader of majority party becomes CM). The Speaker (elected by MLAs) presides over Vidhan Sabha sessions. Karnataka also has a Vidhan Parishad (Legislative Council) — the upper house at the state level. Vidhan Sabha MLAs can be re-elected every 5 years. The Assembly meets in the Vidhana Soudha, Bengaluru — one of India's most iconic government buildings.",
+      "memory_hook": "VIDHAN SABHA = KARNATAKA'S MINI-PARLIAMENT. 224 MLAs, one from each constituency, meeting in Vidhana Soudha. They make Karnataka's laws and hold the Karnataka government accountable. Your MLA = your voice in Karnataka's government."
     }
   ]
 }

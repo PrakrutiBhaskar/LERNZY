@@ -1,114 +1,172 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "social",
-  "chapter_id": "ch14_globe_lat_long",
-  "chapter_title": {
-    "en": "Globe: Latitudes and Longitudes",
-    "hi": "ग्लोब: अक्षांश एवं देशांतर",
-    "kn": "ಗ್ಲೋಬ್: ಅಕ್ಷಾಂಶಗಳು ಮತ್ತು ರೇಖಾಂಶಗಳು"
+  "subject": "Social Science — Geography",
+  "textbook": "Our Environment — Textbook for Class VI",
+  "chapter_number": 14,
+  "chapter_title": "Globe: Latitudes and Longitudes",
+  "estimated_study_time_minutes": 55,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Describe a globe as a true model of Earth",
+    "Define latitude and longitude and explain how they form a grid on the globe",
+    "Name and locate key parallels of latitude: Equator, Tropics, Arctic/Antarctic Circles, Poles",
+    "Explain the significance of each key parallel and circle",
+    "Define the Prime Meridian and International Date Line",
+    "Explain how longitude is used to calculate time zones",
+    "Locate any place on Earth using latitude and longitude coordinates",
+    "Connect latitudes and longitudes to Karnataka's geographic position"
+  ],
+
+  "prerequisite_knowledge": [
+    "Awareness that Earth is a sphere",
+    "Basic compass directions: North, South, East, West",
+    "Understanding that maps and globes represent Earth",
+    "Familiarity with the concept of the equator from earlier classes"
+  ],
+
+  "introduction": {
+    "why_important": "Latitude and longitude are the universal address system of Earth. Every location — from a remote village in Karnataka to a ship in the Pacific Ocean — can be precisely located using just two numbers. GPS, navigation, weather forecasting, and satellite imagery all rely on this coordinate system.",
+    "real_life_relevance": "Every time you use Google Maps, track a flight, or receive a weather forecast, latitude and longitude are working behind the scenes. Your phone's GPS uses satellite signals to calculate your precise latitude and longitude coordinates.",
+    "karnataka_context": "Karnataka lies approximately between 11°N–18°N latitude and 74°E–78°E longitude. Bengaluru is located at approximately 12.97°N, 77.59°E. The Tropic of Cancer (23.5°N) passes north of Karnataka — the state lies in the tropical zone between the Equator and the Tropic of Cancer. The equatorial warmth and monsoon winds that define Karnataka's climate are directly related to its latitudinal position. ISRO uses precise latitude/longitude coordinates to track satellites, map India's geography, and guide Chandrayaan/Mangalyaan missions. India's Standard Meridian is 82.5°E, which passes through Mirzapur, Uttar Pradesh — 5.5 hours ahead of UTC, establishing Indian Standard Time (IST).",
+    "connection_to_previous_learning": "Chapter 13 established Earth's place in the universe and its spherical shape. Chapter 14 builds on this by showing how we precisely locate places on Earth's spherical surface using a coordinate grid."
   },
-  "topics": [
+
+  "story_summary": {
+    "characters": [
+      { "name": "Globe", "role": "A small-scale model of Earth — the most accurate representation because it preserves Earth's shape, relative sizes, and distances" },
+      { "name": "Latitudes (Parallels)", "role": "Imaginary horizontal lines running east-west around the globe, measuring angular distance north or south of the Equator" },
+      { "name": "Longitudes (Meridians)", "role": "Imaginary vertical lines running north-south from pole to pole, measuring angular distance east or west of the Prime Meridian" },
+      { "name": "The Equator", "role": "The most important parallel — 0° latitude, dividing Earth into Northern and Southern hemispheres" },
+      { "name": "The Prime Meridian", "role": "0° longitude, passing through Greenwich, England — the reference line for all longitude measurements and time zones" }
+    ],
+    "plot": [
+      "The chapter opens with the globe as a true model of Earth — superior to flat maps for representing the spherical planet accurately.",
+      "Latitudes (parallels) are introduced as imaginary horizontal circles running east-west. The Equator (0°) is the largest parallel; circles become smaller towards the poles.",
+      "Key parallels are identified: Equator (0°), Tropic of Cancer (23.5°N), Tropic of Capricorn (23.5°S), Arctic Circle (66.5°N), Antarctic Circle (66.5°S), North Pole (90°N), South Pole (90°S).",
+      "The significance of each parallel is explained: Tropics = region of maximum solar heating; Arctic/Antarctic Circles = boundary of midnight sun/polar night phenomena.",
+      "Longitudes (meridians) are introduced as imaginary vertical lines from pole to pole. Unlike parallels, all meridians are equal in length.",
+      "The Prime Meridian (0° longitude) through Greenwich, England, is the reference line — everything east is East longitude, everything west is West longitude.",
+      "The connection between longitude and time is established: Earth rotates 360° in 24 hours = 15° per hour. Every 15° of longitude = 1 hour of time difference.",
+      "The International Date Line (180° meridian, with deviations) is explained — crossing it changes the calendar date.",
+      "The chapter concludes with how to use latitude and longitude coordinates to locate any place on Earth."
+    ],
+    "moral": "Every place on Earth has a unique address in the universal language of latitude and longitude — a system that unites navigation, science, and geography."
+  },
+
+  "core_concepts": [
     {
-      "topic_id": "social_grade6_ch14_globe_lat_long_basics",
-      "title": {
-        "en": "Globe: Latitudes and Longitudes - Fundamentals",
-        "hi": "ग्लोब: अक्षांश एवं देशांतर - बुनियादी बातें",
-        "kn": "ಗ್ಲೋಬ್: ಅಕ್ಷಾಂಶಗಳು ಮತ್ತು ರೇಖಾಂಶಗಳು - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of Globe: Latitudes and Longitudes",
-        "Solve exercises and apply rules related to Globe: Latitudes and Longitudes",
-        "Analyze practical examples of Globe: Latitudes and Longitudes in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Globe: Latitudes and Longitudes. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम ग्लोब: अक्षांश एवं देशांतर का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಗ್ಲೋಬ್: ಅಕ್ಷಾಂಶಗಳು ಮತ್ತು ರೇಖಾಂಶಗಳು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Globe: Latitudes and Longitudes in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम ग्लोब: अक्षांश एवं देशांतर का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಗ್ಲೋಬ್: ಅಕ್ಷಾಂಶಗಳು ಮತ್ತು ರೇಖಾಂಶಗಳು ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Globe: Latitudes and Longitudes.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Globe: Latitudes and Longitudes.",
-            "hi": "चरण 1: ग्लोब: अक्षांश एवं देशांतर के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಗ್ಲೋಬ್: ಅಕ್ಷಾಂಶಗಳು ಮತ್ತು ರೇಖಾಂಶಗಳು ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Globe: Latitudes and Longitudes builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "ग्लोब: अक्षांश एवं देशांतर में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಗ್ಲೋಬ್: ಅಕ್ಷಾಂಶಗಳು ಮತ್ತು ರೇಖಾಂಶಗಳು ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Globe and Latitudes (Parallels)",
+      "simple_explanation": "A globe is a true model of Earth. Latitudes are imaginary horizontal lines on the globe, measured in degrees north or south of the Equator (0°).",
+      "detailed_explanation": "A globe is a three-dimensional, spherical model of Earth that accurately represents shape, relative size, and direction. It is more accurate than flat maps for large areas (flat maps distort size and shape). Latitude is the angular distance of a point north or south of the Equator, measured in degrees (°). Latitudes are also called parallels because all latitude lines run parallel to each other (they never intersect). The Equator is 0° latitude — the largest parallel, dividing Earth into Northern and Southern hemispheres. Latitude ranges from 0° (Equator) to 90°N (North Pole) and 90°S (South Pole). Key parallels: Equator (0°), Tropic of Cancer (23.5°N), Tropic of Capricorn (23.5°S), Arctic Circle (66.5°N), Antarctic Circle (66.5°S). Total parallels: 181 (including the two poles as points). The distance between two parallels is approximately 111 km.",
+      "real_life_example": "On a globe, trace your finger horizontally from left to right — that line is a parallel of latitude. Note how the circles get smaller as you move towards the poles. The Equator is the widest; the Arctic Circle is much smaller; the poles are just points.",
+      "karnataka_example": "Karnataka lies between approximately 11°N and 18°N latitude — squarely in the tropical zone between the Equator and the Tropic of Cancer. This latitudinal position means Karnataka receives intense solar radiation year-round (tropical climate), experiences the Southwest Monsoon, and has warm temperatures throughout the year. Coastal Karnataka (Dakshina Kannada, Udupi) at ~13°N receives the full force of the Arabian Sea monsoon. North Karnataka (Bidar at ~18°N) is closer to the Tropic of Cancer and has a more semi-arid climate.",
+      "common_mistakes": "Students confuse latitude and longitude. Latitude = horizontal lines (like rungs of a ladder going left-right), measured N or S. Longitude = vertical lines (like uprights of a ladder going up-down), measured E or W. Also, students think the Equator is in the middle of the globe 'just because' — it is 0° because it is equidistant from both poles, and it is where the Sun is directly overhead on the equinoxes.",
+      "memory_tip": "LAT = lAT (horizontal = flat like a mat). LONG = LONG lines going from top to bottom (pole to pole). Or: Latitude = ladder rungs (horizontal). Longitude = ladder sides (vertical). Draw a ladder and you have the grid!"
+    },
+    {
+      "concept_name": "Key Parallels and Their Significance",
+      "simple_explanation": "Five key parallels divide Earth into heat zones: Equator, Tropic of Cancer, Tropic of Capricorn, Arctic Circle, and Antarctic Circle.",
+      "detailed_explanation": "Equator (0°): Divides Earth into Northern and Southern hemispheres. The Sun is directly overhead here on the equinoxes (March 21, September 23). Receives the most solar energy year-round — hence tropical, hot climate. Tropic of Cancer (23.5°N): The Sun is directly overhead here on the Summer Solstice (June 21). Northern limit of the tropics. Passes through India (Rajasthan, Madhya Pradesh, West Bengal), China, Mexico. Tropic of Capricorn (23.5°S): The Sun is directly overhead here on the Winter Solstice (December 22). Southern limit of the tropics. Passes through South Africa, Australia, Brazil. Tropical Zone: Between the two Tropics — receives maximum solar heat; has tropical climate. Temperate Zones: Between the Tropics and the Polar Circles — moderate climate. Arctic Circle (66.5°N): Above this, there is at least one day of midnight sun (24 hours of daylight) in summer and one day of polar night in winter. Antarctic Circle (66.5°S): Same phenomenon in the Southern hemisphere. Frigid/Polar Zones: Above the Arctic Circle and below the Antarctic Circle — very cold.",
+      "real_life_example": "India is largely in the tropical zone — north of the Equator and mostly south of the Tropic of Cancer. This explains India's hot summers, monsoon rains, and year-round warmth. The UK, in the temperate zone (~51°N), has milder, more variable weather. Norway, above the Arctic Circle, experiences 24-hour sunlight in summer.",
+      "karnataka_example": "Karnataka lies entirely south of the Tropic of Cancer, firmly in the tropical zone. This explains: high year-round temperatures (25–35°C average), two monsoon seasons (SW and NE), intense summer heat especially in northern districts like Raichur (close to 18°N), and year-round agricultural productivity. The Tropic of Cancer passes through north India (Rajasthan, MP) — Karnataka is well south of it.",
+      "common_mistakes": "Students mix up Tropic of Cancer (23.5°N — North) and Tropic of Capricorn (23.5°S — South). Cancer = North (C is the 3rd letter, and 'Cancer' is the 'north' tropic). Capricorn = South. Also, students forget the Arctic Circle is at 66.5°, not 60° or 70°. The value to remember: 23.5° (tropics) + 66.5° = 90° (the pole) — they add up perfectly.",
+      "memory_tip": "Tropic of CaNcer = North (N in caNcer). Tropic of Capricorn = South (Cap = tip pointing South). Arctic Circle = 66.5°N = 90°-23.5°. Antarctic Circle = 66.5°S. They're symmetrical pairs — Cancer↔Capricorn (tropics), Arctic↔Antarctic (polar circles)."
+    },
+    {
+      "concept_name": "Longitudes (Meridians) and the Prime Meridian",
+      "simple_explanation": "Longitudes are imaginary vertical lines running from the North Pole to the South Pole. They are measured in degrees east or west of the Prime Meridian (0°) at Greenwich, England.",
+      "detailed_explanation": "Longitudes (meridians) are imaginary semi-circles running from the North Pole to the South Pole. All meridians are equal in length (unlike parallels, which decrease in length towards the poles). All meridians meet at both poles. Longitude is the angular distance of a point east or west of the Prime Meridian, measured in degrees. The Prime Meridian (0°) passes through the Royal Observatory, Greenwich, near London, England. It was established internationally in 1884. Longitude ranges from 0° to 180°E (going east) and 0° to 180°W (going west). 180°E and 180°W are the same line — approximately the International Date Line. Total meridians: 360 (180 East + 180 West). The Prime Meridian and the 180° meridian together form a complete circle dividing Earth into Eastern and Western hemispheres.",
+      "real_life_example": "Greenwich Observatory in London has a famous brass line on the ground marking the Prime Meridian (0° longitude). Tourists straddle the line to stand in both the Eastern and Western hemispheres simultaneously. Every map you use — Google Maps, classroom atlas — uses this Greenwich reference for all longitude measurements.",
+      "karnataka_example": "Karnataka lies between approximately 74°E and 78°E longitude — firmly in the Eastern hemisphere. Bengaluru is at ~77.6°E longitude. India's Standard Meridian is 82.5°E (IST = UTC + 5.5 hours). Since Karnataka is west of 82.5°E, the Sun rises slightly later in Bengaluru compared to eastern India. ISRO Bengaluru uses precise longitude coordinates for tracking satellites and managing missions.",
+      "common_mistakes": "Students say all meridians are different lengths — actually, all meridians are equal length (~20,000 km pole to pole). It is the parallels that differ in length. Also, students think the Prime Meridian was chosen by nature — it is an arbitrary human convention, established by international agreement in 1884, passing through the Greenwich Observatory.",
+      "memory_tip": "Prime Meridian = the 'prime address' of Earth's longitude = 0°E/W at Greenwich, England. All other meridians are measured from here. PRIME = Primary reference. Without a prime (starting) reference, E and W would mean nothing."
+    },
+    {
+      "concept_name": "Longitude and Time — Time Zones",
+      "simple_explanation": "Earth rotates 360° in 24 hours, so it rotates 15° every hour. Each 15° of longitude corresponds to 1 hour of time difference. This is why the world has 24 standard time zones.",
+      "detailed_explanation": "Earth rotates from west to east (counterclockwise when viewed from above the North Pole). It completes 360° of rotation in 24 hours. Therefore: 360° ÷ 24 hours = 15° per hour. So every 15° of longitude represents 1 hour of time difference. Places east of the Prime Meridian are ahead in time (Sun rises earlier); places west are behind. The world is theoretically divided into 24 time zones of 15° each. In practice, time zones follow political boundaries for convenience. India's Standard Time: India uses 82.5°E as its Standard Meridian (halfway between 75°E and 90°E). IST = UTC + 5 hours 30 minutes. India uses a single time zone despite its wide east-west extent (~68°E to ~97°E). International Date Line (IDL): Approximately at 180° longitude, with deviations to avoid splitting countries. Crossing the IDL eastward = going back one calendar day. Crossing westward = advancing one day.",
+      "real_life_example": "When it is 12:00 noon IST in Bengaluru (77.6°E), it is: 6:30 AM in London (0°E/GMT) — because India is 5.5 hours ahead. 1:30 AM in New York (75°W) — because New York is 13.5 hours behind India. This is why international business meetings must account for time zones and why flights list 'departure' and 'arrival' in local times.",
+      "karnataka_example": "Bengaluru (77.6°E) is close to India's Standard Meridian (82.5°E). When ISRO Bengaluru launches a satellite or communicates with a spacecraft, it uses IST (Indian Standard Time = UTC+5:30) for all mission timing. International collaborations (with NASA, ESA) require ISRO scientists to convert between IST and UTC precisely — using the same longitude-time principles taught in this chapter.",
+      "common_mistakes": "Students think India has multiple time zones like the USA. India uses ONE Standard Time (82.5°E = IST) for the whole country, even though its geographic extent should technically span ~2 time zones. Also, students confuse 'ahead' in time: places east of you see the Sun rise EARLIER because Earth rotates eastward — they are 'ahead' in time, not 'behind'.",
+      "memory_tip": "15° = 1 hour. Easy calculation: difference in degrees ÷ 15 = hours difference. East = ahead (Sun comes to them first). 82.5°E ÷ 15 = 5.5 = IST is 5.5 hours ahead of UTC. Easy: IST = UTC + 5:30. Every 15° adds or subtracts 1 hour."
     }
+  ],
+
+  "key_vocabulary": [
+    { "term": "Globe", "definition": "A three-dimensional, spherical model of Earth that accurately represents its shape and geography" },
+    { "term": "Latitude", "definition": "Angular distance of a place north or south of the Equator, measured in degrees" },
+    { "term": "Parallel", "definition": "Another name for a line of latitude — all latitudes run parallel to each other and to the Equator" },
+    { "term": "Longitude", "definition": "Angular distance of a place east or west of the Prime Meridian, measured in degrees" },
+    { "term": "Meridian", "definition": "Another name for a line of longitude — runs from North Pole to South Pole" },
+    { "term": "Equator", "definition": "0° latitude — the largest parallel, dividing Earth into Northern and Southern hemispheres" },
+    { "term": "Prime Meridian", "definition": "0° longitude, passing through Greenwich, England — the reference line for all longitude measurements" },
+    { "term": "Tropic of Cancer", "definition": "23.5°N latitude — the Sun is directly overhead here on June 21 (Summer Solstice in Northern hemisphere)" },
+    { "term": "Tropic of Capricorn", "definition": "23.5°S latitude — the Sun is directly overhead here on December 22 (Winter Solstice in Northern hemisphere)" },
+    { "term": "Arctic Circle", "definition": "66.5°N latitude — above this, there is at least one 24-hour period of daylight and one of darkness per year" },
+    { "term": "Antarctic Circle", "definition": "66.5°S latitude — the southern equivalent of the Arctic Circle" },
+    { "term": "International Date Line", "definition": "Approximately the 180° meridian (with deviations) — crossing it changes the calendar date by one day" },
+    { "term": "Time zone", "definition": "A region of Earth that observes the same standard time; there are 24 main time zones, each 15° of longitude wide" },
+    { "term": "GMT / UTC", "definition": "Greenwich Mean Time / Coordinated Universal Time — the time at 0° longitude, used as the world's time reference" }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Globe and Latitudes",
+      "questions": [
+        { "type": "Recall", "q": "What is the latitude of the Equator?", "a": "The Equator is at 0° latitude." },
+        { "type": "Recall", "q": "Name the five key parallels of latitude.", "a": "Equator (0°), Tropic of Cancer (23.5°N), Tropic of Capricorn (23.5°S), Arctic Circle (66.5°N), Antarctic Circle (66.5°S)." },
+        { "type": "Understanding", "q": "Why are lines of latitude called 'parallels'?", "a": "Because all latitude lines run parallel to each other and to the Equator — they never intersect, unlike meridians which all meet at the poles." }
+      ]
+    },
+    {
+      "after_concept": "Longitude and Time",
+      "questions": [
+        { "type": "Recall", "q": "How many degrees does Earth rotate per hour?", "a": "Earth rotates 15° per hour (360° ÷ 24 hours = 15°/hour)." },
+        { "type": "Application", "q": "If it is 12:00 noon at 0° (Greenwich), what time is it at 75°E?", "a": "75°E ÷ 15 = 5 hours ahead of Greenwich. So it is 5:00 PM at 75°E." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Globe = true 3D model of Earth; preserves shape and relative size better than flat maps.",
+    "Latitude = horizontal lines (parallels), measured N or S of Equator (0° to 90°).",
+    "Longitude = vertical lines (meridians), measured E or W of Prime Meridian (0° to 180°).",
+    "Key parallels: Equator (0°), Tropic of Cancer (23.5°N), Tropic of Capricorn (23.5°S), Arctic Circle (66.5°N), Antarctic Circle (66.5°S).",
+    "Tropic of Cancer: Sun directly overhead on June 21. Tropic of Capricorn: Sun overhead on December 22.",
+    "Prime Meridian (0° longitude) passes through Greenwich, England.",
+    "Earth rotates 15° per hour → every 15° longitude = 1 hour time difference.",
+    "India's Standard Meridian = 82.5°E; IST = UTC + 5:30.",
+    "International Date Line ≈ 180° longitude — crossing it changes the calendar date.",
+    "Karnataka: approximately 11°N–18°N, 74°E–78°E. Bengaluru: ~12.97°N, 77.59°E."
+  ],
+
+  "mind_map": {
+    "root": "Globe: Latitudes and Longitudes",
+    "branches": [
+      { "branch": "Globe", "sub": ["3D model of Earth", "Most accurate representation", "Has axis, poles, Equator"] },
+      { "branch": "Latitudes (Parallels)", "sub": ["Horizontal, run E–W", "0° (Equator) to 90° N/S", "5 key parallels: Equator, Tropics, Polar Circles"] },
+      { "branch": "Key Parallels", "sub": ["Equator: divides hemispheres", "Cancer 23.5°N / Capricorn 23.5°S: tropics", "Arctic 66.5°N / Antarctic 66.5°S: polar zones"] },
+      { "branch": "Longitudes (Meridians)", "sub": ["Vertical, run N–S pole to pole", "0°–180°E and 0°–180°W", "Prime Meridian: Greenwich"] },
+      { "branch": "Time Zones", "sub": ["15° = 1 hour", "East = ahead, West = behind", "IST = 82.5°E = UTC+5:30", "International Date Line ≈ 180°"] },
+      { "branch": "Karnataka Links", "sub": ["11°N–18°N, 74°E–78°E", "Bengaluru: 12.97°N, 77.59°E", "Tropical zone", "ISRO uses coordinates for satellite tracking"] }
+    ]
+  },
+
+  "revision_notes": "Chapter 14 (Geography) covers the globe, latitudes, and longitudes. Globe = spherical model of Earth. Latitudes (parallels) = horizontal lines, N or S of Equator (0°–90°). Key parallels: Equator (0°), Tropic of Cancer (23.5°N), Tropic of Capricorn (23.5°S), Arctic Circle (66.5°N), Antarctic Circle (66.5°S). Tropical zone between tropics = hottest. Temperate zone between tropics and polar circles. Frigid zone above polar circles. Longitudes (meridians) = vertical lines, E or W of Prime Meridian (0° at Greenwich). All meridians equal length; meet at poles. 15° longitude = 1 hour time. Earth = 360° in 24 hrs → 15°/hr. East = ahead in time. IST = 82.5°E = UTC+5:30. IDL ≈ 180°. Karnataka: 11°N–18°N, 74°E–78°E; Bengaluru ≈ 12.97°N, 77.59°E.",
+
+  "must_remember_facts": [
+    "Latitude = horizontal (parallel), measured N/S from Equator (0°–90°).",
+    "Longitude = vertical (meridian), measured E/W from Prime Meridian (0°–180°).",
+    "Five key parallels: Equator 0°, Tropic of Cancer 23.5°N, Tropic of Capricorn 23.5°S, Arctic Circle 66.5°N, Antarctic Circle 66.5°S.",
+    "Tropic of Cancer: Sun directly overhead June 21. Tropic of Capricorn: December 22.",
+    "Prime Meridian (0° longitude) = Greenwich, England.",
+    "15° longitude = 1 hour time difference. Earth rotates 360° in 24 hours = 15°/hour.",
+    "East of Prime Meridian = ahead in time. West = behind.",
+    "India's Standard Meridian = 82.5°E. IST = UTC + 5 hours 30 minutes.",
+    "International Date Line ≈ 180° longitude — crossing eastward loses one day, westward gains one day.",
+    "Karnataka: ~11°N–18°N, ~74°E–78°E. Bengaluru: ~12.97°N, 77.59°E."
   ]
 }

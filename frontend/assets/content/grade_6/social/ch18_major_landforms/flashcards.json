@@ -1,96 +1,172 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch18_major_landforms_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science — Geography",
+  "textbook": "The Earth: Our Habitat — Textbook for Class VI",
+  "chapter_number": 18,
+  "chapter_title": "Major Landforms of the Earth",
+  "total_cards": 20,
   "cards": [
     {
       "id": "fc01",
-      "front": {
-        "en": "What is the core idea of Major Landforms of the Earth? (FC1)",
-        "hi": "What is the core idea of Major Landforms of the Earth? (FC1)",
-        "kn": "What is the core idea of Major Landforms of the Earth? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What are the three major types of landforms on Earth?",
+      "back": "The three major types of landforms are: (1) Mountains — high elevated landmasses with steep slopes; (2) Plateaus — elevated flatlands with steep sides; and (3) Plains — flat, low-lying areas of land. These three landforms cover most of Earth's land surface and are each suitable for different human activities.",
+      "memory_hook": "MPP: Mountains go UP steeply, Plateaus go UP flatly, Plains stay FLAT. Or: 'Mighty Polar Penguins' — Mountains, Plateaus, Plains."
     },
     {
       "id": "fc02",
-      "front": {
-        "en": "Why is Major Landforms of the Earth important? (FC2)",
-        "hi": "Why is Major Landforms of the Earth important? (FC2)",
-        "kn": "Why is Major Landforms of the Earth important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a mountain? What is the difference between a mountain and a hill?",
+      "back": "A mountain is a naturally elevated landform that rises steeply above the surrounding land, generally above 600 metres. Mountains have a peak (top), steep slopes, and a narrow summit. A hill is similar but smaller — generally below 600 metres in height. The difference is primarily in height: mountains are taller, steeper, and more dramatic than hills. The Himalayas are mountains; the Nilgiris in Karnataka/Tamil Nadu are hills (though colloquially called mountains).",
+      "memory_hook": "Mountain = Massive and Mighty (above 600 m). Hill = Humble and Horizontal (below 600 m). Height is the key — mountains look down on hills."
     },
     {
       "id": "fc03",
-      "front": {
-        "en": "What is the core idea of Major Landforms of the Earth? (FC3)",
-        "hi": "What is the core idea of Major Landforms of the Earth? (FC3)",
-        "kn": "What is the core idea of Major Landforms of the Earth? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What are the three types of mountains? Give one example of each.",
+      "back": "The three types of mountains are: (1) Fold Mountains — formed by folding of Earth's crust; e.g., Himalayas (Asia), Alps (Europe), Rockies (North America); (2) Block Mountains — formed when large blocks of Earth rise or adjacent blocks sink; e.g., Vindhya Range (India), Vosges (France); (3) Volcanic Mountains — formed by volcanic activity; e.g., Mount Kilimanjaro (Africa), Mount Fuji (Japan).",
+      "memory_hook": "FBV: Fold (pushed up like a wrinkle), Block (broken and lifted), Volcanic (blown up from inside). Think 'Fold, Break, Explode' — three ways mountains are born."
     },
     {
       "id": "fc04",
-      "front": {
-        "en": "Why is Major Landforms of the Earth important? (FC4)",
-        "hi": "Why is Major Landforms of the Earth important? (FC4)",
-        "kn": "Why is Major Landforms of the Earth important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a plateau? Why is it called a 'tableland'?",
+      "back": "A plateau is an elevated flat-topped landform. It rises steeply from the surrounding land on at least one side and has a relatively flat or gently rolling surface on top. A plateau is called a 'tableland' because it looks like a table — with flat top and steep sides (like table legs). The Deccan Plateau in India (covering Karnataka, Maharashtra, Telangana, and Andhra Pradesh) is one of the world's oldest and largest plateaus.",
+      "memory_hook": "Plateau = Table + Land. Flat top + steep sides = table shape. The Deccan Plateau is the 'dining table' of peninsular India — flat, high, and wide."
     },
     {
       "id": "fc05",
-      "front": {
-        "en": "What is the core idea of Major Landforms of the Earth? (FC5)",
-        "hi": "What is the core idea of Major Landforms of the Earth? (FC5)",
-        "kn": "What is the core idea of Major Landforms of the Earth? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a plain? Why are plains important for human settlement?",
+      "back": "A plain is a flat, low-lying area of land with very little variation in height. Plains are formed by rivers depositing sediment over thousands of years (alluvial plains) or by glaciers. Plains are extremely important for human settlement because: (1) the flat land is easy to build on, (2) alluvial soil is very fertile for farming, (3) transportation is easy, and (4) water is available from nearby rivers. The Indo-Gangetic Plain in India is one of the most densely populated regions in the world.",
+      "memory_hook": "Plains = flat = farming = food = population. Where the land is level, life is easy. The Gangetic Plain feeds hundreds of millions of people — that's why it's so densely settled."
+    },
+    {
+      "id": "fc06",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What is the highest mountain in the world? In which country is it located?",
+      "back": "Mount Everest (8,848.86 m) is the highest mountain in the world. It is located in the Himalayas on the border of Nepal and China (Tibet). It was first scaled on 29 May 1953 by Sir Edmund Hillary (New Zealand) and Tenzing Norgay Sherpa (Nepal). Everest is known as 'Sagarmatha' in Nepal and 'Chomolungma' in Tibet.",
+      "memory_hook": "Everest = Ever the highest. 8,848 m — remember '8-8-4-8' or think: 'Eight thousand, Eight hundred, Forty-Eight'. Nepal-China border = Himalayas = top of the world."
+    },
+    {
+      "id": "fc07",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What are fold mountains? How are they formed?",
+      "back": "Fold mountains are formed when two tectonic plates (large sections of Earth's crust) collide and push against each other. The pressure causes the rocks between them to fold and buckle upward, forming mountain ridges. The Himalayas were formed this way — the Indian Plate collided with the Eurasian Plate over millions of years. Fold mountains are the most common type and include the world's greatest mountain ranges.",
+      "memory_hook": "Fold mountains = like folding a tablecloth — push both ends together and it wrinkles up in the middle. Two plates push → rocks fold up → mountains form. Himalayas = world's biggest tablecloth fold."
+    },
+    {
+      "id": "fc08",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What is the Deccan Plateau? Which states does it cover?",
+      "back": "The Deccan Plateau is a large triangular plateau that forms the heartland of the Indian peninsula. It is one of the world's oldest rock formations (Precambrian age). It covers the states of Karnataka, Maharashtra, Telangana, Andhra Pradesh, and parts of Tamil Nadu and Madhya Pradesh. It is surrounded by the Western Ghats on the west and Eastern Ghats on the east. The plateau slopes from west to east, which is why most major peninsular rivers flow eastward.",
+      "memory_hook": "Deccan = peninsular India's rocky plateau backbone. Shaped like a triangle (like the peninsula itself). Karnataka sits right in the middle of it — Bangalore is on the Deccan Plateau at about 900 m elevation!"
+    },
+    {
+      "id": "fc09",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why are mountains important to human life even though they are difficult to live on?",
+      "back": "Mountains are crucial for human life in several ways: (1) they are the source of major rivers (Himalayas feed the Ganga, Indus, Brahmaputra); (2) they receive heavy rainfall and snowfall, which is the source of freshwater; (3) they have forests providing timber, herbs, and biodiversity; (4) they block cold Arctic winds from reaching the plains (the Himalayas protect India from cold Siberian winds); (5) they attract tourists; and (6) they have fertile valleys where people grow crops.",
+      "memory_hook": "Mountains = Water tower + Wind shield + Forest + Tourism. The Himalayas are India's best friend — they give us rivers AND protect us from cold winds. Without the Himalayas, India would be a cold desert."
+    },
+    {
+      "id": "fc10",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is alluvial soil and how does it form on plains?",
+      "back": "Alluvial soil is rich, fertile soil formed when rivers carry small particles of rock, silt, and organic matter and deposit them over flat land during floods. Over thousands of years, these deposits build up to form fertile alluvial plains. The Indo-Gangetic Plain has deep alluvial soil — in some places over 1,000 m deep — making it the most productive agricultural land in the world. Karnataka's river valleys (Krishna, Cauvery) also have alluvial deposits.",
+      "memory_hook": "Alluvial = 'All you want' for farming — rich, deep, fertile soil gifted by rivers. Rivers are nature's farmers: they carry nutrients from mountains and deposit them on plains as a gift."
+    },
+    {
+      "id": "fc11",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What are the Western Ghats? Why are they important for Karnataka?",
+      "back": "The Western Ghats (Sahyadri Range) are a mountain range running parallel to India's western coast, from Gujarat to Tamil Nadu. In Karnataka, they form the western and southwestern boundary. They are a UNESCO World Heritage Site and a global biodiversity hotspot. For Karnataka, the Western Ghats: (1) receive heavy monsoon rainfall (Coorg/Kodagu gets over 2,500 mm annually); (2) are the source of Karnataka's major rivers (Cauvery, Krishna tributaries, Tungabhadra); (3) have dense forests with coffee, spice, and wildlife.",
+      "memory_hook": "Western Ghats = Karnataka's rain catcher + river starter. The Ghats intercept monsoon clouds, causing heavy rainfall on the western side. Kodagu (Coorg) — India's coffee capital — exists because of the Ghats."
+    },
+    {
+      "id": "fc12",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a valley? What is a glacier?",
+      "back": "A valley is a low-lying area between mountains or hills, usually formed by river erosion or glacial movement. Valleys often have rivers flowing through them and fertile land for farming. A glacier is a large, slow-moving mass of ice formed from compacted snow in mountain regions. Glaciers carve out valleys (U-shaped) as they move. Himalayan glaciers like Gangotri and Siachen are the source of major rivers. As glaciers melt, they feed rivers.",
+      "memory_hook": "Valley = V-shape (cut by river) or U-shape (carved by glacier). Glacier = frozen river that moves in slow motion — millimetres per day — and carves mountains as it goes."
+    },
+    {
+      "id": "fc13",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Name the major mountain ranges in India.",
+      "back": "Major mountain ranges in India: (1) Himalayas — in the north, highest in the world; (2) Karakoram Range — in Jammu & Kashmir/Ladakh; (3) Aravalli Range — in Rajasthan (world's oldest fold mountains); (4) Vindhya Range — in central India; (5) Satpura Range — in Madhya Pradesh/Maharashtra; (6) Western Ghats — along west coast; (7) Eastern Ghats — along east coast. Karnataka is bounded by the Western Ghats (west) and contains part of the Eastern Ghats (northeast).",
+      "memory_hook": "India's ranges from north to south: Himalaya → Karakoram → Aravalli → Vindhya → Satpura → Western & Eastern Ghats. Karnataka students: remember Western Ghats (your western border)."
+    },
+    {
+      "id": "fc14",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Bengaluru is located on the Deccan Plateau. What does this mean for its climate compared to Mumbai?",
+      "back": "Bengaluru is located at approximately 900 m above sea level on the Deccan Plateau. Because of its high elevation, Bengaluru has a milder, more pleasant climate than Mumbai (which is at sea level). Higher altitude = cooler temperatures. This is why Bengaluru is called the 'Garden City' and has a spring-like climate year-round, while Mumbai is hot and humid. The plateau location also means Bengaluru has less rainfall than the Western Ghats region.",
+      "memory_hook": "Higher = Cooler. Bengaluru at 900 m = pleasant temperatures. Mumbai at sea level = hot & humid. This is why Bengaluru became India's IT hub — the weather is perfect for offices! Geography shapes destiny."
+    },
+    {
+      "id": "fc15",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why do most people live on plains rather than mountains?",
+      "back": "Most people live on plains because: (1) flat land makes farming easy — ploughing, irrigation, and harvesting are simpler; (2) fertile alluvial soil supports high agricultural productivity; (3) it is easier to build roads, railways, and cities on flat land; (4) rivers on plains provide water for drinking and irrigation; (5) plains have a milder climate than cold, oxygen-thin mountain tops. Mountains, despite their beauty, are difficult to access, have thin air, and have poor soil.",
+      "memory_hook": "Plains = flat = easy farming + easy building + easy transport = lots of people. Mountains = steep = hard farming + hard building + hard transport = fewer people. Nature decides where we live."
+    },
+    {
+      "id": "fc16",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What is the Indo-Gangetic Plain? Why is it called the 'food bowl' of India?",
+      "back": "The Indo-Gangetic Plain is the large fertile plain in northern India formed by the rivers Indus, Ganga, and Brahmaputra and their tributaries. It stretches across Punjab, Haryana, Uttar Pradesh, Bihar, and West Bengal. It is called the 'food bowl' of India because it produces the largest quantities of wheat, rice, sugarcane, and other food crops due to its deep, fertile alluvial soil and availability of river water for irrigation.",
+      "memory_hook": "Indo-Gangetic Plain = India's kitchen. Indus + Ganga = rivers that feed a billion people. If you've eaten roti (wheat from Punjab) or rice (UP, Bihar) — that came from this plain."
+    },
+    {
+      "id": "fc17",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What are block mountains? How are they different from fold mountains?",
+      "back": "Block mountains are formed when large blocks of the Earth's crust are lifted up or when adjacent blocks sink, due to faults (cracks) in the crust. They have relatively flat tops and steep, cliff-like sides. Example: Vindhya Range (India), Vosges (France), Sierra Nevada (USA). Fold mountains are formed by folding (crumpling) of rocks due to tectonic pressure — they are more wrinkled and jagged. Block mountains are 'broken and lifted'; fold mountains are 'pushed and crumpled'.",
+      "memory_hook": "Block mountain = like lifting a table block (flat top, steep sides). Fold mountain = like folding a blanket (wavy, ridge-like). Break vs Fold — two very different ways the Earth creates mountains."
+    },
+    {
+      "id": "fc18",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What is a volcanic mountain? Give two examples.",
+      "back": "A volcanic mountain is formed by the accumulation of lava, ash, and other volcanic materials erupted from a volcano over time. As lava cools and solidifies, it builds up into a cone-shaped mountain. Examples: Mount Kilimanjaro (Africa — Africa's highest peak, in Tanzania), Mount Fuji (Japan — iconic cone-shaped volcano, 3,776 m), Mount Vesuvius (Italy), and Barren Island (India's only active volcano, in the Andaman & Nicobar Islands).",
+      "memory_hook": "Volcanic mountain = nature's cone-shaped dumpling, built one lava layer at a time. Mount Fuji (Japan) = most famous volcanic mountain — the perfect cone that inspired a thousand paintings."
+    },
+    {
+      "id": "fc19",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Classify these Indian landforms: Gangetic Plain, Deccan Plateau, Himalayas, Vindhya Range.",
+      "back": "Gangetic Plain — Plain (flat alluvial lowland formed by river deposits; most fertile land in India). Deccan Plateau — Plateau (elevated, ancient flat-topped landform forming the peninsula). Himalayas — Fold Mountains (formed by collision of Indian and Eurasian tectonic plates; world's highest range). Vindhya Range — Block Mountains (formed by faulting of the Earth's crust; separates north India from the Deccan Plateau).",
+      "memory_hook": "India has all three landform types: Himalayas (fold mountains, north), Deccan Plateau (plateau, south), Gangetic Plain (plain, middle). The Vindhyas divide north from south — they're block mountains acting as India's spine."
+    },
+    {
+      "id": "fc20",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is erosion and how does it shape landforms over time?",
+      "back": "Erosion is the process by which rocks and soil are worn away and transported by agents like running water (rivers), wind, glaciers, and waves. Over millions of years, erosion shapes landforms: rivers carve valleys and gorges (e.g., Grand Canyon), glaciers carve U-shaped valleys, wind creates sand dunes and erodes rocks in deserts, and waves erode coastlines. Erosion is always ongoing — even the Himalayas are being slowly worn down by rivers and weather.",
+      "memory_hook": "Erosion = Earth's slow sculptor. Water + Wind + Ice + Waves = nature's chisel set. The Grand Canyon (2 km deep) was carved by the Colorado River over 5–6 million years — one drop of water at a time."
     }
   ]
 }

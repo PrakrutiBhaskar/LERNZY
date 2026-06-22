@@ -1,366 +1,263 @@
 {
-  "version": "1.0",
-  "topic_id": "english_grade6_ch14_poetry_water_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "English",
+  "textbook": "Honeysuckle",
+  "chapter_number": 14,
+  "chapter_title": "The Wonderful Words",
+  "poet": "Mary O'Neill",
+  "total_mcqs": 20,
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: Water? (Q1)",
-        "hi": "What is the primary objective of studying Poetry: Water? (Q1)",
-        "kn": "What is the primary objective of studying Poetry: Water? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Who is the poet of 'The Wonderful Words'?",
+      "options": ["A) Eleanor Farjeon", "B) E-Yeh-Shure", "C) Mary O'Neill", "D) Peter Dixon"],
+      "correct_answer": "C) Mary O'Neill",
+      "explanation": "The poem 'The Wonderful Words' is written by Mary O'Neill, an American poet known for her engaging, educational poems about language and colour. Eleanor Farjeon wrote 'The Quarrel', E-Yeh-Shure wrote 'Beauty', and Peter Dixon wrote 'Where Do All the Teachers Go?'"
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: Water in a text. (Q2)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: Water in a text. (Q2)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: Water in a text. (Q2)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "What is the central message of the poem 'The Wonderful Words'?",
+      "options": [
+        "A) Words are difficult to learn and should be studied carefully",
+        "B) Thoughts need words to be expressed — without words, thoughts shrivel and die",
+        "C) English is the most beautiful language in the world",
+        "D) Writing is more important than speaking"
+      ],
+      "correct_answer": "B) Thoughts need words to be expressed — without words, thoughts shrivel and die",
+      "explanation": "The central message is that words are the only tools we have to give our thoughts life and share them with the world. Without the right words, thoughts remain trapped — they 'shrivel and die' unexpressed. The poem encourages readers to build their vocabulary so no thought goes unexpressed."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: Water? (Q3)",
-        "hi": "What is the primary objective of studying Poetry: Water? (Q3)",
-        "kn": "What is the primary objective of studying Poetry: Water? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "What does the poet mean by 'never let a thought shrivel and die'?",
+      "options": [
+        "A) Never forget what you have learned in school",
+        "B) Never let a thought go unexpressed because you lack the words to say it",
+        "C) Never allow your plants to die without watering them",
+        "D) Never let your ideas become old-fashioned"
+      ],
+      "correct_answer": "B) Never let a thought go unexpressed because you lack the words to say it",
+      "explanation": "'Shrivel and die' is a vivid metaphor — a thought that cannot find words withers and disappears, just as a plant without water shrivels. The poet urges readers to find the right words for their thoughts so those thoughts can live on and be shared. This is the poem's core appeal to build vocabulary."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: Water in a text. (Q4)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: Water in a text. (Q4)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: Water in a text. (Q4)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "How does the poet describe English in the poem?",
+      "options": [
+        "A) A difficult puzzle that only clever people can solve",
+        "B) A wonderful game that everyone can play",
+        "C) A serious subject that must be studied every day",
+        "D) A secret language known only to poets"
+      ],
+      "correct_answer": "B) A wonderful game that everyone can play",
+      "explanation": "The poem says 'English is a wonderful game / And all of you can play it.' By comparing English to a game, the poet makes language feel accessible, fun, and non-intimidating. The key word 'all' is important — it is not just for the talented or clever; everyone can participate and find the right words for their thoughts."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: Water? (Q5)",
-        "hi": "What is the primary objective of studying Poetry: Water? (Q5)",
-        "kn": "What is the primary objective of studying Poetry: Water? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "According to the poem, what are words described as in relation to thought?",
+      "options": [
+        "A) The wings and feet of thought",
+        "B) The food and dress of thought",
+        "C) The heart and soul of thought",
+        "D) The light and shadow of thought"
+      ],
+      "correct_answer": "B) The food and dress of thought",
+      "explanation": "The poem states: 'Words are the food and dress of thought.' Food gives thought its substance and nourishment — without words, thoughts have no body. Dress gives thought its form and appearance — words shape how a thought is presented to the world. This dual metaphor captures both the essential nature and the presentational quality of words."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: Water in a text. (Q6)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: Water in a text. (Q6)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: Water in a text. (Q6)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "What does the poet say people are 'longing to hear' today?",
+      "options": [
+        "A) Old stories and familiar songs",
+        "B) News from foreign countries",
+        "C) Some fresh and beautiful thing",
+        "D) Advice from experienced teachers"
+      ],
+      "correct_answer": "C) Some fresh and beautiful thing",
+      "explanation": "The poem says 'everyone's longing today to hear / Some fresh and beautiful thing.' This is a key idea — the world is always hungry for new, original, beautiful expression. The poet encourages the reader to be the one who provides that fresh, beautiful thing by using words to express their unique thoughts."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: Water? (Q7)",
-        "hi": "What is the primary objective of studying Poetry: Water? (Q7)",
-        "kn": "What is the primary objective of studying Poetry: Water? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "According to the poem, where are thoughts trapped if they have no words?",
+      "options": [
+        "A) In the heart",
+        "B) In the throat",
+        "C) In a prison behind your eyes",
+        "D) In the stomach"
+      ],
+      "correct_answer": "C) In a prison behind your eyes",
+      "explanation": "The poem says 'only words can free a thought / From its prison behind your eyes.' The mind/brain is compared to a prison where thoughts are locked up. Words are the key that frees them. This is a powerful metaphor — thoughts are prisoners, and vocabulary is the liberating force."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: Water in a text. (Q8)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: Water in a text. (Q8)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: Water in a text. (Q8)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "What does the poet suggest you do to express your thoughts?",
+      "options": [
+        "A) Draw pictures instead of using words",
+        "B) Match the words to the brightest thoughts in your head",
+        "C) Ask a teacher to write down your thoughts",
+        "D) Read more books and copy the words you find"
+      ],
+      "correct_answer": "B) Match the words to the brightest thoughts in your head",
+      "explanation": "The poem says 'All that you do is match the words / To the brightest thoughts in your head.' The task of expression is described as a matching exercise — finding the right words to fit the best thoughts. The word 'brightest' suggests your most vivid, creative, important ideas deserve to be matched with equally vivid words."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: Water? (Q9)",
-        "hi": "What is the primary objective of studying Poetry: Water? (Q9)",
-        "kn": "What is the primary objective of studying Poetry: Water? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "The poem says 'many of the loveliest things / Have never yet been said.' What does this mean?",
+      "options": [
+        "A) Beautiful things exist in nature that no one has described yet",
+        "B) Many beautiful thoughts and ideas remain unexpressed because people lack the words — waiting for someone to give them voice",
+        "C) Lovely things should be kept secret and not shared",
+        "D) The loveliest things can only be expressed in music, not words"
+      ],
+      "correct_answer": "B) Many beautiful thoughts and ideas remain unexpressed because people lack the words — waiting for someone to give them voice",
+      "explanation": "This line is a powerful motivator. The poet is saying that the world is full of beautiful, original thoughts that no one has yet expressed in words. This is an invitation — perhaps YOUR thought is one of those 'loveliest things' that has never been said. Learning to use words well means you can be the first to express something truly beautiful."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: Water in a text. (Q10)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: Water in a text. (Q10)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: Water in a text. (Q10)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "What might the speaker's mind be 'holding now', according to the poem?",
+      "options": [
+        "A) A secret from a friend",
+        "B) A marvellous new surprise",
+        "C) A memory of childhood",
+        "D) A lesson from school"
+      ],
+      "correct_answer": "B) A marvellous new surprise",
+      "explanation": "The poem ends: 'May be your mind is holding now / A marvellous new surprise!' This is an encouraging, optimistic close — the poet is telling the reader that they may already have a wonderful, original thought inside their mind, just waiting for the right words to set it free. It is an invitation to self-expression."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "What poetic device is used in the phrase 'only words can free a thought from its prison behind your eyes'?",
+      "options": ["A) Simile", "B) Alliteration", "C) Onomatopoeia", "D) Metaphor and Personification"],
+      "correct_answer": "D) Metaphor and Personification",
+      "explanation": "This phrase uses two devices: (1) Metaphor — the mind is compared to a 'prison' (without using 'like' or 'as'), and (2) Personification — thoughts are given the human quality of being imprisoned. The phrase treats thoughts as prisoners who need to be freed, which is a vivid way of expressing the idea that unexpressed thoughts are trapped and powerless."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "The poet calls English 'a wonderful game'. What effect does this comparison have?",
+      "options": [
+        "A) It suggests English is not a serious subject",
+        "B) It makes language feel accessible, fun, and open to everyone — reducing the fear of words",
+        "C) It means only people who play games can learn English",
+        "D) It suggests English should be taught through sports activities"
+      ],
+      "correct_answer": "B) It makes language feel accessible, fun, and open to everyone — reducing the fear of words",
+      "explanation": "Calling English a 'game' is a deliberate, encouraging choice. Games are played, not feared. Games are for everyone. Games are enjoyable. By framing language as a game, the poet removes the intimidation many students feel around vocabulary and expression. 'All of you can play it' reinforces that this is inclusive — not just for the gifted."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "What does 'words are the food and dress of thought' mean?",
+      "options": [
+        "A) Words are used at mealtimes and in fashion",
+        "B) Words nourish thoughts (like food) and give them form and presentation (like dress/clothing)",
+        "C) Thoughts need to be fed and clothed just like human beings",
+        "D) Words are more important than food and clothing"
+      ],
+      "correct_answer": "B) Words nourish thoughts (like food) and give them form and presentation (like dress/clothing)",
+      "explanation": "This is a double metaphor. Food gives the body energy and life — words give thoughts substance and vitality. Without words, thoughts have no body, no power. Dress/clothing gives a person their appearance and form — words shape how a thought is presented and understood by others. Together, the metaphor shows that words are essential to both the existence and the expression of thought."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "Why does the poet say 'for want of a way to say it' thoughts shrivel and die?",
+      "options": [
+        "A) Because thoughts become old and useless if not acted upon",
+        "B) Because without the vocabulary to express them, thoughts cannot be communicated and are lost",
+        "C) Because the poet believes silent people are unintelligent",
+        "D) Because thoughts need to be written down to survive"
+      ],
+      "correct_answer": "B) Because without the vocabulary to express them, thoughts cannot be communicated and are lost",
+      "explanation": "'For want of a way to say it' means because of a lack of words or vocabulary. When a person has a beautiful or important thought but lacks the words to express it, that thought goes unexpressed — it 'shrivels and dies' like a plant without water. The poem's message is that building vocabulary is essential to keeping your thoughts alive and sharing them with the world."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "The poem says 'the brightest thoughts in your head'. What does 'brightest' suggest here?",
+      "options": [
+        "A) Thoughts that glow with light",
+        "B) Thoughts that are easy and simple to understand",
+        "C) Your most vivid, creative, and original ideas — the ones most worth expressing",
+        "D) Thoughts that come only to very intelligent people"
+      ],
+      "correct_answer": "C) Your most vivid, creative, and original ideas — the ones most worth expressing",
+      "explanation": "'Brightest' is used metaphorically — not referring to literal brightness but to the quality of thoughts. The brightest thoughts are the most vivid, original, and valuable ones. The poet urges readers to match their words to these best ideas, implying that even ordinary people have brilliant thoughts worth expressing, if only they find the right words."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Who is the audience of this poem — who is the poet speaking to?",
+      "options": [
+        "A) Professional writers and poets",
+        "B) Teachers who struggle to explain things clearly",
+        "C) All readers, especially young people, encouraging them to use language boldly",
+        "D) Scientists who need to write research papers"
+      ],
+      "correct_answer": "C) All readers, especially young people, encouraging them to use language boldly",
+      "explanation": "The poem uses 'you' and 'your' throughout — it is addressed directly to the reader. The encouraging tone ('all of you can play it', 'maybe your mind is holding now a marvellous new surprise') suggests it is aimed at all readers, especially young students who may feel their thoughts are not worth expressing or that they lack the words to do so. The poem is a call to action for everyone."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Hard",
+      "question": "The poem says 'many of the loveliest things / Have never yet been said.' How does this line serve as motivation for students?",
+      "options": [
+        "A) It tells students that beautiful things can only be found in nature, not in books",
+        "B) It implies that the student's own unique thoughts could be among the world's most beautiful things — yet to be expressed",
+        "C) It suggests that English is an incomplete language that needs new words",
+        "D) It warns students that most good ideas have already been expressed by famous poets"
+      ],
+      "correct_answer": "B) It implies that the student's own unique thoughts could be among the world's most beautiful things — yet to be expressed",
+      "explanation": "This line is one of the poem's most powerful motivational tools. By saying the loveliest things have 'never yet been said', the poet implies there is still creative space for everyone — including this very student. Your unique thought, your specific experience, your individual perspective may be the fresh, beautiful thing that has been waiting. It democratises creativity and removes the idea that only famous poets have beautiful thoughts."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Hard",
+      "question": "How does 'The Wonderful Words' connect to the theme of language and identity?",
+      "options": [
+        "A) The poem argues that people who speak more than one language are confused",
+        "B) By saying words set thoughts free from 'prison behind your eyes', the poem links language to self-expression, identity, and the ability to be truly known by others",
+        "C) The poem suggests that language is less important than actions in defining a person",
+        "D) The poem argues that written language is more important than spoken language for identity"
+      ],
+      "correct_answer": "B) By saying words set thoughts free from 'prison behind your eyes', the poem links language to self-expression, identity, and the ability to be truly known by others",
+      "explanation": "The image of thoughts trapped 'in a prison behind your eyes' is profound — it suggests that without language, a person's inner world is inaccessible to others. Language is the bridge between your inner self and the world. The poem thus ties language directly to identity: to express yourself is to exist meaningfully in the social world. A person who cannot express their thoughts is, in a sense, imprisoned within themselves."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Hard",
+      "question": "The poem uses the metaphor of a 'game' for English. What might be the limitations of this metaphor?",
+      "options": [
+        "A) Games are not educational, so the comparison is inappropriate",
+        "B) While a game suggests fun and accessibility, language is also serious, emotional, and consequential — it can hurt or heal, not just entertain",
+        "C) Games are competitive, but language should not be used competitively",
+        "D) Not everyone enjoys games, so some readers may be put off by this metaphor"
+      ],
+      "correct_answer": "B) While a game suggests fun and accessibility, language is also serious, emotional, and consequential — it can hurt or heal, not just entertain",
+      "explanation": "This is a higher-order analysis question. The game metaphor is effective for making language feel accessible, but it has limits. Language is not merely playful — words can wound deeply, comfort in grief, declare love, deliver justice. The poem does acknowledge this richness (words as 'food and dress' of thought), but calling language a 'game' may understate the weight and power of words in serious contexts. This is worth discussing as students develop critical reading skills."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Hard",
+      "question": "The poem ends with 'Maybe your mind is holding now / A marvellous new surprise!' Why does the poet use 'maybe' instead of 'definitely'?",
+      "options": [
+        "A) Because the poet is unsure whether the reader is intelligent enough to have good ideas",
+        "B) Because using 'maybe' respects the reader's autonomy — it is an invitation, not a command — and leaves room for the reader to discover this for themselves",
+        "C) Because the poet herself is not confident about the power of words",
+        "D) Because 'maybe' was needed to complete the rhyme scheme of the stanza"
+      ],
+      "correct_answer": "B) Because using 'maybe' respects the reader's autonomy — it is an invitation, not a command — and leaves room for the reader to discover this for themselves",
+      "explanation": "'Maybe' is a gentle, open invitation rather than a directive. Saying 'definitely your mind holds a marvellous surprise' would feel presumptuous. 'Maybe' acknowledges that the poet cannot know what is in the reader's mind — but suggests the exciting possibility that something wonderful might be there. It leaves the door open for self-discovery rather than telling the reader what to think. This is the mark of a skilled, empathetic poet."
     }
   ]
 }

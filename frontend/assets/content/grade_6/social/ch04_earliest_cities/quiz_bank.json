@@ -1,366 +1,232 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch04_earliest_cities_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science — History",
+  "textbook": "Our Pasts-I",
+  "chapter_number": 4,
+  "chapter_title": "What Books and Burials Tell Us",
+  "total_mcqs": 20,
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of In the Earliest Cities? (Q1)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of In the Earliest Cities? (Q1)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of In the Earliest Cities? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Which is the oldest of the four Vedas?",
+      "options": ["A) Samaveda", "B) Yajurveda", "C) Atharvaveda", "D) Rigveda"],
+      "correct_answer": "D) Rigveda",
+      "explanation": "The Rigveda is the oldest of the four Vedas, composed approximately 3500 years ago in Sanskrit. The other three Vedas — Samaveda, Yajurveda, and Atharvaveda — were composed later. The Rigveda contains 1028 hymns and is the primary literary source for understanding early Vedic society."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to In the Earliest Cities in a community? (Q2)",
-        "hi": "Who or what body regulates the civic issues related to In the Earliest Cities in a community? (Q2)",
-        "kn": "Who or what body regulates the civic issues related to In the Earliest Cities in a community? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "In which language was the Rigveda composed?",
+      "options": ["A) Pali", "B) Prakrit", "C) Sanskrit", "D) Tamil"],
+      "correct_answer": "C) Sanskrit",
+      "explanation": "The Rigveda was composed in Sanskrit — one of the world's oldest known languages and part of the Indo-European language family. Sanskrit is related to Latin, Greek, and Persian. Pali was the language of early Buddhist texts. Prakrit was spoken by ordinary people in ancient India. Tamil is an ancient Dravidian language with its own independent tradition."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of In the Earliest Cities? (Q3)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of In the Earliest Cities? (Q3)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of In the Earliest Cities? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "How was the Rigveda transmitted before it was written down?",
+      "options": [
+        "A) By carving it on stone walls",
+        "B) By memorising and reciting it from teacher to student",
+        "C) By writing it on palm leaves",
+        "D) By painting it on cave walls"
+      ],
+      "correct_answer": "B) By memorising and reciting it from teacher to student",
+      "explanation": "The Rigveda was part of an oral tradition — it was memorised precisely and passed from teacher (guru) to student through careful recitation for centuries before being written down. This oral transmission was so accurate that the text was preserved virtually unchanged. Writing it on stone or palm leaves came much later."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to In the Earliest Cities in a community? (Q4)",
-        "hi": "Who or what body regulates the civic issues related to In the Earliest Cities in a community? (Q4)",
-        "kn": "Who or what body regulates the civic issues related to In the Earliest Cities in a community? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "How many hymns does the Rigveda contain?",
+      "options": ["A) 108", "B) 512", "C) 1028", "D) 4000"],
+      "correct_answer": "C) 1028",
+      "explanation": "The Rigveda contains 1028 hymns (also called 'suktas') arranged in ten books (mandalaas). These hymns praise various gods including Agni (fire), Indra (thunder/war), and Soma (a ritual plant/drink). The number 1028 is a specific and important fact about the Rigveda that students should remember."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of In the Earliest Cities? (Q5)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of In the Earliest Cities? (Q5)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of In the Earliest Cities? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "What does the word 'megalith' mean?",
+      "options": [
+        "A) A large ancient city",
+        "B) A large stone structure built over a burial site",
+        "C) A type of ancient weapon made of stone",
+        "D) A large stone tablet with writing on it"
+      ],
+      "correct_answer": "B) A large stone structure built over a burial site",
+      "explanation": "Megalith comes from Greek: 'mega' (large) + 'lithos' (stone). It refers to large stone structures built over or around burial sites. They are not cities, weapons, or writing tablets. Megaliths are found across South India, Northeast India, and worldwide — England's Stonehenge is a famous example."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to In the Earliest Cities in a community? (Q6)",
-        "hi": "Who or what body regulates the civic issues related to In the Earliest Cities in a community? (Q6)",
-        "kn": "Who or what body regulates the civic issues related to In the Earliest Cities in a community? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "Where is the archaeological site of Inamgaon located?",
+      "options": ["A) Karnataka", "B) Rajasthan", "C) Maharashtra", "D) Gujarat"],
+      "correct_answer": "C) Maharashtra",
+      "explanation": "Inamgaon is located on the banks of the Ghod river (a tributary of the Bhima river) in Maharashtra. A farming community lived here approximately 3600 years ago. It is important for its unusual burial practices — adults buried in large pots under house floors, and one special burial of a man with many surrounding pots suggesting high social status."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of In the Earliest Cities? (Q7)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of In the Earliest Cities? (Q7)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of In the Earliest Cities? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "What were adults at Inamgaon buried in?",
+      "options": [
+        "A) Stone-lined pits in the ground",
+        "B) Large megalithic chambers",
+        "C) Large pots placed under the floors of their houses",
+        "D) Wooden coffins buried in a common cemetery"
+      ],
+      "correct_answer": "C) Large pots placed under the floors of their houses",
+      "explanation": "Adults at Inamgaon were buried in large pots placed under the floors of their own houses — an unusual burial practice. This is different from megaliths (stone structures) or pit burials. One special burial showed a man in a large pot surrounded by many additional smaller pots, suggesting he held a position of importance in the community."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to In the Earliest Cities in a community? (Q8)",
-        "hi": "Who or what body regulates the civic issues related to In the Earliest Cities in a community? (Q8)",
-        "kn": "Who or what body regulates the civic issues related to In the Earliest Cities in a community? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "Which of the following is NOT typically found as a burial good in megalithic graves?",
+      "options": ["A) Iron tools and weapons", "B) Pottery with food and water", "C) Horse bones", "D) Wheat and barley seeds"],
+      "correct_answer": "D) Wheat and barley seeds",
+      "explanation": "Typical megalithic burial goods include iron tools and weapons, pottery (with food/water for the afterlife), horse bones, and ornaments. The chapter does not mention seeds as burial goods in megaliths. Wheat and barley seeds are associated with farming sites like Mehrgarh — not with megalithic burials."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of In the Earliest Cities? (Q9)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of In the Earliest Cities? (Q9)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of In the Earliest Cities? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "Which Karnataka district is home to Hire Benakal — one of India's largest megalithic sites?",
+      "options": ["A) Hassan district", "B) Koppal district", "C) Mysuru district", "D) Bellary district"],
+      "correct_answer": "B) Koppal district",
+      "explanation": "Hire Benakal is located in Koppal district, Karnataka, and is one of the largest megalithic sites in India, with hundreds of stone circles and cist graves. Brahmagiri (Hassan district) is another important megalithic site in Karnataka. Both sites have yielded iron tools, pottery, horse bones, and ornaments consistent with the burial goods described in this chapter."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to In the Earliest Cities in a community? (Q10)",
-        "hi": "Who or what body regulates the civic issues related to In the Earliest Cities in a community? (Q10)",
-        "kn": "Who or what body regulates the civic issues related to In the Earliest Cities in a community? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "Which animal was considered important for warfare in the Vedic period according to the Rigveda?",
+      "options": ["A) Elephant", "B) Camel", "C) Horse", "D) Ox"],
+      "correct_answer": "C) Horse",
+      "explanation": "According to the Rigveda, horses were extremely important in Vedic society — they were used to pull chariots in battle. Chariot warfare using horses was a key feature of Vedic military culture. Cattle (cows) were the primary form of wealth. Elephants became important in later periods. Camels were used in deserts but not central to Vedic culture."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "What does the presence of food and water in megalithic graves reveal about ancient beliefs?",
+      "options": [
+        "A) Ancient people wasted food by putting it in graves",
+        "B) Ancient people believed in life after death — the dead would need food and water in the afterlife",
+        "C) Food was placed in graves to keep animals away",
+        "D) Ancient people thought the dead would come back to life and eat"
+      ],
+      "correct_answer": "B) Ancient people believed in life after death — the dead would need food and water in the afterlife",
+      "explanation": "Food and water in graves indicate a belief in afterlife. People only provision a journey if they believe the journey will happen. Placing food and water meant the mourners believed the dead person would 'travel' to another realm where they would need sustenance. This belief in afterlife appears across many ancient cultures worldwide and is directly evidenced by megalithic burial goods."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "What does the term 'jana' mean in the Rigveda?",
+      "options": [
+        "A) A type of ancient weapon",
+        "B) A group or community of people",
+        "C) A Vedic ritual involving fire",
+        "D) A type of cattle used in farming"
+      ],
+      "correct_answer": "B) A group or community of people",
+      "explanation": "'Jana' is a Sanskrit word meaning 'people' or 'group/community'. In the Rigveda, different janas are mentioned as distinct communities who sometimes cooperated and sometimes competed. The word survives in modern Indian languages: 'Janata' (the people), 'Janapada' (people's territory), 'Lok Sabha' where 'lok' is related to 'jana' as a root concept meaning people."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "Which of the following BEST describes what the difference in burial goods between graves tells us?",
+      "options": [
+        "A) All ancient people were equal — burial goods were distributed randomly",
+        "B) Social stratification existed — graves with richer goods belonged to higher-status individuals",
+        "C) The richness of burial goods was decided by the size of the family",
+        "D) Burial goods only reflect the age of the person buried, not their status"
+      ],
+      "correct_answer": "B) Social stratification existed — graves with richer goods belonged to higher-status individuals",
+      "explanation": "Differences in the quantity and richness of burial goods reflect real differences in social status. A grave with many pots, iron weapons, gold ornaments, and horse bones belonged to a wealthy or important person; a simple grave with few items belonged to an ordinary person. At Inamgaon, the man with many surrounding pots is interpreted as a leader or high-status individual — showing social stratification existed even in farming communities."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "Sanskrit belongs to which language family?",
+      "options": [
+        "A) Dravidian language family",
+        "B) Sino-Tibetan language family",
+        "C) Indo-European language family",
+        "D) Afro-Asiatic language family"
+      ],
+      "correct_answer": "C) Indo-European language family",
+      "explanation": "Sanskrit is part of the Indo-European language family — the same family that includes ancient Greek, Latin, Persian (Avestan), and their modern descendants (Hindi, Kannada, English, French, German, Spanish, etc.). Dravidian languages (Tamil, Kannada in its Dravidian elements, Telugu) form a separate family. The Indo-European connection reveals ancient linguistic links between South Asia and Europe."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "Which Vedic god is associated with fire and Vedic rituals?",
+      "options": ["A) Indra", "B) Soma", "C) Varuna", "D) Agni"],
+      "correct_answer": "D) Agni",
+      "explanation": "Agni is the Vedic god of fire. Fire was central to Vedic rituals — sacrifices (yajnas) were performed by making offerings into fire, and Agni was believed to carry the offerings to the gods. The word 'agni' still means fire in Hindi and is related to the Latin word 'ignis' (fire). Indra was the god of thunder/war, Soma was associated with a ritual plant/drink, and Varuna was the god of cosmic order."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "What significant discovery at Brahmagiri in Karnataka was made during the 1947 excavation?",
+      "options": [
+        "A) The oldest Kannada inscription",
+        "B) Neolithic and megalithic remains including stone tools, pottery, and iron implements",
+        "C) A large granary from the Harappan period",
+        "D) Cave paintings similar to Bhimbetka"
+      ],
+      "correct_answer": "B) Neolithic and megalithic remains including stone tools, pottery, and iron implements",
+      "explanation": "The 1947 excavation of Brahmagiri in Hassan district, Karnataka (conducted by Mortimer Wheeler) revealed both Neolithic and megalithic remains — stone tools, animal bones, black and red pottery, and iron implements. This site is important for understanding the transition from Neolithic to Iron Age in South India. The oldest Kannada inscription is the Halmidi inscription, not from Brahmagiri."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Hard",
+      "question": "The Rigveda describes groups called 'aryas' and 'dasas/dasyus'. What is the most accurate interpretation of these terms based on current historical understanding?",
+      "options": [
+        "A) Aryas were fair-skinned invaders and dasas were dark-skinned original inhabitants",
+        "B) These terms likely referred to different cultural, linguistic, or ritual groups — the exact nature of the distinction is debated and the 'racial' interpretation has been largely rejected",
+        "C) Aryas were rulers and dasas were their slaves",
+        "D) Aryas and dasas were simply two different political parties in the Vedic period"
+      ],
+      "correct_answer": "B) These terms likely referred to different cultural, linguistic, or ritual groups — the exact nature of the distinction is debated and the 'racial' interpretation has been largely rejected",
+      "explanation": "The older interpretation that 'aryas' and 'dasas' represented racial groups (invaders vs original inhabitants) has been largely rejected by modern historians and archaeologists. Current understanding is that these terms reflected cultural, linguistic, or ritual differences — groups with different practices and possibly different languages. The NCERT textbook is careful not to present a single definitive interpretation, acknowledging ongoing scholarly debate."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Hard",
+      "question": "Why do historians argue that the oral transmission of the Rigveda was actually highly reliable?",
+      "options": [
+        "A) Because priests were paid to memorise it correctly",
+        "B) Because the text was memorised using multiple elaborate methods of recitation that caught any errors, and the result — virtually no variation across manuscripts — proves its accuracy",
+        "C) Because the Rigveda was short enough to memorise easily",
+        "D) Because it was written down immediately after composition"
+      ],
+      "correct_answer": "B) Because the text was memorised using multiple elaborate methods of recitation that caught any errors, and the result — virtually no variation across manuscripts — proves its accuracy",
+      "explanation": "Vedic oral transmission was not casual memorisation — it used sophisticated methods like 'pada patha' (word-by-word recitation), 'krama patha' (step recitation), and 'ghana patha' (complex back-and-forth recitation) specifically designed to catch and correct errors. The extraordinary proof of its reliability is that Rigveda manuscripts from different parts of India and different centuries are virtually identical — showing that the oral tradition preserved the text with remarkable fidelity."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Hard",
+      "question": "How does the chapter's title 'What Books and Burials Tell Us' reflect the NCERT's approach to studying history?",
+      "options": [
+        "A) It shows that only written sources (books) are valid for historical study",
+        "B) It demonstrates that historians use multiple, diverse types of sources — both literary (books) and archaeological (burials) — to build a complete picture of the past",
+        "C) It suggests that ancient people only left behind books and burial sites",
+        "D) It shows that burials are more important than books for historical study"
+      ],
+      "correct_answer": "B) It demonstrates that historians use multiple, diverse types of sources — both literary (books) and archaeological (burials) — to build a complete picture of the past",
+      "explanation": "The title deliberately pairs two very different types of sources — the Rigveda (a literary/religious text) and burials (physical archaeological evidence). This pairing reflects the NCERT's consistent approach of using multiple source types (established in Chapter 1: manuscripts, inscriptions, archaeology). No single source tells the whole story; combining literary and archaeological evidence gives historians a richer, more balanced picture of ancient society."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Hard",
+      "question": "A historian finds a megalithic grave with large quantities of iron weapons, gold ornaments, horse bones, and multiple pottery vessels. Another nearby grave has only two plain pots. What conclusions can the historian draw about ancient society?",
+      "options": [
+        "A) The person in the first grave was younger than the person in the second grave",
+        "B) Social stratification existed — the first person held a much higher status than the second; iron technology and horses were associated with elite individuals; and both graves show a belief in the afterlife",
+        "C) The first person was a foreigner from another region and the second was a local person",
+        "D) The first grave is older than the second grave"
+      ],
+      "correct_answer": "B) Social stratification existed — the first person held a much higher status than the second; iron technology and horses were associated with elite individuals; and both graves show a belief in the afterlife",
+      "explanation": "The dramatic difference in burial goods allows several conclusions: (1) Social stratification — the richly-furnished grave belonged to a high-status individual (leader, warrior, or wealthy person); the sparse grave belonged to an ordinary community member; (2) Elite associations — iron weapons and horse bones specifically appear in high-status graves, suggesting warriors or rulers; (3) Afterlife beliefs — both graves have pottery, suggesting both the elite and ordinary people believed in afterlife. Quantity and richness vary; the belief itself was shared."
     }
   ]
 }

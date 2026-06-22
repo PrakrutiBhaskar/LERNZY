@@ -1,366 +1,232 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch25_panchayati_raj_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science",
+  "textbook": "Social and Political Life — Part I (Civics)",
+  "chapter_number": 25,
+  "chapter_title": "Panchayati Raj",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Panchayati Raj? (Q1)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Panchayati Raj? (Q1)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Panchayati Raj? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Which Constitutional Amendment gave legal status to the Panchayati Raj system in India?",
+      "options": ["A) 42nd Amendment", "B) 73rd Amendment", "C) 86th Amendment", "D) 44th Amendment"],
+      "correct_answer": "B) 73rd Amendment",
+      "explanation": "The 73rd Constitutional Amendment (1992) made Panchayati Raj mandatory in all states, established the three-tier system, mandated elections every 5 years, reserved 33% seats for women, and reserved seats for SC/ST communities. It gave constitutional backing to rural local self-government."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Panchayati Raj in a community? (Q2)",
-        "hi": "Who or what body regulates the civic issues related to Panchayati Raj in a community? (Q2)",
-        "kn": "Who or what body regulates the civic issues related to Panchayati Raj in a community? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "Which is the village-level body in the three-tier Panchayati Raj system?",
+      "options": ["A) Zila Parishad", "B) Panchayat Samiti", "C) Gram Panchayat", "D) Gram Sabha"],
+      "correct_answer": "C) Gram Panchayat",
+      "explanation": "The Gram Panchayat is the village-level (Tier 1) elected body in Panchayati Raj. The Panchayat Samiti is the block-level body (Tier 2). The Zila Parishad is the district-level body (Tier 3). The Gram Sabha is not an elected body — it is a meeting of all adult voters of the village."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Panchayati Raj? (Q3)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Panchayati Raj? (Q3)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Panchayati Raj? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "Who is the head of the Gram Panchayat?",
+      "options": ["A) Collector", "B) Panch", "C) Sarpanch", "D) Block Development Officer"],
+      "correct_answer": "C) Sarpanch",
+      "explanation": "The Sarpanch is the elected head (chairperson/president) of the Gram Panchayat. A Panch is an elected ward member — one of the elected members of the GP. The Collector is a senior IAS officer managing the district administration. The BDO manages the block-level administration."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Panchayati Raj in a community? (Q4)",
-        "hi": "Who or what body regulates the civic issues related to Panchayati Raj in a community? (Q4)",
-        "kn": "Who or what body regulates the civic issues related to Panchayati Raj in a community? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "The Gram Sabha consists of:",
+      "options": [
+        "A) All elected Panchs of the village",
+        "B) All government officials of the village",
+        "C) All adult voters (18 years and above) of the village",
+        "D) The Sarpanch and ward members only"
+      ],
+      "correct_answer": "C) All adult voters (18 years and above) of the village",
+      "explanation": "The Gram Sabha is the most fundamental democratic body at the village level — it consists of ALL registered voters (18+) of the village. It is NOT just elected members. The Gram Panchayat (elected members) is different from the Gram Sabha (all voters)."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Panchayati Raj? (Q5)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Panchayati Raj? (Q5)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Panchayati Raj? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "What is the minimum number of times the Gram Sabha must meet in a year (national requirement)?",
+      "options": ["A) Once", "B) Twice", "C) Four times", "D) Twelve times"],
+      "correct_answer": "B) Twice",
+      "explanation": "The national minimum requirement is that the Gram Sabha meets at least twice a year. However, states can mandate more meetings — Karnataka, for example, mandates four Gram Sabha meetings per year. At these meetings, the GP's work is reviewed, budgets approved, and welfare beneficiaries selected."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Panchayati Raj in a community? (Q6)",
-        "hi": "Who or what body regulates the civic issues related to Panchayati Raj in a community? (Q6)",
-        "kn": "Who or what body regulates the civic issues related to Panchayati Raj in a community? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "Which of the following is a function of the Gram Panchayat?",
+      "options": [
+        "A) Conducting Lok Sabha elections",
+        "B) Maintaining village roads, water supply, and sanitation",
+        "C) Appointing district collectors",
+        "D) Making laws for the state"
+      ],
+      "correct_answer": "B) Maintaining village roads, water supply, and sanitation",
+      "explanation": "The Gram Panchayat is responsible for local services: roads, drainage, water supply, sanitation, streetlights, primary schools, and implementing welfare schemes. Lok Sabha elections are conducted by the Election Commission. Collectors are appointed by the state government. State laws are made by the State Legislature."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Panchayati Raj? (Q7)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Panchayati Raj? (Q7)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Panchayati Raj? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "What percentage of seats in Panchayat elections are reserved for women under the 73rd Amendment?",
+      "options": ["A) 10%", "B) 20%", "C) 33%", "D) 50%"],
+      "correct_answer": "C) 33%",
+      "explanation": "The 73rd Constitutional Amendment mandated that at least one-third (33%) of seats in all Panchayat bodies be reserved for women. Many states, including Karnataka, have increased this to 50% at various levels. This reservation ensures women's mandatory participation in local governance."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Panchayati Raj in a community? (Q8)",
-        "hi": "Who or what body regulates the civic issues related to Panchayati Raj in a community? (Q8)",
-        "kn": "Who or what body regulates the civic issues related to Panchayati Raj in a community? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "Which state was a pioneer in Panchayati Raj, passing a comprehensive Panchayati Raj Act in 1983?",
+      "options": ["A) Maharashtra", "B) Kerala", "C) Karnataka", "D) Rajasthan"],
+      "correct_answer": "C) Karnataka",
+      "explanation": "Karnataka passed the Karnataka Zilla Parishads, Taluk Panchayat Samithis, Mandal Panchayats and Nyaya Panchayats Act in 1983 — nearly 9 years before the 73rd Amendment (1992) made Panchayati Raj constitutionally mandatory. Karnataka was a pioneer in devolving power, funds, and functions to local bodies."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Panchayati Raj? (Q9)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Panchayati Raj? (Q9)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Panchayati Raj? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "Which of the following is a source of income for the Gram Panchayat?",
+      "options": [
+        "A) Income tax collected from villagers",
+        "B) House tax and water tax collected by the GP",
+        "C) GST (Goods and Services Tax)",
+        "D) Customs duty on goods imported"
+      ],
+      "correct_answer": "B) House tax and water tax collected by the GP",
+      "explanation": "The Gram Panchayat collects its own local taxes — house tax (on buildings), water tax, and market/mela tax. It also receives grants from state and central governments. Income tax, GST, and customs duty are central government taxes and do not go to the GP."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Panchayati Raj in a community? (Q10)",
-        "hi": "Who or what body regulates the civic issues related to Panchayati Raj in a community? (Q10)",
-        "kn": "Who or what body regulates the civic issues related to Panchayati Raj in a community? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "What is a Social Audit in the context of Panchayati Raj?",
+      "options": [
+        "A) An audit conducted by chartered accountants hired by the government",
+        "B) A public process where the GP's expenditure is read aloud at the Gram Sabha for villagers to question",
+        "C) An online audit of Panchayat accounts posted on the internet",
+        "D) A survey of villagers' social problems conducted by the district collector"
+      ],
+      "correct_answer": "B) A public process where the GP's expenditure is read aloud at the Gram Sabha for villagers to question",
+      "explanation": "Social Audit is a grassroots accountability mechanism where the Gram Panchayat's income and expenditure are publicly presented at the Gram Sabha. Any villager can question any expenditure — making it a powerful tool against corruption. It was popularised by MKSS in Rajasthan and is now mandatory for MGNREGA across India."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "The Gram Sabha is described as 'direct democracy' while the Gram Panchayat is 'representative democracy.' Which statement correctly explains this difference?",
+      "options": [
+        "A) The Gram Sabha makes direct payments to villagers; the GP represents the bank",
+        "B) In the Gram Sabha, all voters participate directly in decisions; in the GP, elected representatives decide on behalf of voters",
+        "C) The Gram Sabha is directly under the central government; the GP represents state government",
+        "D) The Gram Sabha directly selects the Collector; the GP selects the Block Development Officer"
+      ],
+      "correct_answer": "B) In the Gram Sabha, all voters participate directly in decisions; in the GP, elected representatives decide on behalf of voters",
+      "explanation": "Direct democracy means all citizens participate personally in decision-making. The Gram Sabha is direct democracy — every adult voter attends, speaks, and votes. Representative democracy means citizens elect representatives who decide for them. The GP is representative democracy — 5–15 elected Panchs manage village affairs between Sabha meetings."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "MGNREGA guarantees rural households how many days of wage employment per year?",
+      "options": ["A) 50 days", "B) 75 days", "C) 100 days", "D) 150 days"],
+      "correct_answer": "C) 100 days",
+      "explanation": "MGNREGA (Mahatma Gandhi National Rural Employment Guarantee Act, 2005) guarantees 100 days of wage employment per year to every rural household. The Gram Panchayat is the key implementing agency — it registers workers, provides employment on public works, maintains muster rolls, and ensures wages are paid. The Gram Sabha approves the work plan."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "Which of the following correctly describes the Grama One initiative in Karnataka?",
+      "options": [
+        "A) A scheme providing one free house to every Gram Panchayat",
+        "B) An initiative providing 90+ government services at the Gram Panchayat level",
+        "C) A single election for all three tiers of Panchayati Raj held simultaneously",
+        "D) A programme to merge all Gram Panchayats into one district body"
+      ],
+      "correct_answer": "B) An initiative providing 90+ government services at the Gram Panchayat level",
+      "explanation": "Grama One is Karnataka's initiative to make Gram Panchayats genuine service delivery centres. Over 90 services — including caste certificates, income certificates, ration card changes, and MGNREGA registrations — can be accessed at the GP, saving villagers the trouble of visiting taluk or district offices. It strengthens Panchayati Raj as a functional institution."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "A village has 4 wards. Ward A elects Meena. Ward B elects Rajan. Ward C elects Savitha. Ward D elects Prakash. Who forms the Gram Panchayat?",
+      "options": [
+        "A) Only the ward that got the most votes",
+        "B) Meena, Rajan, Savitha, and Prakash together form the Gram Panchayat",
+        "C) The Gram Panchayat is formed by government appointment, not election",
+        "D) Only Meena, as she was elected from Ward A (the first ward)"
+      ],
+      "correct_answer": "B) Meena, Rajan, Savitha, and Prakash together form the Gram Panchayat",
+      "explanation": "The Gram Panchayat is formed by ALL elected Panchs (ward members) from all wards of the village. Each ward elects one Panch, and all Panchs together constitute the Gram Panchayat. A Sarpanch is then elected to head this collective body. All four elected members — Meena, Rajan, Savitha, and Prakash — form the GP."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "Why are seats in Panchayats reserved for SC and ST communities in proportion to their population?",
+      "options": [
+        "A) Because SC and ST communities are wealthier and need more representation",
+        "B) To ensure historically marginalised communities have guaranteed representation and cannot be shut out by dominant groups",
+        "C) Because SC and ST communities have more voters in every village",
+        "D) Because the Constitution requires equal seats for all castes regardless of population"
+      ],
+      "correct_answer": "B) To ensure historically marginalised communities have guaranteed representation and cannot be shut out by dominant groups",
+      "explanation": "SC and ST communities have historically faced discrimination and exclusion from political power. Without reservation, dominant caste groups might win all seats, excluding marginalised communities from governance. Proportional reservation ensures these communities have guaranteed seats corresponding to their share of the population, making Panchayati Raj genuinely inclusive."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Which tier of Panchayati Raj supervises Gram Panchayats and coordinates block-level development?",
+      "options": ["A) Zila Parishad", "B) Gram Sabha", "C) Panchayat Samiti", "D) State Legislature"],
+      "correct_answer": "C) Panchayat Samiti",
+      "explanation": "The Panchayat Samiti (middle tier, block level) supervises the Gram Panchayats in its block, coordinates development work across several villages, and acts as a link between Gram Panchayats and the Zila Parishad. In Karnataka, this tier is called the Taluk Panchayat. The Gram Sabha is not a supervisory body — it is a village voters' meeting."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "How does the PM Awas Yojana (rural housing scheme) work through the Panchayati Raj system?",
+      "options": [
+        "A) Beneficiaries directly apply to the Prime Minister's office online",
+        "B) The Gram Panchayat identifies eligible families, the Gram Sabha approves the list, and the GP submits to the Block office",
+        "C) The District Collector randomly selects beneficiaries from the census list",
+        "D) Banks directly decide who gets housing loans based on credit scores"
+      ],
+      "correct_answer": "B) The Gram Panchayat identifies eligible families, the Gram Sabha approves the list, and the GP submits to the Block office",
+      "explanation": "PM Awas Yojana (Gramin) is implemented through the Panchayati Raj system. The GP identifies eligible poor families, the Gram Sabha approves the beneficiary list publicly (ensuring transparency and preventing elite capture), the list is sent to the Panchayat Samiti/Block office, funds are transferred, and the GP supervises construction and verifies completion."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "Which of the following best explains why Panchayati Raj is called 'decentralisation of power'?",
+      "options": [
+        "A) Power is taken away from villages and given to the centre",
+        "B) Power is spread from higher authorities to locally elected bodies at the village level",
+        "C) The central government's departments are moved from Delhi to villages",
+        "D) All political parties share power equally in Panchayat elections"
+      ],
+      "correct_answer": "B) Power is spread from higher authorities to locally elected bodies at the village level",
+      "explanation": "Decentralisation means distributing power from central authorities to lower-level bodies. Panchayati Raj decentralises power because: decisions about local infrastructure, welfare, and administration are made by locally elected Gram Panchayats rather than distant state or central governments; funds are transferred to GPs; and local people manage local affairs."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "A Gram Panchayat approves a large sum for road construction, but no new road is built. At the Gram Sabha, the Sarpanch says the money was spent on materials but the contractor disappeared. What should villagers do?",
+      "options": [
+        "A) Accept the Sarpanch's explanation as the elected representative has full authority",
+        "B) Demand a Social Audit, check muster rolls and contractor bills, and if fraud is confirmed, report to the Panchayat Samiti, Zilla Panchayat, and district authorities for investigation",
+        "C) Re-elect the Sarpanch at the next election and wait 5 years",
+        "D) Approach the Prime Minister's office directly as only the centre can take action"
+      ],
+      "correct_answer": "B) Demand a Social Audit, check muster rolls and contractor bills, and if fraud is confirmed, report to the Panchayat Samiti, Zilla Panchayat, and district authorities for investigation",
+      "explanation": "Villagers have multiple democratic recourse options: conduct a Social Audit to examine all bills and records publicly; examine contractor agreements, muster rolls, and payment vouchers; if misappropriation is found, report to the Panchayat Samiti (block level), Zilla Panchayat (district level), and the district collector. The GP Sarpanch can be removed for financial misconduct. Citizens are not powerless — the Gram Sabha and Panchayati Raj hierarchy provide clear accountability channels."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "Some critics argue that Panchayati Raj has failed because powerful local elites (landlords, dominant caste leaders) control Gram Panchayats despite elections. What structural features of Panchayati Raj are designed to counter this problem?",
+      "options": [
+        "A) No structural features exist — Panchayati Raj has no mechanism to counter elite capture",
+        "B) Reservations for women and SC/ST, Gram Sabha oversight, Social Audit, and rotation of reserved seats are all designed to prevent elite domination",
+        "C) The central government appoints observers to every Gram Panchayat to monitor elections",
+        "D) Only educated candidates with formal qualifications can stand for Panchayat elections, preventing illiterate elites from winning"
+      ],
+      "correct_answer": "B) Reservations for women and SC/ST, Gram Sabha oversight, Social Audit, and rotation of reserved seats are all designed to prevent elite domination",
+      "explanation": "Panchayati Raj has several structural safeguards against elite capture: (1) Reservations guarantee seats for women and marginalised communities who elites might otherwise block. (2) Rotation of reserved seats moves reservation from ward to ward each election, preventing any single group from permanently controlling all seats. (3) Gram Sabha gives all voters — including the poor — a formal forum to challenge elite decisions. (4) Social Audit makes financial irregularities visible. These mechanisms are imperfect but are deliberate counter-measures to elite domination in local governance."
     }
   ]
 }

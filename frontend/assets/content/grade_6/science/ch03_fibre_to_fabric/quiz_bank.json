@@ -1,366 +1,247 @@
 {
-  "version": "1.0",
-  "topic_id": "science_grade6_ch03_fibre_to_fabric_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 3,
+  "chapter_title": "Fibre to Fabric",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Fibre to Fabric? (Q1)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Fibre to Fabric? (Q1)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Fibre to Fabric? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "From which part of the cotton plant is cotton fibre obtained?",
+      "options": ["A) Root", "B) Stem", "C) Seed hair inside the boll", "D) Leaf"],
+      "correct_answer": "C) Seed hair inside the boll",
+      "explanation": "Cotton fibre is the soft, fluffy white hair (trichome) that surrounds the seeds inside the cotton boll (the capsule formed after flowering). When the boll matures and bursts open, the white fibres surrounding the seeds are visible. These are harvested and processed into cotton fabric."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Fibre to Fabric experiment? (Q2)",
-        "hi": "What is the standard tool used to measure changes in a Fibre to Fabric experiment? (Q2)",
-        "kn": "What is the standard tool used to measure changes in a Fibre to Fabric experiment? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "Which of the following is an animal fibre?",
+      "options": ["A) Jute", "B) Cotton", "C) Coir", "D) Silk"],
+      "correct_answer": "D) Silk",
+      "explanation": "Silk is an animal fibre — it is produced by silkworms (insect larvae). Jute, cotton, and coir are all plant fibres. Jute comes from the stem of the jute plant, cotton from the seed hair of the cotton plant, and coir from the husk of coconuts."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Fibre to Fabric? (Q3)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Fibre to Fabric? (Q3)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Fibre to Fabric? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "What is ginning?",
+      "options": [
+        "A) Soaking jute stalks in water to extract fibres",
+        "B) Twisting cotton fibres to form yarn",
+        "C) Separating cotton fibres from seeds after harvesting",
+        "D) Weaving cotton yarn into fabric on a loom"
+      ],
+      "correct_answer": "C) Separating cotton fibres from seeds after harvesting",
+      "explanation": "Ginning is the process of separating cotton fibres from the cotton seeds using a machine called a cotton gin. This is an essential step after harvesting cotton bolls — without ginning, the seeds would remain attached to the fibres and prevent proper spinning."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Fibre to Fabric experiment? (Q4)",
-        "hi": "What is the standard tool used to measure changes in a Fibre to Fabric experiment? (Q4)",
-        "kn": "What is the standard tool used to measure changes in a Fibre to Fabric experiment? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "Which process involves soaking jute stalks in water to extract fibres?",
+      "options": ["A) Ginning", "B) Retting", "C) Spinning", "D) Carding"],
+      "correct_answer": "B) Retting",
+      "explanation": "Retting is the process of soaking jute stalks in slow-moving water for weeks. The water softens the woody stem, making it possible to separate the jute fibres running along the length of the stem. Without retting, the fibres cannot be easily extracted from the hard stem."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Fibre to Fabric? (Q5)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Fibre to Fabric? (Q5)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Fibre to Fabric? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "What is spinning in textile production?",
+      "options": [
+        "A) Separating fibres from seeds",
+        "B) Twisting fibres together to form yarn",
+        "C) Interlacing yarn at right angles to form fabric",
+        "D) Looping yarn with needles to form fabric"
+      ],
+      "correct_answer": "B) Twisting fibres together to form yarn",
+      "explanation": "Spinning is the process of drawing out and twisting clean fibres together to form yarn (thread). The twist gives the yarn strength. Separating fibres from seeds is ginning; interlacing yarn at right angles is weaving; looping yarn with needles is knitting."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Fibre to Fabric experiment? (Q6)",
-        "hi": "What is the standard tool used to measure changes in a Fibre to Fabric experiment? (Q6)",
-        "kn": "What is the standard tool used to measure changes in a Fibre to Fabric experiment? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "What is the correct sequence for converting cotton into fabric?",
+      "options": [
+        "A) Spinning → Ginning → Weaving → Harvesting",
+        "B) Harvesting → Ginning → Spinning → Weaving",
+        "C) Weaving → Spinning → Ginning → Harvesting",
+        "D) Ginning → Harvesting → Weaving → Spinning"
+      ],
+      "correct_answer": "B) Harvesting → Ginning → Spinning → Weaving",
+      "explanation": "The correct sequence is: Harvesting cotton bolls → Ginning (separate fibre from seeds) → Carding (optional cleaning step) → Spinning (twist fibres into yarn) → Weaving (interlace yarn into fabric). Each step transforms the raw material into a more refined product."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Fibre to Fabric? (Q7)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Fibre to Fabric? (Q7)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Fibre to Fabric? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "In weaving, what are the lengthwise threads on a loom called?",
+      "options": ["A) Weft", "B) Warp", "C) Yarn", "D) Knit"],
+      "correct_answer": "B) Warp",
+      "explanation": "Warp threads run lengthwise along the loom — they are stretched taut before weaving begins and remain stationary. Weft threads run crosswise, being passed over and under alternate warp threads. An easy way to remember: Warp = lengthWise (both start with a 'w' and involve length)."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Fibre to Fabric experiment? (Q8)",
-        "hi": "What is the standard tool used to measure changes in a Fibre to Fabric experiment? (Q8)",
-        "kn": "What is the standard tool used to measure changes in a Fibre to Fabric experiment? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "Which type of fabric is stretchy — woven or knitted?",
+      "options": [
+        "A) Woven fabric is more stretchy",
+        "B) Knitted fabric is more stretchy",
+        "C) Both are equally stretchy",
+        "D) Neither is stretchy"
+      ],
+      "correct_answer": "B) Knitted fabric is more stretchy",
+      "explanation": "Knitted fabric is stretchy because it is made of interlocking loops of yarn that can expand and contract. Woven fabric is less stretchy because the warp and weft threads are locked at right angles, preventing significant extension. This is why sweaters and T-shirts (knitted) stretch, while formal shirts (woven) do not."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Fibre to Fabric? (Q9)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Fibre to Fabric? (Q9)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Fibre to Fabric? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "What is sericulture?",
+      "options": [
+        "A) The practice of growing cotton plants for fibre",
+        "B) The practice of rearing silkworms to produce silk",
+        "C) The process of weaving silk fabric on a loom",
+        "D) The process of extracting wool from sheep"
+      ],
+      "correct_answer": "B) The practice of rearing silkworms to produce silk",
+      "explanation": "Sericulture is the practice of rearing silkworms (Bombyx mori larvae) on mulberry leaves so they spin cocoons of silk thread. The cocoons are then processed to unwind the silk fibre. Karnataka is India's leading state in sericulture, with Ramanagara being the major silk cocoon market."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Fibre to Fabric experiment? (Q10)",
-        "hi": "What is the standard tool used to measure changes in a Fibre to Fabric experiment? (Q10)",
-        "kn": "What is the standard tool used to measure changes in a Fibre to Fabric experiment? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "Karnataka produces approximately what percentage of India's total silk?",
+      "options": ["A) 10%", "B) 20%", "C) 40%", "D) 70%"],
+      "correct_answer": "C) 40%",
+      "explanation": "Karnataka produces approximately 40% of India's total silk, making it the largest silk-producing state in the country. The Ramanagara district is the hub of Karnataka's silk industry and hosts Asia's second-largest silk cocoon market. The world-famous Mysore silk saree is made from Karnataka silk."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "A student examines two fabric samples under a magnifying glass. Sample A shows a grid of threads at right angles. Sample B shows interlocking loops. Which is woven and which is knitted?",
+      "options": [
+        "A) Sample A is knitted; Sample B is woven",
+        "B) Sample A is woven; Sample B is knitted",
+        "C) Both samples are woven — they just look different",
+        "D) Both samples are knitted — loops appear at different magnifications"
+      ],
+      "correct_answer": "B) Sample A is woven; Sample B is knitted",
+      "explanation": "Woven fabric has a grid-like structure of threads running at right angles (warp and weft), visible as a mesh under magnification. Knitted fabric has a loop-like structure where yarn is looped through previous loops, creating an interlocked chain. Sample A's grid = woven; Sample B's loops = knitted."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "Why is cotton fabric comfortable to wear in hot weather?",
+      "options": [
+        "A) Cotton is a very light material that reduces the body's weight",
+        "B) Cotton absorbs moisture (sweat) and allows air to circulate, keeping the body cool",
+        "C) Cotton reflects sunlight and prevents the body from heating up",
+        "D) Cotton fibres shrink in heat, creating a cooling effect on the skin"
+      ],
+      "correct_answer": "B) Cotton absorbs moisture (sweat) and allows air to circulate, keeping the body cool",
+      "explanation": "Cotton fibres (cellulose) are hydrophilic — they absorb moisture (sweat) from the skin. The absorbed moisture then evaporates, carrying away heat and cooling the body. The woven structure also allows air circulation. These properties make cotton the ideal fabric for hot, humid climates like South India."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "The Mysore silk saree is famous worldwide. What does 'GI-tagged' mean for this product?",
+      "options": [
+        "A) It means the saree is made using a special government machine",
+        "B) It means only sarees produced in the Mysuru region using authentic methods can legally be called 'Mysore silk sarees'",
+        "C) It means the saree is exported to other countries with a government certificate",
+        "D) It means the saree has been awarded the highest quality rating by a textile laboratory"
+      ],
+      "correct_answer": "B) It means only sarees produced in the Mysuru region using authentic methods can legally be called 'Mysore silk sarees'",
+      "explanation": "A Geographical Indication (GI) tag is a legal certification that a product has a specific geographical origin and possesses qualities or reputation due to that origin. The Mysore silk saree GI tag means only sarees made in the Mysuru region with pure silk and authentic weaving methods can legally use this name — protecting weavers and consumers from imitation products."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "Why did Mahatma Gandhi promote the charkha (spinning wheel) during India's independence movement?",
+      "options": [
+        "A) He wanted to create employment for weavers in British mills",
+        "B) He wanted Indians to spin their own yarn and weave khadi, making India self-reliant and boycotting British textiles",
+        "C) He believed handspun cloth was of higher quality than mill-made cloth",
+        "D) He wanted to preserve spinning as an ancient Indian tradition for cultural reasons"
+      ],
+      "correct_answer": "B) He wanted Indians to spin their own yarn and weave khadi, making India self-reliant and boycotting British textiles",
+      "explanation": "Britain imported cheap raw cotton from India, manufactured expensive cloth in British mills, and sold it back to India. Gandhi's Swadeshi movement urged Indians to spin their own cotton into yarn on charkhas and weave their own khadi cloth, thereby boycotting British goods and demonstrating economic self-reliance — weakening colonial economic control."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "Which of the following correctly matches the fibre with its source?",
+      "options": [
+        "A) Jute — from the seed hair of the jute plant",
+        "B) Coir — from the stem of the coconut plant",
+        "C) Silk — from the cocoon of the silkworm",
+        "D) Wool — from the leaves of the sheep plant"
+      ],
+      "correct_answer": "C) Silk — from the cocoon of the silkworm",
+      "explanation": "Silk comes from the cocoon spun by silkworm larvae. Option A is wrong — jute comes from the stem of the jute plant, not the seed hair (cotton comes from seed hair). Option B is wrong — coir comes from the husk (outer covering) of the coconut fruit, not the stem. Option D is nonsensical — wool comes from the fleece of sheep, which are animals."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Why are jute bags considered more environmentally friendly than plastic bags?",
+      "options": [
+        "A) Jute bags are stronger and last longer than plastic bags",
+        "B) Jute is a natural, biodegradable fibre that decomposes harmlessly, unlike plastic which persists for hundreds of years",
+        "C) Jute bags are cheaper to produce than plastic bags",
+        "D) Jute grows faster than the petroleum needed to make plastic"
+      ],
+      "correct_answer": "B) Jute is a natural, biodegradable fibre that decomposes harmlessly, unlike plastic which persists for hundreds of years",
+      "explanation": "Jute is a plant fibre — it is biodegradable and breaks down naturally in soil within months without releasing toxins. Plastic is made from synthetic polymers derived from petroleum, and takes hundreds of years to decompose, releasing harmful microplastics and chemicals. This environmental contrast makes jute the sustainable choice."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "A fabric does not stretch when pulled and shows a regular grid pattern under magnification. What type of fabric is it most likely?",
+      "options": [
+        "A) Knitted cotton",
+        "B) Woven cotton",
+        "C) Knitted wool",
+        "D) Synthetic knit"
+      ],
+      "correct_answer": "B) Woven cotton",
+      "explanation": "A fabric that does not stretch significantly and shows a grid pattern (horizontal and vertical threads at right angles) is woven fabric. Woven fabrics have warp and weft threads locked at right angles — this prevents stretching. Knitted fabrics would show loops and would stretch easily. The grid = woven; loops = knitted."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "The Ilkal saree from Bagalkot district, Karnataka, is significant because it:",
+      "options": [
+        "A) Is made entirely from synthetic fibres using modern machines",
+        "B) Is a traditionally handwoven cotton-silk saree with a GI tag, preserving Karnataka's weaving heritage",
+        "C) Is woven from silk obtained from silkworms reared in Bagalkot",
+        "D) Is the most expensive saree produced in India"
+      ],
+      "correct_answer": "B) Is a traditionally handwoven cotton-silk saree with a GI tag, preserving Karnataka's weaving heritage",
+      "explanation": "The Ilkal saree is a GI-tagged traditional handwoven saree from Ilkal town, Bagalkot district. It is made by weaving cotton and silk yarn together using traditional handlooms, featuring a distinctive contrasting pallu. It preserves the entire fibre-to-fabric process in artisanal form and is an important part of Karnataka's textile and cultural heritage."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "A student claims that since silkworms eat mulberry leaves (a plant), silk should be classified as a plant fibre. What is the scientifically correct counter-argument?",
+      "options": [
+        "A) The student is correct — silk's raw material comes from a plant, so it is a plant fibre",
+        "B) The classification is based on who produces the fibre, not what the producer eats — the silkworm (an animal) produces silk, making it an animal fibre",
+        "C) Silk is neither plant nor animal — it is classified as a mineral fibre",
+        "D) The student is partially correct — silk is a semi-plant fibre since it depends on mulberry plants"
+      ],
+      "correct_answer": "B) The classification is based on who produces the fibre, not what the producer eats — the silkworm (an animal) produces silk, making it an animal fibre",
+      "explanation": "Scientific classification of fibres is based on the source (the organism that produces the fibre), not the food chain relationships of that organism. Silk is produced by the silkworm's silk glands as a protein secretion — the silkworm is an animal, therefore silk is an animal fibre. This parallels honey (produced by bees/animals) being classified as an animal product even though bees eat nectar from plants."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "Why does twisting fibres during spinning make the yarn stronger, even though the individual fibres remain unchanged?",
+      "options": [
+        "A) Twisting chemically bonds the fibres to each other, creating a new material",
+        "B) Twisting increases friction between fibres and creates mechanical interlocking, preventing them from sliding apart under tension",
+        "C) Twisting compresses the fibres, making each individual fibre denser and stronger",
+        "D) Twisting removes moisture from the fibres, making them stiffer and stronger"
+      ],
+      "correct_answer": "B) Twisting increases friction between fibres and creates mechanical interlocking, preventing them from sliding apart under tension",
+      "explanation": "The individual fibres are not chemically changed by spinning. Strength comes from the physical effect of twisting: (1) the helical arrangement increases surface contact between fibres, dramatically increasing friction; (2) the twist creates a mechanical interlocking where tension on the yarn actually tightens the twist, preventing fibres from sliding. This is the same principle by which a twisted rope is stronger than untwisted strands — no chemical change, just physics."
     }
   ]
 }

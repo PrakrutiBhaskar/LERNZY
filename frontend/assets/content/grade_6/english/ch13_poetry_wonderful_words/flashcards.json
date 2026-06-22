@@ -1,96 +1,173 @@
 {
-  "version": "1.0",
-  "topic_id": "english_grade6_ch13_poetry_wonderful_words_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "English",
+  "textbook": "Honeysuckle",
+  "chapter_number": 13,
+  "chapter_title": "The Wonderful Words",
+  "poet": "Mary O'Neill",
+  "total_cards": 20,
   "cards": [
     {
       "id": "fc01",
-      "front": {
-        "en": "What is the core idea of Poetry: The Wonderful Words? (FC1)",
-        "hi": "What is the core idea of Poetry: The Wonderful Words? (FC1)",
-        "kn": "What is the core idea of Poetry: The Wonderful Words? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Who is the poet of 'The Wonderful Words'?",
+      "back": "The poem 'The Wonderful Words' is written by Mary O'Neill, an American poet. She is known for her celebration of language and its expressive power in poems written for children and young adults.",
+      "memory_hook": "O'Neill rhymes with 'feel' — and the poem is all about how words help you FEEL and express your inner world!"
     },
     {
       "id": "fc02",
-      "front": {
-        "en": "Why is Poetry: The Wonderful Words important? (FC2)",
-        "hi": "Why is Poetry: The Wonderful Words important? (FC2)",
-        "kn": "Why is Poetry: The Wonderful Words important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What does the poet call English in the poem?",
+      "back": "The poet calls English 'a wonderful game' that all of us can play. By using the word 'game', she suggests that using language should be fun, joyful, and open to everyone, not something scary or exclusive.",
+      "memory_hook": "English = Game. Think of your favourite game — you play it for fun and get better with practice. English works the same way!"
     },
     {
       "id": "fc03",
-      "front": {
-        "en": "What is the core idea of Poetry: The Wonderful Words? (FC3)",
-        "hi": "What is the core idea of Poetry: The Wonderful Words? (FC3)",
-        "kn": "What is the core idea of Poetry: The Wonderful Words? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What does the word 'shrivel' mean in the poem?",
+      "back": "'Shrivel' means to become smaller, wither, or dry up — the way a plant shrivels when it has no water. In the poem, a thought 'shrivels and dies' when it is not expressed, just like a plant shrivels without water or sunlight.",
+      "memory_hook": "Shrivel sounds like 'shiver' — imagine a tiny thought shivering in the cold because no warm words are wrapping around it."
     },
     {
       "id": "fc04",
-      "front": {
-        "en": "Why is Poetry: The Wonderful Words important? (FC4)",
-        "hi": "Why is Poetry: The Wonderful Words important? (FC4)",
-        "kn": "Why is Poetry: The Wonderful Words important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "How many stanzas does 'The Wonderful Words' have?",
+      "back": "The poem 'The Wonderful Words' has three stanzas. Each stanza builds on the central theme of using words to express thoughts, moving from encouragement (Stanza 1) to appeal (Stanza 2) to explanation (Stanza 3).",
+      "memory_hook": "3 stanzas = 3 steps: ENCOURAGE (play the game!) → APPEAL (say the unsaid!) → EXPLAIN (words free your thoughts!)"
     },
     {
       "id": "fc05",
-      "front": {
-        "en": "What is the core idea of Poetry: The Wonderful Words? (FC5)",
-        "hi": "What is the core idea of Poetry: The Wonderful Words? (FC5)",
-        "kn": "What is the core idea of Poetry: The Wonderful Words? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What does 'captive' mean? How is it used in the poem?",
+      "back": "A 'captive' is a prisoner — someone who is trapped and cannot get out. In the poem, the poet describes thoughts as captives locked 'behind your eyes'. Thoughts are trapped inside the mind and cannot reach the world unless the right words are found to express them.",
+      "memory_hook": "Cap-TIVE: a thought CAP-tured ALIVE inside your head. Words = the escape route!"
+    },
+    {
+      "id": "fc06",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is the central message / moral of the poem 'The Wonderful Words'?",
+      "back": "The central message is: never let a thought die unexpressed just because you cannot find the right words. Words are powerful tools that belong to everyone. By searching for the right words, you free your thoughts and share something valuable with the world.",
+      "memory_hook": "FIND → SPEAK → FREE! Find the word, speak it out, free the thought. That is the entire poem in three actions."
+    },
+    {
+      "id": "fc07",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What does the phrase 'food and dress of thought' mean?",
+      "back": "'Food and dress of thought' is a metaphor comparing words to food and clothing. Just as food nourishes the body and clothes give a person a visible appearance, words nourish thoughts and give them a form that others can see and understand.",
+      "memory_hook": "Thought without words = a starving, naked idea. Give it food (nourishment) and clothes (form) — that is what words do!"
+    },
+    {
+      "id": "fc08",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why does the poet say 'many of the loveliest things have never yet been said'?",
+      "back": "The poet means that many beautiful, profound, and important ideas exist in people's minds but have never been expressed because people could not find the right words. She is encouraging the reader to be brave enough to say those unspoken, beautiful things and contribute new ideas to the world.",
+      "memory_hook": "Imagine treasure buried underground (unspoken beautiful thoughts). Dig it up with words and show it to the world. The treasure is YOURS to uncover!"
+    },
+    {
+      "id": "fc09",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What metaphor does the poet use to describe how thoughts are trapped?",
+      "back": "The poet uses the metaphor of a prison: she says thoughts are 'captives' locked in a 'prison behind your eyes'. This vivid image shows that unexpressed thoughts are alive but invisible and trapped — they can only be released into the world through words.",
+      "memory_hook": "Your EYES are the prison bars. WORDS are the key. Every time you speak or write, you open those bars and let a thought walk free!"
+    },
+    {
+      "id": "fc10",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Complete this line from the poem: 'Never let a thought shrivel and die ___________'",
+      "back": "The complete line is: 'Never let a thought shrivel and die / For want of a way to say it.' This is the opening instruction of the poem — the poet's direct plea to the reader to always search for words to express every thought.",
+      "memory_hook": "Shrivel → Die → No words → Sad. Speak → Live → Words found → Happy thought! The poem opens with this warning to keep us alert."
+    },
+    {
+      "id": "fc11",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a 'rhyme scheme'? What is the rhyme scheme of 'The Wonderful Words'?",
+      "back": "A rhyme scheme is the pattern of end-rhymes in a poem, marked with letters (A, B, C, etc.). In 'The Wonderful Words', the rhyme scheme is ABCB — meaning the 2nd and 4th lines of each stanza rhyme with each other, while the 1st and 3rd lines do not rhyme with each other.",
+      "memory_hook": "ABCB: lines 1 and 3 are loners (A and C), but lines 2 and 4 are BEST FRIENDS who always rhyme (B and B)!"
+    },
+    {
+      "id": "fc12",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why does the poet compare English to a 'game'?",
+      "back": "By comparing English to a game, the poet removes the fear and anxiety many students feel about language. A game is fun, open to everyone, improves with practice, and has no permanent 'losers'. She wants students to explore words playfully and joyfully rather than feeling intimidated by grammar rules or mistakes.",
+      "memory_hook": "Game = Play + Practice + Everyone Welcome. Language = Same! Remember: English isn't an exam to pass — it is a playground to explore."
+    },
+    {
+      "id": "fc13",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "Name two metaphors used in 'The Wonderful Words' and explain what each compares.",
+      "back": "1. 'Words are the food and dress of thought' — compares words to food (nourishing ideas) and clothing (giving thoughts a visible form). 2. 'Prison behind your eyes' — compares the unexpressing mind to a prison where thoughts are held captive until words set them free.",
+      "memory_hook": "Metaphor 1 = Dinner table (food + dress). Metaphor 2 = Jail break. Two very different images — one warm, one dramatic — both teaching the same thing: words are essential!"
+    },
+    {
+      "id": "fc14",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "How does the poem 'The Wonderful Words' encourage students who are afraid of making mistakes in English?",
+      "back": "The poem encourages fearful students by calling English a 'wonderful game' that everyone can play. This language removes pressure and replaces it with playfulness. The poet also says the most important thing is to keep trying to match words to thoughts — imperfect expression is better than no expression at all.",
+      "memory_hook": "Scared + Silent = Thought dies. Brave + Tries = Thought lives. The poem always chooses the second option. Be brave, play the game!"
+    },
+    {
+      "id": "fc15",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "What does 'All that you do is match the words to the brightest thoughts in your head' tell us about how to use language?",
+      "back": "This line tells us that using language is fundamentally about finding the best words that accurately represent our clearest and most important ideas. It suggests that the process is within everyone's reach — you already have 'bright thoughts'; the task is simply to find words that fit them as closely as possible.",
+      "memory_hook": "Thought = Puzzle piece. Word = Matching puzzle slot. Your job is to find the MATCH. Once you do, the picture is complete!"
+    },
+    {
+      "id": "fc16",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Give a real-life example from school where the poem's message — 'never let a thought die unexpressed' — can be applied.",
+      "back": "During a class discussion, a student has a good idea about why plants need sunlight but hesitates to speak up because they are unsure of the exact English words. The poem's message encourages that student to speak anyway, try different words, and not let that scientific insight die in silence. Expressing an imperfect thought is always better than expressing none.",
+      "memory_hook": "Class + Good Idea + Fear = Thought Dies (BAD). Class + Good Idea + Courage = Thought Lives (GOOD). The poem is a coach cheering: 'SPEAK UP!'"
+    },
+    {
+      "id": "fc17",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "How does the Karnataka tradition of Vachanas connect to the message of 'The Wonderful Words'?",
+      "back": "The Vachanas of Basavanna and other Sharanas of 12th-century Karnataka were short, powerful writings that expressed deep spiritual and social ideas in simple Kannada — a language ordinary people could understand. Like the poem, Vachanas show that when the right simple words are found, even the most profound thoughts can be freed and shared with everyone.",
+      "memory_hook": "Vachana = 'word' in Kannada. The Vachana tradition is basically 'The Wonderful Words' put into practice 900 years ago in Karnataka!"
+    },
+    {
+      "id": "fc18",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What literary device is used in 'English is a wonderful game'? Explain.",
+      "back": "This is a metaphor — a direct comparison without using 'like' or 'as'. English (language) is compared to a game to show that it is fun, participatory, and open to everyone. It is NOT a simile (which would say 'English is LIKE a game'). The comparison suggests playfulness, practice, and universal access.",
+      "memory_hook": "Metaphor = IS (direct). Simile = LIKE/AS (indirect). 'English IS a game' — no 'like', no 'as' → METAPHOR!"
+    },
+    {
+      "id": "fc19",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "The poem says 'many of the loveliest things have never yet been said.' Write one sentence expressing a thought about your school or town that you think has never been said before.",
+      "back": "Sample answer: 'The sound of chalk on a blackboard in our village school is like the first note of a song that the whole village has been waiting to hear.' Students should write original sentences — any thought that is personal and genuinely theirs qualifies as something 'never said before'.",
+      "memory_hook": "YOUR unique thought + YOUR unique words = something the world has never heard. This is what the poem challenges you to create!"
+    },
+    {
+      "id": "fc20",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "In your own words, explain what 'only words can free a thought from its prison behind your eyes' means and why it matters.",
+      "back": "This line means that every thought lives inside you but is invisible to others until you express it in words. The mind is described as a prison — not to be scary, but to show that thoughts need words to escape and become real in the world. It matters because: an unexpressed idea helps no one, while a spoken or written idea can inspire, teach, inform, and connect people.",
+      "memory_hook": "Thought in your head = Invisible treasure. Words = Map + Shovel to dig it up and share it. Without the map (words), the treasure (thought) stays buried forever."
     }
   ]
 }

@@ -1,366 +1,253 @@
 {
-  "version": "1.0",
-  "topic_id": "english_grade6_ch13_poetry_wonderful_words_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "English",
+  "textbook": "Honeysuckle",
+  "chapter_number": 13,
+  "chapter_title": "The Quarrel",
+  "poet": "Eleanor Farjeon",
+  "total_mcqs": 20,
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: The Wonderful Words? (Q1)",
-        "hi": "What is the primary objective of studying Poetry: The Wonderful Words? (Q1)",
-        "kn": "What is the primary objective of studying Poetry: The Wonderful Words? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Who is the poet of the poem 'The Quarrel'?",
+      "options": ["A) Mary O'Neill", "B) Rabindranath Tagore", "C) Eleanor Farjeon", "D) Peter Dixon"],
+      "correct_answer": "C) Eleanor Farjeon",
+      "explanation": "The poem 'The Quarrel' is written by Eleanor Farjeon, a celebrated British poet and author known for her warm, relatable poems about everyday life. Mary O'Neill wrote 'The Wonderful Words', Rabindranath Tagore wrote 'Vocation', and Peter Dixon wrote 'Where Do All the Teachers Go?'"
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: The Wonderful Words in a text. (Q2)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: The Wonderful Words in a text. (Q2)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: The Wonderful Words in a text. (Q2)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "With whom does the speaker quarrel in the poem?",
+      "options": ["A) A friend", "B) A classmate", "C) A neighbour", "D) A brother"],
+      "correct_answer": "D) A brother",
+      "explanation": "The poem begins with 'I quarrelled with my brother' — the quarrel is between siblings, specifically the speaker and their brother. This sibling relationship is central to the poem, making its theme of reconciliation relatable to most readers."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: The Wonderful Words? (Q3)",
-        "hi": "What is the primary objective of studying Poetry: The Wonderful Words? (Q3)",
-        "kn": "What is the primary objective of studying Poetry: The Wonderful Words? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "Does the speaker know the reason behind the quarrel?",
+      "options": [
+        "A) Yes, they quarrelled over a toy",
+        "B) Yes, they quarrelled over food",
+        "C) No, the speaker does not know what the quarrel was about",
+        "D) Yes, they quarrelled because the brother was rude"
+      ],
+      "correct_answer": "C) No, the speaker does not know what the quarrel was about",
+      "explanation": "The poem clearly states 'I quarrelled with my brother / I don't know what about'. The speaker admits they cannot even remember what started the fight. This is a very realistic detail — many real quarrels begin over trivial things that are quickly forgotten while the bad feelings remain."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: The Wonderful Words in a text. (Q4)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: The Wonderful Words in a text. (Q4)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: The Wonderful Words in a text. (Q4)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "What does the phrase 'somehow we fell out' mean?",
+      "options": [
+        "A) They both fell down while playing",
+        "B) They had a disagreement and stopped being friendly",
+        "C) They fell out of bed during the night",
+        "D) They fell out of a window"
+      ],
+      "correct_answer": "B) They had a disagreement and stopped being friendly",
+      "explanation": "'Fell out' is an idiom meaning to have a quarrel or disagreement that damages a relationship — to stop being on friendly terms. In the poem, 'one thing led to another and somehow we fell out' means the argument escalated until the siblings were no longer speaking. It has nothing to do with literally falling."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: The Wonderful Words? (Q5)",
-        "hi": "What is the primary objective of studying Poetry: The Wonderful Words? (Q5)",
-        "kn": "What is the primary objective of studying Poetry: The Wonderful Words? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "How did the quarrel begin — was it big or small at the start?",
+      "options": [
+        "A) It started as a very serious, big fight",
+        "B) It started as something small and slight",
+        "C) It started because of a physical fight",
+        "D) It started as a friendly argument about a game"
+      ],
+      "correct_answer": "B) It started as something small and slight",
+      "explanation": "The poem says 'The start of it was slight' — meaning the quarrel began over a trivial, minor issue. However, it grew: 'The end of it was strong'. This escalation from a small disagreement to a serious falling-out is a realistic and relatable pattern in sibling quarrels."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: The Wonderful Words in a text. (Q6)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: The Wonderful Words in a text. (Q6)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: The Wonderful Words in a text. (Q6)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "What does 'the afternoon turned black' suggest?",
+      "options": [
+        "A) A thunderstorm occurred in the afternoon",
+        "B) The sky became dark because of clouds",
+        "C) The mood became dark and unpleasant because of the quarrel",
+        "D) The siblings went to sleep in the afternoon"
+      ],
+      "correct_answer": "C) The mood became dark and unpleasant because of the quarrel",
+      "explanation": "'The afternoon turned black' is a metaphor — not a literal description of weather, but a description of mood. The quarrel made the afternoon feel dark, gloomy, and miserable. This use of colour (black) to represent a negative emotional state is a poetic device called a metaphor."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: The Wonderful Words? (Q7)",
-        "hi": "What is the primary objective of studying Poetry: The Wonderful Words? (Q7)",
-        "kn": "What is the primary objective of studying Poetry: The Wonderful Words? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "What did the brother do suddenly to end the quarrel?",
+      "options": [
+        "A) He started crying and asked for forgiveness",
+        "B) He thumped the speaker on the back",
+        "C) He walked away and never returned",
+        "D) He brought a gift as a peace offering"
+      ],
+      "correct_answer": "B) He thumped the speaker on the back",
+      "explanation": "The poem says 'Then suddenly my brother / Thumped me on the back'. 'Thumped on the back' is a friendly, affectionate gesture — like a pat on the back — indicating the brother wanted to end the quarrel. It was the brother's way of making peace without a formal apology at first."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: The Wonderful Words in a text. (Q8)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: The Wonderful Words in a text. (Q8)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: The Wonderful Words in a text. (Q8)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "What did the brother say when he thumped the speaker on the back?",
+      "options": [
+        "A) 'You were right all along!'",
+        "B) 'I am never speaking to you again!'",
+        "C) 'Oh, come along! We can't go on all night — I was in the wrong.'",
+        "D) 'Let's ask mother to decide who is right.'"
+      ],
+      "correct_answer": "C) 'Oh, come along! We can't go on all night — I was in the wrong.'",
+      "explanation": "The brother said 'Oh, come along! We can't go on all night — I was in the wrong.' This is a pivotal moment — the brother admits he was in the wrong, which ends the quarrel. The phrase 'come along' is an informal way of saying 'let's move on together'. It reflects the practical wisdom that long quarrels are pointless."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: The Wonderful Words? (Q9)",
-        "hi": "What is the primary objective of studying Poetry: The Wonderful Words? (Q9)",
-        "kn": "What is the primary objective of studying Poetry: The Wonderful Words? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "How many stanzas does the poem 'The Quarrel' have?",
+      "options": ["A) One", "B) Two", "C) Three", "D) Four"],
+      "correct_answer": "B) Two",
+      "explanation": "The poem 'The Quarrel' has two stanzas. The first stanza describes the quarrel — how it started, escalated, and made them hate each other. The second stanza describes the resolution — the brother's sudden gesture of patting the speaker's back and admitting he was in the wrong."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: The Wonderful Words in a text. (Q10)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: The Wonderful Words in a text. (Q10)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: The Wonderful Words in a text. (Q10)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "At the end of the poem, who was in the right?",
+      "options": [
+        "A) The speaker was right all along",
+        "B) The brother was right all along",
+        "C) The brother admitted he was wrong, so the speaker was right",
+        "D) Neither of them was right"
+      ],
+      "correct_answer": "C) The brother admitted he was wrong, so the speaker was right",
+      "explanation": "The final two lines are: 'I was in the wrong.' / 'So he was in the right.' The brother admits he was in the wrong, which — in the speaker's logic — means the speaker ends up being right. This is a clever, slightly ironic ending: the speaker who claimed to be right all along is vindicated by the brother's admission."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "What does 'the end of it was strong' tell us about the quarrel?",
+      "options": [
+        "A) The quarrel ended quickly and strongly with a clear winner",
+        "B) Although the quarrel started small, it escalated into a serious, bitter disagreement",
+        "C) The brother was physically strong and that ended the fight",
+        "D) The speaker felt strong and confident by the end"
+      ],
+      "correct_answer": "B) Although the quarrel started small, it escalated into a serious, bitter disagreement",
+      "explanation": "'The start of it was slight / The end of it was strong' means the quarrel began over a small matter but grew into something serious and intense. This escalation pattern is realistic and common — small irritations compound into big conflicts when neither side backs down. The contrast between 'slight' and 'strong' highlights how quickly minor arguments can become major ones."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "What is the central theme of the poem 'The Quarrel'?",
+      "options": [
+        "A) Siblings should never argue with each other",
+        "B) Quarrels are unavoidable, but reconciliation through humility ends them",
+        "C) Older siblings are always right in arguments",
+        "D) Parents should always intervene to settle sibling fights"
+      ],
+      "correct_answer": "B) Quarrels are unavoidable, but reconciliation through humility ends them",
+      "explanation": "The central theme is that quarrels — especially between siblings — are a normal part of relationships, but what matters most is how they end. The brother's willingness to admit he was wrong is the key act of humility that restores peace. The poem does not say quarrels should never happen (Option A), and it does not involve parents (Option D)."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "What does 'We hated one another' tell us about the intensity of the quarrel?",
+      "options": [
+        "A) The siblings genuinely disliked each other permanently",
+        "B) The quarrel had temporarily brought out very strong negative emotions between them",
+        "C) The speaker is being dramatic and did not really feel anything",
+        "D) The brother was actually a cruel person"
+      ],
+      "correct_answer": "B) The quarrel had temporarily brought out very strong negative emotions between them",
+      "explanation": "'We hated one another' describes the peak of the quarrel's emotional intensity — not a permanent state. The fact that the brother reconciles shortly after shows the 'hate' was temporary, fuelled by the heat of the argument. This is realistic: at the peak of a fight, emotions feel extreme, but they are not permanent. The poem shows how quickly strong negative feelings can dissolve with one kind gesture."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "The line 'the afternoon turned black' is an example of which poetic device?",
+      "options": ["A) Simile", "B) Alliteration", "C) Metaphor", "D) Onomatopoeia"],
+      "correct_answer": "C) Metaphor",
+      "explanation": "'The afternoon turned black' is a metaphor — a comparison made without using 'like' or 'as'. The afternoon did not literally turn black; the word 'black' is used to represent the dark, gloomy mood created by the quarrel. A simile would say 'the afternoon was like a black cloud'; a metaphor directly says the afternoon IS black."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "Why is the brother's admission 'I was in the wrong' significant in the poem?",
+      "options": [
+        "A) It means the brother was defeated in a debate",
+        "B) It is the act of humility that breaks the deadlock and restores the relationship",
+        "C) It proves that the speaker was bullying the brother",
+        "D) It means the brother was lying to keep the peace"
+      ],
+      "correct_answer": "B) It is the act of humility that breaks the deadlock and restores the relationship",
+      "explanation": "Throughout the quarrel, both siblings believed they were right — 'He said he was right / I knew he was wrong!' This mutual stubbornness perpetuated the fight. The brother's admission of being wrong is an act of humility — putting the relationship above the ego — and this single act immediately ends the quarrel. It is the poem's key moral moment."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "What does 'one thing led to another' mean in the context of the poem?",
+      "options": [
+        "A) The siblings played one game after another",
+        "B) The argument escalated step by step, with each exchange making things worse",
+        "C) The siblings shared one toy after another",
+        "D) The brother apologised one thing at a time"
+      ],
+      "correct_answer": "B) The argument escalated step by step, with each exchange making things worse",
+      "explanation": "'One thing led to another' is an idiom meaning a series of events or exchanges, each triggering the next, eventually leading to an unexpected or undesired outcome. Here, one small irritation led to another, and the argument spiralled until they fell out completely. It captures how quarrels grow beyond their original cause."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Hard",
+      "question": "The speaker claims 'I knew he was wrong' during the quarrel. What does this tell us about how people behave in arguments?",
+      "options": [
+        "A) The speaker was genuinely correct and the brother was genuinely wrong",
+        "B) In the heat of an argument, each person is convinced of their own correctness — even when they may not be",
+        "C) The speaker was always honest and calm during the quarrel",
+        "D) The poem suggests that younger siblings are always right in arguments"
+      ],
+      "correct_answer": "B) In the heat of an argument, each person is convinced of their own correctness — even when they may not be",
+      "explanation": "This line reveals an important psychological truth about quarrels: in the moment of conflict, both parties are absolutely convinced they are right. The speaker says 'I knew he was wrong' — using the strong word 'knew', implying certainty. But the brother says the same thing from his side. This mutual certainty is what makes quarrels so difficult to resolve. Neither person can hear the other when each is convinced of their own rightness. The poem subtly shows this without judging either sibling."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Hard",
+      "question": "The poem ends with the ironic line 'So he was in the right.' What does this irony reveal?",
+      "options": [
+        "A) The brother was factually correct about the subject of the quarrel",
+        "B) By admitting he was wrong, the brother actually did the right thing — making him morally 'right' even while saying he was 'wrong'",
+        "C) The speaker finally admits that the brother was correct all along",
+        "D) The irony suggests the brother lied about being wrong"
+      ],
+      "correct_answer": "B) By admitting he was wrong, the brother actually did the right thing — making him morally 'right' even while saying he was 'wrong'",
+      "explanation": "The final lines contain a beautiful irony: 'I was in the wrong / So he was in the right.' The brother said he was 'in the wrong' — but by having the humility and wisdom to admit this and end the quarrel, he did the RIGHT thing. He is morally right even as he admits factual wrongness. The person who says 'I was wrong' to save a relationship is doing the more mature, correct thing. Farjeon uses this paradox to celebrate humility."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Hard",
+      "question": "The quarrel in the poem started over something the speaker cannot even remember. What does this detail teach us?",
+      "options": [
+        "A) The speaker has a bad memory",
+        "B) Many quarrels begin over trivial causes that seem important in the moment but are forgotten later — showing the futility of holding grudges",
+        "C) The brother deliberately hid the reason for the quarrel",
+        "D) The quarrel must have been very complicated to remember"
+      ],
+      "correct_answer": "B) Many quarrels begin over trivial causes that seem important in the moment but are forgotten later — showing the futility of holding grudges",
+      "explanation": "The detail 'I don't know what about' is deliberately included to make a point. If the speaker cannot even remember what the quarrel was about, it clearly was not important enough to warrant 'hating one another' for an entire afternoon. This teaches us that many of our fiercest arguments are over things that will not matter even an hour later — and that holding grudges over forgotten causes is futile and damaging."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Hard",
+      "question": "How does the structure of the poem — two stanzas — mirror the poem's content?",
+      "options": [
+        "A) The two stanzas represent two different poems combined together",
+        "B) The first stanza shows the quarrel and the second shows the reconciliation — the structure itself reflects the journey from conflict to resolution",
+        "C) The two stanzas represent two different days",
+        "D) The two stanzas each describe a different sibling's point of view"
+      ],
+      "correct_answer": "B) The first stanza shows the quarrel and the second shows the reconciliation — the structure itself reflects the journey from conflict to resolution",
+      "explanation": "The two-stanza structure is perfectly suited to the content. Stanza 1 covers the quarrel: how it started (slight), how it grew (strong), and how it felt (hating each other, afternoon turned black). Stanza 2 covers the resolution: the brother's sudden change of heart, his admission, and the ironic conclusion. The poem's form mirrors its meaning — two halves, conflict and resolution, division and reunion."
     }
   ]
 }

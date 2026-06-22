@@ -1,366 +1,217 @@
 {
-  "version": "1.0",
-  "topic_id": "science_grade6_ch10_motion_measurement_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 10,
+  "chapter_title": "Motion and Measurement of Distances",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which of the following is a non-contact force? (Q1)",
-        "hi": "Which of the following is a non-contact force? (Q1)",
-        "kn": "Which of the following is a non-contact force? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "hi": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "kn": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Gravity acts over a distance without physical contact.",
-        "hi": "Gravity acts over a distance without physical contact.",
-        "kn": "Gravity acts over a distance without physical contact."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "What is the SI unit of length?",
+      "options": ["A) Kilometre", "B) Centimetre", "C) Metre", "D) Foot"],
+      "correct_answer": "C) Metre",
+      "explanation": "The SI (Système Internationale) unit of length is the metre (m). While kilometre and centimetre are also metric units, they are multiples/fractions of the metre, not the base SI unit. The foot is an Imperial unit, not SI. The metre is the internationally accepted standard base unit of length."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "If area decreases while force stays constant, what happens to pressure? (Q2)",
-        "hi": "If area decreases while force stays constant, what happens to pressure? (Q2)",
-        "kn": "If area decreases while force stays constant, what happens to pressure? (Q2)"
-      },
-      "options": {
-        "en": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "hi": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "kn": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "hi": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "kn": "Since Pressure = Force/Area, decreasing the area increases the pressure."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "How many centimetres are in 3 metres?",
+      "options": ["A) 30 cm", "B) 300 cm", "C) 3000 cm", "D) 0.03 cm"],
+      "correct_answer": "B) 300 cm",
+      "explanation": "1 metre = 100 centimetres. Therefore, 3 metres = 3 × 100 = 300 cm. To convert from metres to centimetres, always multiply by 100. A common mistake is multiplying by 10 (giving 30) or 1000 (giving 3000). Remember: centi means 1/100, so 1 m = 100 cm."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which of the following is a non-contact force? (Q3)",
-        "hi": "Which of the following is a non-contact force? (Q3)",
-        "kn": "Which of the following is a non-contact force? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "hi": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "kn": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Gravity acts over a distance without physical contact.",
-        "hi": "Gravity acts over a distance without physical contact.",
-        "kn": "Gravity acts over a distance without physical contact."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "A car moving on a straight road is an example of which type of motion?",
+      "options": ["A) Circular motion", "B) Periodic motion", "C) Rectilinear motion", "D) Random motion"],
+      "correct_answer": "C) Rectilinear motion",
+      "explanation": "Rectilinear motion is motion along a straight line. A car on a straight road moves in one direction without curving — this is rectilinear motion. Circular motion would be motion along a circular path (like a roundabout). Periodic motion repeats at regular intervals. Random motion has no fixed pattern (like gas molecules)."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "If area decreases while force stays constant, what happens to pressure? (Q4)",
-        "hi": "If area decreases while force stays constant, what happens to pressure? (Q4)",
-        "kn": "If area decreases while force stays constant, what happens to pressure? (Q4)"
-      },
-      "options": {
-        "en": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "hi": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "kn": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "hi": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "kn": "Since Pressure = Force/Area, decreasing the area increases the pressure."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "The motion of the hands of a clock is:",
+      "options": ["A) Rectilinear", "B) Circular and periodic", "C) Only periodic", "D) Random"],
+      "correct_answer": "B) Circular and periodic",
+      "explanation": "Clock hands move in a circular path around the central pivot — this is circular motion. They also repeat their position after a fixed time (hour hand every 12 hours, minute hand every 60 minutes) — this is periodic motion. Both apply simultaneously. This is a compound motion: circular AND periodic."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which of the following is a non-contact force? (Q5)",
-        "hi": "Which of the following is a non-contact force? (Q5)",
-        "kn": "Which of the following is a non-contact force? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "hi": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "kn": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Gravity acts over a distance without physical contact.",
-        "hi": "Gravity acts over a distance without physical contact.",
-        "kn": "Gravity acts over a distance without physical contact."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "Which of the following is a non-standard unit of length?",
+      "options": ["A) Metre", "B) Kilometre", "C) Handspan", "D) Centimetre"],
+      "correct_answer": "C) Handspan",
+      "explanation": "A handspan is a non-standard unit because it varies from person to person — it depends on the size of the individual's hand. Metre, kilometre, and centimetre are all standard SI units that are exactly defined and the same for everyone everywhere. Non-standard units (handspan, cubit, foot) were used before SI units were established."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "If area decreases while force stays constant, what happens to pressure? (Q6)",
-        "hi": "If area decreases while force stays constant, what happens to pressure? (Q6)",
-        "kn": "If area decreases while force stays constant, what happens to pressure? (Q6)"
-      },
-      "options": {
-        "en": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "hi": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "kn": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "hi": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "kn": "Since Pressure = Force/Area, decreasing the area increases the pressure."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "What is the main problem with using non-standard units like handspan or cubit for measurement?",
+      "options": [
+        "A) They are too long for most measurements",
+        "B) They vary from person to person and are inconsistent",
+        "C) They cannot be used for length",
+        "D) They are not allowed in school"
+      ],
+      "correct_answer": "B) They vary from person to person and are inconsistent",
+      "explanation": "Non-standard units like handspan and cubit depend on the body measurements of the individual using them. My handspan ≠ your handspan. This means two people measuring the same object get different results, making communication of measurements unreliable. Standard SI units are exactly defined and identical for everyone — that is why they were adopted globally."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which of the following is a non-contact force? (Q7)",
-        "hi": "Which of the following is a non-contact force? (Q7)",
-        "kn": "Which of the following is a non-contact force? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "hi": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "kn": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Gravity acts over a distance without physical contact.",
-        "hi": "Gravity acts over a distance without physical contact.",
-        "kn": "Gravity acts over a distance without physical contact."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "A swinging pendulum is an example of:",
+      "options": ["A) Rectilinear motion", "B) Circular motion only", "C) Periodic motion", "D) No motion"],
+      "correct_answer": "C) Periodic motion",
+      "explanation": "A pendulum swings back and forth, returning to the same position after a fixed time interval — this is periodic motion. It repeats its cycle regularly. While the path of the pendulum bob is approximately circular (an arc), the dominant classification for a pendulum is periodic because it is the repetitive nature of the swing that is most significant for physics. Strictly, it shows oscillatory motion, a type of periodic motion."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "If area decreases while force stays constant, what happens to pressure? (Q8)",
-        "hi": "If area decreases while force stays constant, what happens to pressure? (Q8)",
-        "kn": "If area decreases while force stays constant, what happens to pressure? (Q8)"
-      },
-      "options": {
-        "en": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "hi": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "kn": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "hi": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "kn": "Since Pressure = Force/Area, decreasing the area increases the pressure."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "Express 5 km in metres.",
+      "options": ["A) 500 m", "B) 5000 m", "C) 50 m", "D) 50,000 m"],
+      "correct_answer": "B) 5000 m",
+      "explanation": "1 kilometre = 1000 metres. Therefore, 5 km = 5 × 1000 = 5000 m. The prefix 'kilo' means 1000. To convert km to m, always multiply by 1000. Bengaluru to Mysuru is approximately 140 km = 140,000 m — this shows why we use km for large distances rather than m."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which of the following is a non-contact force? (Q9)",
-        "hi": "Which of the following is a non-contact force? (Q9)",
-        "kn": "Which of the following is a non-contact force? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "hi": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "kn": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Gravity acts over a distance without physical contact.",
-        "hi": "Gravity acts over a distance without physical contact.",
-        "kn": "Gravity acts over a distance without physical contact."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Moderate",
+      "question": "Which is the correct method to measure the length of a curved line using a thread?",
+      "options": [
+        "A) Measure the straight-line distance between the two endpoints",
+        "B) Lay the thread along the curve, mark the end, then measure the straightened thread",
+        "C) Estimate the length by eye",
+        "D) Use a ruler held diagonally across the curve"
+      ],
+      "correct_answer": "B) Lay the thread along the curve, mark the end, then measure the straightened thread",
+      "explanation": "To measure a curved length: place a flexible thread along the entire curve, following every bend; mark where the curve ends on the thread; then straighten the thread and measure it with a ruler. This converts the curved length into a straight measurable length. Simply measuring between endpoints (option A) gives only the straight-line distance, which is shorter than the actual curved path."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "If area decreases while force stays constant, what happens to pressure? (Q10)",
-        "hi": "If area decreases while force stays constant, what happens to pressure? (Q10)",
-        "kn": "If area decreases while force stays constant, what happens to pressure? (Q10)"
-      },
-      "options": {
-        "en": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "hi": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "kn": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "hi": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "kn": "Since Pressure = Force/Area, decreasing the area increases the pressure."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Moderate",
+      "question": "The Namma Metro in Bengaluru covers 73 km of track. How many metres is this?",
+      "options": ["A) 730 m", "B) 7,300 m", "C) 73,000 m", "D) 730,000 m"],
+      "correct_answer": "C) 73,000 m",
+      "explanation": "1 km = 1000 m. So 73 km = 73 × 1000 = 73,000 m. This is a direct application of unit conversion. The Namma Metro serves Bengaluru, Karnataka's capital, and its length in km is far more practical to state than in metres (73,000 m). This illustrates why we choose units appropriate to the scale of measurement."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "A student starts measuring the length of a pencil from the 1 cm mark instead of the 0 cm mark on the ruler and reads 8 cm. What is the actual length of the pencil?",
+      "options": ["A) 8 cm", "B) 9 cm", "C) 7 cm", "D) 8.5 cm"],
+      "correct_answer": "C) 7 cm",
+      "explanation": "If the student starts from the 1 cm mark and reads 8 cm, the actual measurement is 8 − 1 = 7 cm. Always start measuring from the zero (0) mark on a ruler. Starting from 1 cm adds 1 cm of extra ruler length to the reading, giving a result that is 1 cm too large. The actual length of the pencil is 7 cm."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "Which of the following shows BOTH circular and rectilinear motion at the same time?",
+      "options": [
+        "A) A pendulum swinging",
+        "B) A wheel rolling forward on a road",
+        "C) A ceiling fan spinning",
+        "D) A child on a merry-go-round"
+      ],
+      "correct_answer": "B) A wheel rolling forward on a road",
+      "explanation": "A wheel rolling forward shows: (1) circular motion — the wheel spins around its axle; (2) rectilinear motion — the wheel (and the vehicle) moves forward in a straight line. This is compound motion involving both types simultaneously. A pendulum is periodic, a ceiling fan is only circular (not moving forward), and a merry-go-round is only circular."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "A person is sitting in a moving train. With respect to another passenger in the same train, the person is:",
+      "options": [
+        "A) In motion",
+        "B) At rest",
+        "C) In circular motion",
+        "D) In periodic motion"
+      ],
+      "correct_answer": "B) At rest",
+      "explanation": "Motion and rest are relative — they depend on the reference point. Both passengers are moving at the same speed in the same direction relative to the ground. But relative to each other, their positions do not change — so each person is 'at rest' relative to the other passenger. However, both are 'in motion' relative to a person standing on the platform outside the train."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "Arrange these lengths in increasing order: 1 km, 1000 cm, 100 m, 10,000 mm.",
+      "options": [
+        "A) 1000 cm < 100 m < 10,000 mm < 1 km",
+        "B) 10,000 mm = 1000 cm = 100 m and all are less than 1 km",
+        "C) 1000 cm < 10,000 mm < 100 m < 1 km",
+        "D) All are equal"
+      ],
+      "correct_answer": "B) 10,000 mm = 1000 cm = 100 m and all are less than 1 km",
+      "explanation": "Converting to metres: 1000 cm = 10 m; 100 m = 100 m; 10,000 mm = 10 m; 1 km = 1000 m. Wait — 1000 cm = 10 m and 10,000 mm = 10 m. So the correct conversions are: 1000 cm = 10 m; 10,000 mm = 10 m; 100 m = 100 m; 1 km = 1000 m. In increasing order: 1000 cm = 10,000 mm (10 m) < 100 m < 1 km. The answer is B — 10,000 mm = 1000 cm = 10 m, all less than 100 m, which is less than 1 km."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "What type of motion does the Earth show as it rotates on its own axis?",
+      "options": ["A) Rectilinear only", "B) Circular and periodic", "C) Random", "D) Periodic only"],
+      "correct_answer": "B) Circular and periodic",
+      "explanation": "Earth's rotation on its axis is circular (it spins in a circular path, with every point on its surface tracing a circle) and periodic (it completes one full rotation every 24 hours, repeating endlessly). This rotation causes day and night. The Earth's orbit around the Sun is also circular and periodic (once every 365.25 days = 1 year). Both motions are circular AND periodic."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Why do we prefer the metric system (SI units) over the Imperial system for scientific measurements?",
+      "options": [
+        "A) The metric system uses larger numbers",
+        "B) The metric system is based on powers of 10, making conversions simple",
+        "C) The Imperial system has more units",
+        "D) The metric system was invented in India"
+      ],
+      "correct_answer": "B) The metric system is based on powers of 10, making conversions simple",
+      "explanation": "The metric system (SI) is decimal-based — all conversions involve multiplying or dividing by powers of 10 (10, 100, 1000). This makes arithmetic simple: 1 km = 1000 m; 1 m = 100 cm; 1 cm = 10 mm. The Imperial system has arbitrary conversions: 1 mile = 1760 yards = 5280 feet — requiring complex arithmetic. The decimal base makes the SI system universally practical for science."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "To measure the length of a curved road on a map, which method is most appropriate for a school student?",
+      "options": [
+        "A) Use a standard ruler held along the road",
+        "B) Estimate visually by looking at the map",
+        "C) Place a thread along the road on the map, then measure the straightened thread",
+        "D) Calculate using the map's scale without measuring"
+      ],
+      "correct_answer": "C) Place a thread along the road on the map, then measure the straightened thread",
+      "explanation": "The thread method is the most practical and accurate way to measure a curved length at school level. Lay a flexible thread along the curved road on the map, following every bend; mark where the road ends; straighten the thread and measure with a ruler. Then apply the map scale to find the real-world distance. A standard ruler cannot follow curves; visual estimation is inaccurate; map scale alone does not measure curved paths."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Advanced",
+      "question": "A runner completes one lap of a circular 400 m track. Which statement correctly describes the runner's displacement and distance?",
+      "options": [
+        "A) Distance = 400 m, Displacement = 400 m",
+        "B) Distance = 400 m, Displacement = 0 m",
+        "C) Distance = 0 m, Displacement = 400 m",
+        "D) Both distance and displacement are 0 m"
+      ],
+      "correct_answer": "B) Distance = 400 m, Displacement = 0 m",
+      "explanation": "Distance is the total path length travelled = 400 m (the full circular lap). Displacement is the change in position from start to end — since the runner returns to the same starting point, the net change in position is 0 m. This is a key distinction in physics: distance is a scalar (total path), displacement is a vector (shortest path from start to end). After one complete circular lap, displacement is always zero."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "A grandfather clock's pendulum takes 1 second to swing from left to right, and 1 second to swing back from right to left. What is the time period of the pendulum's motion?",
+      "options": ["A) 0.5 seconds", "B) 1 second", "C) 2 seconds", "D) 4 seconds"],
+      "correct_answer": "C) 2 seconds",
+      "explanation": "The time period of a periodic motion is the time taken to complete one full cycle. One full cycle of a pendulum = swing left to right AND back right to left = 1 + 1 = 2 seconds. The pendulum returns to its original position (and moving in the original direction) after 2 seconds. A common mistake is thinking 1 second (only half a cycle). The grandfather clock's pendulum is specifically designed with a 2-second period — it makes one 'tick' and one 'tock' per cycle."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "Karnataka's KSRTC bus travels from Bengaluru to Mysuru. The journey is 150 km by road but only 120 km in a straight line. If the bus takes 3 hours, what does the 150 km represent?",
+      "options": [
+        "A) The displacement of the bus",
+        "B) The distance travelled by the bus along the road",
+        "C) The speed of the bus",
+        "D) Both distance and displacement"
+      ],
+      "correct_answer": "B) The distance travelled by the bus along the road",
+      "explanation": "The 150 km is the actual road distance (total path length) — the distance the bus travels along the curved, winding road. The 120 km straight-line measurement would be the displacement (shortest distance between Bengaluru and Mysuru in a straight line). Distance = total path covered = 150 km; Displacement = straight-line distance between start and end = 120 km. Since the road curves, distance > displacement."
     }
   ]
 }

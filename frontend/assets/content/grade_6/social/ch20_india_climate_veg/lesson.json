@@ -1,114 +1,276 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "social",
-  "chapter_id": "ch20_india_climate_veg",
-  "chapter_title": {
-    "en": "India: Climate, Vegetation and Wildlife",
-    "hi": "भारत: जलवायु, वनस्पति तथा वन्य प्राणी",
-    "kn": "ಭಾರತ: ವಾಯುಗುಣ, ಸಸ್ಯವರ್ಗ ಮತ್ತು ವನ್ಯಜೀವಿಗಳು"
+  "subject": "Social Science — Geography",
+  "textbook": "The Earth: Our Habitat — Textbook for Class VI",
+  "chapter_number": 20,
+  "chapter_title": "India: Climate, Vegetation and Wildlife",
+  "estimated_study_time_minutes": 55,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Distinguish between weather and climate with examples",
+    "Name and describe India's four main seasons",
+    "Explain the South-West Monsoon and its importance for India's agriculture",
+    "Identify the regions of highest and lowest rainfall in India",
+    "Name and describe the five major types of natural vegetation in India",
+    "Explain the rain shadow effect using the Western Ghats as an example",
+    "Name India's National Animal, National Bird, National Tree, and National Flower",
+    "Describe the significance of Project Tiger and India's major wildlife reserves",
+    "Connect Karnataka's climate zones, vegetation types, and wildlife to the chapter's concepts"
+  ],
+
+  "prerequisite_knowledge": [
+    "Understanding of India's physical divisions from Chapter 19 (mountains, plateaus, plains, coastal areas)",
+    "Awareness of seasons from daily life experience",
+    "Basic knowledge that different areas of India receive different amounts of rainfall",
+    "Familiarity with some Indian animals and plants from daily life and earlier classes"
+  ],
+
+  "introduction": {
+    "why_important": "Climate determines what crops a region can grow, what animals live there, how people dress, and how they build their homes. Understanding India's diverse climate, vegetation, and wildlife helps us appreciate why India is so biodiversity-rich and why protecting our natural heritage is critical for our own survival.",
+    "real_life_relevance": "The coffee in your cup comes from Kodagu because the Western Ghats create a perfect cool, wet climate for coffee. The ragi in Karnataka's mudde grows in the semi-arid Deccan Plateau because ragi tolerates dry conditions. The monsoon determines whether India's farmers will have a good harvest — affecting food prices and national food security. Weather and climate touch every part of daily life.",
+    "karnataka_context": "Karnataka is a remarkable case study in climate diversity. Within one state: Coorg (Kodagu) receives over 2,500 mm of rain annually and grows coffee and pepper in evergreen forests; Bengaluru (Deccan Plateau) receives about 850 mm and has a moderate, pleasant climate; Bidar and Kalaburagi in the north receive less than 600 mm and have semi-arid thorny scrub vegetation. The Western Ghats in Karnataka are a globally recognised biodiversity hotspot — home to tigers, elephants, leopards, lion-tailed macaques, and thousands of plant species. Karnataka has the second highest tiger population in India.",
+    "connection_to_previous_learning": "Chapter 19 described India's physical geography. Chapter 20 shows how that physical geography — especially mountains, plateaus, and coastal areas — directly shapes India's climate, vegetation, and wildlife. Geography and climate are inseparably connected."
   },
-  "topics": [
-    {
-      "topic_id": "social_grade6_ch20_india_climate_veg_basics",
-      "title": {
-        "en": "India: Climate, Vegetation and Wildlife - Fundamentals",
-        "hi": "भारत: जलवायु, वनस्पति तथा वन्य प्राणी - बुनियादी बातें",
-        "kn": "ಭಾರತ: ವಾಯುಗುಣ, ಸಸ್ಯವರ್ಗ ಮತ್ತು ವನ್ಯಜೀವಿಗಳು - ಮೂಲತಮxt್ವಗಳು"
+
+  "story_summary": {
+    "characters": [
+      {
+        "name": "The South-West Monsoon",
+        "role": "India's most important seasonal wind system — arriving from the Arabian Sea in June, it deposits 75–80% of India's annual rainfall, dictating the agricultural calendar and water availability for over a billion people"
       },
-      "learning_objectives": [
-        "Understand key concepts of India: Climate, Vegetation and Wildlife",
-        "Solve exercises and apply rules related to India: Climate, Vegetation and Wildlife",
-        "Analyze practical examples of India: Climate, Vegetation and Wildlife in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore India: Climate, Vegetation and Wildlife. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम भारत: जलवायु, वनस्पति तथा वन्य प्राणी का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಭಾರತ: ವಾಯುಗುಣ, ಸಸ್ಯವರ್ಗ ಮತ್ತು ವನ್ಯಜೀವಿಗಳು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
+      {
+        "name": "The Western Ghats",
+        "role": "The great rain-catcher — intercepting monsoon winds and causing heavy rainfall on the western side while creating a rain shadow on the eastern side; also a globally recognised biodiversity hotspot"
       },
-      "concept_explanation": {
-        "en": "In this chapter, we explore India: Climate, Vegetation and Wildlife in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम भारत: जलवायु, वनस्पति तथा वन्य प्राणी का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಭಾರತ: ವಾಯುಗುಣ, ಸಸ್ಯವರ್ಗ ಮತ್ತು ವನ್ಯಜೀವಿಗಳು ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
+      {
+        "name": "India's Forests",
+        "role": "From tropical evergreen rainforests in Coorg to thorny scrub in Rajasthan and mangroves in the Sundarbans — India's vegetation types mirror its rainfall and temperature patterns"
       },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of India: Climate, Vegetation and Wildlife.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in India: Climate, Vegetation and Wildlife.",
-            "hi": "चरण 1: भारत: जलवायु, वनस्पति तथा वन्य प्राणी के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಭಾರತ: ವಾಯುಗುಣ, ಸಸ್ಯವರ್ಗ ಮತ್ತು ವನ್ಯಜೀವಿಗಳು ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering India: Climate, Vegetation and Wildlife builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "भारत: जलवायु, वनस्पति तथा वन्य प्राणी में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಭಾರತ: ವಾಯುಗುಣ, ಸಸ್ಯವರ್ಗ ಮತ್ತು ವನ್ಯಜೀವಿಗಳು ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
+      {
+        "name": "India's Wildlife",
+        "role": "The Royal Bengal Tiger, Indian Elephant, Asiatic Lion (Gir only), One-horned Rhinoceros (Kaziranga only), and Snow Leopard — India's flagship wildlife species, each found in a specific habitat that geography has shaped"
       }
+    ],
+    "plot": [
+      "The chapter opens by distinguishing weather (short-term) from climate (long-term average) and introducing India's four seasons.",
+      "It explains the South-West Monsoon in detail — its origin over the Arabian Sea, its arrival in Kerala in June, its northward advance, and its retreat in October.",
+      "It identifies regions of extreme rainfall: Mawsynram/Cherrapunji (wettest) and the Thar Desert (driest), and explains the Western Ghats' rain shadow effect.",
+      "It introduces India's five types of natural vegetation: tropical evergreen, tropical deciduous (most widespread), thorny/scrub, montane, and mangrove forests.",
+      "It connects each vegetation type to a rainfall zone — high rainfall = evergreen, moderate = deciduous, low = thorny, mountains = montane, coastal = mangrove.",
+      "It explores India's wildlife — national symbols, flagship species, Project Tiger, and the importance of national parks and wildlife sanctuaries.",
+      "It introduces the concept of biodiversity — India as a 'mega-biodiversity' nation with 4 global hotspots.",
+      "It connects Karnataka's climate, vegetation, and wildlife zones throughout: Kodagu forests, Bandipur tigers, coastal mangroves.",
+      "The chapter closes by emphasising conservation — the need to protect India's extraordinary natural heritage for future generations."
+    ],
+    "moral": "India's climate, vegetation, and wildlife are deeply connected — climate shapes vegetation, vegetation sustains wildlife, and wildlife maintains ecosystem balance. Destroy any part of this chain — through deforestation, pollution, or climate change — and the entire system is at risk. Conservation is not just an environmental duty; it is self-preservation."
+  },
+
+  "core_concepts": [
+    {
+      "concept_name": "Weather, Climate, and Seasons of India",
+      "simple_explanation": "Weather is the day-to-day condition of the atmosphere (today's rain or sunshine). Climate is the average weather pattern over many years. India has four main seasons: Winter (Dec–Feb), Summer (Mar–May), South-West Monsoon (Jun–Sep), and North-East Monsoon (Oct–Nov).",
+      "detailed_explanation": "Weather changes daily and can be unpredictable. Climate is predictable and describes a region's long-term atmospheric character. India's four seasons arise from its location in the tropical and subtropical zones and the pattern of seasonal winds: Winter (December–February) — cool and dry in north India (temperatures may drop below 0°C in Ladakh, 5–15°C in Delhi, but remain warm in the south at 20–25°C); Summer (March–May) — very hot across most of India, with the 'Loo' (hot, dry wind) in the north; South-West Monsoon (June–September) — the most important season, bringing 75–80% of India's annual rainfall from the Arabian Sea and Bay of Bengal; North-East Monsoon / Retreating Monsoon (October–November) — the northeast trade winds carry moisture from the Bay of Bengal and bring rainfall to Tamil Nadu and Andhra Pradesh's southeastern coast, while the rest of India gets little rain.",
+      "real_life_example": "In Karnataka, the Southwest Monsoon arrives around June 1–5 on the coast, causing relief from the summer heat. Bengaluru's June monsoon — cool, cloudy, and rainy — is a dramatic contrast to the dry, hot May. Farmers across Karnataka time their sowing based on when the monsoon arrives. If the monsoon is delayed or weak, crops fail — showing how climate directly determines food security.",
+      "karnataka_example": "Karnataka experiences the monsoon twice: the Southwest Monsoon (June–September) brings heavy rain to the Western Ghats and moderate rain to the plateau, while the Northeast Monsoon (October–November) brings some additional rain to eastern Karnataka. Bengaluru typically receives about 60% of its annual rainfall in the Southwest Monsoon season. The coastal districts (Dakshina Kannada, Udupi) receive extremely heavy monsoon rain — Agumbe in Shivamogga district is often called the 'Cherrapunji of the South', receiving over 7,000 mm annually.",
+      "common_mistakes": "Students often confuse weather and climate. A common error: 'Climate in Bengaluru today is rainy' — this is WRONG. You should say 'Weather in Bengaluru today is rainy. The climate of Bengaluru is moderate and pleasant year-round.' Also, students may think India has only one monsoon. India has two: Southwest Monsoon (most of India, June–Sep) and Northeast Monsoon (southeastern coast, Oct–Nov).",
+      "memory_tip": "Weather = what you WEAR today (changes daily). Climate = what's in your WARDROBE (long-term pattern). India's four seasons: WSMN — Winter, Summer, Monsoon (SW), Northeast Monsoon. Or: 'We Sing Monsoon News' — four seasons in order."
+    },
+    {
+      "concept_name": "Natural Vegetation of India",
+      "simple_explanation": "India has five main types of natural vegetation, each determined by the amount of rainfall received: tropical evergreen forests (very high rainfall), tropical deciduous forests (moderate rainfall, most widespread), thorny/scrub forests (low rainfall), montane forests (on mountain slopes), and mangrove forests (coastal tidal areas).",
+      "detailed_explanation": "Tropical Evergreen Forests — found where annual rainfall exceeds 200 cm; trees remain green year-round; located in Western Ghats (Coorg, coastal Karnataka), Andaman & Nicobar Islands, and northeast India. Tropical Deciduous Forests — most widespread; found where rainfall is 70–200 cm; trees shed leaves in dry season; key trees are teak, sal, sandalwood, bamboo; cover most of central and peninsular India. Thorny/Scrub Forests — found where rainfall is below 75 cm; plants have thorns (to reduce water loss) and small, waxy leaves; found in Rajasthan (Thar), Gujarat, parts of Andhra Pradesh, and northern Karnataka. Montane Forests — on mountain slopes; type changes with altitude (tropical forests at base, temperate forests mid-slope, alpine meadows at high altitudes); found in Himalayas and Western Ghats. Mangrove Forests — in coastal tidal zones (estuaries, deltas); trees have special prop/breathing roots; Sundarbans (WB) is the world's largest mangrove forest; also in Andaman, coastal Karnataka.",
+      "real_life_example": "Sandalwood — Karnataka's state tree and one of India's most valuable trees — grows in the tropical deciduous forests of the Deccan Plateau (Mysuru, Chamarajanagar). Teak, used in furniture, grows in deciduous forests of Karnataka and Madhya Pradesh. The spices (pepper, cardamom) in your kitchen come from the evergreen forests of the Western Ghats. Every forest type directly provides food, timber, or medicine that humans use.",
+      "karnataka_example": "Karnataka has three distinct vegetation zones: (1) Tropical Evergreen Forests — in Kodagu, Dakshina Kannada, Uttara Kannada, and Shivamogga (Western Ghats zone); these dense forests are home to tigers, elephants, and the lion-tailed macaque; (2) Tropical Deciduous Forests — in most of interior Karnataka (Mysuru, Chamarajanagar, Chikkamagaluru plateau areas); the world-famous Mysuru sandalwood comes from these forests; (3) Tropical Thorny Scrub — in the semi-arid northern Karnataka districts (Vijayapura, Bidar, Gadag, Koppal). Mangroves also exist in small patches along Karnataka's Arabian Sea coast.",
+      "common_mistakes": "Students often think deciduous means 'dead' — it means 'leaf-shedding seasonally'. Deciduous trees are very much alive; they shed leaves to conserve water in the dry season, just like we put on a coat in winter. Also, students may think mangrove forests are rare and found only in the Sundarbans. Actually, mangroves exist all along India's coastline — including Karnataka's coast.",
+      "memory_tip": "Match rainfall to forest type: 200+ cm = Evergreen (always green). 70–200 cm = Deciduous (seasonally loses leaves). Less than 75 cm = Thorny (prickly and water-saving). Mountains = Montane (changes with altitude). Coast = Mangrove (saltwater roots). EDTMM: 'Elephants Don't Trust Mountain Mangroves' — Evergreen, Deciduous, Thorny, Montane, Mangrove."
+    },
+    {
+      "concept_name": "Wildlife and Conservation in India",
+      "simple_explanation": "India is a mega-biodiversity nation with remarkable wildlife — from Bengal tigers to Asiatic lions, one-horned rhinos, elephants, and snow leopards. India protects its wildlife through national parks, wildlife sanctuaries, and programmes like Project Tiger. Karnataka has the second largest tiger population in India.",
+      "detailed_explanation": "India has about 7–8% of the world's recorded species despite having only 2.4% of land area. This is because India has 4 of the world's 36 biodiversity hotspots: Western Ghats, Eastern Himalayas, Indo-Burma region (northeast), and Sundaland (Nicobar Islands). Key wildlife: Royal Bengal Tiger (national animal; found in Sundarbans, Bandipur/Nagarhole in Karnataka, Jim Corbett in Uttarakhand — India has ~3,600+ tigers, 75% of world's wild tigers); Asiatic Lion (found ONLY in Gir National Park, Gujarat); One-horned Rhinoceros (found mainly in Kaziranga, Assam); Indian Elephant (found in forests of Karnataka, Kerala, Assam); Snow Leopard (Himalayas — Ladakh, HP). Conservation tools: National Parks (highest protection, no human activity allowed), Wildlife Sanctuaries (slightly less strict), Tiger Reserves (55 reserves under Project Tiger launched 1973), Biosphere Reserves. India's National Symbols: Animal = Royal Bengal Tiger, Bird = Peacock, Tree = Banyan, Flower = Lotus, Fruit = Mango.",
+      "real_life_example": "When you buy a sandalwood product from Mysuru, you are benefiting from forest products. When you visit Bandipur or Nagarhole national park and spot a tiger or elephant, you are experiencing the direct result of decades of conservation effort — particularly Project Tiger (1973) and the Wildlife Protection Act (1972). Without these laws, India's tigers might be extinct today (the population had fallen to under 2,000 before conservation began).",
+      "karnataka_example": "Karnataka is one of India's most important wildlife states. Key wildlife zones: (1) Bandipur Tiger Reserve (Chamarajanagar) — connected to Nagarhole (Kodagu/Mysuru), Mudumalai (Tamil Nadu), and Wayanad (Kerala) to form one of Asia's largest contiguous wildlife corridors called the 'Nilgiri Biosphere Reserve'. Tigers, elephants, leopards, gaur (Indian bison), and wild dogs (dholes) roam freely across this 5,500 sq km zone. (2) Bhadra Tiger Reserve (Shivamogga/Chikkamagaluru). (3) Biligiri Rangaswamy Temple (BRT) Tiger Reserve — unique as it connects the Eastern and Western Ghats. (4) Anshi-Dandeli Tiger Reserve (Uttara Kannada) — home to black panthers and hornbills. Karnataka produces about 20% of India's total sandalwood — a product of its deciduous forests.",
+      "common_mistakes": "Students sometimes think the Asiatic Lion is found across India. It is found ONLY in Gir National Park, Gujarat — the last remaining wild population. Similarly, the One-horned Rhinoceros is found mainly in Kaziranga (Assam) — not across India. These 'only one location' facts are frequently tested. Also, students may confuse National Parks with Wildlife Sanctuaries — National Parks have stricter protection (no human activities allowed inside), while Sanctuaries may allow limited human use.",
+      "memory_tip": "National Animal = Tiger (powerful, endangered). National Bird = Peacock (beautiful, Indian). National Tree = Banyan (strong, long-lived, spreads wide like India). National Flower = Lotus (grows in mud, blooms beautifully — like India). For unique habitats: Lion = Gir ONLY, Rhino = Kaziranga MAINLY, Tiger = Many reserves including Karnataka's Bandipur & Nagarhole."
     }
+  ],
+
+  "key_terms_glossary": [
+    {
+      "term": "Weather",
+      "meaning": "The atmospheric conditions (temperature, rainfall, wind, humidity) at a specific place on a specific day or short period. Weather changes frequently and can be unpredictable."
+    },
+    {
+      "term": "Climate",
+      "meaning": "The average weather conditions of a place over a long period of time (usually 30 or more years). Climate is predictable and characterises a region's atmospheric pattern."
+    },
+    {
+      "term": "Monsoon",
+      "meaning": "A seasonal reversal of wind direction that brings heavy rainfall. The South-West Monsoon (June–September) brings 75–80% of India's annual rainfall. It arrives first in Kerala around June 1."
+    },
+    {
+      "term": "Tropical Evergreen Forest",
+      "meaning": "Dense forests found in areas with very high rainfall (200+ cm annually) and no dry season. Trees remain green year-round. Found in the Western Ghats, northeastern India, and Andaman & Nicobar Islands."
+    },
+    {
+      "term": "Tropical Deciduous Forest",
+      "meaning": "The most widespread forest type in India, found in areas with moderate rainfall (70–200 cm). Trees shed their leaves in the dry season to conserve water. Key trees: teak, sal, sandalwood."
+    },
+    {
+      "term": "Mangrove Forest",
+      "meaning": "Coastal forests found in tidal areas (estuaries, deltas) where salt and freshwater mix. Trees have special breathing roots (pneumatophores). The Sundarbans is the world's largest mangrove forest."
+    },
+    {
+      "term": "Rain Shadow",
+      "meaning": "An area that receives very little rainfall because a mountain range blocks moisture-carrying winds. The eastern side of the Western Ghats is a rain shadow — drier than the western side."
+    },
+    {
+      "term": "Biodiversity",
+      "meaning": "The variety of living organisms in a given area — including all plants, animals, fungi, and microbes. India is a 'mega-biodiversity' nation with 4 of the world's 36 biodiversity hotspots."
+    },
+    {
+      "term": "National Park",
+      "meaning": "A strictly protected area where wildlife and ecosystems are preserved and no human activities (farming, grazing, hunting) are permitted. India has 106 national parks."
+    },
+    {
+      "term": "Project Tiger",
+      "meaning": "A wildlife conservation programme launched by the Indian Government in 1973 to protect the declining Royal Bengal Tiger population. India now has 55 Tiger Reserves under this project."
+    },
+    {
+      "term": "Biodiversity Hotspot",
+      "meaning": "A region with exceptionally high numbers of species found nowhere else (endemic species) that faces significant habitat destruction. India has 4 biodiversity hotspots: Western Ghats, Eastern Himalayas, Indo-Burma region, and Sundaland."
+    }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Application",
+      "question": "Mangaluru (west of Western Ghats) receives about 3,500 mm of annual rainfall, while Bengaluru (east of Western Ghats) receives about 850 mm. Using the concept of rain shadow, explain this difference.",
+      "step_by_step_answer": [
+        "Step 1: Recall the source of rainfall — the Southwest Monsoon winds blow from the Arabian Sea toward India, carrying large amounts of moisture.",
+        "Step 2: The Western Ghats act as a barrier — when moisture-laden winds hit the Ghats, they are forced to rise rapidly.",
+        "Step 3: As air rises, it cools. Cool air cannot hold as much moisture as warm air, so the moisture condenses and falls as heavy rainfall on the western (windward) side — where Mangaluru is located.",
+        "Step 4: After crossing the Ghats, the winds descend on the eastern (leeward) side. Descending air warms up and becomes drier — it has already lost most of its moisture.",
+        "Step 5: Result — Bengaluru, on the leeward/eastern side, receives much less rainfall (850 mm) compared to Mangaluru on the windward/western side (3,500 mm).",
+        "Conclusion: The 4× difference in rainfall between Mangaluru and Bengaluru (just 350 km apart) is caused entirely by the Western Ghats acting as a rainfall barrier — creating a rain shadow on the eastern (Bengaluru) side."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Classification",
+      "question": "Match each vegetation type to its correct description: (a) Tropical Evergreen, (b) Tropical Deciduous, (c) Thorny/Scrub, (d) Montane, (e) Mangrove.",
+      "step_by_step_answer": [
+        "Step 1: Trees remain green year-round, found in very high rainfall areas (200+ cm) = (a) Tropical Evergreen. Example: Coorg forests, Andaman Islands.",
+        "Step 2: Trees shed leaves in dry season, most widespread type, rainfall 70–200 cm, key trees include teak and sandalwood = (b) Tropical Deciduous. Example: interior Karnataka, Madhya Pradesh.",
+        "Step 3: Found in very low rainfall areas (< 75 cm), plants have thorns and small leaves to conserve water = (c) Thorny/Scrub. Example: Thar Desert fringe, northern Karnataka.",
+        "Step 4: Found on mountain slopes; type changes with altitude (tropical at base, temperate mid-slope, alpine/meadows at top) = (d) Montane. Example: Himalayas, upper Western Ghats.",
+        "Step 5: Found in coastal tidal zones (estuaries, deltas), trees have breathing/prop roots to survive in salty, waterlogged soil = (e) Mangrove. Example: Sundarbans (WB), coastal Karnataka.",
+        "Conclusion: Each forest type = one rainfall/location zone. Match: High rain = Evergreen, Moderate = Deciduous, Low = Thorny, Mountains = Montane, Coast = Mangrove."
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Comprehension",
+      "question": "Why is Karnataka considered one of India's most important states for wildlife conservation?",
+      "step_by_step_answer": [
+        "Step 1: Karnataka's Western Ghats are part of one of the world's 36 biodiversity hotspots — meaning they have extraordinary concentrations of unique species found nowhere else.",
+        "Step 2: Karnataka has the second highest tiger population in India (after Madhya Pradesh) — concentrated mainly in Bandipur and Nagarhole Tiger Reserves.",
+        "Step 3: The Nilgiri Biosphere Reserve — connecting Bandipur (Karnataka), Nagarhole (Karnataka), Mudumalai (Tamil Nadu), and Wayanad (Kerala) — is one of Asia's largest contiguous wildlife corridors, allowing tigers, elephants, and leopards to roam freely across a vast protected area.",
+        "Step 4: Karnataka has 5 Tiger Reserves: Bandipur, Nagarhole, Bhadra, BRT (Biligiri Rangaswamy Temple), and Anshi-Dandeli — spread across different forest types.",
+        "Step 5: Karnataka's forests host rare and endemic species including the Lion-tailed Macaque, the Malabar Giant Squirrel, the King Cobra, and hundreds of endemic plant species found nowhere else on Earth.",
+        "Conclusion: Karnataka's combination of large, contiguous protected areas, high tiger density, diverse forest types, and endemic biodiversity makes it one of the most critical states for India's wildlife conservation."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Weather, Climate, Seasons, Vegetation, and Wildlife",
+      "questions": [
+        {
+          "type": "Recall",
+          "q": "Name India's four seasons in order.",
+          "a": "Winter (December–February), Summer (March–May), South-West Monsoon (June–September), and North-East Monsoon/Retreating Monsoon (October–November)."
+        },
+        {
+          "type": "Recall",
+          "q": "Which is the most widespread type of natural vegetation in India?",
+          "a": "Tropical Deciduous Forests are the most widespread type of natural vegetation in India, found in areas with moderate rainfall (70–200 cm) across central and peninsular India."
+        },
+        {
+          "type": "Understanding",
+          "q": "Why do trees in tropical deciduous forests shed their leaves?",
+          "a": "Trees in deciduous forests shed their leaves during the dry season (summer) to conserve water. Without leaves, the tree loses less water through transpiration. When the monsoon rains return, new leaves grow."
+        },
+        {
+          "type": "Understanding",
+          "q": "What is the rain shadow effect? Name one area in Karnataka that is in the rain shadow.",
+          "a": "The rain shadow effect occurs when a mountain range blocks moisture-carrying winds. Heavy rain falls on the windward (wet) side; the leeward (opposite) side is dry. The interior Deccan Plateau — including Bengaluru, Mysuru, and northern Karnataka — is in the rain shadow of the Western Ghats."
+        },
+        {
+          "type": "Application",
+          "q": "Name India's National Animal and state where the largest concentration of this animal is found in Karnataka.",
+          "a": "India's National Animal is the Royal Bengal Tiger. In Karnataka, the largest concentration of tigers is in Bandipur Tiger Reserve (Chamarajanagar district), which is connected to Nagarhole Tiger Reserve to form one of India's richest tiger habitats."
+        }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Weather = short-term atmospheric conditions; Climate = long-term average pattern over 30+ years.",
+    "India has four seasons: Winter (Dec–Feb), Summer (Mar–May), SW Monsoon (Jun–Sep), NE Monsoon (Oct–Nov).",
+    "The South-West Monsoon brings 75–80% of India's annual rainfall; it arrives first in Kerala around June 1.",
+    "Wettest place in India: Mawsynram, Meghalaya (11,000+ mm). Driest: Thar Desert, Rajasthan (< 250 mm).",
+    "Five vegetation types: Tropical Evergreen (200+ cm rain), Deciduous (70–200 cm, most widespread), Thorny (< 75 cm), Montane (mountains), Mangrove (coasts).",
+    "Western Ghats cause rain shadow — heavy rain on western side (Mangaluru), much less on eastern side (Bengaluru, Mysuru).",
+    "National Animal: Royal Bengal Tiger. National Bird: Peacock. National Tree: Banyan. National Flower: Lotus.",
+    "Project Tiger launched 1973; India now has 55 Tiger Reserves and over 3,600 tigers (75% of world's wild tigers).",
+    "Asiatic Lion = ONLY in Gir National Park, Gujarat. One-horned Rhino = mainly Kaziranga, Assam.",
+    "Karnataka: second highest tiger population (Bandipur, Nagarhole); Western Ghats = global biodiversity hotspot."
+  ],
+
+  "mind_map": {
+    "root": "India: Climate, Vegetation and Wildlife",
+    "branches": [
+      {
+        "branch": "Weather vs Climate",
+        "sub": ["Weather = daily/short-term", "Climate = 30+ year average", "Bengaluru climate = moderate. Today's Bengaluru rain = weather"]
+      },
+      {
+        "branch": "Seasons of India",
+        "sub": ["Winter: Dec–Feb (cool, dry)", "Summer: Mar–May (hot)", "SW Monsoon: Jun–Sep (75-80% rainfall)", "NE Monsoon: Oct–Nov (SE coast rain)"]
+      },
+      {
+        "branch": "Rainfall",
+        "sub": ["Wettest: Mawsynram, Meghalaya (11,000+ mm)", "Driest: Thar Desert, Rajasthan (< 250 mm)", "Agumbe (Karnataka) = 'Cherrapunji of the South' (7,000+ mm)", "Rain Shadow: Western Ghats (east side = dry)"]
+      },
+      {
+        "branch": "Vegetation Types",
+        "sub": ["Evergreen: 200+ cm, Western Ghats, NE India", "Deciduous: 70-200 cm, most widespread, teak/sandalwood", "Thorny: < 75 cm, Rajasthan, N. Karnataka", "Montane: mountain slopes, altitude-based zones", "Mangrove: coastal tidal, Sundarbans, coastal Karnataka"]
+      },
+      {
+        "branch": "Wildlife and Conservation",
+        "sub": ["National Animal: Tiger (Project Tiger 1973)", "National Bird: Peacock", "Lion = ONLY Gir (Gujarat)", "Rhino = mainly Kaziranga (Assam)", "Karnataka: Bandipur + Nagarhole Tiger Reserves", "India = mega-biodiversity nation, 4 hotspots"]
+      }
+    ]
+  },
+
+  "revision_notes": "Chapter 20 covers India's climate, vegetation, and wildlife. Weather = daily conditions; climate = 30-year average. Four seasons: Winter (Dec–Feb), Summer (Mar–May), SW Monsoon (Jun–Sep, 75–80% rainfall, arrives Kerala first), NE Monsoon (Oct–Nov, Tamil Nadu coast). Wettest: Mawsynram, Meghalaya (11,000+ mm). Driest: Thar Desert, Rajasthan (< 250 mm). Rain shadow effect: Western Ghats block monsoon, causing heavy rain on west side (Mangaluru ~3,500 mm) and dryness on east (Bengaluru ~850 mm). Five vegetation types: (1) Tropical Evergreen — 200+ cm, Western Ghats/NE/Andaman, always green; (2) Tropical Deciduous — 70-200 cm, most widespread, teak/sal/sandalwood, leaf-shedding; (3) Thorny/Scrub — < 75 cm, Rajasthan/N.Karnataka, thorns; (4) Montane — mountain slopes; (5) Mangrove — tidal coasts, prop roots, Sundarbans. Wildlife: National Animal = Royal Bengal Tiger; National Bird = Peacock; National Tree = Banyan; National Flower = Lotus. Project Tiger 1973: 55 reserves, 3,600+ tigers. Asiatic Lion = ONLY Gir (Gujarat). One-horned Rhino = mainly Kaziranga (Assam). Karnataka = 2nd highest tigers, 5 Tiger Reserves (Bandipur, Nagarhole, Bhadra, BRT, Anshi-Dandeli). India = mega-biodiversity nation, 4 hotspots: Western Ghats, Eastern Himalayas, Indo-Burma, Sundaland.",
+
+  "must_remember_facts": [
+    "Weather = short-term. Climate = long-term (30+ years).",
+    "SW Monsoon: June–September, arrives first in Kerala, brings 75–80% of India's rain.",
+    "Wettest: Mawsynram, Meghalaya (11,000+ mm). Driest: Thar Desert (< 250 mm).",
+    "Five vegetation types: Evergreen (200+ cm) → Deciduous (70–200 cm, most widespread) → Thorny (< 75 cm) → Montane (mountains) → Mangrove (coasts).",
+    "Rain shadow effect: heavy rain west of Western Ghats; dry on the east side.",
+    "National Animal = Tiger. National Bird = Peacock. National Tree = Banyan. National Flower = Lotus.",
+    "Project Tiger = 1973. India has 55 Tiger Reserves and 3,600+ tigers (75% of world's wild tigers).",
+    "Asiatic Lion = ONLY Gir National Park, Gujarat.",
+    "One-horned Rhinoceros = mainly Kaziranga National Park, Assam.",
+    "Karnataka: 2nd highest tiger population; Bandipur + Nagarhole = one of Asia's largest wildlife corridors."
   ]
 }

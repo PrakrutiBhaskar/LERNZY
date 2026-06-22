@@ -1,366 +1,174 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch05_books_burials_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science – History",
+  "textbook": "Our Pasts – I",
+  "chapter_number": 5,
+  "chapter_title": "Books and Burials",
+
+  "level_1_mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of What Books and Burials Tell Us? (Q1)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of What Books and Burials Tell Us? (Q1)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of What Books and Burials Tell Us? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq01", "difficulty": "Easy",
+      "question": "What does the word 'Veda' mean in Sanskrit?",
+      "options": ["War", "Knowledge", "Prayer", "Burial"],
+      "correct_answer": "Knowledge",
+      "explanation": "'Veda' is a Sanskrit word meaning 'knowledge'. The four Vedas are ancient texts of sacred knowledge composed between 1500 BCE and 600 BCE."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to What Books and Burials Tell Us in a community? (Q2)",
-        "hi": "Who or what body regulates the civic issues related to What Books and Burials Tell Us in a community? (Q2)",
-        "kn": "Who or what body regulates the civic issues related to What Books and Burials Tell Us in a community? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq02", "difficulty": "Easy",
+      "question": "Which is the oldest of the four Vedas?",
+      "options": ["Samaveda", "Atharvaveda", "Yajurveda", "Rigveda"],
+      "correct_answer": "Rigveda",
+      "explanation": "The Rigveda is the oldest of the four Vedas, composed around 1500 BCE. It contains 1028 hymns (suktas) and is one of the oldest surviving texts in any language."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of What Books and Burials Tell Us? (Q3)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of What Books and Burials Tell Us? (Q3)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of What Books and Burials Tell Us? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq03", "difficulty": "Easy",
+      "question": "How many hymns (suktas) does the Rigveda contain?",
+      "options": ["528", "728", "1028", "1528"],
+      "correct_answer": "1028",
+      "explanation": "The Rigveda contains 1028 hymns (suktas) organised into 10 books called mandalas. These hymns are addressed to various nature gods."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to What Books and Burials Tell Us in a community? (Q4)",
-        "hi": "Who or what body regulates the civic issues related to What Books and Burials Tell Us in a community? (Q4)",
-        "kn": "Who or what body regulates the civic issues related to What Books and Burials Tell Us in a community? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq04", "difficulty": "Easy",
+      "question": "What does 'sruti' refer to in the context of the Vedas?",
+      "options": ["Written manuscripts", "Oral transmission through memorisation", "Stone inscriptions", "Palm-leaf manuscripts"],
+      "correct_answer": "Oral transmission through memorisation",
+      "explanation": "Sruti means 'that which is heard' — referring to the oral tradition of transmitting the Vedas through precise memorisation and recitation by Brahmin priests, rather than through writing."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of What Books and Burials Tell Us? (Q5)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of What Books and Burials Tell Us? (Q5)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of What Books and Burials Tell Us? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq05", "difficulty": "Easy",
+      "question": "Which god is most frequently praised in the Rigveda?",
+      "options": ["Varuna", "Agni", "Indra", "Soma"],
+      "correct_answer": "Indra",
+      "explanation": "Indra, the god of rain, thunder, and war, is the most frequently praised deity in the Rigveda. Agni (fire) is second. Indra was associated with strength, heroism, and victory."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to What Books and Burials Tell Us in a community? (Q6)",
-        "hi": "Who or what body regulates the civic issues related to What Books and Burials Tell Us in a community? (Q6)",
-        "kn": "Who or what body regulates the civic issues related to What Books and Burials Tell Us in a community? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq06", "difficulty": "Easy",
+      "question": "What are the four varnas described in later Vedic texts?",
+      "options": ["Brahmin, Kshatriya, Vaishya, Shudra", "Brahmin, Rajput, Merchant, Worker", "Priest, King, Farmer, Slave", "Arya, Dasa, Raja, Gana"],
+      "correct_answer": "Brahmin, Kshatriya, Vaishya, Shudra",
+      "explanation": "The four varnas are: Brahmin (priests), Kshatriya (warriors/rulers), Vaishya (farmers/traders), and Shudra (workers/servants). This classification is described in later Vedic texts including the Purusha Sukta."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of What Books and Burials Tell Us? (Q7)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of What Books and Burials Tell Us? (Q7)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of What Books and Burials Tell Us? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq07", "difficulty": "Easy",
+      "question": "What does the word 'megalith' mean?",
+      "options": ["Small clay pot", "Large stone structure", "Sacred river", "Ancient coin"],
+      "correct_answer": "Large stone structure",
+      "explanation": "Megalith comes from Greek: 'mega' (big) + 'lithos' (stone). Megaliths are large stone structures built over burial sites, found across South India and dating from approximately 1000–200 BCE."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to What Books and Burials Tell Us in a community? (Q8)",
-        "hi": "Who or what body regulates the civic issues related to What Books and Burials Tell Us in a community? (Q8)",
-        "kn": "Who or what body regulates the civic issues related to What Books and Burials Tell Us in a community? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq08", "difficulty": "Easy",
+      "question": "Which archaeological site in Karnataka is famous for its megalithic burials?",
+      "options": ["Hampi", "Brahmagiri", "Aihole", "Badami"],
+      "correct_answer": "Brahmagiri",
+      "explanation": "Brahmagiri, near Chitradurga in Karnataka, is one of India's most important megalithic sites. It was excavated by Sir Mortimer Wheeler in 1947, yielding iron tools, burial urns, and pottery."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of What Books and Burials Tell Us? (Q9)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of What Books and Burials Tell Us? (Q9)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of What Books and Burials Tell Us? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq09", "difficulty": "Easy",
+      "question": "Who excavated the megalithic site at Brahmagiri, Karnataka?",
+      "options": ["R.E.M. Wheeler", "Mortimer Wheeler", "John Marshall", "Alexander Cunningham"],
+      "correct_answer": "Mortimer Wheeler",
+      "explanation": "Sir Mortimer Wheeler, a British archaeologist, excavated Brahmagiri in 1947. His excavations revealed iron tools, black-and-red pottery, burial urns, and evidence of an Iron Age agricultural community."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to What Books and Burials Tell Us in a community? (Q10)",
-        "hi": "Who or what body regulates the civic issues related to What Books and Burials Tell Us in a community? (Q10)",
-        "kn": "Who or what body regulates the civic issues related to What Books and Burials Tell Us in a community? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq10", "difficulty": "Easy",
+      "question": "What type of megalithic structure is a stone burial chamber made of upright stones with a flat stone on top?",
+      "options": ["Menhir", "Cairn", "Dolmen", "Stupa"],
+      "correct_answer": "Dolmen",
+      "explanation": "A dolmen is a megalithic burial chamber made of large upright stones with a flat capstone on top — like a stone table over a grave. Cairns are stone mounds; menhirs are tall upright standing stones."
+    },
+    {
+      "id": "mcq11", "difficulty": "Easy",
+      "question": "What does the presence of iron tools in megalithic burial sites tell us?",
+      "options": ["The community worshipped iron", "They had no knowledge of farming", "The community belonged to the Iron Age and used iron technology", "Iron tools were used only for rituals"],
+      "correct_answer": "The community belonged to the Iron Age and used iron technology",
+      "explanation": "Iron tools in burial sites tell us that the community was part of the Iron Age — they had developed the technology to smelt and use iron for farming, construction, and everyday life."
+    },
+    {
+      "id": "mcq12", "difficulty": "Easy",
+      "question": "Why were objects buried with the dead in megalithic cultures?",
+      "options": ["To prevent robbers from using them", "Because there was no storage space in homes", "Because people believed the dead needed these items in the afterlife", "As punishment for those who owned too many things"],
+      "correct_answer": "Because people believed the dead needed these items in the afterlife",
+      "explanation": "Ancient communities buried pottery, tools, food, and ornaments with the dead because they believed in an afterlife — that the spirit would continue and would need the same resources in the next world."
+    },
+    {
+      "id": "mcq13", "difficulty": "Easy",
+      "question": "At Inamgaon in Maharashtra, what do differences in grave goods tell archaeologists?",
+      "options": ["Everyone in the community was equal", "The community was vegetarian", "There were social differences — some people had more wealth or status than others", "They did not believe in an afterlife"],
+      "correct_answer": "There were social differences — some people had more wealth or status than others",
+      "explanation": "At Inamgaon, some burials contained many more items (pottery, tools, ornaments) than others. This inequality in grave goods indicates that the living community also had social differences and a hierarchy."
+    },
+    {
+      "id": "mcq14", "difficulty": "Easy",
+      "question": "Which of the following is NOT one of the four Vedas?",
+      "options": ["Samaveda", "Yajurveda", "Upanishad", "Atharvaveda"],
+      "correct_answer": "Upanishad",
+      "explanation": "The four Vedas are: Rigveda, Samaveda, Yajurveda, and Atharvaveda. The Upanishads are a separate category of later philosophical texts — they are part of the broader Vedic literature but are not one of the four Vedas themselves."
+    },
+    {
+      "id": "mcq15", "difficulty": "Easy",
+      "question": "Which Veda primarily contains melodies and songs used during rituals?",
+      "options": ["Rigveda", "Atharvaveda", "Yajurveda", "Samaveda"],
+      "correct_answer": "Samaveda",
+      "explanation": "The Samaveda primarily contains melodies and songs (saman) derived mainly from the Rigveda, arranged for singing during rituals. Yajurveda has ritual instructions; Atharvaveda has spells and everyday rituals."
+    },
+    {
+      "id": "mcq16", "difficulty": "Easy",
+      "question": "What is a 'sukta' in the Rigveda?",
+      "options": ["A type of burial pit", "A sacred hymn or poem addressed to a deity", "A grain used in rituals", "A royal title"],
+      "correct_answer": "A sacred hymn or poem addressed to a deity",
+      "explanation": "'Sukta' means 'well said' in Sanskrit. It refers to the hymns of the Rigveda — sacred poems addressed to gods like Indra, Agni, and Varuna. The Rigveda has 1028 suktas."
+    },
+    {
+      "id": "mcq17", "difficulty": "Easy",
+      "question": "Which of the following best describes the varna of 'Kshatriya'?",
+      "options": ["Priests who performed rituals", "Farmers and traders", "Warriors and rulers", "Workers and servants"],
+      "correct_answer": "Warriors and rulers",
+      "explanation": "Kshatriyas were the varna of warriors and rulers — they were responsible for protecting and governing society. Brahmins were priests, Vaishyas were farmers/traders, and Shudras were workers/servants."
+    },
+    {
+      "id": "mcq18", "difficulty": "Easy",
+      "question": "Why is the study of megalithic burial sites important for understanding ancient India?",
+      "options": ["Because they contain the Vedas written in stone", "Because they give evidence about communities that left no written records", "Because they prove ancient Indians had no religion", "Because all ancient Indians built them"],
+      "correct_answer": "Because they give evidence about communities that left no written records",
+      "explanation": "Megalithic communities in South India had no writing system. Their burial sites — with iron tools, pottery, and ornaments — are the ONLY evidence we have about how they lived, what they believed, and how their society was organised."
+    },
+    {
+      "id": "mcq19", "difficulty": "Easy",
+      "question": "What is a 'menhir' in the context of megalithic burials?",
+      "options": ["A burial pot filled with ashes", "A tall, single upright stone placed near a burial site", "A stone chamber for burials", "A heap of stones over a grave"],
+      "correct_answer": "A tall, single upright stone placed near a burial site",
+      "explanation": "A menhir is a tall, single standing stone erected near a burial site as a monument. Dolmens are stone chambers; cairns are stone mounds over graves. Menhirs are the upright monument type."
+    },
+    {
+      "id": "mcq20", "difficulty": "Easy",
+      "question": "Which statement about ancient India is CORRECT based on this chapter?",
+      "options": [
+        "All ancient Indians followed the Vedic religion",
+        "Only South Indians used iron tools",
+        "Vedic and megalithic cultures coexisted — ancient India was culturally diverse",
+        "The Vedas were originally written on palm leaves"
+      ],
+      "correct_answer": "Vedic and megalithic cultures coexisted — ancient India was culturally diverse",
+      "explanation": "Ancient India was not culturally uniform. Vedic communities (mainly North India) had texts and oral traditions; megalithic communities (mainly South India) had separate burial cultures. Both coexisted, showing India's ancient diversity."
+    }
+  ],
+
+  "common_misconceptions": [
+    {
+      "misconception": "The Vedas were always written books — they were preserved in writing from the beginning.",
+      "why_confused": "Students assume that because the Vedas exist as books today, they were always written. Modern printed Vedas make it hard to imagine an oral-only tradition.",
+      "correct_explanation": "The Vedas were entirely oral for over 1,000 years. Brahmin priests memorised every syllable precisely using special chanting patterns called pathas. Writing came much later. The oral method was considered MORE reliable than writing because the human voice carried the sacred sound (nada), not just the meaning. The Vedas were not written until many centuries after their composition.",
+      "mini_practice_question": "True or False: The Vedas were written down at the time they were composed.",
+      "answer": "False. The Vedas were composed orally and transmitted through memorisation (sruti) for over 1,000 years before being written down."
+    },
+    {
+      "misconception": "All ancient Indians followed the Vedic religion and were part of Vedic society.",
+      "why_confused": "Because the Vedas are so famous and are taught as foundational Indian texts, students assume they represent all of ancient India.",
+      "correct_explanation": "The Vedic tradition was mainly prevalent in north and northwest India. Simultaneously, in South India, Maharashtra, and other regions, communities with completely separate cultural traditions existed — including the megalithic communities who built stone burial sites, had no Sanskrit texts, and likely spoke Dravidian languages. Ancient India was always culturally DIVERSE. The Vedas represent one important tradition, not the whole of ancient India.",
+      "mini_practice_question": "Were all communities in ancient India part of the Vedic tradition? Give one piece of evidence to support your answer.",
+      "answer": "No. Megalithic communities in South India (e.g., at Brahmagiri, Karnataka) had entirely separate cultural traditions — no Vedic texts, different burial customs, iron-using farming communities. They are evidence of non-Vedic ancient Indian cultures."
     }
   ]
 }

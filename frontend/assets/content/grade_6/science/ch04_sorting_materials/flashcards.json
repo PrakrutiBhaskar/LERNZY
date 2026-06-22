@@ -1,96 +1,172 @@
 {
-  "version": "1.0",
-  "topic_id": "science_grade6_ch04_sorting_materials_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 4,
+  "chapter_title": "Sorting Materials into Groups",
+  "total_cards": 20,
   "cards": [
     {
       "id": "fc01",
-      "front": {
-        "en": "What is the core idea of Sorting Materials into Groups? (FC1)",
-        "hi": "What is the core idea of Sorting Materials into Groups? (FC1)",
-        "kn": "What is the core idea of Sorting Materials into Groups? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Why do scientists classify materials into groups?",
+      "back": "Scientists classify materials to study them more efficiently. When materials are grouped by common properties (hardness, solubility, transparency), it becomes easier to predict how an unknown material will behave, choose the right material for a specific use, and identify patterns across many different substances.",
+      "memory_hook": "Classification = science's filing system. Without files, you cannot find anything. With proper groups, you can predict and compare instantly."
     },
     {
       "id": "fc02",
-      "front": {
-        "en": "Why is Sorting Materials into Groups important? (FC2)",
-        "hi": "Why is Sorting Materials into Groups important? (FC2)",
-        "kn": "Why is Sorting Materials into Groups important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is 'lustre' as a property of materials? Give two examples of lustrous materials.",
+      "back": "Lustre is the property of having a shiny surface that reflects light. Most metals have lustre — they look shiny and bright. Examples of lustrous materials: gold, silver, iron (when polished), copper, and aluminium. Non-lustrous materials are dull in appearance: wood, rubber, plastic, chalk, and stone.",
+      "memory_hook": "Lustre = luster = sparkle. Metals are nature's mirror makers. Non-lustrous = nature's matte finish."
     },
     {
       "id": "fc03",
-      "front": {
-        "en": "What is the core idea of Sorting Materials into Groups? (FC3)",
-        "hi": "What is the core idea of Sorting Materials into Groups? (FC3)",
-        "kn": "What is the core idea of Sorting Materials into Groups? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What does 'hardness' mean as a material property? Give one hard and one soft material.",
+      "back": "Hardness is the ability of a material to resist being scratched, dented, or deformed. Hard materials: diamond (hardest natural material), iron, steel, granite, glass. Soft materials: wax, rubber, chalk, cotton, sponge, and clay. Hardness is important for choosing materials in construction, tools, and manufacturing.",
+      "memory_hook": "Hard = holds its shape under pressure. Soft = gives in. Diamond = hardest. Wax = easy to shape with fingers. Think of scratching a surface — hard leaves the scratcher unmarked; soft gets scratched."
     },
     {
       "id": "fc04",
-      "front": {
-        "en": "Why is Sorting Materials into Groups important? (FC4)",
-        "hi": "Why is Sorting Materials into Groups important? (FC4)",
-        "kn": "Why is Sorting Materials into Groups important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What does 'soluble' mean? Give two examples of soluble and two of insoluble materials in water.",
+      "back": "Soluble means a material dissolves uniformly in water to form a clear solution. Soluble examples: salt (sodium chloride), sugar (sucrose), copper sulphate. Insoluble examples: sand, chalk powder, iron filings, oil. When a soluble material dissolves, the water remains clear; insoluble materials either sink, float, or make water cloudy.",
+      "memory_hook": "Soluble = disappears into water (but is still there — you can taste salt!). Insoluble = stays visible. Salt = vanishing act. Sand = stubborn guest that never dissolves."
     },
     {
       "id": "fc05",
-      "front": {
-        "en": "What is the core idea of Sorting Materials into Groups? (FC5)",
-        "hi": "What is the core idea of Sorting Materials into Groups? (FC5)",
-        "kn": "What is the core idea of Sorting Materials into Groups? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is the difference between transparent, translucent, and opaque materials?",
+      "back": "Transparent: light passes through clearly — objects behind can be seen distinctly. Examples: clear glass, clean water, clear plastic. Translucent: some light passes through but is scattered — objects behind appear blurry. Examples: frosted glass, wax paper, oiled paper, thin cloth. Opaque: no light passes through — objects behind cannot be seen at all. Examples: wood, stone, metal, thick plastic.",
+      "memory_hook": "T-T-O: Transparent = Total clarity. Translucent = Tinted/blurry. Opaque = Obviously nothing. Or: TTO = 'Tell Them Openly' from clearest to darkest."
+    },
+    {
+      "id": "fc06",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What are electrical conductors and insulators? Give two examples of each.",
+      "back": "Conductors: materials that allow electric current to flow through them easily. Examples: copper, iron, aluminium, gold, silver. Insulators: materials that resist or block the flow of electric current. Examples: rubber, plastic, dry wood, glass, porcelain. Conductors are used in wires and circuits; insulators protect people from electric shocks.",
+      "memory_hook": "Conductor = open highway for electrons. Insulator = closed gate. Copper wire = highway. Rubber coat = gatekeeper. Together they make safe electricity."
+    },
+    {
+      "id": "fc07",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "Why is copper used for electrical wires and rubber used to coat them?",
+      "back": "Copper is one of the best electrical conductors — electrons flow through it easily with low resistance, minimising energy loss. It is also ductile (can be drawn into thin wires) and corrosion-resistant. Rubber is an electrical insulator — it prevents current from escaping the wire and protects people from electric shocks. Together, copper core (conductor) + rubber coat (insulator) = safe, efficient electrical wire.",
+      "memory_hook": "Copper = carries the current. Rubber = guards the current. The highway and its safety barriers."
+    },
+    {
+      "id": "fc08",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why does a metal spoon feel colder than a wooden spoon when both are at the same room temperature?",
+      "back": "Metal is a thermal conductor — it quickly conducts heat away from your warmer hand when you touch it, making it feel cold. Wood is a thermal insulator — it does not conduct heat away from your hand quickly, so it feels warmer. Both are at the same actual temperature, but the rate of heat transfer to your hand differs. This is why metal objects feel cold on a winter morning even without being chilled.",
+      "memory_hook": "Metal steals your warmth quickly — that is why it feels cold. Wood is polite — it does not take your heat. Cold feel = fast conductor; warm feel = slow insulator."
+    },
+    {
+      "id": "fc09",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is the difference between dissolving and melting? Why is this distinction important?",
+      "back": "Dissolving (solubility): a solid mixes uniformly with a liquid (usually water) at room temperature — no change of state occurs. Salt dissolves in water; the salt breaks into ions but remains salt. Melting: a solid changes to a liquid state due to heat — a change of state. Ice melts to water; wax melts to liquid wax. Importance: the distinction matters for science experiments and daily life — adding salt to water is dissolving; heating butter on a pan is melting. Different processes, different conditions.",
+      "memory_hook": "Dissolve = water's magic trick (at room temperature, no heat needed). Melt = heat's magic trick (requires temperature increase). Salt dissolves. Butter melts. Both 'disappear' but for different reasons."
+    },
+    {
+      "id": "fc10",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "List any five properties used to classify materials in this chapter.",
+      "back": "Five key properties: (1) Lustre — shiny or dull. (2) Hardness — hard or soft. (3) Solubility — soluble or insoluble in water. (4) Transparency — transparent, translucent, or opaque. (5) Conductivity — conductor or insulator of heat/electricity. Other properties include: floats/sinks in water, magnetic/non-magnetic.",
+      "memory_hook": "LHSTC: Lustre, Hardness, Solubility, Transparency, Conductivity. 'Lions Hunt Small Tasty Creatures' — the five properties of the scientific hunter."
+    },
+    {
+      "id": "fc11",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "Can the same material be classified under multiple properties simultaneously? Give an example.",
+      "back": "Yes — every material has multiple properties and can be classified under each independently. Example: Glass is (1) transparent, (2) hard, (3) insoluble in water, (4) an electrical insulator, and (5) non-lustrous. Iron is (1) lustrous, (2) hard, (3) insoluble in water, (4) a conductor, and (5) opaque. Properties are independent — knowing one does not automatically tell you about the others.",
+      "memory_hook": "Materials are multi-talented. Glass = 5 properties at once. Classification is not exclusive — one material, many groups."
+    },
+    {
+      "id": "fc12",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why were the Hoysala temples built using soapstone (chloritic schist)?",
+      "back": "The Hoysala architects and sculptors at Belur and Halebidu (Karnataka) used chloritic schist — a soapstone that is relatively soft when freshly quarried, allowing extremely intricate and detailed carving. Over time, exposure to air causes the stone to harden and become very durable. This unique property — soft when carved, hard when finished — was deliberately exploited to create the temples' famous detailed sculptures.",
+      "memory_hook": "Soapstone = the sculptor's dream stone. Soft at the workshop, hard at the temple. Nature's delayed hardening — carved first, tough forever."
+    },
+    {
+      "id": "fc13",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Classify these materials as transparent, translucent, or opaque: clear glass, frosted glass, brick wall, clean water, butter paper.",
+      "back": "Clear glass — Transparent (see through clearly). Frosted glass — Translucent (light passes but blurry). Brick wall — Opaque (no light passes). Clean water — Transparent (see through clearly). Butter paper (tracing paper) — Translucent (light passes, objects blurry).",
+      "memory_hook": "TTO test: Ask 'Can I read a book through this?' YES = transparent. Blurry/dim = translucent. NO = opaque. Apply this test to any material instantly."
+    },
+    {
+      "id": "fc14",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Test four materials in water: salt, sand, oil, and sugar. Which are soluble and which are insoluble?",
+      "back": "Salt — Soluble (dissolves completely, water stays clear and tastes salty). Sugar — Soluble (dissolves completely, water stays clear and tastes sweet). Sand — Insoluble (sinks to the bottom, water becomes cloudy then clears with sand settled below). Oil — Insoluble (floats on water as a separate layer — does not mix).",
+      "memory_hook": "Salt and Sugar = soluble (kitchen favourites that vanish in water). Sand and Oil = insoluble (stubborn materials that refuse to mix). S-S-S-O: Salt-Sugar-Soluble, Sand-Oil-Insoluble."
+    },
+    {
+      "id": "fc15",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why do cooking pans have metal bodies but plastic or wooden handles?",
+      "back": "The pan body must transfer heat from the flame to the food efficiently — metal is a thermal conductor that does this well. The handle must remain cool enough to hold safely — plastic and wood are thermal insulators that do not conduct heat from the pan body to your hand. This design directly applies the conductor-insulator property distinction: conductor where heat transfer is needed, insulator where it must be blocked.",
+      "memory_hook": "Pan body = heat highway (conductor). Handle = heat wall (insulator). Smart design uses both in the right places."
+    },
+    {
+      "id": "fc16",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is Bidriware and how does it connect to material properties?",
+      "back": "Bidriware is a traditional craft from Bidar district, Karnataka, famous for intricate silver inlay work on a black metal base. The base is made from a zinc-copper alloy — chosen because these metals are malleable (can be shaped and engraved) and lustrous. The alloy is treated with a paste that turns it black, and silver wire is hammered into the designs. Conductivity, malleability, and lustre of metals are the properties that make Bidriware possible.",
+      "memory_hook": "Bidriware = metal's beauty showcase. Zinc-copper = malleable base. Silver = shiny inlay. Karnataka's metalwork = chapter 4 in art form."
+    },
+    {
+      "id": "fc17",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why is oil insoluble in water even though both are liquids?",
+      "back": "Solubility depends on the chemical nature of the materials. Water is a polar molecule (it has partial positive and negative charges). Oil is made of non-polar molecules (no charge separation). The rule in chemistry is 'like dissolves like' — polar substances dissolve in polar solvents (salt in water), and non-polar substances dissolve in non-polar solvents (oil in petrol). Since water (polar) and oil (non-polar) are chemically incompatible, oil does not dissolve in water — instead it floats on top.",
+      "memory_hook": "Oil and water = the ultimate incompatible pair. They meet but never mix. Polar vs non-polar = the reason no amount of stirring will dissolve oil in water permanently."
+    },
+    {
+      "id": "fc18",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Are all metals lustrous? Are all shiny materials metals?",
+      "back": "Most metals are lustrous (shiny) when freshly cut or polished — iron, copper, gold, silver, aluminium all have lustre. However, some metals can appear dull when oxidised (rusted iron looks dull). Not all shiny materials are metals — some plastics, waxed surfaces, and polished stones can appear shiny. Lustre is a property often associated with metals but it is not exclusively a metal property.",
+      "memory_hook": "Most metals = shiny. But not all shiny = metal. Rust shows that even metals can lose their lustre. A polished marble slab shines but is not a metal."
+    },
+    {
+      "id": "fc19",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "You are designing a safety helmet. Which parts should be hard and which should be soft? Explain using material properties.",
+      "back": "Outer shell: should be HARD (using hard plastic or fibre composite) to resist impact and prevent penetration by sharp objects. Hard materials protect the skull by not deforming under collision force. Inner lining: should be SOFT and shock-absorbing (using foam, padding, or soft rubber) to cushion the blow and absorb energy gradually rather than transmitting the full force to the skull. This design uses hardness (outer) and softness/flexibility (inner) based on the function required at each layer.",
+      "memory_hook": "Helmet = hard outside, soft inside. Hard = shields. Soft = absorbs. Like an egg shell (hard) protecting the yolk (soft) — properties working together for safety."
+    },
+    {
+      "id": "fc20",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "A material is shiny, hard, insoluble in water, and conducts electricity. What type of material is it most likely to be?",
+      "back": "The combination of shiny (lustrous), hard, insoluble in water, and electrically conductive is characteristic of a metal. Most metals share all four of these properties — for example, iron (lustrous when polished, hard, insoluble in water, conducts electricity), copper (lustrous, moderately hard, insoluble, excellent conductor), or aluminium (lustrous, hard, insoluble, good conductor). Identifying a material by its combination of properties is the core skill of this chapter.",
+      "memory_hook": "Shiny + Hard + Insoluble + Conductor = almost certainly a METAL. Four properties together = one strong conclusion. This is what classification is for."
     }
   ]
 }

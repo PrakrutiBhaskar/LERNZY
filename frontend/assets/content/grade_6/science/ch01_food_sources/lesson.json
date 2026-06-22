@@ -1,114 +1,260 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "science",
-  "chapter_id": "ch01_food_sources",
-  "chapter_title": {
-    "en": "Food: Where Does It Come From",
-    "hi": "भोजन: यह कहाँ से आता है",
-    "kn": "ಆಹಾರ: ಇದು ಎಲ್ಲಿಂದ ಬರುತ್ತದೆ"
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 1,
+  "chapter_title": "Food: Where Does It Come From?",
+  "estimated_study_time_minutes": 45,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Identify the two main sources of food — plants and animals",
+    "Classify common foods as plant-based or animal-based with examples",
+    "Explain what ingredients are and identify ingredients in common dishes",
+    "Describe what herbivores, carnivores, and omnivores eat with examples",
+    "Understand that different parts of a plant (root, stem, leaf, flower, fruit, seed) are used as food",
+    "Recognise that honey bees collect nectar from flowers to make honey",
+    "Connect food sources to Karnataka's local cuisine and agriculture",
+    "Answer questions using correct scientific vocabulary from the chapter"
+  ],
+
+  "prerequisite_knowledge": [
+    "Basic awareness that we eat food every day to get energy",
+    "Familiarity with common fruits, vegetables, and animals seen in daily life",
+    "Ability to name a few common dishes eaten at home",
+    "Understanding that plants grow from seeds and animals live around us"
+  ],
+
+  "introduction": {
+    "why_important": "Everything we eat comes from either a plant or an animal. Understanding where food comes from helps us make healthier choices, appreciate farmers and nature, and avoid wasting food. It is the foundation of all nutrition science.",
+    "real_life_relevance": "Every meal on your plate — from rice and dal to idli and sambar — is made from ingredients that came from plants or animals. When you know the source of each ingredient, you become a more aware and grateful consumer of food.",
+    "karnataka_context": "Karnataka is one of India's most agriculturally diverse states. It is the largest producer of coarse cereals, coffee, and silk in India. The staple food of most Kannadigas — ragi (finger millet) — is a plant grown widely in districts like Tumakuru, Ramanagara, and Kolar. Karnataka's famous dishes like bisi bele bath, akki roti, and jolada rotti all come from plant sources, while dishes like nati koli saaru use animal sources. Understanding food sources helps students appreciate Karnataka's rich farming heritage.",
+    "connection_to_previous_learning": "This is the first chapter of Grade 6 Science. It builds on students' everyday experience of eating food and introduces a scientific framework for classifying food sources."
   },
-  "topics": [
-    {
-      "topic_id": "science_grade6_ch01_food_sources_basics",
-      "title": {
-        "en": "Food: Where Does It Come From - Fundamentals",
-        "hi": "भोजन: यह कहाँ से आता है - बुनियादी बातें",
-        "kn": "ಆಹಾರ: ಇದು ಎಲ್ಲಿಂದ ಬರುತ್ತದೆ - ಮೂಲತಮxt್ವಗಳು"
+
+  "story_summary": {
+    "characters": [
+      {
+        "name": "Plants",
+        "role": "The primary source of food — providing roots, stems, leaves, flowers, fruits, and seeds that humans and animals eat"
       },
-      "learning_objectives": [
-        "Understand key concepts of Food: Where Does It Come From",
-        "Solve exercises and apply rules related to Food: Where Does It Come From",
-        "Analyze practical examples of Food: Where Does It Come From in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Food: Where Does It Come From. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम भोजन: यह कहाँ से आता है का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಆಹಾರ: ಇದು ಎಲ್ಲಿಂದ ಬರುತ್ತದೆ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
+      {
+        "name": "Animals",
+        "role": "The secondary source of food — providing milk, eggs, meat, and honey that humans consume"
       },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Food: Where Does It Come From in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम भोजन: यह कहाँ से आता है का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಆಹಾರ: ಇದು ಎಲ್ಲಿಂದ ಬರುತ್ತದೆ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Food: Where Does It Come From.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Food: Where Does It Come From.",
-            "hi": "चरण 1: भोजन: यह कहाँ से आता है के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಆಹಾರ: ಇದು ಎಲ್ಲಿಂದ ಬರುತ್ತದೆ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Food: Where Does It Come From builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "भोजन: यह कहाँ से आता है में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಆಹಾರ: ಇದು ಎಲ್ಲಿಂದ ಬರುತ್ತದೆ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
+      {
+        "name": "Honey Bee",
+        "role": "An example of an animal that collects nectar from flowers and converts it into honey, illustrating an indirect plant-based food source"
       }
+    ],
+    "plot": [
+      "The chapter begins by asking where our food comes from, using a simple meal (rice, dal, vegetables) as a starting point.",
+      "It introduces the concept of 'ingredients' — the different food items that combine to make a dish.",
+      "It establishes that all food comes from either plants or animals.",
+      "It explores which parts of plants are eaten: roots (carrot, radish), stems (potato, ginger), leaves (spinach, cabbage), flowers (cauliflower, banana flower), fruits (mango, tomato), and seeds (wheat, rice, dal).",
+      "It explains that animals give us food products: cows and buffaloes give milk, hens give eggs, and bees collect nectar to make honey.",
+      "It introduces animals that eat only plants (herbivores), animals that eat only other animals (carnivores), and animals that eat both (omnivores).",
+      "It connects these concepts to what students eat every day.",
+      "The chapter ends by encouraging students to list the ingredients in their own meals and identify their sources."
+    ],
+    "moral": "All food ultimately comes from nature — plants and animals. Respecting and conserving these natural sources is our responsibility as consumers."
+  },
+
+  "core_concepts": [
+    {
+      "concept_name": "Plant Parts Used as Food",
+      "simple_explanation": "We eat different parts of plants — sometimes the root, sometimes the leaf, sometimes the fruit or seed. Different plants give us food from different parts.",
+      "detailed_explanation": "Plants have six main parts that can be used as food: roots (carrot, radish, beetroot, turnip), stems (potato, sugarcane, ginger, onion), leaves (spinach, cabbage, curry leaves, lettuce), flowers (cauliflower, broccoli, banana flower), fruits (mango, tomato, brinjal, apple), and seeds (wheat, rice, lentils, groundnut). It is important to note that what we commonly call 'vegetables' are actually different plant parts — for example, a carrot is a root, a potato is a stem (modified underground stem called a tuber), and a tomato is technically a fruit. Seeds are the most common source of food for humans globally, providing staple grains like wheat, rice, and maize.",
+      "real_life_example": "Think about your lunch box: rice comes from a seed, pickle may use a raw mango (fruit), papad is made from urad dal (seed), and a vegetable sabzi may use spinach (leaf) or potato (stem). You may be eating four different plant parts in one meal without realising it.",
+      "karnataka_example": "In Karnataka, ragi (finger millet seed) is the most important food crop and forms the base of ragi mudde, a staple across the state. Jackfruit (a fruit) is called 'poor man's meat' and is widely grown in coastal Karnataka districts like Dakshina Kannada. Drumstick (the pod/fruit of the Moringa tree) is used in Karnataka's famous saaru (rasam). The banana flower (a flower used as food) is cooked in Kodagu and coastal Karnataka.",
+      "common_mistakes": "Students often confuse potato with a root. A potato is NOT a root — it is a modified underground stem called a tuber. Similarly, ginger and turmeric are rhizomes (underground stems), not roots. Also, many students think a tomato is a vegetable, but scientifically it is a fruit because it develops from the flower of the plant and contains seeds.",
+      "memory_tip": "Use the acronym ROOT-STEM-LEAF-FLOWER-FRUIT-SEED = RSLFF+S. Or think of a plant from top to bottom: Seeds sprout → Roots anchor → Stems rise → Leaves grow → Flowers bloom → Fruits form. We eat every stage!"
+    },
+    {
+      "concept_name": "Animal Sources of Food",
+      "simple_explanation": "Some food comes from animals — like milk from cows, eggs from hens, and honey made by bees. We do not always need to kill an animal to get food from it.",
+      "detailed_explanation": "Animals provide food in two ways: through products they produce (milk, eggs, honey, silk) and through their meat. Milk is produced by mammals like cows, buffaloes, goats, and camels; it is processed into curd, butter, ghee, cheese, and paneer. Eggs are laid by birds like hens, ducks, and geese. Honey is made by honey bees from nectar collected from flowers — bees are themselves plant consumers, making honey an indirect plant-based product. Fish, chicken, mutton, and beef come from animals raised or caught for food. Different communities and regions of India eat different animal-based foods based on culture and availability.",
+      "real_life_example": "Your morning breakfast may include milk in tea or coffee (from a cow or buffalo), an egg omelette or boiled egg (from a hen), and honey on bread (from honey bees that visited flowers). All three come from animals, and none require the animal to be killed.",
+      "karnataka_example": "Karnataka is one of India's largest producers of milk — the Karnataka Cooperative Milk Producers' Federation (KMF), branded as Nandini, procures milk from over 25 lakh farmer members across the state and supplies dairy products to millions of households. The Dharwad district is famous for Dharwad pedha (a milk-based sweet). Coastal Karnataka (Mangaluru, Udupi) has a rich tradition of fish-based cuisine — fish curry with rice is a staple meal in these districts.",
+      "common_mistakes": "Students sometimes think honey is a plant product because bees visit flowers. Honey is an animal product — it is made by the honey bee (an animal) from nectar. However, bees depend entirely on plants for nectar, so honey is indirectly linked to plant sources. Also, students may not realise that silk comes from silkworms (an animal product) — Karnataka is the largest silk producer in India.",
+      "memory_tip": "Remember '3 M's from animals': Milk (from mammals), Meat (from animals), and Made-by-animals (honey, silk, eggs). Not all animal foods require harming the animal."
+    },
+    {
+      "concept_name": "Herbivores, Carnivores, and Omnivores",
+      "simple_explanation": "Animals can be grouped by what they eat: plant-eaters (herbivores), meat-eaters (carnivores), and animals that eat both (omnivores).",
+      "detailed_explanation": "All animals need food for energy and growth, but they get it from different sources. Herbivores eat only plants — examples include cows, deer, horses, elephants, rabbits, and goats. These animals typically have flat teeth for grinding plant material. Carnivores eat only other animals (meat) — examples include lions, tigers, wolves, eagles, and snakes. These animals have sharp teeth and claws for catching and eating prey. Omnivores eat both plants and animals — examples include humans, bears, crows, dogs, and cockroaches. Humans are omnivores by biology, though many people choose to eat only plant-based food (vegetarians) or include animal products in varying degrees. Knowing these categories helps us understand food chains and ecosystems.",
+      "real_life_example": "Look at your pet dog — it eats both rice and meat scraps, making it an omnivore. Your neighbour's cow eats only grass and hay, making it a herbivore. A cat that hunts mice and birds is a carnivore. You can identify the category by observing what the animal eats in real life.",
+      "karnataka_example": "Karnataka's forests in the Western Ghats host all three types: elephants (herbivores) eat bamboo, grass, and fruit; tigers and leopards (carnivores) eat deer and other animals; and the brown palm civet (omnivore) eats both fruit and insects. In the context of humans, most Lingayat communities in northern Karnataka follow vegetarianism (plant-based diet), while coastal communities have a rich tradition of fish and seafood consumption — both are valid adaptations of the omnivore human.",
+      "common_mistakes": "Students often think carnivores eat only red meat. In fact, any animal that eats only other animals is a carnivore — including snakes (which eat frogs), eagles (which eat fish or rabbits), and spiders (which eat insects). Also, some students classify vegetarian humans as herbivores — this is incorrect. Humans are biologically omnivores; choosing a vegetarian diet is a cultural or ethical choice, not a biological classification.",
+      "memory_tip": "Use word roots: HERBI = herbs/plants (Herbivore eats plants), CARNI = flesh/meat (Carnivore eats meat), OMNI = all (Omnivore eats all). H-C-O: Herbs, Carnage, Overall!"
     }
+  ],
+
+  "key_terms_glossary": [
+    {
+      "term": "Ingredient",
+      "meaning": "Any individual food item used in making a dish. For example, rice, water, and salt are ingredients used to make plain boiled rice."
+    },
+    {
+      "term": "Herbivore",
+      "meaning": "An animal that eats only plants for its food. Examples include cows, deer, goats, rabbits, and elephants."
+    },
+    {
+      "term": "Carnivore",
+      "meaning": "An animal that eats only the flesh of other animals for its food. Examples include lions, tigers, eagles, and snakes."
+    },
+    {
+      "term": "Omnivore",
+      "meaning": "An animal that eats both plants and animals for its food. Examples include humans, dogs, bears, and crows."
+    },
+    {
+      "term": "Nectar",
+      "meaning": "A sweet liquid produced by flowers that attracts bees and other insects. Honey bees collect nectar and convert it into honey inside their hive."
+    },
+    {
+      "term": "Sprout",
+      "meaning": "A seed that has just started to germinate — it has a small shoot emerging from it. Sprouted seeds like moong dal sprouts are nutritious and eaten raw or cooked."
+    },
+    {
+      "term": "Edible",
+      "meaning": "Safe and fit to be eaten. Some plant parts are edible (like mango fruit) while others are not (like mango leaves)."
+    },
+    {
+      "term": "Tuber",
+      "meaning": "A thick, fleshy underground stem that stores food for the plant. Potato and sweet potato are common tubers eaten as food."
+    },
+    {
+      "term": "Photosynthesis",
+      "meaning": "The process by which green plants make their own food using sunlight, water, and carbon dioxide. Plants are called producers because they make food through photosynthesis."
+    },
+    {
+      "term": "Producer",
+      "meaning": "An organism that can make its own food, usually through photosynthesis. All green plants are producers and form the base of every food chain."
+    }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Comprehension",
+      "question": "Look at this meal: idli, sambar, coconut chutney, and a glass of buttermilk. Identify the plant parts or animal products used to make each item.",
+      "step_by_step_answer": [
+        "Step 1: Idli — made from rice (seed) and urad dal (seed), fermented. Both are seeds = plant source.",
+        "Step 2: Sambar — made from toor dal (seed), tamarind (fruit), tomato (fruit), drumstick (fruit/pod), onion (modified stem), and spices from seeds. Mostly plant sources.",
+        "Step 3: Coconut chutney — made from coconut (seed/fruit interior), green chilli (fruit), and roasted gram (seed). All plant sources.",
+        "Step 4: Buttermilk — made from curd diluted with water. Curd is made from milk = animal source (cow or buffalo).",
+        "Conclusion: This traditional Karnataka meal uses seeds, fruits, and stems from plants, and milk (an animal product). It demonstrates that most of a typical South Indian meal comes from plant sources."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Vocabulary in context",
+      "question": "Use the word 'omnivore' in a sentence, and explain why humans are classified as omnivores.",
+      "step_by_step_answer": [
+        "Step 1: Recall meaning — An omnivore is an animal that eats both plant-based and animal-based foods.",
+        "Step 2: Connect to concept — Humans eat rice, vegetables, and fruits (plant sources) as well as milk, eggs, and meat (animal sources) in varying combinations.",
+        "Step 3: Write sentence: 'Humans are omnivores because our digestive system is designed to process both plant-based foods like grains and vegetables and animal-based foods like milk and eggs.'"
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Moral application",
+      "question": "Why is it important to know where our food comes from? How can this knowledge help you make better choices?",
+      "step_by_step_answer": [
+        "Step 1: State the key lesson — All food comes from plants or animals. These are natural resources that require effort, land, water, and care to produce.",
+        "Step 2: Think of a real situation — When we waste food, we are wasting the farmer's labour, the water used to grow crops, and the land used to raise animals.",
+        "Step 3: Apply it — Knowing that rice comes from paddy fields that require months of farming work encourages us not to leave rice uneaten on our plate. Knowing that milk comes from a cow that needs daily care encourages us not to waste milk.",
+        "Step 4: Conclusion — Understanding food sources builds gratitude for nature and farmers, and helps us make conscious choices about what and how much we eat."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Plant Parts Used as Food",
+      "questions": [
+        {
+          "type": "Recall",
+          "q": "Name one food item we eat that is a root of a plant.",
+          "a": "Carrot, radish, beetroot, or turnip — all are roots we eat."
+        },
+        {
+          "type": "Recall",
+          "q": "Which part of the plant does rice come from?",
+          "a": "Rice comes from the seed of the paddy (rice) plant."
+        },
+        {
+          "type": "Understanding",
+          "q": "Why is a potato NOT classified as a root, even though it grows underground?",
+          "a": "A potato is a modified underground stem called a tuber, not a root. True roots (like carrot) do not have buds or 'eyes' — potato tubers do, which is how new plants grow from them."
+        },
+        {
+          "type": "Understanding",
+          "q": "Give two examples of flowers that we eat as food.",
+          "a": "Cauliflower and banana flower (also called banana blossom) are flowers we eat. Broccoli is another example."
+        },
+        {
+          "type": "Application",
+          "q": "Look at your next meal and identify which plant part each vegetable belongs to.",
+          "a": "Accept any reasonable answer — e.g. 'I ate spinach (leaf), potato (stem/tuber), and dal (seed). All are plant parts.' The key is correctly matching each food to its plant part category."
+        }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "All food comes from two sources: plants and animals.",
+    "The six plant parts used as food are: roots, stems, leaves, flowers, fruits, and seeds.",
+    "Seeds (rice, wheat, dal) are the most widely consumed plant part worldwide.",
+    "Animals provide food through products (milk, eggs, honey) and meat.",
+    "Honey is an animal product made by bees from nectar collected from flowers.",
+    "Herbivores eat only plants, carnivores eat only animals, and omnivores eat both.",
+    "Humans are biologically omnivores.",
+    "Potato is a stem (tuber), not a root; tomato is a fruit, not a vegetable — scientifically.",
+    "Karnataka is a major producer of ragi (seed), coffee (seed), milk (Nandini/KMF), and silk (animal product).",
+    "Understanding food sources builds awareness, gratitude, and reduces food waste."
+  ],
+
+  "mind_map": {
+    "root": "Food: Where Does It Come From?",
+    "branches": [
+      {
+        "branch": "Plant Sources",
+        "sub": ["Root — carrot, radish", "Stem — potato, ginger, sugarcane", "Leaf — spinach, cabbage", "Flower — cauliflower, banana flower", "Fruit — mango, tomato, brinjal", "Seed — rice, wheat, dal, groundnut"]
+      },
+      {
+        "branch": "Animal Sources",
+        "sub": ["Milk — cow, buffalo, goat", "Eggs — hen, duck", "Honey — honey bee (from nectar)", "Meat — fish, chicken, mutton"]
+      },
+      {
+        "branch": "Animal Types by Diet",
+        "sub": ["Herbivore — cow, deer, elephant", "Carnivore — lion, tiger, eagle", "Omnivore — human, dog, crow"]
+      },
+      {
+        "branch": "Karnataka Connections",
+        "sub": ["Ragi — major seed crop of Karnataka", "Nandini/KMF — largest milk cooperative", "Jackfruit — coastal Karnataka fruit", "Karnataka = largest silk producer in India"]
+      },
+      {
+        "branch": "Key Vocabulary",
+        "sub": ["Ingredient", "Edible", "Nectar", "Tuber", "Producer / Photosynthesis"]
+      }
+    ]
+  },
+
+  "revision_notes": "Chapter 1 of Grade 6 Science establishes that all food comes from two sources: plants and animals. Plants provide food from six parts: roots (carrot, radish, beetroot), stems (potato, ginger, sugarcane, onion), leaves (spinach, cabbage, curry leaves), flowers (cauliflower, banana flower, broccoli), fruits (mango, tomato, apple, brinjal), and seeds (rice, wheat, maize, dal, groundnut). Key correction: potato is a stem (tuber), not a root; tomato is a fruit, not a vegetable. Animals provide milk (from cows, buffaloes, goats), eggs (from hens), honey (made by bees from nectar), and meat (fish, chicken, mutton). Animals are classified by diet: herbivores eat only plants (cow, deer, elephant), carnivores eat only meat (lion, tiger, snake), and omnivores eat both (humans, dogs, bears, crows). Humans are biologically omnivores. Honey bees are insects (animals) that make honey from nectar (a plant product), making honey an animal-produced food. Key Karnataka connections: ragi is a major seed crop; KMF-Nandini is a major milk cooperative; Karnataka is India's largest silk producer. Key vocabulary: ingredient, edible, herbivore, carnivore, omnivore, nectar, tuber, photosynthesis, producer.",
+
+  "must_remember_facts": [
+    "All food comes from either plants or animals — these are the only two sources of food.",
+    "Six plant parts used as food: root, stem, leaf, flower, fruit, seed.",
+    "Potato = stem (tuber), NOT a root. Tomato = fruit, NOT a vegetable (scientifically).",
+    "Honey is made by honey bees (animals) from nectar collected from flowers (plants).",
+    "Herbivore = eats only plants. Examples: cow, deer, goat, elephant.",
+    "Carnivore = eats only meat/animals. Examples: lion, tiger, eagle, snake.",
+    "Omnivore = eats both plants and animals. Examples: humans, dogs, bears, crows.",
+    "Humans are biologically classified as omnivores.",
+    "Karnataka is India's largest producer of ragi (seed), silk (from silkworm — animal), and is a major milk producer (Nandini/KMF).",
+    "Nectar is the sweet liquid in flowers; honey bees collect it and convert it into honey in their hive."
   ]
 }

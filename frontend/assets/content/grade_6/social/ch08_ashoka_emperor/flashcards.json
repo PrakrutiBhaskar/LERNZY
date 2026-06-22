@@ -1,96 +1,32 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch08_ashoka_emperor_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science – History",
+  "textbook": "Our Pasts – I",
+  "chapter_number": 8,
+  "chapter_title": "Ashoka, The Emperor Who Gave Up War",
+  "total_cards": 20,
   "cards": [
-    {
-      "id": "fc01",
-      "front": {
-        "en": "What is the core idea of Ashoka, The Emperor Who Gave Up War? (FC1)",
-        "hi": "What is the core idea of Ashoka, The Emperor Who Gave Up War? (FC1)",
-        "kn": "What is the core idea of Ashoka, The Emperor Who Gave Up War? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc02",
-      "front": {
-        "en": "Why is Ashoka, The Emperor Who Gave Up War important? (FC2)",
-        "hi": "Why is Ashoka, The Emperor Who Gave Up War important? (FC2)",
-        "kn": "Why is Ashoka, The Emperor Who Gave Up War important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc03",
-      "front": {
-        "en": "What is the core idea of Ashoka, The Emperor Who Gave Up War? (FC3)",
-        "hi": "What is the core idea of Ashoka, The Emperor Who Gave Up War? (FC3)",
-        "kn": "What is the core idea of Ashoka, The Emperor Who Gave Up War? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc04",
-      "front": {
-        "en": "Why is Ashoka, The Emperor Who Gave Up War important? (FC4)",
-        "hi": "Why is Ashoka, The Emperor Who Gave Up War important? (FC4)",
-        "kn": "Why is Ashoka, The Emperor Who Gave Up War important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc05",
-      "front": {
-        "en": "What is the core idea of Ashoka, The Emperor Who Gave Up War? (FC5)",
-        "hi": "What is the core idea of Ashoka, The Emperor Who Gave Up War? (FC5)",
-        "kn": "What is the core idea of Ashoka, The Emperor Who Gave Up War? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    }
+    { "id": "fc01", "type": "Recall", "difficulty": "Easy", "front": "Who founded the Mauryan Empire? When? What was the capital?", "back": "Chandragupta Maurya founded the Mauryan Empire around 321 BCE after overthrowing the Nanda dynasty. The capital was Pataliputra, located at the confluence of the Ganga and Son rivers in modern Patna, Bihar. It was one of the largest cities in the ancient world.", "memory_hook": "CMP = Chandragupta Makes Pataliputra! 321 BCE — remember: 3-2-1 like a countdown to India's FIRST great empire!" },
+    { "id": "fc02", "type": "Recall", "difficulty": "Easy", "front": "Who was Kautilya? What did he write?", "back": "Kautilya (also called Chanakya or Vishnugupta) was the brilliant minister and chief advisor of Chandragupta Maurya. He helped plan the overthrow of the Nanda dynasty and the founding of the Mauryan Empire. He wrote the Arthashastra — a comprehensive treatise on statecraft, economics, military strategy, diplomacy, and the duties of a king.", "memory_hook": "KAUTILYA = King-maker. ARTHASHASTRA = 'Artha' (wealth/purpose) + 'Shastra' (science/text). The SCIENCE of getting and keeping POWER — India's first political science textbook!" },
+    { "id": "fc03", "type": "Recall", "difficulty": "Easy", "front": "Name the three main Mauryan emperors in order.", "back": "1. Chandragupta Maurya (~321–297 BCE) — founder; defeated Nanda dynasty; built the empire. 2. Bindusara (~297–273 BCE) — son of Chandragupta; expanded the empire southward toward the Deccan. 3. Ashoka (~273–232 BCE) — grandson of Chandragupta; the most famous Mauryan emperor; conquered Kalinga then adopted dhamma.", "memory_hook": "C-B-A = Chandragupta, Bindusara, Ashoka. Like the alphabet going C-B-A (backwards!) — the empire went from small to BIGGEST under A (Ashoka). Reverse alphabetical = increasing greatness!" },
+    { "id": "fc04", "type": "Recall", "difficulty": "Easy", "front": "What was the Kalinga War? When did it happen? What were its consequences?", "back": "The Kalinga War (~261 BCE) was Ashoka's conquest of Kalinga (modern Odisha), the last major independent kingdom outside the Mauryan Empire. Consequences: 100,000+ people killed; 150,000+ deported; countless more died from wounds and disease. Ashoka himself witnessed the destruction and was filled with deep remorse — leading to his transformation and adoption of dhamma.", "memory_hook": "KALINGA = Killing And Loss Informs Now Great Ashoka. The war that DESTROYED a kingdom CREATED the world's greatest moral emperor. Destruction → Reflection → Transformation!" },
+    { "id": "fc05", "type": "Definition", "difficulty": "Easy", "front": "What is Ashoka's 'dhamma'? How does it differ from Buddhism?", "back": "Dhamma was Ashoka's moral code of righteous conduct — the principles by which he governed after the Kalinga War. It included: ahimsa (non-violence), respect for elders and all religions, generosity to the poor, truthfulness, and care for animals. Crucially, dhamma was NOT identical to Buddhism — it was a UNIVERSAL moral code applicable to people of all religions. Ashoka explicitly respected Brahmins, Jains, and other traditions alongside Buddhism.", "memory_hook": "DHAMMA ≠ BUDDHISM. Dhamma = Buddhism's values + ALL religions welcomed. Like a school's code of conduct — it applies to all students regardless of what religion they follow at home!" },
+    { "id": "fc06", "type": "Definition", "difficulty": "Easy", "front": "What are Ashoka's edicts? Where were they carved?", "back": "Ashoka's edicts are official proclamations — his government's messages to the people — carved in stone on large rocks (rock edicts) and tall stone pillars (pillar edicts) throughout the Mauryan Empire. They are written in the Brahmi script. They were placed in locations throughout the empire — from Afghanistan and Pakistan to Karnataka — so that people could read them. They are among India's earliest surviving written records.", "memory_hook": "EDICT = Emperor Declares Instructions Carved In-stone Textually. Rock + Pillar = Ashoka's BILLBOARDS. He carved his government's values on STONE so they would last forever — and they have, for 2,300 years!" },
+    { "id": "fc07", "type": "Recall", "difficulty": "Easy", "front": "Who deciphered Ashoka's Brahmi script? When?", "back": "James Prinsep, a British scholar working in India, deciphered the Brahmi script in 1837. This breakthrough made Ashoka's edicts readable for the first time in about 2,000 years, opening up a vast treasure of ancient Indian history. Brahmi is the ancestor of most modern Indian scripts — including Kannada, Devanagari, Bengali, Tamil, and Telugu scripts.", "memory_hook": "PRINSEP PRINTED the past back to life in 1837! 'PRIN-sep' = PRINting what was SEParated from us for 2,000 years. He gave India back 2 millennia of its own history!" },
+    { "id": "fc08", "type": "Why/How", "difficulty": "Easy", "front": "Why did Ashoka carve his edicts on rocks and pillars rather than writing them on palm leaves?", "back": "Ashoka chose rock and stone for his edicts because: (1) Stone is permanent — palm leaves, cloth, and wood decay over decades; stone lasts millennia. (2) Public visibility — large rocks and tall pillars were visible to passers-by, travellers, and pilgrims without needing to enter a building or library. (3) Imperial authority — the sheer scale of stone carving demonstrated royal power and resources. (4) Wide reach — by placing edicts at important locations throughout the empire, Ashoka communicated his dhamma to the widest possible audience.", "memory_hook": "Stone > Palm leaves because: STONE = Survives Through Ongoing Neglect Eternally. Palm leaf rots; stone endures. Ashoka was history's first 'permanent public communicator'!" },
+    { "id": "fc09", "type": "Concept", "difficulty": "Easy", "front": "How was the Mauryan Empire administered? Describe the hierarchy.", "back": "The Mauryan Empire had a layered administration: (1) Emperor — at the top, ultimate authority; (2) Ministers (Mantris) — advising the emperor; (3) Provincial Governors (usually royal princes called Kumaras) — governing large provinces; (4) District Officers — managing smaller territories; (5) Village Heads — the lowest level of administration. The empire also maintained a large standing army, an extensive spy network (guptacharas), and collected taxes from farmers (1/6 of produce), traders, and craftspeople.", "memory_hook": "Mauryan hierarchy = EMPD-V: Emperor, Ministers, Princes (provincial governors), District officers, Village heads. Like a company: CEO → Directors → Managers → Supervisors → Workers. Ancient India had modern management!" },
+    { "id": "fc10", "type": "Why/How", "difficulty": "Easy", "front": "What did Ashoka do to spread Buddhism and dhamma across Asia?", "back": "Ashoka spread Buddhism and dhamma through multiple means: (1) Edicts — carved on rocks and pillars across the empire in multiple scripts and languages. (2) Missionaries — sent Buddhist missionaries to Sri Lanka, West Asia, Greece, Egypt, and Southeast Asia. (3) His son Mahinda went to Sri Lanka, beginning Buddhism's spread across the island and onwards to Southeast Asia. (4) His daughter Sanghamitra brought the Bodhi tree sapling to Sri Lanka. (5) Built stupas and monasteries throughout the empire. (6) Made pilgrimages to Buddhist holy sites (Lumbini, Bodhgaya, Sarnath).", "memory_hook": "Ashoka spread dharma: EDICTS + MAHINDA + SANGHAMITRA + STUPAS = Buddhism's GLOBAL LAUNCH. Like a modern CEO's communication strategy: written policy + ambassadors + infrastructure!" },
+    { "id": "fc11", "type": "Recall", "difficulty": "Easy", "front": "Name three Karnataka sites associated with the Mauryan Empire or Ashoka.", "back": "1. Brahmagiri (Chitradurga district) — Ashokan minor rock edict; also important megalithic site. 2. Siddapura (Chitradurga district) — Ashokan minor rock edict. 3. Jatinga-Rameshwara (Chitradurga district) — Ashokan minor rock edict. Additional sites: Suvarnaagiri (Koppal district) — Mauryan administrative capital for South India; Sannati (Gulbarga district) — stupa with Ashokan pillar fragments.", "memory_hook": "Karnataka's Ashoka tour: BSJ in Chitradurga (Brahmagiri-Siddapura-Jatinga), plus Suvarnaagiri (Koppal) and Sannati (Gulbarga). BSJ + SK = 'Brilliant Stone Journeys + Sourcing Karnataka's ancient past!'" },
+    { "id": "fc12", "type": "Concept", "difficulty": "Easy", "front": "How is Ashoka's legacy visible in modern India? Give two specific examples.", "back": "1. National Emblem — India's national emblem (used on currency, government documents, and official seals) is the Lion Capital of Ashoka, originally from his pillar at Sarnath. It shows four lions standing back-to-back on a circular base with animals and a dhamma wheel. 2. National Flag — the Ashoka Chakra (the 24-spoked wheel) at the centre of the Indian tricolour is taken from Ashokan pillar art and represents dhamma and perpetual motion/progress.", "memory_hook": "Ashoka's TWO gifts to modern India: LION CAPITAL (emblem) + CHAKRA (flag). Every time you see the Indian flag or a rupee note — you are seeing 2,300-year-old Ashokan art. He literally designed INDIA'S brand!" },
+    { "id": "fc13", "type": "Why/How", "difficulty": "Easy", "front": "How did Chandragupta Maurya deal with the Greek ruler Seleucus Nicator?", "back": "After Alexander the Great's death, his general Seleucus Nicator controlled territories in Afghanistan and northwest India. Around 305 BCE, Chandragupta Maurya fought Seleucus and won. In the peace treaty, Chandragupta received territory in Afghanistan and Pakistan (Bactria, Paropanisadai, Arachosia, and Gedrosia) in exchange for 500 war elephants. A Greek ambassador, Megasthenes, was sent to Chandragupta's court at Pataliputra — and wrote about it in his book Indica, giving us important information about Mauryan India.", "memory_hook": "Chandragupta's deal with Seleucus: TERRITORY for ELEPHANTS. 500 elephants = Afghanistan + Pakistan. Best trade deal in ancient history! Megasthenes came as ambassador and WROTE about it (Indica) — giving us the Greeks' view of ancient India." },
+    { "id": "fc14", "type": "Concept", "difficulty": "Easy", "front": "What did Ashoka do for public welfare? List five specific welfare measures.", "back": "Ashoka's welfare measures: 1. Built hospitals for humans AND animals — the first animal hospitals in recorded history. 2. Planted shade trees along roads to provide rest for travellers. 3. Dug wells along roads for drinking water access. 4. Built rest houses (dharmashalas) for travellers. 5. Built roads connecting the empire — facilitating trade, communication, and military movement. Additional: imported and grew medicinal herbs; made pilgrimages to Buddhist holy sites; personally met common people on tours (dhammayatras).", "memory_hook": "Ashoka's WELFARE FIVE: H-T-W-R-R = Hospitals, Trees (shade), Wells (water), Rest houses, Roads. He treated the WHOLE EMPIRE like a social service department — 2,300 years before modern welfare states!" },
+    { "id": "fc15", "type": "Why/How", "difficulty": "Easy", "front": "Why is Ashoka considered one of the world's greatest rulers in history?", "back": "Ashoka is considered great for unique reasons: (1) He was powerful enough to keep conquering but chose NOT to after seeing the suffering he caused — a rare act of moral courage for a ruler. (2) He governed through principles (dhamma) rather than just force — a new model of governance. (3) His welfare measures (hospitals, roads, wells) improved ordinary people's lives across a vast empire. (4) His edicts are among the earliest democratic public communications — a ruler speaking directly to all his subjects. (5) He spread Buddhism across Asia — shaping the spiritual life of billions. (6) His legacy (national emblem, flag) literally defines modern India.", "memory_hook": "Ashoka = GREAT because he STOPPED being traditionally great (conquering) and became TRULY great (compassionate governance). He flipped the definition of 'great ruler' — and the world remembered him for it!" },
+    { "id": "fc16", "type": "Application", "difficulty": "Easy", "front": "Compare Ashoka's dhamma with the modern Indian Constitution's values.", "back": "Ashoka's dhamma and the Indian Constitution share remarkable similarities: (1) Ahimsa / Non-violence → Constitution guarantees Right to Life; condemns violence. (2) Religious tolerance → Constitution guarantees Freedom of Religion (Article 25); India is a secular state. (3) Respect for all people regardless of birth → Constitution abolishes untouchability (Article 17); guarantees equality (Article 14). (4) Care for the vulnerable → Directive Principles (Part IV) require the state to ensure welfare of all citizens. (5) Non-violence → India is a signatory to international peace treaties. The Constitution's architects (especially Ambedkar, who converted to Buddhism) were consciously drawing on this ancient Indian tradition of moral governance.", "memory_hook": "Ashoka's dhamma (261 BCE) = Constitution's soul (1950 CE). Same values, 2,200 years apart! Ahimsa + Tolerance + Equality = then AND now India's core ideals." },
+    { "id": "fc17", "type": "Application", "difficulty": "Easy", "front": "How did Ashoka use the Brahmi script edicts to govern? Why was this revolutionary?", "back": "Ashoka used edicts to: (1) Communicate his dhamma directly to subjects — without relying on intermediaries like priests or officials who might distort the message. (2) Set legal/moral standards publicly — anyone who could read knew what behaviour was expected. (3) Express his personal beliefs publicly — unprecedented for any ruler. This was revolutionary because: no previous ruler had communicated with subjects on such a large scale in writing; it created a model of transparent, written governance; it demonstrated trust in the public's ability to understand and be persuaded by reason, not just fear.", "memory_hook": "Before Ashoka: rulers gave ORDERS. Ashoka: ruler COMMUNICATES VALUES. He was history's first 'public relations emperor' — using stone billboards to create a moral public sphere across 2 million square km!" },
+    { "id": "fc18", "type": "Why/How", "difficulty": "Easy", "front": "What does the Arthashastra tell us about Mauryan governance?", "back": "Kautilya's Arthashastra is a comprehensive manual on how to run a state. It tells us the Mauryan Empire had: (1) A detailed administrative hierarchy from emperor to village. (2) A vast spy network (guptacharas) — spies embedded in all parts of society to gather intelligence. (3) A sophisticated taxation system — farmers paid 1/6 of produce; traders and craftspeople paid other taxes. (4) A large standing army with four divisions: elephants, chariots, cavalry, infantry. (5) Detailed rules for diplomacy, war, and peace. The Arthashastra shows that Mauryan governance was one of the most sophisticated administrative systems of the ancient world.", "memory_hook": "ARTHASHASTRA = Ancient IAS Manual! It covers: TAXES + SPIES + ARMY + DIPLOMACY = the complete governance toolkit for running ancient India's largest empire. Kautilya wrote the rulebook; Chandragupta implemented it." },
+    { "id": "fc19", "type": "Application", "difficulty": "Easy", "front": "Why did Ashoka's Kalinga edict (13th Rock Edict) shock historians when they first read it?", "back": "Ashoka's 13th Rock Edict is historically remarkable because an emperor PUBLICLY ADMITTED that his military victory caused terrible suffering and expressed deep personal remorse. He wrote that the killing of 100,000 people and the deportation of 150,000 more was 'a matter of profound sorrow and regret' to him. No previous ruler in any civilisation had ever publicly expressed guilt and moral regret over a military conquest. It shocked historians because it is the opposite of how rulers usually commemorate victories — with boasts and celebrations, not expressions of sorrow. The edict is essentially a public apology from a military conqueror to the people he defeated.", "memory_hook": "Normal emperor: 'I WON! 100,000 enemies destroyed! GREAT VICTORY!' Ashoka: 'I won... and 100,000 people died... I am deeply sorry.' The world's FIRST royal apology — carved in stone in Karnataka and across India!" },
+    { "id": "fc20", "type": "Application", "difficulty": "Easy", "front": "How does the story of Ashoka's transformation remain relevant for leaders today?", "back": "Ashoka's transformation is relevant for modern leaders in three ways: (1) Accountability — Ashoka publicly acknowledged the suffering his policies caused. Modern leaders rarely admit mistakes; Ashoka showed that acknowledging error publicly can increase, not decrease, respect. (2) Purpose of power — Ashoka used his power not to accumulate more territory but to improve lives through welfare programmes. The best modern leaders (in business, government, education) are those who measure success by the well-being of the people they lead, not just by metrics of their own power. (3) Long-term legacy — Ashoka's military conquests are forgotten; his dhamma is remembered. The lesson: what you BUILD for people outlasts what you TAKE from them.", "memory_hook": "ASHOKA'S LEADERSHIP LESSON: CONQUER → CREATE → CARE. From Military CONQUEROR to Welfare CREATOR to Legacy of CARE. Every leader today faces the same choice — which will define your legacy?" }
   ]
 }

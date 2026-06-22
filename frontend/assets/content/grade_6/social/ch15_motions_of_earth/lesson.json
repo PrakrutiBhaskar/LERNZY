@@ -1,114 +1,171 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "social",
-  "chapter_id": "ch15_motions_of_earth",
-  "chapter_title": {
-    "en": "Motions of the Earth",
-    "hi": "पृथ्वी की गतियां",
-    "kn": "ಭೂಮಿಯ ಚಲನೆಗಳು"
+  "subject": "Social Science — Geography",
+  "textbook": "Our Environment — Textbook for Class VI",
+  "chapter_number": 15,
+  "chapter_title": "Motions of the Earth",
+  "estimated_study_time_minutes": 50,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Explain Earth's two main motions: rotation and revolution",
+    "Describe the cause and effects of rotation — day and night",
+    "Explain why different longitudes experience sunrise at different times",
+    "Describe Earth's revolution around the Sun and the concept of a year",
+    "Explain the cause of seasons — Earth's axial tilt and revolution",
+    "Define and explain solstices and equinoxes with dates",
+    "Connect seasons to Karnataka's agricultural and cultural calendar"
+  ],
+
+  "prerequisite_knowledge": [
+    "Earth is a sphere (Chapter 13)",
+    "Latitude and longitude (Chapter 14)",
+    "The Sun is the central star of the solar system",
+    "Earth has a North Pole, South Pole, and axis"
+  ],
+
+  "introduction": {
+    "why_important": "Day and night, seasons, monsoons, agricultural cycles, festivals — all are determined by Earth's two motions: rotation and revolution. Understanding these motions explains why Karnataka has hot summers, monsoon rains, and cool winters — and why these patterns repeat predictably every year.",
+    "real_life_relevance": "Every sunrise and sunset is Earth rotating. Every season change is Earth revolving around the Sun at different orbital positions. ISRO plans satellite launches based on Earth's orbital mechanics. Farmers in Karnataka time their sowing based on seasonal shifts caused by Earth's revolution.",
+    "karnataka_context": "Karnataka's agricultural calendar is deeply tied to Earth's motions. The Southwest Monsoon (June–September) arrives as the Earth's Northern Hemisphere tilts towards the Sun — the ITCZ (Inter-Tropical Convergence Zone) shifts northward, drawing moisture-laden winds. Ugadi (Karnataka/Telugu New Year) is celebrated around the Spring Equinox (March equinox) — a direct cultural reflection of Earth's orbital position. Karnataka's harvest festival Sankranti (January 14) coincides with the Sun's apparent northward journey (Uttarayan) after the December solstice. ISRO schedules launches from Sriharikota (13.7°N) to take advantage of Earth's rotational velocity at low latitudes — a direct application of Earth's rotation.",
+    "connection_to_previous_learning": "Chapters 13 and 14 established Earth's place in the solar system and its coordinate grid. Chapter 15 explains the dynamic motions that create the time-based patterns we observe — day/night from rotation, seasons from revolution and axial tilt."
   },
-  "topics": [
+
+  "story_summary": {
+    "characters": [
+      { "name": "Rotation", "role": "Earth spinning on its own axis — causes day and night, time zones, and the apparent movement of the Sun across the sky" },
+      { "name": "Revolution", "role": "Earth orbiting the Sun — causes the year, seasons, solstices, and equinoxes" },
+      { "name": "Earth's Axial Tilt (23.5°)", "role": "The reason seasons exist — if Earth were upright, there would be no seasons, only constant equatorial-like climate everywhere" },
+      { "name": "Summer Solstice", "role": "June 21 — Northern Hemisphere tilted towards Sun; longest day in Northern Hemisphere" },
+      { "name": "Winter Solstice", "role": "December 22 — Northern Hemisphere tilted away from Sun; shortest day in Northern Hemisphere" },
+      { "name": "Equinoxes", "role": "March 21 and September 23 — neither hemisphere tilted towards Sun; equal day and night everywhere" }
+    ],
+    "plot": [
+      "The chapter begins by identifying Earth's two main motions: rotation (spinning on its axis) and revolution (orbiting the Sun).",
+      "Rotation: Earth rotates from west to east (anti-clockwise as viewed from above the North Pole), completing one rotation in 24 hours. This causes day and night — the side facing the Sun has day; the side facing away has night.",
+      "As Earth rotates, the Sun appears to 'rise' in the east and 'set' in the west — but it is Earth moving, not the Sun.",
+      "Revolution: Earth travels around the Sun in a slightly elliptical orbit, completing one revolution in approximately 365.25 days (one year). The extra 0.25 days accumulate into a Leap Year every 4 years.",
+      "Earth's axis is tilted 23.5° from the vertical (from a line perpendicular to its orbital plane). This tilt is constant — always pointing towards the same point in space (near Polaris, the North Star).",
+      "Because of the tilt, different parts of Earth receive more direct sunlight at different times of year — this causes seasons.",
+      "Summer Solstice (June 21): Northern Hemisphere tilted towards Sun. Longest day in Northern Hemisphere. Sun directly overhead at Tropic of Cancer.",
+      "Winter Solstice (December 22): Northern Hemisphere tilted away from Sun. Shortest day in Northern Hemisphere. Sun directly overhead at Tropic of Capricorn.",
+      "Equinoxes (March 21, September 23): Earth's axis not tilted towards or away from Sun. Sun directly overhead at Equator. Equal day (12 hours) and night (12 hours) everywhere on Earth.",
+      "The chapter connects seasons to agricultural cycles, festivals, and climate."
+    ],
+    "moral": "Earth's predictable motions — rotation and revolution — create the rhythms of day, year, and season that all life on Earth depends upon and all human cultures celebrate."
+  },
+
+  "core_concepts": [
     {
-      "topic_id": "social_grade6_ch15_motions_of_earth_basics",
-      "title": {
-        "en": "Motions of the Earth - Fundamentals",
-        "hi": "पृथ्वी की गतियां - बुनियादी बातें",
-        "kn": "ಭೂಮಿಯ ಚಲನೆಗಳು - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Define force as push or pull",
-        "Calculate pressure given force and contact area",
-        "Identify contact and non-contact forces"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Motions of the Earth. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम पृथ्वी की गतियां का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಭೂಮಿಯ ಚಲನೆಗಳು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "A force is a push or pull on an object resulting from its interaction with another object. Pressure is the force applied perpendicular to the surface of an object per unit area (Pressure = Force / Area).",
-        "hi": "बल किसी वस्तु पर लगने वाला खिंचाव या धक्का है॥ दाब प्रति अनुप्रव्थ क्षेत्रफल पर लञाया गया बल है (दाब = बल / क्षेत्रफल)॥",
-        "kn": "ಬಲವು ತಷ್ಳುವಿಕೆ ಅಥವಾ ಎಳೆಯುವಿಕೆಯಾಗಿದೆ. ಒತ್ತಡವು ಪ್ರತಿ ಏರಿಯಾ ಮೇಲಿನ ಬಲವಾಗಿದೆ (ಒತ್ತಡ = ಬಲ / ಏರಿಯಾ)."
-      },
-      "worked_example": {
-        "problem": "Calculate the pressure when a force of 100 N is applied over an area of 2 square meters.",
-        "steps": [
-          {
-            "en": "Step 1: Identify given values: Force (F) = 100 N, Area (A) = 2 m².",
-            "hi": "चरण 1: दिए गए बल (F) = 100 N और क्षेत्रफल (A) = 2 m² को पहचानें॥",
-            "kn": "ಹಂತ 1: ಬಲ (F) = 100 N ಮತ್ತು ಏರಿಯಾ (A) = 2 m² ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Recall the formula: Pressure (P) = Force / Area.",
-            "hi": "चरण 2: सूत्र लागू करें: दाब = बल / क्षेत्रफल॥",
-            "kn": "ಹಂತ 2: ಒತ್ತಡದ ಸೂತ್ರ: ಒತ್ತಡ = ಬಲ / ಏರಿಯಾ."
-          },
-          {
-            "en": "Step 3: Substitute and solve: P = 100 / 2 = 50 N/m² (or Pascals).",
-            "hi": "चरण 3: मान रखकर हल करें: P = 100/2 = 50 Pa॥",
-            "kn": "ಹಂತ 3: ಲೆಕ್ಕವನ್ನು ಪರ಻fವರ್ತಿಸಿ: P = 100 / 2 = 50 Pa."
-          }
-        ],
-        "answer": "50 Pascals"
-      },
-      "key_points": {
-        "en": [
-          "Force can change the state of motion or shape of an object.",
-          "SI unit of force is Newton (N), and pressure is Pascal (Pa).",
-          "Friction is a contact force that opposes motion."
-        ],
-        "hi": [
-          "बल किसी वस्तु की गति या आकार को बदल सकता है॥",
-          "बल का मात्रक न्यूटन (N) है और दाब का पास्कल (Pa) है॥",
-          "चिपक्ता बल गति का विरोध करता है॥"
-        ],
-        "kn": [
-          "ಬಲವು ವಸ್ತುವಿನ ಚಲನೆನ್ನು ಅಥವಾ ಆಕಾರವನ್ನು ಬದಲಿಸಬಹುದು.",
-          "ಬಲದ ಮಾನ ನ್ಯೂಟನ್, ಮತ್ತು ಒತ್ತಡದು ಪ್ರತ್ಯೇಕವಾಗಿ ಪ್ಯಾಸ್ಕಲ್.",
-          "ಘರ್ಷಣೆಯು ಚಲನೆನ್ನು ವಿರೋಧಿಸುವ ಬಲಾಗಿದೆ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Rotation — Cause of Day and Night",
+      "simple_explanation": "Earth spins on its own axis from west to east, completing one rotation every 24 hours. The side facing the Sun has day; the opposite side has night.",
+      "detailed_explanation": "Rotation is Earth's spinning motion on its own axis — an imaginary line connecting the North Pole to the South Pole. Direction: west to east (when viewed from above the North Pole, counterclockwise). Period: one complete rotation = 24 hours = one solar day. Effect — Day and Night: Only one half of Earth can face the Sun at any time. The half facing the Sun experiences day (sunlit); the half facing away experiences night (dark). As Earth rotates, the boundary between day and night (the circle of illumination) sweeps across Earth's surface. Because Earth rotates west to east, the Sun appears to move east to west across the sky — it 'rises' in the east and 'sets' in the west. Other effects of rotation: (1) Time zones — places at different longitudes experience noon at different times. (2) Coriolis effect — Earth's rotation deflects winds and ocean currents (important for monsoon patterns). (3) Tides — combined with the Moon's gravity.",
+      "real_life_example": "Spin a globe slowly — watch how one half is lit (if you put a torch on one side) and the other is dark. As the globe rotates, the lit part moves across different countries. That is day and night. Countries in the East (Japan, India) see the Sun first as Earth rotates eastward — India's sunrise is hours before Europe's.",
+      "karnataka_example": "Sunrise in Karnataka (Bengaluru, ~77.6°E) happens earlier than in western India (Mumbai, ~72.8°E) because Earth rotates eastward — Karnataka faces the Sun first. Bengaluru sunrise is approximately 25 minutes earlier than Mumbai's on a typical day. ISRO's launch site at Sriharikota (13.7°N) benefits from rotation: the eastward rotation of Earth at low latitudes gives rockets an extra velocity 'boost' of ~460 m/s — reducing fuel needed to reach orbit.",
+      "common_mistakes": "Students say the Sun moves — the Sun does NOT move relative to Earth in any significant daily sense. It is EARTH that rotates, making the Sun APPEAR to move. Also, students say Earth rotates east to west because the Sun appears to move that way. It is the opposite: Earth rotates WEST TO EAST, which makes the Sun appear to move east to west.",
+      "memory_tip": "Rotation = spinning Top. 24 hours. West to East (sun appears to go East to West — opposite!). Day and Night. R-O-T: Rotation On its own axis creates Time (day/night). 'Earth turns its back on the Sun every night.'"
+    },
+    {
+      "concept_name": "Revolution — Cause of the Year and Seasons",
+      "simple_explanation": "Earth travels around the Sun in an elliptical orbit, completing one revolution in approximately 365.25 days. Combined with Earth's 23.5° axial tilt, this revolution creates the four seasons.",
+      "detailed_explanation": "Revolution is Earth's orbital motion around the Sun. Orbit shape: slightly elliptical (not a perfect circle) — Earth is slightly closer to the Sun in January (~147 million km) and slightly farther in July (~152 million km). Interestingly, this distance change is NOT the cause of seasons. Period: ~365.25 days = one year. The extra 0.25 accumulates every 4 years into a Leap Year (366 days), where February has 29 days instead of 28. Cause of Seasons — Axial Tilt: Earth's axis is tilted 23.5° from the perpendicular to its orbital plane. This tilt remains constant in direction (pointing towards Polaris). As Earth revolves, the tilt means: in some months the Northern Hemisphere is tilted towards the Sun (summer in the North), and in other months it is tilted away (winter in the North). Seasons in the Southern Hemisphere are opposite to those in the Northern Hemisphere.",
+      "real_life_example": "Hold a tilted pencil (representing Earth's axis) and walk it around a lamp (the Sun) — keep the pencil always pointing in the same direction. Notice how sometimes the top half is closer to/more directly lit by the lamp (Northern Hemisphere summer) and sometimes the bottom half is (Southern Hemisphere summer). This is exactly how seasons work. The tilt stays constant; Earth's position around the Sun changes.",
+      "karnataka_example": "Karnataka experiences four broadly recognisable seasonal shifts driven by Earth's revolution: Hot dry summer (March–May) — Earth moving such that the Sun is increasingly overhead in the Northern Hemisphere. Southwest Monsoon (June–September) — Sun's overhead position draws moisture-laden winds northward. Retreating monsoon/mild (October–November). Cool dry winter (December–February) — Northern Hemisphere tilted away from Sun. Farmers in Karnataka time paddy planting, ragi sowing, and sugarcane cultivation to match these revolution-driven seasons. The entire agricultural calendar (Panchanga) is based on Earth's orbital position.",
+      "common_mistakes": "The most common mistake: students think seasons are caused by Earth's distance from the Sun (closer = summer, farther = winter). This is WRONG — Earth is actually closer to the Sun in January (Northern Hemisphere winter!). Seasons are caused ONLY by the axial tilt. Also, Southern Hemisphere seasons are opposite: when it is summer in India (June–August), it is winter in Australia.",
+      "memory_tip": "Seasons = TILT, NOT distance. The 23.5° tilt is the culprit. Remember: Earth is actually closest to the Sun in January (Northern winter) — so distance cannot be the cause. Tilt makes some places receive more direct, intense rays for longer hours = SUMMER."
+    },
+    {
+      "concept_name": "Solstices",
+      "simple_explanation": "Solstices are the two days in a year when one hemisphere receives maximum (or minimum) daylight. Summer Solstice: June 21 (longest day in Northern Hemisphere). Winter Solstice: December 22 (shortest day in Northern Hemisphere).",
+      "detailed_explanation": "Solstice means 'Sun stands still' in Latin (sol = sun, stice = standing). Summer Solstice in Northern Hemisphere — June 21: Earth's North Pole is tilted most towards the Sun. The Sun is directly overhead at the Tropic of Cancer (23.5°N). The Northern Hemisphere receives the most sunlight — longest day, shortest night. The Southern Hemisphere has its shortest day (winter solstice). Above the Arctic Circle (66.5°N) — 24 hours of daylight. Below the Antarctic Circle (66.5°S) — 24 hours of darkness. Winter Solstice in Northern Hemisphere — December 22: Earth's North Pole is tilted most away from the Sun. The Sun is directly overhead at the Tropic of Capricorn (23.5°S). The Northern Hemisphere receives the least sunlight — shortest day, longest night. The Southern Hemisphere has its longest day (summer solstice). Above the Arctic Circle — 24 hours of darkness. Below the Antarctic Circle — 24 hours of daylight.",
+      "real_life_example": "On June 21 in Bengaluru (~13°N), the day is slightly longer than the night (about 13 hours of daylight). In London (~51°N), it is even more extreme — about 16 hours of daylight. In Oslo, Norway (~60°N), nearly 20 hours. At 70°N, continuous daylight. As you go further north on the Summer Solstice, the day gets longer. This is the midnight sun phenomenon.",
+      "karnataka_example": "Karnataka does not experience dramatic seasonal day length changes (being close to the Equator), but the solstices are culturally significant. Uttarayan (Makar Sankranti, January 14) celebrates the Sun's apparent movement northward after the December solstice — when Karnataka farmers celebrate the harvest and the 'return' of warmth. Dakshinayan (July) marks the Sun's apparent southward movement after the June solstice. These are direct cultural acknowledgements of Earth's orbital position.",
+      "common_mistakes": "Students say India has summer on June 21 because it is the Summer Solstice. Karnataka indeed has hot weather around this time, but technically it is the monsoon season (rain begins in June). The 'summer solstice' term refers specifically to the Northern Hemisphere having its longest day — in India, June 21 is the start of the monsoon, not the hottest day. India's hottest days are in April–May, before the monsoon.",
+      "memory_tip": "June 21 = SuMmer Solstice in Northern Hemisphere (Sun at Cancer). December 22 = WiNter Solstice in Northern Hemisphere (Sun at Capricorn). June → Summer → Cancer (North). December → Winter → Capricorn (South). J-S-C and D-W-C: two rhyming pairs."
+    },
+    {
+      "concept_name": "Equinoxes",
+      "simple_explanation": "Equinoxes are the two days when day and night are equal (12 hours each) everywhere on Earth — March 21 (Spring Equinox) and September 23 (Autumn Equinox).",
+      "detailed_explanation": "Equinox means 'equal night' in Latin (equi = equal, nox = night). On equinoxes, Earth's axis is not tilted towards or away from the Sun — it is perpendicular to the Sun's rays. The Sun is directly overhead at the Equator. The circle of illumination passes through both poles, so both hemispheres receive equal sunlight. Result: 12 hours of day and 12 hours of night everywhere on Earth. Spring (Vernal) Equinox — March 21: In the Northern Hemisphere, this marks the beginning of spring. Days begin to get longer than nights after this date (in Northern Hemisphere). Autumn (Autumnal) Equinox — September 23: In the Northern Hemisphere, this marks the beginning of autumn. Nights begin to get longer than days after this date. For the Southern Hemisphere, these are reversed — March 21 is the start of autumn; September 23 is the start of spring.",
+      "real_life_example": "On March 21 and September 23, everywhere on Earth — from the North Pole region to the equatorial tropics to Antarctica — the day is approximately 12 hours and the night is approximately 12 hours. Schools starting at sunrise would all start at the same local clock time (adjusted for longitude) on these two days.",
+      "karnataka_example": "Ugadi — Karnataka and Andhra Pradesh's New Year — is celebrated in March–April, around the time of the Spring Equinox (March 21). The word 'Ugadi' means 'beginning of a new age/year' in Telugu/Kannada. Historically, the spring equinox marked the renewal of the agricultural year — the equal day and night signalled the time to prepare fields and plan the new crop cycle. This ancient festival is thus a cultural echo of astronomical observation of Earth's orbital position.",
+      "common_mistakes": "Students think equinoxes are only at the Equator. Equinoxes affect the entire Earth — everywhere has 12 hours day and 12 hours night on these dates. Also, students confuse equinox (equal day/night) with solstice (maximum/minimum daylight). Remember: equi-nox = equal night (12+12). Sol-stice = Sun stands still (maximum or minimum).",
+      "memory_tip": "EQUI-nox = EQUAl night. March 21 and September 23. Both hemispheres get exactly 12 hours each. Sun shines directly on the Equator. 'Equal share day.' After March 21, Northern Hemisphere gets more than its share (longer days). After September 23, Northern Hemisphere gets less than its share (shorter days)."
     }
+  ],
+
+  "key_vocabulary": [
+    { "term": "Rotation", "definition": "Earth's spinning on its own axis, completing one rotation every 24 hours; causes day and night" },
+    { "term": "Revolution", "definition": "Earth's orbital motion around the Sun, completing one orbit in approximately 365.25 days; causes the year and seasons" },
+    { "term": "Axis", "definition": "The imaginary line about which Earth rotates, passing through the North and South Poles; tilted 23.5° from the vertical" },
+    { "term": "Axial tilt", "definition": "Earth's axis is inclined at 23.5° from the perpendicular to its orbital plane; this tilt causes the seasons" },
+    { "term": "Leap year", "definition": "A year with 366 days (February has 29 days), occurring every 4 years to account for Earth's revolution taking 365.25 days" },
+    { "term": "Solstice", "definition": "One of two days per year when one hemisphere receives maximum or minimum daylight; June 21 (Summer Solstice) and December 22 (Winter Solstice)" },
+    { "term": "Equinox", "definition": "One of two days per year (March 21 and September 23) when day and night are equal everywhere on Earth" },
+    { "term": "Summer Solstice", "definition": "June 21 — Northern Hemisphere's longest day; Sun directly overhead at Tropic of Cancer" },
+    { "term": "Winter Solstice", "definition": "December 22 — Northern Hemisphere's shortest day; Sun directly overhead at Tropic of Capricorn" },
+    { "term": "Spring Equinox", "definition": "March 21 — Sun directly over Equator; equal day and night; start of spring in Northern Hemisphere" },
+    { "term": "Autumnal Equinox", "definition": "September 23 — Sun directly over Equator; equal day and night; start of autumn in Northern Hemisphere" },
+    { "term": "Circle of illumination", "definition": "The boundary between the lit (day) and dark (night) halves of Earth" },
+    { "term": "Elliptical orbit", "definition": "Earth's slightly oval-shaped path around the Sun — not a perfect circle" }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Rotation",
+      "questions": [
+        { "type": "Recall", "q": "In which direction does Earth rotate?", "a": "Earth rotates from west to east." },
+        { "type": "Understanding", "q": "Why does the Sun appear to rise in the east and set in the west?", "a": "Because Earth rotates from west to east, different parts of Earth face the Sun at different times — places in the east face the Sun first (sunrise), and as Earth continues rotating, the Sun appears to move across the sky from east to west." }
+      ]
+    },
+    {
+      "after_concept": "Solstices and Equinoxes",
+      "questions": [
+        { "type": "Recall", "q": "When is the Summer Solstice in the Northern Hemisphere? What happens on this day?", "a": "June 21. The Northern Hemisphere is tilted most towards the Sun, making it the longest day (most daylight hours) of the year in the Northern Hemisphere. The Sun is directly overhead at the Tropic of Cancer." },
+        { "type": "Recall", "q": "What are the dates of the two equinoxes?", "a": "Spring Equinox: March 21. Autumnal Equinox: September 23. On both dates, day and night are each 12 hours everywhere on Earth." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Earth has two motions: rotation (on its axis, 24 hours) and revolution (around the Sun, 365.25 days).",
+    "Rotation direction: west to east. This makes the Sun appear to move east to west.",
+    "Rotation causes day and night — the half facing Sun = day; the other = night.",
+    "Revolution causes the year. 365.25 days → Leap Year (366 days) every 4 years.",
+    "Earth's axis is tilted 23.5° — this tilt (NOT distance from Sun) causes seasons.",
+    "Summer Solstice: June 21 — longest day in Northern Hemisphere; Sun over Tropic of Cancer.",
+    "Winter Solstice: December 22 — shortest day in Northern Hemisphere; Sun over Tropic of Capricorn.",
+    "Spring Equinox: March 21. Autumnal Equinox: September 23 — equal day and night everywhere.",
+    "When it is summer in the Northern Hemisphere, it is winter in the Southern Hemisphere.",
+    "Karnataka's monsoon seasons and agricultural calendar are tied to Earth's revolution and axial tilt."
+  ],
+
+  "mind_map": {
+    "root": "Motions of the Earth",
+    "branches": [
+      { "branch": "Rotation", "sub": ["West to East", "24 hours = 1 day", "Causes: Day and Night", "Sun appears to move E→W"] },
+      { "branch": "Revolution", "sub": ["Around the Sun", "365.25 days = 1 year", "Slightly elliptical orbit", "Leap year every 4 years"] },
+      { "branch": "Axial Tilt (23.5°)", "sub": ["Constant direction", "Causes seasons", "NOT distance from Sun"] },
+      { "branch": "Solstices", "sub": ["June 21: Summer Solstice (N. Hemisphere longest day)", "December 22: Winter Solstice (N. Hemisphere shortest day)"] },
+      { "branch": "Equinoxes", "sub": ["March 21: Spring Equinox", "September 23: Autumnal Equinox", "Equal day and night everywhere"] },
+      { "branch": "Karnataka Links", "sub": ["Monsoon = tilt + revolution", "Ugadi near Spring Equinox", "Sankranti after Winter Solstice", "ISRO uses rotation speed for launches"] }
+    ]
+  },
+
+  "revision_notes": "Chapter 15 (Geography) covers Earth's two motions. Rotation: Earth spins W→E on its axis, once in 24 hours → causes day and night. Sun appears to move E→W (opposite to Earth's rotation). Revolution: Earth orbits the Sun in 365.25 days (slightly elliptical) → causes year and seasons. Leap year every 4 years (366 days). Seasons caused by 23.5° axial tilt (NOT distance from Sun). Solstices: June 21 = Summer Solstice (N. Hemisphere, Sun at Cancer, longest day); December 22 = Winter Solstice (N. Hemisphere, Sun at Capricorn, shortest day). Equinoxes: March 21 (Spring) and September 23 (Autumn) — equal day and night worldwide, Sun directly over Equator. N and S Hemispheres have opposite seasons. Karnataka: monsoon + seasons tied to revolution/tilt. ISRO uses Earth's rotation speed for efficient launches.",
+
+  "must_remember_facts": [
+    "Rotation: West to East, 24 hours → day and night.",
+    "Revolution: Around Sun, 365.25 days → year and seasons.",
+    "Axial tilt = 23.5° — the ONLY cause of seasons (not distance from Sun).",
+    "Summer Solstice: June 21 → N. Hemisphere longest day; Sun directly over Tropic of Cancer.",
+    "Winter Solstice: December 22 → N. Hemisphere shortest day; Sun directly over Tropic of Capricorn.",
+    "Spring Equinox: March 21. Autumnal Equinox: September 23 → equal day and night.",
+    "Leap Year: every 4 years, 366 days (February has 29 days).",
+    "N. Hemisphere summer = S. Hemisphere winter and vice versa.",
+    "Equinox = Latin for 'equal night'. Solstice = Latin for 'Sun stands still'.",
+    "Ugadi (Karnataka New Year) near Spring Equinox; Sankranti after Winter Solstice."
   ]
 }

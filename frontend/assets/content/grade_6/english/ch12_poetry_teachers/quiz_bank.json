@@ -1,366 +1,273 @@
 {
-  "version": "1.0",
-  "topic_id": "english_grade6_ch12_poetry_teachers_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "English",
+  "textbook": "Honeysuckle",
+  "chapter_number": 12,
+  "chapter_title": "Where Do All the Teachers Go?",
+  "poet": "Peter Dixon",
+  "total_mcqs": 20,
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: Where Do All the Teachers Go? (Q1)",
-        "hi": "What is the primary objective of studying Poetry: Where Do All the Teachers Go? (Q1)",
-        "kn": "What is the primary objective of studying Poetry: Where Do All the Teachers Go? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Who is the poet of 'Where Do All the Teachers Go?'?",
+      "options": [
+        "A) Rabindranath Tagore",
+        "B) E-Yeh-Shure",
+        "C) Peter Dixon",
+        "D) Mary O'Neill"
+      ],
+      "correct_answer": "C) Peter Dixon",
+      "explanation": "The poem 'Where Do All the Teachers Go?' is written by Peter Dixon, a British poet known for humorous and child-friendly poetry. Rabindranath Tagore wrote 'Vocation' (ch11), E-Yeh-Shure wrote 'Beauty' (ch15), and Mary O'Neill wrote 'The Wonderful Words' (ch13)."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: Where Do All the Teachers Go in a text. (Q2)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: Where Do All the Teachers Go in a text. (Q2)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: Where Do All the Teachers Go in a text. (Q2)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "When does the child in the poem wonder where teachers go?",
+      "options": [
+        "A) At eight o'clock in the morning",
+        "B) At four o'clock when school ends",
+        "C) At noon during lunch break",
+        "D) At midnight"
+      ],
+      "correct_answer": "B) At four o'clock when school ends",
+      "explanation": "The poem opens with 'Where do all the teachers go / When it's four o'clock?' — four o'clock is when school ends. The child wonders what happens to teachers once they leave school, unable to imagine them going about ordinary human activities."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: Where Do All the Teachers Go? (Q3)",
-        "hi": "What is the primary objective of studying Poetry: Where Do All the Teachers Go? (Q3)",
-        "kn": "What is the primary objective of studying Poetry: Where Do All the Teachers Go? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "How many stanzas does the poem 'Where Do All the Teachers Go?' have?",
+      "options": [
+        "A) Three",
+        "B) Four",
+        "C) Five",
+        "D) Six"
+      ],
+      "correct_answer": "D) Six",
+      "explanation": "The poem has six stanzas, each with four lines. The first five stanzas consist of rhetorical questions about teachers' lives. The sixth and final stanza shifts to the child's action plan: to follow a teacher home, find out what they do, and write a poem about it."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: Where Do All the Teachers Go in a text. (Q4)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: Where Do All the Teachers Go in a text. (Q4)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: Where Do All the Teachers Go in a text. (Q4)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "What does the child wonder about the teachers' clothing at home?",
+      "options": [
+        "A) Whether they wear suits and ties at home too",
+        "B) Whether they wear pyjamas and old dirty jeans",
+        "C) Whether they wear school uniforms all the time",
+        "D) Whether they wear saris and dhotis"
+      ],
+      "correct_answer": "B) Whether they wear pyjamas and old dirty jeans",
+      "explanation": "The poem asks 'Do they wear pyjamas' (stanza 2) and 'Did they wear old dirty jeans?' (stanza 5). Both questions imagine teachers in casual, informal clothing — a stark contrast to the formal image teachers project in school. The humour comes from this contrast."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: Where Do All the Teachers Go? (Q5)",
-        "hi": "What is the primary objective of studying Poetry: Where Do All the Teachers Go? (Q5)",
-        "kn": "What is the primary objective of studying Poetry: Where Do All the Teachers Go? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "What does 'pinched the chocolate flakes' mean in the poem?",
+      "options": [
+        "A) Crushed the chocolate into powder",
+        "B) Secretly stole the chocolate",
+        "C) Shared the chocolate with friends",
+        "D) Dropped the chocolate by accident"
+      ],
+      "correct_answer": "B) Secretly stole the chocolate",
+      "explanation": "'Pinched' is an informal word meaning to secretly steal something, especially food. The line 'Were they punished in the corner / If they pinched the chocolate flakes?' imagines teachers as former children who may have sneakily taken chocolate and been punished for it — just as students today might be."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: Where Do All the Teachers Go in a text. (Q6)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: Where Do All the Teachers Go in a text. (Q6)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: Where Do All the Teachers Go in a text. (Q6)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "What is the child's plan in the final stanza of the poem?",
+      "options": [
+        "A) To ask the teacher directly where they live",
+        "B) To follow the teacher home, find out what they do, and write a poem about it",
+        "C) To ask the teacher's parents about the teacher's childhood",
+        "D) To draw a picture of the teacher at home and show it to the class"
+      ],
+      "correct_answer": "B) To follow the teacher home, find out what they do, and write a poem about it",
+      "explanation": "The final stanza reads: 'I'll follow one back home today / I'll find out what they do / Then I'll put it in a poem / That they can read to you.' The child plans a three-step mission: follow, discover, and write. This ending transforms the child's curiosity into a creative act."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: Where Do All the Teachers Go? (Q7)",
-        "hi": "What is the primary objective of studying Poetry: Where Do All the Teachers Go? (Q7)",
-        "kn": "What is the primary objective of studying Poetry: Where Do All the Teachers Go? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "What does the child ask about teachers' television habits?",
+      "options": [
+        "A) Do they watch the news every evening?",
+        "B) Do they watch TV?",
+        "C) Do they have a television set at all?",
+        "D) Do they prefer reading to watching TV?"
+      ],
+      "correct_answer": "B) Do they watch TV?",
+      "explanation": "In the second stanza, the child asks 'Do they wear pyjamas / And do they watch TV?' The question is part of a list of ordinary domestic activities the child wonders if teachers do. Watching television represents a casual, relaxed activity — the opposite of the serious, formal image teachers project in school."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: Where Do All the Teachers Go in a text. (Q8)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: Where Do All the Teachers Go in a text. (Q8)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: Where Do All the Teachers Go in a text. (Q8)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "What is the rhyme scheme of each stanza in this poem?",
+      "options": [
+        "A) AABB",
+        "B) ABAB",
+        "C) ABCB",
+        "D) ABBA"
+      ],
+      "correct_answer": "C) ABCB",
+      "explanation": "Each stanza follows an ABCB rhyme scheme — the second and fourth lines rhyme, while the first and third do not need to. For example: 'When it's four o'clock (B) / Do they live in houses (C) / And do they wash their socks? (B)' — 'clock' and 'socks' rhyme. This pattern gives the poem its bouncy, playful rhythm."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: Where Do All the Teachers Go? (Q9)",
-        "hi": "What is the primary objective of studying Poetry: Where Do All the Teachers Go? (Q9)",
-        "kn": "What is the primary objective of studying Poetry: Where Do All the Teachers Go? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "What does 'Did they ever leave their greens?' mean?",
+      "options": [
+        "A) Did teachers ever leave their green pens behind?",
+        "B) Did teachers, as children, leave their vegetables uneaten?",
+        "C) Did teachers ever leave their garden unattended?",
+        "D) Did teachers ever leave school early?"
+      ],
+      "correct_answer": "B) Did teachers, as children, leave their vegetables uneaten?",
+      "explanation": "'Greens' refers to green vegetables such as spinach, beans, or peas. 'Leaving their greens' means refusing to finish their vegetables — a very common childhood behaviour. The child imagines that teachers, as children, may have disliked vegetables just as much as students today do."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: Where Do All the Teachers Go in a text. (Q10)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: Where Do All the Teachers Go in a text. (Q10)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: Where Do All the Teachers Go in a text. (Q10)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "What type of questions make up most of the poem?",
+      "options": [
+        "A) Direct questions expecting yes/no answers",
+        "B) Rhetorical questions expressing curiosity and wonder",
+        "C) Mathematical questions about numbers",
+        "D) Questions directed at the teacher personally"
+      ],
+      "correct_answer": "B) Rhetorical questions expressing curiosity and wonder",
+      "explanation": "Almost the entire poem consists of rhetorical questions — questions asked for effect, to express curiosity and wonder, not to get literal answers. The child is not actually expecting the teacher to answer 'Do you wash your socks?' The questions express the child's amazement at the idea that teachers might be ordinary humans."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "What is the central theme of the poem 'Where Do All the Teachers Go?'?",
+      "options": [
+        "A) Teachers are lazy and do nothing after school",
+        "B) Children see teachers as extraordinary, and the poem reveals that teachers are ordinary human beings",
+        "C) School should start earlier so students see more of their teachers",
+        "D) Teachers should share their personal lives more openly with students"
+      ],
+      "correct_answer": "B) Children see teachers as extraordinary, and the poem reveals that teachers are ordinary human beings",
+      "explanation": "The central theme is children's tendency to elevate teachers to a superhuman status — unable to imagine them doing ordinary things. The poem gently corrects this through humorous questions that reveal the teacher's ordinary humanity. Option A is incorrect (the poem does not criticise teachers), Option C is not mentioned, and Option D goes beyond the poem's scope."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "Why does the child ask 'Were they ever children and were they ever bad?'",
+      "options": [
+        "A) To insult the teachers by implying they were naughty",
+        "B) To find common ground — to discover that teachers were once imperfect children like themselves",
+        "C) To prove that teachers have no right to punish students",
+        "D) Because the child overheard a story about a teacher's bad childhood"
+      ],
+      "correct_answer": "B) To find common ground — to discover that teachers were once imperfect children like themselves",
+      "explanation": "The child asks this to bridge the gap between the teacher's perfect, authoritative image and the child's own imperfect reality. If teachers were once children who made mistakes and got into trouble, then the teacher and student share a common humanity. This is an act of empathy — searching for shared experience. It is not meant as an insult (Option A) and has nothing to do with rights (Option C) or overheard stories (Option D)."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "Which stanza contains the child's action plan?",
+      "options": [
+        "A) Stanza 1",
+        "B) Stanza 3",
+        "C) Stanza 5",
+        "D) Stanza 6"
+      ],
+      "correct_answer": "D) Stanza 6",
+      "explanation": "The sixth and final stanza contains the child's action plan: 'I'll follow one back home today / I'll find out what they do / Then I'll put it in a poem / That they can read to you.' All previous stanzas (1-5) are questions. The final stanza shifts to resolution — the child decides to investigate and write about it."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "What is a 'hymn book', and why does the child ask if teachers ever lost theirs?",
+      "options": [
+        "A) A textbook — teachers often forget their textbooks at school",
+        "B) A book of religious songs used in school assemblies — children frequently lose theirs, and the child wonders if teachers did too",
+        "C) A book of nursery rhymes — the child wonders if teachers read rhymes at home",
+        "D) A notebook for writing hymns — the child thinks teachers make their own hymn books"
+      ],
+      "correct_answer": "B) A book of religious songs used in school assemblies — children frequently lose theirs, and the child wonders if teachers did too",
+      "explanation": "A hymn book contains religious songs used in school assemblies or church. Students often lose or forget their hymn books, and the child wonders if teachers — as children — also lost theirs. This is one of many questions that humanises the teacher by imagining them as a former child with the same forgetful habits students have today."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "What does the tone of the poem 'Where Do All the Teachers Go?' best describe?",
+      "options": [
+        "A) Angry and critical of teachers",
+        "B) Sad and nostalgic about lost childhood",
+        "C) Warm, humorous, and affectionately curious",
+        "D) Formal and academic"
+      ],
+      "correct_answer": "C) Warm, humorous, and affectionately curious",
+      "explanation": "The poem's tone is warm and funny — the child is not angry at teachers or trying to expose them. The questions are playful and affectionate, showing genuine curiosity rather than mockery. The final stanza, where the child plans to share the poem with the teacher, confirms the warm, connecting intent of the poem. It is neither sad (Option B) nor formal (Option D)."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Why does the poet Peter Dixon choose funny, domestic details (socks, pyjamas, picking noses) rather than grand or serious questions?",
+      "options": [
+        "A) Because he wanted to write a silly poem with no deeper meaning",
+        "B) Because funny, everyday details are what children actually wonder about — and they humanise the teacher more effectively than grand questions would",
+        "C) Because Peter Dixon disliked teachers and wanted to embarrass them",
+        "D) Because the poem was written for very young children who only understand simple things"
+      ],
+      "correct_answer": "B) Because funny, everyday details are what children actually wonder about — and they humanise the teacher more effectively than grand questions would",
+      "explanation": "Dixon chooses domestic, funny details deliberately. Grand questions about teachers' philosophies or careers would be abstract. But asking 'Do they wash their socks?' is immediately relatable and funny — and it humanises the teacher by placing them in the most ordinary domestic setting. The depth of the poem comes through the simplicity of these images, not despite it."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Hard",
+      "question": "The final line of the poem reads 'That they can read to you.' Who is 'they' and who is 'you' in this line?",
+      "options": [
+        "A) 'They' = the child's parents; 'you' = the teacher",
+        "B) 'They' = the teachers; 'you' = the students in the class",
+        "C) 'They' = the child's friends; 'you' = the school principal",
+        "D) 'They' = the poem's characters; 'you' = the poet Peter Dixon"
+      ],
+      "correct_answer": "B) 'They' = the teachers; 'you' = the students in the class",
+      "explanation": "In the final stanza, 'they' refers to the teachers — the child plans to write a poem that the teachers can read aloud to 'you', meaning the child's classmates or students. This creates a lovely loop: the child investigates the teacher, writes a poem about what they find, and the teacher reads it back to the class. The poem in our hands is Peter Dixon's version of exactly this!"
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Hard",
+      "question": "Which of the following best describes the poem's deeper message about the teacher-student relationship?",
+      "options": [
+        "A) Students should be allowed to follow teachers home to understand them better",
+        "B) Teachers and students are fundamentally different and should not mix",
+        "C) Empathy grows when we try to imagine the full humanity of the people around us — including those in authority",
+        "D) Teachers should share their personal lives in class to build better relationships"
+      ],
+      "correct_answer": "C) Empathy grows when we try to imagine the full humanity of the people around us — including those in authority",
+      "explanation": "The poem's deepest message is about empathy. By imagining the teacher as a person who washes socks, watches TV, was once a child, and made mistakes, the child is developing empathy — the ability to see another person's full humanity. This is the poem's gift: it teaches children to humanise those they have placed on a pedestal, which is the foundation of true respect and understanding."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Hard",
+      "question": "In what way is the ending of the poem 'meta' or self-referential?",
+      "options": [
+        "A) The child mentions that they have already written the poem",
+        "B) The poem we are reading is itself the poem the child planned to write — Peter Dixon fulfilled the child's plan",
+        "C) The teacher in the poem reads a poem written by a student",
+        "D) The poet appears as a character in the final stanza"
+      ],
+      "correct_answer": "B) The poem we are reading is itself the poem the child planned to write — Peter Dixon fulfilled the child's plan",
+      "explanation": "The ending is meta because the child says 'I'll put it in a poem that they can read to you' — and the poem we are reading IS that poem. Peter Dixon wrote the poem the child describes, from the child's perspective, making the reader (and the teacher reading it aloud) the very 'you' in the final line. This creates a delightful, self-referential loop that makes the poem even richer on reflection."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Hard",
+      "question": "How does 'Where Do All the Teachers Go?' differ from a typical admiring poem about teachers written by students?",
+      "options": [
+        "A) It is written by a teacher, not a student",
+        "B) Instead of directly praising teachers, it humanises them through funny questions — making the admiration deeper and more authentic",
+        "C) It criticises teachers for not spending time with students after school",
+        "D) It argues that teachers are not as important as other professions"
+      ],
+      "correct_answer": "B) Instead of directly praising teachers, it humanises them through funny questions — making the admiration deeper and more authentic",
+      "explanation": "A typical student poem about teachers might say 'Teachers are great, they teach us every day'. This poem does something more interesting: it humanises teachers by imagining them in silly, ordinary situations — which paradoxically makes the reader respect and appreciate them more. True admiration comes from seeing someone as fully human, not from placing them on an untouchable pedestal. Dixon's approach is subtler and ultimately more powerful."
     }
   ]
 }

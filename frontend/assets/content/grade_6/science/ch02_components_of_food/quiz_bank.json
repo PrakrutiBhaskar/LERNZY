@@ -1,366 +1,222 @@
 {
-  "version": "1.0",
-  "topic_id": "science_grade6_ch02_components_of_food_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 2,
+  "chapter_title": "Components of Food",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Components of Food? (Q1)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Components of Food? (Q1)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Components of Food? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Which nutrient is the primary source of energy for the human body?",
+      "options": ["A) Protein", "B) Fat", "C) Carbohydrate", "D) Vitamin"],
+      "correct_answer": "C) Carbohydrate",
+      "explanation": "Carbohydrates are the body's primary and quickest energy source. They are broken down into glucose, which fuels all body cells. While fats also provide energy, they are used as a reserve — carbohydrates are always burned first. Proteins and vitamins do not primarily provide energy."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Components of Food experiment? (Q2)",
-        "hi": "What is the standard tool used to measure changes in a Components of Food experiment? (Q2)",
-        "kn": "What is the standard tool used to measure changes in a Components of Food experiment? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "Which of the following foods is the richest source of protein?",
+      "options": ["A) Rice", "B) Potato", "C) Sugar", "D) Dal (lentils)"],
+      "correct_answer": "D) Dal (lentils)",
+      "explanation": "Dal (lentils) is a rich source of plant protein. Rice and potato are primarily carbohydrate sources. Sugar is pure carbohydrate with no protein. Dal, along with eggs, milk, meat, and soya bean, are the main protein-rich foods recommended for growth and repair."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Components of Food? (Q3)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Components of Food? (Q3)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Components of Food? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "When iodine solution is added to a food sample containing starch, what colour does it turn?",
+      "options": ["A) Red", "B) Yellow", "C) Blue-black", "D) Green"],
+      "correct_answer": "C) Blue-black",
+      "explanation": "The iodine test for starch produces a blue-black colour when starch is present. This is a positive result. If no starch is present, iodine remains its original orange-brown colour (negative result). This test works because iodine molecules fit into the spiral structure of starch molecules, causing the colour change."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Components of Food experiment? (Q4)",
-        "hi": "What is the standard tool used to measure changes in a Components of Food experiment? (Q4)",
-        "kn": "What is the standard tool used to measure changes in a Components of Food experiment? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "The paper test is used to detect which nutrient in food?",
+      "options": ["A) Starch", "B) Protein", "C) Fat", "D) Vitamin C"],
+      "correct_answer": "C) Fat",
+      "explanation": "The paper test detects fat. When a food containing fat is rubbed on plain paper, it leaves a translucent (greasy, see-through) patch that does not dry away. The iodine test detects starch, and the biuret test detects protein. There is no simple paper test for vitamins."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Components of Food? (Q5)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Components of Food? (Q5)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Components of Food? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "Deficiency of which vitamin causes night blindness?",
+      "options": ["A) Vitamin B", "B) Vitamin A", "C) Vitamin C", "D) Vitamin D"],
+      "correct_answer": "B) Vitamin A",
+      "explanation": "Night blindness — the inability to see clearly in dim light — is caused by Vitamin A deficiency. Vitamin A is needed to produce rhodopsin, a pigment in the eyes that helps with low-light vision. Rich sources of Vitamin A include carrot, pumpkin, dark leafy greens, eggs, and milk."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Components of Food experiment? (Q6)",
-        "hi": "What is the standard tool used to measure changes in a Components of Food experiment? (Q6)",
-        "kn": "What is the standard tool used to measure changes in a Components of Food experiment? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "Which deficiency disease causes bleeding gums and slow wound healing?",
+      "options": ["A) Rickets", "B) Anaemia", "C) Scurvy", "D) Goitre"],
+      "correct_answer": "C) Scurvy",
+      "explanation": "Scurvy is caused by Vitamin C deficiency. Vitamin C is essential for making collagen — a protein that holds skin, gums, and blood vessels together. Without it, gums bleed, wounds heal slowly, and blood vessels become fragile. Vitamin C is found in citrus fruits, guava, amla, and tomatoes."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Components of Food? (Q7)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Components of Food? (Q7)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Components of Food? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "Which mineral is essential for the formation of haemoglobin in blood?",
+      "options": ["A) Calcium", "B) Iodine", "C) Sodium", "D) Iron"],
+      "correct_answer": "D) Iron",
+      "explanation": "Iron is essential for making haemoglobin — the protein in red blood cells that carries oxygen. Iron deficiency causes anaemia, characterised by fatigue, pale skin, and breathlessness. Iron-rich foods include leafy greens (spinach), dal, meat, eggs, and iron-fortified foods."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Components of Food experiment? (Q8)",
-        "hi": "What is the standard tool used to measure changes in a Components of Food experiment? (Q8)",
-        "kn": "What is the standard tool used to measure changes in a Components of Food experiment? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "What is roughage (dietary fibre) and what is its main function?",
+      "options": [
+        "A) A nutrient that provides energy; it fuels the muscles",
+        "B) The indigestible plant material that aids digestion and prevents constipation",
+        "C) A type of fat that insulates the body",
+        "D) A mineral that strengthens bones"
+      ],
+      "correct_answer": "B) The indigestible plant material that aids digestion and prevents constipation",
+      "explanation": "Roughage (dietary fibre) is the indigestible portion of plant food — mostly cellulose. The body cannot digest it, but it adds bulk to food, helps move food through the intestines, prevents constipation, and supports healthy gut bacteria. Found in whole grains, vegetables, and fruits."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Components of Food? (Q9)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Components of Food? (Q9)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Components of Food? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "Rickets is caused by the deficiency of which vitamin?",
+      "options": ["A) Vitamin A", "B) Vitamin B", "C) Vitamin C", "D) Vitamin D"],
+      "correct_answer": "D) Vitamin D",
+      "explanation": "Rickets is caused by Vitamin D deficiency in children. Vitamin D is needed for calcium absorption; without it, bones remain soft and bend under body weight, causing bow legs or knock knees. Vitamin D is produced by skin on sunlight exposure and is also found in fish, eggs, and milk."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Components of Food experiment? (Q10)",
-        "hi": "What is the standard tool used to measure changes in a Components of Food experiment? (Q10)",
-        "kn": "What is the standard tool used to measure changes in a Components of Food experiment? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "Iodine deficiency causes which disease?",
+      "options": ["A) Anaemia", "B) Rickets", "C) Goitre", "D) Scurvy"],
+      "correct_answer": "C) Goitre",
+      "explanation": "Iodine deficiency causes goitre — a condition where the thyroid gland in the neck enlarges and forms a visible swelling. Iodine is needed to produce thyroid hormones that regulate metabolism. Goitre is prevented by using iodised salt, which is now mandatory in India."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "A student rubs a piece of groundnut on paper and holds it to the light. The paper shows a translucent patch that does not dry. What does this indicate?",
+      "options": [
+        "A) Groundnut contains starch",
+        "B) Groundnut contains protein",
+        "C) Groundnut contains fat",
+        "D) Groundnut contains Vitamin C"
+      ],
+      "correct_answer": "C) Groundnut contains fat",
+      "explanation": "The translucent (greasy, see-through) patch that remains on paper after rubbing is the result of the fat test. Fat leaves a permanent translucent mark because it does not evaporate like water. Groundnut is indeed a rich source of fat (as well as protein), confirmed by this positive paper test result."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "Which of the following is a correct statement about a balanced diet?",
+      "options": [
+        "A) A balanced diet means eating equal amounts of all foods",
+        "B) Eating only fruits and vegetables constitutes a balanced diet",
+        "C) A balanced diet contains all nutrients in the right proportions for a person's needs",
+        "D) A balanced diet means eating only natural, unprocessed foods"
+      ],
+      "correct_answer": "C) A balanced diet contains all nutrients in the right proportions for a person's needs",
+      "explanation": "A balanced diet is defined as one containing all essential nutrients (carbohydrates, proteins, fats, vitamins, minerals, water, roughage) in proportions appropriate to the person's age, sex, and activity. It does not mean equal amounts of all foods — the proportions vary. Option B excludes essential protein sources like dal and milk."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "What is the difference between kwashiorkor and marasmus?",
+      "options": [
+        "A) Kwashiorkor is caused by fat deficiency; marasmus is caused by vitamin deficiency",
+        "B) Kwashiorkor involves swollen belly from protein deficiency; marasmus involves severe wasting from protein and calorie deficiency",
+        "C) Kwashiorkor affects adults; marasmus affects children",
+        "D) Both are the same disease — just different names for protein deficiency"
+      ],
+      "correct_answer": "B) Kwashiorkor involves swollen belly from protein deficiency; marasmus involves severe wasting from protein and calorie deficiency",
+      "explanation": "Both are protein deficiency diseases in children but differ in presentation. Kwashiorkor: the child may get enough calories but not enough protein — result is a swollen belly (oedema), thin limbs. Marasmus: severe deficiency of both protein AND calories (overall starvation) — result is extreme wasting, visible ribs, no body fat or muscle."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "Why does the body need fat even if it is not physically active?",
+      "options": [
+        "A) Fat is only needed for energy during exercise",
+        "B) Fat insulates the body, protects organs, and helps absorb fat-soluble vitamins A, D, E, and K",
+        "C) Fat is only needed by overweight people as a reserve",
+        "D) Fat is not needed at all — it is always harmful"
+      ],
+      "correct_answer": "B) Fat insulates the body, protects organs, and helps absorb fat-soluble vitamins A, D, E, and K",
+      "explanation": "Fat has multiple essential functions beyond energy provision: it insulates the body against cold, cushions and protects vital organs, forms part of every cell membrane, and is essential for absorbing the fat-soluble vitamins (A, D, E, K). Without dietary fat, even if you eat plenty of Vitamin A-rich foods, your body cannot absorb Vitamin A properly."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "A child in Karnataka is diagnosed with anaemia. Which food changes would you recommend?",
+      "options": [
+        "A) More rice and potato to increase carbohydrate intake",
+        "B) More iron-rich foods like spinach, dal, eggs, and jaggery",
+        "C) More milk and curd to increase calcium intake",
+        "D) More fruits to increase Vitamin C and reduce anaemia"
+      ],
+      "correct_answer": "B) More iron-rich foods like spinach, dal, eggs, and jaggery",
+      "explanation": "Anaemia is caused by iron deficiency — insufficient iron to make haemoglobin in red blood cells. The correct recommendation is iron-rich foods: dark leafy greens (spinach, methi), dal, eggs, jaggery (bella), and meat. Vitamin C (from fruits) also helps iron absorption. Calcium-rich foods (milk) do not address iron deficiency anaemia."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Iodised salt was made mandatory in India primarily to prevent which condition?",
+      "options": ["A) Anaemia", "B) Night blindness", "C) Goitre", "D) Rickets"],
+      "correct_answer": "C) Goitre",
+      "explanation": "Iodised salt — common table salt with iodine added — was made mandatory in India to prevent iodine deficiency, which causes goitre (enlargement of the thyroid gland). Iodine is not naturally present in sufficient amounts in most Indian soils and diets, making fortification of salt the most practical and widespread intervention."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "A student adds iodine solution to rice and to sugar. Which result is correct?",
+      "options": [
+        "A) Rice turns orange-brown; sugar turns blue-black",
+        "B) Rice turns blue-black; sugar remains orange-brown",
+        "C) Both turn blue-black because both are carbohydrates",
+        "D) Neither changes colour because they are both white foods"
+      ],
+      "correct_answer": "B) Rice turns blue-black; sugar remains orange-brown",
+      "explanation": "The iodine test detects starch, not all carbohydrates. Rice contains starch → iodine turns blue-black (positive). Sugar is sucrose — a simple carbohydrate with a different molecular structure that does not react with iodine → iodine remains orange-brown (negative). Both are carbohydrates, but only starch gives a positive iodine test."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "Which combination of foods forms a nutritionally balanced meal?",
+      "options": [
+        "A) Rice, potato, and bread (three carbohydrate sources)",
+        "B) Egg, chicken, and dal (three protein sources)",
+        "C) Rice (carbohydrate) + dal (protein) + vegetable sabzi (vitamins/minerals) + ghee (fat)",
+        "D) Milk, curd, and butter (three dairy products)"
+      ],
+      "correct_answer": "C) Rice (carbohydrate) + dal (protein) + vegetable sabzi (vitamins/minerals) + ghee (fat)",
+      "explanation": "A balanced meal requires different nutrient groups represented. Option C covers carbohydrates (rice), protein (dal), vitamins and minerals (vegetable sabzi), and fat (ghee) — a near-complete nutrient profile. Options A, B, and D all repeat the same nutrient group multiple times without covering others."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "A student argues that since fats provide more energy per gram than carbohydrates, we should eat more fat than carbohydrate for better energy. What is wrong with this argument?",
+      "options": [
+        "A) Nothing — fats are actually the best energy source and should dominate the diet",
+        "B) While fats are more energy-dense, the body processes carbohydrates more efficiently for immediate energy, and excess fat intake leads to health problems",
+        "C) Fats provide no energy — only carbohydrates provide energy to the body",
+        "D) The argument is correct but only applies to athletes and physically active people"
+      ],
+      "correct_answer": "B) While fats are more energy-dense, the body processes carbohydrates more efficiently for immediate energy, and excess fat intake leads to health problems",
+      "explanation": "Fats are energy-dense (9 kcal/g vs 4 kcal/g for carbs) but this does not mean we should eat more fat. The body preferentially burns carbohydrates for quick energy — fats are harder to metabolise quickly. Excess fat intake leads to obesity, cardiovascular disease, and other health problems. A balanced diet uses carbohydrates as the primary fuel and fat as a moderate, essential supplement."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "Why does Vitamin D deficiency cause calcium-related problems (like rickets) even when a child drinks plenty of milk?",
+      "options": [
+        "A) Milk does not actually contain calcium",
+        "B) Vitamin D is needed for the intestines to absorb calcium from food — without it, calcium passes out of the body unused",
+        "C) Rickets is caused by lack of calcium, not Vitamin D",
+        "D) Drinking too much milk cancels out the effect of Vitamin D"
+      ],
+      "correct_answer": "B) Vitamin D is needed for the intestines to absorb calcium from food — without it, calcium passes out of the body unused",
+      "explanation": "This is a critical concept: Vitamin D acts as a facilitator (helper) for calcium absorption in the small intestine. Without Vitamin D, calcium from food (including milk) cannot be properly absorbed into the bloodstream and instead passes out of the body unused. So even if the child drinks plenty of calcium-rich milk, the bones remain weak without Vitamin D. This is why sunshine (which produces Vitamin D in skin) and Vitamin D-rich foods are essential alongside calcium-rich foods."
     }
   ]
 }

@@ -1,366 +1,247 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch28_rural_livelihoods_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science",
+  "textbook": "Social and Political Life — Part I (Civics)",
+  "chapter_number": 28,
+  "chapter_title": "Rural Livelihoods",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Livelihoods? (Q1)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Livelihoods? (Q1)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Livelihoods? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Which of the following best defines a 'livelihood'?",
+      "options": [
+        "A) The number of people living in a household",
+        "B) The means by which a person earns income and meets basic needs",
+        "C) The government scheme that provides free food to rural households",
+        "D) The amount of land owned by a farming family"
+      ],
+      "correct_answer": "B) The means by which a person earns income and meets basic needs",
+      "explanation": "A livelihood refers to the means — farming, craft-making, fishing, trade, or services — through which a person earns their income and meets their basic needs for food, shelter, and clothing. Rural India has a wide diversity of livelihoods beyond just agriculture."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Rural Livelihoods in a community? (Q2)",
-        "hi": "Who or what body regulates the civic issues related to Rural Livelihoods in a community? (Q2)",
-        "kn": "Who or what body regulates the civic issues related to Rural Livelihoods in a community? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "An agricultural labourer differs from a small farmer primarily because:",
+      "options": [
+        "A) The agricultural labourer grows more crops",
+        "B) The agricultural labourer owns no land and earns daily wages working on others' fields",
+        "C) The agricultural labourer pays rent to the government",
+        "D) The agricultural labourer only works during the rainy season"
+      ],
+      "correct_answer": "B) The agricultural labourer owns no land and earns daily wages working on others' fields",
+      "explanation": "The key distinction is land ownership. A small farmer owns a small plot of land (however tiny) and farms it. An agricultural labourer owns no land at all and earns daily wages by working on others' fields during sowing, weeding, and harvesting seasons. Agricultural labourers are the most economically vulnerable group in rural India."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Livelihoods? (Q3)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Livelihoods? (Q3)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Livelihoods? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "What is subsistence farming?",
+      "options": [
+        "A) Farming done by large landowners who sell all their produce in the market",
+        "B) Farming primarily to produce food for the family's own consumption with little surplus to sell",
+        "C) Farming that uses government subsidised seeds and fertiliser",
+        "D) Farming done entirely by hired agricultural labourers"
+      ],
+      "correct_answer": "B) Farming primarily to produce food for the family's own consumption with little surplus to sell",
+      "explanation": "Subsistence farming means farming to survive — producing just enough for the family to eat, with little or nothing left over to sell. Most small and marginal farmers in India practise subsistence farming. They farm to eat, not to profit. This provides food security but does not generate cash income for education, healthcare, or other needs."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Rural Livelihoods in a community? (Q4)",
-        "hi": "Who or what body regulates the civic issues related to Rural Livelihoods in a community? (Q4)",
-        "kn": "Who or what body regulates the civic issues related to Rural Livelihoods in a community? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "MGNREGA guarantees rural households how many days of employment per year?",
+      "options": ["A) 50 days", "B) 75 days", "C) 100 days", "D) 200 days"],
+      "correct_answer": "C) 100 days",
+      "explanation": "MGNREGA (Mahatma Gandhi National Rural Employment Guarantee Act) guarantees 100 days of wage employment per year to every rural household that demands work. This is especially important for agricultural labourers and small farmers during lean agricultural seasons when farm work is unavailable."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Livelihoods? (Q5)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Livelihoods? (Q5)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Livelihoods? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "A tenant farmer in Karnataka pays half his crop yield as rent to the landowner each year. This arrangement is called:",
+      "options": ["A) Subsistence farming", "B) MGNREGA", "C) Sharecropping", "D) Minimum Support Price"],
+      "correct_answer": "C) Sharecropping",
+      "explanation": "Sharecropping is the arrangement where a tenant farmer pays rent as a share (proportion) of the crop they produce — typically 50%. The tenant farms the land but gives half (or another agreed portion) to the landowner. This is a common form of tenancy in rural India that leaves tenant farmers with limited income and no land security."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Rural Livelihoods in a community? (Q6)",
-        "hi": "Who or what body regulates the civic issues related to Rural Livelihoods in a community? (Q6)",
-        "kn": "Who or what body regulates the civic issues related to Rural Livelihoods in a community? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "Which of the following is a non-farm rural livelihood?",
+      "options": ["A) Growing rice on a small plot", "B) Renting land to grow sugarcane", "C) Weaving handloom sarees as a traditional craft", "D) Working as an agricultural labourer during harvest"],
+      "correct_answer": "C) Weaving handloom sarees as a traditional craft",
+      "explanation": "Weaving handloom sarees is an artisan craft — a non-farm livelihood. Growing rice, renting land for sugarcane, and agricultural labour are all farm-related livelihoods. Non-farm rural livelihoods include artisan crafts, fishing, livestock rearing, shopkeeping, and providing services like teaching or healthcare."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Livelihoods? (Q7)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Livelihoods? (Q7)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Livelihoods? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "Karnataka is India's largest producer of which agricultural product that represents an important rural livelihood in its malnad region?",
+      "options": ["A) Wheat", "B) Coffee", "C) Cotton", "D) Sugarcane"],
+      "correct_answer": "B) Coffee",
+      "explanation": "Karnataka is India's largest coffee-producing state, accounting for about 70% of national coffee output. Coffee is grown in the malnad (hilly, forested) region — primarily Kodagu, Hassan, Chikkamagaluru, and Shivamogga districts. Coffee farming employs lakhs of seasonal workers and is a critical rural livelihood in these districts."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Rural Livelihoods in a community? (Q8)",
-        "hi": "Who or what body regulates the civic issues related to Rural Livelihoods in a community? (Q8)",
-        "kn": "Who or what body regulates the civic issues related to Rural Livelihoods in a community? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "What is the Minimum Support Price (MSP)?",
+      "options": [
+        "A) The minimum wage paid to agricultural labourers under MGNREGA",
+        "B) The government-set minimum price at which it will buy certain crops from farmers",
+        "C) The minimum amount of land a farmer must own to qualify for government schemes",
+        "D) The minimum price consumers must pay for food at government ration shops"
+      ],
+      "correct_answer": "B) The government-set minimum price at which it will buy certain crops from farmers",
+      "explanation": "MSP is a price floor — if market prices for certain crops fall below MSP, the government purchases the crop from farmers at this guaranteed minimum price. It protects farmers from being forced to sell at extremely low prices after bumper harvests when market supply is high. Karnataka's KFCSC procures grains at MSP."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Livelihoods? (Q9)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Livelihoods? (Q9)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Livelihoods? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "Which Karnataka craft from Bidar district has a GI (Geographical Indication) tag protecting its unique identity?",
+      "options": ["A) Channapatna toys", "B) Ilkal sarees", "C) Bidriware", "D) Kasuti embroidery"],
+      "correct_answer": "C) Bidriware",
+      "explanation": "Bidriware — the traditional metalwork craft from Bidar district featuring zinc-copper alloy inlaid with silver — has a GI tag. The GI tag means only artisans from the Bidar area can legally sell products as 'Bidriware,' protecting against imitation. Karnataka also has GI tags for Mysore Silk, Channapatna Toys, Ilkal Sarees, Coorg Orange, and Navalgund Durries."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Rural Livelihoods in a community? (Q10)",
-        "hi": "Who or what body regulates the civic issues related to Rural Livelihoods in a community? (Q10)",
-        "kn": "Who or what body regulates the civic issues related to Rural Livelihoods in a community? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "Sericulture — rearing silkworms for silk production — is an important rural livelihood in which Karnataka districts?",
+      "options": [
+        "A) Kodagu, Chikkamagaluru, and Shivamogga",
+        "B) Ramanagara, Kolar, Mysuru, and Tumakuru",
+        "C) Dakshina Kannada, Udupi, and Uttara Kannada",
+        "D) Bidar, Kalaburagi, and Vijayapura"
+      ],
+      "correct_answer": "B) Ramanagara, Kolar, Mysuru, and Tumakuru",
+      "explanation": "Sericulture (silk farming) is concentrated in south Karnataka — Ramanagara (Asia's second-largest silk cocoon market), Kolar, Mysuru, and Tumakuru districts. Karnataka produces about 40% of India's silk. Kodagu is known for coffee; coastal districts for fishing; Bidar for Bidriware."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "A farmer has a bumper harvest of onions. Despite producing more than last year, his income is lower. What explains this?",
+      "options": [
+        "A) The government taxed his bumper harvest at a higher rate",
+        "B) When supply increases dramatically while demand stays the same, market prices fall — so more crop = lower price per unit = possibly lower total income",
+        "C) He hired too many agricultural labourers, raising his costs above his income",
+        "D) The Minimum Support Price was reduced for onions that year"
+      ],
+      "correct_answer": "B) When supply increases dramatically while demand stays the same, market prices fall — so more crop = lower price per unit = possibly lower total income",
+      "explanation": "This is the 'price paradox' in agriculture: a bumper harvest means all farmers have more to sell simultaneously. Total supply spikes while consumer demand stays relatively stable. Result: prices crash. A farmer selling 200 kg at ₹5/kg earns ₹1,000, while last year selling 100 kg at ₹20/kg earned ₹2,000. More production, less income. This is why price stabilisation (MSP, cold storage, processing) is essential for farmer welfare."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "Why do agricultural labourers depend most on MGNREGA compared to other farmer categories?",
+      "options": [
+        "A) Agricultural labourers are paid less than others so MGNREGA supplements their income year-round",
+        "B) Agricultural labourers have no land and no alternative income source during off-seasons — MGNREGA provides the only income guarantee when farm work is absent",
+        "C) MGNREGA is only available to agricultural labourers and not to other farmers",
+        "D) Agricultural labourers are required by law to register with MGNREGA"
+      ],
+      "correct_answer": "B) Agricultural labourers have no land and no alternative income source during off-seasons — MGNREGA provides the only income guarantee when farm work is absent",
+      "explanation": "Agricultural labourers earn wages only during peak farm seasons — sowing, weeding, and harvesting. During off-seasons (4–6 months), there is no farm work and therefore no income. They have no land to farm, no savings, and no collateral for bank loans. MGNREGA's 100-day guarantee provides income exactly during these lean periods, making it a lifeline rather than a supplement."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "What is the debt trap that small farmers often fall into?",
+      "options": [
+        "A) Farmers take loans to buy land and cannot afford to grow crops as well",
+        "B) Farmers borrow at high interest before each season; if crops fail, they cannot repay; interest compounds; next season they borrow more — debt grows each year",
+        "C) Banks give farmers too many loans at once and farmers cannot keep track of repayments",
+        "D) Farmers borrow from the government and the government seizes their land if they cannot repay"
+      ],
+      "correct_answer": "B) Farmers borrow at high interest before each season; if crops fail, they cannot repay; interest compounds; next season they borrow more — debt grows each year",
+      "explanation": "The debt trap works in a cycle: borrow for inputs (seeds, fertiliser, pesticides) at 24%+ from moneylenders → crop fails or prices crash → cannot repay → interest compounds → borrow more next season → debt grows → may eventually lose land. This cycle is the primary driver of rural poverty and farmer distress across India, including in Karnataka's rain-fed districts like Raichur, Yadgir, and Vijayapura."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "A Channapatna toy maker in Ramanagara struggles because plastic toys from factories are sold for half the price. What structural challenge does this represent?",
+      "options": [
+        "A) The toy maker is not skilled enough to compete with factories",
+        "B) Factory mass production undercuts traditional artisans on price — artisans cannot match factory costs while maintaining handcrafted quality",
+        "C) The government has banned handmade toys in favour of factory production",
+        "D) Channapatna toys are not popular with consumers"
+      ],
+      "correct_answer": "B) Factory mass production undercuts traditional artisans on price — artisans cannot match factory costs while maintaining handcrafted quality",
+      "explanation": "Factory production uses machinery, economies of scale, and cheap materials (often plastic) to produce toys at a fraction of the cost of handmade items. Traditional artisans using natural wood and hand-painting cannot compete on price alone. Solutions: GI tag (legal protection of the authentic product), premium positioning (handmade = better quality/sustainable), e-commerce, government procurement, and craft fairs that bring artisans directly to consumers."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "How does KMF-Nandini help dairy farmers in Karnataka, especially those with small landholdings?",
+      "options": [
+        "A) KMF gives free cows to all small farmers in Karnataka",
+        "B) KMF procures milk daily at fair prices, providing steady cash income regardless of season — supplementing or replacing seasonal crop income",
+        "C) KMF loans money to farmers to buy land so they can grow cattle feed",
+        "D) KMF markets only in Bengaluru, so only urban farmers benefit"
+      ],
+      "correct_answer": "B) KMF procures milk daily at fair prices, providing steady cash income regardless of season — supplementing or replacing seasonal crop income",
+      "explanation": "For small farmers whose crop income is seasonal and uncertain, selling milk daily to KMF provides regular, predictable cash income throughout the year. Even if the ragi crop fails, the cow still produces milk and KMF still collects and pays. KMF also provides veterinary services and cattle insurance — reducing the risk of livestock loss. This daily income is transformative for rural households with very small landholdings."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Why do many rural agricultural labourers and small farmers migrate seasonally to cities?",
+      "options": [
+        "A) Cities have better weather conditions for farming",
+        "B) The government requires rural workers to spend part of the year in cities",
+        "C) Farm work is seasonal — after harvest, there is no rural income for months; cities offer construction and other work during the off-season",
+        "D) Rural areas ban people from staying in villages during the off-season"
+      ],
+      "correct_answer": "C) Farm work is seasonal — after harvest, there is no rural income for months; cities offer construction and other work during the off-season",
+      "explanation": "Seasonal migration is a survival strategy. After harvest (October–November), agricultural work dries up until the next sowing season (June–July). During these 6–7 months, agricultural labourers and small farmers have minimal rural income. Cities offer construction work, domestic work, and petty trade that provide income during this off-season. Seasonal migrants from Karnataka's northern and north-eastern districts are commonly found at construction sites in Bengaluru, Pune, and Mumbai."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "A coastal Karnataka fisherfolk family uses a traditional wooden boat for fishing. What challenges do they face in today's economy?",
+      "options": [
+        "A) They face no challenges because fish prices are always high",
+        "B) Competition from mechanised fishing trawlers, rising fuel costs, seasonal restrictions, and depleting fish stocks due to overfishing",
+        "C) The government prevents them from selling fish directly to consumers",
+        "D) They cannot access the sea because the coast is now fully industrialised"
+      ],
+      "correct_answer": "B) Competition from mechanised fishing trawlers, rising fuel costs, seasonal restrictions, and depleting fish stocks due to overfishing",
+      "explanation": "Traditional fisherfolk in Karnataka's coastal districts (Dakshina Kannada, Udupi, Uttara Kannada) face multiple challenges: large mechanised trawlers catch far more fish, reducing their catch; rising costs for engines and fuel; mandatory fishing bans during monsoon season (June–August) for fish to breed; depleted fish stocks due to overfishing by large vessels; and climate change disrupting traditional fishing patterns."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "How does a GI (Geographical Indication) tag protect a rural artisan's livelihood?",
+      "options": [
+        "A) It gives the artisan a government salary so they do not need to sell their craft",
+        "B) It legally reserves the product name for authentic producers from that region, preventing cheap imitations and enabling premium pricing",
+        "C) It gives the artisan a monopoly over all handcraft production in India",
+        "D) It exempts artisans from paying income tax on craft sales"
+      ],
+      "correct_answer": "B) It legally reserves the product name for authentic producers from that region, preventing cheap imitations and enabling premium pricing",
+      "explanation": "A GI tag is a legal tool that prevents others from selling imitation products under the authentic name. For example, only Bidar craftspeople can sell 'Bidriware'; only Mysuru weavers can sell 'Mysore Silk Saree.' This prevents cheap factory copies from undercutting authentic producers. It also allows premium pricing because consumers trust the GI-tagged product's authenticity and quality."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "India's farming sector employs more than 60% of the workforce but contributes only about 18% of GDP. What does this imbalance tell us about rural livelihoods?",
+      "options": [
+        "A) Farming is the least important sector in India's economy",
+        "B) Most rural farm workers earn very low incomes because agricultural productivity and prices are insufficient to reward the large workforce engaged in farming",
+        "C) Urban workers are more hardworking than rural farmers",
+        "D) 60% of farmers are unnecessary and should migrate to cities"
+      ],
+      "correct_answer": "B) Most rural farm workers earn very low incomes because agricultural productivity and prices are insufficient to reward the large workforce engaged in farming",
+      "explanation": "When 60% of workers produce only 18% of GDP, average farm income must be much lower than average non-farm income. This reflects: small landholdings with low productivity, low prices for farm output, high dependence on monsoon, and lack of value addition (processing, storage). This income gap between farm and non-farm sectors is the root cause of rural-urban migration and rural poverty in India."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "A student argues that moneylenders should be banned to protect rural farmers. A classmate argues that this would make things worse. Who has the stronger argument and why?",
+      "options": [
+        "A) The first student is correct — banning moneylenders would immediately eliminate debt traps",
+        "B) The classmate has the stronger argument — if moneylenders are banned without providing alternatives, farmers would have no access to credit at all, potentially making things worse",
+        "C) Neither argument is valid — the government should not interfere in financial markets",
+        "D) Both are equally valid — the issue is too complex to have a clear answer"
+      ],
+      "correct_answer": "B) The classmate has the stronger argument — if moneylenders are banned without providing alternatives, farmers would have no access to credit at all, potentially making things worse",
+      "explanation": "Small farmers and agricultural labourers need credit before every season — for seeds, fertiliser, and tools. Formal banks require collateral (land documents, credit history) that poor rural households lack. If moneylenders are banned without providing accessible alternatives (Kisan Credit Cards, microfinance, self-help groups, cooperative credit), farmers would have NO credit source at all. The real solution is: (1) expand formal rural credit access, (2) regulate moneylender interest rates, (3) strengthen SHGs and cooperative banks. Simply banning moneylenders without alternatives solves nothing and potentially creates a credit desert."
     }
   ]
 }

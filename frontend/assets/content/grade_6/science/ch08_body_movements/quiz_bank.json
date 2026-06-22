@@ -1,366 +1,217 @@
 {
-  "version": "1.0",
-  "topic_id": "science_grade6_ch08_body_movements_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 8,
+  "chapter_title": "Body Movements",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Body Movements? (Q1)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Body Movements? (Q1)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Body Movements? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Which type of joint is found at the shoulder?",
+      "options": ["A) Hinge joint", "B) Pivot joint", "C) Ball and socket joint", "D) Fixed joint"],
+      "correct_answer": "C) Ball and socket joint",
+      "explanation": "The shoulder joint is a ball and socket joint — the rounded head of the humerus (upper arm bone) fits into the cup-shaped socket of the scapula (shoulder blade). This allows movement in all directions: forward, backward, sideways, and rotation. The hip is the other major ball and socket joint in the body."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Body Movements experiment? (Q2)",
-        "hi": "What is the standard tool used to measure changes in a Body Movements experiment? (Q2)",
-        "kn": "What is the standard tool used to measure changes in a Body Movements experiment? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "Which joint allows you to shake your head 'no' (left and right rotation)?",
+      "options": ["A) Hinge joint at the knee", "B) Ball and socket joint at the hip", "C) Pivot joint between atlas and axis vertebrae in the neck", "D) Fixed joint of the skull"],
+      "correct_answer": "C) Pivot joint between atlas and axis vertebrae in the neck",
+      "explanation": "The 'no' shaking movement (head rotating left and right) is made possible by the pivot joint between the atlas (1st cervical vertebra) and the axis (2nd cervical vertebra). The atlas, along with the skull, rotates around the axis. The 'yes' nodding (up-down) movement uses a different joint — between the skull and the atlas."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Body Movements? (Q3)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Body Movements? (Q3)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Body Movements? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "Which of the following joints allows movement in ONLY ONE direction?",
+      "options": ["A) Ball and socket joint", "B) Pivot joint", "C) Hinge joint", "D) Gliding joint"],
+      "correct_answer": "C) Hinge joint",
+      "explanation": "A hinge joint works like a door hinge — it allows movement in only one plane (flexion and extension: bending and straightening). The elbow and knee are hinge joints. Ball and socket joints allow all-direction movement. Pivot joints allow rotation. Gliding joints allow limited sliding in multiple directions."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Body Movements experiment? (Q4)",
-        "hi": "What is the standard tool used to measure changes in a Body Movements experiment? (Q4)",
-        "kn": "What is the standard tool used to measure changes in a Body Movements experiment? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "The bones of the skull are connected by which type of joint?",
+      "options": ["A) Ball and socket joint", "B) Pivot joint", "C) Hinge joint", "D) Fixed (immovable) joint"],
+      "correct_answer": "D) Fixed (immovable) joint",
+      "explanation": "The bones of the skull are fused together by fixed joints called sutures. These allow NO movement — the skull forms a rigid protective case for the brain. The only movable bone of the skull is the mandible (lower jaw), which connects via a different type of joint."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Body Movements? (Q5)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Body Movements? (Q5)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Body Movements? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "Which muscle contracts to BEND the elbow?",
+      "options": ["A) Triceps", "B) Quadriceps", "C) Hamstrings", "D) Biceps"],
+      "correct_answer": "D) Biceps",
+      "explanation": "The biceps is the muscle on the front of the upper arm. When it contracts (shortens), it pulls the forearm upward, bending the elbow (flexion). The triceps, on the back of the upper arm, contracts to straighten the elbow (extension). Biceps and triceps are antagonistic pairs — when one contracts, the other relaxes."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Body Movements experiment? (Q6)",
-        "hi": "What is the standard tool used to measure changes in a Body Movements experiment? (Q6)",
-        "kn": "What is the standard tool used to measure changes in a Body Movements experiment? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "Muscles can:",
+      "options": ["A) Only push", "B) Both push and pull equally", "C) Only contract (pull)", "D) Only stretch (push when stretched)"],
+      "correct_answer": "C) Only contract (pull)",
+      "explanation": "Muscles can ONLY contract — they shorten and thicken, producing a pulling force. They CANNOT push. This is why muscles work in opposing pairs: to move a bone in two directions, one muscle pulls it one way (and the other relaxes), then the second muscle pulls it back. There is no such thing as a muscle that pushes a bone."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Body Movements? (Q7)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Body Movements? (Q7)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Body Movements? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "What is cartilage?",
+      "options": [
+        "A) A type of bone that is softer than normal bone",
+        "B) A smooth, flexible connective tissue that cushions bones at joints and has no blood vessels",
+        "C) The tissue that connects muscles to bones",
+        "D) A liquid that lubricates joints"
+      ],
+      "correct_answer": "B) A smooth, flexible connective tissue that cushions bones at joints and has no blood vessels",
+      "explanation": "Cartilage is a smooth, flexible connective tissue found at the ends of bones at joints, in the nose, outer ears, and between vertebrae. It cushions bones, reduces friction, and absorbs shocks. Unlike bone, cartilage has no blood vessels, making it slow to repair when damaged. It is softer and more flexible than bone."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Body Movements experiment? (Q8)",
-        "hi": "What is the standard tool used to measure changes in a Body Movements experiment? (Q8)",
-        "kn": "What is the standard tool used to measure changes in a Body Movements experiment? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "Which part of the human skeleton protects the spinal cord?",
+      "options": ["A) Skull", "B) Rib cage", "C) Vertebral column", "D) Pelvis"],
+      "correct_answer": "C) Vertebral column",
+      "explanation": "The vertebral column (backbone/spine) consists of 33 vertebrae stacked on top of each other. Each vertebra has a central hole; these holes align to form a canal (vertebral canal) through which the spinal cord runs. The vertebral column thus protects the spinal cord along its entire length. The skull protects the brain; the rib cage protects the heart and lungs."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Body Movements? (Q9)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Body Movements? (Q9)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Body Movements? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "Which of the following is used by an earthworm to grip the soil and prevent backward slipping?",
+      "options": ["A) Suction cups", "B) Setae (tiny bristles)", "C) Mucus secretion", "D) Claws"],
+      "correct_answer": "B) Setae (tiny bristles)",
+      "explanation": "Earthworms have setae — tiny bristle-like projections on each body segment. When the earthworm contracts its longitudinal muscles (becoming short and fat), the setae anchor the rear of the body in the soil. Then circular muscles contract (making the front thin and long), extending the front forward. The setae prevent backward sliding, enabling forward movement."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Body Movements experiment? (Q10)",
-        "hi": "What is the standard tool used to measure changes in a Body Movements experiment? (Q10)",
-        "kn": "What is the standard tool used to measure changes in a Body Movements experiment? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "Which adaptation helps birds reduce their body weight for flight?",
+      "options": ["A) Very thick feathers", "B) Large, solid bones filled with marrow", "C) Hollow bones with internal struts", "D) Extra layers of skin"],
+      "correct_answer": "C) Hollow bones with internal struts",
+      "explanation": "Birds have hollow bones — the interior is mostly empty (with some air sacs) supported by internal struts. This design is much lighter than the solid bones of most other vertebrates. The lighter the skeleton, the less energy is required to generate lift for flight. Despite being hollow, the internal strut design keeps bird bones strong."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "A student can rotate their arm in a full circle at the shoulder but can only bend and straighten at the elbow. Which joints are responsible for each movement?",
+      "options": [
+        "A) Shoulder = pivot joint; Elbow = ball and socket joint",
+        "B) Shoulder = hinge joint; Elbow = pivot joint",
+        "C) Shoulder = ball and socket joint; Elbow = hinge joint",
+        "D) Shoulder = fixed joint; Elbow = gliding joint"
+      ],
+      "correct_answer": "C) Shoulder = ball and socket joint; Elbow = hinge joint",
+      "explanation": "Full circular rotation of the arm at the shoulder requires a ball and socket joint — the ball-in-socket design allows movement in all directions including complete rotation. The elbow's one-direction movement (bend/straighten only) is characteristic of a hinge joint — like a door hinge that only opens one way."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "What happens to the TRICEPS when the BICEPS contracts to bend the elbow?",
+      "options": [
+        "A) The triceps also contracts to help",
+        "B) The triceps relaxes and becomes longer",
+        "C) The triceps contracts to resist the biceps",
+        "D) The triceps has no connection to elbow movement"
+      ],
+      "correct_answer": "B) The triceps relaxes and becomes longer",
+      "explanation": "Biceps and triceps are antagonistic (opposing) muscles. When the biceps contracts to bend the elbow, the triceps must simultaneously relax and lengthen — otherwise the two muscles would work against each other and no movement would occur. This coordinated contract-and-relax pairing of opposing muscles is how the body produces smooth, controlled movement."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "A fish has a streamlined body. What is the purpose of this body shape?",
+      "options": [
+        "A) To make the fish more visible to predators",
+        "B) To reduce water resistance so the fish can swim efficiently",
+        "C) To help the fish breathe underwater",
+        "D) To protect the fish from being eaten"
+      ],
+      "correct_answer": "B) To reduce water resistance so the fish can swim efficiently",
+      "explanation": "A streamlined body tapers at both ends (like a torpedo), which minimises the drag (resistance) of water as the fish moves through it. Less drag means the fish can swim faster using less energy. This is why submarines, torpedoes, and competitive swimming suits are all designed to be streamlined — they copy the fish's evolutionary solution to water resistance."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "Which of the following correctly describes how a snake moves?",
+      "options": [
+        "A) It rolls along the ground using its coils",
+        "B) It uses tiny legs hidden under its scales",
+        "C) It uses waves of muscular contraction along its many vertebrae, with ventral scales gripping the surface",
+        "D) It slides on a layer of slime like a snail"
+      ],
+      "correct_answer": "C) It uses waves of muscular contraction along its many vertebrae, with ventral scales gripping the surface",
+      "explanation": "A snake moves by creating S-shaped waves of muscle contraction that travel from head to tail along its very flexible vertebral column (200-400 vertebrae). The large ventral scales on its belly grip the ground as these waves push the body forward. It does not roll, use hidden legs, or produce slime like a snail."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "The rib cage consists of how many pairs of ribs?",
+      "options": ["A) 6 pairs", "B) 10 pairs", "C) 12 pairs", "D) 14 pairs"],
+      "correct_answer": "C) 12 pairs",
+      "explanation": "The human rib cage has 12 pairs of ribs (24 ribs total). The first 7 pairs (true ribs) connect directly to the sternum (breastbone) in front. Pairs 8–10 (false ribs) connect to the sternum indirectly via cartilage. The last 2 pairs (floating ribs) connect only to the vertebral column at the back and have no front connection. All 12 pairs connect to the vertebral column at the back."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "How is an earthworm's locomotion different from a snail's locomotion?",
+      "options": [
+        "A) Both use the same muscular foot; earthworm just moves faster",
+        "B) Earthworm uses alternating circular and longitudinal muscles with setae; snail uses a single muscular foot with mucus",
+        "C) Snail uses setae; earthworm uses mucus",
+        "D) Both rely on exoskeletons for movement"
+      ],
+      "correct_answer": "B) Earthworm uses alternating circular and longitudinal muscles with setae; snail uses a single muscular foot with mucus",
+      "explanation": "Earthworm: two sets of muscles (circular = makes body long and thin; longitudinal = makes body short and fat) alternate to create forward motion; setae anchor and grip soil. Snail: a single large muscular foot with rippling contractions; produces mucus to reduce friction and aid adhesion. Both have no bones, but their muscle-and-grip systems are completely different."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "In Karnataka's traditional Kabbadi matches, players often injure their knees during tackles. Which type of joint is the knee, and why is it vulnerable to injury?",
+      "options": [
+        "A) Ball and socket joint — it can rotate fully, making it unstable",
+        "B) Hinge joint — it only moves in one direction but must absorb large forces, straining cartilage and ligaments",
+        "C) Pivot joint — it rotates too freely, causing dislocation",
+        "D) Fixed joint — the bones fuse and the joint cannot absorb impact"
+      ],
+      "correct_answer": "B) Hinge joint — it only moves in one direction but must absorb large forces, straining cartilage and ligaments",
+      "explanation": "The knee is a hinge joint that only allows bending and straightening (one plane of movement). However, in sports like Kabbadi, the knee is subjected to sideways and twisting forces that hinge joints are not designed for. This is why cartilage (menisci) inside the knee and ligaments holding the bones together are often damaged in sports. The hinge design prioritises strength in one direction but is vulnerable to off-axis forces."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "What connects a muscle to a bone?",
+      "options": ["A) Cartilage", "B) Ligament", "C) Tendon", "D) Marrow"],
+      "correct_answer": "C) Tendon",
+      "explanation": "Tendons are strong, cord-like fibrous connective tissues that attach muscles to bones. When a muscle contracts, the tendon transmits the pulling force to the bone, producing movement. Ligaments connect bone to bone (at joints). Cartilage cushions joint surfaces. Marrow is found inside bones and produces blood cells."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "A student says: 'When I push a door open, my arm muscles are pushing.' Is this scientifically accurate?",
+      "options": [
+        "A) Yes — pushing is a function of certain arm muscles",
+        "B) No — muscles only pull; when you 'push' a door, your muscles are pulling your arm bones in a direction that results in an outward push against the door",
+        "C) Yes — the triceps specifically is a pushing muscle",
+        "D) No — you do not use muscles to push; you use bones directly"
+      ],
+      "correct_answer": "B) No — muscles only pull; when you 'push' a door, your muscles are pulling your arm bones in a direction that results in an outward push against the door",
+      "explanation": "Muscles ONLY contract (pull). When you appear to 'push' a door, your triceps contracts and pulls the forearm downward/outward — this motion of your arm happens to press against the door. The force on the door is indeed a push, but your muscles produced it by pulling your arm bones. There is no such thing as a muscle that pushes — all muscle action is pulling (contraction)."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "An elephant's legs are nearly straight (column-like) compared to the angled legs of a dog or cheetah. What is the biomechanical reason for this?",
+      "options": [
+        "A) Elephants need angled legs for climbing trees",
+        "B) Straight, pillar-like legs efficiently support the elephant's enormous weight directly under the body with minimal muscle effort",
+        "C) Curved legs help elephants run faster",
+        "D) Elephants have hinge joints only, which allow legs to stay straight"
+      ],
+      "correct_answer": "B) Straight, pillar-like legs efficiently support the elephant's enormous weight directly under the body with minimal muscle effort",
+      "explanation": "An elephant's enormous weight (4,000–7,000 kg) requires legs that efficiently transfer this load to the ground. Straight, pillar-like legs align the load vertically — like building columns — and the force passes directly through the bones with minimal need for muscle effort to hold the body up. Curved or angled legs (like a dog's) require muscles and tendons to constantly counteract the bending moment. For the elephant's weight, straight columns are the biomechanically efficient solution."
     }
   ]
 }

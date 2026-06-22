@@ -1,114 +1,192 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "english",
-  "chapter_id": "ch05_tansen",
-  "chapter_title": {
-    "en": "Tansen",
-    "hi": "तानसेन",
-    "kn": "ತಾನ್ಸೇನ್"
+  "subject": "English",
+  "textbook": "A Pact with the Sun",
+  "chapter_number": 5,
+  "chapter_title": "Tansen",
+  "estimated_study_time_minutes": 50,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Understand the life and achievements of Tansen, one of India's greatest musicians",
+    "Identify the theme: dedication and practice lead to mastery",
+    "Learn key vocabulary from the story",
+    "Understand the role of Swami Haridas and Emperor Akbar in Tansen's life",
+    "Know the significance of ragas like Deepak and Megh Malhar",
+    "State the moral of the story and relate it to personal efforts in learning",
+    "Answer comprehension questions about Tansen's life"
+  ],
+
+  "prerequisite_knowledge": [
+    "Basic knowledge of the Mughal period in Indian history",
+    "Understanding of the concept of dedication and practice",
+    "Familiarity with Indian classical music (optional but helpful)"
+  ],
+
+  "introduction": {
+    "why_important": "Tansen's story teaches us that extraordinary talent is not a gift from birth alone — it is built through years of dedicated practice under good guidance. This is one of the most inspiring messages for any student.",
+    "real_life_relevance": "In every field — sports, music, science, mathematics — the greatest achievers are those who combine natural inclination with relentless practice and excellent teachers. Tansen's story is a template for excellence.",
+    "karnataka_context": "Karnataka has one of India's richest classical music traditions — Carnatic music. Great musicians like Purandaradasa (the 'Father of Carnatic Music') were from Karnataka. The Mysore palace is famous for its music traditions. Just as Tansen mastered Hindustani music through dedication, Karnataka's own musicians built their art through years of rigorous riyaaz (practice) and study under gurus.",
+    "connection_to_previous_learning": "We have learned about environment (Ch 1), thinking before acting (Ch 2), humility (Ch 3), and compassion (Ch 4). In Ch 5, we meet Tansen — whose story teaches that the right environment (a great guru) + humility (respecting the teacher) + dedication (constant practice) = extraordinary achievement."
   },
-  "topics": [
+
+  "story_summary": {
+    "characters": [
+      { "name": "Tansen (Ramtanu)", "role": "The main character; originally a naughty boy who became one of India's greatest classical musicians" },
+      { "name": "Swami Haridas", "role": "A great musician and saint who became Tansen's first and most important guru" },
+      { "name": "Muhammad Ghaus", "role": "A Sufi saint and Tansen's second guru, whose disciple Tansen became at Gwalior" },
+      { "name": "Emperor Akbar", "role": "The great Mughal emperor who invited Tansen to his court; one of Tansen's greatest admirers" },
+      { "name": "Tansen's father", "role": "A man of culture who recognised his son's musical talent and sought good teachers for him" }
+    ],
+    "plot": [
+      "Tansen, originally named Ramtanu, is born in Gwalior around 1506.",
+      "As a child he is mischievous and loved to imitate the sounds of animals in the forest.",
+      "One day, the great musician Swami Haridas hears the boy's extraordinary voice in the forest.",
+      "Swami Haridas takes Tansen as his disciple and teaches him music for eleven years.",
+      "After completing his training, Tansen goes to study under Muhammad Ghaus, another great saint and musician.",
+      "Tansen's fame as a musician spreads throughout India.",
+      "Emperor Akbar hears of Tansen and invites him to his court.",
+      "Tansen becomes one of the 'Navaratnas' (Nine Gems) of Akbar's court — the nine most talented people at court.",
+      "Tansen could sing the raga Deepak, which was said to light lamps and produce fire.",
+      "His singing of Raga Megh Malhar was said to bring rain.",
+      "When he sang Deepak, his body heated dangerously. His wife Hussaini's singing of Megh Malhar saved him.",
+      "Tansen is remembered as one of the greatest musicians India has ever produced.",
+      "Moral: Dedication, practice, and learning from great teachers leads to true mastery."
+    ],
+    "moral": "Natural talent combined with dedicated practice, great teaching, and humility leads to extraordinary mastery. True greatness is earned, not just born."
+  },
+
+  "core_concepts": [
     {
-      "topic_id": "english_grade6_ch05_tansen_basics",
-      "title": {
-        "en": "Tansen - Fundamentals",
-        "hi": "तानसेन - बुनियादी बातें",
-        "kn": "ತಾನ್ಸೇನ್ - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of Tansen",
-        "Solve exercises and apply rules related to Tansen",
-        "Analyze practical examples of Tansen in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Tansen. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम तानसेन का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ತಾನ್ಸೇನ್ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Tansen in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम तानसेन का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ತಾನ್ಸೇನ್ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Tansen.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Tansen.",
-            "hi": "चरण 1: तानसेन के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ತಾನ್ಸೇನ್ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Tansen builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "तानसेन में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ತಾನ್ಸೇನ್ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "The guru-shishya (teacher-student) tradition",
+      "simple_explanation": "A great teacher and a dedicated student together create greatness.",
+      "detailed_explanation": "Tansen had exceptional natural talent — the ability to imitate any sound and a remarkable voice. But without Swami Haridas, this talent would have remained raw and untrained. Swami Haridas gave him structure, discipline, and advanced musical knowledge over eleven years. This is the essence of the guru-shishya tradition in India: the guru (teacher) shapes the shishya (student) not just by giving information, but by nurturing and developing their full potential. Tansen, in turn, respected and served his guru completely — this humility was essential to his growth.",
+      "real_life_example": "A cricket player like Sachin Tendulkar had natural talent, but his coach Ramakant Achrekar shaped him into a legend. The teacher's guidance was as important as the student's talent.",
+      "karnataka_example": "Purandaradasa, the Father of Carnatic Music, taught thousands of students in the Karnataka-Andhra region. His teaching methods — the Saraswati scale, compositional formats — are still the foundation of Carnatic music education today.",
+      "common_mistakes": "Students sometimes think Tansen was great only because of his natural talent. The story emphasises that he trained for ELEVEN years under Swami Haridas. Natural talent + dedicated practice + great teaching = mastery.",
+      "memory_tip": "Tansen = Talent + 11 years of training. One without the other would not have made him great."
+    },
+    {
+      "concept_name": "The power of ragas",
+      "simple_explanation": "A raga is a pattern of musical notes that creates a specific mood, emotion, or even physical effect.",
+      "detailed_explanation": "Indian classical music is built on ragas — each raga has its own set of notes, rules, and emotional quality. The story tells us Tansen could sing Raga Deepak, which was so powerful it could light lamps with fire. He could sing Raga Megh Malhar, which was said to bring rain. These are legends, but they show how deeply Indians believed in the spiritual and physical power of music when performed by a true master. Every raga is associated with a time of day, season, and emotional state.",
+      "real_life_example": "Even today, scientific studies show that music affects mood, heart rate, and even plant growth. The power of music on human emotion is well-documented.",
+      "karnataka_example": "Karnataka's Carnatic music tradition has its own powerful ragas. Mysore's Dasara festival is opened with classical music performances. The tradition of music as a spiritual and cultural practice is alive and strong in Karnataka.",
+      "common_mistakes": "Students sometimes think the story of lamps lighting and rain falling is literally true. These are legendary accounts meant to express the extraordinary power of Tansen's music — poetic exaggerations that capture the feeling his music produced.",
+      "memory_tip": "Deepak raga = fire/heat/light. Megh Malhar raga = rain/cooling. Two opposite ragas — one could kill, one could save."
+    },
+    {
+      "concept_name": "Dedication and consistent practice",
+      "simple_explanation": "Greatness comes from showing up every day and working hard — not just on days when you feel like it.",
+      "detailed_explanation": "Tansen began as a naughty, wild boy who imitated animals in the forest. He had raw talent but no discipline. Over eleven years with Swami Haridas, he transformed — through daily riyaaz (practice), deep study, and complete dedication. This is one of the clearest messages in the chapter: no matter how talented you are, consistent and focused practice is what creates mastery. Akbar's court had many talented people, but Tansen was the brightest gem because he had worked the hardest and longest.",
+      "real_life_example": "Mozart composed music from age 5 but practiced for thousands of hours. According to researchers, most world-class experts have practiced their skill for at least 10,000 hours — Tansen's eleven years with Haridas was exactly this kind of deep practice.",
+      "karnataka_example": "M.S. Subbulakshmi and Bhimsen Joshi — two of India's greatest classical singers — both trained intensively for years under master gurus. Karnataka's own Dr. M. Balamuralikrishna practiced daily throughout his life. The lesson of dedicated practice runs through all their lives.",
+      "common_mistakes": "Students sometimes think Akbar made Tansen great by inviting him to court. In fact, Tansen was already great before Akbar — Akbar recognised his greatness and gave him a platform.",
+      "memory_tip": "Practice = daily riyaaz. 11 years = 11 years. Akbar = fan, not maker. Tansen made himself through practice."
     }
+  ],
+
+  "key_terms_glossary": [
+    { "term": "Tansen", "meaning": "One of India's greatest classical musicians (original name: Ramtanu); one of the Nine Gems (Navaratnas) at Emperor Akbar's court" },
+    { "term": "Raga", "meaning": "A pattern of musical notes in Indian classical music, each with its own mood, time, and emotional quality" },
+    { "term": "Guru", "meaning": "A teacher, especially a spiritual or musical master who trains a student with deep personal care and guidance" },
+    { "term": "Shishya", "meaning": "A student or disciple who learns from a guru, often living in the guru's home and serving them" },
+    { "term": "Navaratnas", "meaning": "The 'Nine Gems' — nine exceptionally talented people in Emperor Akbar's court; Tansen was one of them" },
+    { "term": "Riyaaz", "meaning": "Regular, disciplined practice of music (or any skill); the daily work that builds mastery" },
+    { "term": "Raga Deepak", "meaning": "A raga said to produce heat and fire; singing it was said to light lamps; Tansen suffered from its heat" },
+    { "term": "Raga Megh Malhar", "meaning": "A raga associated with rain and cooling; said to bring rain when sung; sung by Tansen's wife to save him from the heat of Deepak" },
+    { "term": "Swami Haridas", "meaning": "Tansen's first and greatest guru; a musician and saint who trained Tansen for eleven years" },
+    { "term": "Emperor Akbar", "meaning": "The great Mughal emperor (1556–1605), known for his love of art and music; he invited Tansen to his court" }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Comprehension",
+      "question": "How did Swami Haridas come to know about Tansen's musical talent?",
+      "step_by_step_answer": [
+        "Step 1: As a child, Tansen (Ramtanu) loved to roam the forest near his home.",
+        "Step 2: He had a remarkable ability to imitate the sounds of animals.",
+        "Step 3: One day, Swami Haridas was passing through the forest.",
+        "Step 4: He heard the extraordinary sounds Tansen was making — the boy's voice and ability were unmistakable.",
+        "Step 5: Impressed by the raw talent, Swami Haridas approached the boy and later took him on as a disciple.",
+        "Conclusion: Tansen's natural talent — demonstrated through animal imitations in the forest — caught the attention of his great guru."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Vocabulary",
+      "question": "Use the word 'raga' in a sentence connected to the story.",
+      "step_by_step_answer": [
+        "Step 1: Recall meaning — a raga is a set of musical notes in Indian classical music with a specific mood.",
+        "Step 2: Connect to story — Tansen sang Raga Deepak and Raga Megh Malhar.",
+        "Step 3: Write sentence: 'When Tansen sang the Raga Deepak at Akbar's court, his voice was said to produce so much heat that lamps lit on their own.'"
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Moral application",
+      "question": "How can the story of Tansen inspire a student who feels they are not talented enough?",
+      "step_by_step_answer": [
+        "Step 1: Note that Tansen started as a wild, mischievous boy — not a polished musician.",
+        "Step 2: His greatness came from 11 years of dedicated training under Swami Haridas.",
+        "Step 3: Apply it — no student needs to be born a genius. What matters is finding a good teacher, staying humble, and practicing regularly.",
+        "Step 4: Conclusion: Tansen's story says: talent + dedication + a good guru = greatness. Any student who commits to these can achieve extraordinary things."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Dedication and consistent practice",
+      "questions": [
+        { "type": "Recall", "q": "What was Tansen's real name?", "a": "Ramtanu." },
+        { "type": "Recall", "q": "Who was Tansen's first and most important guru?", "a": "Swami Haridas." },
+        { "type": "Understanding", "q": "Why did Akbar invite Tansen to his court?", "a": "Because Tansen was already famous throughout India as an extraordinary musician. Akbar recognised his genius and wanted him among his court's finest talents." },
+        { "type": "Understanding", "q": "What do the legends about Raga Deepak and Raga Megh Malhar tell us about Tansen's music?", "a": "They tell us that Tansen's music was so powerful that it was believed to produce physical effects — fire from Deepak and rain from Megh Malhar. These are legendary exaggerations that capture the extraordinary emotional and spiritual power of his music." },
+        { "type": "Application", "q": "If Tansen had given up music after two or three years, what do you think would have happened? What does this tell you about dedication?", "a": "He would never have become great. Two or three years of training is only the beginning. Tansen trained for eleven years before his true mastery emerged. This tells us that dedication over a long period of time — not quick results — is what creates real mastery." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Tansen's real name was Ramtanu; he was born in Gwalior around 1506.",
+    "As a child, he was mischievous but had an extraordinary ability to imitate sounds.",
+    "Swami Haridas discovered him in the forest and trained him for eleven years.",
+    "He later trained under Muhammad Ghaus at Gwalior.",
+    "Emperor Akbar invited him to court, where he became one of the Navaratnas (Nine Gems).",
+    "He could sing Raga Deepak (associated with fire) and Raga Megh Malhar (associated with rain).",
+    "His wife Hussaini's singing of Megh Malhar saved him from the heat of Deepak.",
+    "The moral: talent + dedicated practice + great guidance = true mastery.",
+    "Tansen is one of the greatest musicians in Indian history.",
+    "His life is a model for any student in any field: start early, find a great teacher, practice daily, stay humble."
+  ],
+
+  "mind_map": {
+    "root": "Tansen",
+    "branches": [
+      { "branch": "Early Life", "sub": ["Born in Gwalior ~1506", "Original name: Ramtanu", "Mischievous child", "Could imitate animal sounds"] },
+      { "branch": "Gurus", "sub": ["Swami Haridas (11 years training)", "Muhammad Ghaus (Gwalior)"] },
+      { "branch": "At Akbar's Court", "sub": ["One of the Navaratnas", "Greatest musician in court", "Akbar's favourite"] },
+      { "branch": "Famous Ragas", "sub": ["Raga Deepak (fire/heat)", "Raga Megh Malhar (rain/cooling)", "Wife Hussaini saved him"] },
+      { "branch": "Moral/Theme", "sub": ["Talent + Practice + Guru = Mastery", "Guru-Shishya tradition", "Dedication over years"] }
+    ]
+  },
+
+  "revision_notes": "Tansen (real name: Ramtanu) was born in Gwalior around 1506. As a child, he could imitate animal sounds. Swami Haridas discovered him and trained him for 11 years. He later trained under Muhammad Ghaus. Emperor Akbar invited him to court — he became one of the Navaratnas. He could sing Raga Deepak (fire) and Raga Megh Malhar (rain). His wife Hussaini sang Megh Malhar to save him from Deepak's heat. Moral: talent + practice + great teacher = mastery. Key terms: raga, guru, shishya, Navaratnas, riyaaz, Swami Haridas, Emperor Akbar.",
+
+  "must_remember_facts": [
+    "Tansen's real name was Ramtanu.",
+    "He was born in Gwalior around 1506.",
+    "As a child, he was mischievous and could imitate animal sounds in the forest.",
+    "Swami Haridas discovered him and trained him for eleven years.",
+    "He later trained under Muhammad Ghaus at Gwalior.",
+    "Emperor Akbar invited him to court — he was one of the Navaratnas (Nine Gems).",
+    "Raga Deepak — associated with fire and heat. Singing it was dangerous for Tansen.",
+    "Raga Megh Malhar — associated with rain and cooling. Saved Tansen from Deepak's effects.",
+    "His wife Hussaini sang Megh Malhar to save him.",
+    "The moral: natural talent + dedicated practice + great teacher = true mastery."
   ]
 }

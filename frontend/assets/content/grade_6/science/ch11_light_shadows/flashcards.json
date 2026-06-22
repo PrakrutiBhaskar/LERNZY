@@ -1,96 +1,172 @@
 {
-  "version": "1.0",
-  "topic_id": "science_grade6_ch11_light_shadows_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 11,
+  "chapter_title": "Light, Shadows and Reflections",
+  "total_cards": 20,
   "cards": [
     {
       "id": "fc01",
-      "front": {
-        "en": "What is the SI unit of force? (FC1)",
-        "hi": "What is the SI unit of force? (FC1)",
-        "kn": "What is the SI unit of force? (FC1)"
-      },
-      "back": {
-        "en": "The Newton (N).",
-        "hi": "The Newton (N).",
-        "kn": "The Newton (N)."
-      },
-      "memory_hook": {
-        "en": "Newton = Force scale.",
-        "hi": "Newton = Force scale.",
-        "kn": "Newton = Force scale."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a luminous object? Give two examples.",
+      "back": "A luminous object is one that produces and emits its own light. Examples: the Sun (produces light through nuclear fusion), an electric bulb (produces light from electricity), a candle flame (produces light from burning), a firefly (produces light through a chemical reaction called bioluminescence), and a glow-worm. Stars, including our Sun, are the most common luminous objects in the universe. Non-luminous objects do not produce light — they only reflect light from luminous sources.",
+      "memory_hook": "LUMINOUS = LIGHT-PRODUCING. Lumi (from lux = light in Latin). The Sun, bulb, and candle are luminous — they make their own light. The Moon is NOT luminous — it reflects sunlight."
     },
     {
       "id": "fc02",
-      "front": {
-        "en": "What is the formula for pressure? (FC2)",
-        "hi": "What is the formula for pressure? (FC2)",
-        "kn": "What is the formula for pressure? (FC2)"
-      },
-      "back": {
-        "en": "Pressure = Force / Area.",
-        "hi": "Pressure = Force / Area.",
-        "kn": "Pressure = Force / Area."
-      },
-      "memory_hook": {
-        "en": "Force divided by area.",
-        "hi": "Force divided by area.",
-        "kn": "Force divided by area."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a non-luminous object? Is the Moon luminous?",
+      "back": "A non-luminous object does not produce its own light — it is visible only because it reflects light from a luminous source. Examples: the Moon (reflects sunlight — this is why we see it at night), a book (reflects light from a lamp), a mirror (reflects light), a chair, a table. The Moon is NOT luminous — it has no light of its own. We see the Moon because sunlight falls on it and is reflected toward Earth. This is why the Moon goes through phases — we see different amounts of its sunlit face.",
+      "memory_hook": "Moon = MIRROR in space. It reflects the Sun's light like a giant mirror. No Sun = no visible Moon. Non-luminous = needs someone else's light to be seen."
     },
     {
       "id": "fc03",
-      "front": {
-        "en": "What is the SI unit of force? (FC3)",
-        "hi": "What is the SI unit of force? (FC3)",
-        "kn": "What is the SI unit of force? (FC3)"
-      },
-      "back": {
-        "en": "The Newton (N).",
-        "hi": "The Newton (N).",
-        "kn": "The Newton (N)."
-      },
-      "memory_hook": {
-        "en": "Newton = Force scale.",
-        "hi": "Newton = Force scale.",
-        "kn": "Newton = Force scale."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a transparent object? Give two examples.",
+      "back": "A transparent object is one that allows light to pass through it almost completely, so objects behind it can be seen clearly. Examples: a glass window pane, clean water, a clear glass tumbler, air, and some types of plastic wrap. When you look through a transparent glass window, you can see the street outside clearly. Most of the incident light passes straight through transparent materials with very little scattering or absorption.",
+      "memory_hook": "TRANSPARENT = SEE-THROUGH. Trans (through) + parent (appearing). Think of a clean glass window — the road outside appears crystal clear. No blurring."
     },
     {
       "id": "fc04",
-      "front": {
-        "en": "What is the formula for pressure? (FC4)",
-        "hi": "What is the formula for pressure? (FC4)",
-        "kn": "What is the formula for pressure? (FC4)"
-      },
-      "back": {
-        "en": "Pressure = Force / Area.",
-        "hi": "Pressure = Force / Area.",
-        "kn": "Pressure = Force / Area."
-      },
-      "memory_hook": {
-        "en": "Force divided by area.",
-        "hi": "Force divided by area.",
-        "kn": "Force divided by area."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is the difference between a translucent and an opaque object?",
+      "back": "A translucent object allows some light to pass through but scatters it, so objects behind it appear blurred or unclear. Examples: frosted glass (bathroom windows), oiled paper, thin cloth, tissue paper, wax paper. An opaque object does not allow any light to pass through it at all. Objects behind it cannot be seen. Examples: a wooden door, a brick wall, a metal sheet, a book, a stone. Key test: Can you see objects clearly through it? Yes = transparent. Blurred = translucent. Cannot see = opaque.",
+      "memory_hook": "TRANSLUCENT = SEMI-SEE. Frosted glass lets light in but blurs what's behind. OPAQUE = LIGHT-BLOCKED. You cannot see through a brick wall at all. T-T-O: Transparent, Translucent, Opaque — from most to least see-through."
     },
     {
       "id": "fc05",
-      "front": {
-        "en": "What is the SI unit of force? (FC5)",
-        "hi": "What is the SI unit of force? (FC5)",
-        "kn": "What is the SI unit of force? (FC5)"
-      },
-      "back": {
-        "en": "The Newton (N).",
-        "hi": "The Newton (N).",
-        "kn": "The Newton (N)."
-      },
-      "memory_hook": {
-        "en": "Newton = Force scale.",
-        "hi": "Newton = Force scale.",
-        "kn": "Newton = Force scale."
-      }
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is a shadow? What three conditions are needed to form a shadow?",
+      "back": "A shadow is a dark area formed behind an opaque or translucent object when it blocks light from reaching a surface (screen). Three conditions needed to form a shadow: (1) A source of light (luminous object) — sun, bulb, torch; (2) An opaque (or translucent) object — to block the light; (3) A screen/surface — where the shadow falls (floor, wall, paper). Without all three, no shadow forms. A transparent object does not form a shadow because light passes through it fully.",
+      "memory_hook": "Shadow = LOS triangle: Light source + Opaque object + Screen. Remove any one of the three — no shadow. All three must present for a shadow party."
+    },
+    {
+      "id": "fc06",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why is a shadow always formed on the opposite side of the object from the light source?",
+      "back": "Light travels in straight lines (rectilinear propagation of light). When an opaque object blocks the path of light rays, the rays cannot bend around the object — they are stopped. The region behind the object (opposite to the light source) receives no light, creating a dark area — the shadow. Because light cannot curve around corners, shadows always form behind the object relative to the light source. This also explains why a shadow looks like the outline/silhouette of the object.",
+      "memory_hook": "Light = STUBBORN TRAVELLER. It only goes straight — it refuses to bend or turn corners. Block it with your hand, and behind your hand goes dark. Shadow = where the straight-travelling light couldn't reach."
+    },
+    {
+      "id": "fc07",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "How does the size of a shadow change when you move an object closer to or farther from a light source?",
+      "back": "When you move an object CLOSER to the light source: the shadow becomes LARGER (bigger). When you move an object FARTHER from the light source: the shadow becomes SMALLER (smaller). This is because when the object is close to the source, it blocks a wider cone of light, creating a larger shadow on the screen. When it is far from the source, it blocks a narrower cone. Additionally, if you move the screen farther from the object, the shadow also grows larger. Shadow size = affected by distance from light source and distance from screen.",
+      "memory_hook": "CLOSER TO LIGHT = BIGGER SHADOW. Think of holding your hand near a torch in a dark room — the shadow of your hand fills the wall. Move your hand away from the torch — the shadow shrinks."
+    },
+    {
+      "id": "fc08",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is reflection of light? What is the most common example of reflection in daily life?",
+      "back": "Reflection is the bouncing back of light when it hits a surface. When light hits a smooth, shiny surface, it bounces off in a predictable direction. The most common example: a mirror. When you look in a mirror, light from your face travels to the mirror, bounces back to your eyes, and you see your image. Other examples: light reflecting off a still water surface (seeing sky's reflection in a lake), light reflecting off a spoon, light reflecting off metals. Without reflection, we could not see any non-luminous objects.",
+      "memory_hook": "REFLECTION = BOUNCING LIGHT. Like a rubber ball bouncing off a wall. Light hits mirror, bounces back to your eyes. We SEE because of reflected light — all non-luminous objects are visible only through reflection."
+    },
+    {
+      "id": "fc09",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is a pinhole camera? How does it work?",
+      "back": "A pinhole camera is a simple device that forms an image of an object without a lens. It consists of a dark box with a tiny hole (pinhole) on one side and a screen (tracing paper or white paper) on the opposite side. How it works: Light from an object passes through the tiny pinhole in straight lines. Rays from the top of the object travel downward through the hole; rays from the bottom travel upward. On the screen, the image appears inverted (upside-down) and reversed. The image is real (it can be projected on a screen) and is formed because light travels in straight lines.",
+      "memory_hook": "PINHOLE = NATURE'S CAMERA. Small hole + dark box + screen = image. The image is always UPSIDE DOWN because top rays go down and bottom rays go up through the tiny hole. Think of an X — the crossing at the pinhole flips the image."
+    },
+    {
+      "id": "fc10",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why does a pinhole camera produce an inverted image?",
+      "back": "A pinhole camera produces an inverted (upside-down and laterally reversed) image because light travels in straight lines. Light from the top of an object travels in a straight line through the pinhole downward — it hits the screen at the bottom. Light from the bottom of the object travels in a straight line through the pinhole upward — it hits the screen at the top. Left goes right and right goes left for the same reason. The result: the image on the screen is upside-down and mirror-reversed. This is direct proof that light travels in straight lines.",
+      "memory_hook": "PINHOLE FLIP: Top → Bottom, Bottom → Top, Left → Right. Draw an X — the pinhole is where they cross. The cross flips everything. That's why the image is inverted."
+    },
+    {
+      "id": "fc11",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Why can we see a book in a room lit by an electric bulb even though the bulb is not directly shining on our eyes?",
+      "back": "We can see the book because of REFLECTED LIGHT. The electric bulb (luminous source) emits light in all directions. Some of that light falls on the book (a non-luminous object). The book's surface reflects some of this light in various directions. Some of the reflected light enters our eyes — and we see the book. This is how we see ALL non-luminous objects: we see the reflected light from them. In a completely dark room with no light source, we cannot see anything — because there is no light to reflect off objects.",
+      "memory_hook": "Bulb → Book → Eyes. We are always seeing REFLECTED LIGHT from non-luminous objects. If there is no light source, there is no reflected light, and we are blind to everything around us."
+    },
+    {
+      "id": "fc12",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What does 'light travels in a straight line' mean? How can you prove it?",
+      "back": "Rectilinear propagation of light means that light always travels in a straight line and cannot bend on its own (without a medium change). Proof: (1) Pinhole camera — only the pinhole-aligned light reaches the screen, showing it doesn't bend around the box's interior. (2) Candle and holes experiment — place three cards with holes in a straight line; you can see the candle flame only when all holes are aligned (light travels straight through all three). (3) Shadows — because light travels straight, it cannot bend around objects, creating sharp-edged shadows. (4) Laser beam — visible as a straight beam in a dusty room.",
+      "memory_hook": "LIGHT = ARROW. Arrows fly straight. Light flies straight. Bend an arrow? No. Bend light? Not without special tools (lenses, prisms). Straight is light's only mode of travel."
+    },
+    {
+      "id": "fc13",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is the difference between a shadow and an image?",
+      "back": "A shadow is a dark silhouette formed when an opaque object blocks light — it shows only the outline/shape of the object, with no colour or detail, and always appears on the opposite side from the light source. An image is a detailed representation of the object formed either by reflection (in a mirror) or by a lens/pinhole — it can show colour, features, and details. Key differences: Shadow = dark, shape only, no colour, formed on the opposite side. Image = detailed, coloured, formed by reflection or refraction, on the same side (mirror) or opposite (pinhole).",
+      "memory_hook": "SHADOW = silhouette (shape only, dark). IMAGE = photograph (detailed, coloured). Your shadow has no face — it's just a dark shape. Your mirror image has your face, eyes, and smile."
+    },
+    {
+      "id": "fc14",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Why does sunlight passing through leaves create circular patches of light on the ground?",
+      "back": "Sunlight passing through small gaps between leaves acts like tiny pinhole cameras. Each small gap acts as a 'pinhole.' Since the Sun is round (circular), the image formed by each gap on the ground is circular — an image of the Sun. This is why the bright patches under trees are circular, even if the gaps between leaves are irregular shapes. This phenomenon is especially visible during a solar eclipse — you can see the crescent shape of the partially eclipsed Sun in these 'pinhole' patches on the ground. This demonstrates both that light travels in straight lines and that each gap acts as a pinhole.",
+      "memory_hook": "GAPS IN LEAVES = PINHOLES. Each tiny gap projects a mini image of the Sun. Sun is round → patches are round. Nature's own pinhole projector under every tree."
+    },
+    {
+      "id": "fc15",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Classify these materials as transparent, translucent, or opaque: glass window, frosted glass, wooden door, clean water, oiled paper, brick wall.",
+      "back": "Glass window — Transparent (clear glass, see through completely). Frosted glass — Translucent (allows light but blurs objects). Wooden door — Opaque (no light passes through). Clean water — Transparent (can see through clearly). Oiled paper — Translucent (light passes through but blurs objects). Brick wall — Opaque (light cannot pass through at all). Test: Can you see the other side clearly? → Transparent. Blurred? → Translucent. Can't see at all? → Opaque.",
+      "memory_hook": "The three T's: Transparent = see-through clearly (glass window). Translucent = see-through blurrily (frosted glass). Opaque = can't see through (door, wall). Clear → Blurred → Blocked."
+    },
+    {
+      "id": "fc16",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What happens to the shadow of an object when the screen is moved farther away from the object?",
+      "back": "When the screen is moved farther away from the object (while the light source and object stay in the same position): the shadow becomes LARGER. The light rays spreading from the object's edges continue to diverge (spread apart) as they travel farther beyond the object. The farther the screen, the more the rays have spread, creating a larger shadow. Conversely, if the screen is moved closer to the object, the shadow becomes smaller. Shadow size is directly related to: (1) object's closeness to light source, and (2) screen's distance from the object.",
+      "memory_hook": "FARTHER SCREEN = BIGGER SHADOW. Think of a film projector: the farther the screen, the bigger the movie image. Same principle — the shadow grows as it travels farther from the object."
+    },
+    {
+      "id": "fc17",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why is the image formed by a pinhole camera always smaller than the actual object?",
+      "back": "The image in a pinhole camera is usually smaller than the object because the screen (inside the camera) is typically much closer to the pinhole than the object is. Light rays from a large, distant object converge through the tiny pinhole — fitting the image into the small box. The image size depends on the ratio of (camera length) to (distance from camera to object). If the camera box is 10 cm deep and the object is 100 cm away, the image is 1/10 the object's size. If the box is very long or the object is close, the image can actually be larger.",
+      "memory_hook": "PINHOLE SHRINKS at a distance. The farther the object, the smaller the image. Like how a distant mountain looks tiny — your eye's pupil is a pinhole shrinking it down."
+    },
+    {
+      "id": "fc18",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "Can a transparent object form a shadow? Explain.",
+      "back": "A transparent object forms NO shadow (or a very faint one) because light passes through it almost completely. There are no light rays blocked behind the object — so no dark region forms on the screen. A translucent object forms a faint/partial shadow because some light is blocked and some scattered — the shadow is lighter than that of an opaque object. Only opaque objects form sharp, dark shadows. Example: a clear glass does not form a shadow (light passes through); a frosted glass forms a faint shadow; a book forms a sharp dark shadow.",
+      "memory_hook": "NO BLOCK = NO SHADOW. Transparent lets light through — nothing blocked, no dark patch. Only opaque = sharp shadow. Translucent = faint/blurry shadow. Shadow strength ∝ how much light is blocked."
+    },
+    {
+      "id": "fc19",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "During a solar eclipse, how does the Moon's shadow fall on the Earth? What does this tell us about light?",
+      "back": "During a solar eclipse: the Moon (opaque object) comes between the Sun (light source) and the Earth. The Moon blocks the Sun's light, casting its shadow on Earth's surface. People in the shadow region (umbra) see a total solar eclipse — the Sun is completely blocked. People in the partial shadow region (penumbra) see a partial eclipse. This is a grand-scale demonstration that: (1) light travels in straight lines; (2) opaque objects block light and form shadows; and (3) shadows can be enormous (the Moon's shadow on Earth can be hundreds of km wide). The same three conditions apply: light source (Sun), opaque object (Moon), screen (Earth).",
+      "memory_hook": "SOLAR ECLIPSE = biggest shadow experiment in nature. Sun (light) + Moon (opaque blocker) + Earth (screen) = perfect shadow lab. The Moon casts Earth into darkness — the ultimate shadow."
+    },
+    {
+      "id": "fc20",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "How does Yakshagana (Karnataka's traditional dance drama) use shadows and light in its performances?",
+      "back": "Yakshagana is Karnataka's traditional performing art form from the coastal districts (Dakshina Kannada, Udupi, Uttara Kannada). While Yakshagana itself is performed with direct light and vibrant costumes, Karnataka also has a shadow puppet tradition (Togalu Gombeyata — leather puppet shadow theatre) practiced in the Kolar, Tumakuru, and Mysuru regions. In Togalu Gombeyata: flat leather puppets (opaque) are held between a bright light source (lamp) and a white screen. The audience sees the shadow of the puppet on the screen. This is a perfect real-life application of shadow formation: light source + opaque object + screen.",
+      "memory_hook": "Togalu Gombeyata = Karnataka's shadow play. Lamp + Leather puppet (opaque) + White screen = Shadow drama. Art and science united in Karnataka's ancient storytelling tradition."
     }
   ]
 }

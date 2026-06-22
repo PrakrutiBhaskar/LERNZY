@@ -1,114 +1,142 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "science",
-  "chapter_id": "ch11_light_shadows",
-  "chapter_title": {
-    "en": "Light, Shadows and Reflections",
-    "hi": "प्रकाश, छायाएं एवं परावर्तन",
-    "kn": "ಬೆಳಕು, ನೆರಳು ಮತ್ತು ಪ್ರತಿಫಲನ"
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 11,
+  "chapter_title": "Light, Shadows and Reflections",
+  "estimated_study_time_minutes": 45,
+  "difficulty": "Easy",
+  "learning_objectives": [
+    "Distinguish between luminous and non-luminous objects with examples",
+    "Classify materials as transparent, translucent, or opaque",
+    "Explain the three conditions required for shadow formation",
+    "Describe how shadow size changes with the position of the light source, object, and screen",
+    "Explain that light travels in straight lines and cite evidence",
+    "Describe how a pinhole camera works and why it forms an inverted image",
+    "Define reflection of light and give everyday examples",
+    "Connect light concepts to Karnataka's cultural traditions (Togalu Gombeyata)"
+  ],
+  "prerequisite_knowledge": [
+    "General awareness that the Sun provides light and heat",
+    "Experience with shadows from daily life — noticing shadows change in size and direction",
+    "Familiarity with mirrors from daily use",
+    "Basic understanding from Chapter 10 that light travels (has direction)"
+  ],
+  "introduction": {
+    "why_important": "Light is fundamental to life and vision. Understanding how light travels, how shadows form, and how reflection works explains everyday phenomena — why you see your face in a mirror, why shadows are longer in the morning, why a pinhole makes an upside-down image, and how the solar eclipse happens. This chapter also launches the study of optics — one of physics' most important branches.",
+    "real_life_relevance": "Every time you look in a mirror, see your shadow, look through a window, or see sunlight patterns on the floor, you are observing the principles of this chapter. Cameras (including smartphone cameras) are based on the pinhole principle. Sunglasses use opacity and selective transmission. Solar eclipse viewing uses pinhole projection. Stage lighting in Yakshagana and shadow puppetry (Togalu Gombeyata) in Karnataka apply shadow and light principles artistically.",
+    "karnataka_context": "Karnataka has a rich connection to light and shadow in its cultural heritage. Togalu Gombeyata — the leather shadow puppet theatre — is practiced in Kolar, Tumakuru, and Mysuru districts and is one of Karnataka's most ancient art forms. Performers hold flat opaque leather puppets between a lamp and a white screen; audiences watch the shadows on the screen. This is a live demonstration of shadow formation principles. Karnataka also has significant solar energy potential — the state generates over 7,000 MW of solar power (one of India's top solar states), all based on harnessing sunlight. The Pavagada Solar Park in Tumakuru district is one of the world's largest solar parks, spanning 13,000 acres.",
+    "connection_to_previous_learning": "Chapter 10 introduced the concept that light travels in straight lines (rectilinear propagation) — this chapter explores the consequences of that property: shadows, pinhole cameras, and the need for line-of-sight for vision."
   },
-  "topics": [
+  "story_summary": {
+    "characters": [
+      {"name": "Light", "role": "The protagonist — always straight, never bending on its own, the source of all vision"},
+      {"name": "The Opaque Object", "role": "The blocker — stops light and creates shadows"},
+      {"name": "The Pinhole Camera", "role": "The inventor's tool — demonstrates rectilinear propagation and forms inverted real images"},
+      {"name": "The Mirror", "role": "The reflector — bounces light to create images"}
+    ],
+    "plot": [
+      "The chapter opens with the question: what is light and where does it come from?",
+      "It introduces luminous objects (produce own light) vs. non-luminous (reflect light).",
+      "It classifies materials by how they interact with light: transparent, translucent, opaque.",
+      "It explains shadow formation — the three conditions: light source, opaque object, screen.",
+      "It explores how shadow size changes with object and screen positions.",
+      "It introduces the pinhole camera as proof that light travels in straight lines, explaining the inverted image.",
+      "It covers reflection — how light bounces off smooth surfaces, enabling us to see non-luminous objects and our own reflection.",
+      "It connects these concepts to the solar eclipse and Karnataka's Togalu Gombeyata tradition."
+    ],
+    "moral": "Light is the basis of all vision. Its straight-line travel explains shadows, pinhole images, and the solar eclipse. Understanding light is understanding how we perceive the entire world around us."
+  },
+  "core_concepts": [
     {
-      "topic_id": "science_grade6_ch11_light_shadows_basics",
-      "title": {
-        "en": "Light, Shadows and Reflections - Fundamentals",
-        "hi": "प्रकाश, छायाएं एवं परावर्तन - बुनियादी बातें",
-        "kn": "ಬೆಳಕು, ನೆರಳು ಮತ್ತು ಪ್ರತಿಫಲನ - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Define force as push or pull",
-        "Calculate pressure given force and contact area",
-        "Identify contact and non-contact forces"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Light, Shadows and Reflections. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम प्रकाश, छायाएं एवं परावर्तन का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಬೆಳಕು, ನೆರಳು ಮತ್ತು ಪ್ರತಿಫಲನ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "A force is a push or pull on an object resulting from its interaction with another object. Pressure is the force applied perpendicular to the surface of an object per unit area (Pressure = Force / Area).",
-        "hi": "बल किसी वस्तु पर लगने वाला खिंचाव या धक्का है॥ दाब प्रति अनुप्रव्थ क्षेत्रफल पर लञाया गया बल है (दाब = बल / क्षेत्रफल)॥",
-        "kn": "ಬಲವು ತಷ್ಳುವಿಕೆ ಅಥವಾ ಎಳೆಯುವಿಕೆಯಾಗಿದೆ. ಒತ್ತಡವು ಪ್ರತಿ ಏರಿಯಾ ಮೇಲಿನ ಬಲವಾಗಿದೆ (ಒತ್ತಡ = ಬಲ / ಏರಿಯಾ)."
-      },
-      "worked_example": {
-        "problem": "Calculate the pressure when a force of 100 N is applied over an area of 2 square meters.",
-        "steps": [
-          {
-            "en": "Step 1: Identify given values: Force (F) = 100 N, Area (A) = 2 m².",
-            "hi": "चरण 1: दिए गए बल (F) = 100 N और क्षेत्रफल (A) = 2 m² को पहचानें॥",
-            "kn": "ಹಂತ 1: ಬಲ (F) = 100 N ಮತ್ತು ಏರಿಯಾ (A) = 2 m² ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Recall the formula: Pressure (P) = Force / Area.",
-            "hi": "चरण 2: सूत्र लागू करें: दाब = बल / क्षेत्रफल॥",
-            "kn": "ಹಂತ 2: ಒತ್ತಡದ ಸೂತ್ರ: ಒತ್ತಡ = ಬಲ / ಏರಿಯಾ."
-          },
-          {
-            "en": "Step 3: Substitute and solve: P = 100 / 2 = 50 N/m² (or Pascals).",
-            "hi": "चरण 3: मान रखकर हल करें: P = 100/2 = 50 Pa॥",
-            "kn": "ಹಂತ 3: ಲೆಕ್ಕವನ್ನು ಪರ಻fವರ್ತಿಸಿ: P = 100 / 2 = 50 Pa."
-          }
-        ],
-        "answer": "50 Pascals"
-      },
-      "key_points": {
-        "en": [
-          "Force can change the state of motion or shape of an object.",
-          "SI unit of force is Newton (N), and pressure is Pascal (Pa).",
-          "Friction is a contact force that opposes motion."
-        ],
-        "hi": [
-          "बल किसी वस्तु की गति या आकार को बदल सकता है॥",
-          "बल का मात्रक न्यूटन (N) है और दाब का पास्कल (Pa) है॥",
-          "चिपक्ता बल गति का विरोध करता है॥"
-        ],
-        "kn": [
-          "ಬಲವು ವಸ್ತುವಿನ ಚಲನೆನ್ನು ಅಥವಾ ಆಕಾರವನ್ನು ಬದಲಿಸಬಹುದು.",
-          "ಬಲದ ಮಾನ ನ್ಯೂಟನ್, ಮತ್ತು ಒತ್ತಡದು ಪ್ರತ್ಯೇಕವಾಗಿ ಪ್ಯಾಸ್ಕಲ್.",
-          "ಘರ್ಷಣೆಯು ಚಲನೆನ್ನು ವಿರೋಧಿಸುವ ಬಲಾಗಿದೆ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Luminous and Non-Luminous Objects",
+      "simple_explanation": "Luminous objects produce their own light. Non-luminous objects only reflect light from luminous sources. We see everything because of either direct light (from luminous objects) or reflected light (from non-luminous objects).",
+      "detailed_explanation": "Luminous objects generate light through various processes: the Sun through nuclear fusion, electric bulbs through electrical resistance heating (incandescent) or electron excitation (LED), candles through combustion, and fireflies through bioluminescence. Non-luminous objects are visible only because a luminous source illuminates them and they reflect some of that light toward our eyes. The Moon reflects sunlight — it has no fusion, no combustion, no electrical process. A mirror reflects room light. A book reflects lamp or sunlight. All human vision of non-luminous objects is an experience of reflected light. In a completely dark room with no luminous source, no non-luminous object can be seen — this is definitive proof that non-luminous objects depend entirely on reflected light for visibility.",
+      "real_life_example": "At night, without electricity, you can still see the Moon and stars (luminous or reflecting luminous light). But the furniture in your room is invisible — because no luminous source is illuminating it and no reflected light reaches your eyes. Strike a match (luminous source) and suddenly the nearby non-luminous objects become visible again — lit by the match's reflected light.",
+      "karnataka_example": "Karnataka's Pavagada Solar Park (Tumakuru district) is one of the world's largest solar farms, generating over 2,050 MW. It harnesses light directly from the Sun (a luminous source). The solar panels are non-luminous — they convert light to electricity but don't emit light themselves. Street lights in Bengaluru powered by this solar energy are luminous — they produce light for illuminating roads at night.",
+      "common_mistakes": "The most common error: students say the Moon is luminous because it shines brightly. The Moon only appears bright because it reflects sunlight very efficiently (about 12% reflectivity). It produces no light of its own. Also, students sometimes say 'a mirror is luminous' — a mirror is non-luminous; it only reflects light from other sources.",
+      "memory_tip": "LUMINOUS = LIGHT FACTORY (makes its own). NON-LUMINOUS = LIGHT BORROWER (borrows and reflects). Sun = factory. Moon = borrower. Never confuse the factory with the borrower."
+    },
+    {
+      "concept_name": "Transparent, Translucent, and Opaque Materials",
+      "simple_explanation": "Transparent materials let all light through (see clearly). Translucent materials let some light through (see blurrily). Opaque materials block all light (cannot see through). This property determines whether an object casts a shadow.",
+      "detailed_explanation": "Transparent: allows almost all light to pass through with minimal scattering. Objects behind are seen clearly. Examples: clear glass, clean water, air, some plastics, thin cellophane. Casts no shadow (or an extremely faint one). Translucent: allows some light to pass, but scatters it in multiple directions, blurring the image of objects behind. Examples: frosted/ground glass, oiled paper, thin cloth, tissue paper, wax, some gemstones, skin (held against a bright light). Casts a faint, partial shadow. Opaque: absorbs or reflects all light; none passes through. Objects behind cannot be seen. Examples: metal, wood, brick, concrete, most rocks, book, cardboard. Casts a sharp, dark shadow. The degree of shadow darkness correlates with opacity: opaque = darkest shadow, translucent = lighter shadow, transparent = no shadow.",
+      "real_life_example": "A bathroom window is typically frosted glass (translucent) — it lets in light for visibility inside, but blurs the view from outside for privacy. A shop window uses clear glass (transparent) so customers can see merchandise inside. A concrete wall is opaque — no light or view passes through. These three types serve very different practical purposes.",
+      "karnataka_example": "Traditional Karnataka architecture uses features that demonstrate all three types. The stone lattice windows (jaali work) in the Mysuru Palace are semi-opaque stone with cut-through holes — a combination creating filtered, patterned light inside the palace. The palace's stained glass ceiling panels are translucent — they let coloured light through. The solid granite walls are opaque. Karnataka's glass and mirror industry in Bengaluru produces transparent glass sheets for buildings across the state.",
+      "common_mistakes": "Students sometimes think 'translucent' means 'transparent.' They are different: translucent blurs objects; transparent does not. Also, students may think thin objects are always transparent — thin cloth is translucent, not transparent. Opacity depends on material composition, not just thickness.",
+      "memory_tip": "T-T-O from most to least see-through: Transparent (window glass), Translucent (frosted glass), Opaque (wooden door). 'T for See-Through (Transparent), T for See-Blurry (Translucent), O for Can't-See (Opaque).'"
+    },
+    {
+      "concept_name": "Shadow Formation",
+      "simple_explanation": "A shadow forms when an opaque object blocks light from reaching a surface. It is a dark region on the opposite side of the object from the light source. Shadow size depends on the positions of the light source, object, and screen.",
+      "detailed_explanation": "Shadow formation requires three things: a luminous source, an opaque (or translucent) object, and a screen. Because light travels in straight lines, it cannot bend around the opaque object. The region directly behind the object, where no light reaches, is the shadow (umbra = completely dark region). Around the umbra may be a partially-lit region (penumbra) if the light source has significant size. Shadow characteristics: (1) Always on the opposite side from the light source; (2) Has the general shape/outline of the object; (3) Size changes with the relative distances of object, source, and screen. Shadow grows larger when: the object moves closer to the source; or the screen moves farther from the object. Shadow shrinks when: the object moves farther from the source; or the screen moves closer to the object. The Sun's position throughout the day changes shadow direction and length — shadows are longest at sunrise/sunset (Sun low) and shortest at noon (Sun directly overhead).",
+      "real_life_example": "Your shadow at different times of day illustrates shadow principles. At sunrise, your shadow is very long (Sun is low → you block a wide angle of light → long shadow far behind you). At noon in Bengaluru, your shadow is almost directly under your feet (Sun nearly overhead → shadow almost directly below). At sunset, your shadow is again long but on the opposite side. This is also why sundials work — the Sun's movement changes shadow position predictably, showing the time.",
+      "karnataka_example": "Togalu Gombeyata — Karnataka's leather shadow puppet theatre — is a direct cultural application of shadow formation. Practiced in Kolar, Tumakuru, and Mysuru regions, these performances use flat, intricately cut leather puppets (opaque objects) held between a bright oil lamp or electric light (luminous source) and a white cotton screen. The audience on the other side of the screen watches the shadow performance. The puppets are shaped to cast recognisable shadows of mythological characters from the Ramayana and Mahabharata. Karnataka's Janapada Loka (folk arts centre) near Ramanagara preserves this art form.",
+      "common_mistakes": "Students often say a shadow is a 'reflection' of an object — shadows and reflections are completely different. A shadow is an absence of light (dark region). A reflection is redirected light creating an image. Also, students sometimes state that a shadow is always the same size as the object — shadows can be much larger or smaller depending on positions.",
+      "memory_tip": "Shadow = LIGHT'S BLIND SPOT behind the object. LOS: Light source + Opaque object + Screen = Shadow. Remove any one element — no shadow. The shadow always hides on the opposite side from the light, like someone hiding behind a wall from a torch."
+    },
+    {
+      "concept_name": "Pinhole Camera and Rectilinear Propagation",
+      "simple_explanation": "A pinhole camera proves that light travels in straight lines. Light from an object passes through a tiny hole and forms an inverted real image on the screen inside the box — because rays from top go down, rays from bottom go up.",
+      "detailed_explanation": "A pinhole camera (camera obscura) is a darkened box with a tiny hole (pinhole) on one face and a translucent screen (tracing paper) on the opposite face. When the pinhole faces a bright object: light from the top of the object travels in a straight line downward through the pinhole and hits the bottom of the screen; light from the bottom of the object travels upward through the pinhole and hits the top of the screen; light from the left goes right, and right goes left. Result: the image is inverted (upside-down) and laterally reversed. The image is real (can be projected on paper) and smaller than the object (if the object is far away). If the box is made longer, the image becomes larger. If a second pinhole is added, a second inverted image forms. Proof of rectilinear propagation: the image forms only because each ray travels in a straight line from object point through pinhole to screen — no bending occurs.",
+      "real_life_example": "The human eye is essentially a biological pinhole camera. The pupil (pinhole), the lens (focusing), and the retina (screen) work together to form an inverted image of the world — your brain flips it right-side up. Before modern photography, artists used large pinhole camera obscuras to trace accurate drawings of landscapes. Gaps between tree leaves act as natural pinholes, projecting circular images of the Sun on the ground.",
+      "karnataka_example": "During the annular solar eclipse of 2020 (visible from parts of Karnataka, especially from Srirangapatna area), people used pinhole projectors made from cardboard to safely view the crescent-shaped Sun. The pinhole projected an inverted crescent image of the partially covered Sun onto white paper. Karnataka's science museums — including the Visvesvaraya Industrial and Technological Museum in Bengaluru — have exhibits demonstrating pinhole camera principles and the history of optics.",
+      "common_mistakes": "Students often confuse pinhole camera image with mirror image. The pinhole camera image is real and inverted (on a screen). A mirror image is virtual and upright (appears behind the mirror). Also, students think a larger pinhole gives a better image — a larger hole allows more light rays from different angles, blurring the image. The smallest pinhole gives the sharpest (though dimmer) image.",
+      "memory_tip": "PINHOLE = FLIP MACHINE. Top goes down, bottom goes up — the pinhole is where they cross (like an X). Pinhole camera = nature's proof that light is a straight-line traveller that never curves."
     }
+  ],
+  "quick_check_questions": [
+    {
+      "after_concept": "Luminous and Non-Luminous Objects",
+      "questions": [
+        {"type": "Recall", "q": "Name two luminous and two non-luminous objects.", "a": "Luminous: Sun, electric bulb (also candle, firefly). Non-luminous: Moon, book (also mirror, chair, table)."},
+        {"type": "Application", "q": "Is a glowing firefly luminous or non-luminous? Explain.", "a": "Luminous — a firefly produces its own light through a chemical reaction (bioluminescence) in its abdomen. It does not reflect light from another source."}
+      ]
+    },
+    {
+      "after_concept": "Shadow Formation",
+      "questions": [
+        {"type": "Application", "q": "Why is your shadow longest at sunrise and shortest at noon?", "a": "At sunrise, the Sun is low on the horizon, so you block light at a shallow angle, projecting a long shadow far behind you. At noon, the Sun is nearly overhead, so your shadow falls almost directly under your feet — very short."},
+        {"type": "Application", "q": "List the three conditions for shadow formation.", "a": "1. A source of light (luminous object). 2. An opaque (or translucent) object to block the light. 3. A screen/surface for the shadow to fall on."}
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Luminous objects produce their own light; non-luminous objects only reflect light from luminous sources.",
+    "The Moon is non-luminous — it reflects sunlight.",
+    "Transparent materials allow light to pass clearly; translucent materials scatter light; opaque materials block all light.",
+    "Shadow formation requires three things: a light source, an opaque object, and a screen.",
+    "Light travels in straight lines — it cannot bend around objects, which is why shadows form.",
+    "Moving an object closer to the light source makes the shadow larger; moving it farther makes it smaller.",
+    "A pinhole camera forms an inverted, real image because light from the top goes down and light from the bottom goes up through the pinhole.",
+    "Reflection is the bouncing of light off a surface — this is how we see all non-luminous objects.",
+    "A solar eclipse is the largest natural demonstration of shadow formation (Sun → Moon → Earth).",
+    "Karnataka's Togalu Gombeyata shadow puppet theatre is a cultural application of shadow formation principles."
+  ],
+  "mind_map": {
+    "root": "Light, Shadows and Reflections",
+    "branches": [
+      {"branch": "Sources of Light", "sub": ["Luminous — Sun, bulb, candle, firefly", "Non-luminous — Moon, mirror, book (reflect light)"]},
+      {"branch": "Materials and Light", "sub": ["Transparent — light passes clearly (glass)", "Translucent — light passes blurrily (frosted glass)", "Opaque — light blocked (wood, metal)"]},
+      {"branch": "Shadow Formation", "sub": ["3 conditions: light source + opaque object + screen", "Shadow on opposite side of light source", "Larger when closer to light; smaller when farther"]},
+      {"branch": "Rectilinear Propagation", "sub": ["Light travels only in straight lines", "Evidence: pinhole camera, three-card experiment, shadows", "Pinhole camera: inverted real image"]},
+      {"branch": "Reflection", "sub": ["Light bounces off smooth surfaces", "Enables vision of non-luminous objects", "Mirror reflection: virtual upright image"]},
+      {"branch": "Karnataka Connections", "sub": ["Togalu Gombeyata — shadow puppet theatre", "Pavagada Solar Park — harnessing sunlight", "Mysuru Palace — jaali windows, stained glass", "Solar eclipse pinhole projection"]}
+    ]
+  },
+  "revision_notes": "Chapter 11 covers light, shadows, and reflection. Luminous objects (Sun, bulb, candle) produce own light. Non-luminous (Moon, book) only reflect light. Materials: Transparent (clear glass — light passes fully), Translucent (frosted glass — light passes blurrily), Opaque (wood — light fully blocked). Shadow needs 3 conditions: luminous source + opaque object + screen. Light travels in straight lines (rectilinear propagation) — proven by three-card experiment and pinhole camera. Shadow size: larger when object closer to light or screen farther from object. Pinhole camera: tiny hole + dark box + screen → inverted real image (top ray goes down, bottom ray goes up through hole). Reflection: light bounces off surfaces → how we see non-luminous objects. Solar eclipse: Sun + Moon (opaque) + Earth = giant shadow. Karnataka: Togalu Gombeyata (Kolar/Tumakuru/Mysuru) = shadow puppet theatre using lamp + leather puppet + screen. Pavagada Solar Park (Tumakuru) = world-scale solar energy from luminous Sun.",
+  "must_remember_facts": [
+    "Luminous = produces own light (Sun, bulb). Non-luminous = reflects light (Moon, mirror, book).",
+    "Moon is NON-LUMINOUS — it reflects sunlight. It produces no light of its own.",
+    "Transparent (clear glass) → see clearly. Translucent (frosted glass) → see blurrily. Opaque (wood) → cannot see through.",
+    "3 conditions for shadow: luminous source + opaque object + screen. Remove any one — no shadow.",
+    "Light travels in STRAIGHT LINES — it cannot bend around objects.",
+    "Shadow is always on the OPPOSITE side of the object from the light source.",
+    "Shadow gets LARGER when object moves CLOSER to the light source.",
+    "Pinhole camera image is INVERTED (upside down) because top rays go to bottom and bottom rays go to top.",
+    "Reflection = light bouncing off a surface. All non-luminous objects are visible because of reflected light.",
+    "Togalu Gombeyata (Karnataka's leather shadow puppet theatre) uses: lamp (source) + leather puppet (opaque) + white screen — a perfect shadow formation demonstration."
   ]
 }

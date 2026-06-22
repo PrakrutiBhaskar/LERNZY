@@ -1,114 +1,184 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "social",
-  "chapter_id": "ch02_earliest_people",
-  "chapter_title": {
-    "en": "On the Trail of the Earliest People",
-    "hi": "आरंभिक मानव की खोज में",
-    "kn": "ಆರಂಭಿಕ ಮಾನವನ ಜಾಡಿನಲ್ಲಿ"
+  "subject": "Social Science — History",
+  "textbook": "Our Pasts-I",
+  "chapter_number": 2,
+  "chapter_title": "On the Trail of the Earliest People",
+  "estimated_study_time_minutes": 45,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Understand who the earliest people (hunter-gatherers) were and how they lived",
+    "Explain why hunter-gatherers moved from place to place — their reasons for migration",
+    "Identify the tools hunter-gatherers used and how we know about them",
+    "Understand how fire was discovered and how it was used",
+    "Describe the transition from hunting-gathering to farming and herding",
+    "Know about the site of Mehrgarh — one of the earliest known villages",
+    "Appreciate that men and women both played important roles in hunter-gatherer communities",
+    "Connect early human history to Karnataka's own archaeological sites"
+  ],
+
+  "prerequisite_knowledge": [
+    "Understanding from Chapter 1 of what historians and archaeologists do",
+    "Knowledge that the earliest people lived along rivers like the Narmada",
+    "Basic understanding of what sources (tools, bones, cave paintings) archaeologists find",
+    "Knowledge that BCE dates count backwards"
+  ],
+
+  "introduction": {
+    "why_important": "Understanding how the earliest humans lived — their food, shelter, tools, and social life — helps us appreciate how far human civilisation has come, and how every major development (farming, cities, writing) grew out of this early hunter-gatherer way of life.",
+    "real_life_relevance": "Every time you eat a meal, you are benefiting from the agricultural revolution that began about 8000–12,000 years ago. Before that, every human being on Earth was a hunter-gatherer — moving constantly, living off what nature provided. Understanding this connects us to our deepest roots as a species.",
+    "karnataka_context": "Karnataka has rich evidence of early human habitation. Neolithic (New Stone Age) sites have been found across Karnataka — at Brahmagiri (Hassan district), Tekkalakota (Bellary district), and Piklihal (Raichur district). These sites show evidence of early farming, animal herding, and stone tool use — exactly the transition described in this chapter. The Tungabhadra and Krishna river valleys in northern Karnataka were important zones of early human settlement.",
+    "connection_to_previous_learning": "Chapter 1 introduced the concept of sources — tools, cave paintings, and animal bones are exactly the archaeological remains discussed there. Chapter 2 now uses those methods to understand the specific lives of the earliest people."
   },
-  "topics": [
+
+  "chapter_summary": {
+    "key_topics": [
+      "Hunter-gatherers: who they were, what they ate (plants, roots, fruits, animals, fish, birds), and why they moved",
+      "Four reasons for movement: food resources exhausted, animals move seasonally, seasonal plant availability, search for water",
+      "How we know about them: stone tools (made of flint/chert), cave paintings (like Bhimbetka), animal bones found at campsites",
+      "Choosing places to live: near perennial water sources, forests with food, caves and rock shelters for protection",
+      "Fire: used for warmth, protection from animals, cooking food, and signalling",
+      "A changing environment: grasslands developed around 12,000 years ago; new animals (cattle, sheep, deer); this prompted farming and herding",
+      "Mehrgarh: one of the earliest known villages, located in Balochistan (present-day Pakistan); wheat and barley grown; sheep and goats herded; about 8000 years ago",
+      "New way of life: pots for cooking and storage, weaving cloth, settled villages — but hunting and gathering continued alongside farming for thousands of years"
+    ],
+    "moral_lesson": "Human beings have always adapted and innovated in response to their environment. The shift from hunter-gathering to farming was not sudden but a gradual, creative response to a changing world."
+  },
+
+  "core_concepts": [
     {
-      "topic_id": "social_grade6_ch02_earliest_people_basics",
-      "title": {
-        "en": "On the Trail of the Earliest People - Fundamentals",
-        "hi": "आरंभिक मानव की खोज में - बुनियादी बातें",
-        "kn": "ಆರಂಭಿಕ ಮಾನವನ ಜಾಡಿನಲ್ಲಿ - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of On the Trail of the Earliest People",
-        "Solve exercises and apply rules related to On the Trail of the Earliest People",
-        "Analyze practical examples of On the Trail of the Earliest People in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore On the Trail of the Earliest People. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम आरंभिक मानव की खोज में का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಆರಂಭಿಕ ಮಾನವನ ಜಾಡಿನಲ್ಲಿ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore On the Trail of the Earliest People in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम आरंभिक मानव की खोज में का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಆರಂಭಿಕ ಮಾನವನ ಜಾಡಿನಲ್ಲಿ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of On the Trail of the Earliest People.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in On the Trail of the Earliest People.",
-            "hi": "चरण 1: आरंभिक मानव की खोज में के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಆರಂಭಿಕ ಮಾನವನ ಜಾಡಿನಲ್ಲಿ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering On the Trail of the Earliest People builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "आरंभिक मानव की खोज में में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಆರಂಭಿಕ ಮಾನವನ ಜಾಡಿನಲ್ಲಿ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Hunter-Gatherers and Why They Moved",
+      "simple_explanation": "Hunter-gatherers were the earliest people who got their food by hunting animals and gathering plants. They moved from place to place because they had to follow food and water sources.",
+      "detailed_explanation": "Hunter-gatherers lived by hunting wild animals, catching fish and birds, and gathering fruits, roots, nuts, seeds, leaves, stalks, and eggs. They did not farm or keep animals — everything they ate came directly from nature. They moved constantly for four main reasons: first, if they stayed too long in one place, they would exhaust all the available food; second, animals they hunted moved seasonally (following grass, water, or smaller prey), so hunters had to follow them; third, different plants become available in different seasons, requiring people to move to different areas; fourth, they needed to find reliable sources of water. This mobile lifestyle required deep knowledge of the landscape, plants, and animals — hunter-gatherers were expert naturalists.",
+      "real_life_example": "Imagine if your school had no canteen and no food brought from home. You would have to walk around looking for edible plants or catch fish from a nearby pond. When you ate everything near the school, you would move to a new area. This is essentially how hunter-gatherers lived — following the food.",
+      "karnataka_example": "The Neolithic site at Piklihal in Raichur district, Karnataka, shows evidence of pastoral (herding) communities that moved seasonally with their cattle — similar to the seasonal movement of hunter-gatherers described in this chapter. Karnataka's Deccan plateau had early human communities that practised a mix of herding and limited farming, reflecting the gradual transition described here.",
+      "common_mistakes": "Students often think hunter-gatherers were 'primitive' or unintelligent. In fact, they had extraordinary knowledge of hundreds of plant and animal species, understood seasons and weather, and made sophisticated tools. Their lifestyle required immense skill and intelligence — they simply had a different relationship with nature than farmers do.",
+      "memory_tip": "WHY THEY MOVED = FAWS: Food runs out, Animals move, Water needed, Seasons change. FAWS = the four reasons hunter-gatherers were always on the move!"
+    },
+    {
+      "concept_name": "Stone Tools and How We Know About Early People",
+      "simple_explanation": "We know about hunter-gatherers mainly through the stone tools they left behind. These tools were made of hard stone (flint, chert, quartzite) and were used for cutting, scraping, and hunting.",
+      "detailed_explanation": "Hunter-gatherers made tools from stone — particularly hard stones like flint, chert, and quartzite — by chipping, flaking, and shaping them. These stone tools are called lithics (from Greek 'lithos' = stone). They include hand axes, scrapers, blades, and microliths (tiny sharp blades used as parts of arrows or spears). Stone tools are the most important source for understanding early people because stone survives for millions of years even when everything else decays. Archaeologists study where the stone came from (to understand trade/movement), how it was shaped (to understand technology), and where it was found (to understand settlements). Cave paintings, like those at Bhimbetka in Madhya Pradesh, are another source — they show animals, hunting scenes, and human figures, giving us visual evidence of early life. Animal bones found at campsites show what people ate.",
+      "real_life_example": "When you use scissors (metal blades) to cut paper, you are using the same basic principle as a stone tool — a sharp edge applied to material. Early stone tools were the scissors, knives, axes, and chisels of their time. Just as we can tell a skilled carpenter from a beginner by their tools, archaeologists can tell a lot about a community from the quality and type of stone tools they left behind.",
+      "karnataka_example": "Brahmagiri in Hassan district, Karnataka (excavated by Mortimer Wheeler in 1947) revealed Neolithic (New Stone Age) stone tools, animal bones (sheep, goat, cattle), and evidence of a transition from stone tools to iron. This Karnataka site is one of the most important excavation sites in South India for understanding the transition from hunter-gathering to early farming.",
+      "common_mistakes": "Students sometimes think that because these people used stone tools, they were 'simple'. But stone tool technology was highly sophisticated — it required knowing which stones were suitable, how to strike them to produce the right shape, and how to hafting (attach) tools to handles. The Acheulean hand axe, made by early humans over 500,000 years ago, shows remarkable skill and consistency.",
+      "memory_tip": "STONE TOOLS = CLUES FROM THE PAST. Remember: Stone Survives Everything — organic materials (wood, bone, cloth) rot away, but stone stays for millions of years. That is why stone tools are our best window into early human life!"
+    },
+    {
+      "concept_name": "Mehrgarh — The Earliest Known Village",
+      "simple_explanation": "Mehrgarh is one of the earliest known farming villages in the world, located in present-day Balochistan, Pakistan. People there grew wheat and barley and herded sheep and goats about 8000 years ago.",
+      "detailed_explanation": "Mehrgarh is located in a fertile plain near the Bolan Pass in Balochistan (present-day Pakistan), which is an important route into Iran. It is one of the earliest known villages in the subcontinent — people began settling there about 8000 years ago (approximately 6000 BCE). At Mehrgarh, archaeologists have found: evidence of wheat and barley cultivation, bones of sheep and goats (showing herding), bones of wild animals like deer and pig (showing that hunting continued alongside farming), evidence of mud-brick houses, pottery, and burials (with people buried with tools and ornaments). The presence of wild animal bones alongside domesticated animal bones shows that Mehrgarh was a transitional site — people were shifting from hunting to herding, not making a sudden change. Mehrgarh shows that the transition from hunter-gathering to farming was gradual, not sudden.",
+      "real_life_example": "Imagine a community that slowly shifted from a completely mobile, outdoor lifestyle to a more settled one — perhaps nomadic tribal communities in India that gradually adopted agriculture over generations. Mehrgarh represents exactly this gradual transition, preserved in soil for archaeologists to study 8000 years later.",
+      "karnataka_example": "While Mehrgarh itself is in Pakistan, Karnataka has its own early farming sites. The site of Hallur in Haveri district, Karnataka (dated to about 1800–1200 BCE) shows evidence of early agricultural communities using iron tools. Neolithic settlements at Piklihal (Raichur) show pastoral communities that herded cattle — paralleling the animal herding found at Mehrgarh, though at a slightly later date.",
+      "common_mistakes": "Students often confuse Mehrgarh with Harappa or Mohenjo-daro. Mehrgarh is much older (8000 years ago) and much simpler — it is a village, not a city. Harappan cities came later (about 4700 years ago) and were far more complex. Mehrgarh represents the very beginning of settled life; Harappa represents a much more developed urban civilisation.",
+      "memory_tip": "MEHRGARH = MEHRa GARHna (Hindi: 'building something important'). It's where people first 'built' (settled) a village and 'built' (started) farming in the subcontinent. Mehrgarh → Mehrness = More settled, More crops, More animals = the More-way of life beginning!"
     }
+  ],
+
+  "key_terms_glossary": [
+    { "term": "Hunter-gatherer", "meaning": "A person who gets food by hunting wild animals and gathering wild plants, fruits, roots, and nuts. Hunter-gatherers did not farm or keep domestic animals. They were the earliest humans, and all people on Earth were hunter-gatherers before farming began." },
+    { "term": "Nomadic", "meaning": "Moving from place to place without a permanent home. Hunter-gatherers were nomadic — they moved seasonally to follow food and water sources. The opposite of nomadic is sedentary (settled in one place)." },
+    { "term": "Lithic / Stone tools", "meaning": "Tools made from stone by chipping, flaking, or grinding. Lithic tools include hand axes, scrapers, blades, and microliths. They are the most durable evidence of early human activity and can survive millions of years." },
+    { "term": "Microlithic tools", "meaning": "Very small, sharp stone blades (microliths) made during the later Stone Age. They were used as parts of composite tools — attached to wooden handles or shafts to make arrows, spears, or sickles. Microlithic sites are found across India." },
+    { "term": "Bhimbetka", "meaning": "A famous prehistoric rock shelter site in Madhya Pradesh, India. Its cave walls are covered with paintings by early humans showing animals, hunting scenes, and daily life. It was declared a UNESCO World Heritage Site in 2003." },
+    { "term": "Perennial water source", "meaning": "A water source (river, lake) that has water throughout the year, not just seasonally. Hunter-gatherers preferred to live near perennial sources because they could rely on water supply all year round, unlike seasonal rivers that dry up in summer." },
+    { "term": "Domestication", "meaning": "The process by which wild animals or plants are gradually tamed and bred under human control. Dogs, sheep, goats, cattle, and wheat were among the earliest domesticated species. Domestication was a key step in the transition from hunting-gathering to farming." },
+    { "term": "Mehrgarh", "meaning": "One of the earliest known villages in the Indian subcontinent, located in Balochistan (present-day Pakistan), near the Bolan Pass. People at Mehrgarh grew wheat and barley and herded sheep and goats about 8000 years ago. It represents the earliest phase of settled farming life in South Asia." },
+    { "term": "Neolithic", "meaning": "Meaning 'New Stone Age' — the period characterised by the use of polished stone tools, the beginning of farming, animal domestication, and permanent settlements. In South Asia, the Neolithic began around 7000–3000 BCE depending on the region." },
+    { "term": "Cave painting", "meaning": "Ancient paintings made on cave walls using natural pigments (ochre, charcoal). Cave paintings by hunter-gatherers show animals, humans, hunting scenes, and other aspects of daily life. The most famous examples in India are at Bhimbetka, Madhya Pradesh." }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Comprehension",
+      "question": "Why did hunter-gatherers move from place to place? Give at least three reasons.",
+      "step_by_step_answer": [
+        "Step 1: Recall the four main reasons from the chapter.",
+        "Step 2: Reason 1 — If they stayed in one place too long, they would have eaten all the available plant and animal resources in that area. To survive, they had to move to areas with food available.",
+        "Step 3: Reason 2 — Animals that hunter-gatherers hunted were themselves on the move — following grass, water, or smaller prey. Hunters had to follow their prey.",
+        "Step 4: Reason 3 — Different plants produce food (fruits, tubers, seeds) at different seasons in different places. People moved to take advantage of seasonal availability.",
+        "Step 5: Reason 4 — They needed reliable water sources. In summer, some rivers and streams dry up, forcing people to move to find perennial water.",
+        "Conclusion: Hunter-gatherers were not wandering randomly — they had a deep knowledge of seasonal patterns and moved strategically to ensure their survival."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Vocabulary in context",
+      "question": "Use the word 'domestication' in a sentence connected to the chapter's content about Mehrgarh.",
+      "step_by_step_answer": [
+        "Step 1: Recall meaning — Domestication is the process of taming and breeding wild animals or cultivating wild plants under human control.",
+        "Step 2: Connect to Mehrgarh — At Mehrgarh, people domesticated sheep and goats (wild animals tamed for herding) and also cultivated (domesticated) wheat and barley (wild grasses grown as crops).",
+        "Step 3: Write sentence: 'At Mehrgarh, one of the earliest examples of domestication in South Asia, people began taming sheep and goats for herding and cultivating wild wheat and barley as crops about 8000 years ago.'"
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Application",
+      "question": "The chapter says the transition from hunting-gathering to farming happened gradually over thousands of years. Why was it gradual rather than sudden?",
+      "step_by_step_answer": [
+        "Step 1: Think about what 'gradual' means in this context — the change happened over many generations, not in a single lifetime.",
+        "Step 2: Reason 1 — Farming required new knowledge and skills (how to select seeds, prepare soil, irrigate, store grain) that took generations to develop.",
+        "Step 3: Reason 2 — Hunting and gathering was a reliable system that had worked for hundreds of thousands of years. People didn't abandon it overnight.",
+        "Step 4: Reason 3 — Evidence from Mehrgarh shows that even after farming began, people continued hunting wild animals. Both strategies coexisted for a long time.",
+        "Step 5: Reason 4 — Climate change (development of grasslands) gradually made farming more attractive in some areas while hunting remained important in others.",
+        "Conclusion: The transition was gradual because people were practical — they adopted new strategies slowly as they proved reliable, while keeping old ones as backup. This is a pattern we see in many human transitions throughout history."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Hunter-Gatherers and Why They Moved",
+      "questions": [
+        { "type": "Recall", "q": "What did hunter-gatherers eat?", "a": "Hunter-gatherers ate wild animals (hunted), fish, birds, fruits, roots, nuts, seeds, leaves, stalks, and eggs — everything gathered from nature. They did not farm or keep domestic animals." },
+        { "type": "Recall", "q": "Name any two reasons why hunter-gatherers moved from place to place.", "a": "Any two of: (1) Food resources got exhausted if they stayed too long; (2) Animals moved seasonally and hunters had to follow; (3) Different plants available in different seasons; (4) Need for reliable water sources." },
+        { "type": "Understanding", "q": "How were hunter-gatherers different from farmers? Give two differences.", "a": "Hunter-gatherers moved from place to place; farmers settled in one place. Hunter-gatherers got food from nature; farmers grew their own food. Hunter-gatherers had no stored food supply; farmers stored grain. Hunter-gatherers had no domestic animals initially; farmers herded animals." },
+        { "type": "Understanding", "q": "Why do archaeologists study stone tools to understand early people?", "a": "Stone tools are one of the few materials from early times that survive for millions of years. Organic materials like wood, cloth, and plant food decay quickly. Stone tools tell archaeologists about the technology, skills, and ways of life of early people." },
+        { "type": "Application", "q": "Why do you think hunter-gatherers preferred to live near caves and rock shelters rather than in open fields?", "a": "Caves and rock shelters provided natural protection from rain, cold, and dangerous wild animals. They did not need to be built (saving effort), they were warm in winter, and they could be returned to seasonally. They also provided a natural 'home base' from which people could go out to gather food and return." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Hunter-gatherers were the earliest humans who got food by hunting animals and gathering wild plants — they did not farm.",
+    "They moved from place to place for four reasons: food ran out, animals moved, seasonal plants, and need for water.",
+    "Stone tools (lithics) are the main source of evidence — they last for millions of years unlike organic materials.",
+    "Cave paintings like those at Bhimbetka (Madhya Pradesh) show us animals, hunting scenes, and daily life of early people.",
+    "Hunter-gatherers preferred to live near perennial water sources and used caves and rock shelters for protection.",
+    "Fire was used for warmth, cooking, protection from animals, and light — a crucial discovery for human survival.",
+    "Around 12,000 years ago, the climate changed — grasslands developed, new animals appeared, and conditions became favourable for farming.",
+    "Mehrgarh (Balochistan, Pakistan) is one of the earliest known farming villages — wheat, barley, sheep, and goats, about 8000 years ago.",
+    "The transition from hunting-gathering to farming was gradual — both ways of life coexisted for thousands of years.",
+    "Karnataka has its own early human sites: Brahmagiri (Hassan), Piklihal (Raichur), and Tekkalakota (Bellary) all show early stone age and Neolithic remains."
+  ],
+
+  "mind_map": {
+    "root": "On the Trail of the Earliest People",
+    "branches": [
+      { "branch": "Who Were They?", "sub": ["Hunter-gatherers", "Nomadic — always moving", "Expert naturalists", "Lived 2+ million years ago"] },
+      { "branch": "Why They Moved", "sub": ["Food runs out", "Animals migrate seasonally", "Seasonal plants", "Need for water (FAWS)"] },
+      { "branch": "Evidence / Sources", "sub": ["Stone tools (lithics)", "Cave paintings — Bhimbetka", "Animal bones at campsites", "Ash/charcoal (fire evidence)"] },
+      { "branch": "Fire", "sub": ["Warmth and cooking", "Protection from animals", "Light in darkness", "Signalling"] },
+      { "branch": "Mehrgarh", "sub": ["Balochistan, Pakistan", "8000 years ago", "Wheat, barley grown", "Sheep and goats herded", "Gradual transition from hunting"] }
+    ]
+  },
+
+  "revision_notes": "Chapter 2 of Our Pasts-I traces the lives of the earliest people — the hunter-gatherers who lived in the subcontinent from about 2 million years ago. Hunter-gatherers got food by hunting wild animals (they caught fish and birds too) and gathering fruits, roots, nuts, seeds, leaves, and eggs. They moved from place to place for four reasons: food resources got exhausted, animals migrated seasonally, different plants were available in different seasons, and they needed reliable water sources. We know about them mainly through stone tools (lithics), cave paintings (like Bhimbetka in Madhya Pradesh), and animal bones found at campsites. They preferred to live in caves and rock shelters near perennial water sources. Fire was a major discovery — used for warmth, cooking, light, and protection from animals. Around 12,000 years ago, the environment changed — grasslands developed, new animals appeared, and conditions favoured farming. Mehrgarh in Balochistan (present-day Pakistan) is one of the earliest known villages — people grew wheat and barley and herded sheep and goats about 8000 years ago. Bones of wild animals (deer, pig) alongside domesticated ones show the transition was gradual. New developments: pottery for cooking and storage, weaving cloth, mud-brick houses. The shift from hunting-gathering to farming happened slowly over thousands of years — both ways of life coexisted for a long time. Key vocabulary: hunter-gatherer, nomadic, lithic, microlithic, Bhimbetka, Mehrgarh, domestication, perennial, Neolithic.",
+
+  "must_remember_facts": [
+    "Hunter-gatherers hunted animals, caught fish and birds, and gathered fruits, roots, nuts, and seeds.",
+    "Four reasons for movement: food runs out, animals migrate, seasonal plants, need for water (FAWS).",
+    "Main evidence: stone tools (lithics), cave paintings (Bhimbetka, Madhya Pradesh), animal bones.",
+    "Hunter-gatherers preferred to live near perennial water sources, in caves and rock shelters.",
+    "Fire: used for warmth, cooking food, protection from animals, and light.",
+    "Around 12,000 years ago: climate changed, grasslands formed, new animals appeared.",
+    "Mehrgarh (Balochistan, Pakistan): one of the earliest villages, about 8000 years ago.",
+    "At Mehrgarh: wheat and barley grown; sheep and goats herded; mud-brick houses built.",
+    "Wild animal bones at Mehrgarh + domesticated animal bones = gradual transition from hunting to herding.",
+    "The shift from hunting-gathering to farming was gradual — both coexisted for thousands of years."
   ]
 }

@@ -1,96 +1,32 @@
 {
-  "version": "1.0",
-  "topic_id": "math_grade7_ch03_data_handling_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 7,
+  "subject": "Mathematics",
+  "textbook": "Mathematics — Textbook for Class VII",
+  "chapter_number": 3,
+  "chapter_title": "Data Handling",
+  "total_cards": 20,
   "cards": [
-    {
-      "id": "fc01",
-      "front": {
-        "en": "What is the core idea of Data Handling? (FC1)",
-        "hi": "What is the core idea of Data Handling? (FC1)",
-        "kn": "What is the core idea of Data Handling? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc02",
-      "front": {
-        "en": "Why is Data Handling important? (FC2)",
-        "hi": "Why is Data Handling important? (FC2)",
-        "kn": "Why is Data Handling important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc03",
-      "front": {
-        "en": "What is the core idea of Data Handling? (FC3)",
-        "hi": "What is the core idea of Data Handling? (FC3)",
-        "kn": "What is the core idea of Data Handling? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc04",
-      "front": {
-        "en": "Why is Data Handling important? (FC4)",
-        "hi": "Why is Data Handling important? (FC4)",
-        "kn": "Why is Data Handling important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc05",
-      "front": {
-        "en": "What is the core idea of Data Handling? (FC5)",
-        "hi": "What is the core idea of Data Handling? (FC5)",
-        "kn": "What is the core idea of Data Handling? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    }
+    {"id": "fc01", "type": "Definition", "difficulty": "Easy", "front": "What is the arithmetic mean? How is it calculated?", "back": "The arithmetic mean (or average) is the sum of all observations divided by the number of observations. Formula: Mean = (Sum of all observations) / (Number of observations). Example: Data = 8, 12, 6, 10, 14. Sum = 50. n = 5. Mean = 50/5 = 10. The mean represents the 'fair share' — what each value would be if all were made equal.", "memory_hook": "Mean = TOTAL ÷ COUNT. Like splitting a restaurant bill equally — each person pays the 'mean' amount. Sum everything, divide by how many. That's it."},
+    {"id": "fc02", "type": "Definition", "difficulty": "Easy", "front": "What is the median? How do you find it for odd and even number of values?", "back": "The median is the middle value of a data set arranged in ascending (or descending) order. For ODD number of values (n): Median = ((n+1)/2)th term. Example: 3, 5, 7, 9, 11 (n=5) → Median = 3rd term = 7. For EVEN number of values (n): Median = average of (n/2)th and (n/2+1)th terms. Example: 3, 5, 7, 9 (n=4) → Median = (5+7)/2 = 6.", "memory_hook": "Median = MIDDLE. Arrange data first — always! Odd values: pick the exact middle. Even values: average the two middle ones. Like the median strip on a highway — exactly in the centre."},
+    {"id": "fc03", "type": "Definition", "difficulty": "Easy", "front": "What is the mode of a data set? Can there be more than one mode?", "back": "The mode is the value that appears most frequently in a data set. Example: 3, 5, 3, 7, 3, 5, 8 → Mode = 3 (appears 3 times). A data set can have: No mode (if all values appear once: 2, 4, 6, 8). One mode — unimodal (most common). Two modes — bimodal (4, 6, 4, 7, 6 → modes are 4 and 6). Multiple modes — multimodal. Note: mode is the only measure of central tendency that can be used for non-numerical data too (e.g., 'most popular colour').", "memory_hook": "Mode = MOST. The value that MOST often appears. Fashion MODE is what's most popular — same idea. If everyone wears blue, blue is the 'mode' colour."},
+    {"id": "fc04", "type": "Definition", "difficulty": "Easy", "front": "What is the range of a data set? Find the range of: 15, 42, 7, 28, 53, 19.", "back": "Range = Maximum value − Minimum value. Range measures how spread out the data is — a large range means the data is spread widely; a small range means it is clustered. Example: Data = 15, 42, 7, 28, 53, 19. Maximum = 53. Minimum = 7. Range = 53 − 7 = 46. Range doesn't tell you about the shape of distribution, only the total spread.", "memory_hook": "Range = MAX minus MIN. Like the 'range' of a mountain — how far from the lowest to highest point. Large range = widely spread. Small range = tightly clustered. MAX − MIN = RANGE."},
+    {"id": "fc05", "type": "Concept", "difficulty": "Easy", "front": "When should you use mean vs median to represent data? Give an example.", "back": "Mean is best when data has no extreme outliers — it uses all values and is most mathematically precise. Median is better when there are outliers (extreme values) that would distort the mean. Example: 5 workers earn: ₹10,000, ₹12,000, ₹11,000, ₹13,000, ₹1,00,00,000. Mean = ₹10,09,200 (misleading — distorted by the millionaire). Median = ₹12,000 (accurate representation of the typical worker's income). Government uses median income because a few billionaires distort the mean.", "memory_hook": "One billionaire in a room makes EVERYONE a millionaire on AVERAGE (mean). But the MEDIAN doesn't change — it stays at the middle person's income. Mean = fairest math, Median = fairest for skewed data."},
+    {"id": "fc06", "type": "Recall", "difficulty": "Easy", "front": "How do you construct a pie chart? What is the formula for sector angle?", "back": "To construct a pie chart: (1) Find the total of all values. (2) Calculate sector angle for each category: Angle = (Category value / Total) × 360°. (3) Draw a circle and mark each sector using a protractor. (4) Label each sector. Verify: sum of all sector angles = 360°. Example: Favourite fruits (total=60): Mango=24, Apple=18, Banana=12, Others=6. Mango angle = (24/60)×360° = 144°. Apple = 108°. Banana = 72°. Others = 36°. Sum = 360° ✓.", "memory_hook": "Pie chart = 360° pizza. Each slice angle = (your piece / whole pizza) × 360°. Bigger piece = bigger angle. Always verify: slice angles ADD to 360°."},
+    {"id": "fc07", "type": "Application", "difficulty": "Easy", "front": "The mean of 6 numbers is 14. Five of them are 10, 16, 18, 12, 15. Find the sixth number.", "back": "Mean = Sum/n → Sum = Mean × n = 14 × 6 = 84. Sum of known five numbers = 10+16+18+12+15 = 71. Sixth number = 84 − 71 = 13. Check: (10+16+18+12+15+13)/6 = 84/6 = 14 ✓. This 'reverse mean' technique is very commonly tested.", "memory_hook": "If mean is given: TOTAL = Mean × n. Then: missing value = Total − Sum of known values. Three-step shortcut: (1) Find total. (2) Find known sum. (3) Subtract."},
+    {"id": "fc08", "type": "Concept", "difficulty": "Easy", "front": "What is probability? What is the formula for P(event)?", "back": "Probability is a number between 0 and 1 that measures how likely an event is to occur. P(E) = Number of favourable outcomes / Total number of possible outcomes. Key facts: P(impossible event) = 0. P(certain/sure event) = 1. 0 ≤ P(E) ≤ 1 always. P(E) + P(not E) = 1. Example: Rolling a die. P(getting 5) = 1/6. P(getting odd) = 3/6 = 1/2 (odd numbers: 1,3,5). P(getting 7) = 0 (impossible). P(getting ≤6) = 1 (certain).", "memory_hook": "P = FAVOURABLE / TOTAL. Always between 0 and 1. P=0: no chance. P=1: definite. P=½: 50-50. 'FATE': Favourable ÷ All Total Events."},
+    {"id": "fc09", "type": "Application", "difficulty": "Easy", "front": "A coin is tossed. Find: P(Head), P(Tail), P(Head or Tail).", "back": "Sample space = {Head, Tail}. Total outcomes = 2. P(Head) = 1/2 (1 favourable out of 2 total). P(Tail) = 1/2. P(Head or Tail) = 2/2 = 1 (certain — tossing a coin MUST give either head or tail). P(Head) + P(Tail) = 1/2 + 1/2 = 1 ✓. This confirms P(E) + P(not E) = 1.", "memory_hook": "Coin: 2 outcomes (H, T). Each has probability ½. P(H)+P(T) = 1. The coin MUST land — so getting 'something' has P=1. This is the simplest probability experiment."},
+    {"id": "fc10", "type": "Application", "difficulty": "Easy", "front": "A die is rolled once. Find P(getting an even number).", "back": "Sample space when rolling a die = {1, 2, 3, 4, 5, 6}. Total outcomes = 6. Favourable outcomes (even numbers) = {2, 4, 6} = 3 outcomes. P(even) = 3/6 = 1/2. Note: exactly half the numbers on a die are even (1,3,5 are odd; 2,4,6 are even) — so P(even) = P(odd) = 1/2.", "memory_hook": "Die probability shortcut: P(even) = 3/6 = ½. P(odd) = 3/6 = ½. P(prime) = {2,3,5}/6 = 3/6 = ½. P(getting ≥4) = {4,5,6}/6 = 3/6 = ½. Many die events have probability ½ — coincidence or not, it simplifies many problems!"},
+    {"id": "fc11", "type": "Application", "difficulty": "Easy", "front": "A bag has 4 red, 6 blue, and 2 yellow balls. One ball is drawn at random. Find P(blue) and P(not blue).", "back": "Total balls = 4+6+2 = 12. P(blue) = 6/12 = 1/2. P(not blue) = 1 − P(blue) = 1 − 1/2 = 1/2. OR: P(not blue) = (red+yellow)/total = (4+2)/12 = 6/12 = 1/2. Verify: P(blue)+P(not blue) = 1/2+1/2 = 1 ✓.", "memory_hook": "P(not E) = 1 − P(E). This is the COMPLEMENT rule. Always faster to use when P(E) is easy to calculate. P(not blue) = 1 − P(blue). Complement = flip the probability (1 minus)."},
+    {"id": "fc12", "type": "Recall", "difficulty": "Easy", "front": "What is a double bar graph? When is it useful?", "back": "A double bar graph is a bar graph with TWO bars for each category — one for each data set being compared. It is useful when you want to compare two related data sets across the same categories. Example: Comparing rainfall in Bengaluru and Mangaluru for each month of the year — two bars per month, different colours for each city. The bars are placed side by side with a small gap between them. A legend (key) identifies which bar is which.", "memory_hook": "Double bar = TWO data sets, SIDE BY SIDE. Like comparing two players' batting scores across 5 matches — one red bar per match for Player A, one blue for Player B. Easy visual comparison."},
+    {"id": "fc13", "type": "Application", "difficulty": "Easy", "front": "Find the mean, median, and mode of: 5, 8, 5, 7, 9, 5, 8, 10, 5", "back": "Mean: Sum = 5+8+5+7+9+5+8+10+5 = 62. n=9. Mean = 62/9 ≈ 6.9. Median: Arrange: 5,5,5,5,7,8,8,9,10. n=9 (odd). Median = 5th term = 7. Mode: 5 appears 4 times (most). Mode = 5. Range = 10−5 = 5. Note: Mean (6.9) ≠ Median (7) ≠ Mode (5) — showing these are three distinct measures.", "memory_hook": "Three different measures, three different answers. Mean=sum/count. Median=middle after sorting. Mode=most frequent. They CAN be equal sometimes, but usually give different perspectives on the SAME data."},
+    {"id": "fc14", "type": "Concept", "difficulty": "Easy", "front": "In a pie chart, the sector for 'Science' has an angle of 72°. What fraction of students chose Science? If 300 students were surveyed, how many chose Science?", "back": "Fraction of students = sector angle / 360° = 72°/360° = 1/5. Number of students = 1/5 × 300 = 60 students. This is the reverse pie chart problem — given the angle, find the count. Formula: Count = (angle/360°) × total. Verify: 60/300 = 1/5 → angle = 1/5 × 360° = 72° ✓.", "memory_hook": "Pie chart reverse: angle/360° = fraction. Fraction × total = count. It's the pie chart formula flipped. 72°/360° = 1/5 → 1/5 of 300 = 60. Always: angle → fraction → count."},
+    {"id": "fc15", "type": "Application", "difficulty": "Easy", "front": "The probability that it will rain tomorrow is 0.35. What is the probability that it will NOT rain?", "back": "P(not rain) = 1 − P(rain) = 1 − 0.35 = 0.65. The complement rule: P(event) + P(not event) = 1. Since the only possibilities are 'rain' and 'not rain', their probabilities must sum to 1. This is used in weather forecasting — if the forecast says '35% chance of rain', there is a '65% chance of no rain'.", "memory_hook": "P(not E) = 1 − P(E). Always. The whole sample space has probability 1. If one event takes 0.35, everything else takes 1−0.35 = 0.65. Simple subtraction from 1."},
+    {"id": "fc16", "type": "Application", "difficulty": "Easy", "front": "The ages of 7 students are: 12, 13, 11, 14, 12, 13, 12. Find the mode and median.", "back": "Mode: 12 appears 3 times (most frequent). Mode = 12. Median: Arrange: 11, 12, 12, 12, 13, 13, 14. n=7 (odd). Median = 4th term = 12. Here, mode = median = 12. This is a coincidence — they are not always equal. Range = 14−11 = 3.", "memory_hook": "Arrange FIRST before finding median. Sort: 11,12,12,12,13,13,14 → middle is 4th = 12. Mode = 12 (appears thrice). When mode=median, the data is quite symmetric around 12."},
+    {"id": "fc17", "type": "Recall", "difficulty": "Easy", "front": "List all possible outcomes when two coins are tossed simultaneously.", "back": "When two coins are tossed simultaneously, the sample space is: {HH, HT, TH, TT}. Total outcomes = 4. Probabilities: P(two heads) = P(HH) = 1/4. P(exactly one head) = P(HT or TH) = 2/4 = 1/2. P(at least one head) = P(HH, HT, TH) = 3/4. P(no head) = P(TT) = 1/4. P(two tails) = 1/4.", "memory_hook": "Two coins → 4 outcomes: HH, HT, TH, TT. (2 coins = 2² = 4 total outcomes). List them systematically — first coin possibilities (H,T) × second coin possibilities (H,T) = 2×2 = 4. This systematic listing prevents missing outcomes."},
+    {"id": "fc18", "type": "Application", "difficulty": "Easy", "front": "In a survey of 120 students, 45 prefer maths, 30 prefer science, 25 prefer English, 20 prefer Hindi. Find the sector angle for Maths in a pie chart.", "back": "Total = 45+30+25+20 = 120. Maths sector angle = (45/120) × 360° = (3/8) × 360° = 135°. Check all angles: Science = (30/120)×360° = 90°. English = (25/120)×360° = 75°. Hindi = (20/120)×360° = 60°. Sum = 135+90+75+60 = 360° ✓.", "memory_hook": "Pie chart construction: (value ÷ total) × 360° for each category. Always verify: all angles sum to 360°. If they don't, there's a calculation error somewhere."},
+    {"id": "fc19", "type": "Application", "difficulty": "Easy", "front": "Cards numbered 1 to 20 are placed in a box. One card is drawn. Find P(prime number).", "back": "Total outcomes = 20. Prime numbers from 1 to 20: 2, 3, 5, 7, 11, 13, 17, 19 = 8 primes. (1 is NOT prime). P(prime) = 8/20 = 2/5. Key: always list the favourable outcomes explicitly to avoid miscounting. Students commonly include 1 or forget 2 — be careful.", "memory_hook": "Primes 1–20: 2,3,5,7,11,13,17,19 = 8 primes. (1 is NOT prime — definition: prime has exactly 2 factors; 1 has only one factor). 2 is the ONLY even prime. Memorise primes up to 20 for probability questions."},
+    {"id": "fc20", "type": "Application", "difficulty": "Easy", "front": "Class test scores: 72, 85, 68, 91, 75, 82, 68, 79. Find mean, median, mode, and range.", "back": "Mean: Sum = 72+85+68+91+75+82+68+79 = 620. n=8. Mean = 620/8 = 77.5. Median: Arranged: 68,68,72,75,79,82,85,91. n=8 (even). Middle values = 4th and 5th = 75 and 79. Median = (75+79)/2 = 77. Mode: 68 appears twice (most). Mode = 68. Range: 91−68 = 23. Summary: Mean=77.5, Median=77, Mode=68, Range=23.", "memory_hook": "Full data handling workout: Sort first (for median and mode), then calculate. Mean needs all values. Median needs sorted order. Mode needs frequency count. Range = last − first (after sorting). Always sort FIRST."}
   ]
 }

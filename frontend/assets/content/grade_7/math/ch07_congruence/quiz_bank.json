@@ -1,366 +1,192 @@
 {
-  "version": "1.0",
-  "topic_id": "math_grade7_ch07_congruence_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 7,
+  "subject": "Mathematics",
+  "textbook": "Mathematics — Textbook for Class VII",
+  "chapter_number": 7,
+  "chapter_title": "Congruence of Triangles",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Determine the primary value when resolving a standard Congruence of Triangles expression with coefficients 8 and 4. (Q1)",
-        "hi": "Determine the primary value when resolving a standard Congruence of Triangles expression with coefficients 8 and 4. (Q1)",
-        "kn": "Determine the primary value when resolving a standard Congruence of Triangles expression with coefficients 8 and 4. (Q1)"
-      },
-      "options": {
-        "en": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "hi": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "kn": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "hi": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "kn": "Adding the coefficients 8 and 4 gives the sum of 12."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Two figures are congruent if they have:",
+      "options": ["A) The same shape only", "B) The same size only", "C) The same shape and the same size", "D) At least one equal side"],
+      "correct_answer": "C) The same shape and the same size",
+      "explanation": "Congruence requires both the same shape AND the same size. Similar figures have the same shape but may differ in size — they are not necessarily congruent. Congruent figures can be placed exactly on top of one another with perfect overlap."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which mathematical property is most useful when working with Congruence of Triangles? (Q2)",
-        "hi": "Which mathematical property is most useful when working with Congruence of Triangles? (Q2)",
-        "kn": "Which mathematical property is most useful when working with Congruence of Triangles? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "hi": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "kn": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "The distributive property helps simplify operations on expressions.",
-        "hi": "The distributive property helps simplify operations on expressions.",
-        "kn": "The distributive property helps simplify operations on expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "In △ABC ≅ △DEF, which of the following is TRUE?",
+      "options": ["A) AB = EF", "B) ∠B = ∠D", "C) BC = EF", "D) ∠A = ∠F"],
+      "correct_answer": "C) BC = EF",
+      "explanation": "In △ABC ≅ △DEF, the correspondence is A↔D, B↔E, C↔F. Therefore: AB=DE, BC=EF, AC=DF (sides) and ∠A=∠D, ∠B=∠E, ∠C=∠F (angles). BC=EF is correct (B↔E, C↔F). AB≠EF (AB=DE). ∠B=∠E (not ∠D). ∠A=∠D (not ∠F)."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Determine the primary value when resolving a standard Congruence of Triangles expression with coefficients 8 and 4. (Q3)",
-        "hi": "Determine the primary value when resolving a standard Congruence of Triangles expression with coefficients 8 and 4. (Q3)",
-        "kn": "Determine the primary value when resolving a standard Congruence of Triangles expression with coefficients 8 and 4. (Q3)"
-      },
-      "options": {
-        "en": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "hi": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "kn": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "hi": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "kn": "Adding the coefficients 8 and 4 gives the sum of 12."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "Which congruence criterion requires two sides and the angle BETWEEN them?",
+      "options": ["A) SSS", "B) SAS", "C) AAS", "D) RHS"],
+      "correct_answer": "B) SAS",
+      "explanation": "SAS (Side-Angle-Side) requires two sides and the INCLUDED angle — the angle that is between (formed by) the two given sides. The 'A' in SAS is sandwiched between the two 'S's, mirroring how the angle must be sandwiched between the two sides."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which mathematical property is most useful when working with Congruence of Triangles? (Q4)",
-        "hi": "Which mathematical property is most useful when working with Congruence of Triangles? (Q4)",
-        "kn": "Which mathematical property is most useful when working with Congruence of Triangles? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "hi": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "kn": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "The distributive property helps simplify operations on expressions.",
-        "hi": "The distributive property helps simplify operations on expressions.",
-        "kn": "The distributive property helps simplify operations on expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "AAA is NOT a valid congruence criterion because:",
+      "options": [
+        "A) Three angles cannot be equal in any two triangles",
+        "B) Equal angles prove similarity (same shape) but not necessarily equal size",
+        "C) You need at least four equal angles for congruence",
+        "D) AAA only works for equilateral triangles"
+      ],
+      "correct_answer": "B) Equal angles prove similarity (same shape) but not necessarily equal size",
+      "explanation": "AAA (three equal angles) proves that two triangles are SIMILAR — they have the same shape. But similar triangles can be of different sizes (one could be a scaled-up version of the other). Since congruence requires both same shape AND same size, AAA alone is insufficient. You need at least one pair of equal sides to establish congruence."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Determine the primary value when resolving a standard Congruence of Triangles expression with coefficients 8 and 4. (Q5)",
-        "hi": "Determine the primary value when resolving a standard Congruence of Triangles expression with coefficients 8 and 4. (Q5)",
-        "kn": "Determine the primary value when resolving a standard Congruence of Triangles expression with coefficients 8 and 4. (Q5)"
-      },
-      "options": {
-        "en": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "hi": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "kn": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "hi": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "kn": "Adding the coefficients 8 and 4 gives the sum of 12."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "The RHS congruence criterion applies to:",
+      "options": ["A) All triangles", "B) Isosceles triangles only", "C) Right-angled triangles only", "D) Equilateral triangles only"],
+      "correct_answer": "C) Right-angled triangles only",
+      "explanation": "RHS (Right angle-Hypotenuse-Side) is a special congruence criterion that ONLY applies to right-angled triangles. It states that if the hypotenuse and one side (leg) of one right-angled triangle equal the hypotenuse and one side of another right-angled triangle, then the triangles are congruent."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which mathematical property is most useful when working with Congruence of Triangles? (Q6)",
-        "hi": "Which mathematical property is most useful when working with Congruence of Triangles? (Q6)",
-        "kn": "Which mathematical property is most useful when working with Congruence of Triangles? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "hi": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "kn": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "The distributive property helps simplify operations on expressions.",
-        "hi": "The distributive property helps simplify operations on expressions.",
-        "kn": "The distributive property helps simplify operations on expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "In △PQR and △XYZ: ∠P=∠X, PQ=XY, ∠Q=∠Y. Which criterion proves congruence?",
+      "options": ["A) SSS", "B) SAS", "C) ASA", "D) AAS"],
+      "correct_answer": "C) ASA",
+      "explanation": "Given: ∠P=∠X (angle), PQ=XY (side), ∠Q=∠Y (angle). The side PQ is between angles P and Q — it is the INCLUDED side. Two angles and the included side = ASA (Angle-Side-Angle). Therefore △PQR ≅ △XYZ by ASA."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Determine the primary value when resolving a standard Congruence of Triangles expression with coefficients 8 and 4. (Q7)",
-        "hi": "Determine the primary value when resolving a standard Congruence of Triangles expression with coefficients 8 and 4. (Q7)",
-        "kn": "Determine the primary value when resolving a standard Congruence of Triangles expression with coefficients 8 and 4. (Q7)"
-      },
-      "options": {
-        "en": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "hi": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "kn": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "hi": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "kn": "Adding the coefficients 8 and 4 gives the sum of 12."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "CPCT stands for:",
+      "options": [
+        "A) Congruent Parts of Corresponding Triangles",
+        "B) Corresponding Parts of Congruent Triangles",
+        "C) Criteria for Proving Congruent Triangles",
+        "D) Congruent Proportional Corresponding Triangles"
+      ],
+      "correct_answer": "B) Corresponding Parts of Congruent Triangles",
+      "explanation": "CPCT = Corresponding Parts of Congruent Triangles (are equal). Once two triangles are proven congruent using a valid criterion, CPCT allows us to state that all corresponding sides and angles are equal. It is used as a conclusion after establishing congruence, not as a proof method."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which mathematical property is most useful when working with Congruence of Triangles? (Q8)",
-        "hi": "Which mathematical property is most useful when working with Congruence of Triangles? (Q8)",
-        "kn": "Which mathematical property is most useful when working with Congruence of Triangles? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "hi": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "kn": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "The distributive property helps simplify operations on expressions.",
-        "hi": "The distributive property helps simplify operations on expressions.",
-        "kn": "The distributive property helps simplify operations on expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "△ABC ≅ △LMN by SSS. If ∠A = 55°, what is ∠L?",
+      "options": ["A) 125°", "B) 35°", "C) 55°", "D) Cannot be determined"],
+      "correct_answer": "C) 55°",
+      "explanation": "In △ABC ≅ △LMN, the correspondence is A↔L, B↔M, C↔N. By CPCT, all corresponding angles are equal: ∠A=∠L, ∠B=∠M, ∠C=∠N. Therefore ∠L = ∠A = 55°."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Determine the primary value when resolving a standard Congruence of Triangles expression with coefficients 8 and 4. (Q9)",
-        "hi": "Determine the primary value when resolving a standard Congruence of Triangles expression with coefficients 8 and 4. (Q9)",
-        "kn": "Determine the primary value when resolving a standard Congruence of Triangles expression with coefficients 8 and 4. (Q9)"
-      },
-      "options": {
-        "en": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "hi": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "kn": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "hi": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "kn": "Adding the coefficients 8 and 4 gives the sum of 12."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "Which of the following is NOT a valid congruence criterion?",
+      "options": ["A) SAS", "B) AAS", "C) SSA", "D) RHS"],
+      "correct_answer": "C) SSA",
+      "explanation": "SSA (Side-Side-Angle with the angle NOT between the two sides) is NOT a valid congruence criterion. It is called the 'ambiguous case' because two different triangles can sometimes be drawn with the same SSA measurements. The valid criteria are: SSS, SAS (included angle), ASA (included side), AAS, and RHS."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which mathematical property is most useful when working with Congruence of Triangles? (Q10)",
-        "hi": "Which mathematical property is most useful when working with Congruence of Triangles? (Q10)",
-        "kn": "Which mathematical property is most useful when working with Congruence of Triangles? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "hi": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "kn": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "The distributive property helps simplify operations on expressions.",
-        "hi": "The distributive property helps simplify operations on expressions.",
-        "kn": "The distributive property helps simplify operations on expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "In △ABC and △DEF: ∠A=∠D=90°, BC=EF (hypotenuse), AB=DE. Which criterion applies?",
+      "options": ["A) SSS", "B) SAS", "C) ASA", "D) RHS"],
+      "correct_answer": "D) RHS",
+      "explanation": "Both triangles are right-angled (∠A=∠D=90°). The hypotenuses are equal (BC=EF). One leg is equal (AB=DE). This exactly matches the RHS criterion: Right angle + Hypotenuse equal + one Side equal → congruent. △ABC ≅ △DEF by RHS."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "In △ABC and △PQR: AB=QR=7cm, BC=PQ=5cm, ∠B=∠Q=60°. Which criterion applies?",
+      "options": ["A) SAS with B↔Q, giving △ABC≅△QPR", "B) SSS", "C) ASA", "D) AAS"],
+      "correct_answer": "A) SAS with B↔Q, giving △ABC≅△QPR",
+      "explanation": "AB=QR, BC=PQ, ∠B=∠Q=60°. The angle ∠B is between sides AB and BC. The angle ∠Q is between sides QP and QR. Setting up correspondence: B↔Q, A↔R (since AB=QR), C↔P (since BC=PQ). This gives △ABC≅△RQP or equivalently △ABC≅△QPR... let's verify: A↔Q? No: AB=QR means A↔R, B↔Q. Then C↔P (BC=QP). So △ABC≅△RQP by SAS. The criterion is SAS with the correct correspondence identified."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "△XYZ ≅ △DEF. If XY = 8cm, YZ = 10cm, XZ = 12cm, what is DE + EF?",
+      "options": ["A) 10 cm", "B) 18 cm", "C) 22 cm", "D) 30 cm"],
+      "correct_answer": "B) 18 cm",
+      "explanation": "In △XYZ ≅ △DEF: X↔D, Y↔E, Z↔F. By CPCT: XY=DE=8cm, YZ=EF=10cm, XZ=DF=12cm. Therefore DE + EF = 8 + 10 = 18 cm."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "In △ABC, AB=AC. D is the midpoint of BC. Which criterion proves △ABD ≅ △ACD?",
+      "options": ["A) SAS", "B) ASA", "C) SSS", "D) AAS"],
+      "correct_answer": "C) SSS",
+      "explanation": "In △ABD and △ACD: AB=AC (given, isosceles). BD=DC (D is midpoint of BC). AD=AD (common side). All three sides are equal → SSS criterion. △ABD ≅ △ACD by SSS. By CPCT: ∠ABD=∠ACD (base angles equal) and ∠BAD=∠CAD (AD bisects the apex angle)."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "Two triangles have two equal angles (70° and 50°) and the side between them is 9cm in both. The congruence criterion is:",
+      "options": ["A) AAS", "B) SSS", "C) ASA", "D) SAS"],
+      "correct_answer": "C) ASA",
+      "explanation": "Two equal angles (70° and 50°) and the side BETWEEN them (9cm) — the side is the included side sandwiched between the two known angles. This is ASA (Angle-Side-Angle). If the side were not between the angles, it would be AAS."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "In the congruence statement △PQR ≅ △STU, which pair of sides is equal?",
+      "options": ["A) PQ = TU", "B) QR = ST", "C) PR = SU", "D) PQ = SU"],
+      "correct_answer": "C) PR = SU",
+      "explanation": "In △PQR ≅ △STU: P↔S, Q↔T, R↔U. Corresponding sides: PQ=ST, QR=TU, PR=SU. PR is between P and R (1st and 3rd vertices); SU is between S and U (1st and 3rd vertices). So PR=SU is correct. PQ=ST (not TU). QR=TU (not ST)."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "△ABC ≅ △FED by SAS, where ∠B=∠E=90°, AB=FE=6, BC=ED=8. What is AC (the hypotenuse)?",
+      "options": ["A) 8 cm", "B) 10 cm", "C) 12 cm", "D) 14 cm"],
+      "correct_answer": "B) 10 cm",
+      "explanation": "The triangles are right-angled (∠B=∠E=90°) with legs 6 and 8. By Pythagorean theorem: AC² = AB² + BC² = 36 + 64 = 100. AC = 10 cm. Recognition: (6, 8, 10) = 2×(3, 4, 5), a Pythagorean triplet. By CPCT: FD = AC = 10 cm as well."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "Which statement about CPCT is CORRECT?",
+      "options": [
+        "A) CPCT is used to prove two triangles are congruent",
+        "B) CPCT can only be used for sides, not angles",
+        "C) CPCT is applied after congruence is established to state equal corresponding parts",
+        "D) CPCT applies even to similar (non-congruent) triangles"
+      ],
+      "correct_answer": "C) CPCT is applied after congruence is established to state equal corresponding parts",
+      "explanation": "CPCT (Corresponding Parts of Congruent Triangles) is used as a CONCLUSION after proving congruence by one of the valid criteria (SSS, SAS, ASA, AAS, RHS). It states that all corresponding sides and angles are equal. It cannot be used to prove congruence itself, and it applies to both sides and angles, not just sides."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "In △ABC and △DEF: ∠B=∠E=90°, hypotenuse AC=DF, and ∠A=∠D. Which criterion applies?",
+      "options": ["A) RHS", "B) AAS", "C) ASA", "D) Either AAS or RHS"],
+      "correct_answer": "D) Either AAS or RHS",
+      "explanation": "Method 1 (RHS): Right angle ∠B=∠E=90°, hypotenuse AC=DF, and since ∠A=∠D, we can find the third angle too. Actually RHS needs: right angle + hypotenuse + ONE side. We have right angle + hypotenuse — if ∠A=∠D is given instead of a side, use AAS. Method 2 (AAS): ∠B=∠E=90°, ∠A=∠D, and hypotenuse AC=DF (non-included side). This satisfies AAS. So AAS is most directly applicable with the given information. Both can work if the side is derived."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "In quadrilateral ABCD, diagonal AC divides it into △ABC and △ACD. Given AB=CD, BC=AD, which criterion proves △ABC ≅ △CDA?",
+      "options": ["A) SAS", "B) ASA", "C) SSS", "D) AAS"],
+      "correct_answer": "C) SSS",
+      "explanation": "In △ABC and △CDA: AB=CD (given). BC=AD (given). AC=CA (common side — the diagonal is shared). All three sides are equal → SSS criterion. △ABC ≅ △CDA by SSS. By CPCT: ∠BAC=∠DCA and ∠BCA=∠DAC, which proves that the diagonal bisects the opposite angles. This shows ABCD is a parallelogram."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "A student wants to prove △PQR ≅ △STU. She knows ∠P=∠S, PQ=ST, ∠R=∠U. Which criterion should she use and why is it NOT ASA?",
+      "options": [
+        "A) AAS — because the given side PQ is not between ∠P and ∠R",
+        "B) ASA — because two angles and a side are given",
+        "C) SAS — because a side and two angles are given",
+        "D) SSS — because knowing angles implies knowing sides"
+      ],
+      "correct_answer": "A) AAS — because the given side PQ is not between ∠P and ∠R",
+      "explanation": "Given: ∠P=∠S, PQ=ST, ∠R=∠U. The side PQ is between vertex P and vertex Q. The given angles are at P and R. Since Q is NOT one of the given angle vertices, PQ is NOT between the two given angles (∠P and ∠R). The included side between ∠P and ∠R would be PR. Since the given side PQ is non-included relative to the two given angles, the correct criterion is AAS (not ASA). This is the key distinction between ASA and AAS."
     }
   ]
 }

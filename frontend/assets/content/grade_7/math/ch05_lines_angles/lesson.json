@@ -1,114 +1,169 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 7,
-  "subject": "math",
-  "chapter_id": "ch05_lines_angles",
-  "chapter_title": {
-    "en": "Lines and Angles",
-    "hi": "रेखा एवं कोण",
-    "kn": "ರೇಖೆಗಳು ಮತ್ತು ಕೋನಗಳು"
+  "subject": "Mathematics",
+  "textbook": "Mathematics — Textbook for Class VII",
+  "chapter_number": 5,
+  "chapter_title": "Lines and Angles",
+  "estimated_study_time_minutes": 55,
+  "difficulty": "Easy–Moderate",
+
+  "learning_objectives": [
+    "Recall and extend understanding of basic terms: point, line, line segment, ray, angle",
+    "Identify and classify angle pairs: complementary, supplementary, adjacent, linear pair, vertically opposite",
+    "Understand and apply properties of angles formed when a transversal crosses parallel lines: corresponding, alternate interior, co-interior (same-side interior) angles",
+    "Verify and use the property that vertically opposite angles are equal",
+    "Verify and use the linear pair axiom (angles on a straight line sum to 180°)",
+    "Determine whether lines are parallel using angle relationships",
+    "Solve numerical problems using angle properties",
+    "Connect angle geometry to real-world structures and Karnataka contexts"
+  ],
+
+  "prerequisite_knowledge": [
+    "Class 6: Basic shapes — point, line, line segment, ray, angle types (acute, right, obtuse, reflex)",
+    "Class 6: Measuring angles using a protractor",
+    "Class 6: Pairs of angles — complementary (sum 90°) and supplementary (sum 180°)"
+  ],
+
+  "introduction": {
+    "why_important": "Angles formed by lines are the foundation of all geometry. Architects, engineers, carpenters, and designers use angle relationships constantly. Understanding how angles behave when lines cross — especially parallel lines — is essential for everything from building construction to computer graphics.",
+    "real_life_relevance": "Railway tracks (parallel lines cut by cross sleepers = transversals), the stripes on a zebra crossing, window grilles, and tiled floors all create patterns of angles that obey the rules in this chapter. Karnataka's famous Hoysala temple carvings use precise angular geometry.",
+    "karnataka_context": "The Vidhana Soudha (Karnataka's state legislature building in Bengaluru) uses perpendicular and parallel lines extensively in its neo-Dravidian architecture. Karnataka's railway network — connecting Bengaluru, Mysuru, Hubballi, and Mangaluru — creates transversal patterns at every junction and crossing. Farmers in Karnataka use angle measurements to lay out irrigation channels at precise angles for water flow.",
+    "connection_to_previous_learning": "Class 6 introduced types of angles and basic measurement. This chapter extends that to pairs of angles and the powerful relationships that emerge when a transversal crosses parallel lines."
   },
-  "topics": [
+
+  "core_concepts": [
     {
-      "topic_id": "math_grade7_ch05_lines_angles_basics",
-      "title": {
-        "en": "Lines and Angles - Fundamentals",
-        "hi": "रेखा एवं कोण - बुनियादी बातें",
-        "kn": "ರೇಖೆಗಳು ಮತ್ತು ಕೋನಗಳು - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of Lines and Angles",
-        "Solve exercises and apply rules related to Lines and Angles",
-        "Analyze practical examples of Lines and Angles in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Lines and Angles. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम रेखा एवं कोण का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ರೇಖೆಗಳು ಮತ್ತು ಕೋನಗಳು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Lines and Angles in detail. This topic is essential for Grade 7 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम रेखा एवं कोण का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ರೇಖೆಗಳು ಮತ್ತು ಕೋನಗಳು ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Lines and Angles.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Lines and Angles.",
-            "hi": "चरण 1: रेखा एवं कोण के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ರೇಖೆಗಳು ಮತ್ತು ಕೋನಗಳು ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Lines and Angles builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "रेखा एवं कोण में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ರೇಖೆಗಳು ಮತ್ತು ಕೋನಗಳು ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Recap: Basic Terms and Angle Types",
+      "simple_explanation": "A line extends infinitely in both directions. A ray starts at a point and goes in one direction. An angle is formed when two rays meet at a point (the vertex). Angles are classified by their measure.",
+      "detailed_explanation": "Key terms: Point — a location with no size. Line — extends infinitely in both directions, no endpoints. Line segment — part of a line with two endpoints. Ray — starts at a point and extends infinitely in one direction. Angle — formed by two rays (arms) sharing a common endpoint (vertex). Types of angles: Acute — less than 90°. Right — exactly 90°. Obtuse — between 90° and 180°. Straight — exactly 180° (the two arms form a straight line). Reflex — between 180° and 360°. Complete — exactly 360°.",
+      "real_life_example": "The hands of a clock form different types of angles throughout the day. At 3:00 the hands form a right angle (90°). At 6:00 they form a straight angle (180°). At 12:00 they overlap at 0°.",
+      "karnataka_example": "The gopuram (gateway tower) of the Virupaksha Temple in Hampi tapers at acute angles as it rises. The steps leading up to Karnataka's hill temples like Chamundi Hills create obtuse angles with the hillside.",
+      "common_mistakes": "Students confuse a ray with a line segment. A ray has ONE endpoint and extends infinitely; a line segment has TWO endpoints and a definite length.",
+      "memory_tip": "ANGLE SIZES: A-R-O-S-R-C = Acute (< 90°), Right (= 90°), Obtuse (90°–180°), Straight (= 180°), Reflex (180°–360°), Complete (= 360°). From smallest to largest."
+    },
+    {
+      "concept_name": "Complementary and Supplementary Angles",
+      "simple_explanation": "Two angles are complementary if they add up to 90°. Two angles are supplementary if they add up to 180°. They do NOT need to be adjacent (next to each other).",
+      "detailed_explanation": "Complementary angles: two angles whose measures sum to 90°. Example: 30° and 60°, or 45° and 45°. They do not have to be touching or sharing a side — if ∠A = 35° and ∠B = 55°, they are complementary even if drawn separately. Supplementary angles: two angles whose measures sum to 180°. Example: 110° and 70°, or 90° and 90°. Again, they need not be adjacent. Key exam technique: if one angle is given and you need its complement, subtract from 90°. If you need its supplement, subtract from 180°. Formula tricks: Complement of x° = (90 − x)°. Supplement of x° = (180 − x)°.",
+      "real_life_example": "A door opened at 35° to the wall leaves a complementary 55° gap at the hinge region. A book leaning at 120° to the desk has a supplementary 60° angle on the other side.",
+      "karnataka_example": "The Mysuru Palace's arched doorways often create supplementary angles at their bases. The traditional Karnataka plough (nangala) is set at angles to the ground — the blade angle and the back angle are supplementary.",
+      "common_mistakes": "Students think complementary/supplementary angles must share a side. They do NOT — the definition is purely about the sum of measures. Two 45° angles drawn on opposite sides of the page are still complementary.",
+      "memory_tip": "COMPLEMENTARY = 90° (C comes before S, 9 comes before 18 — C = 9 tens). SUPPLEMENTARY = 180°. Or: C for Corner (90° is a right angle corner). S for Straight line (180° is a straight line)."
+    },
+    {
+      "concept_name": "Adjacent Angles and Linear Pair",
+      "simple_explanation": "Adjacent angles share a vertex and one arm. A linear pair is two adjacent angles that together form a straight line — so they always add to 180°.",
+      "detailed_explanation": "Adjacent angles: Two angles are adjacent if they: (1) share a common vertex, (2) share a common arm (side), AND (3) do NOT overlap (their interiors do not share any points). Example: ∠AOB and ∠BOC share vertex O and arm OB — they are adjacent. Linear pair: A special case of adjacent angles where the two non-common arms form a straight line (together they make a straight angle = 180°). Linear pair axiom: If two angles form a linear pair, they are supplementary (sum = 180°). This is an axiom — accepted as true without proof. Conversely: if two adjacent angles are supplementary, they form a linear pair. Example: ∠AOB + ∠BOC = 180° when A, O, C are collinear (on the same line).",
+      "real_life_example": "When you open a scissor, the two blades create adjacent angles. When fully open flat on a table, the two blades form a linear pair — each blade angle supplements the other to make 180°.",
+      "karnataka_example": "A straight road in Karnataka's grid-planned cities (like Dharwad's older sections) — when a side road branches off, the angles on either side of the junction form a linear pair summing to 180°.",
+      "common_mistakes": "Students confuse 'adjacent angles always form a linear pair'. This is wrong — adjacent angles share a vertex and arm, but may NOT form a straight line. A linear pair is a special type of adjacent angle where the outer arms are collinear.",
+      "memory_tip": "LINEAR = straight LINE. Linear pair = two angles making a LINE = 180°. Adjacent = NEXT to each other (shares vertex + arm). All linear pairs are adjacent, but not all adjacent angles are linear pairs."
+    },
+    {
+      "concept_name": "Vertically Opposite Angles",
+      "simple_explanation": "When two lines intersect, they form four angles. The angles across from each other (not next to each other) are called vertically opposite angles — and they are always equal.",
+      "detailed_explanation": "When two lines intersect at a point, four angles are formed. These four angles come in two pairs of vertically opposite angles. Vertically opposite angles are the angles that are across the intersection from each other — they are NOT adjacent. Property: Vertically opposite angles are always equal. Proof: Let the four angles be ∠1, ∠2, ∠3, ∠4 in order. ∠1 and ∠2 form a linear pair: ∠1 + ∠2 = 180°. ∠2 and ∠3 form a linear pair: ∠2 + ∠3 = 180°. Therefore ∠1 = ∠3. Similarly ∠2 = ∠4. So vertically opposite angles are equal. Note: 'vertically' here does NOT mean up-down. 'Vertically' refers to the vertex — they are formed at the same vertex on opposite sides.",
+      "real_life_example": "When scissors cut paper, the four angles formed at the pivot are two pairs of vertically opposite angles. The cutting angle equals the angle on the opposite side.",
+      "karnataka_example": "At a road intersection in Bengaluru — say at MG Road's crossroads — the four angles at the junction are in two pairs of vertically opposite angles. The angle of one road matches the angle of the opposite road.",
+      "common_mistakes": "Students think 'vertically opposite' means one angle is above the other. 'Vertically' refers to vertex, not direction. Also, students sometimes say the four angles at an intersection are all equal — they are NOT. Only opposite pairs are equal; adjacent pairs are supplementary.",
+      "memory_tip": "VERTICALLY OPPOSITE = across the VERTEX. Like an X — the top and bottom angles are equal, and the left and right angles are equal. V-O-E = Vertically Opposite = Equal. When you see an X shape, opposite angles match."
+    },
+    {
+      "concept_name": "Transversal and Angles with Parallel Lines",
+      "simple_explanation": "A transversal is a line that crosses two or more other lines. When a transversal crosses two parallel lines, it creates 8 angles in three special pairs: corresponding angles (equal), alternate interior angles (equal), and co-interior angles (supplementary, sum 180°).",
+      "detailed_explanation": "When a transversal crosses two parallel lines, 8 angles are formed — 4 at each intersection. These angles have special relationships: (1) Corresponding angles: angles in the same position at each intersection — one above-left, both above-left. They are EQUAL when lines are parallel. Memory: F-shape. (2) Alternate interior angles: angles between the parallel lines, on opposite sides of the transversal. They are EQUAL when lines are parallel. Memory: Z-shape or N-shape. (3) Co-interior angles (same-side interior / consecutive interior): angles between the parallel lines, on the SAME side of the transversal. They are SUPPLEMENTARY (sum = 180°) when lines are parallel. Memory: C-shape or U-shape. (4) Alternate exterior angles: angles outside the parallel lines on opposite sides — EQUAL when lines are parallel. These relationships work IN BOTH DIRECTIONS: if lines are parallel → these angle relationships hold. AND if these angle relationships hold → lines ARE parallel (used to prove lines parallel). Converse use: if corresponding angles are equal, then the lines are parallel.",
+      "real_life_example": "Railway track sleepers (the wooden/concrete beams crossing two rails) are transversals crossing two parallel rails. Every sleeper creates corresponding angles, alternate angles, and co-interior angles with the rails.",
+      "karnataka_example": "The parallel runways at Kempegowda International Airport, Bengaluru are crossed by taxiways — the taxiways are transversals. The angles at each crossing follow these parallel-line-transversal rules. Karnataka's National Highways often cross regional roads at intersections where these angle relationships appear.",
+      "common_mistakes": "The most common exam error: confusing which angles are 'corresponding' vs 'alternate'. Use the letter shapes: Corresponding = F (or its mirror). Alternate = Z or N. Co-interior = C or U. Also, students forget that co-interior angles are SUPPLEMENTARY (not equal) — they only add to 180°, they are not equal unless each is 90°.",
+      "memory_tip": "FZC rule: F-shape = Corresponding angles (Equal). Z-shape = Alternate angles (Equal). C-shape = Co-interior angles (add to 180°). FZC = 'Friendly Zebra Crossing' — F, Z, C shapes you see at a transversal crossing."
     }
+  ],
+
+  "key_vocabulary": [
+    { "term": "Transversal", "definition": "A line that intersects two or more other lines at distinct points." },
+    { "term": "Corresponding angles", "definition": "Angles in the same position at each intersection when a transversal crosses two lines. Equal when lines are parallel. (F-shape)" },
+    { "term": "Alternate interior angles", "definition": "Angles between the two lines, on opposite sides of the transversal. Equal when lines are parallel. (Z-shape)" },
+    { "term": "Co-interior angles", "definition": "Angles between the two lines, on the same side of the transversal. Sum to 180° when lines are parallel. (C-shape)" },
+    { "term": "Linear pair", "definition": "Two adjacent angles that together form a straight angle (180°). They share a vertex and one arm, with the other arms forming a straight line." },
+    { "term": "Vertically opposite angles", "definition": "The angles across from each other when two lines intersect. Always equal to each other." },
+    { "term": "Complementary angles", "definition": "Two angles whose measures sum to 90°." },
+    { "term": "Supplementary angles", "definition": "Two angles whose measures sum to 180°." },
+    { "term": "Adjacent angles", "definition": "Two angles that share a common vertex and a common arm, with no overlap." },
+    { "term": "Parallel lines", "definition": "Lines in the same plane that never meet, no matter how far extended. Denoted by the symbol ∥." }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Complementary and Supplementary Angles",
+      "questions": [
+        { "type": "Application", "q": "Find the complement and supplement of 47°.", "a": "Complement = 90° − 47° = 43°. Supplement = 180° − 47° = 133°." },
+        { "type": "Application", "q": "Two supplementary angles are in the ratio 2:3. Find both angles.", "a": "Let angles be 2x and 3x. 2x + 3x = 180°. 5x = 180°. x = 36°. Angles are 72° and 108°." }
+      ]
+    },
+    {
+      "after_concept": "Vertically Opposite Angles",
+      "questions": [
+        { "type": "Application", "q": "Two lines intersect. One angle is 65°. Find all four angles.", "a": "Angle = 65°. Vertically opposite = 65°. Linear pair = 180° − 65° = 115°. Other vertically opposite = 115°. Four angles: 65°, 115°, 65°, 115°." }
+      ]
+    },
+    {
+      "after_concept": "Transversal and Angles with Parallel Lines",
+      "questions": [
+        { "type": "Application", "q": "A transversal crosses two parallel lines. One corresponding angle is 72°. Find the alternate interior angle on the same side.", "a": "Corresponding angles are equal: corresponding angle = 72°. The alternate interior angle (Z-shape) is also equal to 72° (alternate interior = equal). Note: the co-interior angle on the same side = 180° − 72° = 108°." },
+        { "type": "Application", "q": "Two lines are cut by a transversal. Co-interior angles are 110° and 70°. Are the lines parallel?", "a": "Co-interior angles sum = 110° + 70° = 180°. Yes, the lines ARE parallel (co-interior angles summing to 180° is the condition for parallel lines)." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Complementary angles sum to 90°; supplementary angles sum to 180°. They need not be adjacent.",
+    "Adjacent angles share a vertex and one arm without overlapping.",
+    "Linear pair: two adjacent angles on a straight line — always supplementary (sum = 180°).",
+    "Vertically opposite angles are ALWAYS EQUAL when two lines intersect.",
+    "A transversal crossing two parallel lines creates: corresponding angles (equal, F-shape), alternate interior angles (equal, Z-shape), co-interior angles (supplementary = 180°, C-shape).",
+    "Converse: if corresponding angles are equal (or alternate interior angles equal, or co-interior angles supplementary), then the lines ARE parallel.",
+    "FZC rule: F = corresponding (equal), Z = alternate (equal), C = co-interior (180°).",
+    "Karnataka connections: Kempegowda Airport taxiways (transversals), Bengaluru road crossings (vertically opposite), Vidhana Soudha architecture (parallel and perpendicular lines)."
+  ],
+
+  "mind_map": {
+    "root": "Lines and Angles",
+    "branches": [
+      {
+        "branch": "Angle Pairs",
+        "sub": ["Complementary — sum 90°", "Supplementary — sum 180°", "Adjacent — share vertex + arm", "Linear pair — adjacent + straight line = 180°", "Vertically opposite — equal (X shape)"]
+      },
+      {
+        "branch": "Transversal",
+        "sub": ["Crosses two (or more) lines", "Corresponding — F-shape — EQUAL (parallel lines)", "Alternate interior — Z-shape — EQUAL (parallel lines)", "Co-interior — C-shape — SUM 180° (parallel lines)"]
+      },
+      {
+        "branch": "Proving Lines Parallel",
+        "sub": ["If corresponding angles equal → parallel", "If alternate interior angles equal → parallel", "If co-interior angles sum 180° → parallel"]
+      },
+      {
+        "branch": "Key Properties",
+        "sub": ["Vertically opposite angles theorem", "Linear pair axiom", "Angles on straight line = 180°", "Angles at a point = 360°"]
+      },
+      {
+        "branch": "Karnataka Connections",
+        "sub": ["Kempegowda Airport — transversal taxiways", "Bengaluru road crossings — vertically opposite", "Railway tracks — parallel lines with transversals", "Vidhana Soudha — parallel/perpendicular architecture"]
+      }
+    ]
+  },
+
+  "revision_notes": "Chapter 5: Lines and Angles. Angle pairs: complementary (sum 90°), supplementary (sum 180°) — need not be adjacent. Adjacent angles: share vertex + arm, no overlap. Linear pair: adjacent angles on a straight line = supplementary (180°). Vertically opposite angles: when 2 lines intersect, opposite angle pairs are equal (proof uses linear pair). Transversal: line crossing 2+ lines. When transversal crosses PARALLEL lines: corresponding angles equal (F-shape), alternate interior angles equal (Z-shape), co-interior angles supplementary (C-shape, sum 180°). FZC rule for memory. Converses also true: equal corresponding → lines parallel. All four angles at an intersection = 360°. Key formulas: complement of x = 90−x, supplement of x = 180−x.",
+
+  "must_remember_facts": [
+    "Complementary angles → sum = 90°. Supplementary angles → sum = 180°.",
+    "Linear pair → always supplementary (180°). Two angles forming a straight line.",
+    "Vertically opposite angles → always EQUAL.",
+    "Corresponding angles (F) → EQUAL when lines parallel.",
+    "Alternate interior angles (Z) → EQUAL when lines parallel.",
+    "Co-interior angles (C) → SUM TO 180° when lines parallel.",
+    "FZC memory rule: F=equal, Z=equal, C=180°.",
+    "Angles at a point = 360°. Angles on a straight line = 180°."
   ]
 }

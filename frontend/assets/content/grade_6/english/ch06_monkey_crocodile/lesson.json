@@ -1,114 +1,265 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "english",
-  "chapter_id": "ch06_monkey_crocodile",
-  "chapter_title": {
-    "en": "The Monkey and the Crocodile",
-    "hi": "बंदर और मगरमच्छ",
-    "kn": "ಕೋತಿ ಮತ್ತು ಮೊಸಳೆ"
+  "subject": "English",
+  "textbook": "A Pact with the Sun",
+  "chapter_number": 6,
+  "chapter_title": "The Monkey and the Crocodile",
+  "estimated_study_time_minutes": 45,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Understand the plot, characters, and sequence of events in 'The Monkey and the Crocodile'",
+    "Identify the character traits of the monkey and the crocodile",
+    "Explain how the monkey uses intelligence to escape danger",
+    "State the moral of the story and connect it to real-life situations",
+    "Define and use key vocabulary words from the chapter in sentences",
+    "Appreciate the importance of quick thinking and presence of mind",
+    "Recognise the story as part of the Panchatantra tradition of Indian storytelling",
+    "Answer comprehension questions based on the story with supporting evidence"
+  ],
+
+  "prerequisite_knowledge": [
+    "Ability to read and understand a simple narrative story in English",
+    "Basic knowledge of animal characters in fables and moral stories",
+    "Familiarity with the concept of friendship and betrayal",
+    "Understanding of simple cause-and-effect relationships in a story"
+  ],
+
+  "introduction": {
+    "why_important": "This story teaches us that intelligence and presence of mind are more powerful than physical strength. In real life, we often face situations where we must think quickly to solve a problem or protect ourselves.",
+    "real_life_relevance": "Just like the monkey who uses his wits to escape the crocodile's trap, students face tricky situations — such as peer pressure or unfair treatment — where calm thinking helps more than panic. Learning to think clearly under pressure is a life skill.",
+    "karnataka_context": "This story is part of the Panchatantra tradition, a collection of ancient Indian fables originally composed in Sanskrit by Vishnu Sharma. The Panchatantra has deep roots in Karnataka's literary heritage — Durgasimha translated it into Kannada as 'Panchantantra' in the 12th century during the Hoysala period. Many of these stories are still told to children across Karnataka villages today.",
+    "connection_to_previous_learning": "In Chapter 5, we read about Tansen's wisdom and presence of mind at Akbar's court. This chapter continues the theme of using intelligence to overcome difficult situations."
   },
-  "topics": [
-    {
-      "topic_id": "english_grade6_ch06_monkey_crocodile_basics",
-      "title": {
-        "en": "The Monkey and the Crocodile - Fundamentals",
-        "hi": "बंदर और मगरमच्छ - बुनियादी बातें",
-        "kn": "ಕೋತಿ ಮತ್ತು ಮೊಸಳೆ - ಮೂಲತಮxt್ವಗಳು"
+
+  "story_summary": {
+    "characters": [
+      {
+        "name": "The Monkey",
+        "role": "The clever protagonist who lives on a rose-apple tree near a river and uses his wits to escape the crocodile's trap"
       },
-      "learning_objectives": [
-        "Understand key concepts of The Monkey and the Crocodile",
-        "Solve exercises and apply rules related to The Monkey and the Crocodile",
-        "Analyze practical examples of The Monkey and the Crocodile in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore The Monkey and the Crocodile. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम बंदर और मगरमच्छ का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಕೋತಿ ಮತ್ತು ಮೊಸಳೆ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
+      {
+        "name": "The Crocodile",
+        "role": "The antagonist who befriends the monkey but is later persuaded by his wife to bring the monkey's heart as food"
       },
-      "concept_explanation": {
-        "en": "In this chapter, we explore The Monkey and the Crocodile in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम बंदर और मगरमच्छ का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಕೋತಿ ಮತ್ತು ಮೊಸಳೆ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of The Monkey and the Crocodile.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in The Monkey and the Crocodile.",
-            "hi": "चरण 1: बंदर और मगरमच्छ के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಕೋತಿ ಮತ್ತು ಮೊಸಳೆ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering The Monkey and the Crocodile builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "बंदर और मगरमच्छ में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಕೋತಿ ಮತ್ತು ಮೊಸಳೆ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
+      {
+        "name": "The Crocodile's Wife",
+        "role": "A greedy character who desires the monkey's heart and manipulates her husband into betraying their friendship"
       }
+    ],
+    "plot": [
+      "A monkey lives alone on a rose-apple tree on the bank of a river, enjoying the sweet fruits.",
+      "A crocodile swims up to the tree and the two strike up a friendship; the monkey shares rose-apples with the crocodile every day.",
+      "The crocodile begins taking rose-apples home to his wife, who eats them and enjoys them greatly.",
+      "The crocodile's wife reasons that if the fruits are so sweet, the monkey who eats them all day must have an even sweeter heart.",
+      "She demands that her husband bring the monkey's heart for her to eat, and refuses to eat anything until he does.",
+      "The crocodile, torn between friendship and loyalty to his wife, reluctantly agrees to trick the monkey.",
+      "The crocodile invites the monkey to his home across the river, promising a feast and hospitality.",
+      "The monkey, who cannot swim, climbs onto the crocodile's back to cross the river.",
+      "Midway across the river, the crocodile reveals the truth — that he is taking the monkey to his wife who wants to eat his heart.",
+      "The monkey stays calm and thinks quickly. He tells the crocodile that he left his heart on the tree and they must go back to get it.",
+      "The foolish crocodile believes this impossible story and swims back to the bank.",
+      "The moment they reach the bank, the monkey leaps off and climbs high into the tree, safely out of reach.",
+      "The monkey scolds the crocodile for his treachery, calls him a fool, and ends their friendship forever."
+    ],
+    "moral": "True friendship should never be betrayed. More importantly, intelligence and presence of mind can help us escape even the most dangerous situations. A wise person can outwit a stronger enemy by staying calm and thinking clearly."
+  },
+
+  "core_concepts": [
+    {
+      "concept_name": "Presence of Mind",
+      "simple_explanation": "Presence of mind means being able to think clearly and act quickly when you are in a dangerous or surprising situation, without panicking.",
+      "detailed_explanation": "Presence of mind is the ability to remain calm, focused, and alert even when something unexpected or frightening happens. When the monkey discovered midway across the river that the crocodile planned to kill him, he did not scream or panic. Instead, he quickly invented a clever excuse — that his heart was left on the tree — and used the crocodile's own foolishness against him. This quality is different from courage; it is about mental sharpness and composure under pressure. People who have presence of mind can assess a situation quickly, identify options, and act decisively.",
+      "real_life_example": "Imagine you are giving a class presentation and suddenly forget your next point. Instead of freezing or crying, you take a breath, say 'Let me give you an example first,' and use that time to recall what comes next. That composure is presence of mind.",
+      "karnataka_example": "Kempegowda I, the 16th-century founder of Bengaluru, showed great presence of mind when he was imprisoned by the Vijayanagara king. Rather than despair, he planned carefully and eventually secured his release, later going on to build the city of Bengaluru. His calm thinking under pressure is a celebrated example in Karnataka's history.",
+      "common_mistakes": "Many students think presence of mind means being clever or intelligent in general. This is not entirely correct. It specifically refers to quick, calm thinking in a moment of crisis. A student who is excellent in class but panics during an exam and goes blank is not showing presence of mind in that moment.",
+      "memory_tip": "Think of the phrase 'STOP, THINK, ACT' — the monkey STOPped panicking, THOUGHt of a plan, and ACTed immediately. Presence of mind = Stop + Think + Act under pressure."
+    },
+    {
+      "concept_name": "Betrayal of Friendship",
+      "simple_explanation": "Betrayal means breaking someone's trust — acting against a friend who trusted you completely, especially for selfish reasons.",
+      "detailed_explanation": "The crocodile and the monkey shared a genuine friendship — the monkey shared his fruits generously, and the crocodile visited every day. However, the crocodile allowed his wife's greed to override his loyalty to his friend. This is called betrayal: using someone's trust to harm them. The story shows that betrayal often comes not from enemies but from those we trust most. The crocodile's wife represents greed, which can corrupt even good relationships. In the end, the crocodile loses both his friendship and his wife's wish — a reminder that betrayal brings no real gain.",
+      "real_life_example": "If your best friend shares a secret with you in confidence, and you tell others just to seem interesting or popular, that is a betrayal of their trust. Such actions destroy friendships that may have taken years to build.",
+      "karnataka_example": "The Panchatantra, compiled by Vishnu Sharma and translated into Kannada by Durgasimha during the Hoysala period, is full of stories about friendship and betrayal among animals. These stories were used to teach young princes in ancient India about the dangers of trusting the wrong people — a lesson as relevant today as it was 1500 years ago.",
+      "common_mistakes": "Students sometimes feel sorry for the crocodile and think he had no choice because his wife pressured him. However, the story clearly shows the crocodile had a choice — he chose greed and his wife's demand over loyalty. Pressure from others does not justify betraying a true friend.",
+      "memory_tip": "Remember 'B-R-E-A-K' — Betrayal Really Ends A Kindship. The crocodile BREAKs the friendship by betraying the monkey."
+    },
+    {
+      "concept_name": "Using Wit Over Strength",
+      "simple_explanation": "Wit means cleverness and quick thinking. Sometimes a smart idea can solve a problem better than physical power or size.",
+      "detailed_explanation": "The monkey was physically helpless on the crocodile's back in the middle of the river — he could not swim, he could not fight, and he could not run. Yet he escaped because of his wit. He identified the crocodile's weakness (gullibility and greed) and used it against him. This concept appears in many fables across cultures — small, physically weak characters who triumph over large, strong ones through clever thinking. In real life, intelligence, negotiation, and creativity often achieve what force cannot. The story teaches students to value their minds as their greatest tool.",
+      "real_life_example": "A small student being bullied cannot always win by fighting back. But by calmly saying, 'I'll tell the teacher and your parents if you don't stop,' the student uses smart thinking to neutralise the threat — just like the monkey.",
+      "karnataka_example": "Akkamahadevi, the 12th-century Veerashaiva poet-saint from Udutadi in Karnataka, used her sharp words and spiritual wisdom to challenge kings and social norms of her time. Though she had no physical power or political authority, her wit and conviction gave her great moral strength — showing that intelligence and courage of mind are mightier than force.",
+      "common_mistakes": "Some students read the story and think the monkey was simply lucky. This misses the point. The monkey deliberately created a logical-sounding excuse (hearts don't stay on trees, but the crocodile was too greedy and foolish to realise this). The escape was entirely the result of intelligent planning, not luck.",
+      "memory_tip": "Think: 'Brain beats brawn.' The monkey had no brawn (physical strength) but had a brilliant brain. Brain = the monkey's best weapon."
     }
+  ],
+
+  "key_terms_glossary": [
+    {
+      "term": "Presence of mind",
+      "meaning": "The ability to think clearly and act wisely in a sudden or dangerous situation without panicking. In the story, the monkey demonstrates this when he calmly tricks the crocodile."
+    },
+    {
+      "term": "Betrayal",
+      "meaning": "The act of being disloyal to someone who trusted you, especially for personal gain. The crocodile betrays the monkey by pretending to be his friend while planning to kill him."
+    },
+    {
+      "term": "Gullible",
+      "meaning": "Easily tricked or deceived because of being too trusting or naive. The crocodile is gullible because he believes the monkey's impossible claim about leaving his heart on the tree."
+    },
+    {
+      "term": "Treachery",
+      "meaning": "A serious betrayal of trust, often involving deception or a secret plan to harm someone. The crocodile's plan to lure the monkey and kill him is an act of treachery."
+    },
+    {
+      "term": "Hospitality",
+      "meaning": "The friendly and generous reception and entertainment of guests. The crocodile falsely uses the promise of hospitality to lure the monkey across the river."
+    },
+    {
+      "term": "Rose-apple tree",
+      "meaning": "A tree that bears sweet, juicy fruits called rose-apples (also called Java plum or jamun). In the story, the monkey lives on this tree and shares its fruits with the crocodile."
+    },
+    {
+      "term": "Wit",
+      "meaning": "The ability to think quickly and be clever, especially in a difficult situation. The monkey's wit saves his life when he is trapped on the crocodile's back."
+    },
+    {
+      "term": "Panchatantra",
+      "meaning": "An ancient Indian collection of animal fables and stories compiled by Vishnu Sharma, designed to teach wisdom and practical knowledge. 'The Monkey and the Crocodile' is based on a Panchatantra tale."
+    },
+    {
+      "term": "Antagonist",
+      "meaning": "The character in a story who opposes the main character (protagonist) and creates the conflict. In this story, the crocodile acts as the antagonist."
+    },
+    {
+      "term": "Fable",
+      "meaning": "A short story, usually with animal characters, that teaches a moral lesson. 'The Monkey and the Crocodile' is a fable because its animal characters teach us an important lesson about friendship and intelligence."
+    }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Comprehension",
+      "question": "Why did the crocodile decide to betray the monkey, and what does this tell us about his character?",
+      "step_by_step_answer": [
+        "Step 1: Identify the cause — The crocodile's wife wanted to eat the monkey's heart, believing it would be very sweet since the monkey ate rose-apples all day.",
+        "Step 2: Find the crocodile's response — The crocodile was torn but ultimately gave in to his wife's demand, choosing to lure the monkey to his death.",
+        "Step 3: Analyse his character — The crocodile shows he is weak-willed (cannot stand up to his wife), disloyal (he betrays a good friend for a selfish reason), and short-sighted (he does not think of the consequences).",
+        "Step 4: Connect to the theme — The crocodile's betrayal shows that greed (his wife's) and weakness (his own) can destroy a true friendship.",
+        "Conclusion: The crocodile betrayed the monkey because of his wife's greedy desire and his own inability to refuse her, revealing him to be disloyal and spineless."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Vocabulary in context",
+      "question": "Use the word 'gullible' in a sentence connected to the story.",
+      "step_by_step_answer": [
+        "Step 1: Recall meaning — 'Gullible' means easily tricked or deceived because one is too trusting or does not think critically.",
+        "Step 2: Connect to story — The crocodile believed the monkey's claim that he had left his heart on the tree, which is biologically impossible. He did not stop to think whether it was true.",
+        "Step 3: Write sentence: 'The crocodile was so gullible that he turned back to the bank, believing the monkey's impossible story about forgetting his heart on the tree.'"
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Moral application",
+      "question": "How can the moral of this story — that intelligence can overcome danger — be applied in your school life?",
+      "step_by_step_answer": [
+        "Step 1: State the moral — Intelligence, presence of mind, and calm thinking can help us overcome dangerous or difficult situations better than panic or physical force.",
+        "Step 2: Think of a school/life situation — Suppose a classmate is trying to pressure you into copying homework, threatening to stop being your friend if you refuse.",
+        "Step 3: Apply it — Instead of panicking or giving in, think calmly. You could say, 'If I copy, we'll both get in trouble — let me help you understand it instead.' This uses wit to resolve the situation without conflict.",
+        "Step 4: Conclusion — Just like the monkey used his intelligence to escape a life-threatening trap, you can use calm, smart thinking to escape peer pressure and difficult situations at school."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Presence of Mind",
+      "questions": [
+        {
+          "type": "Recall",
+          "q": "What did the monkey tell the crocodile when he revealed his plan to take the monkey's heart?",
+          "a": "The monkey calmly told the crocodile that he had left his heart on the rose-apple tree, so they would have to go back to get it."
+        },
+        {
+          "type": "Recall",
+          "q": "Where was the monkey when he discovered the crocodile's plan?",
+          "a": "The monkey was sitting on the crocodile's back in the middle of the river."
+        },
+        {
+          "type": "Understanding",
+          "q": "Why is the monkey's response to the crocodile considered an example of presence of mind?",
+          "a": "Instead of panicking when he discovered the danger, the monkey quickly thought of a clever lie that played on the crocodile's greed, remaining calm and acting fast to save himself."
+        },
+        {
+          "type": "Understanding",
+          "q": "How did the monkey use the crocodile's weakness against him?",
+          "a": "The monkey knew the crocodile was greedy and not very smart. He told a biologically impossible story about leaving his heart on the tree, and the greedy crocodile believed it without questioning it."
+        },
+        {
+          "type": "Application",
+          "q": "Describe a situation in your own life where you showed or needed presence of mind.",
+          "a": "Accept any reasonable answer — e.g. staying calm during a fire drill, thinking quickly when lost in a crowd, or handling an unexpected question in class without panicking. The answer should show awareness of what presence of mind means."
+        }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "The story 'The Monkey and the Crocodile' is based on a tale from the Panchatantra, ancient India's most famous collection of animal fables.",
+    "The monkey and the crocodile are friends — the monkey shares rose-apples generously, showing true friendship.",
+    "The crocodile's wife's greed destroys the friendship; she wants the monkey's heart, believing it will be sweet.",
+    "The crocodile betrays his friend by tricking him — he invites the monkey to his home under false pretences.",
+    "Midway across the river, the crocodile reveals his plan — at this point, the monkey is in real danger with no obvious way to escape.",
+    "The monkey shows excellent presence of mind — he stays calm and invents a clever story about leaving his heart on the tree.",
+    "The gullible crocodile believes the story and turns back, allowing the monkey to escape to safety.",
+    "The monkey's intelligence (wit) is more powerful than the crocodile's physical strength — the theme of 'brain beats brawn.'",
+    "Key vocabulary: presence of mind, betrayal, gullible, treachery, fable, Panchatantra, wit.",
+    "Moral: Intelligence and calm thinking can save us from danger; true friendship should never be betrayed for selfish gain."
+  ],
+
+  "mind_map": {
+    "root": "The Monkey and the Crocodile",
+    "branches": [
+      {
+        "branch": "Characters",
+        "sub": ["Monkey — clever, quick-thinking protagonist", "Crocodile — disloyal, gullible antagonist", "Crocodile's wife — greedy, manipulative"]
+      },
+      {
+        "branch": "Plot",
+        "sub": ["Friendship forms near rose-apple tree", "Wife demands monkey's heart", "Crocodile lures monkey across river", "Monkey escapes with clever trick"]
+      },
+      {
+        "branch": "Theme",
+        "sub": ["Intelligence over strength", "Greed destroys relationships", "Betrayal brings no real gain"]
+      },
+      {
+        "branch": "Moral",
+        "sub": ["Presence of mind saves lives", "True friendship must not be betrayed", "Wit can outsmart physical power"]
+      },
+      {
+        "branch": "Indian Literary Tradition",
+        "sub": ["Based on the Panchatantra by Vishnu Sharma", "Translated into Kannada by Durgasimha (Hoysala period)", "Part of India's ancient wisdom literature"]
+      }
+    ]
+  },
+
+  "revision_notes": "The Monkey and the Crocodile is a classic fable from the Panchatantra, the ancient Indian collection of stories compiled by Vishnu Sharma. In Karnataka, Durgasimha translated the Panchatantra into Kannada during the 12th-century Hoysala period. The story features three main characters: a clever monkey who lives on a rose-apple tree, a crocodile who befriends him, and the crocodile's greedy wife. The friendship begins happily — the monkey shares sweet rose-apples daily with the crocodile. Conflict arises when the crocodile's wife reasons that the monkey's heart must be even sweeter than the fruits, and demands that her husband bring it to her. The weak-willed crocodile agrees and lures the monkey onto his back under the pretext of inviting him home. In the middle of the river, he reveals his true purpose. The monkey, showing remarkable presence of mind, does not panic. He calmly tells the crocodile he left his heart on the tree and they must go back for it. The gullible crocodile turns around. The moment they reach the bank, the monkey leaps to safety and ends the friendship. Key vocabulary: presence of mind (calm quick thinking in danger), betrayal (breaking trust), gullible (easily deceived), treachery (harmful deception), fable (moral story with animal characters). The moral is twofold: intelligence and presence of mind can save us from danger, and true friendship should never be sacrificed for greed or selfish reasons.",
+
+  "must_remember_facts": [
+    "The story is based on a tale from the Panchatantra, compiled by Vishnu Sharma in ancient India.",
+    "The Panchatantra was translated into Kannada as 'Panchatantra' by Durgasimha in the 12th century (Hoysala period).",
+    "The monkey lives on a rose-apple tree on the bank of a river.",
+    "The crocodile's wife wants to eat the monkey's heart, believing it is sweet because he eats rose-apples all day.",
+    "The crocodile lures the monkey by falsely inviting him to his home across the river.",
+    "The monkey discovers the plot when the crocodile reveals his plan in the middle of the river.",
+    "The monkey escapes by telling the crocodile he left his heart on the tree — a clever but impossible lie.",
+    "The crocodile is gullible — he believes the monkey's story without questioning its logic.",
+    "The monkey's survival demonstrates 'presence of mind' — staying calm and thinking quickly under extreme pressure.",
+    "The moral of the story: intelligence and quick thinking can overcome danger; betrayal of friendship for greed leads to loss."
   ]
 }

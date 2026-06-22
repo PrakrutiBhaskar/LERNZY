@@ -1,0 +1,232 @@
+{
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 4,
+  "chapter_title": "Sorting Materials into Groups",
+  "quiz_type": "MCQ only",
+  "mcqs": [
+    {
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Which of the following is a lustrous material?",
+      "options": ["A) Wood", "B) Rubber", "C) Iron", "D) Chalk"],
+      "correct_answer": "C) Iron",
+      "explanation": "Lustre means shininess. Iron (when freshly cut or polished) is lustrous — it has a shiny metallic surface. Wood, rubber, and chalk are non-lustrous — they have dull, matte surfaces. Most metals are lustrous, while most non-metals are non-lustrous."
+    },
+    {
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "Which material is the hardest naturally occurring substance?",
+      "options": ["A) Iron", "B) Glass", "C) Diamond", "D) Granite"],
+      "correct_answer": "C) Diamond",
+      "explanation": "Diamond is the hardest naturally occurring material — it scores 10 on the Mohs hardness scale. It can scratch all other materials but cannot be scratched by any natural substance. Iron and granite are hard but not as hard as diamond. Glass is moderately hard."
+    },
+    {
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "Which of the following materials is soluble in water?",
+      "options": ["A) Sand", "B) Chalk powder", "C) Sugar", "D) Oil"],
+      "correct_answer": "C) Sugar",
+      "explanation": "Sugar dissolves uniformly in water to form a clear, sweet solution — it is soluble. Sand sinks to the bottom (insoluble). Chalk powder creates a cloudy mixture but does not dissolve (insoluble). Oil floats on water as a separate layer (insoluble — also immiscible)."
+    },
+    {
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "A material allows light to pass through but the objects behind it appear blurry. This material is:",
+      "options": ["A) Transparent", "B) Translucent", "C) Opaque", "D) Lustrous"],
+      "correct_answer": "B) Translucent",
+      "explanation": "Translucent materials allow some light to pass through but scatter it, so objects behind appear blurry or unclear. Transparent materials allow clear vision through them. Opaque materials allow no light through. Lustre refers to shininess, not light transmission. Examples of translucent materials: frosted glass, wax paper, oiled paper."
+    },
+    {
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "Which of the following is an electrical insulator?",
+      "options": ["A) Copper", "B) Iron", "C) Aluminium", "D) Rubber"],
+      "correct_answer": "D) Rubber",
+      "explanation": "Rubber is an electrical insulator — it resists the flow of electric current. Copper, iron, and aluminium are all metals and electrical conductors — they allow electric current to flow through them easily. Rubber is used to coat electrical wires for this reason — to prevent electric shocks."
+    },
+    {
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "When salt is added to water and stirred, the water remains clear and tastes salty. This shows that salt is:",
+      "options": [
+        "A) Insoluble in water",
+        "B) Soluble in water",
+        "C) Transparent in water",
+        "D) A conductor when in water"
+      ],
+      "correct_answer": "B) Soluble in water",
+      "explanation": "Salt dissolving in water — the water remains clear (not cloudy) and the salt cannot be seen, but its taste confirms it is still present as dissolved ions. This is the definition of a soluble substance: it dissolves uniformly in water without the water turning cloudy."
+    },
+    {
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "A brick wall is an example of which type of material based on transparency?",
+      "options": ["A) Transparent", "B) Translucent", "C) Opaque", "D) Lustrous"],
+      "correct_answer": "C) Opaque",
+      "explanation": "A brick wall is opaque — no light passes through it at all, and objects on the other side cannot be seen. Transparent materials (like glass) allow clear light passage. Translucent materials (like frosted glass) allow partial, blurry light. Opaque materials completely block light."
+    },
+    {
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "Which property is being tested when a material is scratched with a nail to check if it leaves a mark?",
+      "options": ["A) Lustre", "B) Solubility", "C) Hardness", "D) Conductivity"],
+      "correct_answer": "C) Hardness",
+      "explanation": "The scratch test checks hardness — the ability of a material to resist being scratched. If the nail scratches the material (leaves a mark), the material is softer than the nail. If no mark is left, the material is harder than the nail. Lustre is about shininess; solubility is about dissolving in water; conductivity is about heat/electricity flow."
+    },
+    {
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "Why is copper wire coated with rubber or plastic?",
+      "options": [
+        "A) To make the wire look attractive",
+        "B) To make the wire stronger and prevent it from breaking",
+        "C) Because rubber and plastic are conductors that help electricity flow",
+        "D) Because rubber and plastic are insulators that prevent electric shocks"
+      ],
+      "correct_answer": "D) Because rubber and plastic are insulators that prevent electric shocks",
+      "explanation": "Copper is an excellent conductor — electricity flows through it. Without a protective coating, touching the wire could cause an electric shock. Rubber and plastic are insulators — they block electricity from escaping the wire and protect people who handle it. The coating is for safety, not appearance or strength."
+    },
+    {
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "The Hoysala temples at Belur and Halebidu in Karnataka were built using soapstone (chloritic schist) because:",
+      "options": [
+        "A) Soapstone is the hardest stone and could not be damaged",
+        "B) Soapstone is soft when quarried (allowing detailed carving) but hardens over time when exposed to air",
+        "C) Soapstone is transparent and allowed light inside the temple",
+        "D) Soapstone is found only in Karnataka and was cheapest to use"
+      ],
+      "correct_answer": "B) Soapstone is soft when quarried (allowing detailed carving) but hardens over time when exposed to air",
+      "explanation": "Chloritic schist (soapstone) used by Hoysala architects has a unique property: it is relatively soft when freshly quarried, making detailed and intricate carving possible. Over time, exposure to air causes the stone to harden, giving the finished temple its durability. This deliberate use of a material's changing hardness property is a remarkable engineering achievement."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "A student adds chalk powder to water and stirs it. The water turns cloudy but the chalk settles at the bottom after some time. Is chalk soluble or insoluble? How do you know?",
+      "options": [
+        "A) Soluble — because it mixed with water and changed the colour",
+        "B) Insoluble — because it settled at the bottom and the water turned cloudy, not clear",
+        "C) Soluble — because it disappeared when stirred",
+        "D) Translucent — because the water became cloudy"
+      ],
+      "correct_answer": "B) Insoluble — because it settled at the bottom and the water turned cloudy, not clear",
+      "explanation": "A soluble material dissolves completely and leaves the water clear (not cloudy). Chalk makes the water cloudy because its particles are suspended — not dissolved — and then settle to the bottom as sediment. True solutions (from soluble materials like salt) are always clear. Chalk is therefore insoluble. 'Translucent' is a transparency property, not a solubility classification."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "A metal chair and a plastic chair are left in the same room overnight. In the morning, which will feel colder to sit on, and why?",
+      "options": [
+        "A) The plastic chair, because plastic gets colder than metal at night",
+        "B) The metal chair, because metal is a thermal conductor and quickly draws heat away from your body",
+        "C) Both will feel equally cold because they are in the same room at the same temperature",
+        "D) Neither — room temperature chairs are always comfortable"
+      ],
+      "correct_answer": "B) The metal chair, because metal is a thermal conductor and quickly draws heat away from your body",
+      "explanation": "Both chairs are at the same room temperature. However, metal is a thermal conductor — when you sit on it, it quickly conducts (draws away) heat from your warmer body, making it feel cold. Plastic is a thermal insulator — it does not conduct heat away quickly, so it feels less cold. The perceived temperature difference is due to their different rates of heat transfer, not actual temperature."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "Which of the following correctly describes the difference between dissolving and melting?",
+      "options": [
+        "A) Dissolving requires heat; melting requires water",
+        "B) Dissolving is mixing with a liquid at room temperature; melting is a change of state from solid to liquid due to heat",
+        "C) Both dissolving and melting are the same process — they both involve a solid disappearing",
+        "D) Melting can only happen with ice; dissolving can only happen with salt"
+      ],
+      "correct_answer": "B) Dissolving is mixing with a liquid at room temperature; melting is a change of state from solid to liquid due to heat",
+      "explanation": "Dissolving (solubility) is when a solid mixes uniformly with a liquid without changing state — salt dissolves in water at room temperature. Melting is a physical change of state — a solid (like ice or wax) becomes liquid when heated. They are fundamentally different: dissolving requires a solvent; melting requires heat. Salt dissolves in water; ice melts when warmed."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "A material is non-lustrous, soft, insoluble in water, and is an electrical insulator. What is this material most likely to be?",
+      "options": ["A) Iron", "B) Copper", "C) Rubber", "D) Salt"],
+      "correct_answer": "C) Rubber",
+      "explanation": "Rubber matches all four properties: non-lustrous (dull, not shiny), soft (flexible and deforms easily), insoluble in water (rubber does not dissolve), and electrical insulator (used to coat wires). Iron and copper are metals — lustrous, hard, and conductors. Salt is soft and soluble, but it is not an insulator when dissolved."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "Glass is transparent. Iron is opaque. Both are hard and insoluble in water. What does this tell us about how material properties work?",
+      "options": [
+        "A) Hard and insoluble materials are always opaque",
+        "B) Properties are independent — a material can be hard and insoluble but either transparent or opaque",
+        "C) Glass and iron must be the same type of material since they share hardness and insolubility",
+        "D) Transparency and opacity are the most important properties of any material"
+      ],
+      "correct_answer": "B) Properties are independent — a material can be hard and insoluble but either transparent or opaque",
+      "explanation": "This question illustrates that material properties are independent of each other. Glass and iron share hardness and insolubility but differ in transparency. You cannot predict one property from another in most cases. This is why scientists test materials for each property separately. Each property gives independent information about the material."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Why is Channapatna, Karnataka, famous for wooden toys, and how does this connect to material properties?",
+      "options": [
+        "A) Channapatna has the largest iron ore deposits, making metal toys cheapest there",
+        "B) The soft, lightweight wood used in Channapatna is easy to turn on a lathe and paint with non-toxic lacquer — properties ideal for toy-making",
+        "C) Channapatna's wooden toys are made from the hardest wood available, making them durable",
+        "D) The wood used in Channapatna conducts electricity, allowing electronic toys to be made"
+      ],
+      "correct_answer": "B) The soft, lightweight wood used in Channapatna is easy to turn on a lathe and paint with non-toxic lacquer — properties ideal for toy-making",
+      "explanation": "Channapatna toys (Ramanagara district, Karnataka) are made from soft, lightweight woods (like ivory wood or soft teak). The softness allows the wood to be easily turned on a lathe into smooth, rounded toy shapes. The wood is also a non-conductor (safe for children), lightweight (easy for children to handle), and takes non-toxic lacquer paint well. Each property is deliberately chosen for the toy-making application."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "Oil is insoluble in water, but when you shake oil and water together vigorously, they appear to mix temporarily. What happens after the shaking stops?",
+      "options": [
+        "A) The oil dissolves slowly and the mixture stays uniform",
+        "B) The oil and water separate back into layers — oil on top, water below",
+        "C) The mixture turns into a gel that stays mixed permanently",
+        "D) The water dissolves into the oil, forming an oil solution"
+      ],
+      "correct_answer": "B) The oil and water separate back into layers — oil on top, water below",
+      "explanation": "Oil and water are immiscible (do not mix/dissolve in each other). Shaking breaks the oil into tiny droplets temporarily dispersed in water, but this is an emulsion — unstable and temporary. Once shaking stops, oil droplets coalesce (join together) and separate back into a distinct layer on top (oil is less dense than water). This is why salad dressing must be shaken before each use."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "Which material is correctly matched with its use based on a specific property?",
+      "options": [
+        "A) Wood — used for electrical wires because it is a conductor",
+        "B) Copper — used for pan handles because it is an insulator",
+        "C) Glass — used for windows because it is transparent",
+        "D) Rubber — used for making hammers because it is hard"
+      ],
+      "correct_answer": "C) Glass — used for windows because it is transparent",
+      "explanation": "Glass is used for windows because it is transparent — it allows light in and allows people to see outside while providing a physical barrier. Option A is wrong — wood is an insulator, not used for wires (copper is). Option B is wrong — copper is a conductor; pan handles use insulators like wood or plastic. Option D is wrong — rubber is soft; hammers need hard materials like steel."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "A student claims that graphite (a form of carbon, a non-metal) conducts electricity, which contradicts the rule that metals are conductors. How would you resolve this apparent contradiction?",
+      "options": [
+        "A) The student is wrong — graphite does not conduct electricity",
+        "B) The student is correct — graphite is an exception; conductivity depends on atomic structure, not just whether a material is a metal or non-metal",
+        "C) Graphite is classified as a semi-metal, so it does not contradict the rule",
+        "D) The rule only applies to solid materials; graphite is a liquid"
+      ],
+      "correct_answer": "B) The student is correct — graphite is an exception; conductivity depends on atomic structure, not just whether a material is a metal or non-metal",
+      "explanation": "Graphite is indeed a non-metal that conducts electricity — it is the exception that proves the rule. Graphite's layered structure allows delocalised (free-moving) electrons between carbon layers, enabling electrical conduction. This shows that conductivity depends on atomic-level electron mobility, not simply on being a metal. Scientific rules are generalisations with exceptions — a good scientist notes and investigates the exceptions."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "A material has these properties: lustrous, hard, insoluble in water, good conductor of both heat and electricity, and opaque. Using ONLY these properties, what type of material is it most likely to be, and can you name a specific example?",
+      "options": [
+        "A) A non-metal like sulphur — lustrous, hard, and insoluble",
+        "B) A metal like copper or iron — all five properties are characteristic of metals",
+        "C) A synthetic polymer like hard plastic — matches all five properties",
+        "D) A ceramic like glass — hard, insoluble, and conducts heat"
+      ],
+      "correct_answer": "B) A metal like copper or iron — all five properties are characteristic of metals",
+      "explanation": "The combination of lustrous + hard + insoluble in water + good conductor (heat AND electricity) + opaque is the defining property profile of a metal. Copper and iron both match perfectly: lustrous (shiny), hard (resist scratching), insoluble (do not dissolve in water), excellent conductors (used in wires and pans), and opaque (no light passes through). Hard plastic is a poor conductor; glass is an insulator and transparent; sulphur is non-lustrous and a poor conductor. This is precisely what Chapter 4 teaches — combining properties to identify material types."
+    }
+  ]
+}

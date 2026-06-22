@@ -1,114 +1,170 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 7,
-  "subject": "math",
-  "chapter_id": "ch13_exponents_powers",
-  "chapter_title": {
-    "en": "Exponents and Powers",
-    "hi": "घातांक और घात",
-    "kn": "ಘಾತಾಂಕಗಳು ಮತ್ತು ಘಾತಗಳು"
+  "subject": "Mathematics",
+  "textbook": "Mathematics – Class 7",
+  "chapter_number": 13,
+  "chapter_title": "Exponents and Powers",
+  "estimated_study_time_minutes": 50,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Understand what an exponent (power) is and write repeated multiplication in exponential form",
+    "Identify the base and the exponent in any exponential expression",
+    "Evaluate expressions of the form a^m for whole number bases and exponents",
+    "Apply the laws of exponents: product rule, quotient rule, power of a power, zero exponent",
+    "Express very large numbers using powers of 10 (scientific notation basics)",
+    "Compare and simplify expressions using laws of exponents",
+    "Solve word problems involving exponents and powers",
+    "Use exponents to write prime factorisation in index form"
+  ],
+
+  "prerequisite_knowledge": [
+    "Multiplication of whole numbers and integers",
+    "Prime factorisation from earlier classes",
+    "Basic understanding of multiplication as repeated addition"
+  ],
+
+  "introduction": {
+    "why_important": "Exponents let us write very large or very small numbers compactly. The distance from Earth to the Sun is about 150,000,000 km — writing this as 1.5 × 10^8 is far easier. Scientists, engineers, and computer scientists use exponents every day to handle numbers that would otherwise fill an entire page.",
+    "real_life_relevance": "When your phone says it has 128 GB of storage, that is 128 × 2^30 bytes. When a bacteria colony doubles every hour, after 10 hours it has grown by 2^10 = 1024 times. Bank interest, population growth, and earthquake magnitude (Richter scale) all use exponential calculations.",
+    "karnataka_context": "The Indian Space Research Organisation (ISRO) headquartered in Bengaluru uses powers of 10 constantly — the distance to the Moon is about 3.84 × 10^5 km, and satellite orbital calculations involve numbers in exponential form. Karnataka's IT industry in Bengaluru (called the Silicon Valley of India) stores data in units of 2^10 (kilo), 2^20 (mega), 2^30 (giga) — all powers of 2.",
+    "connection_to_previous_learning": "In earlier chapters you multiplied integers and worked with prime factorisation. This chapter extends multiplication — instead of writing 2 × 2 × 2 × 2 × 2, you write 2^5. Exponents are a shortcut for repeated multiplication."
   },
-  "topics": [
+
+  "core_concepts": [
     {
-      "topic_id": "math_grade7_ch13_exponents_powers_basics",
-      "title": {
-        "en": "Exponents and Powers - Fundamentals",
-        "hi": "घातांक और घात - बुनियादी बातें",
-        "kn": "ಘಾತಾಂಕಗಳು ಮತ್ತು ಘಾತಗಳು - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of Exponents and Powers",
-        "Solve exercises and apply rules related to Exponents and Powers",
-        "Analyze practical examples of Exponents and Powers in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Exponents and Powers. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम घातांक और घात का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಘಾತಾಂಕಗಳು ಮತ್ತು ಘಾತಗಳು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Exponents and Powers in detail. This topic is essential for Grade 7 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम घातांक और घात का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಘಾತಾಂಕಗಳು ಮತ್ತು ಘಾತಗಳು ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Exponents and Powers.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Exponents and Powers.",
-            "hi": "चरण 1: घातांक और घात के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಘಾತಾಂಕಗಳು ಮತ್ತು ಘಾತಗಳು ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Exponents and Powers builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "घातांक और घात में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಘಾತಾಂಕಗಳು ಮತ್ತು ಘಾತಗಳು ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Base, Exponent, and Exponential Form",
+      "simple_explanation": "When we multiply a number by itself many times, we can write it as a power. For example, 2 × 2 × 2 = 2³. Here 2 is the base (the number being multiplied) and 3 is the exponent (how many times it is multiplied).",
+      "detailed_explanation": "The expression aᵐ is read as 'a to the power m' or 'a raised to m'. Here 'a' is the BASE and 'm' is the EXPONENT or INDEX. The value aᵐ = a × a × a × … (m times). For example: 5³ = 5 × 5 × 5 = 125. 2⁶ = 64. Any number to the power 1 equals itself: a¹ = a. Any number to the power 0 equals 1: a⁰ = 1 (where a ≠ 0). Negative bases follow sign rules: (−2)³ = −8 (odd power → negative), (−2)⁴ = 16 (even power → positive). We also use exponents to write prime factorisation: 360 = 2³ × 3² × 5.",
+      "real_life_example": "A chess board legend says a grain of rice was doubled on each square: square 1 = 2⁰ = 1 grain, square 2 = 2¹ = 2, square 3 = 2² = 4, … square 64 = 2⁶³ grains. That final square alone holds more rice than the world has ever produced — showing how quickly exponential growth works.",
+      "karnataka_example": "ISRO's Chandrayaan-3 landed on the Moon in 2023. The Moon is about 384,000 km from Earth = 3.84 × 10⁵ km. The mass of the spacecraft was about 3,900 kg ≈ 3.9 × 10³ kg. Both of these are written using powers of 10 — a direct application of exponential form used by ISRO scientists in Bengaluru every day.",
+      "common_mistakes": "Students often confuse the base and exponent. In 2³, the 3 is the EXPONENT (not the base). Also, students write 2³ = 6 (multiplying instead of using exponent). Correct: 2³ = 2 × 2 × 2 = 8, not 2 × 3 = 6. Another error: (−3)² = 9 (positive, even power) ≠ −9.",
+      "memory_tip": "BASE is at the BOTTOM (like a building's base). EXPONENT is up HIGH (like a flag on top). aᵐ: a is the BASE (below), m is the EXPONENT (raised up). 'Exponent EXPONENTIALLY raises the value'!"
+    },
+    {
+      "concept_name": "Laws of Exponents",
+      "simple_explanation": "There are easy rules for multiplying, dividing, and raising powers. These rules save time when working with exponents and are used across all of science and mathematics.",
+      "detailed_explanation": "The five main laws of exponents (where a, b are non-zero and m, n are whole numbers):\n1. Product Rule: aᵐ × aⁿ = aᵐ⁺ⁿ (same base → add exponents). E.g., 2³ × 2⁴ = 2⁷.\n2. Quotient Rule: aᵐ ÷ aⁿ = aᵐ⁻ⁿ (same base → subtract exponents). E.g., 3⁵ ÷ 3² = 3³.\n3. Power of a Power: (aᵐ)ⁿ = aᵐˣⁿ (multiply the exponents). E.g., (2³)⁴ = 2¹².\n4. Product of Powers: (ab)ᵐ = aᵐ × bᵐ. E.g., (2×3)⁴ = 2⁴ × 3⁴.\n5. Zero Exponent: a⁰ = 1 for any a ≠ 0. E.g., 7⁰ = 1, 100⁰ = 1.\nThese laws only apply when bases are THE SAME (for rules 1 and 2).",
+      "real_life_example": "When a computer doubles its processing speed: if it doubles 3 times (2³) and then doubles 4 more times (2⁴), the total increase is 2³ × 2⁴ = 2⁷ = 128 times — much easier to calculate using the product rule than multiplying out all 128 doublings separately.",
+      "karnataka_example": "In Karnataka's IT sector, data storage uses powers of 2: 1 KB = 2¹⁰ bytes, 1 MB = 2²⁰ bytes = (2¹⁰)² bytes. This uses the Power of a Power rule: (2¹⁰)² = 2²⁰. When Infosys or Wipro (both headquartered in Bengaluru) calculate data storage needs, these exponential laws underpin every calculation.",
+      "common_mistakes": "Most common mistake: applying the product rule to DIFFERENT bases. 2³ × 3⁴ CANNOT be simplified to 2⁷ or 3⁷ — the bases must be THE SAME. Another error: (2³)⁴ = 2⁷ (students add instead of multiply). Correct: (2³)⁴ = 2¹². Also: 2³ + 2⁴ ≠ 2⁷ — laws of exponents only apply to MULTIPLICATION and DIVISION, not addition.",
+      "memory_tip": "Product Rule: SAME base + MULTIPLY → ADD exponents (×→+). Quotient Rule: SAME base + DIVIDE → SUBTRACT exponents (÷→−). Power of Power: POWER on POWER → MULTIPLY exponents (()→×). Remember: operations on exponents are one step DOWN from operations on values!"
+    },
+    {
+      "concept_name": "Expressing Large Numbers Using Powers of 10",
+      "simple_explanation": "Very large numbers (like the distance to stars, population of India, or the number of cells in a body) can be written neatly using powers of 10. For example, 1,000,000 = 10⁶.",
+      "detailed_explanation": "Powers of 10 form the basis of our number system: 10⁰=1, 10¹=10, 10²=100, 10³=1000, 10⁴=10,000, 10⁵=1,00,000, 10⁶=10,00,000 etc. Any large number can be expressed using powers of 10. For example: India's population ≈ 1,40,00,00,000 = 1.4 × 10⁹. Distance from Earth to Sun ≈ 15,00,00,000 km = 1.5 × 10⁸ km. Speed of light ≈ 3,00,000 km/s = 3 × 10⁵ km/s. The standard form: a × 10ⁿ where 1 ≤ a < 10 is called Scientific Notation (introduced at this level). Expanded form using powers of 10: 47,561 = 4×10⁴ + 7×10³ + 5×10² + 6×10¹ + 1×10⁰.",
+      "real_life_example": "The human body has about 37,000,000,000,000 (37 trillion) cells = 3.7 × 10¹³ cells. Writing it as 3.7 × 10¹³ is far neater than 37,000,000,000,000. Scientists ALWAYS use this compact form — it is one of the most practical applications of exponents.",
+      "karnataka_example": "Karnataka has a land area of about 1,91,791 km² ≈ 1.9 × 10⁵ km². The population of Bengaluru city is about 1,30,00,000 = 1.3 × 10⁷. India's GDP in 2024 was about ₹3,00,00,000 crore = ₹3 × 10⁷ crore. All these Karnataka and India-specific numbers are naturally expressed using powers of 10.",
+      "common_mistakes": "Students sometimes write 2,500 as 25 × 10² (correct mathematically but not in standard form — standard form requires the first factor to be between 1 and 10). Correct standard form: 2.5 × 10³. Also, students confuse 10³ = 1000 with 10³ = 300 (thinking 10×3=30). Remember: 10³ = 10×10×10 = 1000, not 10×3.",
+      "memory_tip": "Count the zeros: 10⁶ = 1 followed by 6 zeros = 1,000,000. The EXPONENT tells you HOW MANY ZEROS follow the 1. Powers of 10 = zero-counting machine! 10^n = 1 with n zeros."
     }
+  ],
+
+  "key_terms_glossary": [
+    { "term": "Exponent", "meaning": "The number that tells how many times the base is multiplied by itself. In 2⁵, the exponent is 5. Also called 'index' or 'power'." },
+    { "term": "Base", "meaning": "The number being repeatedly multiplied. In 2⁵, the base is 2. The expression means 2 × 2 × 2 × 2 × 2 = 32." },
+    { "term": "Power", "meaning": "The entire expression aᵐ is called a power. Also used as a synonym for exponent. '2 to the power 5' means 2⁵." },
+    { "term": "Exponential form", "meaning": "Writing a number using a base and an exponent. E.g., 8 = 2³ is the exponential form of 8." },
+    { "term": "Product Rule", "meaning": "When multiplying two powers with the SAME base, add the exponents: aᵐ × aⁿ = aᵐ⁺ⁿ. E.g., 3⁴ × 3² = 3⁶." },
+    { "term": "Quotient Rule", "meaning": "When dividing two powers with the SAME base, subtract the exponents: aᵐ ÷ aⁿ = aᵐ⁻ⁿ. E.g., 5⁶ ÷ 5² = 5⁴." },
+    { "term": "Zero Exponent", "meaning": "Any non-zero number raised to the power 0 equals 1. a⁰ = 1 (a ≠ 0). E.g., 7⁰ = 1, 100⁰ = 1, (−3)⁰ = 1." },
+    { "term": "Power of a Power", "meaning": "When raising a power to another power, multiply the exponents: (aᵐ)ⁿ = aᵐⁿ. E.g., (2³)⁴ = 2¹²." },
+    { "term": "Standard form", "meaning": "Writing a number as a × 10ⁿ where 1 ≤ a < 10. E.g., 47,000 = 4.7 × 10⁴. Also called scientific notation." },
+    { "term": "Prime factorisation in index form", "meaning": "Writing a number's prime factors using exponents. E.g., 72 = 2³ × 3². This is the most compact way to express prime factorisation." }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Comprehension",
+      "question": "Simplify: 3⁴ × 3² ÷ 3³",
+      "step_by_step_answer": [
+        "Step 1: Identify — all bases are 3 (same base), so laws of exponents apply.",
+        "Step 2: Apply product rule first: 3⁴ × 3² = 3⁴⁺² = 3⁶.",
+        "Step 3: Apply quotient rule: 3⁶ ÷ 3³ = 3⁶⁻³ = 3³.",
+        "Step 4: Evaluate: 3³ = 3 × 3 × 3 = 27.",
+        "Conclusion: 3⁴ × 3² ÷ 3³ = 27."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Vocabulary in context",
+      "question": "Express 1,25,000 in standard form (using powers of 10).",
+      "step_by_step_answer": [
+        "Step 1: Write the number — 1,25,000.",
+        "Step 2: Place decimal after first digit: 1.25000.",
+        "Step 3: Count how many places the decimal moved left: 5 places.",
+        "Step 4: Write in standard form: 1.25 × 10⁵.",
+        "Step 5: Verify: 1.25 × 10⁵ = 1.25 × 1,00,000 = 1,25,000 ✓",
+        "Conclusion: 1,25,000 = 1.25 × 10⁵."
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Moral application",
+      "question": "A bacteria colony starts with 1 cell and doubles every hour. How many cells after 8 hours? Express using exponents.",
+      "step_by_step_answer": [
+        "Step 1: Identify pattern — doubles each hour means multiply by 2 each time.",
+        "Step 2: After 1 hour: 2¹ = 2 cells. After 2 hours: 2² = 4 cells.",
+        "Step 3: After 8 hours: 2⁸ cells.",
+        "Step 4: Evaluate: 2⁸ = 2 × 2 × 2 × 2 × 2 × 2 × 2 × 2 = 256 cells.",
+        "Conclusion: After 8 hours, there are 2⁸ = 256 cells. Exponents perfectly model exponential growth — one of the most important patterns in biology, finance, and technology."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Laws of Exponents",
+      "questions": [
+        { "type": "Recall", "q": "What is 5⁰?", "a": "5⁰ = 1. Any non-zero number raised to the power 0 equals 1." },
+        { "type": "Recall", "q": "Simplify 2⁴ × 2³ using the product rule.", "a": "2⁴ × 2³ = 2⁴⁺³ = 2⁷ = 128." },
+        { "type": "Understanding", "q": "Can you simplify 3² × 4³ using the product rule? Why or why not?", "a": "No. The product rule (aᵐ × aⁿ = aᵐ⁺ⁿ) only applies when the BASES ARE THE SAME. Here the bases are 3 and 4 — different bases. So 3² × 4³ cannot be simplified using this rule." },
+        { "type": "Understanding", "q": "Simplify (5²)³.", "a": "(5²)³ = 5²ˣ³ = 5⁶ = 15,625. Using the power of a power rule: multiply the exponents." },
+        { "type": "Application", "q": "Write 3,60,00,000 in standard form.", "a": "3,60,00,000 = 3.6 × 10⁷. (Decimal moves 7 places left from after the 3.)" }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "aᵐ means a multiplied by itself m times. 'a' is the base; 'm' is the exponent/index.",
+    "Any number to the power 0 is 1: a⁰ = 1 (a ≠ 0).",
+    "Any number to the power 1 is itself: a¹ = a.",
+    "Product rule: aᵐ × aⁿ = aᵐ⁺ⁿ — add exponents (same base only).",
+    "Quotient rule: aᵐ ÷ aⁿ = aᵐ⁻ⁿ — subtract exponents (same base only).",
+    "Power of a power: (aᵐ)ⁿ = aᵐⁿ — multiply the exponents.",
+    "Negative base to even power = positive; negative base to odd power = negative.",
+    "Standard form: a × 10ⁿ where 1 ≤ a < 10 — used for very large/small numbers.",
+    "Prime factorisation in index form: 360 = 2³ × 3² × 5.",
+    "Karnataka link: ISRO (Bengaluru) uses powers of 10 for space distances; IT sector uses powers of 2 for data storage."
+  ],
+
+  "mind_map": {
+    "root": "Exponents and Powers",
+    "branches": [
+      { "branch": "Basic Concepts", "sub": ["Base and exponent", "aᵐ = a × a × … (m times)", "Exponential form", "a⁰ = 1, a¹ = a"] },
+      { "branch": "Laws of Exponents", "sub": ["Product: aᵐ×aⁿ = aᵐ⁺ⁿ", "Quotient: aᵐ÷aⁿ = aᵐ⁻ⁿ", "Power of power: (aᵐ)ⁿ = aᵐⁿ", "Same base rule!"] },
+      { "branch": "Signs with Exponents", "sub": ["Even power → always positive", "Odd power → keeps sign", "(−3)² = 9, (−3)³ = −27"] },
+      { "branch": "Large Numbers", "sub": ["Standard form: a × 10ⁿ", "Powers of 10", "Prime factorisation in index form"] },
+      { "branch": "Applications", "sub": ["ISRO space distances", "IT data storage (powers of 2)", "Population and growth", "Compound interest"] }
+    ]
+  },
+
+  "revision_notes": "Exponents and Powers introduces the shorthand aᵐ for repeated multiplication of a by itself m times. Key vocabulary: base (a), exponent/index (m), power (the full expression aᵐ). Evaluation: 2⁵ = 32, 3³ = 27, 10⁴ = 10,000. Special cases: a⁰ = 1 (any non-zero base), a¹ = a. Negative bases: even exponent → positive result; odd exponent → negative result. Five laws: (1) Product rule aᵐ × aⁿ = aᵐ⁺ⁿ (same base, add exponents); (2) Quotient rule aᵐ ÷ aⁿ = aᵐ⁻ⁿ (same base, subtract); (3) Power of a power (aᵐ)ⁿ = aᵐⁿ (multiply exponents); (4) (ab)ᵐ = aᵐbᵐ; (5) a⁰ = 1. CRITICAL: laws 1 and 2 require the SAME base. Standard form: a × 10ⁿ where 1 ≤ a < 10. Example: 3,75,000 = 3.75 × 10⁵. Prime factorisation in index form: 72 = 2³ × 3². Karnataka connection: ISRO uses 10ⁿ for space calculations; Bengaluru's IT sector uses 2ⁿ for data storage.",
+
+  "must_remember_facts": [
+    "aᵐ: a = base, m = exponent. Read as 'a to the power m'.",
+    "a⁰ = 1 for any a ≠ 0. This is a LAW, not a coincidence.",
+    "Product rule: aᵐ × aⁿ = aᵐ⁺ⁿ (SAME base → ADD exponents).",
+    "Quotient rule: aᵐ ÷ aⁿ = aᵐ⁻ⁿ (SAME base → SUBTRACT exponents).",
+    "Power of power: (aᵐ)ⁿ = aᵐⁿ (MULTIPLY the exponents).",
+    "2³ = 8, 2⁴ = 16, 2⁵ = 32, 2¹⁰ = 1024 — memorise these.",
+    "(−a)ᵉᵛᵉⁿ = positive; (−a)ᵒᵈᵈ = negative.",
+    "Standard form: between 1 and 10, multiplied by a power of 10.",
+    "10³ = 1000 (3 zeros), 10⁶ = 10,00,000 (6 zeros).",
+    "Laws of exponents apply to MULTIPLICATION/DIVISION — NOT to addition/subtraction."
   ]
 }

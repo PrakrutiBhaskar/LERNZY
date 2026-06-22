@@ -1,0 +1,172 @@
+{
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 15,
+  "chapter_title": "Air Around Us",
+  "total_cards": 20,
+  "cards": [
+    {
+      "id": "fc01",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What are the main components of air and their approximate percentages?",
+      "back": "Air is a mixture of: Nitrogen (N₂) — ~78%, Oxygen (O₂) — ~21%, Carbon dioxide (CO₂) — ~0.04%, Water vapour — variable (0–4%), and traces of other gases like argon and helium. Together, N₂ and O₂ make up about 99% of dry air. Note: nitrogen is the most abundant, not oxygen.",
+      "memory_hook": "78-21-0: Nitrogen 78, Oxygen 21, CO₂ ≈ 0. Easy: N₂ wins the pie, O₂ is a strong second, CO₂ barely shows up but is the most 'famous' troublemaker (greenhouse effect)."
+    },
+    {
+      "id": "fc02",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "Is air a single substance or a mixture? How can you tell?",
+      "back": "Air is a MIXTURE of gases — not a single substance. Evidence: (1) The composition of air can vary (water vapour changes with humidity; CO₂ is rising due to human activity). (2) The components of air can be separated — liquid nitrogen and liquid oxygen are industrially separated from air. (3) Different components of air serve different purposes (O₂ for breathing, CO₂ for photosynthesis) — in a single pure substance, all properties would be the same.",
+      "memory_hook": "Mix vs. Single: A mixture can be separated. Air's components (N₂, O₂, CO₂) are separated in industry daily. Single substance = fixed properties. Mixture = variable proportions, separable."
+    },
+    {
+      "id": "fc03",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What is the most abundant gas in air? What is the second most abundant?",
+      "back": "The most abundant gas is NITROGEN (N₂) at approximately 78% of dry air. The second most abundant is OXYGEN (O₂) at approximately 21%. A common error is thinking oxygen is the most abundant — it is not. Nitrogen is the 'silent majority' of air, while oxygen is the minority that does most of the biological and chemical work.",
+      "memory_hook": "N comes before O in the alphabet — and N (nitrogen 78%) comes before O (oxygen 21%) in air abundance. N = Not the working gas but the most present. O = Only 21% but does ALL the important work."
+    },
+    {
+      "id": "fc04",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "How do we know air is present even in an 'empty' container?",
+      "back": "A container that appears 'empty' is actually full of air. Proof: (1) Invert an empty glass and push it into a bowl of water — the air inside prevents water from entering (you can see water level stays lower inside). (2) A punctured ball deflates — air rushes out, proving it was there. (3) Tilt the glass slightly underwater — you see bubbles escaping — those are air bubbles. The word 'empty' in daily life means 'no solids/liquids' but air always fills the space.",
+      "memory_hook": "Try the glass-in-water trick: 'empty' glass + push into water = air bubbles pop out. If it were truly empty, no bubbles. EVERY container has air unless all gas is specifically removed (vacuum)."
+    },
+    {
+      "id": "fc05",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "How do aquatic animals like fish get oxygen? What does this tell us about air?",
+      "back": "Fish breathe dissolved oxygen in water — they absorb it through their gills as water flows over them. Air (specifically oxygen) is dissolved in water in small amounts. This proves that air components permeate even liquids. If you heat water, dissolved oxygen escapes (that's why warm water has less dissolved O₂). Aquatic pollution that reduces dissolved oxygen kills fish — this is called oxygen depletion.",
+      "memory_hook": "Fish don't have lungs — they have gills. But they still need O₂! The O₂ dissolved in water IS air — just dissolved. If you ever see fish gasping at the water surface, it's because the O₂ in the water is too low."
+    },
+    {
+      "id": "fc06",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is the role of oxygen in respiration?",
+      "back": "In respiration, living organisms use oxygen to 'burn' (oxidise) glucose (food) to release energy. The products are carbon dioxide and water. The equation: Glucose + Oxygen → Carbon dioxide + Water + Energy. This happens in the cells of all living things — animals, plants, fungi, and bacteria. Respiration is how living things get energy from food. Without oxygen, organisms cannot release energy from food efficiently (they switch to anaerobic respiration, which is much less efficient).",
+      "memory_hook": "Respiration = slow burning. Just like a candle burns wax with O₂ to give light and heat, your cells burn glucose with O₂ to give energy. Both produce CO₂ + water. The difference: respiration is controlled, combustion is not."
+    },
+    {
+      "id": "fc07",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is the role of oxygen in combustion? How can you prove it?",
+      "back": "Combustion (burning) requires oxygen. Without oxygen, fire cannot start or sustain. Proof: (1) Cover a burning candle with a jar — after a few seconds, the candle goes out because all the oxygen inside is used up. (2) Blowing on a fire increases the oxygen supply and makes it burn brighter. (3) Sand and water extinguish fires by cutting off oxygen supply. Fire extinguishers work on the same principle. This is why cutting oxygen supply (smothering, CO₂ spray) puts out fires.",
+      "memory_hook": "Fire triangle: Fuel + Heat + OXYGEN = Fire. Remove any one, fire dies. Take away O₂ → fire out. Cover with a lid → O₂ cut → candle dies. Fire = combustion = oxygen's job."
+    },
+    {
+      "id": "fc08",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is the role of carbon dioxide (CO₂) in photosynthesis?",
+      "back": "Plants use carbon dioxide from the air as a raw material for photosynthesis — the process of making food. Equation: CO₂ + Water + Sunlight (energy) → Glucose (food) + Oxygen. Carbon dioxide enters the plant through stomata (tiny pores in leaves). This is why increasing atmospheric CO₂ (though it causes climate change) can sometimes increase plant growth — up to a point. CO₂ is the 'food ingredient' that plants absorb from the air.",
+      "memory_hook": "Plant's food recipe: CO₂ + H₂O + Sun → Sugar + O₂. CO₂ is the plant's main 'food ingredient' from air. Animals eat food; plants eat CO₂. They're on opposite sides of the carbon cycle."
+    },
+    {
+      "id": "fc09",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "Why do plants release oxygen during the day but carbon dioxide at night?",
+      "back": "Plants always respire (oxygen in, CO₂ out) day and night. During the day, plants ALSO photosynthesize — this process uses CO₂ and releases much more O₂ than respiration consumes. Net daytime result: plants appear to release O₂. At night, photosynthesis stops (no sunlight) but respiration continues — so plants release CO₂ and consume O₂. The practical point: plants are net O₂ producers during the day and net CO₂ producers at night, but the daytime amount is much larger — so overall, plants are the source of atmospheric O₂.",
+      "memory_hook": "Day: photo beats respiration → net O₂ out. Night: only respiration → net CO₂ out. Day plants = oxygen factories. Night plants = carbon dioxide factories. Same plant, two shifts, two different outputs."
+    },
+    {
+      "id": "fc10",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is nitrogen's role in air and in nature?",
+      "back": "Nitrogen (N₂) makes up 78% of air and serves two key roles: (1) In air: it dilutes oxygen to a safe level (~21%) — pure oxygen would cause fires to burn uncontrollably and would be toxic to breathe in high concentrations. (2) In nature: although plants cannot use N₂ directly from air, nitrogen-fixing bacteria in soil (and in root nodules of legumes like peas, dal, groundnut) convert N₂ into soluble nitrates, which plants absorb through roots to make proteins. Without nitrogen, plants cannot grow.",
+      "memory_hook": "Nitrogen = the silent giant. 78% of air but mostly invisible in function. Two roles: DILUTE oxygen in air (safety) + FERTILISE plants through soil bacteria (growth). Pulses (legumes) are nature's nitrogen factories."
+    },
+    {
+      "id": "fc11",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is water vapour in air? What role does it play?",
+      "back": "Water vapour is water in gaseous form present in the atmosphere. It varies from near 0% (arid deserts) to about 4% (tropical rainforests) by volume. Role: (1) Water cycle — water vapour condenses to form clouds and precipitates as rain. (2) Humidity — water vapour content of air determines how humid it feels. (3) Greenhouse effect — water vapour is actually the most abundant greenhouse gas, trapping heat in the atmosphere. (4) Weather patterns — differential heating of moist air masses drives weather systems.",
+      "memory_hook": "Water vapour = invisible water in air. High humidity = lots of vapour = sticky, uncomfortable. That 'fog' on your glasses when you step into AC from outside — that's water vapour condensing on cold glass = mini water cycle."
+    },
+    {
+      "id": "fc12",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is the atmosphere? What are its main functions?",
+      "back": "The atmosphere is the thick layer of gases surrounding Earth, extending up to about 1000 km above the surface (though 99% of its mass is within 30 km of the surface). Functions: (1) Provides O₂ for respiration and CO₂ for photosynthesis. (2) Ozone layer (stratosphere, 15–50 km up) absorbs harmful UV radiation from the Sun, preventing skin cancer and DNA damage. (3) Acts as an insulating blanket — without it, day temperatures would be 127°C (like the Moon's daytime) and night temperatures -173°C (Moon's nighttime). (4) Contains water vapour for the water cycle. (5) Provides the medium through which weather and sound travel.",
+      "memory_hook": "Atmosphere = Earth's 4-layer protection system: (1) Air for life, (2) UV shield (ozone), (3) Temperature blanket, (4) Water cycle engine. Without the atmosphere, Earth = the Moon — lifeless and temperature-extreme."
+    },
+    {
+      "id": "fc13",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is air pollution? Name four main sources.",
+      "back": "Air pollution is the presence of harmful substances in the air at concentrations that are harmful to humans, animals, plants, or the environment. Main sources: (1) Vehicle exhaust — carbon monoxide, NOₓ, PM2.5 particulates. (2) Industrial emissions — sulphur dioxide, nitrogen oxides, particulates. (3) Burning of fossil fuels (coal, oil) — CO₂, SO₂. (4) Burning of waste and crop residue — smoke, carbon particles. (5) Construction dust. (6) Agricultural chemicals. Air pollution causes asthma, bronchitis, lung cancer, acid rain, smog, and climate change.",
+      "memory_hook": "VIBC: Vehicles, Industry, Burning, Construction = the four main air polluters. Every time you smell exhaust from a bus or see smoke from a factory, VIBC is at work."
+    },
+    {
+      "id": "fc14",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "When a candle under a glass jar burns out in a few seconds, what does this prove?",
+      "back": "The candle burns out because it uses up all the oxygen inside the jar. Once the oxygen is consumed, combustion stops. This proves two things: (1) Oxygen is necessary for combustion — without it, burning cannot continue. (2) Air is a finite resource in a closed space — the candle cannot burn indefinitely because the oxygen supply is limited. This is the same reason fire extinguishers work — by covering a fire with CO₂ or foam, they exclude oxygen and the fire dies.",
+      "memory_hook": "Candle + jar = oxygen test. Candle goes out = oxygen used up. The jar is like a mini-Earth with limited air — once O₂ is gone, no more fire. Same logic applies to fire safety: cut oxygen → stop fire."
+    },
+    {
+      "id": "fc15",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "How do soil organisms get air for breathing?",
+      "back": "Soil organisms (earthworms, bacteria, fungi, and soil insects) breathe the air trapped in the tiny pores and spaces between soil particles. Well-aerated soils have large pore spaces with plenty of air. Evidence: when you pour water on dry soil, you can see tiny air bubbles rising — the water is displacing the air trapped in soil pores. This is why soil aeration (tilling, adding organic matter) is important for healthy plant growth and soil organisms — compacted soil has fewer air pores and is less productive.",
+      "memory_hook": "Soil = air sponge. All those tiny gaps between soil particles are full of air. Earthworms breathe through their moist skin using this soil air. When it rains, air escapes as bubbles — you can literally watch soil exhale."
+    },
+    {
+      "id": "fc16",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why is the ozone layer important? What threatens it?",
+      "back": "The ozone layer is a region in the stratosphere (15–50 km above Earth) with concentrated ozone (O₃) gas. It absorbs 97–99% of the Sun's harmful UV-B and UV-C radiation. Without it, UV radiation would cause: skin cancer, eye cataracts, immune system damage, and destruction of phytoplankton (base of ocean food chains). The ozone layer is threatened by chlorofluorocarbons (CFCs) — chemicals used in old refrigerators, air conditioners, and aerosol sprays. CFCs break down ozone molecules. The Montreal Protocol (1987) — an international treaty — banned CFCs and the ozone layer is slowly recovering.",
+      "memory_hook": "Ozone = sunscreen layer. Without it, Earth's surface would be bombarded by UV radiation. CFCs punched holes in this sunscreen. The Montreal Protocol stitched those holes back. O₃ = three oxygen atoms acting as Earth's bodyguard."
+    },
+    {
+      "id": "fc17",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Why do forests near cities improve air quality? Name two Karnataka forest reserves.",
+      "back": "Forests improve air quality by: (1) Absorbing CO₂ during photosynthesis — reducing the greenhouse gas concentration. (2) Releasing O₂ — adding to the oxygen content of air. (3) Filtering particulate matter — leaves trap dust and smoke particles. (4) Cooling the air through transpiration — reducing the 'heat island' effect in cities. (5) Reducing wind speed, which helps particulate matter settle. Karnataka forest reserves that act as lungs: Bandipur National Park (Chamarajanagar/Mysuru) and Kudremukh National Park (Chikkamagaluru) are two critical forest reserves.",
+      "memory_hook": "Forest = city's lungs + air filter + air conditioner. Trees photosynthesize by day: CO₂ in, O₂ out. A large tree absorbs ~21 kg of CO₂/year and produces enough O₂ for a family of four. Plant trees, breathe clean."
+    },
+    {
+      "id": "fc18",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "How is wind formed? How is it useful?",
+      "back": "Wind is the movement of air from areas of high pressure to areas of low pressure. Cause: the Sun heats different parts of Earth's surface unequally. Warm air is lighter, rises, and creates low pressure. Cooler, denser air moves in to replace it — this movement of air is wind. Uses: (1) Wind energy — wind turbines convert wind's kinetic energy into electricity. (2) Helps in dispersal of seeds and pollination. (3) Moves clouds and weather systems. (4) Traditional windmills ground grain and pump water. (5) Sailing ships used wind for navigation for centuries.",
+      "memory_hook": "Wind = nature's air delivery service. Warm air rises → low pressure → cool air rushes in = WIND. Wind is the atmosphere constantly trying to balance temperature differences. Karnataka's wind farms in Chitradurga and Gadag tap this restless air for electricity."
+    },
+    {
+      "id": "fc19",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Why does Karnataka produce significant wind energy? Which districts are known for it?",
+      "back": "Karnataka's Deccan Plateau experiences consistent, strong winds due to its elevated terrain and the pressure difference created by seasonal temperature gradients. This makes it ideal for wind energy generation. Key districts for wind energy: Chitradurga, Davangere, Gadag, Tumakuru, and Belgaum (Belagavi). Karnataka is one of India's top wind energy producers. Wind energy is clean (no emissions), renewable, and does not use any water — making it ideal for Karnataka's water-stressed north. The Indian Wind Energy Association (InWEA) recognises Karnataka as a top wind power state.",
+      "memory_hook": "Karnataka's north = naturally windy = natural wind energy zone. These districts have fewer trees, flat or hilly terrain, and strong seasonal winds. Wind turbines are like giant pinwheels harvesting air's kinetic energy — no fuel, no CO₂, just wind."
+    },
+    {
+      "id": "fc20",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "How does increasing CO₂ in the atmosphere cause climate change?",
+      "back": "CO₂ is a greenhouse gas — it allows sunlight to pass through the atmosphere to warm Earth's surface, but traps the heat that Earth tries to radiate back into space (like a greenhouse glass trapping heat inside). As human activities (burning coal, oil, gas; deforestation) add more CO₂ to the atmosphere, more heat is trapped, raising global average temperatures. This causes: melting of glaciers and polar ice (raising sea levels), more extreme weather events (intense cyclones, floods, droughts), shifts in crop growing seasons, and loss of biodiversity. Karnataka's Western Ghats glacial-fed streams and seasonal rivers are vulnerable to climate disruption.",
+      "memory_hook": "CO₂ = Earth's blanket getting thicker. A thin blanket = comfortable temperature. Thick blanket (more CO₂) = overheating. Every litre of petrol burned adds ~2.3 kg of CO₂ to this blanket. More cars + more factories = thicker blanket = warmer Earth."
+    }
+  ]
+}

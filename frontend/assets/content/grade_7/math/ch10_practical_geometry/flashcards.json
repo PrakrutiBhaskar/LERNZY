@@ -1,96 +1,32 @@
 {
-  "version": "1.0",
-  "topic_id": "math_grade7_ch10_practical_geometry_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 7,
+  "subject": "Mathematics",
+  "textbook": "Mathematics — Class 7 (NCERT)",
+  "chapter_number": 10,
+  "chapter_title": "Practical Geometry",
+  "total_cards": 20,
   "cards": [
-    {
-      "id": "fc01",
-      "front": {
-        "en": "What is the core idea of Practical Geometry? (FC1)",
-        "hi": "What is the core idea of Practical Geometry? (FC1)",
-        "kn": "What is the core idea of Practical Geometry? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc02",
-      "front": {
-        "en": "Why is Practical Geometry important? (FC2)",
-        "hi": "Why is Practical Geometry important? (FC2)",
-        "kn": "Why is Practical Geometry important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc03",
-      "front": {
-        "en": "What is the core idea of Practical Geometry? (FC3)",
-        "hi": "What is the core idea of Practical Geometry? (FC3)",
-        "kn": "What is the core idea of Practical Geometry? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc04",
-      "front": {
-        "en": "Why is Practical Geometry important? (FC4)",
-        "hi": "Why is Practical Geometry important? (FC4)",
-        "kn": "Why is Practical Geometry important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc05",
-      "front": {
-        "en": "What is the core idea of Practical Geometry? (FC5)",
-        "hi": "What is the core idea of Practical Geometry? (FC5)",
-        "kn": "What is the core idea of Practical Geometry? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    }
+    { "id": "fc01", "type": "Recall", "difficulty": "Easy", "front": "What are the four triangle construction criteria covered in Chapter 10?", "back": "The four criteria are: (1) SSS — Side-Side-Side: all three sides known; (2) SAS — Side-Angle-Side: two sides and the included angle known; (3) ASA — Angle-Side-Angle: two angles and the included side known; (4) RHS — Right angle-Hypotenuse-Side: for right-angled triangles, the hypotenuse and one leg known.", "memory_hook": "SSS, SAS, ASA, RHS = 'Super Shapes Are Really Hard Stuff'! Four ways to pin down a unique triangle. Each gives you just enough info — no more, no less." },
+    { "id": "fc02", "type": "Definition", "difficulty": "Easy", "front": "What is the 'included angle' in SAS construction?", "back": "The included angle in SAS is the angle that is BETWEEN (sandwiched between) the two given sides. It is formed at the common vertex where both given sides meet. Example: if sides AB = 4 cm and BC = 5 cm are given, the included angle is angle B — because B is the vertex where sides AB and BC both touch.", "memory_hook": "INCLUDED = the filling in a sandwich. SAS: Side — Angle — Side. The Angle is the FILLING between the two Sides. If the angle is NOT between the two sides, it is NOT SAS!" },
+    { "id": "fc03", "type": "Definition", "difficulty": "Easy", "front": "What is the 'included side' in ASA construction?", "back": "The included side in ASA is the side that is BETWEEN (sandwiched between) the two given angles. It connects the two vertices where the given angles are located. Example: if angle A = 60° and angle B = 45° are given, the included side is AB — because AB connects vertex A (where 60° is) and vertex B (where 45° is).", "memory_hook": "INCLUDED SIDE = the bridge between two angle cities. ASA: Angle — Side — Angle. The Side is the BRIDGE between the two Angles. No side between? Not ASA!" },
+    { "id": "fc04", "type": "Recall", "difficulty": "Easy", "front": "In RHS construction, what does each letter stand for? When can RHS be used?", "back": "R = Right angle (90°), H = Hypotenuse (the longest side, opposite the right angle), S = Side (one of the legs). RHS can ONLY be used for RIGHT-ANGLED triangles. The right angle position is known (at one vertex), the hypotenuse (opposite side) length is given, and one leg (adjacent side) length is given.", "memory_hook": "RHS = Right angle first, then Hypotenuse arc cuts the perpendicular ray. Three steps: draw leg → erect 90° → swing hypotenuse arc. Only RIGHT triangles qualify for RHS — the R is non-negotiable!" },
+    { "id": "fc05", "type": "Recall", "difficulty": "Easy", "front": "What is the triangle inequality? Why must it be checked before SSS construction?", "back": "Triangle inequality: the sum of any two sides of a triangle must be GREATER than the third side. For sides a, b, c: a+b > c, b+c > a, a+c > b. If this fails (e.g., sides 2, 3, 6: 2+3=5 < 6), no triangle can be formed. In SSS construction, if the inequality fails, the two arcs will not intersect and the apex vertex cannot be located.", "memory_hook": "TRIANGLE INEQUALITY: Two sides together must BEAT the third side. Like a relay race — two runners combined must be faster than the single runner. If one side is TOO LONG, the triangle collapses and cannot be closed!" },
+    { "id": "fc06", "type": "Concept", "difficulty": "Easy", "front": "How do you construct a line parallel to a given line through an external point?", "back": "Steps: (1) Draw a transversal from external point P to meet line l at point Q. (2) Measure angle PQR (the angle the transversal makes with line l). (3) At P, construct an equal angle on the same side of the transversal using a compass. (4) The ray from P making this equal angle is the required parallel line. Basis: if a transversal makes equal corresponding (or alternate) angles with two lines, the lines are parallel.", "memory_hook": "PARALLEL via COPY-ANGLE: Draw a crossing line, COPY its angle at the new point. Equal angles → parallel lines. Think: two streets crossing a highway at the SAME angle are parallel to each other!" },
+    { "id": "fc07", "type": "Why/How", "difficulty": "Easy", "front": "Why does AAA (three angles given) NOT uniquely determine a triangle?", "back": "Three angles determine the SHAPE of a triangle (all triangles with those angles are similar to each other) but NOT the SIZE. For example, a triangle with angles 60°-60°-60° could have sides 3-3-3 cm, or 6-6-6 cm, or 100-100-100 cm — all equilateral, all with the same angles. Without at least one side measurement, we cannot fix the scale. Infinitely many triangles satisfy AAA.", "memory_hook": "AAA = Angles Only = Shape Only (no size). Like knowing the shape of a photo frame but not its actual dimensions. You need at least one SIDE to pin down the SIZE. AAA gives you the shadow, not the object!" },
+    { "id": "fc08", "type": "Recall", "difficulty": "Easy", "front": "In SSS construction, which side is drawn first and why?", "back": "In SSS construction, any side can be drawn first, but conventionally the BASE (often the longest or most convenient side) is drawn first as the reference line. The other two sides are then drawn as arcs from each endpoint of the base. The intersection of the two arcs gives the third vertex (apex). Starting with the base makes the construction cleaner and easier to set up.", "memory_hook": "SSS: Draw BASE first → two ARCS cross → third vertex found. Base = the foundation, arcs = the walls reaching up to meet at the apex. Like building a tent: stake the base, raise the poles, they meet at the top!" },
+    { "id": "fc09", "type": "Application", "difficulty": "Moderate", "front": "You are given: AB = 6 cm, BC = 4 cm, angle B = 50°. Which criterion applies? List the construction steps.", "back": "Criterion: SAS (Side-Angle-Side). AB and BC are two sides; angle B = 50° is the INCLUDED angle between them (at vertex B). Steps: (1) Draw BC = 4 cm. (2) At B, construct angle B = 50° using a protractor. (3) Along the angle ray from B, mark point A at 6 cm. (4) Join A to C. Triangle ABC with AB = 6 cm, BC = 4 cm, angle B = 50° is complete.", "memory_hook": "IDENTIFY FIRST: Two sides given + angle at the vertex between them = SAS. The angle is at B, which is the common vertex of sides AB and BC. SAS → draw one side → construct angle → mark second side → join!" },
+    { "id": "fc10", "type": "Application", "difficulty": "Moderate", "front": "You are given: angle P = 70°, PQ = 8 cm, angle Q = 50°. Which criterion applies? List the steps.", "back": "Criterion: ASA (Angle-Side-Angle). Angles P = 70° and Q = 50° are the two given angles; PQ = 8 cm is the INCLUDED side (between vertices P and Q). Steps: (1) Draw PQ = 8 cm. (2) At P, construct angle P = 70°. (3) At Q, construct angle Q = 50°. (4) Extend both rays until they meet at point R. Triangle PQR is complete. Note: angle R = 180° − 70° − 50° = 60°.", "memory_hook": "ASA: Two angles at the ENDS of a known side → rays from both ends → they meet in the middle. Like two people at opposite ends of a field walking at given angles toward each other — they must meet somewhere!" },
+    { "id": "fc11", "type": "Why/How", "difficulty": "Moderate", "front": "Why is RHS a special case that requires knowing it's a RIGHT-ANGLED triangle?", "back": "RHS works because in a right-angled triangle, once the right angle (90°) is fixed, the Pythagorean theorem (a² + b² = h²) uniquely determines the third side from any two. So knowing hypotenuse h and leg a gives: b = √(h² − a²). This uniquely fixes the triangle. In a non-right-angled triangle, knowing one angle and two sides (SSA, not RHS) is ambiguous — it can give 0, 1, or 2 triangles. The 90° is the key that makes RHS unambiguous.", "memory_hook": "RHS WORKS because 90° + Pythagoras = unique solution. The right angle is the LOCK, and hypotenuse + one side is the KEY. Together they open exactly ONE triangle. Without the right angle, the same info (SSA) could open two doors — ambiguous!" },
+    { "id": "fc12", "type": "Application", "difficulty": "Moderate", "front": "Check if a triangle with sides 7 cm, 5 cm, and 13 cm can be constructed.", "back": "Check triangle inequality for all three combinations: (1) 7 + 5 = 12. Is 12 > 13? NO — 12 < 13. The inequality FAILS. Conclusion: A triangle with sides 7, 5, and 13 cm CANNOT be constructed. The sum of the two smaller sides (7+5=12) is less than the largest side (13), so the triangle cannot close. The arcs in SSS construction would not intersect.", "memory_hook": "7+5=12 < 13 → FAIL → No triangle! The two shorter sides together can't reach across the long side. Imagine trying to close a triangle where one side is longer than both other sides combined — it just can't close!" },
+    { "id": "fc13", "type": "Why/How", "difficulty": "Moderate", "front": "How does the alternate angles property help in constructing a parallel line?", "back": "When a transversal cuts two parallel lines, alternate interior angles are EQUAL. Conversely, if a transversal cuts two lines making equal alternate interior angles, those lines MUST be parallel. This converse is used in construction: draw a transversal from the external point to the given line, note the angle formed, then construct an EQUAL angle at the external point on the OPPOSITE side of the transversal. The resulting line is guaranteed parallel to the given line.", "memory_hook": "ALTERNATE ANGLES: Z-shape between parallel lines. The two angles in the Z are equal. To make a new parallel line: copy the Z-angle at the new point. Equal Z-angle → new parallel line!" },
+    { "id": "fc14", "type": "Recall", "difficulty": "Easy", "front": "State two key differences between SAS and ASA constructions.", "back": "SAS: (1) Two SIDES and one ANGLE given; (2) The angle is BETWEEN (included by) the two given sides; (3) After drawing one side and the angle, the second side is marked along the angle ray. ASA: (1) Two ANGLES and one SIDE given; (2) The side is BETWEEN (included by) the two given angles; (3) After drawing the side, angles are constructed at both endpoints and the rays extended to meet.", "memory_hook": "SAS vs ASA: SAS has more SIDES (2 sides, 1 angle). ASA has more ANGLES (2 angles, 1 side). In SAS, the angle is SANDWICHED between sides. In ASA, the side is SANDWICHED between angles. The MIDDLE element is always INCLUDED!" },
+    { "id": "fc15", "type": "Application", "difficulty": "Hard", "front": "Construct triangle PQR where PQ = 4.5 cm, QR = 5 cm, angle Q = 90°. Identify the criterion and verify using Pythagoras.", "back": "Criterion: SAS (two sides PQ, QR and the included angle Q = 90°). This is also RHS since angle Q = 90°. Steps: (1) Draw QR = 5 cm. (2) At Q, erect a perpendicular (90°). (3) Mark P at 4.5 cm along the perpendicular from Q. (4) Join P to R. Verification: PR² = PQ² + QR² = 4.5² + 5² = 20.25 + 25 = 45.25. PR = √45.25 ≈ 6.73 cm. Measure PR in your construction — it should be approximately 6.7 cm.", "memory_hook": "When angle Q = 90° is between two sides, it's BOTH SAS and RHS! Pythagoras confirms the hypotenuse: PR = √(4.5² + 5²) = √45.25 ≈ 6.73 cm. Always verify with Pythagoras when constructing right-angled triangles!" },
+    { "id": "fc16", "type": "Why/How", "difficulty": "Hard", "front": "SSA (two sides and a non-included angle) is NOT a reliable construction criterion. Why?", "back": "SSA is ambiguous because knowing two sides and an angle NOT between them can give: (1) No triangle (if the arc doesn't reach the base line); (2) Exactly one triangle (if the arc just touches the base line — tangent case); (3) Two different triangles (if the arc crosses the base line at two points). This ambiguity makes SSA unreliable as a unique construction criterion. That is why the angle in SAS must be INCLUDED — a non-included angle leads to the 'ambiguous case'.", "memory_hook": "SSA = the AMBIGUOUS CASE = 0, 1, or 2 triangles! It's the troublemaker of triangle construction. SAS works because the included angle PINS DOWN the triangle. SSA leaves it loose — the triangle can 'flap' into two positions!" },
+    { "id": "fc17", "type": "Application", "difficulty": "Hard", "front": "Two angles of a triangle are 65° and 75°. You are given the side between these two angles = 7 cm. Construct the triangle and find the third angle.", "back": "Third angle = 180° − 65° − 75° = 40°. Criterion: ASA (angles 65° and 75°, included side = 7 cm). Steps: (1) Draw base AB = 7 cm. (2) At A, construct angle A = 65°. (3) At B, construct angle B = 75°. (4) Extend rays from A and B — they meet at C. Triangle ABC has angles 65°, 75°, 40° and base AB = 7 cm. Verify: angles sum = 65+75+40 = 180° ✓.", "memory_hook": "THIRD ANGLE = 180 − (sum of given two) = 180 − 140 = 40°. ASA then draws the two given angles at the ends of the known side. The rays naturally meet at the correct point — geometry guarantees it!" },
+    { "id": "fc18", "type": "Application", "difficulty": "Hard", "front": "A right-angled triangle has hypotenuse = 13 cm and one leg = 5 cm. Find the other leg using Pythagoras before constructing.", "back": "Using Pythagoras: a² + b² = h². Here h = 13, a = 5. b² = 13² − 5² = 169 − 25 = 144. b = √144 = 12 cm. So the other leg = 12 cm. This is the famous 5-12-13 Pythagorean triple. Construction (RHS): Draw one leg (5 cm), erect 90° at one end, swing arc of 13 cm from the other end to cut the perpendicular — the intersection gives the apex. Verify: 5² + 12² = 25 + 144 = 169 = 13² ✓.", "memory_hook": "5-12-13 is a PYTHAGOREAN TRIPLE — a right triangle where ALL sides are whole numbers! The others: 3-4-5, 8-15-17, 7-24-25. Memorise these triples for quick verification in RHS problems!" },
+    { "id": "fc19", "type": "Why/How", "difficulty": "Hard", "front": "Why do we need COMPASS and RULER for geometric constructions rather than just a protractor?", "back": "The classical rule of geometric construction (from ancient Greek mathematics) allows only a compass and straightedge (ruler without markings) as tools. This is because: (1) A compass maintains exact distances — it draws perfect circles; (2) A straightedge creates perfect straight lines; (3) Together they can construct any constructible geometric object using finite steps. Protractors introduce measurement errors from reading angles. Compass constructions for angles (30°, 60°, 90°, 45°) are exact; protractor readings have human error. In NCERT, both are used — compass for precision, protractor for angles not constructible with compass alone.", "memory_hook": "COMPASS = perfect circles = perfect distances. RULER = perfect lines. Together = PERFECT GEOMETRY. Protractor introduces HUMAN EYE ERROR. Ancient Greeks proved you can build all geometry with just compass + straightedge — the ultimate minimalist toolkit!" },
+    { "id": "fc20", "type": "Why/How", "difficulty": "Hard", "front": "Can you construct a unique triangle if given: angle A = 50°, AB = 6 cm, BC = 4 cm? What is the challenge?", "back": "The given data is: angle A = 50° (at vertex A), AB = 6 cm (one side), BC = 4 cm (another side). Angle A is NOT the included angle between AB and BC — the included angle between AB and BC is angle B, not angle A. So this is SSA (side-side-angle) — the ambiguous case. Construction: draw AB = 6 cm, construct 50° at A, then draw an arc of 4 cm from B. This arc may intersect the angle ray at 0, 1, or 2 points — giving 0, 1, or 2 possible triangles. This is NOT uniquely determined.", "memory_hook": "ANGLE A + sides AB and BC = SSA (angle NOT between the two sides) = AMBIGUOUS! The arc from B can cut the ray in TWO places. Two valid triangles emerge. This is the trap many students fall into — always check if the angle is INCLUDED!" }
   ]
 }

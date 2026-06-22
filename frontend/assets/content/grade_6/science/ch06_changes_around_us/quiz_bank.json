@@ -1,366 +1,247 @@
 {
-  "version": "1.0",
-  "topic_id": "science_grade6_ch06_changes_around_us_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 6,
+  "chapter_title": "Changes Around Us",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Changes Around Us? (Q1)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Changes Around Us? (Q1)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Changes Around Us? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Which of the following is an example of a REVERSIBLE change?",
+      "options": ["A) Burning of paper", "B) Souring of milk", "C) Melting of ice", "D) Rusting of iron"],
+      "correct_answer": "C) Melting of ice",
+      "explanation": "Melting of ice is reversible — water can be frozen again to form ice. The substance (water/H₂O) is unchanged. Burning paper, souring milk, and rusting iron are all irreversible — new substances are formed that cannot revert to the original."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Changes Around Us experiment? (Q2)",
-        "hi": "What is the standard tool used to measure changes in a Changes Around Us experiment? (Q2)",
-        "kn": "What is the standard tool used to measure changes in a Changes Around Us experiment? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "Which of the following is an example of an IRREVERSIBLE change?",
+      "options": ["A) Stretching a rubber band", "B) Melting of wax", "C) Folding paper", "D) Burning of wood"],
+      "correct_answer": "D) Burning of wood",
+      "explanation": "Burning of wood is irreversible — wood is chemically converted into ash, carbon dioxide, water vapour, and other gases. These cannot be converted back into wood. Stretching a rubber band, melting wax, and folding paper are all reversible — the original can be recovered."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Changes Around Us? (Q3)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Changes Around Us? (Q3)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Changes Around Us? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "When most solids are heated, they:",
+      "options": ["A) Contract and become denser", "B) Expand and take up more space", "C) Dissolve into the air", "D) Change colour permanently"],
+      "correct_answer": "B) Expand and take up more space",
+      "explanation": "Most solids expand when heated — their particles vibrate more and push apart, requiring more space. This is thermal expansion. When cooled, they contract (shrink back). This is why railway tracks have expansion gaps and why tight metal jar lids can be loosened by heating."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Changes Around Us experiment? (Q4)",
-        "hi": "What is the standard tool used to measure changes in a Changes Around Us experiment? (Q4)",
-        "kn": "What is the standard tool used to measure changes in a Changes Around Us experiment? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "Why are small gaps left between sections of railway tracks at the joints?",
+      "options": [
+        "A) To make the tracks look decorative",
+        "B) To allow metal to expand in summer without buckling",
+        "C) To allow rainwater to drain away",
+        "D) To reduce the weight of the tracks"
+      ],
+      "correct_answer": "B) To allow metal to expand in summer without buckling",
+      "explanation": "Metal tracks expand in summer heat. Without gaps, the expanding metal has nowhere to go and pushes against adjacent sections, causing the track to buckle (deform). The expansion joints (gaps) provide space for thermal expansion, keeping the tracks straight and safe for trains."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Changes Around Us? (Q5)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Changes Around Us? (Q5)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Changes Around Us? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "Is dissolving sugar in water a reversible change? Why?",
+      "options": [
+        "A) No — the sugar is destroyed when it dissolves",
+        "B) Yes — the sugar can be recovered by evaporating the water",
+        "C) No — a new substance (syrup) is formed that cannot become sugar again",
+        "D) Yes — the sugar reappears when you stir the water"
+      ],
+      "correct_answer": "B) Yes — the sugar can be recovered by evaporating the water",
+      "explanation": "Dissolving is a physical change — the sugar disperses into tiny particles in the water but is not chemically changed. Evaporating the water removes the water molecules, leaving sugar crystals behind. This proves the sugar was never destroyed — it was only hiding in solution. Dissolving is reversible."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Changes Around Us experiment? (Q6)",
-        "hi": "What is the standard tool used to measure changes in a Changes Around Us experiment? (Q6)",
-        "kn": "What is the standard tool used to measure changes in a Changes Around Us experiment? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "Making of curd (dahi) from milk is:",
+      "options": ["A) A reversible change", "B) An irreversible change", "C) A physical change only", "D) Both reversible and irreversible equally"],
+      "correct_answer": "B) An irreversible change",
+      "explanation": "Making curd from milk is irreversible. Bacteria convert milk sugars (lactose) into lactic acid, which causes milk proteins to coagulate. New chemical substances are formed — you cannot convert curd back into fresh milk. It is a biochemical (chemical) change, which is irreversible."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Changes Around Us? (Q7)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Changes Around Us? (Q7)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Changes Around Us? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "Which of the following changes involves a NEW substance being formed?",
+      "options": ["A) Melting of butter", "B) Folding a piece of cloth", "C) Burning of paper", "D) Stretching a rubber band"],
+      "correct_answer": "C) Burning of paper",
+      "explanation": "Burning paper produces ash, carbon dioxide, and water vapour — completely new substances with different properties. This is a chemical change. Melting butter, folding cloth, and stretching rubber band are all physical changes — no new substance is formed; the original material is recovered when the change is reversed."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Changes Around Us experiment? (Q8)",
-        "hi": "What is the standard tool used to measure changes in a Changes Around Us experiment? (Q8)",
-        "kn": "What is the standard tool used to measure changes in a Changes Around Us experiment? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "A metal ball is heated. It expands and no longer fits through a metal ring. What will happen when the ball is cooled?",
+      "options": [
+        "A) The ball will permanently remain larger and never fit",
+        "B) The ball will contract back to its original size and fit through the ring again",
+        "C) The ball will melt if cooled further",
+        "D) The ring will also expand to match the ball's size"
+      ],
+      "correct_answer": "B) The ball will contract back to its original size and fit through the ring again",
+      "explanation": "Thermal expansion is reversible. When the ball cools, its particles slow down and come closer together — the ball contracts back to its original size. At the original temperature, it will fit through the ring again. This demonstrates that expansion and contraction are reversible physical changes."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Changes Around Us? (Q9)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Changes Around Us? (Q9)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Changes Around Us? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "Which of the following is true about physical changes?",
+      "options": [
+        "A) Physical changes always produce new substances",
+        "B) Physical changes are usually irreversible",
+        "C) Physical changes involve change in shape, size, or state without changing chemical composition",
+        "D) Physical changes always involve burning"
+      ],
+      "correct_answer": "C) Physical changes involve change in shape, size, or state without changing chemical composition",
+      "explanation": "Physical changes affect only the physical properties (shape, size, state) of a substance — the chemical composition remains the same. Most physical changes are reversible. Melting, dissolving, stretching, and compressing are physical changes. Chemical changes (burning, rusting, cooking) produce new substances."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Changes Around Us experiment? (Q10)",
-        "hi": "What is the standard tool used to measure changes in a Changes Around Us experiment? (Q10)",
-        "kn": "What is the standard tool used to measure changes in a Changes Around Us experiment? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "Rusting of iron is an irreversible change because:",
+      "options": [
+        "A) Rust is the same substance as iron, just a different colour",
+        "B) Iron and oxygen combine to form a new substance (iron oxide/rust) with different properties",
+        "C) Rust forms only when iron gets wet",
+        "D) Iron can be recovered from rust by drying it"
+      ],
+      "correct_answer": "B) Iron and oxygen combine to form a new substance (iron oxide/rust) with different properties",
+      "explanation": "Rusting is a chemical change — iron reacts with oxygen and water to form iron oxide (rust), a new compound. Rust is reddish-brown, brittle, and flaky — completely different from grey, strong, shiny iron. Since a new substance has formed, the change is irreversible under everyday conditions."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "A student heats a piece of wax. It melts into liquid. She then cools it and it solidifies again. She then burns a piece of wax — smoke and vapour form. Which of these is irreversible?",
+      "options": [
+        "A) Only melting",
+        "B) Only burning",
+        "C) Both melting and burning",
+        "D) Neither — both are reversible"
+      ],
+      "correct_answer": "B) Only burning",
+      "explanation": "Melting of wax is reversible — cooled liquid wax solidifies back to its original state (physical change). Burning wax is irreversible — the wax undergoes combustion, producing water vapour, CO₂, and other gases (chemical change). The gases cannot be converted back into wax. This illustrates how the same material can undergo both reversible and irreversible changes."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "Which of the following correctly describes the difference between reversible and irreversible changes?",
+      "options": [
+        "A) Reversible changes are fast; irreversible changes are slow",
+        "B) Reversible changes recover the original; irreversible changes form a new substance",
+        "C) Reversible changes involve water; irreversible changes involve fire",
+        "D) Reversible changes are useful; irreversible changes are harmful"
+      ],
+      "correct_answer": "B) Reversible changes recover the original; irreversible changes form a new substance",
+      "explanation": "The defining difference: reversible changes allow recovery of the original substance (no new substance formed). Irreversible changes produce a new substance with different properties that cannot revert to the original. Speed, presence of water, or usefulness are not the defining criteria."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "Electrical wires between poles are deliberately left with a sag (not pulled tight). This is because:",
+      "options": [
+        "A) More wire can be used to increase conductivity",
+        "B) Metal wires contract in winter — the sag provides extra length to prevent snapping",
+        "C) Loose wires are easier to repair",
+        "D) Sagging reduces the resistance of the wire"
+      ],
+      "correct_answer": "B) Metal wires contract in winter — the sag provides extra length to prevent snapping",
+      "explanation": "In winter, metals contract and become shorter. If wires were pulled tightly (no sag), the winter contraction would put the wire under tension and it could snap. The deliberate sag provides extra length that compensates for winter contraction — the wire tightens but doesn't break. This is an engineered solution using knowledge of thermal contraction."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "A tight metal cap on a glass bottle can be loosened by placing it under hot water for a few seconds. The scientific reason is:",
+      "options": [
+        "A) Hot water lubricates the cap",
+        "B) Glass shrinks in hot water, making the cap loose",
+        "C) Metal expands more than glass when heated, loosening the seal",
+        "D) Hot water weakens the metal, making it easier to turn"
+      ],
+      "correct_answer": "C) Metal expands more than glass when heated, loosening the seal",
+      "explanation": "Different materials expand by different amounts when heated. Metal generally expands more than glass for the same temperature rise. When hot water is applied to the metal cap, the cap expands (its inner circumference increases) more than the glass neck, loosening the tight seal and making the cap easy to turn."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "Which change would a scientist classify as a CHEMICAL change?",
+      "options": [
+        "A) Cutting a piece of paper with scissors",
+        "B) Dissolving salt in water",
+        "C) Burning magnesium ribbon in air to form white ash",
+        "D) Melting ice cream"
+      ],
+      "correct_answer": "C) Burning magnesium ribbon in air to form white ash",
+      "explanation": "Burning magnesium produces magnesium oxide (white ash) — a completely new substance with different properties. This is a chemical change (irreversible). Cutting paper (physical — shape change), dissolving salt (physical — reversible), and melting ice cream (physical — state change) do not produce new substances and are physical changes."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Karnataka's traditional pottery (like Dharwad and Molakalmuru pottery) involves shaping wet clay and then firing it in a kiln. Is this reversible or irreversible?",
+      "options": [
+        "A) Reversible — the fired pot can be melted and reshaped",
+        "B) Irreversible — firing causes permanent chemical changes in the clay",
+        "C) Reversible — adding water to the pot will make it clay again",
+        "D) Irreversible — but only because of the paint applied on the surface"
+      ],
+      "correct_answer": "B) Irreversible — firing causes permanent chemical changes in the clay",
+      "explanation": "Firing clay (at high temperatures) causes sintering — a chemical process where clay minerals (aluminium silicates) undergo permanent molecular restructuring. The fired pot is much harder and chemically different from raw clay. Water cannot dissolve a fired pot back into clay. The change is irreversible. This is why pottery has been a durable material for thousands of years."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "Water expands when it freezes. How is this different from the behaviour of most other liquids?",
+      "options": [
+        "A) Water shrinks like other liquids when it freezes",
+        "B) Unlike most liquids that contract when frozen, water expands — making ice less dense than liquid water",
+        "C) Water is the only liquid that freezes at 0°C",
+        "D) Most liquids also expand when frozen, just less than water"
+      ],
+      "correct_answer": "B) Unlike most liquids that contract when frozen, water expands — making ice less dense than liquid water",
+      "explanation": "Most liquids contract when they solidify (become denser as solid). Water is unusual — it EXPANDS when it freezes (0°C). This means ice is LESS dense than liquid water, which is why ice floats on water. This property has huge ecological importance — lakes freeze from the top down, keeping water (and aquatic life) liquid underneath."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "Identify the ODD ONE OUT based on reversibility: (i) Melting of ice (ii) Dissolving of salt (iii) Burning of paper (iv) Stretching of rubber",
+      "options": [
+        "A) (i) Melting of ice",
+        "B) (ii) Dissolving of salt",
+        "C) (iii) Burning of paper",
+        "D) (iv) Stretching of rubber"
+      ],
+      "correct_answer": "C) (iii) Burning of paper",
+      "explanation": "Melting of ice, dissolving of salt, and stretching of rubber are all reversible changes (original substance can be recovered). Burning of paper is irreversible — ash and gases form and cannot be converted back into paper. It is the only irreversible change in the list."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "A student says: 'All reversible changes are physical, and all irreversible changes are chemical.' Is this statement correct?",
+      "options": [
+        "A) Fully correct — reversible always means physical, irreversible always means chemical",
+        "B) Mostly correct but with exceptions — most reversible changes are physical and most irreversible are chemical, but not always",
+        "C) Fully incorrect — reversible changes are chemical and irreversible are physical",
+        "D) Partially correct — but the student has the definitions backwards"
+      ],
+      "correct_answer": "B) Mostly correct but with exceptions — most reversible changes are physical and most irreversible are chemical, but not always",
+      "explanation": "The general rule holds: most physical changes are reversible (melting, dissolving, stretching) and most chemical changes are irreversible (burning, rusting, cooking). However, there are exceptions — some physical changes can be practically irreversible (breaking glass into tiny pieces), and some chemical changes are technically reversible under specific lab conditions. The statement is a useful rule of thumb, not an absolute law."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "A burning candle involves BOTH reversible and irreversible changes simultaneously. Which part is reversible and which part is irreversible?",
+      "options": [
+        "A) Melting of wax is irreversible; burning of wax vapour is reversible",
+        "B) Melting of wax is reversible (physical); burning of wax vapour is irreversible (chemical)",
+        "C) Both melting and burning of wax are irreversible",
+        "D) Both melting and burning of wax are reversible"
+      ],
+      "correct_answer": "B) Melting of wax is reversible (physical); burning of wax vapour is irreversible (chemical)",
+      "explanation": "Two simultaneous changes occur in a burning candle: (1) Wax near the flame melts into liquid (physical change — reversible; cooled wax resolidifies). (2) Wax vapour at the wick undergoes combustion — reacting with oxygen to form CO₂ and water vapour (chemical change — irreversible; gases cannot become wax again). A single object can undergo multiple types of change at once."
     }
   ]
 }

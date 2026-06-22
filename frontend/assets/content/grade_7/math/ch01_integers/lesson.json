@@ -1,114 +1,200 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 7,
-  "subject": "math",
-  "chapter_id": "ch01_integers",
-  "chapter_title": {
-    "en": "Integers",
-    "hi": "पूर्णांक",
-    "kn": "ಪೂರ್ಣಾಂಕಗಳು"
+  "subject": "Mathematics",
+  "textbook": "Mathematics — Textbook for Class VII",
+  "chapter_number": 1,
+  "chapter_title": "Integers",
+  "estimated_study_time_minutes": 60,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Recall and extend understanding of integers from Class VI",
+    "Perform addition and subtraction of integers on a number line",
+    "Apply properties of addition of integers: closure, commutative, associative, additive identity",
+    "Multiply integers and understand the rules of signs in multiplication",
+    "Apply properties of multiplication of integers: closure, commutative, associative, distributive, multiplicative identity",
+    "Divide integers and understand division rules including division by zero",
+    "Solve word problems involving all four operations on integers",
+    "Understand that integers are used in real-life contexts such as temperature, sea level, and debt"
+  ],
+
+  "prerequisite_knowledge": [
+    "Understanding of natural numbers and whole numbers from earlier classes",
+    "Basic concept of negative numbers and the number line from Class VI",
+    "Addition and subtraction of whole numbers",
+    "Multiplication tables and basic division"
+  ],
+
+  "introduction": {
+    "why_important": "Integers extend our number system to include negative numbers, making it possible to represent real-world quantities like temperatures below zero, depths below sea level, losses in business, and floors below ground level. Without integers, mathematics cannot describe the real world fully.",
+    "real_life_relevance": "Integers appear everywhere: the temperature in Leh, Ladakh in January can be −15°C; a business loss of ₹5,000 is written as −5000; the Mariana Trench is at −11,034 m; a lift going 3 floors below ground is at −3. Bank accounts, cricket scores (run rate vs required rate), and weather forecasts all use integers.",
+    "karnataka_context": "In Karnataka, sea level measurements use 0 as the reference — the coast of Mangaluru is at sea level (0 m), while Bengaluru is at +921 m. The temperature in Bengaluru rarely goes negative, but in Kodagu's high hills it can touch 5–8°C in winter. Stock market movements (positive = gain, negative = loss) are integers that affect Karnataka's businesses every day.",
+    "connection_to_previous_learning": "In Class VI, students were introduced to negative numbers and integers on the number line. Class VII extends this to all four operations (addition, subtraction, multiplication, division) with integers and their properties."
   },
-  "topics": [
+
+  "story_summary": {
+    "characters": [
+      {"name": "The Number Line", "role": "The visual tool that makes integer operations intuitive — moving right for addition/positive, left for subtraction/negative"},
+      {"name": "Properties of Operations", "role": "Closure, Commutative, Associative, Distributive — the rules that govern how integers behave under operations"},
+      {"name": "Signs in Multiplication/Division", "role": "The rule that determines the sign of a product or quotient: same signs = positive, different signs = negative"}
+    ],
+    "plot": [
+      "The chapter opens by revisiting integers on the number line — positive integers to the right, negative to the left, zero in the middle.",
+      "It develops addition of integers using the number line: adding a positive means moving right; adding a negative means moving left.",
+      "It introduces properties of addition: closure (sum of two integers is always an integer), commutative (a+b = b+a), associative ((a+b)+c = a+(b+c)), additive identity (a+0 = a), additive inverse (a + (−a) = 0).",
+      "It explores multiplication of integers, establishing the sign rules through patterns: positive × positive = positive, positive × negative = negative, negative × negative = positive.",
+      "It develops properties of multiplication: closure, commutative, associative, distributive over addition, multiplicative identity (1), and the role of zero (any integer × 0 = 0).",
+      "It introduces division of integers with sign rules mirroring multiplication, and the important rule that division by zero is undefined.",
+      "The chapter closes with word problems applying all operations to real-world contexts."
+    ],
+    "moral": "Integers are a complete and consistent number system — their operations follow clear, predictable rules (properties) that make calculation reliable. Negative numbers are not 'bad' numbers — they are essential tools for describing a world that has direction and opposition."
+  },
+
+  "core_concepts": [
     {
-      "topic_id": "math_grade7_ch01_integers_basics",
-      "title": {
-        "en": "Integers - Fundamentals",
-        "hi": "पूर्णांक - बुनियादी बातें",
-        "kn": "ಪೂರ್ಣಾಂಕಗಳು - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of Integers",
-        "Solve exercises and apply rules related to Integers",
-        "Analyze practical examples of Integers in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Integers. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम पूर्णांक का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಪೂರ್ಣಾಂಕಗಳು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Integers in detail. This topic is essential for Grade 7 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम पूर्णांक का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಪೂರ್ಣಾಂಕಗಳು ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Integers.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Integers.",
-            "hi": "चरण 1: पूर्णांक के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಪೂರ್ಣಾಂಕಗಳು ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Integers builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "पूर्णांक में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಪೂರ್ಣಾಂಕಗಳು ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Addition and Subtraction of Integers",
+      "simple_explanation": "To add integers, use the number line — move right for positive, left for negative. Subtracting an integer is the same as adding its opposite: a − b = a + (−b).",
+      "detailed_explanation": "On the number line, start at the first integer. To add a positive integer, move right by that many steps. To add a negative integer, move left by that many steps. For subtraction: a − b = a + (−b). So 5 − (−3) = 5 + 3 = 8; and −4 − 3 = −4 + (−3) = −7. Properties of addition: (1) Closure: a + b is always an integer. (2) Commutative: a + b = b + a. (3) Associative: (a + b) + c = a + (b + c). (4) Additive Identity: a + 0 = a. (5) Additive Inverse: a + (−a) = 0.",
+      "real_life_example": "Temperature: In the morning the temperature is −3°C and it rises by 7°C. New temperature = −3 + 7 = 4°C. Or: a submarine is at −50 m and dives 30 m more: −50 + (−30) = −80 m.",
+      "karnataka_example": "Bengaluru's altitude is +921 m. The Dead Sea is at −430 m. Difference in altitude = 921 − (−430) = 921 + 430 = 1351 m. This subtraction of a negative integer is the same as addition.",
+      "common_mistakes": "Students often confuse a − (−b) with a − b. Remember: subtracting a negative is adding a positive: 5 − (−3) = 5 + 3 = 8 (NOT 5 − 3 = 2). Also, the sign of the result when adding integers depends on which number has the larger absolute value — e.g., −8 + 3 = −5, not +5.",
+      "memory_tip": "NUMBER LINE RULE: Right = positive, Left = negative. Subtracting = reverse direction. 'Minus a minus = plus': a − (−b) = a + b. Two negatives cancel each other out."
+    },
+    {
+      "concept_name": "Multiplication of Integers",
+      "simple_explanation": "Multiplying two integers: same signs give positive, different signs give negative. (+)(+) = +, (−)(−) = +, (+)(−) = −, (−)(+) = −.",
+      "detailed_explanation": "Sign rules for multiplication: Positive × Positive = Positive (e.g., 3 × 4 = 12). Positive × Negative = Negative (e.g., 3 × (−4) = −12). Negative × Positive = Negative (e.g., (−3) × 4 = −12). Negative × Negative = Positive (e.g., (−3) × (−4) = 12). The product of an even number of negative integers is positive; an odd number of negative integers gives a negative product. Properties: (1) Closure: product of two integers is an integer. (2) Commutative: a × b = b × a. (3) Associative: (a × b) × c = a × (b × c). (4) Distributive: a × (b + c) = a×b + a×c. (5) Multiplicative Identity: a × 1 = a. (6) Zero property: a × 0 = 0.",
+      "real_life_example": "A person loses ₹200 per day. After 5 days, change in money = −200 × 5 = −₹1000 (a loss of ₹1000). If the losses are reversed (money returned), it becomes −(−200 × 5) = +₹1000.",
+      "karnataka_example": "A Karnataka farmer's crop fails for 3 consecutive months, losing ₹4,500 each month. Total loss = (−4500) × 3 = −₹13,500. If the government compensates double, compensation = 2 × (−13500) × (−1) = +₹27,000.",
+      "common_mistakes": "Students forget that negative × negative = positive. A common error: (−3) × (−4) = −12 instead of +12. Remember: two negatives in multiplication always give a positive. Also, negative × positive is always negative — the sign of the larger number does NOT matter in multiplication (unlike addition).",
+      "memory_tip": "SAME SIGNS = SMILEY (positive +). DIFFERENT SIGNS = SAD (negative −). Or: 'Enemy of enemy = friend' — negative × negative = positive. Count negatives: EVEN number of negatives in a product = POSITIVE result."
+    },
+    {
+      "concept_name": "Division of Integers",
+      "simple_explanation": "Division of integers follows the same sign rules as multiplication: same signs give positive quotient, different signs give negative quotient. Division by zero is undefined (not allowed).",
+      "detailed_explanation": "Sign rules for division (identical to multiplication): Positive ÷ Positive = Positive (e.g., 12 ÷ 4 = 3). Negative ÷ Negative = Positive (e.g., (−12) ÷ (−4) = 3). Positive ÷ Negative = Negative (e.g., 12 ÷ (−4) = −3). Negative ÷ Positive = Negative (e.g., (−12) ÷ 4 = −3). IMPORTANT: Division by zero is undefined — you cannot divide any number by 0. Also, 0 ÷ any non-zero integer = 0. Note: division of integers does not always give an integer result (e.g., (−7) ÷ 2 = −3.5), so integers are NOT closed under division.",
+      "real_life_example": "A group of 4 friends share a loss of ₹1200 equally. Each person's share = (−1200) ÷ 4 = −₹300 (each loses ₹300). If 4 friends each owed ₹300, total debt = 4 × (−300) = −₹1200.",
+      "karnataka_example": "Bengaluru's temperature drops 6°C over 3 days equally. Drop per day = −6 ÷ 3 = −2°C per day. Or: a Bengaluru business makes a loss of ₹36,000 over 6 months. Average monthly loss = (−36000) ÷ 6 = −₹6,000 per month.",
+      "common_mistakes": "Students sometimes think 0 ÷ 0 = 1 or 0 ÷ 5 = undefined. Remember: 0 ÷ any non-zero integer = 0 (zero divided by anything non-zero is zero). Any number ÷ 0 = undefined (you cannot divide by zero, ever). Also, integers are NOT closed under division: (−7) ÷ 2 = −3.5, which is not an integer.",
+      "memory_tip": "Division sign rules = same as multiplication sign rules. SAME signs → POSITIVE. DIFFERENT signs → NEGATIVE. And NEVER divide by ZERO (the calculator shows ERROR for a reason — it's mathematically impossible)."
     }
+  ],
+
+  "key_terms_glossary": [
+    {"term": "Integer", "meaning": "Any whole number, positive, negative, or zero. The set of integers = {…, −3, −2, −1, 0, 1, 2, 3, …}. Integers do not include fractions or decimals."},
+    {"term": "Additive Inverse", "meaning": "The additive inverse of an integer a is −a. When added together, they give 0: a + (−a) = 0. Example: additive inverse of 5 is −5; additive inverse of −7 is 7."},
+    {"term": "Additive Identity", "meaning": "Zero (0) is the additive identity for integers. Adding 0 to any integer leaves it unchanged: a + 0 = a."},
+    {"term": "Multiplicative Identity", "meaning": "One (1) is the multiplicative identity. Multiplying any integer by 1 leaves it unchanged: a × 1 = a."},
+    {"term": "Closure Property", "meaning": "A set is closed under an operation if performing that operation on any two members of the set always gives a result that is also in the set. Integers are closed under addition, subtraction, and multiplication — but NOT division."},
+    {"term": "Commutative Property", "meaning": "The order of operands does not change the result. For integers: a + b = b + a (addition is commutative); a × b = b × a (multiplication is commutative). Subtraction and division are NOT commutative."},
+    {"term": "Associative Property", "meaning": "The grouping of operands does not change the result. (a + b) + c = a + (b + c) for addition; (a × b) × c = a × (b × c) for multiplication. Subtraction and division are NOT associative."},
+    {"term": "Distributive Property", "meaning": "Multiplication distributes over addition (and subtraction): a × (b + c) = a×b + a×c. This is the link between multiplication and addition — very useful for mental arithmetic."},
+    {"term": "Absolute Value", "meaning": "The distance of an integer from zero on the number line, always non-negative. Written as |a|. Examples: |−5| = 5, |3| = 3, |0| = 0."},
+    {"term": "Number Line", "meaning": "A visual representation of numbers on a straight line, with zero at the centre, positive integers to the right, and negative integers to the left. Used to visualise integer operations."}
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Computation",
+      "question": "Evaluate: (−8) + 3 + (−5) + 12 + (−2)",
+      "step_by_step_answer": [
+        "Step 1: Group positive and negative integers separately.",
+        "Positives: 3 + 12 = 15.",
+        "Negatives: (−8) + (−5) + (−2) = −15.",
+        "Step 2: Add results: 15 + (−15) = 0.",
+        "Answer: 0.",
+        "Alternative: Use the associative and commutative properties to rearrange: [(−8) + 8] + [3 + (−3)] + [(−5) + 5] — but here we just group and add."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Computation",
+      "question": "Evaluate: (−4) × (−3) × (−2) × 5",
+      "step_by_step_answer": [
+        "Step 1: Count the number of negative integers — there are 3 (odd number). An odd count of negatives gives a NEGATIVE product.",
+        "Step 2: Multiply the absolute values: 4 × 3 × 2 × 5 = 120.",
+        "Step 3: Apply the sign: 3 negatives (odd) → final answer is NEGATIVE.",
+        "Answer: −120.",
+        "Verify: (−4) × (−3) = +12. 12 × (−2) = −24. (−24) × 5 = −120. ✓"
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Word Problem",
+      "question": "In a quiz, each correct answer gives 5 marks and each wrong answer gives −2 marks. Rohan gets 8 correct and 5 wrong. What is his total score?",
+      "step_by_step_answer": [
+        "Step 1: Marks for correct answers = 8 × 5 = 40.",
+        "Step 2: Marks for wrong answers = 5 × (−2) = −10.",
+        "Step 3: Total score = 40 + (−10) = 30.",
+        "Answer: Rohan's total score is 30 marks.",
+        "Extension: If Rohan needed 35 to pass, he fell short by 35 − 30 = 5 marks."
+      ]
+    },
+    {
+      "example_number": 4,
+      "type": "Property Application",
+      "question": "Verify the distributive property: (−3) × [(−4) + (7)]",
+      "step_by_step_answer": [
+        "Method 1 (Bracket first): (−4) + 7 = 3. Then (−3) × 3 = −9.",
+        "Method 2 (Distribute): (−3) × (−4) + (−3) × 7 = 12 + (−21) = 12 − 21 = −9.",
+        "Both methods give −9. ✓ The distributive property holds.",
+        "Distributive property: a × (b + c) = a×b + a×c. Here a = −3, b = −4, c = 7."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Integers — All Operations",
+      "questions": [
+        {"type": "Recall", "q": "What is the additive inverse of −9?", "a": "9. Because −9 + 9 = 0."},
+        {"type": "Recall", "q": "State the sign rule: (−) × (−) = ?", "a": "Positive (+). Negative times negative = positive."},
+        {"type": "Computation", "q": "Evaluate: (−6) × (−4) ÷ (−3)", "a": "(−6) × (−4) = 24. 24 ÷ (−3) = −8. Answer: −8."},
+        {"type": "Understanding", "q": "Why are integers NOT closed under division?", "a": "Because dividing two integers does not always give an integer. Example: (−7) ÷ 2 = −3.5, which is not an integer."},
+        {"type": "Application", "q": "Temperature was −5°C at night and rose 12°C by noon. What is the noon temperature?", "a": "−5 + 12 = 7°C."}
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Integers include all positive whole numbers, negative whole numbers, and zero: {…, −2, −1, 0, 1, 2, …}",
+    "Subtracting an integer = adding its additive inverse: a − b = a + (−b).",
+    "Addition properties: Closure, Commutative, Associative, Additive Identity (0), Additive Inverse.",
+    "Multiplication sign rules: Same signs → Positive; Different signs → Negative.",
+    "Multiplication properties: Closure, Commutative, Associative, Distributive, Multiplicative Identity (1), Zero property.",
+    "Division sign rules: same as multiplication. Division by zero is UNDEFINED.",
+    "Integers are NOT closed under division (result may not be an integer).",
+    "An even number of negative factors in a product → Positive; Odd number → Negative.",
+    "Distributive property: a × (b + c) = a×b + a×c — very useful for simplification.",
+    "Real-life integers: temperatures, sea levels, profit/loss, altitudes, floors below ground."
+  ],
+
+  "mind_map": {
+    "root": "Integers",
+    "branches": [
+      {"branch": "Definition", "sub": ["All whole numbers: positive, negative, zero", "Number line: negative ← 0 → positive", "Absolute value |a| = distance from 0"]},
+      {"branch": "Addition & Subtraction", "sub": ["Number line movement", "a − b = a + (−b)", "Properties: Closure, Commutative, Associative", "Additive Identity: 0", "Additive Inverse: a + (−a) = 0"]},
+      {"branch": "Multiplication", "sub": ["(+)(+) = +, (−)(−) = +", "(+)(−) = −, (−)(+) = −", "Even negatives → +, Odd negatives → −", "Properties: Closure, Commutative, Associative, Distributive", "Identity: ×1 = itself, Zero: ×0 = 0"]},
+      {"branch": "Division", "sub": ["Same sign rules as multiplication", "(+)÷(+)=+, (−)÷(−)=+", "(+)÷(−)=−, (−)÷(+)=−", "Division by 0 = UNDEFINED", "NOT closed under division"]},
+      {"branch": "Real-Life Uses", "sub": ["Temperature (°C below zero)", "Altitude / Sea depth", "Profit (+) and Loss (−)", "Quiz scores, Bank balance"]}
+    ]
+  },
+
+  "revision_notes": "Chapter 1 — Integers. Definition: {…, −2, −1, 0, 1, 2, …}. Subtraction: a − b = a + (−b). Addition properties: Closure (sum is integer), Commutative (a+b=b+a), Associative ((a+b)+c=a+(b+c)), Identity (a+0=a), Inverse (a+(−a)=0). Multiplication sign rules: same signs→+, different signs→−. Even number of negatives→+, odd→−. Multiplication properties: Closure, Commutative, Associative, Distributive (a×(b+c)=ab+ac), Identity (×1), Zero (×0=0). Division: same sign rules as multiplication. Division by 0 = UNDEFINED. 0÷n=0 (n≠0). Integers NOT closed under division. Key worked examples: grouping integers for addition; counting negatives for multiplication sign; word problems with scores/temperature/money.",
+
+  "must_remember_facts": [
+    "a − b = a + (−b): subtraction is adding the additive inverse.",
+    "Additive inverse of a = −a. Additive identity = 0.",
+    "Multiplicative identity = 1. a × 0 = 0 for all integers.",
+    "Sign rules — Multiplication/Division: Same signs → +. Different signs → −.",
+    "Even count of negative factors → positive product. Odd count → negative product.",
+    "Distributive: a × (b + c) = ab + ac.",
+    "Division by zero is UNDEFINED — never allowed.",
+    "Integers are closed under +, −, × but NOT ÷.",
+    "Commutative holds for + and ×; NOT for − and ÷.",
+    "Associative holds for + and ×; NOT for − and ÷."
   ]
 }

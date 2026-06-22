@@ -1,114 +1,160 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "science",
-  "chapter_id": "ch15_air_around_us",
-  "chapter_title": {
-    "en": "Air Around Us",
-    "hi": "हमारे चारों ओर वायु",
-    "kn": "ನಮ್ಮ ಸುತ್ತಲಿನ ಗಾಳಿ"
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 15,
+  "chapter_title": "Air Around Us",
+  "estimated_study_time_minutes": 45,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Establish that air is present everywhere — in water, soil, and empty spaces",
+    "State the composition of air — nitrogen, oxygen, carbon dioxide, water vapour, and other gases",
+    "Explain the role of oxygen in combustion and respiration",
+    "Explain the role of nitrogen in the environment",
+    "Explain the role of carbon dioxide in photosynthesis",
+    "Describe the role of the atmosphere in protecting Earth",
+    "Explain how air is essential for water cycle, weather, and life",
+    "Connect air quality to health and Karnataka's urban environment"
+  ],
+
+  "prerequisite_knowledge": [
+    "Awareness that we breathe air to survive",
+    "Basic understanding that fire needs air",
+    "Familiarity with the water cycle (Chapter 14)",
+    "Knowledge that plants use sunlight to make food (photosynthesis)"
+  ],
+
+  "introduction": {
+    "why_important": "Air is the most immediately essential resource for life — you can survive weeks without food, days without water, but only minutes without air. Understanding the composition of air helps us understand respiration, combustion, weather, and climate change.",
+    "real_life_relevance": "Every breath you take, every fire you light, every cloud that forms — all depend on air. Air quality affects health directly: Bengaluru, Chennai, and Delhi face rising air pollution that contributes to respiratory diseases.",
+    "karnataka_context": "Karnataka's air quality varies dramatically between regions. The Western Ghats have some of the cleanest air in India due to dense forest cover. Bengaluru, however, has seen deteriorating air quality due to rapid urbanisation, vehicle emissions, and industrial growth. The Central Pollution Control Board (CPCB) regularly ranks Bengaluru among Indian cities with poor air quality indices. Hubballi-Dharwad has air quality concerns from thermal power plants in the region. The Kudremukh and Bandipur forests act as 'lungs' for Karnataka, absorbing CO₂ and releasing O₂. ISRO Bengaluru uses atmospheric science in satellite weather monitoring. Karnataka's wind energy farms in Chitradurga, Gadag, and Davangere districts harness wind (moving air) for electricity generation — one of India's leading wind power states.",
+    "connection_to_previous_learning": "This chapter follows the water cycle (Chapter 14) and builds on understanding of photosynthesis from Chapter 1 and Chapter 11 (Light and Shadow introduces atmosphere concepts). Air and water together form Earth's life-support system."
   },
-  "topics": [
+
+  "story_summary": {
+    "characters": [
+      { "name": "Air", "role": "The invisible mixture of gases surrounding Earth — essential for all life, weather, and combustion" },
+      { "name": "Oxygen (O₂)", "role": "The component of air essential for respiration in animals and combustion of fuels" },
+      { "name": "Carbon Dioxide (CO₂)", "role": "Used by plants in photosynthesis; also produced by respiration and combustion" },
+      { "name": "Nitrogen (N₂)", "role": "The most abundant gas in air; used by plants as a nutrient (through nitrogen-fixing bacteria)" },
+      { "name": "Water Vapour", "role": "The variable component of air responsible for weather, clouds, and humidity" }
+    ],
+    "plot": [
+      "The chapter opens by showing that air is present everywhere — in water (bubbles from aquatic animals), in soil (earthworms can breathe underground), and in 'empty' containers.",
+      "Air is a mixture of gases — not a single element. Its composition: ~78% nitrogen, ~21% oxygen, ~0.04% carbon dioxide, water vapour (variable), and traces of other gases (argon, helium, etc.).",
+      "Oxygen: Essential for respiration (all animals and plants breathe oxygen) and combustion (fire needs oxygen — that's why blowing out a candle works by cutting off air supply).",
+      "Carbon dioxide: Produced by respiration and combustion; used by plants in photosynthesis. Increasing CO₂ in the atmosphere due to burning fuels is causing climate change.",
+      "Nitrogen: The most abundant gas; not used directly by most organisms but is essential for plant growth (as nitrates in soil). Nitrogen-fixing bacteria in soil convert N₂ into forms plants can absorb.",
+      "Water vapour in air causes weather — humidity, clouds, rain.",
+      "The atmosphere (a thick layer of air around Earth) protects us from harmful UV radiation and extreme temperatures.",
+      "The chapter ends with the importance of clean air and how human activities (vehicle emissions, industrial smoke, burning) pollute air and cause health problems."
+    ],
+    "moral": "Air is the invisible, taken-for-granted shield and sustainer of all life. Polluting air is harming the very breath that keeps us alive."
+  },
+
+  "core_concepts": [
     {
-      "topic_id": "science_grade6_ch15_air_around_us_basics",
-      "title": {
-        "en": "Air Around Us - Fundamentals",
-        "hi": "हमारे चारों ओर वायु - बुनियादी बातें",
-        "kn": "ನಮ್ಮ ಸುತ್ತಲಿನ ಗಾಳಿ - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of Air Around Us",
-        "Solve exercises and apply rules related to Air Around Us",
-        "Analyze practical examples of Air Around Us in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Air Around Us. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम हमारे चारों ओर वायु का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ನಮ್ಮ ಸುತ್ತಲಿನ ಗಾಳಿ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Air Around Us in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम हमारे चारों ओर वायु का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ನಮ್ಮ ಸುತ್ತಲಿನ ಗಾಳಿ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Air Around Us.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Air Around Us.",
-            "hi": "चरण 1: हमारे चारों ओर वायु के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ನಮ್ಮ ಸುತ್ತಲಿನ ಗಾಳಿ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Air Around Us builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "हमारे चारों ओर वायु में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ನಮ್ಮ ಸುತ್ತಲಿನ ಗಾಳಿ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Air is Present Everywhere",
+      "simple_explanation": "Air fills all empty spaces — even spaces that appear empty, and even underwater and underground. Air is a mixture of gases that surrounds Earth.",
+      "detailed_explanation": "Air is not 'nothing' — it is a real substance (a mixture of gases) with mass, that occupies space and exerts pressure. Evidence that air is everywhere: (1) When you immerse an 'empty' inverted glass in water, the air inside keeps water from entering — proving the glass is not empty. (2) Bubbles rise from soil when water is poured on it — air was trapped in soil pores. (3) Fish and aquatic animals breathe dissolved oxygen in water — proving air (specifically oxygen) is dissolved in water. (4) Earthworms breathe underground through their moist skin — air is present in soil pores. Air is technically a layer around Earth called the atmosphere, extending hundreds of kilometres upward.",
+      "real_life_example": "When you open a bottle of carbonated drink (like soda), bubbles rise — those are CO₂ gas that was dissolved under pressure in the liquid. When you blow air into a sealed plastic bag, it puffs up — demonstrating air has volume and occupies space.",
+      "karnataka_example": "Karnataka's fish farmers in Mandya, Ramanagara, and coastal districts depend on dissolved oxygen in water for their fish — if water becomes too warm or polluted, dissolved oxygen decreases and fish die. This is a direct consequence of air composition affecting aquatic life.",
+      "common_mistakes": "Students think an empty container has nothing in it. It is full of air. The word 'empty' in daily language means 'no solids or liquids' — but air (gas) is always present in any container open to or previously in contact with air.",
+      "memory_tip": "Air is everywhere — even 'nowhere' has air. The only truly airless place is outer space. Your classroom, your lungs, the soil outside, the water in a river — all have air."
+    },
+    {
+      "concept_name": "Composition of Air",
+      "simple_explanation": "Air is a mixture of several gases. The main ones are nitrogen (78%), oxygen (21%), and carbon dioxide (0.04%). It also contains water vapour and small amounts of other gases.",
+      "detailed_explanation": "Air is a homogeneous mixture of gases. Composition by volume: Nitrogen (N₂) — approximately 78%; Oxygen (O₂) — approximately 21%; Argon (Ar) — approximately 0.93%; Carbon dioxide (CO₂) — approximately 0.04% (400 ppm); Water vapour (H₂O) — 0–4% (variable, depends on humidity); Traces of neon, helium, methane, ozone, etc. Together, N₂ + O₂ account for about 99% of air. Key point: the composition of dry air is roughly constant anywhere on Earth at sea level (though CO₂ is slowly rising due to fossil fuel burning). Water vapour content varies significantly with location and weather.",
+      "real_life_example": "When you look at a pie chart of air: N₂ takes up 78% (more than 3/4), O₂ takes up 21% (about 1/5), and CO₂ is so tiny (0.04%) that it is barely visible on the chart. Yet that tiny sliver of CO₂ is responsible for photosynthesis, the greenhouse effect, and increasingly, climate change.",
+      "karnataka_example": "Karnataka has a large fleet of vehicles — Bengaluru alone has over 10 million registered vehicles. Vehicle emissions add CO₂, nitrogen oxides, and particulate matter to air. The Bruhat Bengaluru Mahanagara Palike (BBMP) and Karnataka State Pollution Control Board (KSPCB) monitor air quality. Kudremukh and Bandipur forest reserves absorb CO₂ and maintain oxygen levels — they are critical for air quality.",
+      "common_mistakes": "Many students think oxygen is the most abundant gas in air. Nitrogen is most abundant (78%). Oxygen is second (21%). CO₂, though critical for life and climate, is only 0.04% of air. Also, the percentage of oxygen does not vary much between clean forest air and polluted city air — the difference is in particulate matter and pollutants, not oxygen levels.",
+      "memory_tip": "78-21-0 rule: N₂ = 78, O₂ = 21, CO₂ = 0.04. Or: N78, O21. Remember: Nitrogen is the shy majority (78%) that does less but dominates; Oxygen is the active minority (21%) that powers everything."
+    },
+    {
+      "concept_name": "Role of Oxygen, Carbon Dioxide, and Nitrogen",
+      "simple_explanation": "Oxygen is needed for breathing and burning. Carbon dioxide is used by plants to make food. Nitrogen is needed by plants as a nutrient and fills the air as an inert buffer.",
+      "detailed_explanation": "Oxygen (O₂): (1) Respiration — all animals, plants (during non-photosynthesis time), and fungi need oxygen to release energy from food (cellular respiration: glucose + O₂ → CO₂ + water + energy). (2) Combustion — fire needs oxygen; no oxygen = fire goes out. This is why blowing air onto a flame increases it, but smothering a fire (cutting off air) puts it out. (3) Aquatic life — dissolved in water, used by fish and other water organisms. Carbon Dioxide (CO₂): (1) Photosynthesis — plants use CO₂ + water + sunlight to make food (glucose). (2) Released during respiration and combustion. (3) Greenhouse gas — traps heat in Earth's atmosphere. (4) Carbonation — dissolved in fizzy drinks. Nitrogen (N₂): (1) Most abundant gas — provides 'bulk' to air, diluting oxygen to a safe concentration (pure O₂ would cause fires to rage uncontrollably). (2) Nitrogen cycle — bacteria in soil convert N₂ into nitrates, which plants absorb as nutrients for protein synthesis. (3) Used in food preservation (nitrogen packaging to prevent spoilage). (4) Liquid nitrogen is used in medicine and cryogenics.",
+      "real_life_example": "When you light a match and then cover it with a glass jar, the flame goes out after a few seconds — because it used up the oxygen inside the jar. This proves oxygen is needed for combustion. When you breathe out on a cold day and see your breath as white mist — that is water vapour and CO₂ condensing in cold air.",
+      "karnataka_example": "Bandipur and Nagarhole forests in Karnataka are major oxygen sources for the southern Deccan. BWSSB's sewage treatment plants release CO₂ and methane (another component of polluted air). Karnataka Neeravari Nigam uses nitrogen fixation (through irrigation and crops like pulses) to enrich farmland. Karnataka is India's leading silk producer — silkworms breathe oxygen and produce CO₂ like all animals.",
+      "common_mistakes": "Students think plants only produce oxygen and never use it. Plants ALWAYS respire (use O₂, release CO₂) — but during daylight hours, they photosynthesize more than they respire, releasing net O₂. At night, only respiration occurs — so plants release CO₂ at night. The old advice 'don't keep plants in the bedroom at night' comes from this, though the amounts are too small to be harmful.",
+      "memory_tip": "O₂ = OUT OF organisms (breathed out as CO₂) and IN for fire (combustion). CO₂ = IN for plants (photosynthesis) and OUT from animals. They're cycling in opposite directions between plants and animals — a perfect partnership."
+    },
+    {
+      "concept_name": "The Atmosphere and Air Pollution",
+      "simple_explanation": "The atmosphere is the thick layer of air surrounding Earth. It protects us from harmful radiation and extreme temperatures. Human activities are polluting this air, causing health and climate problems.",
+      "detailed_explanation": "The atmosphere is a multi-layered envelope of air extending from Earth's surface to about 10,000 km upward. Key roles: (1) Provides oxygen for respiration. (2) Contains CO₂ for photosynthesis. (3) Ozone layer (in the stratosphere) absorbs harmful UV radiation from the Sun. (4) Acts as an insulating blanket — prevents extreme temperature swings between day and night (Moon, which has no atmosphere, has 127°C by day and -173°C by night). (5) Carries water vapour for the water cycle. Air Pollution: Pollutants like smoke from vehicles and factories, CO₂ from burning fossil fuels, particulate matter (dust, soot), and gases like sulphur dioxide and nitrogen oxides degrade air quality. Effects: respiratory diseases (asthma, bronchitis), reduced crop yield, acid rain, global warming. Solutions: clean energy, electric vehicles, trees, regulations.",
+      "real_life_example": "On a clear day in Bengaluru, you can see a brownish haze over the city — this is smog (smoke + fog), made of vehicle exhaust particulates. On days with high AQI (Air Quality Index), health advisories warn asthma patients to stay indoors. In contrast, a visit to Coorg or the Nilgiris reveals breathtakingly clean air — demonstrating the difference forests make.",
+      "karnataka_example": "Bengaluru's AQI often crosses the 'Unhealthy' range during winter months due to temperature inversions trapping pollutants near the ground. Hubballi has thermal power plants in nearby Raichur that contribute to regional air pollution. In contrast, Kodagu, Chikkamagaluru, and Shivamogga districts, covered by Western Ghats forests, have some of India's cleanest air. Karnataka State Pollution Control Board (KSPCB) regulates industrial emissions and issues alerts for hazardous air quality.",
+      "common_mistakes": "Students think air pollution only means smoke. Air pollution includes invisible pollutants like CO₂ (greenhouse warming), ozone near the ground (smog — lung irritant), and radioactive particles. Also, the ozone layer in the upper atmosphere PROTECTS us; ground-level ozone is a pollutant. Same gas, two different locations, two opposite effects.",
+      "memory_tip": "Atmosphere = Earth's 4-in-1 service: Air supply (O₂), Sun protection (ozone layer), Blanket (temperature regulation), Water carrier (vapour → rain). When we pollute air, we damage all four services at once."
     }
+  ],
+
+  "key_vocabulary": [
+    { "term": "Atmosphere", "definition": "The thick layer of air surrounding Earth, composed of nitrogen, oxygen, CO₂, water vapour, and other gases" },
+    { "term": "Oxygen (O₂)", "definition": "The gas in air (21%) essential for respiration and combustion" },
+    { "term": "Nitrogen (N₂)", "definition": "The most abundant gas in air (78%), essential for plant nutrition through soil bacteria" },
+    { "term": "Carbon dioxide (CO₂)", "definition": "A gas in air (0.04%) used by plants in photosynthesis and produced by respiration and combustion" },
+    { "term": "Water vapour", "definition": "Gaseous water present in air (variable amount); responsible for humidity, clouds, and rain" },
+    { "term": "Respiration", "definition": "The process by which organisms break down food using oxygen to release energy, producing CO₂ and water" },
+    { "term": "Combustion", "definition": "The burning of a substance in the presence of oxygen, releasing heat, light, CO₂ and water" },
+    { "term": "Air pollution", "definition": "The contamination of air by harmful substances like smoke, gases, and particulate matter" },
+    { "term": "Ozone layer", "definition": "A layer of ozone (O₃) gas in the upper atmosphere that absorbs harmful UV radiation from the Sun" },
+    { "term": "Smog", "definition": "A type of air pollution formed when vehicle and industrial emissions combine with sunlight; especially visible in cities" }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Composition of Air",
+      "questions": [
+        { "type": "Recall", "q": "What are the two most abundant gases in air and their approximate percentages?", "a": "Nitrogen (~78%) and oxygen (~21%). Together they make up about 99% of dry air." },
+        { "type": "Recall", "q": "What is the percentage of carbon dioxide in air?", "a": "Carbon dioxide makes up only about 0.04% (400 ppm) of air — a very small amount, though it is critical for photosynthesis and is a key greenhouse gas." },
+        { "type": "Understanding", "q": "Why is it important that oxygen makes up only 21% of air and not a higher percentage?", "a": "If oxygen concentration were much higher (say 30–40%), fires would ignite far more easily and burn much more intensely — even a small spark could cause devastating fires. Nitrogen dilutes oxygen to a safe level for controlled combustion." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Air is present everywhere — in empty containers, dissolved in water, and in soil pores.",
+    "Air is a mixture of gases: ~78% nitrogen, ~21% oxygen, ~0.04% CO₂, and water vapour.",
+    "Oxygen is needed for respiration (all living things) and combustion (burning).",
+    "Carbon dioxide is used by plants in photosynthesis and released by respiration and combustion.",
+    "Nitrogen is the most abundant gas; it is essential for plant nutrition via soil bacteria.",
+    "Water vapour in air is responsible for humidity, clouds, and the water cycle.",
+    "The atmosphere protects Earth: provides air for life, UV protection (ozone layer), and temperature regulation.",
+    "Air pollution (vehicle emissions, factory smoke) causes respiratory diseases and climate change.",
+    "Forests (like Kodagu, Bandipur, Kudremukh) are crucial for maintaining air quality.",
+    "Karnataka is a leading wind energy producer — harnessing air movement for electricity."
+  ],
+
+  "mind_map": {
+    "root": "Air Around Us",
+    "branches": [
+      { "branch": "Air is Everywhere", "sub": ["In empty containers", "Dissolved in water (fish breathe it)", "In soil pores (earthworms)"] },
+      { "branch": "Composition", "sub": ["Nitrogen ~78%", "Oxygen ~21%", "CO₂ ~0.04%", "Water vapour (variable)", "Trace gases (argon, etc.)"] },
+      { "branch": "Roles of Gases", "sub": ["O₂: respiration + combustion", "CO₂: photosynthesis + greenhouse", "N₂: plant nutrition + dilutes O₂", "Water vapour: weather + water cycle"] },
+      { "branch": "Atmosphere", "sub": ["Provides oxygen", "Ozone shields UV", "Temperature regulation", "Carries water vapour"] },
+      { "branch": "Air Pollution", "sub": ["Vehicle emissions", "Factory smoke", "Effects: asthma, acid rain, warming", "Solutions: forests, clean energy"] },
+      { "branch": "Karnataka Links", "sub": ["Bengaluru AQI concerns", "Western Ghats as lungs", "Wind farms: Chitradurga, Gadag", "KSPCB air monitoring"] }
+    ]
+  },
+
+  "revision_notes": "Chapter 15 covers air composition and its importance. Air is present everywhere — in containers, water (dissolved O₂), and soil. Composition: N₂ (78%), O₂ (21%), CO₂ (0.04%), water vapour (variable). O₂ is needed for respiration (all living things) and combustion (fire needs O₂). CO₂ is used by plants for photosynthesis; released by respiration and combustion. N₂ is the most abundant; plants get it as nitrates from soil bacteria. Water vapour drives the water cycle. Atmosphere = protective air layer around Earth; ozone layer blocks UV; acts as insulating blanket. Air pollution (vehicles, factories) causes respiratory disease, acid rain, global warming. Karnataka: Bengaluru has high vehicular pollution; Western Ghats forests = Karnataka's lungs; Chitradurga/Gadag = wind energy farms.",
+
+  "must_remember_facts": [
+    "Air is a mixture of gases, NOT a single element or compound.",
+    "Composition: N₂ 78%, O₂ 21%, CO₂ 0.04%, water vapour (variable).",
+    "Nitrogen is the most abundant gas in air (78%).",
+    "Oxygen is needed for respiration AND combustion.",
+    "CO₂ is used by plants in photosynthesis; produced by respiration and burning.",
+    "Air is present in water (dissolved O₂ for fish) and in soil (for soil organisms).",
+    "Atmosphere = layers of air around Earth; ozone layer in upper atmosphere blocks UV radiation.",
+    "Air pollution = contamination of air by smoke, gases, and particulates — causes respiratory disease and climate change.",
+    "Karnataka forests (Western Ghats) act as 'lungs' — absorbing CO₂ and releasing O₂.",
+    "Wind farms in Karnataka (Chitradurga, Gadag, Davangere) generate electricity from moving air."
   ]
 }

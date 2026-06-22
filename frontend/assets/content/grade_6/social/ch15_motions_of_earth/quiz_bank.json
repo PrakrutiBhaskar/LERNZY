@@ -1,366 +1,237 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch15_motions_of_earth_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science — Geography",
+  "textbook": "Our Environment — Textbook for Class VI",
+  "chapter_number": 15,
+  "chapter_title": "Motions of the Earth",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which of the following is a non-contact force? (Q1)",
-        "hi": "Which of the following is a non-contact force? (Q1)",
-        "kn": "Which of the following is a non-contact force? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "hi": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "kn": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Gravity acts over a distance without physical contact.",
-        "hi": "Gravity acts over a distance without physical contact.",
-        "kn": "Gravity acts over a distance without physical contact."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Earth's rotation on its own axis causes:",
+      "options": ["A) Seasons", "B) Day and night", "C) Leap year", "D) Tides"],
+      "correct_answer": "B) Day and night",
+      "explanation": "Earth's rotation (spinning on its axis once every 24 hours) causes day and night. The half of Earth facing the Sun experiences day; the half facing away experiences night. As Earth rotates, different parts come into and out of sunlight. Seasons are caused by Earth's revolution combined with its axial tilt. Leap year is caused by revolution taking 365.25 days. Tides are primarily caused by the Moon's gravity."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "If area decreases while force stays constant, what happens to pressure? (Q2)",
-        "hi": "If area decreases while force stays constant, what happens to pressure? (Q2)",
-        "kn": "If area decreases while force stays constant, what happens to pressure? (Q2)"
-      },
-      "options": {
-        "en": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "hi": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "kn": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "hi": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "kn": "Since Pressure = Force/Area, decreasing the area increases the pressure."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "In which direction does Earth rotate on its axis?",
+      "options": ["A) East to West", "B) North to South", "C) West to East", "D) South to North"],
+      "correct_answer": "C) West to East",
+      "explanation": "Earth rotates from west to east (counterclockwise when viewed from above the North Pole). Because of this west-to-east rotation, the Sun appears to move from east to west across the sky — it rises in the east and sets in the west. The Sun's apparent eastward-to-westward movement is opposite to Earth's actual westward-to-eastward rotation."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which of the following is a non-contact force? (Q3)",
-        "hi": "Which of the following is a non-contact force? (Q3)",
-        "kn": "Which of the following is a non-contact force? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "hi": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "kn": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Gravity acts over a distance without physical contact.",
-        "hi": "Gravity acts over a distance without physical contact.",
-        "kn": "Gravity acts over a distance without physical contact."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "How many days does Earth take to complete one revolution around the Sun?",
+      "options": ["A) 24 hours", "B) 365 days exactly", "C) 365.25 days", "D) 366 days"],
+      "correct_answer": "C) 365.25 days",
+      "explanation": "Earth takes approximately 365.25 days to complete one revolution around the Sun. The calendar year is 365 days, but the extra 0.25 day accumulates over 4 years into 1 full day, which is added as February 29 (Leap Year). This is why Leap Years occur every 4 years — to keep the calendar aligned with Earth's actual orbital period."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "If area decreases while force stays constant, what happens to pressure? (Q4)",
-        "hi": "If area decreases while force stays constant, what happens to pressure? (Q4)",
-        "kn": "If area decreases while force stays constant, what happens to pressure? (Q4)"
-      },
-      "options": {
-        "en": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "hi": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "kn": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "hi": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "kn": "Since Pressure = Force/Area, decreasing the area increases the pressure."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "What is the primary cause of seasons on Earth?",
+      "options": [
+        "A) Earth's varying distance from the Sun",
+        "B) The Sun's varying brightness throughout the year",
+        "C) Earth's axial tilt of 23.5°",
+        "D) The Moon's gravitational effect on Earth"
+      ],
+      "correct_answer": "C) Earth's axial tilt of 23.5°",
+      "explanation": "Seasons are caused by Earth's axial tilt of 23.5°. As Earth revolves around the Sun, the tilted axis means different hemispheres receive more direct sunlight at different times of year — creating summer and winter. Earth's distance from the Sun is NOT the cause: Earth is actually closest to the Sun in January (Northern Hemisphere winter!), disproving the distance theory."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which of the following is a non-contact force? (Q5)",
-        "hi": "Which of the following is a non-contact force? (Q5)",
-        "kn": "Which of the following is a non-contact force? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "hi": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "kn": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Gravity acts over a distance without physical contact.",
-        "hi": "Gravity acts over a distance without physical contact.",
-        "kn": "Gravity acts over a distance without physical contact."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "The Summer Solstice in the Northern Hemisphere occurs on:",
+      "options": ["A) March 21", "B) September 23", "C) December 22", "D) June 21"],
+      "correct_answer": "D) June 21",
+      "explanation": "The Summer Solstice in the Northern Hemisphere occurs on June 21. On this day, the Northern Hemisphere is tilted most towards the Sun — it is the longest day of the year in the Northern Hemisphere. The Sun is directly overhead at the Tropic of Cancer (23.5°N). Above the Arctic Circle (66.5°N), there is 24 hours of continuous daylight."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "If area decreases while force stays constant, what happens to pressure? (Q6)",
-        "hi": "If area decreases while force stays constant, what happens to pressure? (Q6)",
-        "kn": "If area decreases while force stays constant, what happens to pressure? (Q6)"
-      },
-      "options": {
-        "en": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "hi": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "kn": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "hi": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "kn": "Since Pressure = Force/Area, decreasing the area increases the pressure."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "On which dates are the equinoxes?",
+      "options": [
+        "A) June 21 and December 22",
+        "B) March 21 and September 23",
+        "C) January 1 and July 1",
+        "D) April 21 and October 23"
+      ],
+      "correct_answer": "B) March 21 and September 23",
+      "explanation": "The equinoxes occur on March 21 (Spring/Vernal Equinox) and September 23 (Autumnal Equinox). On these days, the Sun is directly overhead at the Equator, and day and night are equal (12 hours each) everywhere on Earth. 'Equinox' comes from Latin meaning 'equal night'."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which of the following is a non-contact force? (Q7)",
-        "hi": "Which of the following is a non-contact force? (Q7)",
-        "kn": "Which of the following is a non-contact force? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "hi": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "kn": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Gravity acts over a distance without physical contact.",
-        "hi": "Gravity acts over a distance without physical contact.",
-        "kn": "Gravity acts over a distance without physical contact."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "On December 22 (Winter Solstice in Northern Hemisphere), the Sun is directly overhead at the:",
+      "options": ["A) Equator", "B) Tropic of Cancer", "C) Arctic Circle", "D) Tropic of Capricorn"],
+      "correct_answer": "D) Tropic of Capricorn",
+      "explanation": "On December 22 (Winter Solstice in Northern Hemisphere), the Northern Hemisphere is tilted most away from the Sun. The Sun is directly overhead at the Tropic of Capricorn (23.5°S) — the southernmost latitude where the Sun can be directly overhead. The Northern Hemisphere has its shortest day; the Southern Hemisphere has its longest day."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "If area decreases while force stays constant, what happens to pressure? (Q8)",
-        "hi": "If area decreases while force stays constant, what happens to pressure? (Q8)",
-        "kn": "If area decreases while force stays constant, what happens to pressure? (Q8)"
-      },
-      "options": {
-        "en": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "hi": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "kn": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "hi": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "kn": "Since Pressure = Force/Area, decreasing the area increases the pressure."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "Why does a Leap Year have 366 days?",
+      "options": [
+        "A) To match the Moon's orbital cycle with the Sun",
+        "B) Because Earth takes 365.25 days to orbit the Sun; the extra 0.25 accumulates to 1 full day every 4 years",
+        "C) Because February always has 28 days and an extra day is added randomly",
+        "D) To align the Islamic and Gregorian calendars"
+      ],
+      "correct_answer": "B) Because Earth takes 365.25 days to orbit the Sun; the extra 0.25 accumulates to 1 full day every 4 years",
+      "explanation": "Earth's orbital period is 365.25 days. Calendar years use 365 days, leaving 0.25 day unaccounted each year. Over 4 years, 4 × 0.25 = 1 full extra day. This day is added to February every 4th year (making it 29 days), giving a 366-day Leap Year. This adjustment keeps the calendar synchronized with Earth's actual orbital position and the seasons."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which of the following is a non-contact force? (Q9)",
-        "hi": "Which of the following is a non-contact force? (Q9)",
-        "kn": "Which of the following is a non-contact force? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "hi": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ],
-        "kn": [
-          "Gravitational force",
-          "Friction",
-          "Tension",
-          "Air resistance"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Gravity acts over a distance without physical contact.",
-        "hi": "Gravity acts over a distance without physical contact.",
-        "kn": "Gravity acts over a distance without physical contact."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "Karnataka celebrates Ugadi (New Year) around which astronomical event?",
+      "options": ["A) Winter Solstice", "B) Summer Solstice", "C) Spring Equinox", "D) Autumnal Equinox"],
+      "correct_answer": "C) Spring Equinox",
+      "explanation": "Ugadi, Karnataka and Andhra Pradesh's New Year festival, is celebrated in March–April near the Spring Equinox (March 21). The equinox marks equal day and night, the return of spring, and the renewal of the agricultural year. Historically, the spring equinox was considered the beginning of the new year in many cultures worldwide, as it signals increasing daylight and the warming of the seasons."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "If area decreases while force stays constant, what happens to pressure? (Q10)",
-        "hi": "If area decreases while force stays constant, what happens to pressure? (Q10)",
-        "kn": "If area decreases while force stays constant, what happens to pressure? (Q10)"
-      },
-      "options": {
-        "en": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "hi": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ],
-        "kn": [
-          "It increases",
-          "It decreases",
-          "It stays the same",
-          "It drops to zero"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "hi": "Since Pressure = Force/Area, decreasing the area increases the pressure.",
-        "kn": "Since Pressure = Force/Area, decreasing the area increases the pressure."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "When the Northern Hemisphere experiences summer, the Southern Hemisphere experiences:",
+      "options": ["A) Summer too", "B) Spring", "C) Winter", "D) The same season"],
+      "correct_answer": "C) Winter",
+      "explanation": "The Northern and Southern Hemispheres always have opposite seasons. When the Northern Hemisphere is tilted towards the Sun (summer), the Southern Hemisphere is simultaneously tilted away from the Sun (winter). When it is summer in India (June–August), it is winter in Australia and South Africa. This is a direct result of Earth's 23.5° axial tilt and its revolution around the Sun."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "A student argues: 'India is hotter in June than in January because Earth is closer to the Sun in June.' Is this correct?",
+      "options": [
+        "A) Yes — Earth is closer to the Sun in June, so India gets more heat",
+        "B) No — Earth is actually CLOSER to the Sun in January; India is hotter in June because of the axial tilt",
+        "C) Yes — the Sun is brighter in June due to its position in space",
+        "D) No — India is equally warm year-round because it is near the Equator"
+      ],
+      "correct_answer": "B) No — Earth is actually CLOSER to the Sun in January; India is hotter in June because of the axial tilt",
+      "explanation": "Earth is actually closest to the Sun around January 3 (perihelion, ~147 million km) and farthest in early July (aphelion, ~152 million km). Despite being closer in January, it is winter in the Northern Hemisphere. India's heat in April–June is caused by the axial tilt causing the Sun to shine more directly on the Northern Hemisphere (higher in the sky, longer days) — not by distance from the Sun. Seasons = tilt, not distance."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "On the Spring Equinox (March 21), what is the duration of day and night in Bengaluru?",
+      "options": [
+        "A) 14 hours day, 10 hours night",
+        "B) 12 hours day, 12 hours night",
+        "C) 16 hours day, 8 hours night",
+        "D) 10 hours day, 14 hours night"
+      ],
+      "correct_answer": "B) 12 hours day, 12 hours night",
+      "explanation": "On the equinoxes (March 21 and September 23), day and night are equal everywhere on Earth — each is 12 hours. This is because Earth's axis is not tilted towards or away from the Sun on these dates; the circle of illumination passes through both poles, giving all latitudes equal daylight. This 12-12 division applies to Bengaluru, London, Oslo, and every other location on Earth."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "Why does Makar Sankranti (January 14) celebrate the Sun's 'northward journey' (Uttarayan)?",
+      "options": [
+        "A) The Sun physically moves northward in January",
+        "B) After the Winter Solstice (December 22), the Sun's apparent overhead position begins shifting northward from the Tropic of Capricorn back towards the Equator and Tropic of Cancer",
+        "C) January 14 marks the date when the Sun enters the Northern Hemisphere",
+        "D) The Moon's position on this date causes the Sun to appear further north"
+      ],
+      "correct_answer": "B) After the Winter Solstice (December 22), the Sun's apparent overhead position begins shifting northward from the Tropic of Capricorn back towards the Equator and Tropic of Cancer",
+      "explanation": "The 'Uttarayan' (northward journey) refers to the apparent annual motion of the Sun. After the Winter Solstice (December 22), when the Sun is directly over the Tropic of Capricorn (23.5°S), Earth's continued revolution causes the Sun's overhead position to gradually shift northward. By March 21, it is over the Equator. By June 21, it reaches the Tropic of Cancer. Sankranti marks the beginning of this northward shift — the return of more sunlight to the Northern Hemisphere, welcomed as a positive turning point."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "Above the Arctic Circle (66.5°N) on June 21, what phenomenon occurs?",
+      "options": [
+        "A) 24 hours of complete darkness",
+        "B) 12 hours of day and 12 hours of night",
+        "C) 24 hours of continuous daylight (midnight sun)",
+        "D) Extremely cold temperatures despite sunlight"
+      ],
+      "correct_answer": "C) 24 hours of continuous daylight (midnight sun)",
+      "explanation": "On June 21 (Summer Solstice), the Northern Hemisphere is tilted most towards the Sun. The circle of illumination extends to 66.5°S (Antarctic Circle). This means the entire region from the Arctic Circle (66.5°N) to the North Pole (90°N) is continuously illuminated — the Sun does not set for 24 hours. This is the 'midnight sun' phenomenon. Countries like Norway, Sweden, Finland, and Iceland above 66.5°N experience this."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "If Earth's axis had NO tilt (0°), what would happen to seasons?",
+      "options": [
+        "A) Seasons would be more extreme — hotter summers and colder winters",
+        "B) There would be no seasons — every location would have the same climate year-round",
+        "C) Only the Southern Hemisphere would have seasons",
+        "D) Seasons would shift to occur monthly rather than annually"
+      ],
+      "correct_answer": "B) There would be no seasons — every location would have the same climate year-round",
+      "explanation": "Earth's 23.5° axial tilt is the sole cause of seasons. With no tilt (0°), Earth's axis would be perfectly perpendicular to its orbital plane. As Earth revolves, every latitude would always receive the same amount of sunlight throughout the year — no tilt means no changing seasonal angle of sunlight. Day length would always be 12 hours everywhere. There would be no solstices, no equinoxes, no monsoon season, and no winter. The Equator would always be hottest, the poles always coldest."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Karnataka's Southwest Monsoon (June–September) is related to which of Earth's motions?",
+      "options": [
+        "A) Rotation only — the spinning creates the low pressure that draws in monsoon winds",
+        "B) Revolution and axial tilt — as Earth revolves to its June position, the tilted Northern Hemisphere heats up, creating low pressure that draws moisture-laden winds over Karnataka",
+        "C) Neither — the monsoon is caused entirely by the Moon's gravity",
+        "D) Revolution only — the change in Earth's distance from the Sun in June causes extra heat"
+      ],
+      "correct_answer": "B) Revolution and axial tilt — as Earth revolves to its June position, the tilted Northern Hemisphere heats up, creating low pressure that draws moisture-laden winds over Karnataka",
+      "explanation": "The Southwest Monsoon is driven by both revolution and axial tilt: Earth's revolution carries it to the position where the tilted Northern Hemisphere receives maximum solar energy (June solstice). This intense heating creates a powerful low-pressure area over the Indian subcontinent. The pressure difference between the cool ocean and hot land draws moisture-laden southwest winds (from the Arabian Sea and Bay of Bengal) northward over Karnataka, delivering the monsoon rains that sustain the state's agriculture."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "Which of the following CORRECTLY pairs a solstice/equinox with its date and the Sun's overhead position?",
+      "options": [
+        "A) Summer Solstice — December 22 — Sun over Tropic of Cancer",
+        "B) Winter Solstice — June 21 — Sun over Equator",
+        "C) Spring Equinox — March 21 — Sun over Equator",
+        "D) Autumnal Equinox — June 21 — Sun over Tropic of Capricorn"
+      ],
+      "correct_answer": "C) Spring Equinox — March 21 — Sun over Equator",
+      "explanation": "On the Spring Equinox (March 21), the Sun is directly overhead at the Equator (0°), and day and night are equal everywhere. Option A is wrong: Summer Solstice is June 21 (not December 22) and Sun is over Cancer. Option B is wrong: Winter Solstice is December 22 (not June 21) and Sun is over Capricorn. Option D is wrong: Autumnal Equinox is September 23, Sun over Equator, not June 21."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "The Pole Star (Polaris) appears stationary in the night sky while all other stars appear to rotate around it. Why?",
+      "options": [
+        "A) Polaris is the largest star in the galaxy and its gravity holds it still",
+        "B) Polaris is aligned with Earth's axis extension — as Earth rotates, all stars appear to circle this fixed point",
+        "C) Polaris does not emit light, so it appears stationary",
+        "D) Polaris is exactly at 0° longitude, making it appear fixed from Earth"
+      ],
+      "correct_answer": "B) Polaris is aligned with Earth's axis extension — as Earth rotates, all stars appear to circle this fixed point",
+      "explanation": "Earth's axis, when extended northward into space, points very close to Polaris (the North Star). As Earth rotates, all stars appear to trace circles around this polar point — but Polaris, being almost exactly on the axis, barely moves. This makes Polaris extremely useful for navigation (it always indicates geographic north). It also explains why Earth's axial tilt is described as 'pointing towards Polaris' — the tilt direction is constant because the axis always points towards the same celestial point."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "ISRO chooses to launch satellites eastward from Sriharikota (13.7°N) rather than northward. What is the advantage?",
+      "options": [
+        "A) Eastern launches avoid monsoon clouds that come from the west",
+        "B) Launching eastward adds Earth's rotational velocity (~1,624 km/h at 13.7°N) to the rocket's speed, reducing fuel needed for orbit",
+        "C) Eastern launches reach the International Space Station (ISS) faster",
+        "D) The Bay of Bengal (to the east) provides better radar tracking for eastward launches"
+      ],
+      "correct_answer": "B) Launching eastward adds Earth's rotational velocity (~1,624 km/h at 13.7°N) to the rocket's speed, reducing fuel needed for orbit",
+      "explanation": "Earth's surface rotates eastward at ~1,670 km/h at the Equator and ~1,624 km/h at Sriharikota (13.7°N). Launching a rocket eastward means the rocket 'inherits' this rotational velocity as a free bonus, requiring less fuel to reach orbital velocity (~28,000 km/h). This is why all major launch sites choose to launch eastward when possible, and why low-latitude sites (closer to the Equator) have a bigger advantage — higher rotational velocity. This is a direct application of Earth's rotation to space technology."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "Earth is CLOSER to the Sun in January (~147 million km) than in July (~152 million km). Yet Northern Hemisphere countries have winter in January and summer in July. Which explanation is MOST scientifically accurate?",
+      "options": [
+        "A) The extra distance in July is compensated by clearer skies in summer",
+        "B) Earth's axial tilt causes the Northern Hemisphere to receive more direct, longer-duration sunlight in July regardless of distance; the angle and duration of sunlight is more important than the small distance difference",
+        "C) The Sun produces more heat in July due to solar cycles",
+        "D) The Southern Hemisphere absorbs most of the Sun's heat in January, leaving less for the Northern Hemisphere"
+      ],
+      "correct_answer": "B) Earth's axial tilt causes the Northern Hemisphere to receive more direct, longer-duration sunlight in July regardless of distance; the angle and duration of sunlight is more important than the small distance difference",
+      "explanation": "The 3% difference in Earth-Sun distance between January and July creates only a tiny difference in solar energy received — not enough to overcome the powerful effect of axial tilt. In July, the Northern Hemisphere is tilted towards the Sun: sunlight strikes at a more direct angle (less atmosphere to pass through, more concentrated energy per unit area) AND days are longer (more hours of sunlight). Both effects together produce summer. In January, despite being slightly closer, the Northern Hemisphere is tilted away — sunlight hits at a shallow angle and days are short — producing winter. Angle + duration > tiny distance change."
     }
   ]
 }

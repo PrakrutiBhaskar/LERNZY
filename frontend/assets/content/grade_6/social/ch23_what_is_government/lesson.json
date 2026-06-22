@@ -1,114 +1,138 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "social",
-  "chapter_id": "ch23_what_is_government",
-  "chapter_title": {
-    "en": "What is Government?",
-    "hi": "सरकार क्या है?",
-    "kn": "ಸರ್ಕಾರ ಎಂದರೇನು?"
+  "subject": "Social Science",
+  "textbook": "Social and Political Life — Textbook for Class VI",
+  "chapter_number": 23,
+  "chapter_title": "What is Government?",
+  "estimated_study_time_minutes": 45,
+  "difficulty": "Easy",
+  "learning_objectives": [
+    "Define government and explain why human societies need it",
+    "Identify the three levels of government in India and their responsibilities",
+    "Distinguish between democracy, monarchy, and authoritarian systems",
+    "Explain universal adult franchise and its significance for Indian democracy",
+    "Describe the three branches of government and their roles",
+    "Explain what a constitution is and its role in limiting government power",
+    "Connect Karnataka's specific governmental structures to the national framework"
+  ],
+  "prerequisite_knowledge": [
+    "Basic awareness of India as a country with a Prime Minister and Chief Minister",
+    "Familiarity with elections from news and school discussions",
+    "Understanding from Chapter 21/22 about India's diverse society and the need for rules",
+    "General knowledge of the Indian flag, national anthem, and Republic Day"
+  ],
+  "introduction": {
+    "why_important": "Government is the invisible infrastructure of daily life. The road you walk on, the school you attend, the water you drink, the safety you enjoy — all are provided or regulated by some level of government. Understanding what government is, how it works, and why democracy is the best form of it is essential for active citizenship. You will vote in a few years — this chapter begins preparing you for that responsibility.",
+    "real_life_relevance": "Every day you interact with government: the KSRTC bus you take has a government route licence; your school textbooks are printed by the government; your neighbourhood's water supply is managed by BWSSB; the police station that handles crime in your area is run by the Karnataka Government; the 100-rupee note in your pocket is printed by the Reserve Bank of India (a Central Government body). Government is not a distant abstraction — it shapes every hour of your day.",
+    "karnataka_context": "Karnataka's governmental history is rich and instructive. The Vidhana Soudha in Bengaluru (built 1956) is the seat of Karnataka's Vidhan Sabha — one of India's most beautiful government buildings. Karnataka was formed on November 1, 1956 (Rajyotsava) by merging Kannada-speaking regions of Mysore, Hyderabad, Bombay, Madras, and Coorg states — an act of political reorganisation that reflected India's democratic federalism. Karnataka's Panchayati Raj system is among India's best — the state was a pioneer in 3-tier local government (1983 Act under Ramakrishna Hegde's government). The S.R. Bommai v. Union of India (1994) Supreme Court case — which came from Karnataka — established crucial limits on the Centre's power to dismiss state governments, shaping India's federal jurisprudence. Karnataka has 28 districts, 176 taluks, 6,016 Gram Panchayats — a massive local governance network serving over 6.5 crore people.",
+    "connection_to_previous_learning": "Chapters 21 and 22 established that India is a diverse society where discrimination must be fought and equality upheld. This chapter asks: what institution is responsible for making and enforcing the rules that ensure equality and protect rights? The answer is government. The Constitution — which abolishes untouchability (Article 17) and guarantees equal rights — is enforced by government institutions. Understanding government is understanding how the Constitution's promises become reality."
   },
-  "topics": [
+  "story_summary": {
+    "characters": [
+      {"name": "The Three Tiers of Government", "role": "Central, State, Local — the three-layered system that together governs India's 140 crore people"},
+      {"name": "The Constitution", "role": "The supreme rulebook — setting limits on government power and guaranteeing citizens' rights"},
+      {"name": "The Election Commission", "role": "Democracy's guardian — ensuring free and fair elections"}
+    ],
+    "plot": [
+      "The chapter opens with everyday situations — who builds roads? who runs schools? who makes laws? — to introduce the idea that government is responsible for many aspects of daily life.",
+      "It defines government and explains why every complex society needs one.",
+      "It introduces different types of government — democracy, monarchy, authoritarian — and explains why India chose democracy.",
+      "It explains India's three tiers of government and what each does.",
+      "It describes the three branches of government — legislature, executive, judiciary — and the principle of separation of powers.",
+      "It explains the Constitution as the supreme law that binds all of government.",
+      "It concludes with the citizen's role in democracy — voting, participating, holding government accountable."
+    ],
+    "moral": "Government is not 'them' — it is 'us.' In a democracy, the government derives its power from the people and serves the people. An informed, participating citizen is the foundation of a good government."
+  },
+  "core_concepts": [
     {
-      "topic_id": "social_grade6_ch23_what_is_government_basics",
-      "title": {
-        "en": "What is Government? - Fundamentals",
-        "hi": "सरकार क्या है? - बुनियादी बातें",
-        "kn": "ಸರ್ಕಾರ ಎಂದರೇನು? - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of What is Government?",
-        "Solve exercises and apply rules related to What is Government?",
-        "Analyze practical examples of What is Government? in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore What is Government?. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम सरकार क्या है? का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಸರ್ಕಾರ ಎಂದರೇನು? ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore What is Government? in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम सरकार क्या है? का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಸರ್ಕಾರ ಎಂದರೇನು? ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of What is Government?.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in What is Government?.",
-            "hi": "चरण 1: सरकार क्या है? के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಸರ್ಕಾರ ಎಂದರೇನು? ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering What is Government? builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "सरकार क्या है? में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಸರ್ಕಾರ ಎಂದರೇನು? ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "What is Government and Why Do We Need It?",
+      "simple_explanation": "Government is the system that manages a society — making rules, providing services, maintaining safety, and ensuring justice. Without it, complex societies cannot function peacefully.",
+      "detailed_explanation": "Government fulfils several essential functions: (1) Law-making — creates rules that everyone must follow, preventing chaos; (2) Law enforcement — police, courts ensure rules are obeyed; (3) Defence and security — army, navy, air force protect from external threats; police from internal; (4) Public services — roads, schools, hospitals, water supply, electricity (public goods that the private market cannot provide equitably); (5) Economic management — collects taxes, manages currency, regulates trade; (6) Dispute resolution — courts provide peaceful means to settle conflicts; (7) International representation — foreign policy, treaties, UN participation; (8) Social welfare — schemes for the poor, elderly, disabled. Government's authority is legitimate when it is either elected by the people (democracy), has traditional acceptance (monarchy), or is accepted by force (authoritarian). Democratic government has the most legitimate authority because it rests on popular consent.",
+      "real_life_example": "Imagine your school with no principal, no teachers, no timetable, no rules. Initially, the strongest students do what they want. Weaker students have no recourse. No learning happens. Chaos grows. Someone eventually organises a system — rules, schedule, authority. That is the instinct to govern. A country of 140 crore people with no government would be that school — but with far higher stakes.",
+      "karnataka_example": "Karnataka's government operates at three levels simultaneously: the Central Government provides Karnataka's defence (Bengaluru has major defence establishments — HAL, DRDO, BEL), foreign trade infrastructure (Mangaluru and Bengaluru airports handle international trade), and railway network (South Western Railway zone, headquartered in Hubballi). The State Government provides policing (75,000+ Karnataka Police personnel), state highways, KSRTC buses, government schools and hospitals. Local government (BBMP in Bengaluru, 6,016 Gram Panchayats) handles roads within cities, local water supply, and waste management.",
+      "common_mistakes": "Students sometimes confuse 'government' with 'ruling party.' The government is the institutional system — Parliament, courts, civil service — that continues regardless of which party is in power. The ruling party wins elections and gets to run the government, but the institutions of government continue across governments. Also, students sometimes think 'smaller government = better.' The right size and type of government depends on the society's needs — the question is not size but quality and accountability.",
+      "memory_tip": "GOVERNMENT = SOCIETY'S OS (Operating System). Like a smartphone needs an OS to function — manage resources, run apps, handle security — society needs government to manage collective resources, run public services, and handle security. Without the OS, hardware is useless."
+    },
+    {
+      "concept_name": "Types of Government: Democracy vs Others",
+      "simple_explanation": "A democracy gives power to the people through free elections. In a monarchy, power is hereditary (born into). In an authoritarian system, power is held by force without popular consent. India is a democracy.",
+      "detailed_explanation": "Types of government compared: Democracy — power from the people; free elections; multiple parties; rights of citizens protected; rule of law; leaders accountable. Key forms: parliamentary (India, UK) where the executive is drawn from the legislature; presidential (USA) where the executive and legislature are separate. Monarchy — power through hereditary succession; traditional legitimacy; modern constitutional monarchies (UK, Japan, Sweden) have symbolic monarchs with real power in elected Parliament; absolute monarchies (Saudi Arabia, Brunei) have monarchs with genuine power. Authoritarian — power through force or control; no free elections; opposition suppressed; rights curtailed; examples: Soviet USSR, North Korea, Nazi Germany. Why democracy is preferred: (1) Most legitimate — power from the people; (2) Most accountable — leaders can be voted out; (3) Protects rights best — courts and rights are independent; (4) Most peaceful transitions of power — elections replace coups; (5) Generally associated with better development outcomes. India chose parliamentary democracy at independence in 1947, confirmed by the Constitution in 1950.",
+      "real_life_example": "Compare three school councils: (1) Students vote for a council; council is accountable and replaced every year — democracy; (2) The headmaster's son automatically becomes school council president — monarchy; (3) The biggest/most aggressive student declares himself president and no one can challenge him — authoritarian. Which system gives students the most voice and ensures the best-run school? Most students intuitively choose democracy — the same logic applies to national governance.",
+      "karnataka_example": "Karnataka's democratic history: the Mysore Kingdom (under the Wadiyar dynasty) was one of India's most progressive princely states — the Maharaja voluntarily acceded to India in 1947 and Karnataka became part of democratic India. Mysore was already progressive: it had one of India's first elected legislative councils, a highly educated civil service, and pioneering schemes for women's education. The transition from a constitutional monarchy (Wadiyar kings) to a full democracy (post-1950) in Karnataka was peaceful — reflecting both the Wadiyar family's democratic values and the strength of India's democratic movement.",
+      "common_mistakes": "Students sometimes think democracy means every person votes on every decision (direct democracy). India practices representative democracy — citizens vote for representatives who make decisions on their behalf. Also, students sometimes think elections alone = democracy. Elections are necessary but not sufficient — free press, independent judiciary, and protection of rights are also essential components of democracy.",
+      "memory_tip": "DEMOCRACY = DEMOS (people) + KRATOS (power) in Greek. People power. Elections are the mechanism; rights are the protection; courts are the guarantee. All three together = real democracy. Elections without rights = electoral authoritarianism (fake democracy)."
+    },
+    {
+      "concept_name": "India's Three Tiers of Government",
+      "simple_explanation": "India has Central Government (for the whole country), State Government (for each state like Karnataka), and Local Government (for cities, towns, and villages). Each tier has its own powers and responsibilities.",
+      "detailed_explanation": "Three-tier government structure: (1) Central Government: Parliament (Lok Sabha + Rajya Sabha), President (formal head), Prime Minister (functional head), Union Cabinet. Powers: defence, foreign affairs, banking, currency, railways, telecommunications, atomic energy (Union List). (2) State Government: State Legislature (Vidhan Sabha + Vidhan Parishad in some states), Governor (formal head), Chief Minister (functional head), State Cabinet. Powers: police, agriculture, state education (school board), state roads, health, land revenue (State List). (3) Local Government: Urban — Municipal Corporation (for large cities like Bengaluru/BBMP), Municipal Council (medium towns), Town Panchayat (small towns); Rural — Gram Panchayat (village), Taluk Panchayat, Zila Panchayat. Powers: local roads, water supply, sanitation, local markets, birth/death registration. Concurrent List powers (can be exercised by both Centre and State): forests, marriage, education (higher education by Centre), bankruptcy. If Central and State laws conflict on Concurrent List subjects, Central law prevails.",
+      "real_life_example": "When you pay your electricity bill, it goes to BESCOM (a State Government company). When you board a Namma Metro train, it is run by BMRCL (a joint Centre-State company). When the road outside your house has a pothole, you complain to BBMP (Local Government). When India signs a trade agreement with another country, it is the Central Government. Three levels, three types of responsibility — all affecting your life differently.",
+      "karnataka_example": "Karnataka's governmental structure in detail: Central — 28 Lok Sabha constituencies (Karnataka elects 28 MPs to Parliament), 12 Rajya Sabha seats; State — 224 Vidhan Sabha MLAs, 75 Vidhan Parishad members, 28 districts administered by Deputy Commissioners (IAS officers); Local — BBMP (Bengaluru, India's largest local body by area), 10 City Corporations, 57 Town Municipal Councils, 114 Town Panchayats, 6,016 Gram Panchayats. Karnataka pioneered the 3-tier Panchayati Raj system in 1983 under CM Ramakrishna Hegde — years before the 73rd Constitutional Amendment made it mandatory nationwide.",
+      "common_mistakes": "Students often confuse Vidhan Sabha (State Legislature — Karnataka) with Lok Sabha (Central Parliament). Remember: 'Vidhan' = legislative/law-making at state level. 'Lok' = people at central level. Also, students sometimes don't realise Local Government is the third tier — they think government only means Central and State.",
+      "memory_tip": "3 TIERS = 3 CIRCLES. Innermost circle = your village/city (Local Govt). Middle circle = your state Karnataka (State Govt). Outermost circle = your country India (Central Govt). Each circle has its own rules for its own territory."
+    },
+    {
+      "concept_name": "The Three Branches of Government and the Constitution",
+      "simple_explanation": "Government is divided into three branches: Legislature (makes laws), Executive (runs government), and Judiciary (enforces the law and protects rights). The Constitution is the supreme law that governs all three.",
+      "detailed_explanation": "Separation of powers prevents any one branch from having too much power: (1) Legislature (Parliament/Vidhan Sabha): elected representatives who make laws; debate, scrutinise, and approve the government's budget; can question and dismiss the executive (no-confidence motion). (2) Executive (Cabinet/PM/CM + civil service): implements laws passed by legislature; manages day-to-day government; foreign affairs, budget implementation, public schemes. (3) Judiciary (Supreme Court, High Courts, District Courts, Magistrate courts): interprets laws; resolves disputes between citizens, between states, and between citizens and government; judicial review of laws' constitutionality; protects fundamental rights (Article 32). Each branch checks the others: Parliament can remove the executive through no-confidence; courts can strike down Parliament's laws; executive implements court orders. The Constitution is supreme — all three branches are bound by it. Dr. Ambedkar called Article 32 (right to go to court if rights are violated) 'the heart and soul of the Constitution.'",
+      "real_life_example": "Think of a school's three systems: (1) The School Committee (Legislature) — makes rules about uniform, homework, exams; (2) The Principal and teachers (Executive) — implements those rules daily; (3) The Grievance Committee (Judiciary) — hears complaints if rules are broken or unfair. Now imagine the Principal also wrote all rules AND decided all complaints — that would be dangerous concentration of power. Separation keeps each accountable to the others.",
+      "karnataka_example": "The Karnataka High Court (established 1884, one of India's oldest High Courts) exercises judicial power in Karnataka — it can strike down Karnataka State laws that violate the Constitution, hear appeals against lower court decisions, and issue writs protecting citizens' rights. Famous Karnataka HC judgments: Karnataka HC struck down a Bengaluru civic body's demolition orders without hearing, protecting citizens' right to property and fair procedure. The Bommai case (1994 Supreme Court) — originating in Karnataka — established that Parliament must ratify President's Rule within 2 months and courts can review it, limiting Central Government's power over states. This Karnataka case changed Indian federalism.",
+      "common_mistakes": "Students often confuse the Governor (State) with the Chief Minister, and the President (Centre) with the Prime Minister — thinking the ceremonial head is the powerful one. In India's parliamentary system, real executive power is with the elected PM/CM, not the appointed President/Governor. Also, students sometimes think the judiciary is part of the government and therefore not independent. The judiciary is deliberately kept independent — judges cannot be easily removed — precisely so they can check the government.",
+      "memory_tip": "LIE = Legislature + Implement (Executive) + Enforce (Judiciary). Three branches, three jobs. Constitution = the rulebook all three must follow. No branch can break the Constitution — the courts will stop them. This is called 'constitutional government.'"
     }
+  ],
+  "quick_check_questions": [
+    {
+      "after_concept": "India's Three Tiers of Government",
+      "questions": [
+        {"type": "Recall", "q": "Name the three tiers of government in India and give one responsibility of each.", "a": "Central Government — defence/foreign affairs. State Government — police/agriculture/education. Local Government — local roads/water supply/sanitation."},
+        {"type": "Application", "q": "If there is a pothole on your neighbourhood road, which level of government should you contact and why?", "a": "Local Government (BBMP in Bengaluru, or Gram Panchayat in a village) — local roads are the responsibility of Local Government, which handles roads, water, sanitation, and local services within cities and villages."}
+      ]
+    },
+    {
+      "after_concept": "The Three Branches of Government and the Constitution",
+      "questions": [
+        {"type": "Recall", "q": "What are the three branches of government in India? Name one function of each.", "a": "Legislature (makes laws — e.g., Parliament passes the Budget). Executive (implements laws — e.g., Cabinet runs government schemes). Judiciary (interprets laws and protects rights — e.g., High Court hears appeals)."},
+        {"type": "Application", "q": "Why is the judiciary kept independent of the government?", "a": "So that courts can check the government without fear of being removed or punished. Independent judges can strike down unconstitutional laws, protect citizens from government overreach, and deliver fair verdicts in disputes involving the government itself."}
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Government is the system that manages society — making laws, providing services, maintaining security, and ensuring justice.",
+    "India has three tiers of government: Central, State, and Local — each with defined powers.",
+    "A democracy gives power to the people through free elections; India is a parliamentary democracy.",
+    "Universal adult franchise: every Indian citizen above 18 years has one equal vote.",
+    "The three branches of government — Legislature (makes laws), Executive (implements), Judiciary (enforces) — check each other.",
+    "The Constitution of India is the supreme law — all government actions must conform to it.",
+    "The Lok Sabha is directly elected; Rajya Sabha represents states and is indirectly elected.",
+    "Karnataka's Vidhan Sabha has 224 MLAs; it meets in Vidhana Soudha, Bengaluru.",
+    "The Election Commission of India — an independent body — ensures free and fair elections.",
+    "Karnataka pioneered the 3-tier Panchayati Raj system in 1983, years before the 73rd Amendment made it national."
+  ],
+  "mind_map": {
+    "root": "What is Government?",
+    "branches": [
+      {"branch": "Why Government?", "sub": ["Law and order", "Public services (roads, schools, hospitals)", "Defence and security", "Economic management", "Dispute resolution"]},
+      {"branch": "Types of Government", "sub": ["Democracy — power from people (India)", "Monarchy — hereditary power (Saudi Arabia)", "Authoritarian — power by force (North Korea)"]},
+      {"branch": "India's Three Tiers", "sub": ["Central — Parliament, PM, President (defence, foreign)", "State — Vidhan Sabha, CM, Governor (police, health)", "Local — Gram Panchayat, BBMP (roads, water, sanitation)"]},
+      {"branch": "Three Branches", "sub": ["Legislature — makes laws (Parliament/Vidhan Sabha)", "Executive — runs government (PM/CM, Cabinet)", "Judiciary — interprets law, protects rights (Supreme Court/High Courts)"]},
+      {"branch": "Karnataka Connections", "sub": ["224 MLAs in Vidhan Sabha, Vidhana Soudha", "Karnataka Panchayati Raj pioneer (1983)", "Bommai Case (1994) — limits on President's Rule", "Karnataka HC — oldest in India (1884)"]}
+    ]
+  },
+  "revision_notes": "Chapter 23 defines government as the system managing society (laws, services, security, justice). India needs government for public goods, law enforcement, defence, and dispute resolution. Types: Democracy (India — people power, free elections), Monarchy (hereditary), Authoritarian (power by force). India = Parliamentary Democracy. Three tiers: Central (Parliament = Lok Sabha + Rajya Sabha; PM; national matters), State (Vidhan Sabha; CM; state matters — police, agriculture, health), Local (BBMP, Gram Panchayat; local roads, water, sanitation). Three branches: Legislature (makes laws), Executive (implements), Judiciary (interprets and enforces). Constitution = supreme law (all branches bound by it). Universal adult franchise: every 18+ Indian has one vote. Lok Sabha (543 seats, directly elected), Rajya Sabha (245, indirectly elected by MLAs). Election Commission = independent constitutional body conducting free elections. Karnataka: Vidhan Sabha 224 seats, Vidhana Soudha, Bengaluru; pioneered Panchayati Raj 1983; Bommai Case 1994 limited Centre's power over states.",
+  "must_remember_facts": [
+    "India has THREE tiers of government: Central, State, and Local.",
+    "Universal adult franchise = every citizen 18+ has one vote regardless of caste, religion, gender, or wealth.",
+    "Three branches of government: Legislature (makes laws), Executive (runs government), Judiciary (interprets laws).",
+    "The Constitution is the SUPREME LAW — all other laws must conform to it.",
+    "Lok Sabha = 543 seats, directly elected by citizens. Rajya Sabha = 245 seats, indirectly elected by State MLAs.",
+    "Karnataka Vidhan Sabha = 224 elected MLAs; meets in Vidhana Soudha, Bengaluru.",
+    "Chief Minister = actual head of State Government. Governor = formal/ceremonial head.",
+    "Prime Minister = actual head of Central Government. President = formal/ceremonial head.",
+    "Election Commission of India (ECI) = independent constitutional body ensuring free and fair elections.",
+    "Karnataka pioneered the 3-tier Panchayati Raj system in 1983 — years before the 73rd Amendment (1992) made it national."
   ]
 }

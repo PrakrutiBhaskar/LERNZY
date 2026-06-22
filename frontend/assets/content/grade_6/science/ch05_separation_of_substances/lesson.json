@@ -1,114 +1,203 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "science",
-  "chapter_id": "ch05_separation_of_substances",
-  "chapter_title": {
-    "en": "Separation of Substances",
-    "hi": "पदार्थों का पृथक्करण",
-    "kn": "ಪದಾರ್ಥಗಳ ಬೇರ್ಪಡಿಸುವಿಕೆ"
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 5,
+  "chapter_title": "Separation of Substances",
+  "estimated_study_time_minutes": 50,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Understand why we need to separate substances from mixtures",
+    "Identify and describe methods of separation: hand-picking, threshing, winnowing, sieving, sedimentation, decantation, filtration, evaporation",
+    "Match the correct separation method to a given mixture",
+    "Distinguish between soluble and insoluble substances",
+    "Understand that water is a solvent that dissolves many substances",
+    "Connect separation techniques to everyday activities and Karnataka's agriculture",
+    "Answer questions using correct scientific vocabulary"
+  ],
+
+  "prerequisite_knowledge": [
+    "Basic idea of what a mixture is (two or more things mixed together)",
+    "Familiarity with common household substances like salt, sugar, sand, rice, dal",
+    "Understanding that some things dissolve in water and others do not"
+  ],
+
+  "introduction": {
+    "why_important": "We separate substances every day — sieving flour, filtering tea, washing rice. Understanding the science behind these processes helps us appreciate why each method works and apply the right technique for each situation.",
+    "real_life_relevance": "When your mother sieves flour before making chapati, or when you filter tea through a strainer, or when a farmer winnows grain — all these are separation techniques. Science gives a name and explanation to what people have done for thousands of years.",
+    "karnataka_context": "Karnataka farmers use traditional winnowing (called mūrpa in Kannada) to separate grain from chaff after harvesting ragi, jowar, and rice. The Cauvery and Tungabhadra rivers carry silt (a sedimentation problem that affects irrigation). Municipal water treatment plants in Bengaluru and Mysuru use sedimentation and filtration to purify drinking water. Salt pans along the Karnataka coast at Karwar use evaporation to separate salt from seawater.",
+    "connection_to_previous_learning": "Chapter 1 introduced food sources. Chapter 4 covered materials and their properties. This chapter applies those ideas — we now learn how to separate different materials mixed together."
   },
-  "topics": [
+
+  "story_summary": {
+    "characters": [
+      { "name": "Mixtures", "role": "Substances that are combined but can be separated using physical methods" },
+      { "name": "Separation Methods", "role": "The techniques — hand-picking, sieving, winnowing, etc. — used to separate mixtures" },
+      { "name": "Water as Solvent", "role": "Water dissolves many substances, enabling separation by evaporation or filtration" }
+    ],
+    "plot": [
+      "The chapter opens with the question: why do we need to separate substances at all?",
+      "It explains three main reasons: to remove harmful or unwanted components, to get the pure substance we need, and to separate two useful substances that happen to be mixed.",
+      "It introduces hand-picking (removing stones from rice by hand), threshing (beating harvested stalks to separate grain), and winnowing (using wind to separate lighter chaff from heavier grain).",
+      "It describes sieving — passing a mixture through a sieve to separate particles of different sizes (e.g., sand from gravel, fine flour from coarse bran).",
+      "It introduces mixtures with water: some substances dissolve (soluble — like salt, sugar) and some do not (insoluble — like sand, chalk).",
+      "Sedimentation is explained: when an insoluble solid is mixed with water, it settles at the bottom over time.",
+      "Decantation follows: carefully pouring off the clear liquid above the settled solid without disturbing the sediment.",
+      "Filtration is introduced for finer suspensions — using filter paper to separate dissolved and undissolved substances.",
+      "Evaporation is shown as a way to recover a dissolved substance — heating a salt-water solution until water evaporates, leaving salt behind.",
+      "The chapter ends with the idea that different methods are used depending on the nature of the mixture."
+    ],
+    "moral": "Purity matters. Knowing how to separate useful substances from unwanted ones is both a life skill and the foundation of chemistry."
+  },
+
+  "core_concepts": [
     {
-      "topic_id": "science_grade6_ch05_separation_of_substances_basics",
-      "title": {
-        "en": "Separation of Substances - Fundamentals",
-        "hi": "पदार्थों का पृथक्करण - बुनियादी बातें",
-        "kn": "ಪದಾರ್ಥಗಳ ಬೇರ್ಪಡಿಸುವಿಕೆ - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of Separation of Substances",
-        "Solve exercises and apply rules related to Separation of Substances",
-        "Analyze practical examples of Separation of Substances in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Separation of Substances. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम पदार्थों का पृथक्करण का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಪದಾರ್ಥಗಳ ಬೇರ್ಪಡಿಸುವಿಕೆ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Separation of Substances in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम पदार्थों का पृथक्करण का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಪದಾರ್ಥಗಳ ಬೇರ್ಪಡಿಸುವಿಕೆ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Separation of Substances.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Separation of Substances.",
-            "hi": "चरण 1: पदार्थों का पृथक्करण के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಪದಾರ್ಥಗಳ ಬೇರ್ಪಡಿಸುವಿಕೆ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Separation of Substances builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "पदार्थों का पृथक्करण में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಪದಾರ್ಥಗಳ ಬೇರ್ಪಡಿಸುವಿಕೆ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Why We Separate Substances",
+      "simple_explanation": "We separate mixtures for three reasons: to remove harmful substances, to get the pure thing we want, or to separate two useful things from each other.",
+      "detailed_explanation": "In real life, substances rarely come to us in a pure form. Rice comes with small stones, grain comes with chaff, water comes with mud, and seawater contains dissolved salt. We separate mixtures to: (1) Remove harmful or unwanted components — stones from rice, dirt from water, husk from grain. (2) Get a pure form of the substance we need — pure salt from saltwater, pure sugar from sugarcane juice, clean water from muddy water. (3) Separate two useful substances — separating butter from milk, or separating two types of seeds mixed together.",
+      "real_life_example": "Before cooking rice, your family removes small stones by hand — this is separation to remove harmful components. Salt is obtained from seawater by evaporation — this is separation to get a pure substance.",
+      "karnataka_example": "Ragi farmers in Tumakuru and Mandya districts separate ragi grain from stalks and chaff using traditional threshing and winnowing, ensuring only clean grain is stored.",
+      "common_mistakes": "Students sometimes think separation changes the nature of the substances — it does NOT. Separation only physically removes one component from another. The chemical nature of each substance remains the same.",
+      "memory_tip": "3 reasons to separate: Remove bad → Get pure → Split useful. Think: RGS — Remove, Get, Split."
+    },
+    {
+      "concept_name": "Hand-picking, Threshing, and Winnowing",
+      "simple_explanation": "Hand-picking removes unwanted pieces by hand; threshing beats stalks to free the grain; winnowing uses wind to blow away lighter chaff, leaving heavier grain behind.",
+      "detailed_explanation": "Hand-picking: Used when the unwanted pieces are large enough to be seen and picked out — e.g., removing stones, insects, or broken pieces from rice, dal, or spices. It is slow but effective for removing large individual impurities. Threshing: After harvesting, grain is still attached to its stalks. Threshing involves beating the harvested stalks against a hard surface (or using a machine) to knock the grain free. This is done for wheat, rice, ragi, and jowar. Winnowing: After threshing, grain is mixed with lighter chaff (husk fragments). Farmers throw the mixture into the air from a height; wind blows the light chaff sideways while the heavier grain falls straight down. Traditionally done with flat baskets (called supa in Kannada). The key principle: density difference — heavier grain falls, lighter chaff flies away.",
+      "real_life_example": "Before making dal, you spread the dal on a plate and pick out small stones by hand (hand-picking). In rural Karnataka, women throw threshed ragi grain in the air to separate chaff — this is winnowing.",
+      "karnataka_example": "During the ragi harvest season (October–November), winnowing using traditional flat baskets (supa) is commonly seen in villages of Tumakuru, Kolar, and Ramanagara districts in Karnataka.",
+      "common_mistakes": "Students confuse threshing and winnowing. Threshing separates grain from stalks; winnowing separates grain from chaff (husk) using wind/air. They are two sequential steps in grain processing.",
+      "memory_tip": "T-W-H: Thresh = beat the stalks, Win = wind blows the chaff away, Hand-pick = pick by hand. The order after harvest is: Thresh → Winnow → Hand-pick (for remaining impurities)."
+    },
+    {
+      "concept_name": "Sieving",
+      "simple_explanation": "A sieve has small holes. Small particles pass through; larger particles stay behind. This separates particles of different sizes.",
+      "detailed_explanation": "Sieving uses a mesh or perforated surface (sieve) to separate particles based on their size. Particles smaller than the holes pass through (filtrate side) while larger particles are retained (residue). The size of the holes determines what passes through. Uses: separating fine flour from coarse bran, separating sand from gravel in construction, separating ash from larger burnt material, separating different sizes of grain. In cooking, flour is sieved before baking to remove lumps and ensure uniform texture. In construction, sand and aggregate are sieved to get the right particle size for concrete.",
+      "real_life_example": "Before making chapati dough, flour is passed through a sieve to remove lumps and coarse bran. Construction workers sieve sand to separate fine sand from gravel.",
+      "karnataka_example": "In Karnataka coffee processing, sieving is used to separate coffee beans by size after pulping and drying — this ensures uniform roasting quality. Coorg (Kodagu) district is the heart of Karnataka's coffee production.",
+      "common_mistakes": "Students sometimes think sieving can separate dissolved substances from water — it cannot. Sieving only works for solid particles of different sizes. To separate dissolved salt from water, you need evaporation.",
+      "memory_tip": "Sieve = size separator. If particles differ in SIZE, use a SIEVE. The 'si' in sieve and size is the same."
+    },
+    {
+      "concept_name": "Sedimentation and Decantation",
+      "simple_explanation": "When a solid that does not dissolve is mixed with water, it slowly settles at the bottom (sedimentation). Then the clear water is carefully poured off (decantation).",
+      "detailed_explanation": "Sedimentation: When an insoluble solid (like sand, chalk, clay) is mixed with water and allowed to stand undisturbed, gravity pulls the heavier solid particles to the bottom — this settled layer is the sediment. The clear liquid above is the supernatant. The time for sedimentation depends on particle size: heavy sand settles quickly; fine clay particles may take hours. Decantation: After sedimentation, the clear upper liquid is carefully poured off without disturbing the sediment at the bottom. This is done slowly, usually by tilting the container. It does NOT give a completely pure liquid (some fine particles may remain) — for purer separation, filtration follows. Together, sedimentation + decantation is often used as a first step to separate muddy water.",
+      "real_life_example": "If you mix sand and water in a glass and leave it for 10 minutes, sand settles to the bottom (sedimentation). You can then slowly pour the clear water into another glass without disturbing the sand (decantation).",
+      "karnataka_example": "Water treatment plants in Bengaluru (operated by BWSSB — Bruhat Bengaluru Water Supply and Sewerage Board) use sedimentation tanks where water from the Cauvery River is stored to let silt and suspended particles settle before further treatment.",
+      "common_mistakes": "Students confuse sedimentation (process of settling) with sediment (the settled solid). Also, decantation leaves some impurities — it is not as pure as filtration. Students should know that decantation follows sedimentation, and filtration follows decantation for purer separation.",
+      "memory_tip": "SED sits, DEC decants. Sediment SITS at the bottom. Decantation DECANTS (pours off) the top liquid. Sed → Dec → Filter is the order of increasing purity."
+    },
+    {
+      "concept_name": "Filtration",
+      "simple_explanation": "Filtration uses a filter (like filter paper) to separate fine undissolved particles from a liquid. The liquid passes through; the solid stays on the filter.",
+      "detailed_explanation": "Filtration is used when the solid particles are too fine to settle out quickly by sedimentation, or when a cleaner separation is needed than decantation can provide. A filter paper is folded into a cone and placed in a funnel. The mixture is poured into the funnel. The liquid (filtrate) passes through the tiny pores of the filter paper, while the solid particles (residue) are retained on the filter paper. Important: filtration separates insoluble solids from liquids — it cannot separate dissolved substances (like salt or sugar in water). If salt water is filtered, the filtrate will still contain the dissolved salt.",
+      "real_life_example": "Tea is made by pouring hot water through tea leaves — the strainer acts as a filter, retaining the tea leaves (residue) while the tea liquid (filtrate) passes through. Water purifiers in homes use filtration.",
+      "karnataka_example": "Coffee decoction is prepared in Karnataka using a traditional filter (called a coffee filter or philterkapi maker) — ground coffee stays in the upper chamber while the filtered decoction drips into the lower chamber. This is filtration in daily use.",
+      "common_mistakes": "The biggest mistake: thinking filtration can remove dissolved salt or sugar from water. It cannot — dissolved substances pass through filter paper with the liquid. Only insoluble particles are stopped. To separate dissolved salt, use evaporation.",
+      "memory_tip": "FILTER = Fine Insoluble Things Left on filTER paper. Dissolved things slip through — only undissolved clumps stay behind."
+    },
+    {
+      "concept_name": "Evaporation",
+      "simple_explanation": "When a solution is heated, the liquid water evaporates into the air, leaving behind the dissolved solid (like salt or sugar).",
+      "detailed_explanation": "Evaporation is used to separate a dissolved solid from its liquid solvent. When a saltwater solution is heated, the water molecules gain energy and escape into the air as water vapour, but salt (the solute) cannot evaporate — it remains behind as a solid. This is how sea salt is commercially produced: seawater is allowed to flood shallow salt pans; sunlight heats the water, which evaporates over days, leaving salt crystals. Evaporation also occurs naturally — lakes dry up in summer leaving mineral deposits; wet clothes dry in sunlight through evaporation. Key: evaporation separates a soluble solid from a solvent. After evaporation, you get the solid — you lose the liquid.",
+      "real_life_example": "Boiling salt water until all water evaporates leaves salt crystals in the pan. Salt pans on India's coasts use this method on a large scale — seawater is trapped and allowed to evaporate in sunlight.",
+      "karnataka_example": "Salt pans near Karwar and Ankola on the Karnataka coast use natural solar evaporation to produce sea salt. Seawater is allowed into shallow pans; sunlight causes evaporation, leaving salt crystals behind after several days.",
+      "common_mistakes": "Students confuse evaporation (used to get the dissolved solid back) with filtration (used to get the liquid free of undissolved solid). Also, evaporation is NOT boiling — evaporation occurs at all temperatures, just faster when heated. When recovering dissolved salt, we want the salt, not the water — so we let the water evaporate.",
+      "memory_tip": "EVAPORATION = water runs away, solid stays. Think of a puddle drying up — water goes into the air, any dissolved mineral or dirt stays on the ground."
     }
+  ],
+
+  "key_vocabulary": [
+    { "term": "Mixture", "definition": "A combination of two or more substances that are not chemically combined and can be separated by physical methods." },
+    { "term": "Separation", "definition": "The process of removing one substance from a mixture using physical methods." },
+    { "term": "Winnowing", "definition": "A method of separating grain from chaff using wind — heavier grain falls down while lighter chaff blows away." },
+    { "term": "Sieving", "definition": "A method of separating particles of different sizes using a mesh or sieve — smaller particles pass through, larger ones are retained." },
+    { "term": "Sedimentation", "definition": "The process by which insoluble particles in a liquid settle to the bottom due to gravity." },
+    { "term": "Decantation", "definition": "The process of carefully pouring off the clear liquid above a settled sediment without disturbing it." },
+    { "term": "Filtration", "definition": "The process of separating insoluble solid particles from a liquid using a filter (e.g., filter paper)." },
+    { "term": "Evaporation", "definition": "The process by which a liquid turns into vapour when heated, leaving behind any dissolved solid." },
+    { "term": "Soluble", "definition": "Able to dissolve in a liquid (e.g., salt and sugar are soluble in water)." },
+    { "term": "Insoluble", "definition": "Not able to dissolve in a liquid (e.g., sand and chalk are insoluble in water)." },
+    { "term": "Residue", "definition": "The solid left behind after filtration or sedimentation." },
+    { "term": "Filtrate", "definition": "The liquid that passes through a filter paper during filtration." },
+    { "term": "Threshing", "definition": "The process of beating harvested stalks to separate grain from the stalk." }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Why We Separate Substances",
+      "questions": [
+        { "type": "Recall", "q": "Name the three reasons why we separate substances from mixtures.", "a": "(1) To remove harmful/unwanted components. (2) To get the pure useful substance. (3) To separate two useful substances from each other." },
+        { "type": "Application", "q": "Before cooking, your family removes small stones from dal. Which reason for separation does this represent?", "a": "This is separation to remove a harmful/unwanted component (stones are not food and could damage teeth)." }
+      ]
+    },
+    {
+      "after_concept": "Sedimentation and Decantation",
+      "questions": [
+        { "type": "Understanding", "q": "What is the difference between sedimentation and decantation?", "a": "Sedimentation is when the solid settles to the bottom. Decantation is pouring off the clear liquid above. Sedimentation happens first; decantation comes after." },
+        { "type": "Application", "q": "Can you separate salt from water using decantation? Why or why not?", "a": "No. Salt dissolves in water and does not settle as a sediment. Decantation only works for insoluble solids that settle. To separate salt from water, use evaporation." }
+      ]
+    },
+    {
+      "after_concept": "Filtration",
+      "questions": [
+        { "type": "Understanding", "q": "Why can't filtration separate dissolved salt from water?", "a": "Dissolved salt is present as individual ions in the water at a molecular level — it passes through the tiny pores of filter paper along with the water. Only insoluble particles that are larger than the pores are stopped by the filter." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "We separate substances to remove unwanted components, get pure substances, or separate two useful substances.",
+    "Hand-picking, threshing, and winnowing are used to clean grain.",
+    "Sieving separates particles of different sizes.",
+    "Sedimentation allows insoluble particles to settle; decantation removes the clear liquid above.",
+    "Filtration uses filter paper to separate insoluble particles from liquids.",
+    "Evaporation separates a dissolved solid (like salt) from its liquid (water).",
+    "Filtration cannot remove dissolved substances — only evaporation can recover a dissolved solid.",
+    "Karnataka examples: winnowing ragi grain, Bengaluru water treatment (sedimentation), Karwar salt pans (evaporation), Coorg coffee processing (sieving).",
+    "Key vocabulary: soluble, insoluble, residue, filtrate, sediment, decantation."
+  ],
+
+  "mind_map": {
+    "root": "Separation of Substances",
+    "branches": [
+      {
+        "branch": "Why Separate?",
+        "sub": ["Remove harmful parts", "Get pure substance", "Separate two useful substances"]
+      },
+      {
+        "branch": "Dry Methods",
+        "sub": ["Hand-picking — remove by hand", "Threshing — beat stalks to free grain", "Winnowing — wind separates chaff from grain", "Sieving — holes separate by size"]
+      },
+      {
+        "branch": "Wet Methods (with water)",
+        "sub": ["Sedimentation — solid settles to bottom", "Decantation — pour off clear liquid", "Filtration — filter paper holds insoluble particles", "Evaporation — heat removes water, solid stays"]
+      },
+      {
+        "branch": "Key Concepts",
+        "sub": ["Soluble = dissolves in water", "Insoluble = does not dissolve", "Filtrate = liquid through filter", "Residue = solid on filter"]
+      },
+      {
+        "branch": "Karnataka Connections",
+        "sub": ["Winnowing ragi — Tumakuru, Kolar", "Salt pans — Karwar coast", "Water treatment — BWSSB Bengaluru", "Coffee sieving — Coorg"]
+      }
+    ]
+  },
+
+  "revision_notes": "Chapter 5 covers methods of separating mixtures. Reasons to separate: remove unwanted/harmful parts, get pure substance, separate two useful substances. Dry methods: hand-picking (remove stones/insects by hand), threshing (beat stalks to release grain), winnowing (wind blows lighter chaff; heavier grain falls — used for ragi in Karnataka), sieving (holes separate by particle size — flour sieving, sand in construction). Wet methods: sedimentation (insoluble solid settles to bottom when mixture stands), decantation (carefully pour off clear top liquid), filtration (filter paper traps insoluble particles; filtrate = liquid that passes; residue = solid on filter), evaporation (heat removes water; dissolved solid like salt remains). Key distinction: filtration cannot remove dissolved substances — only evaporation can. Karnataka connections: BWSSB uses sedimentation tanks for Cauvery water treatment; Karwar coast salt pans use solar evaporation; Karnataka farmers use traditional winnowing for ragi and rice.",
+
+  "must_remember_facts": [
+    "Three reasons to separate substances: remove harmful parts / get pure substance / separate two useful substances.",
+    "Winnowing uses wind — lighter chaff flies, heavier grain falls.",
+    "Sieving separates by particle SIZE.",
+    "Sedimentation = settling of insoluble solid. Decantation = pouring off clear liquid above sediment.",
+    "Filtration traps INSOLUBLE particles; dissolved substances pass through.",
+    "Evaporation is used to recover a DISSOLVED solid (e.g., salt from salt water).",
+    "Filtrate = liquid through filter. Residue = solid on filter.",
+    "Soluble = dissolves in water (salt, sugar). Insoluble = does not dissolve (sand, chalk).",
+    "Karnataka: Karwar salt pans use evaporation. Ragi farmers use winnowing. BWSSB uses sedimentation."
   ]
 }

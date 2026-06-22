@@ -1,114 +1,141 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "social",
-  "chapter_id": "ch22_diversity_discrimination",
-  "chapter_title": {
-    "en": "Diversity and Discrimination",
-    "hi": "विविधता एवं भेदभाव",
-    "kn": "ವೈವಿಧ್ಯತೆ ಮತ್ತು ತಾರತಮ್ಯ"
+  "subject": "Social Science",
+  "textbook": "Social and Political Life — Textbook for Class VI",
+  "chapter_number": 22,
+  "chapter_title": "Diversity and Discrimination",
+  "estimated_study_time_minutes": 50,
+  "difficulty": "Easy",
+  "learning_objectives": [
+    "Define discrimination and explain how it arises from prejudice toward diversity",
+    "Describe the caste system and how it led to discrimination, especially against Dalits",
+    "Explain what untouchability is and why Article 17 of the Constitution abolishes it",
+    "Discuss B.R. Ambedkar's personal experience of discrimination and his fight against it",
+    "Identify forms of gender discrimination in Indian society",
+    "Distinguish between equality in law and equality in practice",
+    "Name social reformers who fought against caste discrimination",
+    "Connect Karnataka's Dalit movements and social reform tradition to the chapter's themes"
+  ],
+  "prerequisite_knowledge": [
+    "Understanding of diversity from Chapter 21 — India has many different communities",
+    "Basic knowledge of the Indian Constitution and its purpose",
+    "Awareness of Indian society's social structure from daily life experience",
+    "Knowledge of B.R. Ambedkar from the Hindi/Kannada language textbook or school events"
+  ],
+  "introduction": {
+    "why_important": "Discrimination is one of the most serious problems a democracy must confront. When people are treated unequally because of their birth — their caste, religion, or gender — it violates the fundamental premise that every human being has equal dignity and worth. This chapter examines how discrimination arises from prejudice, how it has operated in Indian history (especially through the caste system), and what the Constitution and law do to fight it. Understanding discrimination is essential to becoming an active citizen who upholds equality.",
+    "real_life_relevance": "Discrimination is not just a historical problem — it affects real people's lives today. Dalit students in some villages still face exclusion in classrooms. Women in many families are denied educational and career opportunities given to their brothers. Religious minorities sometimes face housing and employment barriers. Every student who reads this chapter will encounter situations — in school, neighbourhood, or later in professional life — where they can either uphold equality or allow discrimination. This chapter gives them the knowledge and values to choose equality.",
+    "karnataka_context": "Karnataka has a distinctive and proud tradition of fighting discrimination: Basavanna's 12th-century Vachana movement explicitly rejected caste hierarchy — centuries before the Constitution. The Dalit Sangharsha Samiti (1974) has fought for Dalit rights in Karnataka for five decades. Chief Minister Devaraj Urs (1972–77) implemented land reforms that benefited landless Dalit labourers. Karnataka has significant Scheduled Caste (SC) and Scheduled Tribe (ST) populations — the state's SC population is about 17% and ST population about 7% of total population. The state has constitutional reservations for SC/ST communities in education, government jobs, and political representation (Panchayati Raj seats). Karnataka's Social Welfare Department runs residential schools (Morarji Desai and Kittur Rani Chennamma schools) for SC/ST and backward-class students — providing quality education as a tool against discrimination.",
+    "connection_to_previous_learning": "Chapter 21 showed that India's diversity is a strength — but only when met with respect. This chapter examines what happens when diversity is met with prejudice instead: discrimination. Together, Chapters 21 and 22 present the full picture: diversity is natural and enriching; discrimination is unnatural and harmful. The Constitution addresses both — protecting diversity (Article 29) while prohibiting discrimination (Articles 15, 17)."
   },
-  "topics": [
+  "story_summary": {
+    "characters": [
+      {"name": "B.R. Ambedkar", "role": "The chapter's central historical figure — his life story shows both the reality of caste discrimination and the possibility of fighting it through education, law, and determination"},
+      {"name": "Surekha (composite narrative)", "role": "Represents the lived experience of Dalit women — showing how discrimination operates in everyday moments"},
+      {"name": "Basavanna", "role": "Karnataka's 12th-century voice against caste — showing that resistance to discrimination has deep Indian roots"},
+      {"name": "The Constitution", "role": "The legal framework — Articles 14, 15, 17 — that provides the tools to fight discrimination"}
+    ],
+    "plot": [
+      "The chapter opens with the question: if diversity is a strength, why does it sometimes become a source of conflict and injustice?",
+      "It introduces the caste system as a historic form of social hierarchy that assigned people roles by birth.",
+      "It examines untouchability — the most extreme form of caste discrimination — and its daily impact on Dalit lives.",
+      "It tells Ambedkar's story — how he experienced discrimination and turned it into a lifelong mission for justice.",
+      "It covers gender discrimination — how women face unequal treatment in education, work, and domestic life.",
+      "It examines the gap between legal equality (Constitution) and social reality.",
+      "It celebrates reformers who fought discrimination and the ongoing work needed to close the equality gap.",
+      "It concludes with the idea that every citizen has a role in fighting discrimination — in their own attitudes and actions."
+    ],
+    "moral": "Discrimination is not inevitable — it is a choice made by individuals and societies that can be unmade. The Constitution gives us the law; our values give us the will. Every act of treating a person with equal dignity, regardless of their birth, is a step toward the India the Constitution promised."
+  },
+  "core_concepts": [
     {
-      "topic_id": "social_grade6_ch22_diversity_discrimination_basics",
-      "title": {
-        "en": "Diversity and Discrimination - Fundamentals",
-        "hi": "विविधता एवं भेदभाव - बुनियादी बातें",
-        "kn": "ವೈವಿಧ್ಯತೆ ಮತ್ತು ತಾರತಮ್ಯ - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of Diversity and Discrimination",
-        "Solve exercises and apply rules related to Diversity and Discrimination",
-        "Analyze practical examples of Diversity and Discrimination in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Diversity and Discrimination. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम विविधता एवं भेदभाव का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ವೈವಿಧ್ಯತೆ ಮತ್ತು ತಾರತಮ್ಯ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Diversity and Discrimination in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम विविधता एवं भेदभाव का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ವೈವಿಧ್ಯತೆ ಮತ್ತು ತಾರತಮ್ಯ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Diversity and Discrimination.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Diversity and Discrimination.",
-            "hi": "चरण 1: विविधता एवं भेदभाव के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ವೈವಿಧ್ಯತೆ ಮತ್ತು ತಾರತಮ್ಯ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Diversity and Discrimination builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "विविधता एवं भेदभाव में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ವೈವಿಧ್ಯತೆ ಮತ್ತು ತಾರತಮ್ಯ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "The Caste System and Untouchability",
+      "simple_explanation": "The caste system divided Indian society into hereditary groups that determined a person's occupation and social status by birth. The most extreme form was untouchability — treating certain communities as physically polluting and denying them basic rights.",
+      "detailed_explanation": "The traditional varna system divided society into four categories (Brahmin, Kshatriya, Vaishya, Shudra) and below them communities considered outside the varna system — 'untouchables' — assigned the most degrading work (removing dead animals, cleaning human waste, leatherwork). Untouchability in practice meant: denial of access to public wells, temples, schools, and roads; being forced to eat and live separately; children made to sit apart in schools; being forced into hereditary underpaid or unpaid occupations; experiencing violence if they violated caste norms. The system was justified by religious texts interpreted by dominant castes. It was not based on hygiene or public health (ironically, sanitation workers who cleaned for others were declared 'impure') — it was based on power. The Constitution explicitly and criminally abolished untouchability (Article 17, 1950). The Protection of Civil Rights Act (1955) and SC/ST (Prevention of Atrocities) Act (1989) provide specific criminal penalties.",
+      "real_life_example": "In some villages, even today, there are two sets of taps — one for upper-caste residents and one for Dalits. In some states, Dalit bridegrooms are prevented from riding horses in wedding processions (a traditional upper-caste symbol). These are modern examples of untouchability practice — illegal under Article 17 and the 1989 Act, but still occurring. Each such incident is a violation of the Constitution that every citizen should recognise and oppose.",
+      "karnataka_example": "Karnataka's rural districts, particularly in the north (Kalaburagi, Raichur, Vijayapura), have seen documented cases of caste discrimination. The Dalit Sangharsha Samiti has fought against: separate seating for Dalits at public events, denial of entry to temples, and caste-based violence in disputes over land and water. Karnataka's Social Welfare Department operates 1,200+ residential schools specifically for SC/ST students — recognising that discrimination in access to education requires active intervention, not just legal prohibition.",
+      "common_mistakes": "Students sometimes think the caste system was abolished with the Constitution and no longer exists. In fact, the Constitution abolished its legal basis but social practice continues. Also, students confuse 'caste' with 'class' — class is based on economic status (can change with income); caste is based on birth (traditionally unchangeable). Both overlap (Dalits are often economically poor) but are conceptually distinct.",
+      "memory_tip": "CASTE = BIRTH LOTTERY you cannot win or lose your way out of. Rich Dalit? Still Dalit caste. Poor Brahmin? Still Brahmin caste. The Constitution said: BIRTH CANNOT DECIDE RIGHTS. Your passport to dignity is your humanity, not your jati."
+    },
+    {
+      "concept_name": "B.R. Ambedkar and the Fight Against Discrimination",
+      "simple_explanation": "B.R. Ambedkar was born into a Dalit family, faced caste discrimination from childhood, became one of India's most educated men, and dedicated his life to fighting the caste system — ultimately writing the Constitution that legally abolished it.",
+      "detailed_explanation": "Ambedkar's experiences: as a child, made to sit apart in school; could not touch the water pot; had to carry his own mat; no one would serve him water at a rest stop; no carriage driver would take him. His response: (1) Education — earned BA (Bombay), MA and PhD (Columbia University, New York), DSc (London School of Economics), Bar-at-Law (Gray's Inn) — among the most highly educated Indians of his time; (2) Writing — published extensive critiques of caste ('Annihilation of Caste', 1936) arguing that the caste system could not be reformed from within and must be destroyed; (3) Political action — Mahad Satyagraha (1927); Poona Pact (1932, negotiated with Gandhi regarding political representation for Dalits); (4) Constitution — chaired the drafting committee; inserted Articles 14, 15, 17 as constitutional guarantees against caste discrimination; (5) Conversion — October 14, 1956, led 600,000 Dalits to convert to Buddhism as final rejection of the caste system. Ambedkar said: 'I was born a Hindu but I will not die a Hindu' — he kept this promise.",
+      "real_life_example": "Ambedkar's story is the most powerful answer to caste discrimination: a person told from birth that he was inferior, subhuman, untouchable — became the architect of India's Constitution, which declares every person equal. His life demonstrates that prejudice is about the prejudiced person's limitations, not the target's worth. Every Ambedkar Jayanti (April 14) — a public holiday — India celebrates this truth.",
+      "karnataka_example": "Bengaluru's Ambedkar Bhavan (in Shivajinagar) is a significant cultural and political space for Karnataka's Dalit community. The city has a large population of Dalit Buddhists who converted following Ambedkar's 1956 example — particularly from the Holeya and Madiga communities. Karnataka's government has named numerous schools, roads, and institutions after Ambedkar. The annual Ambedkar Jayanti (April 14) is observed with large processions in Bengaluru, Mysuru, and Kalaburagi — reaffirming the community's commitment to his vision of equality.",
+      "common_mistakes": "Students sometimes portray Ambedkar and Gandhi as opponents with opposite views. In fact, both opposed untouchability — they disagreed on methods and the nature of the caste problem. Gandhi wanted to reform Hinduism from within; Ambedkar believed the system had to be rejected entirely. Both made essential contributions. Also, students sometimes think Ambedkar's Constitution work was his only contribution — his social activism (Mahad, writings, conversion) was equally significant.",
+      "memory_tip": "AMBEDKAR'S JOURNEY: Untouchable child → Most educated Indian → Mahad Satyagraha → Constitution drafter → Buddhist convert. Five milestones that make the greatest anti-discrimination story in Indian history. Born at the bottom, built the roof for everyone."
+    },
+    {
+      "concept_name": "Gender Discrimination",
+      "simple_explanation": "Gender discrimination means treating people unequally because of their gender. In India, women and girls face discrimination in education, work, domestic life, and public spaces — based on tradition and prejudice, not ability.",
+      "detailed_explanation": "Forms of gender discrimination in India: (1) Education — girls pulled out of school earlier than boys; families investing less in girls' education; (2) Son preference — sex-selective abortion (illegal); families celebrating sons more than daughters; dowry demands making daughters an economic burden; (3) Work — gender pay gap (women paid less for same work); glass ceiling in promotions; women concentrated in low-paid informal work; domestic work unrecognised and unpaid; (4) Health — girls given less food; less access to healthcare; (5) Public spaces — harassment limiting women's freedom of movement; (6) Domestic violence — prevalent across all classes; (7) Political representation — women under-represented in Parliament and state legislatures. Gender discrimination is NOT based on biological differences — it is socially constructed and reinforced by custom, law, and economic systems. The Constitution prohibits sex-based discrimination (Article 15) and many laws protect women (Domestic Violence Act, Equal Remuneration Act, POSH Act). But the gap between law and practice remains large.",
+      "real_life_example": "In a family with two children — a son and a daughter — imagine the son's career is prioritised, he is allowed to stay out late, his higher education is funded, and he will inherit the family property. The daughter is expected to marry young, her education is seen as less important, she is expected to handle all household duties. These are all forms of gender discrimination — not based on the children's abilities or desires but on their gender. This scenario plays out in millions of Indian families across all classes.",
+      "karnataka_example": "Karnataka's Kittur Rani Chennamma residential schools (named after Karnataka's first woman freedom fighter) are specifically for girls from SC, ST, and backward-class communities — recognising that girl children from marginalised communities face both gender AND caste discrimination (intersectionality). Karnataka has implemented the Bhagyalakshmi scheme (cash incentive for girl children from below-poverty-line families) to combat son preference. Karnataka's sex ratio has improved in recent years but still shows the effects of decades of son preference in some districts.",
+      "common_mistakes": "Students sometimes confuse 'gender' with 'sex' — sex refers to biological differences; gender refers to social roles and expectations constructed around those differences. Gender discrimination is about social expectations, not biology. Women are not discriminated against because they are biologically different but because society assigns them lower value and fewer rights. Also, students should note that gender discrimination affects men too (men expected not to show emotion, forced into dangerous occupations) — though women face the greater structural disadvantage.",
+      "memory_tip": "GENDER DISCRIMINATION = PREJUDICE IN FAMILY FORM. It starts at home (son preference, daughter's education deprioritised) and extends to work, public spaces, and politics. It is the most widespread form of discrimination — affecting 50% of humanity. Article 15 says: SEX IS NOT A REASON FOR UNEQUAL TREATMENT."
+    },
+    {
+      "concept_name": "The Gap Between Legal Equality and Lived Equality",
+      "simple_explanation": "India's Constitution gives every person equal legal rights. But in real daily life, many people still face discrimination. Closing this gap between what the law says and what actually happens is India's ongoing challenge.",
+      "detailed_explanation": "Legal equality in India: Article 14 (equal protection of laws), Article 15 (no discrimination on basis of religion, race, caste, sex, birthplace), Article 17 (untouchability abolished), Article 21 (right to life with dignity), and multiple specific laws (SC/ST Atrocities Act, Equal Remuneration Act, Domestic Violence Act). Lived inequality continues because: (1) Law enforcement — police and courts may themselves have biases; cases often go unreported because victims fear retaliation; (2) Economic inequality — centuries of exclusion from land, education, and capital mean Dalits and women start from a structurally disadvantaged position that law cannot immediately reverse; (3) Social attitudes — people's daily behaviour is shaped by upbringing and community norms, not just by laws they may not know; (4) Political will — implementation of protective laws requires resources, political commitment, and monitoring. Bridging this gap requires: law enforcement + economic programmes (reservations, land reform, schemes) + education + political representation + social movements — all together, over generations.",
+      "real_life_example": "India has had the Equal Remuneration Act since 1976 — mandating equal pay for equal work regardless of gender. Yet studies consistently show that women in India earn 20–30% less than men in similar roles. The law exists; the gap persists. This is the lived inequality gap. Closing it requires more than the law: employer accountability, women's awareness of their rights, strong enforcement mechanisms, and social change in how women's work is valued.",
+      "karnataka_example": "Karnataka's SC/ST reservation policy (18% for SC and 7.5% for ST in government jobs and educational institutions) is a direct attempt to bridge the gap between legal equality and lived inequality — recognising that formal equality is insufficient when starting positions are radically unequal. Karnataka also has reservation in Gram Panchayats for SC/ST and women members — ensuring political representation. But data shows that many SC/ST government job positions remain vacant due to inadequate enforcement — the gap between policy and practice remains.",
+      "common_mistakes": "Students sometimes believe that once a law is passed, the problem is solved. Laws are necessary but not sufficient — they must be implemented, enforced, and supported by social change. Also, students sometimes think reservations (quotas) are unfair advantages. Reservations are actually attempts to compensate for historical disadvantages — they level a playing field that was deliberately tilted against certain communities for centuries.",
+      "memory_tip": "CONSTITUTION = WRITTEN PROMISE. IMPLEMENTATION = KEPT PROMISE. Gap between them = India's homework. Laws abolish untouchability on paper (1950). Social movements, education, and economic programmes make it real in villages (ongoing). Every generation must do their part of the homework."
     }
+  ],
+  "quick_check_questions": [
+    {
+      "after_concept": "The Caste System and Untouchability",
+      "questions": [
+        {"type": "Recall", "q": "What does Article 17 of the Constitution state?", "a": "Article 17 states that untouchability is abolished and its practice in any form is forbidden. Enforcement of any disability arising from untouchability is a punishable offence."},
+        {"type": "Application", "q": "Give two examples of how untouchability was practiced that would be violations of the Constitution today.", "a": "Any two from: denying Dalits access to a public well; making Dalit children sit separately in school; preventing Dalits from entering a temple; forcing Dalits to use separate utensils in a teashop; preventing a Dalit from riding a horse at a wedding."}
+      ]
+    },
+    {
+      "after_concept": "Gender Discrimination",
+      "questions": [
+        {"type": "Application", "q": "Name two examples of gender discrimination that a girl child might face in India.", "a": "Any two from: being pulled out of school earlier than a brother; receiving less food than a brother; being restricted from going out alone; parents investing less in her education than her brother's; being expected to do all household chores while brothers are not."},
+        {"type": "Recall", "q": "Which constitutional article prohibits discrimination based on sex?", "a": "Article 15 — it prohibits the state from discriminating against any citizen on grounds only of religion, race, caste, sex, or place of birth."}
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Discrimination is the unfair treatment of a person based on their identity (caste, religion, gender), not their merit.",
+    "The caste system assigned occupation and social status by birth — a form of hereditary discrimination.",
+    "Untouchability was the most extreme form of caste discrimination — denying Dalits basic human dignity and access to public resources.",
+    "Article 17 of the Constitution abolishes untouchability and makes its practice a punishable offence.",
+    "B.R. Ambedkar — born Dalit, faced severe discrimination — became the chief architect of India's Constitution.",
+    "The Mahad Satyagraha (1927) was the first organised Dalit assertion of civil rights — the right to drink from a public tank.",
+    "Gender discrimination denies women equal access to education, work, and public spaces based on prejudice, not ability.",
+    "India has legal equality (Constitution, laws) but unequal practice — closing this gap is India's ongoing challenge.",
+    "Social reformers — Ambedkar, Phule, Periyar, Basavanna — fought discrimination across centuries and continue to inspire.",
+    "Karnataka's anti-discrimination tradition: Basavanna (12th c.) → DSS (1974) → land reforms (Devaraj Urs) → SC/ST residential schools."
+  ],
+  "mind_map": {
+    "root": "Diversity and Discrimination",
+    "branches": [
+      {"branch": "What is Discrimination?", "sub": ["Unfair treatment based on identity", "Arises from prejudice toward diversity", "Caste, gender, religion — common forms in India"]},
+      {"branch": "Caste System and Untouchability", "sub": ["Hereditary hierarchy — Brahmin to 'untouchable'", "Dalits denied water, temples, schools, roads", "Article 17 — untouchability abolished (1950)", "SC/ST Atrocities Act 1989 — specific legal protection"]},
+      {"branch": "B.R. Ambedkar", "sub": ["Born Dalit, faced severe childhood discrimination", "Multiple doctorates despite barriers", "Mahad Satyagraha 1927 — right to public water", "Chief drafter of Constitution — Articles 14, 15, 17", "1956 — conversion to Buddhism as final rejection of caste"]},
+      {"branch": "Gender Discrimination", "sub": ["Son preference, early marriage, education denial", "Pay gap, domestic violence, harassment", "Article 15 — no sex-based discrimination", "Kittur Rani Chennamma schools (Karnataka)"]},
+      {"branch": "Law vs Practice Gap", "sub": ["Legal equality since 1950", "Social discrimination continues", "Need: law + enforcement + education + economic uplift", "Reservations — bridging structural inequality"]}
+    ]
+  },
+  "revision_notes": "Chapter 22 covers discrimination arising from India's diversity. Discrimination = unfair treatment based on identity (caste, religion, gender). Caste system = hereditary hierarchy assigning birth-based occupation/status. Untouchability = most extreme form: Dalits denied water, temples, schools, roads. Article 17 (Constitution) = untouchability abolished, practice is a criminal offence. SC/ST Atrocities Act 1989 = specific legal protection for Dalits and Adivasis. B.R. Ambedkar: born Dalit, faced childhood discrimination, earned multiple doctorates, led Mahad Satyagraha 1927 (right to drink from public tank), drafted Constitution (Articles 14, 15, 17), converted to Buddhism 1956. Gender discrimination: son preference, education denial, pay gap, domestic violence — Article 15 prohibits sex-based discrimination. Gap between legal equality (Constitution 1950) and lived inequality (ongoing). Closing gap needs: law enforcement + economic programmes + education + political representation. Karnataka connections: Basavanna (12th c.) rejected caste; DSS (1974) fights Dalit rights; Devaraj Urs land reforms; Kittur Rani Chennamma schools for SC/ST girls; Ambedkar Jayanti (April 14) major public event.",
+  "must_remember_facts": [
+    "Article 17 = Untouchability is abolished; its practice is a PUNISHABLE OFFENCE.",
+    "Article 15 = No discrimination based on religion, race, caste, sex, or place of birth.",
+    "B.R. Ambedkar = chief architect of India's Constitution; born Dalit; experienced caste discrimination personally.",
+    "Mahad Satyagraha (1927) = Ambedkar led Dalits to assert right to use a public water tank in Maharashtra.",
+    "Dalit = preferred term for communities historically called 'untouchable'; chosen by the communities themselves.",
+    "SC/ST (Prevention of Atrocities) Act 1989 = specific criminal law protecting Dalits and Adivasis from caste-based violence.",
+    "Ambedkar converted to Buddhism in October 1956 as a rejection of caste-based discrimination in Hindu practice.",
+    "Basavanna (12th century Karnataka) = founded Vachana movement rejecting caste hierarchy centuries before the Constitution.",
+    "Gender discrimination = unequal treatment based on gender; violates Article 15; includes education denial, pay gap, domestic violence.",
+    "Legal equality ≠ Lived equality: India's Constitution provides legal equality; achieving lived equality requires ongoing social, legal, and economic action."
   ]
 }

@@ -1,114 +1,186 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "english",
-  "chapter_id": "ch04_old_clock_shop",
-  "chapter_title": {
-    "en": "The Old-Clock Shop",
-    "hi": "पुरानी घड़ियों की दुकान",
-    "kn": "ಹಳೆಯ ಗಡಿಯಾರದ ಅಂಗಡಿ"
+  "subject": "English",
+  "textbook": "A Pact with the Sun",
+  "chapter_number": 4,
+  "chapter_title": "The Old-Clock Shop",
+  "estimated_study_time_minutes": 45,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Understand the plot and characters of 'The Old-Clock Shop'",
+    "Identify the theme: kindness, compassion, and honest dealing",
+    "Understand the character of Ray and how he communicates despite being deaf and mute",
+    "Learn and use key vocabulary from the story",
+    "Understand how Ray figures out the thieves' real intention",
+    "State the moral of the story and connect it to real-life situations",
+    "Answer comprehension questions based on the story"
+  ],
+
+  "prerequisite_knowledge": [
+    "Basic reading comprehension",
+    "Understanding of morals from previous chapters",
+    "Some familiarity with the concept of deaf/mute persons and how they communicate"
+  ],
+
+  "introduction": {
+    "why_important": "This story shows us that true intelligence and goodness are not limited by physical disabilities. It also teaches us that kindness toward others — even strangers — can make the world safer and fairer.",
+    "real_life_relevance": "In everyday life, we sometimes underestimate people who are different from us — those who cannot speak, hear, or see as others do. This story challenges that prejudice. It also teaches us about the value of honest, fair dealing in business and life.",
+    "karnataka_context": "Karnataka has strong traditions of social inclusion, championed by saints like Basavanna who opposed caste and social discrimination. Sign language and communication for deaf individuals has been increasingly supported in Karnataka schools and communities. The story's theme of respecting and not underestimating differently-abled individuals is deeply relevant.",
+    "connection_to_previous_learning": "Ch 1 taught us that environment shapes character. Ch 2 taught us to think before acting. Ch 3 taught us about humility and honesty. Ch 4 now teaches us about compassion, clever thinking, and honest dealing — through the gentle but sharp-minded character of Ray."
   },
-  "topics": [
+
+  "story_summary": {
+    "characters": [
+      { "name": "Ray", "role": "The owner of an old-clock shop; deaf and mute, but extremely kind and clever" },
+      { "name": "Two young men (thieves)", "role": "Two strangers who visit the shop on Christmas Eve, intending to rob it" },
+      { "name": "The clocks", "role": "Not a character, but central to the story — Ray's beloved collection of clocks of all kinds" }
+    ],
+    "plot": [
+      "Ray is an old, kind man who runs an old-clock shop. He is deaf and mute — he cannot hear or speak.",
+      "On Christmas Eve, his shop is full of ticking, chiming clocks of all kinds.",
+      "Two young men enter the shop. They look poor and desperate.",
+      "Ray, despite being deaf and mute, communicates through writing on a pad.",
+      "The two men ask the price of various clocks, pretending to be buyers.",
+      "Ray studies them carefully. He notices they are not really interested in clocks — they are sizing up the shop.",
+      "One of the men asks to see a clock in the back of the shop.",
+      "Ray, instead of going to the back, writes a note: he offers the two young men a good meal, some warm clothing, and money — enough for their need.",
+      "The two men are stunned. They realize Ray has understood their true intention — they planned to rob him.",
+      "Ashamed and moved by his compassion, the young men give up their plan.",
+      "They accept Ray's help gratefully and leave without any crime.",
+      "Moral: Kindness and compassion can transform even those who intend to do wrong. Honest, generous dealing wins over dishonest intentions."
+    ],
+    "moral": "Compassion and kindness are more powerful than fear or punishment. Treating people with generosity and dignity can change their hearts."
+  },
+
+  "core_concepts": [
     {
-      "topic_id": "english_grade6_ch04_old_clock_shop_basics",
-      "title": {
-        "en": "The Old-Clock Shop - Fundamentals",
-        "hi": "पुरानी घड़ियों की दुकान - बुनियादी बातें",
-        "kn": "ಹಳೆಯ ಗಡಿಯಾರದ ಅಂಗಡಿ - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of The Old-Clock Shop",
-        "Solve exercises and apply rules related to The Old-Clock Shop",
-        "Analyze practical examples of The Old-Clock Shop in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore The Old-Clock Shop. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम पुरानी घड़ियों की दुकान का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಹಳೆಯ ಗಡಿಯಾರದ ಅಂಗಡಿ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore The Old-Clock Shop in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम पुरानी घड़ियों की दुकान का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಹಳೆಯ ಗಡಿಯಾರದ ಅಂಗಡಿ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of The Old-Clock Shop.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in The Old-Clock Shop.",
-            "hi": "चरण 1: पुरानी घड़ियों की दुकान के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಹಳೆಯ ಗಡಿಯಾರದ ಅಂಗಡಿ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering The Old-Clock Shop builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "पुरानी घड़ियों की दुकान में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಹಳೆಯ ಗಡಿಯಾರದ ಅಂಗಡಿ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Compassion over confrontation",
+      "simple_explanation": "Instead of calling the police or fighting back, Ray offered help — and this changed everything.",
+      "detailed_explanation": "Ray understood that the two young men were desperate, not evil. Rather than reacting with fear or aggression, he responded with compassion. He gave them what they actually needed: food, clothing, and money. By treating them with dignity and generosity, he removed the very reason they had for stealing. This is a profound lesson: addressing the root cause of a problem (poverty, desperation) is more effective than punishing the symptom (crime).",
+      "real_life_example": "A school where hungry students are provided a mid-day meal sees less theft and more attention in class. Addressing need is more powerful than punishment.",
+      "karnataka_example": "Karnataka's mid-day meal scheme (Akshara Dasoha), introduced under Chief Minister S. Bangarappa and expanded later, provides free meals to schoolchildren. It was designed with the same wisdom as Ray's action: address hunger, and behavior improves.",
+      "common_mistakes": "Students sometimes think Ray was naive or foolish to give money to potential robbers. But Ray was wise — he read the situation correctly and chose the most effective response.",
+      "memory_tip": "Compassion > Confrontation. Kindness disarms where force would escalate."
+    },
+    {
+      "concept_name": "Intelligence beyond physical ability",
+      "simple_explanation": "Being deaf and mute did not stop Ray from being sharp, observant, and wise.",
+      "detailed_explanation": "Ray could not hear or speak. Yet he observed the two men's body language and behaviour so carefully that he understood their true intention before they acted. He communicated through writing, calmly and effectively. His disability did not limit his intelligence, empathy, or wisdom. This challenges the common prejudice that people with physical disabilities are less capable. Ray is, in fact, the most perceptive and wisest character in the story.",
+      "real_life_example": "Helen Keller, who was both deaf and blind, became one of the world's greatest authors and activists. Thomas Edison was hard of hearing but became one of history's greatest inventors.",
+      "karnataka_example": "Karnataka is home to several excellent institutions for deaf and differently-abled students, including Government Schools for the Deaf and Blind. Many alumni have gone on to become professionals, artists, and leaders.",
+      "common_mistakes": "Students sometimes feel sorry for Ray as a 'disabled' character. The story asks us to ADMIRE Ray — his sharp observation and compassion are the story's heroes.",
+      "memory_tip": "Deaf and mute ≠ unable. Ray heard the truth with his eyes and spoke wisdom with his pen."
+    },
+    {
+      "concept_name": "Honest and fair dealing",
+      "simple_explanation": "Ray's shop and Ray himself represent honest, fair, straightforward dealing.",
+      "detailed_explanation": "Throughout the story, Ray is honest and generous. He does not trick the men, set a trap, or call authorities. He deals with the situation directly and fairly. His offer of money and food is not a bribe — it is genuine compassion. This models what honest, fair human interaction looks like: meeting people where they are, giving what is needed, and trusting in the goodness that can be awakened in others.",
+      "real_life_example": "A shopkeeper who gives a little extra to a poor customer, or a teacher who helps a struggling student after class rather than just marking them as failures, shows this same spirit.",
+      "karnataka_example": "The concept of 'Dharma' in Karnataka's Vachana literature is connected to right action — doing what is correct and fair, especially toward those who are weaker or in need.",
+      "common_mistakes": "Students sometimes miss that Ray's generosity was not weakness. It was a calculated, compassionate strategy that worked far better than any alarm or weapon would have.",
+      "memory_tip": "Fair dealing = treating others as you would like to be treated. The Golden Rule, Ray's way."
     }
+  ],
+
+  "key_terms_glossary": [
+    { "term": "Deaf", "meaning": "Unable to hear; a person who is deaf cannot hear sounds" },
+    { "term": "Mute", "meaning": "Unable to speak; a person who is mute cannot produce speech" },
+    { "term": "Compassion", "meaning": "Deep sympathy and concern for others who are suffering, combined with a desire to help" },
+    { "term": "Confrontation", "meaning": "A situation where people face each other in conflict or disagreement" },
+    { "term": "Perceptive", "meaning": "Having a sharp ability to notice and understand things that others might miss" },
+    { "term": "Desperate", "meaning": "In a very serious situation with little hope; willing to do anything to change the situation" },
+    { "term": "Dignity", "meaning": "The quality of being worthy of respect; being treated with honour and care" },
+    { "term": "Intention", "meaning": "A plan or purpose; what someone plans to do" },
+    { "term": "Generous", "meaning": "Willingly giving more than is expected; kind and giving with money, time, or help" },
+    { "term": "Chime", "meaning": "A ringing sound made by a bell or clock; clocks that 'chime' ring out the time" }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Comprehension",
+      "question": "How did Ray understand the two men's real intention?",
+      "step_by_step_answer": [
+        "Step 1: Ray was deaf and mute, so he could not use sound to communicate.",
+        "Step 2: Because he could not hear, he relied heavily on observation — he watched people carefully.",
+        "Step 3: He noticed the two young men were not really looking at the clocks — they were looking around the shop, sizing it up.",
+        "Step 4: Their body language, nervousness, and lack of genuine interest in buying told Ray they had another purpose.",
+        "Conclusion: Ray's sharp observation skills, heightened by his disability, allowed him to read the men's true intentions."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Vocabulary",
+      "question": "Use the word 'compassion' in a sentence connected to the story.",
+      "step_by_step_answer": [
+        "Step 1: Recall meaning — compassion = deep sympathy + desire to help.",
+        "Step 2: Connect to story — Ray felt compassion for the desperate young men.",
+        "Step 3: Write sentence: 'Ray showed great compassion toward the two young men — instead of calling the police, he offered them food, clothing, and money, understanding that their desperation had driven them to consider theft.'"
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Moral application",
+      "question": "How can a student apply Ray's way of thinking in school?",
+      "step_by_step_answer": [
+        "Step 1: State Ray's approach — understand the root cause, respond with kindness rather than conflict.",
+        "Step 2: Think of a school situation — a classmate keeps borrowing pencils and never returning them.",
+        "Step 3: Apply it — instead of getting angry, find out if the classmate simply cannot afford stationery. If so, share a pencil or inform the teacher so support can be arranged.",
+        "Step 4: Addressing the real need (poverty) is more effective than confrontation (anger or complaining)."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Compassion over confrontation",
+      "questions": [
+        { "type": "Recall", "q": "What disability did Ray have?", "a": "Ray was deaf (could not hear) and mute (could not speak)." },
+        { "type": "Recall", "q": "What did Ray offer the two young men instead of confronting them?", "a": "He offered them a good meal, some warm clothing, and money to meet their need." },
+        { "type": "Understanding", "q": "How did Ray communicate with the two men if he could not speak?", "a": "Ray communicated by writing on a pad — he wrote notes to interact with customers." },
+        { "type": "Understanding", "q": "Why did the two young men give up their plan to rob the shop?", "a": "They were ashamed and moved by Ray's compassion. He had understood their plan and responded with kindness rather than anger, which changed their hearts." },
+        { "type": "Application", "q": "Why was Ray's response wiser than calling the police or shouting for help?", "a": "Calling the police might have led to violence or the men escaping. Ray's compassion removed the root cause — their desperation — and transformed their intention. No crime was committed, and the men were helped. This was more effective and more humane." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Ray is an old, kind, deaf-and-mute man who owns a clock shop full of beautiful chiming clocks.",
+    "On Christmas Eve, two desperate young men enter, planning to rob the shop.",
+    "Ray cannot hear or speak but is highly observant and perceptive.",
+    "He recognises the men's true intention and, instead of confronting them, offers them food, clothing, and money.",
+    "Moved by his compassion, the men give up their plan and accept his help.",
+    "The moral: compassion and kindness can transform even those who intend to do wrong.",
+    "Physical disability does not limit intelligence, wisdom, or empathy.",
+    "Addressing the root cause of wrong action (desperation) is more effective than punishment."
+  ],
+
+  "mind_map": {
+    "root": "The Old-Clock Shop",
+    "branches": [
+      { "branch": "Characters", "sub": ["Ray (deaf-mute, kind, perceptive)", "Two young men (desperate, potential thieves)", "The Clocks (atmosphere, setting)"] },
+      { "branch": "Setting", "sub": ["Old clock shop", "Christmas Eve", "Full of ticking and chiming clocks"] },
+      { "branch": "Plot", "sub": ["Men enter shop to rob it", "Ray observes their body language", "Ray writes offer of food/money", "Men are moved and give up robbery"] },
+      { "branch": "Theme", "sub": ["Compassion over confrontation", "Disability ≠ incapability", "Kindness transforms hearts"] },
+      { "branch": "Moral", "sub": ["Kindness is more powerful than punishment", "Address root cause of wrong", "Treat all people with dignity"] }
+    ]
+  },
+
+  "revision_notes": "The Old-Clock Shop is about Ray, a deaf-and-mute old man who owns a clock shop. On Christmas Eve, two desperate young men enter, planning to rob him. Ray observes their body language carefully and understands their plan. Instead of confronting them, he writes a note offering them food, clothing, and money. Moved by his compassion, the men give up their plan. Moral: compassion and kindness are more powerful than confrontation. Key vocabulary: deaf, mute, compassion, perceptive, desperate, dignity, generous, intention. Remember: Ray heard the truth with his eyes and spoke wisdom with his pen.",
+
+  "must_remember_facts": [
+    "Ray is deaf (cannot hear) and mute (cannot speak) but is kind and extremely observant.",
+    "He runs an old-clock shop filled with clocks of all kinds that tick and chime.",
+    "The story takes place on Christmas Eve.",
+    "Two desperate young men enter the shop with the intention of robbing it.",
+    "Ray communicates by writing notes on a pad.",
+    "He figures out the men's real intention through careful observation of their behavior.",
+    "He offers them food, clothing, and money — addressing their real need.",
+    "Moved by his compassion, the men give up their plan and accept his help.",
+    "The moral: compassion is more powerful than confrontation.",
+    "Ray's disability does not limit his wisdom, empathy, or effectiveness."
   ]
 }

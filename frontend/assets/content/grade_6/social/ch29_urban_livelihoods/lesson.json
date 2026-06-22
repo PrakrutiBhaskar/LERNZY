@@ -1,114 +1,282 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "social",
-  "chapter_id": "ch29_urban_livelihoods",
-  "chapter_title": {
-    "en": "Urban Livelihoods",
-    "hi": "शहरी क्षेत्र में आजीविका",
-    "kn": "ನಗರೋಪಾಯಗಳು"
+  "subject": "Social Science — Social and Political Life",
+  "textbook": "Social and Political Life — I (Textbook for Class VI)",
+  "chapter_number": 29,
+  "chapter_title": "Urban Livelihoods",
+  "estimated_study_time_minutes": 50,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Define 'livelihood' and explain what it means to earn a living in an urban area",
+    "Identify and describe the different ways people earn a living in cities and towns",
+    "Distinguish between the organised sector and the unorganised sector of employment",
+    "Explain the working conditions, wages, and job security differences between organised and unorganised workers",
+    "Understand the role of self-employment and small businesses in urban livelihoods",
+    "Recognise that urban livelihoods involve people from diverse economic and social backgrounds",
+    "Connect urban livelihood patterns to Karnataka's cities, especially Bengaluru",
+    "Develop empathy and respect for all kinds of workers who contribute to city life"
+  ],
+
+  "prerequisite_knowledge": [
+    "Basic understanding that people work to earn money to meet their needs (food, shelter, clothing)",
+    "Awareness of different jobs seen in daily life — teachers, doctors, shopkeepers, auto drivers, street vendors",
+    "Understanding of rural livelihoods from Chapter 28 (farming, fishing, craft-making)",
+    "Knowledge that India has both villages and cities, and that city life is different from village life"
+  ],
+
+  "introduction": {
+    "why_important": "Cities are home to hundreds of millions of people in India. Unlike villages where farming dominates, city people earn their living in a huge variety of ways — from large corporate offices to small street-side stalls. Understanding how urban people earn their livelihood helps us appreciate the complexity of city economies, the inequality within them, and the dignity of every type of work.",
+    "real_life_relevance": "Every time you walk through a city — you pass a vegetable vendor (street vendor), enter a shop (retail trade), see a construction worker (daily wage labour), ride in an auto-rickshaw (self-employed transport), or visit a hospital (organised sector employee). All of these people are earning urban livelihoods. The city you live in functions only because all of them work together.",
+    "karnataka_context": "Bengaluru is India's fastest-growing city and its IT capital — home to over 12 million people with one of the most complex urban economies in India. It has: IT professionals in gleaming offices (organised sector), thousands of street vendors selling flowers and vegetables around temples and markets, construction workers building new apartments and flyovers, auto-rickshaw and cab drivers, domestic workers (maids, cooks, security guards), small shop owners in areas like Commercial Street and Gandhi Bazar, and self-employed tailors, cobblers, and mechanics in every neighbourhood. Other Karnataka cities — Mysuru, Hubballi, Mangaluru, Kalaburagi — each have their own distinctive urban livelihood patterns.",
+    "connection_to_previous_learning": "Chapter 28 explored Rural Livelihoods — how people in villages earn their living through farming, fishing, and craft work. Chapter 29 extends this to cities — showing that urban livelihoods are more diverse, more stratified, and involve a large informal/unorganised sector alongside the formal economy."
   },
-  "topics": [
-    {
-      "topic_id": "social_grade6_ch29_urban_livelihoods_basics",
-      "title": {
-        "en": "Urban Livelihoods - Fundamentals",
-        "hi": "शहरी क्षेत्र में आजीविका - बुनियादी बातें",
-        "kn": "ನಗರೋಪಾಯಗಳು - ಮೂಲತಮxt್ವಗಳು"
+
+  "story_summary": {
+    "characters": [
+      {
+        "name": "Bachchu Manjhi",
+        "role": "A cycle-rickshaw puller from Bihar who migrated to the city to earn a living. He earns daily wages, has no fixed employer, no job security, and sends money home to his family — representing millions of migrant casual workers in Indian cities."
       },
-      "learning_objectives": [
-        "Understand key concepts of Urban Livelihoods",
-        "Solve exercises and apply rules related to Urban Livelihoods",
-        "Analyze practical examples of Urban Livelihoods in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Urban Livelihoods. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम शहरी क्षेत्र में आजीविका का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ನಗರೋಪಾಯಗಳು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
+      {
+        "name": "Sudha",
+        "role": "A garment factory worker who works in a factory with fixed wages, some working conditions, and a degree of regularity — representing semi-organised urban workers in the manufacturing sector."
       },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Urban Livelihoods in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम शहरी क्षेत्र में आजीविका का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ನಗರೋಪಾಯಗಳು ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
+      {
+        "name": "Harpreet and Vandana",
+        "role": "Two friends — one employed in a regular salaried job (organised sector), the other running a small business (self-employed) — whose contrast illustrates the difference between formal employment and self-employment."
       },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Urban Livelihoods.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Urban Livelihoods.",
-            "hi": "चरण 1: शहरी क्षेत्र में आजीविका के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ನಗರೋಪಾಯಗಳು ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Urban Livelihoods builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "शहरी क्षेत्र में आजीविका में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ನಗರೋಪಾಯಗಳು ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
+      {
+        "name": "Street Vendors and Daily Wage Workers",
+        "role": "The vast unorganised sector of the city — vegetable sellers, construction labourers, domestic workers, cobblers, and ragpickers — who form the backbone of city services without job security or social protection."
       }
+    ],
+    "plot": [
+      "The chapter opens by asking students to observe who does different kinds of work in a city — from the shopkeeper in the market to the construction worker, the office employee, and the street vendor.",
+      "It introduces the concept of 'livelihood' — the way people earn money to meet their daily needs — and shows that in cities, livelihoods are far more diverse than in villages.",
+      "It describes different urban workers: factory workers, office employees, traders and shopkeepers, street vendors, domestic workers, construction workers, auto and cab drivers.",
+      "It introduces the key distinction between the organised sector (regular jobs with fixed pay, leave, and legal protections) and the unorganised sector (irregular work, no fixed employer, no job security).",
+      "It explores the difficult conditions of unorganised workers — long hours, low pay, no leave, no medical benefits — contrasted with the relative security of organised sector workers.",
+      "It discusses self-employment — people who run their own small shops, repair services, or trade — who are neither employees nor employers in the traditional sense.",
+      "It introduces the concept of migration — that many urban workers (like rickshaw pullers and construction labourers) come from villages, leaving their families behind to earn in the city.",
+      "The chapter closes by asking students to reflect on the contributions of all urban workers and the inequality that exists between different types of employment."
+    ],
+    "moral": "Every person who works in a city — whether a software engineer, a street vendor, a construction worker, or a domestic helper — contributes to making the city function. All work has dignity. The vast difference in pay, security, and working conditions between organised and unorganised workers is a social inequality that must be recognised and addressed."
+  },
+
+  "core_concepts": [
+    {
+      "concept_name": "What is Urban Livelihood?",
+      "simple_explanation": "A livelihood is the way people earn money to meet their needs — food, clothing, shelter, and education. In cities, people earn their livelihoods in many different ways: as factory workers, office employees, shopkeepers, street vendors, domestic helpers, construction workers, auto drivers, and many more.",
+      "detailed_explanation": "Urban livelihoods are far more diverse than rural livelihoods. While most rural people depend on agriculture, urban people earn through manufacturing (factories), trade (buying and selling goods), services (banking, teaching, healthcare, transport), and construction. Urban economies have both a formal sector (registered businesses, government employment) and an informal sector (unregistered small businesses, casual labour, street vending). Cities attract people because they offer more kinds of work than villages — but not all urban work is secure, well-paid, or dignified. Millions of city workers live in poverty despite being employed, because their work is irregular and poorly paid.",
+      "real_life_example": "Think of your morning in the city: the milk was delivered by a milkman (self-employed), your newspaper by a delivery boy (part of an organised company), your school bus driven by a driver (possibly organised or unorganised depending on the employer), and the vegetable vendor at the corner market (unorganised, self-employed). By 8 AM, you have interacted with at least four types of urban livelihoods without realising it.",
+      "karnataka_example": "Bengaluru's economy represents every type of urban livelihood simultaneously. The city has: IT professionals (organised sector, high income), government employees like BBMP workers and BMTC bus drivers (organised sector, moderate income), garment factory workers (semi-organised, low-moderate income), construction labourers (mostly unorganised, daily wages, many migrants), flower sellers around Lalbagh and temples (unorganised, self-employed), and domestic workers like maids and security guards (unorganised, low income). Mysuru has a strong traditional sector — silk weavers, incense stick makers, and sandalwood craft workers represent semi-organised and cottage industry livelihoods.",
+      "common_mistakes": "Students sometimes think urban livelihoods only mean office jobs or factory work. In reality, the majority of urban workers in India are in the unorganised sector — street vendors, construction workers, domestic helpers, rickshaw pullers, rag pickers. These workers are often invisible in textbooks but are the most important in terms of numbers. Also, students may think 'self-employed' means 'rich' — in fact, most self-employed urban workers (vegetable sellers, small repair shops) earn very little and have no financial safety net.",
+      "memory_tip": "Urban livelihoods = a SPECTRUM from high to low: IT professional → factory worker → shopkeeper → street vendor → daily wage labourer. All are urban workers. All contribute. City = a mosaic of a thousand types of work happening at once."
+    },
+    {
+      "concept_name": "Organised Sector vs Unorganised Sector",
+      "simple_explanation": "Organised sector workers have regular, fixed jobs with written contracts, fixed salaries, paid leave, medical benefits, and legal protections. Unorganised sector workers have no fixed employer, irregular pay, no leave, no job security, and no social protection. Most urban workers in India are in the unorganised sector.",
+      "detailed_explanation": "The Organised Sector includes government employees (teachers, police, civil servants), employees of large registered private companies (banks, IT firms, factories with more than a certain number of workers), and those covered by labour laws. Benefits include: fixed monthly salary, Provident Fund (PF) for retirement savings, Employees' State Insurance (ESI) for medical needs, paid annual leave and sick leave, job security (cannot be dismissed without process), and regulated working hours (usually 8 hours per day). The Unorganised Sector includes street vendors, construction workers, domestic workers, rickshaw pullers, rag pickers, small shop assistants, and most workers in agriculture and small-scale manufacturing. Characteristics: no written employment contract, paid daily or weekly, can be dismissed at any time, no paid leave, no medical benefits, work long hours (10–14 hours/day), often in unsafe conditions. In India, about 90% of the workforce is in the unorganised sector.",
+      "real_life_example": "Compare a government school teacher and a construction labourer working nearby. The teacher: fixed monthly salary of ₹40,000–₹80,000+, paid summer vacation and sick leave, Provident Fund, pension after retirement, job security. The construction labourer: ₹400–₹600 per day only when there is work, no work = no pay (illness, rain, holiday), no leave, no safety equipment, may lose job immediately if contractor has no work. Both work hard — but their security and income are completely different.",
+      "karnataka_example": "In Bengaluru, Karnataka, the contrast between organised and unorganised workers is stark. Organised: ISRO scientists and IT employees in Electronic City earn ₹10–₹50 lakh per year with full benefits, stock options, and health insurance. BMTC bus drivers and BBMP sanitation workers are government/semi-government employees with fixed salaries and some benefits. Unorganised: The contract sanitation worker employed through an outsourcing agency may do the same work as a BBMP employee but earn less, have no job security, and get no pension or PF. Garment workers in Bengaluru's export factories — mostly women — often work in semi-organised conditions: fixed pay but long hours, limited leave, and sometimes unsafe conditions.",
+      "common_mistakes": "Students often think all factory workers are in the organised sector. In India, only factories with 10 or more workers using power (or 20 without power) are required to register under the Factories Act — workers in smaller units may still be in the unorganised sector. Also, students may assume that having a permanent job automatically means organised sector — but domestic workers who work for the same family for years have no written contract and are in the unorganised sector. The key test is: are you covered by labour laws with written contracts and legal protections?",
+      "memory_tip": "Organised = O for 'Official' — official contract, official salary, official benefits. Unorganised = U for 'Uncertain' — uncertain pay, uncertain work, uncertain future. Ask: Does the worker have a written contract? Fixed monthly pay? Paid leave? If YES to all = Organised. If NO = Unorganised. In India, 90% of workers = Unorganised (No written contract)."
+    },
+    {
+      "concept_name": "Self-Employment, Migration, and the Dignity of Labour",
+      "simple_explanation": "Many city workers are self-employed — they run their own small businesses, shops, or services without working for a fixed employer. Many city workers are also migrants — they come from villages to cities looking for better income. Every kind of work, from the most visible to the least visible, contributes to city life and deserves respect.",
+      "detailed_explanation": "Self-employment in urban areas includes: small shopkeepers (kirana/grocery stores, STD booths, mobile repair shops), street vendors (vegetable sellers, tea stalls, fruit carts), service providers (plumbers, electricians, cobblers, tailors, mechanics), and professionals (lawyers, doctors with private practice, chartered accountants). Self-employed people do not receive a salary — their income depends on how much business they do each day. Good days bring more income; bad days (rain, strikes, illness) bring little or none. Migration is a key feature of urban livelihoods — millions of workers move from villages and small towns to cities every year seeking employment. Migrants often take low-paid, unorganised work (construction, domestic service, small trade) and send money (remittances) back to their families. Dignity of Labour: the chapter emphasises that all work is equally important regardless of pay scale. The ragpicker who recycles waste, the domestic worker who keeps homes clean, and the construction worker who builds the city deserve the same respect as doctors or engineers — even though society does not always treat them equally.",
+      "real_life_example": "The chai (tea) vendor outside your school runs a self-employed business. He buys milk, tea leaves, sugar, and gas with his own money, makes and sells tea, and keeps what he earns after costs. On a good day, he may earn ₹500–₹800. If it rains heavily or there's a bandh (strike), he may earn nothing. He has no employer to complain to, no paid leave, and no savings scheme — but he is a legitimate entrepreneur running his own micro-business.",
+      "karnataka_example": "Bengaluru is one of India's largest destinations for internal migrants. Workers from northern Karnataka (Bidar, Kalaburagi, Vijayapura districts), from Andhra Pradesh, Telangana, Tamil Nadu, Kerala, Rajasthan, Bihar, and UP all come to Bengaluru for work. They work in construction (building the new Metro, apartments, and offices), domestic service, small restaurants and hotels (dhabas), garment factories, and informal trade. The Majestic bus stand, KR Market (Krishna Rajendra Market), and Shivajinagar are areas where informal and self-employed workers — vegetable sellers, rag pickers, small traders — cluster in thousands. Mysuru's silk weavers are a unique example of self-employed urban artisans whose skill is world-famous but whose income is often unpredictable.",
+      "common_mistakes": "Students may think migrants are only from other states. Internal migration within Karnataka — from rural northern Karnataka to Bengaluru — is also very significant. Also, students may undervalue street vendors and domestic workers, not realising that these workers perform essential services. Without vegetable vendors, city residents could not easily access fresh produce. Without domestic workers, many middle-class families' daily routines would collapse. Every worker provides a service that someone needs.",
+      "memory_tip": "Self-employed = your own BOSS (but also your own RISK). Migrant worker = moved from HOME for INCOME (sends remittances back). Dignity of Labour = ALL work MATTERS, regardless of SALARY. Remember: The city runs on the invisible work of millions of unorganised, self-employed, and migrant workers who are rarely seen but always essential."
     }
+  ],
+
+  "key_terms_glossary": [
+    {
+      "term": "Livelihood",
+      "meaning": "The way people earn money or obtain resources to meet their daily needs — food, clothing, shelter, and education. In cities, people have many different livelihoods."
+    },
+    {
+      "term": "Organised Sector",
+      "meaning": "The part of the economy where workers have regular jobs with written contracts, fixed salaries, paid leave, medical benefits, Provident Fund, and protection under labour laws. Examples: government employees, bank employees, IT company workers."
+    },
+    {
+      "term": "Unorganised Sector",
+      "meaning": "The part of the economy where workers have no written contract, irregular pay, no fixed employer, no job security, and no legal protections. About 90% of India's workforce is in this sector. Examples: street vendors, construction workers, domestic helpers."
+    },
+    {
+      "term": "Self-Employment",
+      "meaning": "Working for oneself rather than for a fixed employer. Self-employed people run their own businesses, shops, or services and earn based on how much work they do. Examples: vegetable vendors, plumbers, small shopkeepers."
+    },
+    {
+      "term": "Wages",
+      "meaning": "Payment for work done, usually calculated per day, per week, or per hour. Unorganised workers often earn daily wages; organised workers receive monthly salaries."
+    },
+    {
+      "term": "Salary",
+      "meaning": "A fixed regular payment (usually monthly) made to an employee. Organised sector workers receive salaries, which are more predictable and stable than daily wages."
+    },
+    {
+      "term": "Migration",
+      "meaning": "Movement of people from one place to another in search of better livelihood opportunities. Millions of Indians migrate from villages and small towns to cities every year for work."
+    },
+    {
+      "term": "Remittance",
+      "meaning": "Money sent by a migrant worker to their family in their home village or town. Remittances are a major source of income for rural families across India."
+    },
+    {
+      "term": "Provident Fund (PF)",
+      "meaning": "A savings scheme for organised sector workers where both the employee and employer contribute a fixed percentage of salary each month. The worker receives this amount on retirement."
+    },
+    {
+      "term": "Dignity of Labour",
+      "meaning": "The idea that all types of work — whether cleaning, farming, construction, or professional services — are equally valuable and deserve equal respect, regardless of the pay or social status associated with them."
+    },
+    {
+      "term": "Casual Worker",
+      "meaning": "A worker who is hired for short periods of time, paid daily or weekly, with no guarantee of continued employment. Most construction labourers and domestic workers are casual workers."
+    }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Classification",
+      "question": "Classify the following workers as Organised Sector or Unorganised Sector: a government school teacher, a vegetable vendor, a bank manager, a construction labourer, a domestic maid, and a police officer.",
+      "step_by_step_answer": [
+        "Step 1: Recall the key test — Organised Sector = fixed contract, fixed salary, paid leave, legal protections. Unorganised = no contract, daily/irregular pay, no leave, no protections.",
+        "Step 2: Government school teacher — fixed monthly salary, paid school holidays, Provident Fund, pension = ORGANISED SECTOR.",
+        "Step 3: Vegetable vendor — no employer, earns only what she sells, no fixed income, no leave = UNORGANISED SECTOR (self-employed).",
+        "Step 4: Bank manager — fixed salary, bank is a registered company, Provident Fund, paid leave = ORGANISED SECTOR.",
+        "Step 5: Construction labourer — paid daily only when there is work, no contract, dismissed immediately if work stops, no leave = UNORGANISED SECTOR.",
+        "Step 6: Domestic maid — no written contract, paid monthly by convention but can be dismissed anytime, no legal protection = UNORGANISED SECTOR.",
+        "Step 7: Police officer — government employee, fixed salary, pension, paid leave, job security = ORGANISED SECTOR.",
+        "Conclusion: Organised = Teacher, Bank Manager, Police Officer. Unorganised = Vegetable Vendor, Construction Labourer, Domestic Maid."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Comprehension",
+      "question": "Bachchu Manjhi is a cycle-rickshaw puller who came from a village in Bihar to work in the city. He earns about ₹300–₹500 per day but has no fixed income. What are the challenges he faces as an urban worker?",
+      "step_by_step_answer": [
+        "Step 1: Identify his sector — Bachchu is self-employed and in the unorganised sector. He has no employer, no fixed income, and no legal protections.",
+        "Step 2: Challenge 1 — Irregular income: If he is sick, injured, or if it rains heavily, he cannot work and earns nothing. There is no paid sick leave.",
+        "Step 3: Challenge 2 — No savings scheme: He has no Provident Fund or pension. If he cannot work in old age, he has no financial support.",
+        "Step 4: Challenge 3 — Migration hardship: He is away from his family in Bihar. He pays for his own accommodation (often a shared room with other migrants), food, and rickshaw rental — all from his daily earnings.",
+        "Step 5: Challenge 4 — Vulnerability: He may be harassed by traffic police or municipality officials if he parks in the wrong place. He has no union to speak for him.",
+        "Step 6: Positive aspect — Flexibility: He is his own boss. He chooses his hours and areas. He does not answer to any employer.",
+        "Conclusion: Bachchu faces income insecurity, no social protection, family separation, and vulnerability to harassment — common challenges for millions of migrant, unorganised, self-employed urban workers in India."
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Application",
+      "question": "Think about your city (Bengaluru or your nearest city). List five different people who provide services that make city life possible, and state whether each is in the organised or unorganised sector.",
+      "step_by_step_answer": [
+        "Step 1: Think of essential urban services — water, electricity, transport, food, waste, security, healthcare, communication.",
+        "Step 2: BMTC bus driver — transports thousands of people daily; if government employee = ORGANISED; if contract driver = UNORGANISED.",
+        "Step 3: Vegetable vendor at KR Market — sells fresh produce to city households = UNORGANISED (self-employed, no contract).",
+        "Step 4: Garbage collector (BBMP pourakarmikas) — government/outsourced; if direct BBMP employee = ORGANISED; if from outsourcing agency = often UNORGANISED.",
+        "Step 5: Auto-rickshaw driver — self-employed, earns per fare, no employer = UNORGANISED (self-employed).",
+        "Step 6: Private hospital nurse — if employed with a contract, fixed salary, ESI = ORGANISED; if casual/agency nurse = UNORGANISED.",
+        "Conclusion: Cities depend on both organised and unorganised workers equally. The unorganised workers are often invisible and poorly compensated, yet essential. Their work deserves recognition and better legal protection."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Urban Livelihoods, Organised vs Unorganised Sector, Self-Employment",
+      "questions": [
+        {
+          "type": "Recall",
+          "q": "What is a 'livelihood'?",
+          "a": "A livelihood is the way people earn money or resources to meet their daily needs — food, shelter, clothing, and education. People have different livelihoods depending on where they live and what skills they have."
+        },
+        {
+          "type": "Recall",
+          "q": "Name two benefits that an organised sector worker gets but an unorganised sector worker does not.",
+          "a": "Any two of: fixed monthly salary, Provident Fund (PF), paid annual/sick leave, medical/health insurance (ESI), pension, job security under labour laws."
+        },
+        {
+          "type": "Understanding",
+          "q": "Why do many people migrate from villages to cities for work?",
+          "a": "People migrate from villages to cities because cities offer more types of jobs and higher wages than farming villages. In villages, work may be seasonal (only during harvest) and pay is low. Cities have factories, construction, trade, and service jobs that provide year-round income, even if uncertain."
+        },
+        {
+          "type": "Understanding",
+          "q": "Why is a street vendor considered to be in the unorganised sector even if they work every day?",
+          "a": "A street vendor works every day but has no written employment contract, no fixed employer, no paid leave, and no legal job protection. Their income depends on daily sales and can disappear due to rain, illness, or official harassment. These are characteristics of the unorganised sector."
+        },
+        {
+          "type": "Application",
+          "q": "Is a private school teacher in the organised or unorganised sector? What additional information would you need to decide?",
+          "a": "It depends. To decide: (1) Does the teacher have a written employment contract? (2) Is there a fixed monthly salary regardless of school attendance or holidays? (3) Is Provident Fund deducted? (4) Is there paid leave? If yes to all = Organised. Many private school teachers in India, especially in small private schools, may not have PF or proper contracts, placing them in the unorganised sector despite appearing 'formal'."
+        }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "A livelihood is the way people earn to meet their needs; urban livelihoods are far more diverse than rural ones.",
+    "Urban workers include factory workers, office employees, shopkeepers, street vendors, domestic workers, construction labourers, auto drivers, and many more.",
+    "Organised sector: fixed salary, written contract, paid leave, Provident Fund, job security. Examples: government employees, IT workers, bank staff.",
+    "Unorganised sector: no contract, daily wages, no job security, no leave, no benefits. Examples: street vendors, construction workers, domestic maids.",
+    "About 90% of India's workforce is in the unorganised sector.",
+    "Self-employed workers (vegetable sellers, small shop owners, auto drivers) earn based on their own efforts — no fixed employer, no guaranteed income.",
+    "Migration is a key feature of urban livelihoods — millions move from villages to cities for work, sending remittances home.",
+    "Dignity of Labour: all work contributes to city life and deserves equal respect, regardless of pay or social status.",
+    "Bengaluru's economy spans IT professionals (organised, high-income) to migrant construction labourers (unorganised, low-income) — both are essential.",
+    "Inequality between organised and unorganised workers — in income, security, and dignity — is a social challenge that must be recognised."
+  ],
+
+  "mind_map": {
+    "root": "Urban Livelihoods",
+    "branches": [
+      {
+        "branch": "Types of Urban Workers",
+        "sub": ["Factory workers", "Office / IT employees", "Shopkeepers and traders", "Street vendors", "Construction labourers", "Domestic workers (maids, cooks, guards)", "Auto / cab / rickshaw drivers", "Professionals (doctors, lawyers, teachers)"]
+      },
+      {
+        "branch": "Organised Sector",
+        "sub": ["Fixed monthly salary", "Written contract", "Paid leave (annual + sick)", "Provident Fund (PF)", "Health insurance (ESI)", "Job security under labour laws", "Examples: Govt. employees, IT workers, bank staff"]
+      },
+      {
+        "branch": "Unorganised Sector",
+        "sub": ["Daily / weekly wages", "No written contract", "No paid leave", "No PF or pension", "No job security", "~90% of India's workforce", "Examples: Street vendors, construction workers, domestic maids"]
+      },
+      {
+        "branch": "Self-Employment",
+        "sub": ["Own boss — own risk", "Income depends on daily business", "Examples: Vegetable vendor, cobbler, small shopkeeper", "No employer — no employee"]
+      },
+      {
+        "branch": "Migration",
+        "sub": ["Village to city for better income", "Migrant workers in construction, domestic, trade", "Send remittances home", "Bengaluru = major destination for migrants"]
+      },
+      {
+        "branch": "Karnataka / Bengaluru Context",
+        "sub": ["IT professionals (organised, high income)", "Garment workers (semi-organised, low income)", "KR Market vendors (unorganised, self-employed)", "BMTC / BBMP workers (organised / semi-organised)", "Mysuru silk weavers (self-employed artisans)"]
+      }
+    ]
+  },
+
+  "revision_notes": "Chapter 29 explores Urban Livelihoods. Key concept: Livelihood = way people earn to meet needs. Urban livelihoods are diverse: factory workers, office staff, traders, street vendors, construction labourers, domestic workers, auto drivers, professionals. Two main sectors: (1) Organised Sector — regular jobs, fixed salary, written contract, paid leave, Provident Fund (PF), health insurance (ESI), job security; examples: govt. employees, bank staff, IT workers. (2) Unorganised Sector — no contract, daily wages, no leave, no PF, no job security; ~90% of India's workforce; examples: street vendors, construction workers, domestic maids, rickshaw pullers. Self-employed workers run their own business — income depends on daily earnings, no fixed employer (vegetable vendor, cobbler, small shopkeeper). Migration: millions move from villages to cities for work; send remittances home; take up unorganised/casual work. Dignity of Labour: all urban work is important; inequality between organised and unorganised workers is a social challenge. Karnataka/Bengaluru: IT professionals (high income, organised) to migrant construction workers (low income, unorganised) — city economy depends on all of them. Mysuru silk weavers = self-employed artisans. KR Market vendors = unorganised self-employed.",
+
+  "must_remember_facts": [
+    "Livelihood = the way people earn money to meet their basic needs.",
+    "Organised sector = fixed salary + contract + paid leave + PF + job security. Examples: Govt. teacher, bank manager, IT professional.",
+    "Unorganised sector = daily wages + no contract + no leave + no PF + no job security. Examples: Street vendor, construction worker, domestic maid.",
+    "About 90% of India's workforce is in the UNORGANISED sector.",
+    "Self-employed = own boss + own risk + income depends on daily business. Examples: vegetable vendor, auto driver, cobbler.",
+    "Migration: village-to-city movement for better income; migrants send remittances to families at home.",
+    "Provident Fund (PF) = retirement savings scheme for organised sector workers.",
+    "Dignity of Labour = all work, regardless of pay or type, is important and deserves respect.",
+    "Bengaluru: IT sector (organised, high-pay) + garment workers + migrant construction workers + KR Market vendors (all types of urban livelihoods in one city).",
+    "Unorganised workers perform essential services (build cities, clean homes, sell food) but have the least job security and lowest incomes."
   ]
 }

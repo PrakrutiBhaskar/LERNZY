@@ -1,96 +1,172 @@
 {
-  "version": "1.0",
-  "topic_id": "science_grade6_ch09_organisms_surroundings_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 9,
+  "chapter_title": "The Living Organisms and Their Surroundings",
+  "total_cards": 20,
   "cards": [
     {
       "id": "fc01",
-      "front": {
-        "en": "What is the core idea of The Living Organisms and Their Surroundings? (FC1)",
-        "hi": "What is the core idea of The Living Organisms and Their Surroundings? (FC1)",
-        "kn": "What is the core idea of The Living Organisms and Their Surroundings? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a habitat? Give two examples.",
+      "back": "A habitat is the natural environment or surroundings where an organism lives, finds its food, reproduces, and interacts with other living things. Examples: a pond is the habitat of a frog and fish; a forest is the habitat of a tiger and deer. The word 'habitat' comes from the Latin word meaning 'it inhabits'.",
+      "memory_hook": "HABITat = the place where a creature has its HABITS — eats, sleeps, breeds. Home + lifestyle = habitat."
     },
     {
       "id": "fc02",
-      "front": {
-        "en": "Why is The Living Organisms and Their Surroundings important? (FC2)",
-        "hi": "Why is The Living Organisms and Their Surroundings important? (FC2)",
-        "kn": "Why is The Living Organisms and Their Surroundings important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is adaptation? Why is it important for survival?",
+      "back": "Adaptation is the presence of specific features or habits in an organism that help it survive in its particular habitat. Adaptations may be structural (body features like thick fur, webbed feet) or behavioural (habits like migration, hibernation). Without adaptations, organisms cannot survive in their environment. Adaptation is the result of millions of years of evolution.",
+      "memory_hook": "ADAPT = Adjust Daily And Persevere Together. Animals that adapt, survive; those that don't, die out."
     },
     {
       "id": "fc03",
-      "front": {
-        "en": "What is the core idea of The Living Organisms and Their Surroundings? (FC3)",
-        "hi": "What is the core idea of The Living Organisms and Their Surroundings? (FC3)",
-        "kn": "What is the core idea of The Living Organisms and Their Surroundings? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Name the five major types of habitats.",
+      "back": "The five major habitat types are: (1) Terrestrial habitats — land-based (forests, grasslands, deserts, mountains); (2) Aquatic habitats — water-based (ponds, lakes, rivers, oceans); (3) Arboreal habitats — tree-dwelling; (4) Aerial habitats — air/sky-based; (5) Subterranean habitats — underground. Most organisms live in terrestrial or aquatic habitats.",
+      "memory_hook": "TAAS + Sub: Terrestrial, Aquatic, Arboreal, Aerial, Subterranean. Think: Land, Water, Tree, Sky, Underground."
     },
     {
       "id": "fc04",
-      "front": {
-        "en": "Why is The Living Organisms and Their Surroundings important? (FC4)",
-        "hi": "Why is The Living Organisms and Their Surroundings important? (FC4)",
-        "kn": "Why is The Living Organisms and Their Surroundings important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What adaptations help a camel survive in a desert?",
+      "back": "Camel desert adaptations: (1) Hump — stores fat (not water) as an energy reserve; (2) Thick skin and fur — insulates against heat; (3) Long legs — keep body away from hot sand; (4) Wide, flat feet — prevent sinking in sand; (5) Long eyelashes and closeable nostrils — protect against sandstorms; (6) Concentrated urine and dry dung — conserve water; (7) Can drink up to 200 litres at once. All these help the camel survive extreme heat and water scarcity.",
+      "memory_hook": "CAMEL = Can Always Manage Even in Lifeless deserts. Each body part is a tool for desert survival."
     },
     {
       "id": "fc05",
-      "front": {
-        "en": "What is the core idea of The Living Organisms and Their Surroundings? (FC5)",
-        "hi": "What is the core idea of The Living Organisms and Their Surroundings? (FC5)",
-        "kn": "What is the core idea of The Living Organisms and Their Surroundings? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What adaptations help a fish survive in water?",
+      "back": "Fish aquatic adaptations: (1) Streamlined body — reduces water resistance for easy swimming; (2) Gills — extract dissolved oxygen from water for breathing; (3) Fins — help in swimming, steering, and balancing; (4) Scales — protect the body; (5) Lateral line system — detects vibrations in water; (6) Swim bladder — controls buoyancy (floating at different depths). Fish are perfectly designed for underwater life.",
+      "memory_hook": "FGFSL: Fins, Gills, Form (streamlined), Scales, Lateral line. A fish's body is a swimming machine."
+    },
+    {
+      "id": "fc06",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What adaptations help plants survive in a desert (xerophytes)?",
+      "back": "Desert plant (xerophyte) adaptations: (1) Deep or wide roots — reach underground water; (2) Thick, fleshy stems — store water (e.g. cactus); (3) Leaves modified into spines — reduce water loss and protect from animals; (4) Waxy/thick leaf coating — reduces evaporation; (5) Open stomata only at night — minimises water loss during hot days; (6) Small leaf size or no leaves — reduces surface area for evaporation. Cactus is the classic xerophyte example.",
+      "memory_hook": "Desert plants = WATER MISERS: Spines not leaves, fat stems, deep roots, nighttime breathing."
+    },
+    {
+      "id": "fc07",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What adaptations help plants survive in water (hydrophytes)?",
+      "back": "Aquatic plant (hydrophyte) adaptations: (1) Flexible stems — bend with water currents without breaking; (2) Large, waxy leaves on surface — allow gas exchange and float (e.g. lotus, water lily); (3) Air spaces (aerenchyma) in stems and roots — provide buoyancy and oxygen; (4) Roots reduced or absent in some (e.g. hydrilla) — water provides support; (5) Stomata on top surface of leaves (in floating plants) — for gas exchange with air above. Lotus is Karnataka's state flower and a classic hydrophyte.",
+      "memory_hook": "Hydrophytes FLOAT and FLEX. No need for strong roots when water holds you up. Breathe from the top, not the bottom."
+    },
+    {
+      "id": "fc08",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What are biotic components of a habitat? Give examples.",
+      "back": "Biotic components are all the living things (organisms) in a habitat. They include: producers (plants that make food through photosynthesis), consumers (animals that eat plants or other animals), and decomposers (bacteria and fungi that break down dead matter). Examples: in a pond habitat, biotic components include fish, frogs, water plants, insects, and bacteria. Biotic means 'relating to life'.",
+      "memory_hook": "BIO = life. Biotic = living things. BIO-tic: anything that is ALIVE in the habitat counts."
+    },
+    {
+      "id": "fc09",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What are abiotic components of a habitat? Give examples.",
+      "back": "Abiotic components are all the non-living things in a habitat that affect the lives of organisms. They include: sunlight, temperature, water, soil, air, minerals, and topography (shape of the land). Examples: the temperature and rainfall in a forest, the salinity and depth of an ocean, the type of soil in a grassland. Abiotic factors determine which organisms can survive in a habitat.",
+      "memory_hook": "A-BIOTIC = NOT living. Sunlight, soil, water, air, temperature — the non-living stage on which life performs."
+    },
+    {
+      "id": "fc10",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What are the seven common characteristics of all living organisms?",
+      "back": "All living organisms share seven characteristics: (1) Nutrition — they need and take in food; (2) Respiration — they release energy from food; (3) Growth — they increase in size; (4) Movement — they can move (whole body or parts); (5) Excretion — they remove waste; (6) Reproduction — they produce offspring; (7) Response to stimuli — they react to changes in environment. The acronym MRSGREN helps remember these.",
+      "memory_hook": "MRS GREN: Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition. A living Mrs. Gren — easy to remember!"
+    },
+    {
+      "id": "fc11",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why do plants in mountain regions (like the Western Ghats) have needle-shaped leaves?",
+      "back": "Mountain/coniferous plants have needle-shaped (thin, pointed) leaves for two main reasons: (1) Snow slides off easily — preventing branches from breaking under the weight of accumulated snow; (2) Reduced surface area — needles lose less water through transpiration in cold, dry conditions where water is locked as ice. The Western Ghats in Karnataka have shola forests whose plants are adapted to high altitudes, mist, and cold temperatures. Pine and fir trees show this adaptation clearly.",
+      "memory_hook": "Needles = ANTI-SNOW HATS for trees. Pointed tips let snow slide off; tiny size saves water. Perfect mountain engineering."
+    },
+    {
+      "id": "fc12",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "How is a lion adapted for life as a predator on grasslands?",
+      "back": "Lion adaptations for predation: (1) Eyes face forward — gives binocular vision and accurate distance judgment for pouncing; (2) Sharp, retractable claws — grip and hold prey; (3) Strong jaw and canine teeth — kill prey and tear meat; (4) Tawny/golden fur — camouflage in dry golden grassland; (5) Powerful hind legs — for sprinting short distances at high speed; (6) Group hunting (pride) — lions cooperate to catch large prey. These adaptations make lions effective apex predators.",
+      "memory_hook": "Lion = the GRASSLAND'S AMBUSH ARTIST. Forward eyes (judge distance), claws (grip), colour (hide), speed (chase)."
+    },
+    {
+      "id": "fc13",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is the difference between a terrestrial habitat and an aquatic habitat?",
+      "back": "A terrestrial habitat is a land-based environment where organisms live on or under the ground — examples include forests, deserts, grasslands, and mountains. An aquatic habitat is a water-based environment where organisms live in or on water — examples include ponds, rivers, lakes, and oceans. Key difference: the medium. Terrestrial organisms breathe air; aquatic organisms are adapted for water (gills, fins, buoyancy). Some organisms (frogs, crocodiles) live in both — called amphibious habitats.",
+      "memory_hook": "TERRA = earth/land. AQUA = water. Terra firma (land) vs. aqua zone (water). Easy Latin roots."
+    },
+    {
+      "id": "fc14",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is hibernation and how is it an adaptation?",
+      "back": "Hibernation is a state of deep sleep (inactivity) that some animals enter during cold winter months when food is scarce and temperatures are very low. Examples: bears, frogs, snakes, and some bats hibernate. During hibernation, body temperature drops, heartbeat slows, and the animal lives off stored fat reserves. It is an adaptation that allows animals to survive when their habitat cannot support them, avoiding starvation in winter.",
+      "memory_hook": "HIBERNATE = HIBER (winter in Latin) + nate (to be born). The animal 'hibernates' through winter as if not yet born into the active world."
+    },
+    {
+      "id": "fc15",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Name two adaptations of a duck that help it survive in aquatic habitats.",
+      "back": "Duck aquatic adaptations: (1) Webbed feet — act like paddles for efficient swimming; the webbing between toes pushes water backward to propel the duck forward; (2) Waterproof feathers — ducks produce oil from a gland near the tail and spread it over feathers, preventing them from getting waterlogged. Other adaptations include: flat bill for filtering food from water, buoyant body, and ability to dip underwater for food while remaining afloat.",
+      "memory_hook": "DUCK = Dips Underwater, Can Keep dry. Webbed feet for paddling, oily feathers for waterproofing — the duck's two survival superpowers."
+    },
+    {
+      "id": "fc16",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "How are decomposers important in a habitat?",
+      "back": "Decomposers (mainly bacteria and fungi) break down the bodies of dead plants and animals into simpler substances, returning nutrients to the soil. This process is called decomposition. Without decomposers: dead matter would pile up everywhere; nutrients would remain locked in dead bodies; plants would not get nutrients from the soil; the entire food chain would eventually collapse. Decomposers are nature's recyclers — they complete the nutrient cycle.",
+      "memory_hook": "Decomposers = Earth's GARBAGE COLLECTORS. They clean up dead things and turn them into plant food. The planet's recycling department."
+    },
+    {
+      "id": "fc17",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What are the characteristics of a desert habitat? Name two animals found there.",
+      "back": "Desert habitat characteristics: (1) Very low annual rainfall (less than 250 mm/year); (2) Extreme temperatures — very hot during the day, very cold at night; (3) Sandy or rocky soil with little vegetation; (4) High evaporation rates; (5) Sparse, widely spaced plants (mainly cacti, thorny shrubs). Animals found in deserts: camel (stores fat in hump, conserves water) and kangaroo rat (gets water from seeds, active only at night). The Thar Desert in Rajasthan is India's main desert.",
+      "memory_hook": "Desert = DRY + EXTREME. Sun beats down, temperature swings wild. Only specialists survive here: the camel and the night-shift rodent."
+    },
+    {
+      "id": "fc18",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is the difference between a habitat and a niche?",
+      "back": "A habitat is the physical place (address) where an organism lives — e.g. a pond, a forest. A niche is the role (profession) of an organism in its habitat — what it eats, what eats it, how it interacts with other organisms and the environment. Example: two birds may live in the same forest (same habitat) but eat different foods and occupy different branches — they have different niches. No two species can occupy the same niche in the same habitat for long (competitive exclusion principle).",
+      "memory_hook": "Habitat = HOME ADDRESS. Niche = JOB DESCRIPTION. Two animals can share an address but must have different jobs to coexist."
+    },
+    {
+      "id": "fc19",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "The Western Ghats in Karnataka is a biodiversity hotspot. What does this mean?",
+      "back": "A biodiversity hotspot is a region that has an exceptionally high number of plant and animal species, many of which are endemic (found nowhere else in the world), but is also under serious threat from human activities. The Western Ghats (which runs through Karnataka, Kerala, Tamil Nadu, Goa, and Maharashtra) is one of the world's 36 biodiversity hotspots. It has over 7,000 plant species, 139 mammal species, 508 bird species, and 179 amphibian species. Conservation of such habitats is critical.",
+      "memory_hook": "Hotspot = HOT (intense life) + SPOT (specific place). Western Ghats is Karnataka's most precious ecological treasure — diverse, unique, endangered."
+    },
+    {
+      "id": "fc20",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why do organisms need to be adapted to their habitat? What happens if they are not?",
+      "back": "Organisms need adaptations to: survive the temperature and climate of their habitat; find and obtain food; escape predators; reproduce successfully; compete with other organisms. If an organism lacks the right adaptations: it cannot find food effectively; it may die from heat, cold, or dehydration; it becomes easy prey; it fails to reproduce. Over time, organisms without suitable adaptations go extinct. This is why Charles Darwin's theory states: only the fittest (best adapted) survive — 'survival of the fittest'.",
+      "memory_hook": "Adapt or disappear. Nature runs a constant exam. Those with the right answers (adaptations) pass. Those without — fail (go extinct)."
     }
   ]
 }

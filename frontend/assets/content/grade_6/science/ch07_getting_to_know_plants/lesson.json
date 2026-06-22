@@ -1,114 +1,200 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "science",
-  "chapter_id": "ch07_getting_to_know_plants",
-  "chapter_title": {
-    "en": "Getting to Know Plants",
-    "hi": "पौधों को जानिए",
-    "kn": "ಸಸ್ಯಗಳನ್ನು ತಿಳಿಯುವುದು"
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 7,
+  "chapter_title": "Getting to Know Plants",
+  "estimated_study_time_minutes": 55,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Classify plants as herbs, shrubs, and trees based on their characteristics",
+    "Identify and describe the parts of a leaf: blade, petiole, midrib, veins, lamina",
+    "Distinguish between reticulate and parallel venation with examples",
+    "Distinguish between taproot and fibrous root systems with examples",
+    "Identify parts of a flower: sepals, petals, stamens, pistil",
+    "Understand the function of each part of a flower in reproduction",
+    "Describe the structure and function of the stem: support, transport of water",
+    "Connect plant structure to Karnataka's local flora and agriculture"
+  ],
+
+  "prerequisite_knowledge": [
+    "Basic awareness of different types of plants from everyday life",
+    "Chapter 1 knowledge: different plant parts are used as food",
+    "Ability to identify common plants like grass, rose, mango tree, neem"
+  ],
+
+  "introduction": {
+    "why_important": "Plants are the foundation of all life on Earth — they produce food, oxygen, and provide habitat. Understanding their structure helps us understand how they grow, reproduce, and function. This knowledge is essential for agriculture, gardening, and environmental conservation.",
+    "real_life_relevance": "When you see a grass plant, a rose bush, and a banyan tree — they look very different. Understanding why (herbs vs shrubs vs trees) helps you classify and understand the plant world. Farmers in Karnataka who understand root systems know which crops need what kind of soil preparation.",
+    "karnataka_context": "Karnataka is one of the most biodiverse states in India — the Western Ghats (part of which runs through Karnataka) are a UNESCO World Heritage biodiversity hotspot. Karnataka has sacred groves (devarakadus) with rare plant species. The state flower of Karnataka is the lotus (Nelumba nucifera). The state tree is the sandal tree (Santalum album), grown in Mysuru, Chamrajnagar, and Kodagu. Karnataka's Nagarhole and Bandipur national parks contain rare endemic plant species.",
+    "connection_to_previous_learning": "Chapter 1 introduced plant parts as food sources. This chapter goes deeper — examining the structure and function of each plant part, not just as food but as biological organs."
   },
-  "topics": [
+
+  "story_summary": {
+    "characters": [
+      { "name": "Herbs", "role": "Small, soft-stemmed plants with a short lifespan — wheat, grass, mint, tulsi" },
+      { "name": "Shrubs", "role": "Medium-sized plants with a hard but not very thick stem, branching near the base — rose, hibiscus, henna" },
+      { "name": "Trees", "role": "Tall, long-lived plants with a thick, hard trunk — mango, neem, banyan, teak" },
+      { "name": "Creepers and Climbers", "role": "Plants with weak stems that grow along the ground (creepers) or climb using support (climbers)" }
+    ],
+    "plot": [
+      "The chapter begins by asking: why do different plants look so different?",
+      "It classifies plants into herbs, shrubs, trees, creepers, and climbers based on stem characteristics.",
+      "It examines the stem in detail — its role in support, transport of water and nutrients, and food storage.",
+      "The leaf is studied: its parts (petiole, midrib, lamina/blade, veins) and the two types of venation (reticulate and parallel).",
+      "Root systems are explored: taproot (one main root with lateral branches — dicot plants) vs fibrous roots (many roots of similar size — monocot plants).",
+      "The chapter introduces the flower as the reproductive organ of a plant.",
+      "Parts of a flower are identified: calyx (sepals), corolla (petals), androecium (stamens — male), and gynoecium (pistil — female).",
+      "The functions of each floral part are explained.",
+      "The chapter connects plant structure to pollination and seed formation."
+    ],
+    "moral": "Plants are not just passive food — they are complex living organisms with specialised organs, each with specific functions that work together for survival and reproduction."
+  },
+
+  "core_concepts": [
     {
-      "topic_id": "science_grade6_ch07_getting_to_know_plants_basics",
-      "title": {
-        "en": "Getting to Know Plants - Fundamentals",
-        "hi": "पौधों को जानिए - बुनियादी बातें",
-        "kn": "ಸಸ್ಯಗಳನ್ನು ತಿಳಿಯುವುದು - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand the role of chlorophyll and sunlight",
-        "Write the chemical equation for photosynthesis",
-        "Explain how water and nutrients are absorbed by roots"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Getting to Know Plants. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम पौधों को जानिए का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಸಸ್ಯಗಳನ್ನು ತಿಳಿಯುವುದು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "Photosynthesis is the process by which green plants prepare their own food. Using chlorophyll, leaves capture sunlight and convert carbon dioxide and water into glucose (food) and oxygen.",
-        "hi": "प्रकाश संश्लेषण वह प्रक्रिया है जिसके द्वारा हरे पौधे अपना भोजन स्वयं बनाते हैं॥",
-        "kn": "ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯು ಹಸಿರು ಸಸ್ಯಗಳು ತಮ್ಮದೇ ಆಹಾರವನ್ನು ತಯಾರಿಸುವ ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ."
-      },
-      "worked_example": {
-        "problem": "Identify the inputs and outputs of photosynthesis.",
-        "steps": [
-          {
-            "en": "Step 1: Leaves absorb carbon dioxide from the air and water from the soil.",
-            "hi": "चरण 1: पत्तियाँ हवा से कार्बन डाइक्साइड और मिट्टी से पानी अवशोषित करती हैं॥",
-            "kn": "ಹಂತ 1: ಎಲೆಗಳು ಗಾಳಿಯಿಂದ ಇಂಗಾಲದ ಡೈಂಕ್ಸೈಡ್ ಮತ್ತು ಮಣ್ಣಿನಿಂದ ನೀರನ್ನು ಹೀರಿಕೊಳ್ಳುತ್ತವೆ."
-          },
-          {
-            "en": "Step 2: Chlorophyll traps sunlight energy inside the plant cells.",
-            "hi": "चरण 2: क्लोरोफिल पौधे की कोशिकाओं के भीतर सूर्य के प्रकाश की ऊर्जा को पकड़ता है॥",
-            "kn": "ಹಂತ 2: ಹರಿತ್ತು ಸಸ್ಯದ ಜೀವಕೋಶಗಳೊಳಗೆ ಸೂರ್ಯನ ಬೆಳಕಿನ ಸಾಮರ್ಥ್ಥಯನ್ನು ಹೀರುತ್ತದೆ."
-          },
-          {
-            "en": "Step 3: Carbon dioxide and water combine to form glucose, releasing oxygen.",
-            "hi": "चरण 3: कार्बन डाइक्साइड और पानी मिलकर ग्लूकोज बनाते हैं और क्सीजन छोड़ते हैं॥",
-            "kn": "ಹಂತ 3: ಇಂಗಾಲದ ಡೈಂಕ್ಸೈಡ್ ಮತ್ನೀರು ಸೇರಿ ಗ್ಲುಕೋಸ್ ಮಾಡಿ ಆಮ್ಲಜನಕವನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತವೆ."
-          }
-        ],
-        "answer": "Carbon Dioxide + Water + Sunlight -> Glucose + Oxygen"
-      },
-      "key_points": {
-        "en": [
-          "Chlorophyll is the green pigment that absorbs light energy.",
-          "Stomata are tiny pores on leaves that allow gas exchange.",
-          "Oxygen released during photosynthesis supports life on Earth."
-        ],
-        "hi": [
-          "क्लोरोयफिल वह हरा वर्णक है जो प्रकाश ऊर्जा को सोखता है॥",
-          "रंध्र (Stomata) पत्तियों पर छोटे छिद्र होता हैं॥",
-          "प्रकाश संश्लेषण के दौरान मुक्त क्सीजन जीवन का आधार है॥"
-        ],
-        "kn": [
-          "ಹರಿತ್ತು ಬೆಳಕಿನ ಶಕ್ತಿಥನ್ನು ಹೀರುವ ಹಸಿರು ವರ್ಣಕವಾಗಿದೆ.",
-          "ಪತ್ರರಂధ್ರಗಳು (Stomata) ಎಲೆಗಳ ಮೇಲಿನ ಸಣ್ಣ ರಂಧ್ರಗಳು.",
-          "ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯ ಸಮಯದಲ್ಲಿ ಬಿಡುಗಡೆಯಾಗುವ ಆಮ್ಲಜನಕ ಪ್ರಾಣವಾಯುವಾಗಿದೆ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Types of Plants: Herbs, Shrubs, and Trees",
+      "simple_explanation": "Plants can be classified by the nature of their stem: soft-stemmed small plants (herbs), medium woody plants branching near base (shrubs), and tall plants with thick trunks (trees).",
+      "detailed_explanation": "Herbs: Plants with green, tender (non-woody), soft stems. They are usually small and short-lived. Examples: wheat, grass, mint, tulsi, mustard, rice, tomato plant. Shrubs: Plants with hard (slightly woody) stems that branch out near the base of the plant. They are medium-sized and live for several years. Examples: rose, hibiscus (China rose), lemon, henna (mehendi), coffee plant, tea plant. Trees: Tall plants with hard, woody trunks. The main stem (trunk) is thick, strong, and single. Branches grow higher up. They live for many years. Examples: mango, neem, banyan, teak, coconut, sandal. Creepers: Plants with very weak stems that grow (creep) along the ground. Examples: pumpkin, watermelon, bitter gourd (karela). Climbers: Plants with thin, weak stems that climb upward using support (tendrils, hooks, or twining). Examples: grapevine, money plant, pea plant, passion fruit.",
+      "real_life_example": "In your home: the tulsi (holy basil) plant in a small pot is a herb. The rose or hibiscus plant in the garden is a shrub. The big mango or coconut tree outside is a tree. The cucumber plant climbing on a fence is a climber.",
+      "karnataka_example": "Karnataka's famous Sandal tree (Santalum album) — found in the forests of Mysuru, Chamrajnagar, and Kodagu — is a tree. The coffee plant (Coffea arabica/robusta) of Coorg (Kodagu) is a shrub. The rice plant widely grown in the Cauvery delta (Mandya, Mysuru, Shivamogga) is a herb. Bele (cucumber, bitter gourd) grown by Karnataka farmers are climbers.",
+      "common_mistakes": "Students often confuse climbers and creepers. Creepers creep along the ground (pumpkin). Climbers climb upward using support (grapevine, money plant). Also, students sometimes call a banana plant a tree — it is actually a very tall herb because the 'trunk' is made of tightly packed leaf bases, not true woody tissue.",
+      "memory_tip": "H-S-T by size: Herb = tiny/short, Shrub = medium/branchy base, Tree = tall/thick trunk. Then add C-C: Creeper = crawls, Climber = climbs with help."
+    },
+    {
+      "concept_name": "The Stem",
+      "simple_explanation": "The stem supports the plant, conducts water and minerals upward, and transports food made in leaves downward.",
+      "detailed_explanation": "Functions of the stem: (1) Support: holds leaves, flowers, and fruits up toward sunlight. (2) Conduction: acts as a pipeline — xylem vessels carry water and minerals from roots to leaves; phloem vessels carry food (prepared by photosynthesis) from leaves to rest of plant. (3) Storage: some stems store food (potato tuber, sugarcane) or water (cactus). (4) Reproduction: some stems can grow into new plants (ginger, turmeric rhizomes; potato tubers). The stem has nodes (where leaves attach) and internodes (sections between nodes). Evidence for water transport: if you put a white flower stem in coloured water, the flower gradually turns the same colour — this shows water (and dissolved dye) moving upward through the stem.",
+      "real_life_example": "The classic experiment: take a white carnation or white flower and put its stem in red-coloured water. After a few hours, the petals turn slightly pink or red — proving that water moves upward through the stem.",
+      "karnataka_example": "Sugarcane (stems grown throughout Karnataka, especially in Belgaum/Belagavi and Hassan districts) has stems that store sugar — we eat the sweet stem juice. Ginger (Zingiber officinale), widely grown in Shivamogga and Uttara Kannada districts, is an underground stem (rhizome) that stores food.",
+      "common_mistakes": "Students sometimes think the stem only provides support. The stem's transport function (carrying water and food) is equally important. Also, students confuse the stem's upward transport (water/minerals via xylem) with downward transport (food via phloem) — both directions happen in the stem.",
+      "memory_tip": "Stem = Support + Send-water-up + Send-food-down. The stem is the building's plumbing and scaffolding combined."
+    },
+    {
+      "concept_name": "The Leaf: Parts and Venation",
+      "simple_explanation": "A leaf has a flat blade (lamina), a stalk (petiole), and a network of veins. Veins can be in a net pattern (reticulate) or parallel lines (parallel).",
+      "detailed_explanation": "Parts of a leaf: (1) Petiole: the stalk that attaches the leaf to the stem. (2) Lamina (blade): the flat, green part of the leaf where photosynthesis occurs. (3) Midrib: the thick central vein running down the middle of the leaf. (4) Veins: smaller branches from the midrib that carry water/nutrients and provide structural support to the leaf. (5) Leaf base: where the petiole attaches to the stem. Venation (the pattern of veins): Reticulate venation: veins branch out in an irregular net-like pattern. Examples: hibiscus, rose, mango, neem, bean, wheat. Parallel venation: veins run parallel to each other from base to tip (or across). Examples: grass, maize, banana, bamboo, sugarcane. Important: Reticulate venation → taproot system. Parallel venation → fibrous root system. This is a useful rule for plant classification.",
+      "real_life_example": "Hold a mango leaf (or any broad garden leaf) up to the light — you will see a network of veins branching from the midrib. Now hold a grass blade or banana leaf — you'll see veins running parallel side by side without branching.",
+      "karnataka_example": "The betel leaf (Piper betle), called 'Veelyada yele' in Kannada and traditionally used in Karnataka after meals, has clear reticulate venation — hold it up to sunlight and see the network. Banana leaves (used to serve food in traditional Karnataka meals) show clear parallel venation.",
+      "common_mistakes": "Students often confuse reticulate and parallel venation on exams. Remember: reticulate = net (like a fishing net = reticulated web). Parallel = parallel railway tracks running side by side.",
+      "memory_tip": "RE-ticulate = RET = net (like internet = inter-NET). PARALLEL = P = Parallel lines. Mango leaf = net. Grass blade = parallel stripes."
+    },
+    {
+      "concept_name": "Root Systems: Taproot and Fibrous",
+      "simple_explanation": "Some plants have one thick main root with smaller side branches (taproot), while others have many thin roots of equal size with no main root (fibrous roots).",
+      "detailed_explanation": "Taproot system: A single, thick main root grows straight down into the soil. Many smaller lateral roots branch off from it. It penetrates deep soil to access water. Examples: carrot, radish, beetroot (the root is the food part itself), bean, pea, mango, neem. Plants with taproot systems also have reticulate leaf venation. Fibrous root system: Many thin roots of similar size grow from the base of the stem — there is no distinct main root. Roots are shallow but spread widely. Examples: grass, wheat, rice, maize, banana, onion. Plants with fibrous roots also have parallel leaf venation. Functions of roots: (1) Anchor the plant firmly in soil. (2) Absorb water and dissolved minerals from soil. (3) In some plants, store food (carrot, radish, sweet potato). (4) Some aerial roots provide additional support (banyan tree's prop roots).",
+      "real_life_example": "Pull a grass plant from the ground — you'll see many thin hair-like roots spreading in all directions (fibrous). Pull a carrot from the ground — you'll see the thick single root (taproot) with small branches. The taproot IS the carrot we eat.",
+      "karnataka_example": "Ragi (finger millet), the most important crop of Karnataka, has fibrous roots and parallel venation. This is why ragi is effective at preventing soil erosion — its fibrous roots bind soil tightly. Mango trees in Karnataka (found throughout the state) have taproots that penetrate deep soil, enabling the tree to survive dry Karnataka summers.",
+      "common_mistakes": "Students often get confused about which plant has which root type. Use the venation rule: Parallel venation = fibrous roots. Reticulate venation = taproot. This always works for this chapter. Also, carrot and radish are NOT the taproot — they ARE the taproot (modified, swollen taproot used as food storage).",
+      "memory_tip": "TAProot = one TAP that goes DEEP. FIBrous = many FIBres spreading wide. Parallel leaf = Fibrous root. Reticulate leaf = Taproot. PF-RT memory pair."
+    },
+    {
+      "concept_name": "Parts of a Flower",
+      "simple_explanation": "A flower has four whorls: sepals (outermost, green, protect the bud), petals (colourful, attract insects), stamens (male, produce pollen), and pistil (female, forms seeds).",
+      "detailed_explanation": "The four parts of a flower, from outermost to innermost: (1) Sepals (Calyx): The outermost whorl. Usually green and leaf-like. They enclose and protect the flower bud before it opens. After blooming, sepals are seen at the base of the flower. (2) Petals (Corolla): The second whorl. Usually brightly coloured and sometimes fragrant. Their function is to attract pollinators (insects, birds) for pollination. (3) Stamens (Androecium): The male reproductive part. Each stamen has a filament (stalk) and anther (tip that produces pollen). The anther produces pollen grains, which carry the male genetic material. (4) Pistil / Carpel (Gynoecium): The female reproductive part, in the centre. Has three parts: stigma (sticky top that receives pollen), style (tube connecting stigma to ovary), ovary (contains ovules which become seeds after fertilisation). A flower with all four whorls is called a complete flower.",
+      "real_life_example": "Take a hibiscus (china rose/dasavala) flower — you can clearly see the green sepals at the base, the large colourful petals, the long stamen tube with anthers, and the stigma protruding from the top. Hibiscus is the classic teaching flower for this chapter.",
+      "karnataka_example": "The lotus (Nelumba nucifera), Karnataka's state flower, has distinct sepals, petals, many stamens, and a unique flat-topped receptacle containing multiple pistils. Champak flowers (Magnolia champaca) used in Karnataka temples have clearly visible stamens and pistils. Jasmine (mallige) — Karnataka's state flower — provides fragrant petals used in hair flowers and is grown in districts like Dharwad and Udupi.",
+      "common_mistakes": "Students confuse stamens and pistil (male and female). Remember: STAMEN = MALE (S and M are linked — Stamen, Male). PISTIL = FEMALE (P for Pistil, contains the ovary). Also, students sometimes count petals and call the whole flower the 'stamen' — stamen is only the pollen-producing male part.",
+      "memory_tip": "Flower from outside to centre: S-P-S-P = Sepal, Petal, Stamen, Pistil. OR: Some Pretty Students Pass — Sepal, Petal, Stamen, Pistil. Male = Stamen (anther produces pollen). Female = Pistil (ovary makes seeds)."
     }
+  ],
+
+  "key_vocabulary": [
+    { "term": "Herb", "definition": "A small plant with a soft, green (non-woody) stem. Usually short-lived. Examples: grass, mint, wheat." },
+    { "term": "Shrub", "definition": "A medium-sized plant with a slightly woody stem that branches near the base. Examples: rose, hibiscus, henna." },
+    { "term": "Tree", "definition": "A tall, long-lived plant with a thick, single woody trunk. Examples: mango, neem, banyan." },
+    { "term": "Creeper", "definition": "A plant with a very weak stem that grows along the ground. Examples: pumpkin, watermelon." },
+    { "term": "Climber", "definition": "A plant with a weak stem that uses support (tendrils, hooks) to grow upward. Examples: grapevine, pea plant." },
+    { "term": "Petiole", "definition": "The stalk of a leaf that connects the leaf blade (lamina) to the stem." },
+    { "term": "Lamina", "definition": "The flat, broad blade part of a leaf where photosynthesis takes place." },
+    { "term": "Venation", "definition": "The pattern of veins in a leaf. Can be reticulate (net-like) or parallel." },
+    { "term": "Reticulate venation", "definition": "A net-like branching pattern of veins. Seen in mango, rose, hibiscus, neem. Associated with taproot." },
+    { "term": "Parallel venation", "definition": "Veins running parallel to each other. Seen in grass, maize, banana, rice. Associated with fibrous roots." },
+    { "term": "Taproot", "definition": "A root system with one thick main root going deep into soil, with smaller lateral branches. Examples: carrot, mango, bean." },
+    { "term": "Fibrous roots", "definition": "A root system with many thin roots of similar size, no main root. Examples: grass, wheat, rice, onion." },
+    { "term": "Sepal", "definition": "The outermost, usually green whorl of a flower that protects the bud before it opens." },
+    { "term": "Petal", "definition": "The colourful whorl of a flower that attracts pollinators." },
+    { "term": "Stamen", "definition": "The male reproductive part of a flower. Has anther (produces pollen) and filament (stalk)." },
+    { "term": "Pistil", "definition": "The female reproductive part of a flower. Has stigma, style, and ovary (contains ovules/future seeds)." }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Types of Plants",
+      "questions": [
+        { "type": "Recall", "q": "Classify: banana plant, rose plant, mango tree, money plant.", "a": "Banana — herb (soft stem base, not woody). Rose — shrub (branches near base, slightly woody). Mango — tree (tall, thick woody trunk). Money plant — climber (uses support to grow upward)." },
+        { "type": "Application", "q": "Why is the banana plant considered a herb despite being very tall?", "a": "The banana plant's 'trunk' is actually made of tightly packed leaf bases (not woody tissue). A true tree has hard, woody cells in its trunk. The banana's trunk is soft and non-woody, making it a herb by botanical definition — the world's tallest herb." }
+      ]
+    },
+    {
+      "after_concept": "Root Systems",
+      "questions": [
+        { "type": "Application", "q": "A plant has parallel venation in its leaves. What type of root system does it have?", "a": "Fibrous root system. There is a reliable correlation: parallel venation = fibrous roots. Examples: grass, rice, maize all have parallel venation and fibrous roots." }
+      ]
+    },
+    {
+      "after_concept": "Parts of a Flower",
+      "questions": [
+        { "type": "Recall", "q": "Name the male and female parts of a flower.", "a": "Male part = Stamen (with anther that produces pollen). Female part = Pistil/Carpel (with stigma, style, and ovary containing ovules)." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Plants are classified as herbs (soft stem), shrubs (woody branching near base), trees (thick trunk), creepers (along ground), or climbers (with support).",
+    "Banana plant is the world's tallest herb — its 'trunk' is made of leaf bases, not wood.",
+    "The stem supports the plant and conducts water (up via xylem) and food (down via phloem).",
+    "Leaf parts: petiole, lamina, midrib, veins.",
+    "Reticulate venation (net pattern) = taproot system. Parallel venation = fibrous root system.",
+    "Taproot: one thick main root (carrot, bean, mango). Fibrous roots: many thin equal roots (grass, rice, wheat).",
+    "Flower parts from outside in: Sepals → Petals → Stamens → Pistil.",
+    "Stamen = male (anther produces pollen). Pistil = female (ovary makes seeds).",
+    "Karnataka: Sandal tree (state tree), lotus (state flower), ragi has fibrous roots, coffee plant is a shrub."
+  ],
+
+  "mind_map": {
+    "root": "Getting to Know Plants",
+    "branches": [
+      {
+        "branch": "Types of Plants",
+        "sub": ["Herb — soft stem, small (wheat, tulsi)", "Shrub — woody, branching near base (rose, hibiscus)", "Tree — tall, thick trunk (mango, neem)", "Creeper — along ground (pumpkin)", "Climber — uses support (grapevine, pea)"]
+      },
+      {
+        "branch": "Leaf",
+        "sub": ["Parts: petiole, lamina, midrib, veins", "Reticulate venation — net pattern (mango, rose) → taproot", "Parallel venation — parallel lines (grass, rice) → fibrous roots"]
+      },
+      {
+        "branch": "Roots",
+        "sub": ["Taproot — one thick main root (carrot, radish, bean)", "Fibrous roots — many thin roots (grass, wheat, ragi)", "Functions: anchor, absorb water, store food"]
+      },
+      {
+        "branch": "Stem",
+        "sub": ["Support", "Water transport upward (xylem)", "Food transport downward (phloem)", "Storage in some (potato, sugarcane, ginger)"]
+      },
+      {
+        "branch": "Flower",
+        "sub": ["Sepals — protect bud (outermost)", "Petals — attract pollinators (colourful)", "Stamen — male (anther produces pollen)", "Pistil — female (ovary → seeds)"]
+      },
+      {
+        "branch": "Karnataka Connections",
+        "sub": ["State tree: Sandal (Mysuru, Kodagu)", "State flower: Lotus", "Ragi — fibrous roots, parallel venation", "Coffee shrub (Coorg)", "Sugarcane stem — food storage"]
+      }
+    ]
+  },
+
+  "revision_notes": "Chapter 7 classifies plants and studies their parts. Plant types: herbs (soft stem — wheat, tulsi, rice), shrubs (hard stem branching near base — rose, hibiscus, coffee), trees (thick trunk — mango, neem, teak), creepers (along ground — pumpkin), climbers (use support — grapevine). Banana = tallest herb (soft trunk). Stem functions: support, water transport up (xylem), food transport down (phloem), storage (potato, sugarcane, ginger). Leaf parts: petiole (stalk), lamina (flat blade), midrib (central vein), veins. Venation: reticulate = net pattern (mango, rose, bean) → associated with taproot; parallel = parallel lines (grass, rice, banana) → associated with fibrous roots. Roots: taproot = one thick main root with laterals (carrot, radish, bean, mango); fibrous = many equal thin roots, no main root (grass, wheat, rice, ragi). Flower parts (outside to inside): sepals (protect bud, usually green), petals (colourful, attract pollinators), stamens (male — anther produces pollen + filament), pistil (female — stigma + style + ovary containing ovules). Karnataka: sandal tree (state tree), lotus (state flower), ragi (fibrous roots, parallel venation), coffee shrub in Coorg.",
+
+  "must_remember_facts": [
+    "Herb = soft stem. Shrub = woody, branches near base. Tree = thick woody trunk.",
+    "Banana plant = herb (tallest herb in the world — trunk is leaf bases, not wood).",
+    "Reticulate venation (net) → Taproot. Parallel venation (lines) → Fibrous roots.",
+    "Taproot examples: carrot, radish, bean, mango. Fibrous root examples: grass, wheat, rice, ragi.",
+    "Stem functions: support + water up (xylem) + food down (phloem) + storage.",
+    "Flower parts outside to inside: Sepal → Petal → Stamen → Pistil.",
+    "Stamen = MALE (anther produces pollen). Pistil = FEMALE (ovary contains ovules → seeds).",
+    "Karnataka: Sandal = state tree; Lotus = state flower; Coffee = shrub in Coorg; Ragi = fibrous roots."
   ]
 }

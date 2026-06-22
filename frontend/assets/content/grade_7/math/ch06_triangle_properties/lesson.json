@@ -1,114 +1,166 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 7,
-  "subject": "math",
-  "chapter_id": "ch06_triangle_properties",
-  "chapter_title": {
-    "en": "The Triangle and Its Properties",
-    "hi": "त्रिभुज और उसके गुण",
-    "kn": "ತ್ರಿಕೋನ ಮತ್ತು ಅದರ ಗುಣಲಕ್ಷಣಗಳು"
+  "subject": "Mathematics",
+  "textbook": "Mathematics — Textbook for Class VII",
+  "chapter_number": 6,
+  "chapter_title": "The Triangle and Its Properties",
+  "estimated_study_time_minutes": 60,
+  "difficulty": "Easy–Moderate",
+
+  "learning_objectives": [
+    "Classify triangles by sides (scalene, isosceles, equilateral) and by angles (acute, right, obtuse)",
+    "State and apply the angle sum property: all interior angles of a triangle sum to 180°",
+    "Define and calculate the exterior angle of a triangle and apply the exterior angle property",
+    "Identify medians, altitudes, and their properties",
+    "State and apply the Pythagorean theorem for right-angled triangles",
+    "Verify the triangle inequality: sum of any two sides > third side",
+    "Solve numerical problems using all triangle properties",
+    "Connect triangle properties to real-world structures in Karnataka"
+  ],
+
+  "prerequisite_knowledge": [
+    "Class 6: Types of triangles, basic angle measurement",
+    "Chapter 5 (Class 7): Angle pairs, supplementary angles",
+    "Basic arithmetic: squares and square roots for Pythagoras theorem"
+  ],
+
+  "introduction": {
+    "why_important": "The triangle is the strongest geometric shape — it cannot be deformed without changing the length of its sides. This is why bridges, roof trusses, and transmission towers are all built using triangular frameworks. Every polygon can be divided into triangles.",
+    "real_life_relevance": "The gabled roofs of Karnataka's houses, the triangular bracing in wooden furniture, the triangular warning signs on roads, and the Pythagorean theorem used by carpenters and surveyors — all rely on triangle properties studied in this chapter.",
+    "karnataka_context": "The Vidhana Soudha's roof uses triangular architectural elements. Karnataka's suspension bridges (like those across the Sharavathi river in Uttara Kannada) use triangular trusses for strength. The triangular shape of many Karnataka temple shikhara cross-sections follows mathematical precision. Surveyors in Karnataka's BBMP (Bruhat Bengaluru Mahanagara Palike) use triangulation — the Pythagorean theorem — to measure land areas.",
+    "connection_to_previous_learning": "Chapter 5 studied angles formed by lines. This chapter applies those ideas to triangles — a closed figure made of three line segments, with three interior angles that sum to 180°."
   },
-  "topics": [
+
+  "core_concepts": [
     {
-      "topic_id": "math_grade7_ch06_triangle_properties_basics",
-      "title": {
-        "en": "The Triangle and Its Properties - Fundamentals",
-        "hi": "त्रिभुज और उसके गुण - बुनियादी बातें",
-        "kn": "ತ್ರಿಕೋನ ಮತ್ತು ಅದರ ಗುಣಲಕ್ಷಣಗಳು - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of The Triangle and Its Properties",
-        "Solve exercises and apply rules related to The Triangle and Its Properties",
-        "Analyze practical examples of The Triangle and Its Properties in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore The Triangle and Its Properties. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम त्रिभुज और उसके गुण का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ತ್ರಿಕೋನ ಮತ್ತು ಅದರ ಗುಣಲಕ್ಷಣಗಳು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore The Triangle and Its Properties in detail. This topic is essential for Grade 7 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम त्रिभुज और उसके गुण का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ತ್ರಿಕೋನ ಮತ್ತು ಅದರ ಗುಣಲಕ್ಷಣಗಳು ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of The Triangle and Its Properties.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in The Triangle and Its Properties.",
-            "hi": "चरण 1: त्रिभुज और उसके गुण के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ತ್ರಿಕೋನ ಮತ್ತು ಅದರ ಗುಣಲಕ್ಷಣಗಳು ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering The Triangle and Its Properties builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "त्रिभुज और उसके गुण में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ತ್ರಿಕೋನ ಮತ್ತು ಅದರ ಗುಣಲಕ್ಷಣಗಳು ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Classification of Triangles",
+      "simple_explanation": "Triangles are classified in two ways: by the lengths of their sides (scalene, isosceles, equilateral) and by the measures of their angles (acute, right, obtuse).",
+      "detailed_explanation": "By sides: Scalene: all three sides have different lengths; all three angles are different. Isosceles: exactly two sides are equal; the angles opposite the equal sides (base angles) are also equal. Equilateral: all three sides are equal; all three angles are equal (each = 60°). By angles: Acute-angled triangle: all three angles are less than 90°. Right-angled triangle: exactly one angle is 90°. The side opposite the right angle is the hypotenuse (longest side). Obtuse-angled triangle: one angle is greater than 90° (and less than 180°). A triangle cannot have more than one right angle or more than one obtuse angle (since angles sum to 180°). Note: a triangle can be classified both ways simultaneously — e.g., an isosceles right-angled triangle has two equal sides AND one 90° angle.",
+      "real_life_example": "A yield (give way) road sign is an equilateral triangle. A right-angled set-square in your geometry box is a right-angled scalene triangle. The triangular cross-section of a typical Indian sloping roof is an isosceles triangle.",
+      "karnataka_example": "The iconic Gol Gumbaz in Bijapur (Vijayapura), Karnataka — while circular in its dome — uses triangular arches at its base. The Krishnarajasagara (KRS) dam spillway creates triangular water flow patterns. Karnataka's road signboards use all three triangle types.",
+      "common_mistakes": "Students think an isosceles triangle can have all three sides equal — no, that would be equilateral. Also, a triangle CANNOT have two right angles (since 90+90=180, leaving 0° for the third angle — impossible). A triangle can NEVER have two obtuse angles.",
+      "memory_tip": "SIDES: S-I-E = Scalene (all different), Isosceles (two equal), Equilateral (all equal). ANGLES: A-R-O = Acute (all < 90°), Right (one = 90°), Obtuse (one > 90°). Mix and match: scalene + acute, isosceles + right, etc."
+    },
+    {
+      "concept_name": "Medians and Altitudes",
+      "simple_explanation": "A median connects a vertex to the midpoint of the opposite side. An altitude is the perpendicular from a vertex to the opposite side (or its extension). Every triangle has 3 medians and 3 altitudes.",
+      "detailed_explanation": "Median: A line segment from a vertex to the midpoint of the opposite side. Every triangle has exactly 3 medians (one from each vertex). All 3 medians of any triangle meet at a single point called the centroid (centre of gravity of the triangle). The centroid divides each median in the ratio 2:1 from the vertex. Altitude: A perpendicular line segment from a vertex to the line containing the opposite side. Every triangle has exactly 3 altitudes. All 3 altitudes meet at a single point called the orthocentre. In a right-angled triangle: the two legs (sides forming the right angle) are themselves the altitudes for each other. The altitudes can fall outside the triangle in obtuse-angled triangles. Important: the median bisects the opposite side (creates two equal halves) but is NOT necessarily perpendicular to it. The altitude IS perpendicular to the opposite side but does NOT necessarily bisect it.",
+      "real_life_example": "The centroid is the balance point — if you cut a triangle from cardboard and find its centroid, you can balance the triangle on the tip of a pencil placed at that point. This is used in structural engineering to find the centre of gravity of triangular components.",
+      "karnataka_example": "Karnataka's civil engineers use the centroid concept when designing triangular land plots — the centroid is used to find the 'centre' of the plot for infrastructure placement. Altitude calculations are essential in Karnataka's surveying work — determining the perpendicular height of a plot above the base road.",
+      "common_mistakes": "Students confuse median and altitude. Median = connects vertex to MIDPOINT of opposite side (bisects the side). Altitude = PERPENDICULAR from vertex to opposite side (or its extension) — does NOT necessarily go to midpoint.",
+      "memory_tip": "MEDIAN = Middle (goes to midpoint). ALTITUDE = ⊥ (always perpendicular). M = midpoint, A = angle-90°. Centroid = meeting of medians = centre of gravity. Orthocentre = meeting of altitudes."
+    },
+    {
+      "concept_name": "Angle Sum Property of a Triangle",
+      "simple_explanation": "The sum of all three interior angles of ANY triangle is always exactly 180°.",
+      "detailed_explanation": "Angle sum property: In any triangle ABC, ∠A + ∠B + ∠C = 180°. This can be verified experimentally: tear the three corners off a paper triangle and arrange the three angles along a straight line — they perfectly form a straight angle (180°). Proof using parallel lines: Draw a line through vertex A parallel to BC. The alternate interior angles and co-interior angles show that the three angles of the triangle together equal a straight angle = 180°. Applications: (1) Find a missing angle: if two angles are known, subtract their sum from 180°. (2) Determine if given angles can form a triangle: they must sum to exactly 180°. (3) In an equilateral triangle: each angle = 180° ÷ 3 = 60°. (4) In a right-angled triangle: the two acute angles are complementary (sum = 90°, since the third angle is 90°).",
+      "real_life_example": "A surveyor measuring a triangular plot of land must have their three angle measurements add to exactly 180°. If they don't, there's a measurement error. This is a practical check used in land surveying.",
+      "karnataka_example": "Karnataka's BBMP (Bengaluru city corporation) survey teams measure triangular land parcels. The three angles of every surveyed triangular plot must sum to 180° — this is the surveyors' fundamental check. The triangular gable ends of traditional Kodagu houses have angles that sum to 180°.",
+      "common_mistakes": "Students sometimes think different types of triangles have different angle sums. ALL triangles — acute, obtuse, right, scalene, isosceles, equilateral — have angle sums of EXACTLY 180°. Also: if angles are 60°, 60°, 60° → equilateral (not just any triangle with equal angles).",
+      "memory_tip": "THREE angles, THREE sides, ONE rule: they always add to 180°. 180° = straight line = flat (imagine the triangle flattening into a straight line — that's 180°). EVERY triangle, always."
+    },
+    {
+      "concept_name": "Exterior Angle Property",
+      "simple_explanation": "An exterior angle of a triangle equals the SUM of the two non-adjacent interior angles (called remote interior angles or opposite interior angles).",
+      "detailed_explanation": "Exterior angle: formed by extending one side of the triangle beyond a vertex. At each vertex, there is one exterior angle (or two, which are equal as vertically opposite — but we usually refer to just one). Exterior angle property: An exterior angle of a triangle = sum of the two interior angles NOT adjacent to it (the two remote interior angles). Formula: Exterior angle = sum of remote interior angles. Example: In triangle ABC, if side BC is extended to D, then ∠ACD (exterior angle) = ∠A + ∠B. Proof: ∠A + ∠B + ∠ACB = 180° (angle sum). ∠ACB + ∠ACD = 180° (linear pair). Therefore ∠ACD = ∠A + ∠B. Key corollary: An exterior angle of a triangle is always GREATER than either of the two non-adjacent interior angles. This is useful in inequalities.",
+      "real_life_example": "The exterior angle property explains why a bicycle's turn angle at the front wheel equals the sum of the frame angle and the steering angle — triangle geometry governs the turning radius.",
+      "karnataka_example": "Engineers building bridges across Karnataka's rivers (like the Cauvery at Shivanasamudra) use the exterior angle property in triangular truss calculations to verify structural loads at each joint.",
+      "common_mistakes": "Students confuse exterior angle with supplement of an adjacent interior angle. The EXTERIOR ANGLE of a triangle = sum of TWO non-adjacent (remote) interior angles. It equals 180° minus the ADJACENT interior angle (linear pair). These are different things.",
+      "memory_tip": "EXTERIOR = OUTSIDE the triangle. It 'collects' the two FAR interior angles. E = sum of the two R's (Remote angles). EXT = sum of the Excluded Two angles. Draw: exterior angle = A + B (the angles far away from it)."
+    },
+    {
+      "concept_name": "Pythagorean Theorem",
+      "simple_explanation": "In a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides. Formula: c² = a² + b², where c is the hypotenuse.",
+      "detailed_explanation": "Pythagorean theorem: In a right-angled triangle, if the sides are a, b, and c (where c is the hypotenuse — the side opposite the right angle), then: c² = a² + b². The hypotenuse is ALWAYS the longest side and is ALWAYS opposite the right angle. Uses: (1) Find the hypotenuse: c = √(a² + b²). (2) Find a missing leg: a = √(c² − b²). (3) Check if a triangle is right-angled: if a² + b² = c², it is right-angled. Pythagorean triplets: sets of whole numbers satisfying the theorem. Common triplets: (3, 4, 5) → 9+16=25 ✓. (5, 12, 13) → 25+144=169 ✓. (8, 15, 17) → 64+225=289 ✓. (7, 24, 25) ✓. Any multiple of a Pythagorean triplet also works: (6, 8, 10) = 2×(3,4,5). Converse of Pythagorean theorem: if c² = a² + b², then the triangle is right-angled (with the right angle opposite side c).",
+      "real_life_example": "A carpenter checks if a room corner is perfectly square by measuring 3m along one wall, 4m along the other, and checking the diagonal is 5m (the 3-4-5 triplet). If it is, the corner is exactly 90°. This is how right angles have been made in construction for thousands of years.",
+      "karnataka_example": "Karnataka's BBMP road construction teams use the 3-4-5 method to lay out perfect right angles at road junctions. The Krishnarajasagara (KRS) dam's cross-section uses right-angled triangular geometry, calculated using the Pythagorean theorem. Karnataka's civil engineering courses at institutions like NITK Surathkal begin with Pythagorean theorem applications.",
+      "common_mistakes": "Students apply the theorem to non-right triangles — it ONLY applies to right-angled triangles. Also, students forget that the hypotenuse is ALWAYS the longest side and ALWAYS opposite the 90° angle. Finding 'c' is not always finding the hypotenuse — you must identify which side is opposite the right angle.",
+      "memory_tip": "c² = a² + b². HYPOTENUSE = c = longest side = opposite the 90° angle. 3-4-5 is the most famous triplet: 3²+4²=9+16=25=5². Pythagoras = right triangles only. Square the sides, add the smaller squares, take the root for the hypotenuse."
+    },
+    {
+      "concept_name": "Triangle Inequality",
+      "simple_explanation": "In any triangle, the sum of any two sides must be greater than the third side. This tells you whether three given lengths can form a triangle.",
+      "detailed_explanation": "Triangle inequality theorem: For any triangle with sides a, b, and c: a + b > c, b + c > a, and a + c > b. All three conditions must hold simultaneously. Practical check: you only need to verify that the sum of the TWO SMALLER sides is greater than the largest side (if this holds, the other two conditions automatically hold). Why it works geometrically: if two sides of a triangle are laid end-to-end and their total length is less than or equal to the third side, they cannot 'reach' each other to close the triangle. Application: Given three lengths, check if they can form a triangle: pick the two smallest, add them, check if sum > largest. Example: Can 4 cm, 7 cm, 10 cm form a triangle? 4 + 7 = 11 > 10 ✓. Yes. Can 2 cm, 3 cm, 6 cm form a triangle? 2 + 3 = 5 < 6 ✗. No — cannot form a triangle.",
+      "real_life_example": "Tent poles must follow the triangle inequality — if two pole lengths together are shorter than the third, you cannot form a stable triangular tent structure. Engineers verify this before designing any triangular framework.",
+      "karnataka_example": "Karnataka's civil engineers laying triangular road junctions must check that the three side lengths of the proposed road triangle satisfy the triangle inequality — otherwise, the triangle cannot physically close and the junction design fails.",
+      "common_mistakes": "Students check only one condition (e.g., only a+b>c) instead of all three. However, the quickest check is: add the two SMALLEST sides and compare with the LARGEST. If their sum is greater than the largest, the triangle is valid.",
+      "memory_tip": "TRIANGLE INEQUALITY: Two short sides must 'team up' to beat the longest side. Short + Short > Long. If they can't beat the long side, no triangle. Think: can the two sides 'reach' each other over the base? If yes → triangle possible."
     }
+  ],
+
+  "key_vocabulary": [
+    { "term": "Scalene triangle", "definition": "A triangle with all three sides of different lengths and all three angles different." },
+    { "term": "Isosceles triangle", "definition": "A triangle with exactly two equal sides. The angles opposite the equal sides are also equal." },
+    { "term": "Equilateral triangle", "definition": "A triangle with all three sides equal and all three angles equal (each 60°)." },
+    { "term": "Hypotenuse", "definition": "The longest side of a right-angled triangle, always opposite the right angle (90°)." },
+    { "term": "Median", "definition": "A line segment from a vertex of a triangle to the midpoint of the opposite side. A triangle has 3 medians meeting at the centroid." },
+    { "term": "Altitude", "definition": "The perpendicular line segment from a vertex to the opposite side (or its extension). A triangle has 3 altitudes meeting at the orthocentre." },
+    { "term": "Centroid", "definition": "The point where the three medians of a triangle meet. Also the centre of gravity of the triangle." },
+    { "term": "Exterior angle", "definition": "The angle formed by extending one side of a triangle. It equals the sum of the two non-adjacent interior angles." },
+    { "term": "Pythagorean theorem", "definition": "In a right-angled triangle: (hypotenuse)² = (side 1)² + (side 2)². Written as c² = a² + b²." },
+    { "term": "Pythagorean triplet", "definition": "A set of three whole numbers satisfying the Pythagorean theorem. Common examples: (3,4,5), (5,12,13), (8,15,17)." },
+    { "term": "Triangle inequality", "definition": "The property that the sum of any two sides of a triangle must be greater than the third side." }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Angle Sum Property",
+      "questions": [
+        { "type": "Application", "q": "Two angles of a triangle are 47° and 83°. Find the third angle.", "a": "Third angle = 180° − (47° + 83°) = 180° − 130° = 50°." },
+        { "type": "Application", "q": "Can a triangle have angles 90°, 90°, and 0°?", "a": "No. While 90+90+0=180, an angle of 0° is not a valid angle (it means the two sides coincide — no triangle is formed). A triangle must have three positive angles that sum to 180°." }
+      ]
+    },
+    {
+      "after_concept": "Exterior Angle Property",
+      "questions": [
+        { "type": "Application", "q": "In triangle PQR, ∠P = 48° and ∠Q = 65°. Side QR is extended to S. Find ∠PRS (exterior angle).", "a": "Exterior angle ∠PRS = ∠P + ∠Q = 48° + 65° = 113°. Verify: ∠PRQ = 180° − 113° = 67°. Check: 48 + 65 + 67 = 180° ✓." }
+      ]
+    },
+    {
+      "after_concept": "Pythagorean Theorem",
+      "questions": [
+        { "type": "Application", "q": "A right-angled triangle has legs 9 cm and 12 cm. Find the hypotenuse.", "a": "c² = 9² + 12² = 81 + 144 = 225. c = √225 = 15 cm. Check: (9,12,15) = 3×(3,4,5) ✓." },
+        { "type": "Application", "q": "Is a triangle with sides 7, 24, 25 a right-angled triangle?", "a": "Check: 7² + 24² = 49 + 576 = 625 = 25². Yes, (7, 24, 25) is a Pythagorean triplet → right-angled triangle." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Triangles classified by sides: Scalene (all different), Isosceles (two equal), Equilateral (all equal, each angle 60°).",
+    "Triangles classified by angles: Acute (all < 90°), Right (one = 90°), Obtuse (one > 90°).",
+    "Median → bisects opposite side → 3 medians meet at centroid. Altitude → perpendicular to opposite side → 3 altitudes meet at orthocentre.",
+    "Angle sum property: ∠A + ∠B + ∠C = 180° for ANY triangle.",
+    "Exterior angle = sum of two non-adjacent (remote) interior angles.",
+    "Pythagorean theorem (right-angled triangles only): c² = a² + b², where c = hypotenuse.",
+    "Common Pythagorean triplets: (3,4,5), (5,12,13), (8,15,17), (7,24,25).",
+    "Triangle inequality: sum of any two sides > third side. Check: two smallest > largest.",
+    "Karnataka connections: KRS dam cross-sections, BBMP land surveying, bridge truss triangles, Kodagu house gable angles."
+  ],
+
+  "mind_map": {
+    "root": "Triangle and Its Properties",
+    "branches": [
+      { "branch": "Classification", "sub": ["By sides: Scalene, Isosceles, Equilateral", "By angles: Acute, Right, Obtuse", "Equilateral → each angle = 60°"] },
+      { "branch": "Special Lines", "sub": ["Median → midpoint → centroid", "Altitude → perpendicular → orthocentre"] },
+      { "branch": "Angle Properties", "sub": ["Angle sum = 180°", "Exterior angle = sum of 2 remote interior angles", "Exterior angle > either remote interior angle"] },
+      { "branch": "Pythagorean Theorem", "sub": ["Right triangles only: c² = a² + b²", "Triplets: (3,4,5), (5,12,13), (8,15,17)", "Converse: if c²=a²+b² → right-angled"] },
+      { "branch": "Triangle Inequality", "sub": ["Sum of any 2 sides > 3rd side", "Check: two smallest > largest", "If not → no triangle possible"] }
+    ]
+  },
+
+  "revision_notes": "Chapter 6: Triangle and Its Properties. Classification by sides: scalene (all different), isosceles (two equal, base angles equal), equilateral (all equal, each angle 60°). By angles: acute (all <90°), right (one =90°), obtuse (one >90°). Special lines: median (vertex to midpoint of opposite side, 3 medians meet at centroid), altitude (perpendicular from vertex to opposite side, 3 altitudes meet at orthocentre). Angle sum property: ∠A+∠B+∠C=180° for any triangle. Exterior angle property: exterior angle = sum of two remote interior angles (and > either remote interior angle). Pythagorean theorem (right triangles ONLY): c²=a²+b² where c=hypotenuse. Triplets: (3,4,5),(5,12,13),(8,15,17),(7,24,25) and their multiples. Converse: c²=a²+b² → right angle. Triangle inequality: sum of any 2 sides > 3rd side — check by adding two smallest > largest.",
+
+  "must_remember_facts": [
+    "Angle sum of ANY triangle = 180°.",
+    "Equilateral triangle → each angle = 60°.",
+    "Exterior angle = sum of TWO remote interior angles.",
+    "Pythagorean theorem: c² = a² + b² (right triangles only). c = hypotenuse.",
+    "Triplets: (3,4,5), (5,12,13), (8,15,17), (7,24,25).",
+    "Triangle inequality: two smallest sides must sum > largest side.",
+    "Median → midpoint of opposite side → centroid.",
+    "Altitude → perpendicular to opposite side → orthocentre.",
+    "Isosceles triangle: two equal sides → two equal base angles."
   ]
 }

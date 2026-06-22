@@ -1,96 +1,32 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch04_earliest_cities_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science — History",
+  "textbook": "Our Pasts-I",
+  "chapter_number": 4,
+  "chapter_title": "What Books and Burials Tell Us",
+  "total_cards": 20,
   "cards": [
-    {
-      "id": "fc01",
-      "front": {
-        "en": "What is the core idea of In the Earliest Cities? (FC1)",
-        "hi": "What is the core idea of In the Earliest Cities? (FC1)",
-        "kn": "What is the core idea of In the Earliest Cities? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc02",
-      "front": {
-        "en": "Why is In the Earliest Cities important? (FC2)",
-        "hi": "Why is In the Earliest Cities important? (FC2)",
-        "kn": "Why is In the Earliest Cities important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc03",
-      "front": {
-        "en": "What is the core idea of In the Earliest Cities? (FC3)",
-        "hi": "What is the core idea of In the Earliest Cities? (FC3)",
-        "kn": "What is the core idea of In the Earliest Cities? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc04",
-      "front": {
-        "en": "Why is In the Earliest Cities important? (FC4)",
-        "hi": "Why is In the Earliest Cities important? (FC4)",
-        "kn": "Why is In the Earliest Cities important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc05",
-      "front": {
-        "en": "What is the core idea of In the Earliest Cities? (FC5)",
-        "hi": "What is the core idea of In the Earliest Cities? (FC5)",
-        "kn": "What is the core idea of In the Earliest Cities? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    }
+    { "id": "fc01", "type": "Recall", "difficulty": "Easy", "front": "What is the Rigveda? When was it composed and in which language?", "back": "The Rigveda is the oldest of the four Vedas (ancient sacred texts of India). It was composed approximately 3500 years ago (around 1500 BCE) in Sanskrit — an ancient and sophisticated language. It contains 1028 hymns praising various gods and is the most important literary source for the early Vedic period. It was originally transmitted orally before being written down.", "memory_hook": "RIGVEDA = Really Important Great Verses, Extremely Detailed, Ancient. 1028 hymns + 3500 years + oral-then-written = India's oldest surviving literary monument!" },
+    { "id": "fc02", "type": "Recall", "difficulty": "Easy", "front": "Name three gods mentioned in the Rigveda and their associations.", "back": "Three important gods from the Rigveda: (1) Agni — god of fire; fire was central to Vedic rituals and sacrifices; (2) Indra — god of thunder, storms, and war; the most celebrated god in the Rigveda; many hymns celebrate his victories; (3) Soma — associated with a plant and a ritual drink made from it; used in Vedic ceremonies. Other gods include Varuna (cosmic order) and Saraswati (associated with rivers and learning).", "memory_hook": "AIS = Agni (fire), Indra (war/thunder), Soma (plant ritual drink). Remember: AIS = Ancient Indian Superstars of the Vedic pantheon! Each name tells you their domain: Agni = 'agni' still means fire in Hindi/Kannada today!" },
+    { "id": "fc03", "type": "Definition", "difficulty": "Easy", "front": "What does 'oral tradition' mean? How does it relate to the Rigveda?", "back": "Oral tradition is the practice of transmitting knowledge, stories, or texts through spoken word and memorisation — not through writing. The Rigveda was an oral tradition for centuries: Vedic priests (Brahmins) memorised all 1028 hymns and taught them to students through precise repetition. The transmission was so accurate that the text remained virtually unchanged for centuries before being written down. Oral tradition requires great memory skill and is still practised in some Indian communities today.", "memory_hook": "ORAL TRADITION = The Ultimate Human Memory Challenge. Imagine memorising a book of 1028 poems perfectly — every word, every syllable — without writing it down, and teaching it to someone who does the same. That is what Vedic priests did for centuries!" },
+    { "id": "fc04", "type": "Recall", "difficulty": "Easy", "front": "What does the Rigveda tell us about the economy and warfare of the Vedic period?", "back": "The Rigveda reveals that: (1) Cattle were extremely important as wealth — many hymns mention cows; cattle raids (stealing another group's cows) were a source of conflict; (2) Horses were highly valued — they were used to pull chariots in battle; chariot warfare was an important part of Vedic military culture; (3) The 'jana' (group/people) was an important social unit — different janas competed and sometimes fought each other. Together, cattle and horses represent the two most important forms of wealth and military power in the Vedic period.", "memory_hook": "VEDIC ECONOMY = COWS + HORSES. Cows = wealth (the ancient savings account!). Horses = military power (the ancient tank!). If you had many cows and fast horses in the Vedic period, you were rich and powerful!" },
+    { "id": "fc05", "type": "Recall", "difficulty": "Easy", "front": "What is a megalith? What does the word mean? Where are megaliths found in India?", "back": "A megalith (from Greek 'mega' = large + 'lithos' = stone) is a large stone structure built over or around a burial site. They are found across South India (Karnataka, Tamil Nadu, Kerala, Andhra Pradesh) and Northeast India. Major megalithic sites in Karnataka include Hire Benakal (Koppal district) and Brahmagiri (Hassan district). Megaliths in South India generally date from approximately 3000 to 2000 years ago (1500–200 BCE).", "memory_hook": "MEGA-LITH = Massively Enormous Grave Accompanied by Large Interesting Tall Huge (stones). Or simpler: BIG STONE BURIAL. Stonehenge in England is the world's most famous megalith — India has thousands of its own, especially in Karnataka!" },
+    { "id": "fc06", "type": "Recall", "difficulty": "Easy", "front": "What burial goods are typically found inside megalithic graves? What do they reveal?", "back": "Typical megalithic burial goods: (1) Pottery — pots with food and water for the dead person's use in the afterlife; (2) Iron tools and weapons — axes, swords, spearheads; (3) Horse bones — horses were apparently buried with high-status individuals; (4) Ornaments — beads, bangles. These burial goods reveal: (a) A belief in life after death — the dead would need food, tools, and weapons; (b) Social status — graves with richer goods belonged to higher-status individuals; (c) Knowledge of iron technology.", "memory_hook": "BURIAL GOODS = PITH: Pottery, Iron tools, (horse) bones, ornamentation — PITH in the grave = the person's 'pith' (essence/needs) for the afterlife! Rich PITH = important person. Simple PITH = ordinary person." },
+    { "id": "fc07", "type": "Recall", "difficulty": "Easy", "front": "What is Inamgaon and what is significant about the burials found there?", "back": "Inamgaon is an archaeological site on the banks of the Ghod river (a tributary of the Bhima) in Maharashtra. A farming community lived here about 3600 years ago. Significant burial features: (1) Adults were buried in large pots under the floors of their own houses — an unusual practice; (2) Children were buried differently, in smaller urns; (3) One special burial — a man in a large pot surrounded by many additional pots — suggests he was a leader or high-status individual; (4) This difference in burial treatment shows social stratification existed even in this farming community.", "memory_hook": "INAMGAON = In A Mud (Ghod river bank) Ancient Ground Of Notable-person burial. The man buried with MANY POTS was probably the village LEADER — ancient people literally buried their leader in a VIP package!" },
+    { "id": "fc08", "type": "Definition", "difficulty": "Easy", "front": "What is Sanskrit? Why is it significant in world history?", "back": "Sanskrit is the ancient language in which the Vedas (including the Rigveda) were composed. It is significant because it is part of the Indo-European language family — the same family that includes ancient languages like Latin (Rome), Greek (Greece), and Avestan (ancient Persia), and modern languages like Hindi, Kannada, Marathi, French, German, and English. This shared language family suggests ancient migrations, connections, and common origins between peoples of South Asia and Europe.", "memory_hook": "SANSKRIT = South Asia's Noble Script and Root In Traditional Knowledge. Its relatives: Latin, Greek, Persian = the ancient 'cousins'. Even English words like 'mother' (Sanskrit: mātar, Latin: mater, Greek: mētēr) show the family connection!" },
+    { "id": "fc09", "type": "Recall", "difficulty": "Easy", "front": "What does the Rigveda say about the social groups of the Vedic period?", "back": "The Rigveda refers to two distinct groups: (1) 'Aryas' — the group who composed and used the Vedas; the term may mean 'noble' or 'respectable'; they valued cattle and spoke Sanskrit; (2) 'Dasas' or 'Dasyus' — described differently from the aryas; possibly different cultural or linguistic groups who did not practice Vedic rituals. The exact meaning of these terms and their social implications are debated by historians. The Rigveda also uses 'jana' (group/people) to describe different communities who sometimes competed or fought.", "memory_hook": "ARYAS vs DASAS = two different groups in the Rigveda. Think of them as two teams with different customs, languages, and rituals. The exact nature of the difference is still debated — but it clearly mattered to the Rigveda's composers!" },
+    { "id": "fc10", "type": "Concept", "difficulty": "Easy", "front": "How do burials provide evidence of 'social stratification' (differences in social status)?", "back": "Social stratification means differences in wealth, power, or status within a society. Burials provide evidence of this in two ways: (1) Quantity of burial goods — a grave with many rich items (gold ornaments, multiple pots, iron weapons) belonged to a high-status person; a grave with few simple items belonged to an ordinary person; (2) Treatment of the body — a large stone structure (megalith) over a grave shows the person was important enough to warrant a monument, while a simple pit burial suggests ordinary status. At Inamgaon, the man with many pots vs ordinary adults with fewer pots shows exactly this stratification.", "memory_hook": "MORE POTS = MORE POWER. Ancient people could not tweet their status or post on social media — they showed it through the SIZE of their gravestone and the RICHNESS of their burial goods. Read the grave = read the social hierarchy!" },
+    { "id": "fc11", "type": "Why/How", "difficulty": "Moderate", "front": "Why was the Rigveda not written down for centuries? What does this tell us about knowledge transmission in ancient India?", "back": "The Rigveda was not written down for a long time because: (1) Writing was not widespread in early Vedic society; (2) Vedic priests believed the sacred power of the hymns came from correct pronunciation and sound — oral transmission preserved the exact sounds in a way early writing systems could not; (3) Oral transmission was a way of controlling access to sacred knowledge — only those properly initiated and trained could learn the Vedas. This tells us that ancient India had an extraordinarily sophisticated oral tradition capable of preserving thousands of lines of poetry with perfect accuracy across centuries.", "memory_hook": "ORAL VEDAS = Sound is Sacred! Vedic priests believed the hymns had power in their SOUND — not just their meaning. Writing down words loses the exact pronunciation. So they preserved the sound through human memory — the most faithful recording device of the ancient world!" },
+    { "id": "fc12", "type": "Why/How", "difficulty": "Moderate", "front": "Why do historians think that horse bones in some (but not all) megalithic graves indicate social status?", "back": "Horses in ancient India were rare, expensive, and associated with power — they were used for warfare (chariots) and by rulers. Not everyone could afford or own a horse. The fact that horse bones appear in SOME megalithic graves but not ALL suggests that horses were associated with high-status individuals — only the most important or wealthy people were buried with their horses. This parallels how today some people are buried with their most precious possessions while most are not. The selective presence of horse bones is a marker of social differentiation.", "memory_hook": "HORSE IN GRAVE = VERY IMPORTANT PERSON. Horses were ancient India's Ferrari — expensive, powerful, associated with the elite. Finding horse bones in a burial = finding a Ferrari in someone's driveway today. Only the VIPs got horse funerals!" },
+    { "id": "fc13", "type": "Concept", "difficulty": "Moderate", "front": "How does the study of burials complement (add to) what the Rigveda tells us about ancient society?", "back": "The Rigveda and burials are complementary sources: the Rigveda gives us the ideas, beliefs, language, and social values of one specific group (priestly composers in northwest India); burials give us physical, material evidence of how all kinds of people — not just priests and rulers — actually lived, died, and were commemorated across a much wider geographic area (especially South India). The Rigveda doesn't mention megaliths; megaliths don't explain the Vedic gods. Together they build a richer, more diverse picture of ancient Indian society than either source alone.", "memory_hook": "RIGVEDA = what people SAID they believed. BURIALS = what people actually DID. The two together = a complete picture. Like how someone's diary tells you their thoughts and their lifestyle tells you their actions — you need both for the full person!" },
+    { "id": "fc14", "type": "Recall", "difficulty": "Easy", "front": "Name two important megalithic sites in Karnataka and what was found there.", "back": "Two important Karnataka megalithic sites: (1) Hire Benakal (Koppal district) — one of the largest megalithic sites in India; contains hundreds of stone circles and cist graves; burial goods include iron tools, black and red pottery, ornaments, and horse bones; (2) Brahmagiri (Hassan district) — excavated by Mortimer Wheeler in 1947; shows both Neolithic and megalithic layers; burial goods include iron implements, black and red pottery, and evidence of cattle and horse herding. Both sites date from approximately 1200–200 BCE.", "memory_hook": "HB + B = Hire Benakal (Koppal) + Brahmagiri (Hassan) = Karnataka's two megalithic VIP sites. Together they are like Karnataka's own Stonehenge — ancient burial grounds that tell the story of the Deccan's ancient people!" },
+    { "id": "fc15", "type": "Why/How", "difficulty": "Moderate", "front": "Why do pottery with food and water in ancient graves suggest a belief in life after death?", "back": "People only pack provisions for a journey if they believe the journey will be made. Placing food and water in a grave suggests the mourners believed the dead person would 'travel' to an afterlife where they would need sustenance. This is direct evidence of a religious belief — that death is not the end, but a transition to another existence. This belief in the afterlife appears across many ancient cultures worldwide (Egypt, Mesopotamia, China) and the Indian megaliths, showing it is a near-universal human response to death.", "memory_hook": "FOOD IN GRAVE = PACKED FOR A JOURNEY. You don't pack lunch for someone who is just going to sleep. You pack it for someone going on a TRIP. Ancient grave food = ancient people's belief that death = the start of the greatest journey of all!" },
+    { "id": "fc16", "type": "Application", "difficulty": "Moderate", "front": "Why is it significant that different communities in ancient India had different burial practices?", "back": "Different burial practices (burial in megaliths in South India, burial in pots under house floors at Inamgaon, burial in pits near rivers, cremation in some Vedic communities) show that ancient India was NOT a culturally uniform society. Different communities — in different regions, with different religions and customs — developed their own distinct practices for dealing with death. This cultural diversity is important because it shows that 'ancient India' was a complex, varied, multi-cultural world, not a single homogeneous civilisation.", "memory_hook": "DIFFERENT BURIALS = DIFFERENT CULTURES. If everyone in India buried people the same way, it would suggest one uniform culture. The VARIETY of burials is proof of DIVERSITY — ancient India was a mosaic of different peoples and traditions!" },
+    { "id": "fc17", "type": "Application", "difficulty": "Hard", "front": "A student says: 'The Rigveda tells us everything about ancient Indian society.' What are the limitations of this claim?", "back": "The claim is an overstatement for these reasons: (1) Geographic limitation — the Rigveda reflects society in northwest India, not across the entire subcontinent; (2) Social limitation — it was composed by and for Brahmins (priests), reflecting their perspective; farmers, crafts persons, women, and other groups are barely represented; (3) Temporal limitation — it reflects one period (about 3500 years ago) and one culture; (4) Topic limitation — it focuses on religious hymns and rituals, not everyday life, economics, or politics in detail; (5) Language limitation — it was written in Sanskrit, which only a literate minority could read. For a full picture, the Rigveda must be combined with archaeological sources like megaliths and sites like Inamgaon.", "memory_hook": "RIGVEDA LIMITATIONS = GSTL: Geographic, Social, Temporal, Literacy. No source tells us EVERYTHING — the Rigveda is one piece of the puzzle. Great for priestly views; poor for farmers' lives; silent on South India!" },
+    { "id": "fc18", "type": "Application", "difficulty": "Hard", "front": "How does the fact that Sanskrit is part of the Indo-European language family help historians understand ancient migrations and connections?", "back": "The Indo-European language family connection is historically significant because it suggests that the ancestors of Sanskrit speakers and Latin/Greek speakers shared a common origin and may have migrated from a common homeland (possibly in the Eurasian steppes or Central Asia) in different directions. Similar words across Sanskrit, Latin, and Greek for basic concepts (mother, father, fire, water) suggest these languages diverged from a common ancestor language. For historians, this language connection provides indirect evidence of ancient human migrations and cultural exchanges across a vast geographic area — from India to Europe — thousands of years ago.", "memory_hook": "INDO-EUROPEAN = One Family, Many Languages. Sanskrit 'mātar' = Latin 'mater' = Greek 'mētēr' = English 'mother'. Same word, same meaning, 4000 years and 5000 km apart! Language is humanity's deepest family album." },
+    { "id": "fc19", "type": "Why/How", "difficulty": "Hard", "front": "How does the Inamgaon burial evidence challenge a simple view of ancient Indian society as 'egalitarian' (everyone equal)?", "back": "A simple view might be: 'In ancient farming communities, everyone was equal.' Inamgaon challenges this: adults were buried with varying numbers of pots; one man had a dramatically larger burial than others (large pot + many surrounding pots). Children were buried differently from adults. These differences in burial treatment reflect real differences in social status during life — the man with more pots was probably a leader or higher-status individual. Even in a small farming community of 3600 years ago, social stratification existed. This challenges the romantic idea of ancient societies as simple and equal.", "memory_hook": "INAMGAON = NOT all equal. The man with MANY POTS = ancient VIP in a world where we might expect everyone to be equal. Social stratification is not modern — it goes back at least 3600 years in the subcontinent!" },
+    { "id": "fc20", "type": "Why/How", "difficulty": "Hard", "front": "Why do historians say we should study both the Rigveda AND burials (megaliths, Inamgaon) to understand ancient Indian society?", "back": "Using multiple sources is fundamental to good historical practice. The Rigveda tells us about: religious beliefs, gods, language (Sanskrit), social groups, and the importance of cattle and horses — from the perspective of the composers (priests) in northwest India. Burials and megaliths tell us about: material life, social stratification, beliefs in the afterlife, iron technology, and communities in South India and Maharashtra — from physical evidence left by all kinds of people. Neither source alone gives a complete picture. Together they show ancient India's complexity — its regional diversity, social stratification, cultural variation, and the gap between what people said (in texts) and what they actually did (in burial practices).", "memory_hook": "BOOKS + BURIALS = COMPLETE PICTURE. Books tell you what people BELIEVED. Burials show what people DID. Both together = the full story. One without the other is like judging a person only by what they say, or only by what they do!" }
   ]
 }

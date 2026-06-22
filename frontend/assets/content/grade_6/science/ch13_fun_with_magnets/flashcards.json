@@ -1,96 +1,172 @@
 {
-  "version": "1.0",
-  "topic_id": "science_grade6_ch13_fun_with_magnets_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 13,
+  "chapter_title": "Fun with Magnets",
+  "total_cards": 20,
   "cards": [
     {
       "id": "fc01",
-      "front": {
-        "en": "What is the core idea of Fun with Magnets? (FC1)",
-        "hi": "What is the core idea of Fun with Magnets? (FC1)",
-        "kn": "What is the core idea of Fun with Magnets? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What is a magnet?",
+      "back": "A magnet is a material that attracts iron, nickel, and cobalt, and has two poles (North and South) where the magnetic force is strongest. Magnets can be natural (lodestone) or artificial (bar magnet, horseshoe magnet).",
+      "memory_hook": "Magnet = Material that pulls iron. Three words, three M's. The INC club: Iron, Nickel, Cobalt — only they get invited to the magnet party."
     },
     {
       "id": "fc02",
-      "front": {
-        "en": "Why is Fun with Magnets important? (FC2)",
-        "hi": "Why is Fun with Magnets important? (FC2)",
-        "kn": "Why is Fun with Magnets important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Name three magnetic materials and three non-magnetic materials.",
+      "back": "Magnetic: iron, nickel, cobalt (and their alloys like steel). Non-magnetic: wood, plastic, aluminium, copper, glass, rubber. A key misconception: not all metals are magnetic — aluminium and copper are metals but are non-magnetic.",
+      "memory_hook": "INC = Iron, Nickel, Cobalt — the only three magnetic elements. Everything else (including most metals!) is non-magnetic."
     },
     {
       "id": "fc03",
-      "front": {
-        "en": "What is the core idea of Fun with Magnets? (FC3)",
-        "hi": "What is the core idea of Fun with Magnets? (FC3)",
-        "kn": "What is the core idea of Fun with Magnets? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What are the poles of a magnet? How many poles does every magnet have?",
+      "back": "The poles are the two ends of a magnet where the magnetic force is strongest. Every magnet has exactly two poles: North (N) and South (S). If you cut a magnet in half, each piece still has both a North and a South pole — you can never isolate a single pole.",
+      "memory_hook": "Poles always come in pairs — like shoes. You can never have just one pole, just as you can't have just one shoe."
     },
     {
       "id": "fc04",
-      "front": {
-        "en": "Why is Fun with Magnets important? (FC4)",
-        "hi": "Why is Fun with Magnets important? (FC4)",
-        "kn": "Why is Fun with Magnets important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "State the law of magnetic poles.",
+      "back": "Like poles repel each other; unlike poles attract each other. N–N = repulsion. S–S = repulsion. N–S = attraction. This is the fundamental law of magnetism, similar to the rule for electric charges (like charges repel, unlike charges attract).",
+      "memory_hook": "Opposites attract, likes fight. N loves S. N hates N. S hates S. Think of it as: same personality = conflict, different personality = friendship."
     },
     {
       "id": "fc05",
-      "front": {
-        "en": "What is the core idea of Fun with Magnets? (FC5)",
-        "hi": "What is the core idea of Fun with Magnets? (FC5)",
-        "kn": "What is the core idea of Fun with Magnets? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What happens when a bar magnet is freely suspended? Why?",
+      "back": "A freely suspended bar magnet always comes to rest pointing in the north–south direction, with the North pole towards geographic north and the South pole towards geographic south. This happens because Earth itself acts like a giant bar magnet, and the suspended magnet aligns with Earth's magnetic field.",
+      "memory_hook": "Free magnet = compass. Earth is a huge magnet. Earth calls the little magnet to line up. No matter where you are on Earth, a free magnet always says: 'THIS WAY IS NORTH.'"
+    },
+    {
+      "id": "fc06",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a compass? How does it work?",
+      "back": "A compass is a device used to find direction. It consists of a small magnetised needle balanced on a pivot (sharp point) so it can rotate freely. The needle always aligns in the north–south direction because it is a magnet responding to Earth's magnetic field. The marked North end of the needle always points to geographic north.",
+      "memory_hook": "Compass = Captive Magnet. It's just a small magnet trapped on a pin, forever pointing north. Once you know north, you know all four directions."
+    },
+    {
+      "id": "fc07",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why does Earth act like a magnet? What does this mean for navigation?",
+      "back": "Earth has a large iron–nickel core that generates a magnetic field extending far into space. This gives Earth a magnetic North Pole (near geographic north) and a magnetic South Pole (near geographic south). For navigation, this means any freely suspended magnet on Earth will align with this field, making compass-based direction finding possible anywhere on Earth.",
+      "memory_hook": "Earth = giant iron ball with a magnetic soul. This giant magnet controls every compass on Earth. Sailors have been thanking Earth's iron core for 1000+ years of navigation."
+    },
+    {
+      "id": "fc08",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What is lodestone? What is its significance?",
+      "back": "Lodestone (also called magnetite) is a naturally occurring magnetic rock made of iron oxide (Fe₃O₄). It is the first natural magnet known to humans. The legendary discovery: a Greek shepherd named Magnes noticed his iron-tipped staff stuck to a rock — that rock was lodestone. Lodestone was used as the first compass by ancient Chinese and Greek navigators.",
+      "memory_hook": "Lode-stone = LOAD stone — it LOADS (pulls) iron to itself. Named after Magnes the shepherd → the word 'magnet' comes from his name (or from Magnesia, a region in Greece)."
+    },
+    {
+      "id": "fc09",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "How do you make a magnet using the single-stroke method?",
+      "back": "Place an iron nail/strip on a flat surface. Take one pole (say, North pole) of a bar magnet and stroke it along the iron object from one end to the other, always in the SAME direction. Lift the magnet away and repeat. After many strokes in the same direction, the iron object becomes a weak magnet. The key rule: always stroke in ONE direction only with ONE pole — do not stroke back and forth.",
+      "memory_hook": "Stroke like combing hair — only one direction, never back and forth. Back-and-forth strokes cancel each other out. One direction = all iron domains line up = magnetism!"
+    },
+    {
+      "id": "fc10",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is an electromagnet? Give two uses.",
+      "back": "An electromagnet is a temporary magnet made by wrapping a coil of insulated copper wire around an iron core and passing electric current through the wire. It is magnetic ONLY when current flows — switch off the current and it loses its magnetism. Uses: (1) Cranes in scrapyards to lift and drop iron/steel scrap. (2) Electric bells and buzzers. (3) MRI machines in hospitals. (4) Electric motors in fans and pumps.",
+      "memory_hook": "Electro-magnet = Electricity-powered magnet. ON = magnetic, OFF = just an iron rod. The switch is the superpower — you can control when it is a magnet."
+    },
+    {
+      "id": "fc11",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "How does a magnet lose its magnetic properties? Name three ways.",
+      "back": "A magnet loses its magnetism (demagnetises) when: (1) Heated strongly — heat gives energy to magnetic domains, causing them to become randomly oriented and cancelling out the magnetism. (2) Hammered or dropped hard — physical shock disrupts the aligned domains. (3) Stored without keepers — a bar magnet stored alone gradually loses magnetism; placing soft iron keepers across its poles preserves it.",
+      "memory_hook": "Three H's destroy magnets: Heat, Hit (hammer), Hurl (drop). Treat your magnets gently — no heat, no drops, no shock."
+    },
+    {
+      "id": "fc12",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "A student finds an old metal object and wonders if it is magnetic. Describe a simple test.",
+      "back": "Bring a known bar magnet close to the object (without touching). If the object is attracted to the magnet, it is a magnetic material. If there is no attraction, it is non-magnetic. To confirm it is actually a magnet (not just a magnetic material), check if it also repels one pole of the bar magnet — a magnet will both attract one pole AND repel the other pole; a simple magnetic material will only attract, never repel.",
+      "memory_hook": "Attract only = magnetic material. Attract AND repel = actual magnet. Repulsion is the PROOF of a magnet — a non-magnet can never repel."
+    },
+    {
+      "id": "fc13",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "Is aluminium magnetic? Is steel magnetic? Explain the difference.",
+      "back": "Aluminium is NOT magnetic — it is a metal but is not attracted by a magnet. Steel IS magnetic — it is an alloy of iron and carbon, and since iron is magnetic, steel is also magnetic. This is why steel utensils, scissors, and pins are attracted to magnets, but aluminium foil and aluminium containers are not.",
+      "memory_hook": "Not all silver-coloured metals are magnetic! Aluminium = shiny but invisible to magnets. Steel = shiny AND attracted. The trick: if it's an iron alloy → magnetic. If not → not magnetic."
+    },
+    {
+      "id": "fc14",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "What happens if you cut a bar magnet into two pieces?",
+      "back": "Each piece becomes a complete magnet with its own North and South poles. You cannot isolate a single pole. Even if you cut a magnet into 100 pieces, each tiny piece will have both a North and a South pole. This is because magnetism arises from tiny magnetic 'domains' throughout the material — each domain has both poles.",
+      "memory_hook": "Magnets are like worms — cut one in half and you get two complete worms! Each piece is a complete magnet. You will NEVER get a one-pole magnet by cutting."
+    },
+    {
+      "id": "fc15",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Name four everyday devices that use magnets or magnetic principles.",
+      "back": "1. Compass — uses a magnetised needle to find direction. 2. Electric motor — uses electromagnets to convert electrical energy to rotational motion (used in fans, pumps, mixers). 3. Speakers — use a magnet to vibrate a membrane to produce sound. 4. MRI machine — uses powerful electromagnets to image the human body. 5. Refrigerator door — uses a flexible magnet strip to keep the door sealed.",
+      "memory_hook": "COMES: Compass, mOtor, MEmories (MRI), Speaker. Magnets are invisible workers in most electrical gadgets you use every day."
+    },
+    {
+      "id": "fc16",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What are magnetic keepers? Why are they used?",
+      "back": "Magnetic keepers are small bars of soft iron placed across the poles of a bar magnet (or horseshoe magnet) when storing it. They form a closed magnetic circuit that prevents the magnetic field from spreading out and weakening over time. Without keepers, a magnet gradually loses its strength. For horseshoe magnets, a single iron bar across both poles acts as the keeper.",
+      "memory_hook": "Keepers KEEP the magnetism in. Without them, the magnet's energy slowly leaks out. Think of keepers as a cap on a bottle — without the cap, the contents escape."
+    },
+    {
+      "id": "fc17",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "Differentiate between a bar magnet, a horseshoe magnet, and an electromagnet.",
+      "back": "Bar magnet: Rectangular/cylindrical permanent magnet with N and S at its two ends. Used in labs and compasses. Horseshoe magnet: U-shaped permanent magnet — both poles face the same direction, making it stronger for picking up objects. Electromagnet: Iron core wrapped with wire coil; magnetic only when current flows; strength can be varied by changing current; can be switched ON/OFF. This makes electromagnets far more useful industrially than permanent magnets.",
+      "memory_hook": "Bar = straight (N at one end, S at other). Horseshoe = U-shaped (N and S facing same way = double power). Electro = switchable. Think of them as: simple → curved → powered versions of the same idea."
+    },
+    {
+      "id": "fc18",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why is the magnetic force strongest at the poles of a magnet?",
+      "back": "The magnetic field lines are most concentrated (densest) at the poles of a magnet. In the middle of the magnet, field lines are spread out and weaker. At the poles, the field lines emerge or enter in large numbers, creating a strong force. This is why iron filings cluster most thickly at the poles when sprinkled near a magnet.",
+      "memory_hook": "Poles = traffic junctions. All the magnetic 'traffic' (field lines) converges at the poles. The busier the junction, the more force you feel there."
+    },
+    {
+      "id": "fc19",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "How would you use a bar magnet to find the north direction without a compass?",
+      "back": "Tie a thread to the middle of the bar magnet and suspend it freely so it can rotate without friction. Wait for it to stop moving. The end that points towards geographic north is the North pole of the magnet. Now you know the north direction. Alternative: Float the magnet on a piece of thermocol in a bowl of water — it will rotate to align north–south.",
+      "memory_hook": "Hang it, let it spin, wait — it will always tell you where North is. Earth's magnetic field does the work; you just need to listen (by watching the magnet settle)."
+    },
+    {
+      "id": "fc20",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Karnataka has large iron ore deposits. How is this connected to magnetism? Name the district.",
+      "back": "Ballari (formerly Bellary) district in Karnataka has large deposits of iron ore, including magnetite (Fe₃O₄) — a naturally magnetic iron ore that is the original 'lodestone'. Iron is the classic magnetic material. These iron ore deposits are mined by NMDC and used to produce steel (which is also magnetic). Karnataka's iron ore is thus directly connected to the history and application of magnetism — both the natural kind (lodestone) and the artificial kind (iron/steel tools and magnets).",
+      "memory_hook": "Ballari = Bellary = Karnataka's iron belt. Where there is iron ore, there is magnetism. The same iron that made India's ancient swords now helps make magnets and motors."
     }
   ]
 }

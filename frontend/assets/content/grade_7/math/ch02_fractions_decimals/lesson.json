@@ -1,114 +1,201 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 7,
-  "subject": "math",
-  "chapter_id": "ch02_fractions_decimals",
-  "chapter_title": {
-    "en": "Fractions and Decimals",
-    "hi": "भिन्न एवं दशमलव",
-    "kn": "ಭಿನ್ನರಾಶಿಗಳು ಮತ್ತು ದಶಮಾಂಶಗಳು"
+  "subject": "Mathematics",
+  "textbook": "Mathematics — Textbook for Class VII",
+  "chapter_number": 2,
+  "chapter_title": "Fractions and Decimals",
+  "estimated_study_time_minutes": 65,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Recall types of fractions: proper, improper, mixed fractions",
+    "Multiply a fraction by a whole number and a fraction by a fraction",
+    "Divide a whole number by a fraction and a fraction by a fraction",
+    "Understand multiplication and division of decimal numbers",
+    "Multiply and divide decimals by 10, 100, and 1000",
+    "Convert between fractions and decimals",
+    "Apply fraction and decimal operations to real-life problems",
+    "Find a fraction of a quantity and apply in everyday contexts"
+  ],
+
+  "prerequisite_knowledge": [
+    "Types of fractions: proper (numerator < denominator), improper (numerator ≥ denominator), mixed numbers",
+    "Equivalent fractions, simplest form (HCF method)",
+    "Addition and subtraction of fractions with like and unlike denominators from Class VI",
+    "Place value of decimals — tenths, hundredths, thousandths"
+  ],
+
+  "introduction": {
+    "why_important": "Fractions and decimals are the language of precision. Whenever we measure, share, or calculate parts of a whole, we need fractions and decimals. Recipes (½ cup), money (₹12.50), measurements (2.5 km), discounts (¾ of the price) — all use these concepts constantly.",
+    "real_life_relevance": "A recipe calls for 2½ cups of flour but you want to make half the recipe — you need to multiply a fraction (½ × 2½). You buy fabric at ₹125.50 per metre — you need decimal multiplication. A shop offers ¾ discount — fraction of a quantity. Fuel efficiency (km per litre) uses decimal division.",
+    "karnataka_context": "Karnataka's silk saree weavers measure thread in fractions of metres. Rice is sold in kg with decimal weights (2.5 kg, 0.75 kg). Petrol prices in Karnataka are given as decimals (₹102.54/litre). Ragi production statistics use decimal tonnes. Students dividing snacks equally at school use fractions every day.",
+    "connection_to_previous_learning": "Class VI introduced fractions and their addition/subtraction. Class VII extends to multiplication and division of fractions and decimals — the complete set of all four operations."
   },
-  "topics": [
+
+  "story_summary": {
+    "characters": [
+      {"name": "Proper/Improper/Mixed Fractions", "role": "The three forms of fractions — understanding how to convert between them is essential for all operations"},
+      {"name": "Reciprocal", "role": "The key to fraction division — dividing by a fraction means multiplying by its reciprocal"},
+      {"name": "Decimal Place Value", "role": "Understanding tenths, hundredths, thousandths makes multiplication and division by powers of 10 intuitive"}
+    ],
+    "plot": [
+      "The chapter opens by reviewing fraction types: proper (3/5), improper (7/4), and mixed (1¾).",
+      "It develops multiplication of a fraction by a whole number: (2/3) × 6 = 12/3 = 4.",
+      "It extends to fraction × fraction: (2/3) × (3/4) = 6/12 = 1/2 — multiply numerators, multiply denominators.",
+      "It introduces the reciprocal of a fraction (flip numerator and denominator) as the key tool for division.",
+      "It develops division: a ÷ (b/c) = a × (c/b) — dividing by a fraction = multiplying by its reciprocal.",
+      "It transitions to decimals — multiplication: shifting the decimal point; 0.3 × 0.4 = 0.12.",
+      "It covers multiplication and division of decimals by 10, 100, 1000 — shifting the decimal point right (×) or left (÷).",
+      "The chapter ends with word problems integrating fraction and decimal operations."
+    ],
+    "moral": "Fractions and decimals are two sides of the same coin — every fraction can be written as a decimal and vice versa. Mastering the four operations on both gives you a complete toolkit for mathematical precision."
+  },
+
+  "core_concepts": [
     {
-      "topic_id": "math_grade7_ch02_fractions_decimals_basics",
-      "title": {
-        "en": "Fractions and Decimals - Fundamentals",
-        "hi": "भिन्न एवं दशमलव - बुनियादी बातें",
-        "kn": "ಭಿನ್ನರಾಶಿಗಳು ಮತ್ತು ದಶಮಾಂಶಗಳು - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Identify numerators and denominators",
-        "Convert unlike fractions to equivalent like fractions using LCM",
-        "Add and subtract fractions and convert to decimals"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Fractions and Decimals. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम भिन्न एवं दशमलव का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಭಿನ್ನರಾಶಿಗಳು ಮತ್ತು ದಶಮಾಂಶಗಳು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "Fractions represent parts of a whole, consisting of a numerator (top) and denominator (bottom). Unlike fractions have different denominators and require finding the Least Common Multiple (LCM) before adding or subtracting.",
-        "hi": "भिन्न एक संपूर्ण के भागों को दर्शाती है, जिसमें एक अंश (ऊपर) और हर (नीचे) होता है॥",
-        "kn": "ಭಿನ್ನರಾಶಿಗಳು ಒಂದು ಪೂರ್ಣ ವಸ್ತುವಿನ ಭಾಗಗಳನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತವೆ."
-      },
-      "worked_example": {
-        "problem": "Calculate 1/3 + 2/5 = ?",
-        "steps": [
-          {
-            "en": "Step 1: Find the LCM of denominators 3 and 5, which is 15.",
-            "hi": "चरण 1: हरों 3 और 5 का LCM ज्ञात करें, जो कि 15 है॥",
-            "kn": "ಹಂತ 1: ಛೇದಗಳಾದ 3 ಮತ್ತು 5 ರ ಲಸಾಅ ಕಂಡುಹಿಡಿಯಿರಿ, ಅದು 15 ಆಗಿದೆ."
-          },
-          {
-            "en": "Step 2: Convert fractions: 1/3 becomes 5/15, and 2/5 becomes 6/15.",
-            "hi": "चरण 2: भिन्नों को बदलकर 5/15 हो जाता है, और 2/5 बदलकर 6/15 हो जाता है॥",
-            "kn": "ಹಂತ 2: ಭಿನ್ನರಾಶಿಗಳನ್ನು ಪರ಻fವರ್ತಿಸಿ: 1/3 ಇದು 5/15 ಆಗುತ್ತದೆ, ಮತ್ತು 2/5 ಇದು 6/15 ಆಗುತ್ತದೆ."
-          },
-          {
-            "en": "Step 3: Add the numerators: 5/15 + 6/15 = 11/15.",
-            "hi": "चरण 3: अंशों को जोड़ें: 5/15 + 6/15 = 11/15॥",
-            "kn": "ಹಂತ 3: ಅವನ್ನು ಛೇದದಿಂದ ಭಾಗಿಸುವ ಮುಲಕ ಭಿನ್ನರಾಶಿಯನ್ನು ದಶಮಾಂಶಕ್ಕೆ ಪರ಻fವರ್ತಿಸಬಹುದು."
-          }
-        ],
-        "answer": "11/15"
-      },
-      "key_points": {
-        "en": [
-          "Never add the denominators together.",
-          "LCM is the smallest multiple shared by two numbers.",
-          "Fractions can be converted to decimals by dividing numerator by denominator."
-        ],
-        "hi": [
-          "हरों को कभी भी आपस में न जोड़ें॥",
-          "LCM दो संख्याओं द्वारा साज्हा किया गया सबसे छोटा गुणज है॥",
-          "भिन्नों को दशमलव में बदलने के लिए अंश को हर से भाग दिया जाता है॥"
-        ],
-        "kn": [
-          "ಛೇದಗಳನ್ನು ಕೂಡಬೇಡಿ.",
-          "ಲಸಾಅ ಮೂಲಕ ಹೋಲಿಸಬಹುದು.",
-          "ಭಿನ್ನರಾಶಿಯನ್ನು ದಶಮಾಂಮ್ಕ್ಕೆ ಪರ಻fವರ್ತಿಸಬಹುದು."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Multiplication of Fractions",
+      "simple_explanation": "To multiply two fractions: multiply numerators together and multiply denominators together. Simplify if possible. To multiply a fraction by a whole number: multiply the numerator by the whole number, keep the denominator.",
+      "detailed_explanation": "Fraction × Whole Number: (a/b) × n = (a × n)/b. Example: (2/5) × 3 = 6/5 = 1⅕. Fraction × Fraction: (a/b) × (c/d) = (a×c)/(b×d). Example: (3/4) × (2/5) = 6/20 = 3/10. Mixed number: Convert to improper fraction first, then multiply. Example: 1½ × 2⅓ = (3/2) × (7/3) = 21/6 = 7/2 = 3½. 'Of' means multiply: ¾ of 24 = ¾ × 24 = 18. Tip: Cancel common factors before multiplying to keep numbers small.",
+      "real_life_example": "A recipe needs ¾ cup of sugar per batch. For 4 batches: ¾ × 4 = 3 cups. Or: a plot is 2½ km long and ⅔ km wide. Area = 2½ × ⅔ = 5/2 × 2/3 = 10/6 = 5/3 = 1⅔ sq km.",
+      "karnataka_example": "A Karnataka silk weaver uses ⅝ metre of thread per cm of pattern. For a 40 cm pattern: ⅝ × 40 = 25 metres of thread. Or: ragi mudde uses ¾ cup ragi flour per person. For 8 people: ¾ × 8 = 6 cups.",
+      "common_mistakes": "Students forget to convert mixed numbers to improper fractions before multiplying. 2½ × 3 ≠ 2×3 + ½×3 (that actually works but is inefficient — better to convert: 5/2 × 3 = 15/2 = 7½). Also, 'of' must be recognised as multiplication — '½ of 10' = ½ × 10 = 5.",
+      "memory_tip": "Multiply fractions: TOP × TOP over BOTTOM × BOTTOM. (a/b) × (c/d) = ac/bd. Cancel before multiplying if possible — it's much easier. 'Of' = multiply."
+    },
+    {
+      "concept_name": "Division of Fractions",
+      "simple_explanation": "To divide by a fraction, multiply by its reciprocal (flip the fraction). The reciprocal of a/b is b/a. So a ÷ (b/c) = a × (c/b).",
+      "detailed_explanation": "Reciprocal: flip the numerator and denominator. Reciprocal of 3/4 = 4/3. Reciprocal of 5 = 1/5. Reciprocal of 1/7 = 7. Whole number ÷ fraction: 3 ÷ (¾) = 3 × (4/3) = 12/3 = 4. Fraction ÷ whole number: (3/4) ÷ 3 = (3/4) × (1/3) = 3/12 = 1/4. Fraction ÷ fraction: (2/3) ÷ (4/5) = (2/3) × (5/4) = 10/12 = 5/6. Mixed numbers: convert to improper fractions first, then apply the rule.",
+      "real_life_example": "A 3-metre ribbon is cut into pieces of ¾ metre each. How many pieces? 3 ÷ (¾) = 3 × (4/3) = 4 pieces. Or: if (½) litre fills (¼) of a tank, how much does a full tank hold? Full tank = ½ ÷ ¼ = ½ × 4 = 2 litres.",
+      "karnataka_example": "A textile shop has 12½ metres of fabric. Each dress needs 2½ metres. How many dresses? 12½ ÷ 2½ = (25/2) ÷ (5/2) = (25/2) × (2/5) = 50/10 = 5 dresses.",
+      "common_mistakes": "Students divide the wrong way — they take the reciprocal of the first fraction instead of the second. Remember: only FLIP (reciprocal) the fraction you are DIVIDING BY (the divisor, which is the second fraction). (a/b) ÷ (c/d) = (a/b) × (d/c) — flip only c/d.",
+      "memory_tip": "Division = FLIP and MULTIPLY. Keep the first fraction, Change ÷ to ×, Flip the second. KCF: Keep, Change, Flip. (a/b) ÷ (c/d) → Keep (a/b), Change to ×, Flip (c/d) to (d/c). = (a×d)/(b×c)."
+    },
+    {
+      "concept_name": "Multiplication and Division of Decimals",
+      "simple_explanation": "Multiply decimals like whole numbers, then count the total decimal places in both numbers and place the decimal point in the answer. Dividing by 10, 100, 1000 shifts the decimal left; multiplying shifts it right.",
+      "detailed_explanation": "Multiplying decimals: Ignore decimal points, multiply as whole numbers, then count total decimal places (from both numbers) and insert the point. Example: 0.3 × 0.4 → 3 × 4 = 12, total decimal places = 2, answer = 0.12. 2.5 × 1.3 → 25 × 13 = 325, 2 decimal places → 3.25. Dividing decimals: 2.4 ÷ 0.6 → multiply both by 10: 24 ÷ 6 = 4. Powers of 10: Multiply by 10 → shift decimal point 1 place RIGHT. Multiply by 100 → shift 2 places right. Divide by 10 → shift 1 place LEFT. Divide by 100 → shift 2 places left. Example: 2.347 × 100 = 234.7. 56.3 ÷ 1000 = 0.0563.",
+      "real_life_example": "Petrol costs ₹102.40 per litre. You buy 12.5 litres: cost = 102.40 × 12.5. Treat as 10240 × 125 = 1,280,000. Count 3 decimal places → ₹1,280.00. Or: 1 kg of rice costs ₹48.50. Weight = 2.5 kg: cost = 48.50 × 2.5 = ₹121.25.",
+      "karnataka_example": "Mangaluru's fish market: pomfret costs ₹320.50 per kg. A restaurant buys 5.5 kg: 320.50 × 5.5 = 32050 × 55 ÷ 1000 = 1762750 ÷ 1000 = ₹1,762.75. Bengaluru auto fare: ₹15.00 for first km, ₹11.50 per km after. For 3.4 km after first: 11.50 × 3.4 = ₹39.10.",
+      "common_mistakes": "The most common error: misplacing the decimal point. Students count decimal places incorrectly. Method: count ALL decimal places in BOTH numbers and that is the total in the answer. Also: 0.1 × 0.1 = 0.01 (not 0.1) — two decimal places in the factors means two in the product.",
+      "memory_tip": "Decimal multiplication: IGNORE the point, MULTIPLY the digits, COUNT the places, INSERT the point. For ×10/100/1000: shift the decimal RIGHT (multiplication = more). For ÷10/100/1000: shift LEFT (division = less). RIGHT = more = multiplication. LEFT = less = division."
     }
+  ],
+
+  "key_terms_glossary": [
+    {"term": "Proper Fraction", "meaning": "A fraction where the numerator is less than the denominator. Value is always between 0 and 1. Examples: 1/2, 3/5, 7/9."},
+    {"term": "Improper Fraction", "meaning": "A fraction where the numerator is greater than or equal to the denominator. Value is ≥ 1. Examples: 7/4, 5/3, 9/9."},
+    {"term": "Mixed Number (Mixed Fraction)", "meaning": "A number consisting of a whole number and a proper fraction. Examples: 2½, 3¾. Convert to improper fraction: multiply whole number by denominator, add numerator, keep denominator."},
+    {"term": "Reciprocal", "meaning": "The reciprocal of a fraction a/b is b/a (flip numerator and denominator). The product of a number and its reciprocal is always 1: (a/b) × (b/a) = 1. Reciprocal of 0 does not exist."},
+    {"term": "Product", "meaning": "The result of multiplication. The product of two fractions = (product of numerators)/(product of denominators)."},
+    {"term": "Decimal", "meaning": "A number expressed in the base-10 system with a decimal point separating the whole part from the fractional part. Examples: 3.14, 0.5, 12.75."},
+    {"term": "Place Value (Decimal)", "meaning": "The value of each digit based on its position relative to the decimal point. Tenths (1/10), Hundredths (1/100), Thousandths (1/1000), etc."},
+    {"term": "Denominator", "meaning": "The bottom number of a fraction — it tells us how many equal parts the whole is divided into."},
+    {"term": "Numerator", "meaning": "The top number of a fraction — it tells us how many of the equal parts we have."},
+    {"term": "Equivalent Fractions", "meaning": "Fractions that represent the same value despite having different numerators and denominators. Example: 1/2 = 2/4 = 4/8."}
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Computation",
+      "question": "Find: 2⅓ × 1¾",
+      "step_by_step_answer": [
+        "Step 1: Convert mixed numbers to improper fractions.",
+        "2⅓ = (2×3+1)/3 = 7/3.",
+        "1¾ = (1×4+3)/4 = 7/4.",
+        "Step 2: Multiply: (7/3) × (7/4) = 49/12.",
+        "Step 3: Convert back to mixed number: 49 ÷ 12 = 4 remainder 1 → 4 1/12.",
+        "Answer: 4 1/12."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Computation",
+      "question": "Find: 3½ ÷ 1¼",
+      "step_by_step_answer": [
+        "Step 1: Convert to improper fractions. 3½ = 7/2. 1¼ = 5/4.",
+        "Step 2: Apply KCF — Keep (7/2), Change to ×, Flip (5/4 → 4/5).",
+        "(7/2) × (4/5) = 28/10 = 14/5.",
+        "Step 3: Convert: 14 ÷ 5 = 2 remainder 4 → 2⅘.",
+        "Answer: 2⅘."
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Computation",
+      "question": "Find: 1.2 × 3.5",
+      "step_by_step_answer": [
+        "Step 1: Ignore decimal points. 12 × 35 = 420.",
+        "Step 2: Count decimal places: 1.2 has 1 decimal place; 3.5 has 1 decimal place. Total = 2.",
+        "Step 3: Insert 2 decimal places in 420 → 4.20 = 4.2.",
+        "Answer: 4.2."
+      ]
+    },
+    {
+      "example_number": 4,
+      "type": "Word Problem",
+      "question": "A car travels 16.5 km per litre of fuel. How far will it travel on 8.4 litres?",
+      "step_by_step_answer": [
+        "Distance = speed × fuel = 16.5 × 8.4.",
+        "Step 1: 165 × 84 = 13,860.",
+        "Step 2: Total decimal places = 1 + 1 = 2.",
+        "Step 3: 13,860 → 138.60 km.",
+        "Answer: The car travels 138.6 km on 8.4 litres."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Fractions and Decimals — All Operations",
+      "questions": [
+        {"type": "Recall", "q": "What is the reciprocal of 5/7?", "a": "7/5. Flip numerator and denominator."},
+        {"type": "Computation", "q": "Find: (3/4) ÷ (9/16)", "a": "(3/4) × (16/9) = 48/36 = 4/3 = 1⅓."},
+        {"type": "Computation", "q": "Find: 0.07 × 100", "a": "Shift decimal 2 places right: 0.07 × 100 = 7."},
+        {"type": "Understanding", "q": "How many decimal places does the product of 1.23 × 0.4 have?", "a": "1.23 has 2 decimal places; 0.4 has 1. Total = 3. So product has 3 decimal places."},
+        {"type": "Application", "q": "⅗ of a class of 40 students play cricket. How many students play cricket?", "a": "⅗ × 40 = 24 students."}
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Multiply fractions: (a/b) × (c/d) = ac/bd. Simplify before or after multiplying.",
+    "Convert mixed numbers to improper fractions before multiplying or dividing.",
+    "Reciprocal of a/b = b/a. Product of a number and its reciprocal = 1.",
+    "Divide fractions: Keep the first, Change to ×, Flip the second (KCF). (a/b) ÷ (c/d) = (a/b) × (d/c).",
+    "'Of' in maths means multiplication: ¾ of 20 = ¾ × 20 = 15.",
+    "Multiply decimals: ignore points, multiply digits, count total decimal places, insert point.",
+    "Multiply by 10/100/1000: shift decimal RIGHT by 1/2/3 places.",
+    "Divide by 10/100/1000: shift decimal LEFT by 1/2/3 places.",
+    "To divide by a decimal: multiply both numbers by a power of 10 to eliminate the decimal in the divisor.",
+    "Fraction ↔ Decimal: divide numerator by denominator to convert fraction to decimal."
+  ],
+
+  "mind_map": {
+    "root": "Fractions and Decimals",
+    "branches": [
+      {"branch": "Types of Fractions", "sub": ["Proper: numerator < denominator", "Improper: numerator ≥ denominator", "Mixed: whole + proper fraction", "Convert mixed ↔ improper before operations"]},
+      {"branch": "Multiplication of Fractions", "sub": ["(a/b) × (c/d) = ac/bd", "Whole number × fraction: multiply numerator", "Mixed number: convert first", "'Of' = multiply"]},
+      {"branch": "Division of Fractions", "sub": ["KCF: Keep, Change, Flip", "(a/b) ÷ (c/d) = (a/b) × (d/c)", "Reciprocal = flip the fraction", "Mixed: convert to improper first"]},
+      {"branch": "Decimal Multiplication", "sub": ["Ignore point, multiply digits", "Count total decimal places", "Insert decimal in product", "× 10/100/1000 → shift right"]},
+      {"branch": "Decimal Division", "sub": ["÷ 10/100/1000 → shift left", "Remove decimal from divisor: multiply both", "Convert to fraction if needed"]}
+    ]
+  },
+
+  "revision_notes": "Chapter 2 — Fractions and Decimals. Fractions: Proper (n<d), Improper (n≥d), Mixed. Convert mixed to improper before operations. Fraction multiplication: (a/b)×(c/d) = ac/bd; 'of' = ×. Fraction division: KCF — Keep first, Change ÷ to ×, Flip second. Reciprocal of a/b = b/a; a × (b/a) = 1. Decimal multiplication: ignore point, multiply digits, count total decimal places, place point. ×10 = shift decimal right 1; ×100 = right 2; ×1000 = right 3. ÷10 = shift left 1; ÷100 = left 2. Divide decimals: multiply both numbers by same power of 10 to make divisor a whole number. Word problems: identify whether to multiply or divide; convert units if needed.",
+
+  "must_remember_facts": [
+    "Mixed to improper: (whole × denominator + numerator)/denominator.",
+    "(a/b) × (c/d) = ac/bd — multiply tops, multiply bottoms.",
+    "KCF for division: Keep, Change (÷→×), Flip (reciprocal of divisor).",
+    "Reciprocal of a/b = b/a. Reciprocal of whole number n = 1/n.",
+    "'Of' means multiply: ¾ of 40 = ¾ × 40 = 30.",
+    "Decimal × 10 → move point 1 right. × 100 → 2 right. × 1000 → 3 right.",
+    "Decimal ÷ 10 → move point 1 left. ÷ 100 → 2 left.",
+    "Multiply decimals: count total decimal places in both factors for answer.",
+    "Divide decimals: make divisor a whole number by multiplying both by 10/100/1000.",
+    "Fraction to decimal: divide numerator by denominator."
   ]
 }

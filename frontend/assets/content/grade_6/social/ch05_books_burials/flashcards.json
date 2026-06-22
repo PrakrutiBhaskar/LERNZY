@@ -1,96 +1,32 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch05_books_burials_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science – History",
+  "textbook": "Our Pasts – I",
+  "chapter_number": 5,
+  "chapter_title": "Books and Burials",
+  "total_cards": 20,
   "cards": [
-    {
-      "id": "fc01",
-      "front": {
-        "en": "What is the core idea of What Books and Burials Tell Us? (FC1)",
-        "hi": "What is the core idea of What Books and Burials Tell Us? (FC1)",
-        "kn": "What is the core idea of What Books and Burials Tell Us? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc02",
-      "front": {
-        "en": "Why is What Books and Burials Tell Us important? (FC2)",
-        "hi": "Why is What Books and Burials Tell Us important? (FC2)",
-        "kn": "Why is What Books and Burials Tell Us important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc03",
-      "front": {
-        "en": "What is the core idea of What Books and Burials Tell Us? (FC3)",
-        "hi": "What is the core idea of What Books and Burials Tell Us? (FC3)",
-        "kn": "What is the core idea of What Books and Burials Tell Us? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc04",
-      "front": {
-        "en": "Why is What Books and Burials Tell Us important? (FC4)",
-        "hi": "Why is What Books and Burials Tell Us important? (FC4)",
-        "kn": "Why is What Books and Burials Tell Us important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc05",
-      "front": {
-        "en": "What is the core idea of What Books and Burials Tell Us? (FC5)",
-        "hi": "What is the core idea of What Books and Burials Tell Us? (FC5)",
-        "kn": "What is the core idea of What Books and Burials Tell Us? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    }
+    { "id": "fc01", "type": "Recall", "difficulty": "Easy", "front": "What does the word 'Veda' mean?", "back": "'Veda' is a Sanskrit word meaning 'knowledge'. The Vedas are ancient Indian texts composed between 1500 BCE and 600 BCE containing sacred hymns, ritual instructions, and philosophical knowledge.", "memory_hook": "VEDA = Very Early Data Archive! The world's oldest 'database' of spiritual and social knowledge." },
+    { "id": "fc02", "type": "Recall", "difficulty": "Easy", "front": "Name the four Vedas and what each primarily contains.", "back": "1. Rigveda – hymns (suktas) to gods; 2. Samaveda – melodies for singing during rituals; 3. Yajurveda – instructions for performing yajnas (sacrificial rituals); 4. Atharvaveda – spells, charms, and everyday rituals.", "memory_hook": "RSYA = 'Rishi's Special Yoga Advice'. Rig (hymns), Sama (songs), Yajur (yajnas), Atharva (spells)." },
+    { "id": "fc03", "type": "Definition", "difficulty": "Easy", "front": "What is 'sruti'? Why is it important for understanding the Vedas?", "back": "Sruti means 'that which is heard' — it refers to the oral tradition of transmitting the Vedas through memorisation and recitation rather than writing. It is important because the Vedas were preserved this way for over 1,000 years before being written down, showing the extraordinary precision of Brahmin memory traditions.", "memory_hook": "SRUTI = 'Say, Remember, Utter, Transmit It'. The Vedas were kept alive by saying them, remembering them, and uttering them to the next generation." },
+    { "id": "fc04", "type": "Recall", "difficulty": "Easy", "front": "Which is the oldest Veda? How many hymns does it contain?", "back": "The Rigveda is the oldest Veda, composed around 1500 BCE. It contains 1028 hymns called suktas, organised into 10 books called mandalas. It is one of the oldest surviving texts in any language in the world.", "memory_hook": "RIG = Really Important God-hymns. 1028 suktas. Think: 'RIG-ht at the beginning of Indian history!'" },
+    { "id": "fc05", "type": "Recall", "difficulty": "Easy", "front": "Which two gods are most frequently praised in the Rigveda?", "back": "The two most frequently praised gods in the Rigveda are: 1. Indra – god of rain, thunder, and war (associated with strength and heroism); 2. Agni – god of fire (important because fire was central to all Vedic rituals and sacrifices).", "memory_hook": "INDIA = Indra rules! AGNI = fire in Hindi too. 'India's Ancient Greatest Names Inscribed' = Indra and Agni at the top!" },
+    { "id": "fc06", "type": "Definition", "difficulty": "Easy", "front": "What is a 'megalith'? Where are they found in India?", "back": "A megalith is a large stone structure (from Greek: mega = big, lithos = stone) built over burial sites. In India, megaliths are found mainly in South India (Karnataka, Kerala, Tamil Nadu, Andhra Pradesh), Maharashtra, and parts of Northeast India, dating from about 1000–200 BCE.", "memory_hook": "MEGA-LITH = MEGA-sized stone. Like 'mega' in megabytes — but here it is mega-STONES for mega-important dead people!" },
+    { "id": "fc07", "type": "Definition", "difficulty": "Easy", "front": "What are the three types of megalithic structures? Describe each briefly.", "back": "1. Dolmen – a stone burial chamber made of large upright stones with a flat stone as a roof/lid; 2. Cairn – a mound of stones piled over a grave as a marker; 3. Menhir – a tall, single upright stone placed near a burial site as a monument.", "memory_hook": "DCM = 'Dead Comrades Memorialised'. Dolmen (chamber), Cairn (mound), Menhir (standing stone). D-C-M!" },
+    { "id": "fc08", "type": "Recall", "difficulty": "Easy", "front": "Name the four varnas described in later Vedic texts and the role of each.", "back": "1. Brahmin – priests who performed rituals and studied the Vedas; 2. Kshatriya – warriors and rulers who protected and governed; 3. Vaishya – farmers, herders, and traders who produced and traded goods; 4. Shudra – workers and servants who served the other three groups.", "memory_hook": "BKVS = 'Books, Kings, Villages, Service'. Brahmin (books/prayers), Kshatriya (kings/warriors), Vaishya (village trade), Shudra (service)." },
+    { "id": "fc09", "type": "Why/How", "difficulty": "Easy", "front": "Why did ancient people bury objects like pottery, tools, and food with the dead?", "back": "Ancient peoples buried objects with the dead because they believed in an afterlife — that the person's spirit would continue to exist and would need the same things in the next world as in this one. Pots of food, iron tools, and ornaments were placed in graves to ensure the dead were well-equipped for their journey. These grave goods also indicate the social status of the person — wealthier individuals were buried with more goods.", "memory_hook": "Pack for the afterlife! Think of it as the world's first 'delivery service' — packing food, tools, and ornaments for the dead person's next destination." },
+    { "id": "fc10", "type": "Recall", "difficulty": "Easy", "front": "Who excavated Brahmagiri in Karnataka? What was found there?", "back": "British archaeologist Sir Mortimer Wheeler excavated Brahmagiri near Chitradurga, Karnataka in 1947. He found: iron tools, black-and-red pottery, burial urns, and ornaments — evidence of an Iron Age agricultural community that buried their dead with goods, suggesting belief in an afterlife and some social hierarchy.", "memory_hook": "Wheeler WHEELED in and found iron wheels (tools) at Brahmagiri! W for Wheeler, W for What he found (iron Weapons/tools, pots)." },
+    { "id": "fc11", "type": "Concept", "difficulty": "Easy", "front": "How did Vedic society differ from megalithic communities?", "back": "Vedic society (mainly North India) had a textual tradition — the Vedas — preserved orally in Sanskrit. They had a ritual-based religion, prayed to nature gods, and developed the varna system. Megalithic communities (mainly South India) had NO writing system — we know about them only through burial archaeology. They were Iron Age farming communities who built large stone burial structures and may have spoken Dravidian languages. Both coexisted in different parts of ancient India.", "memory_hook": "VEDIC = Words (hymns, Sanskrit, oral). MEGALITHIC = Without Words (no texts, known only from stones). Two very different ancient Indias existing at the same time!" },
+    { "id": "fc12", "type": "Why/How", "difficulty": "Easy", "front": "What do differences in grave goods (items buried with the dead) at Inamgaon tell us?", "back": "At Inamgaon (Maharashtra), archaeologists found that some people were buried with many more items than others — some had pottery, iron tools, ornaments, and food, while others had very little. This difference in grave goods tells us that Inamgaon society was NOT equal — there were social differences and perhaps different levels of wealth or status, just as we find in many ancient and modern societies.", "memory_hook": "More grave goods = More status in life. Like how a rich person's funeral today might be bigger than a poor person's — the goods reveal the gap." },
+    { "id": "fc13", "type": "Concept", "difficulty": "Easy", "front": "Why are the Vedas considered such an important historical source?", "back": "The Vedas are important because: (1) They are the oldest surviving texts from the Indian subcontinent and among the oldest in the world. (2) They give detailed information about religion, language (Sanskrit), society (varna), economy (cattle-based), and geography of early India. (3) They show how complex and organised Vedic civilisation was — capable of sophisticated oral literature and religious thought. (4) They are the root of Hinduism and much of Indian cultural tradition that continues today.", "memory_hook": "Vedas = India's BIRTH CERTIFICATE. The oldest documentary proof of who ancient Indians were, what they believed, and how they organised themselves." },
+    { "id": "fc14", "type": "Why/How", "difficulty": "Easy", "front": "Why is it important to use BOTH textual and archaeological evidence when studying ancient India?", "back": "Using both types of evidence gives historians a more complete and accurate picture. Texts like the Vedas tell us about ideas, religion, language, and the social system of literate communities — but they may be biased toward the perspective of the priests who wrote them. Archaeological evidence like megaliths tells us about communities that left no texts, revealing their material culture, technology (iron tools), and social structure. Together, they prevent us from seeing ancient India through only one group's perspective.", "memory_hook": "TEXT + TOOLS = TRUTH. Texts alone = only one community's story. Tools (archaeology) alone = no ideas or language. BOTH together = the real, full history." },
+    { "id": "fc15", "type": "Why/How", "difficulty": "Easy", "front": "How does the Vedic oral tradition (sruti) compare to how we learn and remember things today?", "back": "Vedic students (brahmacharis) spent years — sometimes their entire youth — memorising every syllable of sacred texts without any books. They used rhythmic chanting, repetition, and special mnemonic techniques to ensure perfect accuracy. Today, we rely on books, the internet, and recording devices to store information. The Vedic tradition shows that human memory, when rigorously trained, can preserve vast amounts of information with extraordinary accuracy — and that oral traditions can be as reliable as written ones.", "memory_hook": "Ancient Brahmin = human hard drive! No USB, no internet, no books — just years of precise mental training. We press SAVE; they pressed MEMORISE." },
+    { "id": "fc16", "type": "Application", "difficulty": "Easy", "front": "If you were an archaeologist excavating a megalithic burial site in Karnataka, what five types of objects would you hope to find, and what would each tell you?", "back": "1. Iron tools (sickles, axes) — tells: the community used iron technology and was agricultural. 2. Pottery (black-and-red ware) — tells: they had craft specialisation and trade. 3. Ornaments (beads, bangles) — tells: they valued personal adornment and had aesthetic sense. 4. Food remains (seeds, animal bones) — tells: their diet and agricultural practices. 5. Size/type of burial structure — tells: social status of the person buried (bigger structure = higher status).", "memory_hook": "ITEMS tell the STORY: Iron = technology, Pottery = craft, Ornaments = wealth, Food = diet, Structure size = status. Every object is a sentence in the burial's biography." },
+    { "id": "fc17", "type": "Application", "difficulty": "Easy", "front": "How does the Karnataka connection to both Vedic learning (Sringeri) and megalithic burials (Brahmagiri) make the state uniquely important for Indian history?", "back": "Karnataka sits at the crossroads of two major ancient traditions. Brahmagiri (Chitradurga district) represents Iron Age megalithic culture — communities that were NOT part of the Vedic tradition. Sringeri (Chikkamagaluru district), home of the Sharada Peetha founded by Adi Shankaracharya, represents the living continuity of Vedic learning. Both sites are in Karnataka — meaning the state carries evidence of both the pre-Vedic/non-Vedic indigenous Iron Age culture AND the great Vedic intellectual tradition, making it one of India's most historically rich states.", "memory_hook": "Karnataka = DOUBLE heritage: Brahmagiri (STONE age burials) + Sringeri (SOUND of Vedas). Stone and Sound — both in Karnataka!" },
+    { "id": "fc18", "type": "Concept", "difficulty": "Easy", "front": "What does the Purusha Sukta describe, and why is it controversial?", "back": "The Purusha Sukta is a late hymn in the Rigveda that describes the four varnas as emerging from different body parts of a cosmic being (Purusha): Brahmin from the mouth, Kshatriya from the arms, Vaishya from the thighs, and Shudra from the feet. It is controversial because: (1) It was later used to justify making the caste system hereditary and permanent. (2) It ranked the four groups in a hierarchy with Shudras at the bottom. (3) Modern scholars note it was added late to the Rigveda and does not represent the earliest Vedic social system.", "memory_hook": "Purusha = Cosmic Person. Mouth (Brahmin) → Arms (Kshatriya) → Thighs (Vaishya) → Feet (Shudra). Head to toe = top to bottom of the varna order." },
+    { "id": "fc19", "type": "Application", "difficulty": "Easy", "front": "Compare: How did Brahmins preserve knowledge vs. how we preserve knowledge today.", "back": "Ancient Brahmins preserved knowledge through: strict oral memorisation (sruti), precise phonetic training, rhythmic chanting, student-teacher transmission, and decades of disciplined study. Today we preserve knowledge through: writing, printing, digital storage (computers, cloud), audio/video recording, and the internet. Ancient methods were slower and required specific trained people. Modern methods are faster, more accessible, and less dependent on individuals. However, ancient oral methods could survive without electricity or technology — something our digital systems cannot claim.", "memory_hook": "Then = Human Hard Drive (Brahmin). Now = Digital Hard Drive (computer). Then = no power needed. Now = no power = data lost. Ancient method had its own reliability advantage!" },
+    { "id": "fc20", "type": "Application", "difficulty": "Easy", "front": "Why is it incorrect to say 'all ancient Indians followed the Vedic religion'? What evidence proves otherwise?", "back": "It is incorrect because: (1) Megalithic communities in South India had completely separate cultural traditions — no Sanskrit texts, different burial customs, different religious beliefs. (2) Archaeological evidence from sites like Brahmagiri (Karnataka) shows communities that were iron-using farmers with their own distinct material culture, unconnected to Vedic rituals. (3) The Indus Valley Civilisation predated the Vedic period and had its own undeciphered religion. (4) Tribal communities throughout India have always maintained non-Vedic traditions. Ancient India was culturally DIVERSE — never uniform.", "memory_hook": "India = PLURAL, not SINGULAR. Many languages, many religions, many burial traditions — ALL at the same time. The Vedas = one tradition among many in ancient India." }
   ]
 }

@@ -1,114 +1,170 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 7,
-  "subject": "math",
-  "chapter_id": "ch15_visualising_solid_shapes",
-  "chapter_title": {
-    "en": "Visualising Solid Shapes",
-    "hi": "ठोस आकारों का चित्रण",
-    "kn": "ಘನ ಆಕಾರಗಳ ದೃಶ್ಯೀಕರಣ"
+  "subject": "Mathematics",
+  "textbook": "Mathematics – Class 7",
+  "chapter_number": 15,
+  "chapter_title": "Visualising Solid Shapes",
+  "estimated_study_time_minutes": 50,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Identify and name common 3D solid shapes — cube, cuboid, cone, cylinder, sphere, prism, pyramid",
+    "Understand the difference between 2D (flat) and 3D (solid) shapes",
+    "Recognise faces, edges, and vertices in solid shapes and apply Euler's formula",
+    "Draw and interpret 2D representations of 3D shapes (oblique sketches and isometric sketches)",
+    "Identify the top view, front view, and side view of solid shapes",
+    "Understand the concept of a net — a flat shape that folds to make a 3D solid",
+    "Draw and recognise nets of cubes, cuboids, cylinders, cones, and pyramids",
+    "Apply understanding of solid shapes to real-life objects and architecture"
+  ],
+
+  "prerequisite_knowledge": [
+    "Knowledge of basic 2D shapes — squares, rectangles, triangles, circles",
+    "Understanding of perimeter and area from Chapter 11",
+    "Familiarity with the terms face, edge, and vertex from earlier classes"
+  ],
+
+  "introduction": {
+    "why_important": "We live in a three-dimensional world — every object around you is a 3D solid. Understanding how to visualise, draw, and describe solid shapes is fundamental to engineering, architecture, computer graphics, and everyday spatial reasoning. Being able to 'read' a 2D drawing of a 3D object is a skill engineers, designers, and architects use every day.",
+    "real_life_relevance": "When an architect designs a building, they draw it from the front, side, and top — exactly the three views you study in this chapter. When a factory makes a cardboard box, they cut a flat net and fold it — the nets in this chapter. Video game designers create 3D objects on 2D screens using exactly the principles of solid visualisation you learn here.",
+    "karnataka_context": "The ancient temples of Karnataka — particularly the Virupaksha Temple at Hampi and the Gol Gumbaz at Bijapur — are magnificent 3D solids. Gol Gumbaz is one of the largest domes (hemisphere) in the world, an example of a hemisphere in architecture. The stepped tanks (pushkarnis) at Hampi are cuboid depressions carved into the earth. ISRO's satellite design in Bengaluru involves complex 3D geometric shapes for solar panels, fuel tanks (cylinders), and antenna dishes (paraboloids).",
+    "connection_to_previous_learning": "Earlier chapters covered 2D shapes — perimeter, area, and properties of triangles and quadrilaterals. This chapter extends your geometric thinking into the third dimension, showing how 2D shapes form the faces of 3D solids."
   },
-  "topics": [
+
+  "core_concepts": [
     {
-      "topic_id": "math_grade7_ch15_visualising_solid_shapes_basics",
-      "title": {
-        "en": "Visualising Solid Shapes - Fundamentals",
-        "hi": "ठोस आकारों का चित्रण - बुनियादी बातें",
-        "kn": "ಘನ ಆಕಾರಗಳ ದೃಶ್ಯೀಕರಣ - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of Visualising Solid Shapes",
-        "Solve exercises and apply rules related to Visualising Solid Shapes",
-        "Analyze practical examples of Visualising Solid Shapes in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Visualising Solid Shapes. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम ठोस आकारों का चित्रण का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಘನ ಆಕಾರಗಳ ದೃಶ್ಯೀಕರಣ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Visualising Solid Shapes in detail. This topic is essential for Grade 7 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम ठोस आकारों का चित्रण का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಘನ ಆಕಾರಗಳ ದೃಶ್ಯೀಕರಣ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Visualising Solid Shapes.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Visualising Solid Shapes.",
-            "hi": "चरण 1: ठोस आकारों का चित्रण के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಘನ ಆಕಾರಗಳ ದೃಶ್ಯೀಕರಣ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Visualising Solid Shapes builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "ठोस आकारों का चित्रण में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಘನ ಆಕಾರಗಳ ದೃಶ್ಯೀಕರಣ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Faces, Edges, Vertices and Euler's Formula",
+      "simple_explanation": "Every solid shape has flat or curved surfaces (faces), lines where faces meet (edges), and points where edges meet (vertices/corners). For any convex polyhedron, the number of faces, edges, and vertices follow a beautiful rule: F + V − E = 2.",
+      "detailed_explanation": "Faces (F): The flat surfaces of a solid. A cube has 6 faces; a tetrahedron has 4. Edges (E): The line segments where two faces meet. A cube has 12 edges. Vertices (V): The corner points where edges meet. A cube has 8 vertices. Euler's Formula: For any convex polyhedron (a solid with flat faces, like a cube, cuboid, or pyramid): F + V − E = 2. Verification on a cube: F=6, V=8, E=12 → 6+8−12 = 2 ✓. Triangular prism: F=5, V=6, E=9 → 5+6−9 = 2 ✓. Square pyramid: F=5, V=5, E=8 → 5+5−8 = 2 ✓. Note: Euler's formula does NOT apply to shapes with curved surfaces (cylinders, spheres, cones). Cylinders, cones, and spheres are NOT polyhedra.",
+      "real_life_example": "A Rubik's cube has 6 faces, 12 edges, and 8 vertices — exactly like a mathematical cube. A die (dice) is a cube: 6 faces (each showing 1–6 dots), 12 edges, 8 corners. A cardboard box is a cuboid: 6 faces (but opposite faces are rectangles of two different sizes), 12 edges, 8 vertices.",
+      "karnataka_example": "The Gol Gumbaz at Bijapur (now Vijayapura), Karnataka, is a massive cube-like base topped with a hemisphere dome — making it a combination of a cuboid and a half-sphere. Its base is approximately a cube (square base). The interior whispering gallery makes it one of the most famous acoustic architecture examples. The stepped tank at Hampi's Krishna Temple is a cuboid depression — with 5 faces visible (4 walls + floor), exemplifying cuboid geometry in ancient Karnataka engineering.",
+      "common_mistakes": "Students confuse face, edge, and vertex counts. For a cube: 6 FACES (not 8), 12 EDGES (not 6), 8 VERTICES (not 6). Common wrong answer is '6 vertices' (confusing with faces). Also, students try to apply Euler's formula to cylinders and spheres — it doesn't apply to curved surfaces.",
+      "memory_tip": "CUBE: 6-8-12 (F-V-E). Remember: 6 faces on a die, 8 corners (like an octopus with 8 arms at the corners!), 12 edges (like 12 months in a year). Euler's formula: F + V = E + 2. 'Faces + Vertices = Edges + 2' — the magic equation of ALL polyhedra!"
+    },
+    {
+      "concept_name": "Views of 3D Shapes — Top, Front, and Side Views",
+      "simple_explanation": "When we look at a 3D solid from different directions, we see different 2D shapes. Looking from the front gives the front view, from the side gives the side view, and from the top gives the top view (also called plan view).",
+      "detailed_explanation": "Any 3D solid can be described by three standard views: Front view (elevation): what you see looking directly at the object from the front. Side view (side elevation): what you see looking from the left or right. Top view (plan): what you see looking directly down from above. These three views together give enough information to completely describe the 3D shape. Examples: A cube — front view: square; side view: square; top view: square. A cylinder — front view: rectangle; side view: rectangle; top view: circle. A cone — front view: triangle; side view: triangle; top view: circle. A sphere — front view: circle; side view: circle; top view: circle. These views are used in engineering drawings (technical drawings) — architects draw buildings this way. Reading 3D shapes from 2D views (and vice versa) is spatial thinking.",
+      "real_life_example": "When an architect designs a house, they draw the front elevation (front view), the floor plan (top view), and the side elevation (side view) — exactly the three standard views in this chapter. A builder uses these 2D drawings to construct the 3D building. Engineers at ISRO in Bengaluru draw satellites from all three views before building them.",
+      "karnataka_example": "The Vidhana Soudha in Bengaluru — if you draw its front view, you get a complex architectural elevation with columns, domes, and steps. From the top (top view/aerial plan), it appears as a rectangle with a dome in the centre. From the side, you see the depth and proportions. Town planners in Bengaluru's BBMP use exactly these three views when planning new buildings and roads.",
+      "common_mistakes": "Students often mix up views. The TOP view of a cylinder is a CIRCLE (looking down the cylinder from above, you see the circular top face). The FRONT view is a RECTANGLE (looking at the tall side, you see a rectangle). Students sometimes draw rectangles for all views of a cylinder — which is wrong.",
+      "memory_tip": "Three views = three questions: What does it look like from the FRONT? SIDE? TOP? Use the letter F-S-T (Front-Side-Top) = 'Finding Shapes Thoughtfully'. Cylinder: Top=CIRCLE, Front=RECTANGLE, Side=RECTANGLE. Cone: Top=CIRCLE, Front=TRIANGLE. Sphere: ALL views = CIRCLE."
+    },
+    {
+      "concept_name": "Nets of Solid Shapes",
+      "simple_explanation": "A net is a flat shape that you can fold up to make a 3D solid. If you 'unfold' a box, the flat shape you get is the net of the cuboid. Nets are used to design packaging boxes, origami, and cardboard models.",
+      "detailed_explanation": "A net is a 2D (flat) arrangement of the faces of a 3D solid, connected at their edges, such that when folded along those edges, it forms the solid. Key nets: Cube: a net of a cube has 6 equal squares arranged so they fold into a cube. There are 11 different possible nets of a cube. Cuboid: 6 rectangles (with pairs of opposite faces being equal). Cylinder: 2 circles (top and bottom) + 1 rectangle (the curved surface, which unrolls flat). Cone: 1 circle (base) + 1 sector of a circle (the curved surface). Triangular prism: 2 triangles + 3 rectangles. Square pyramid: 1 square (base) + 4 triangles. When drawing or identifying nets: make sure every face of the solid appears exactly once. Check that adjacent faces in the net share a complete edge. A shape is a valid net if folding produces the solid without gaps or overlaps.",
+      "real_life_example": "Every cardboard box you receive is made from a net. When a factory makes a cereal box, they print the design on a flat piece of cardboard (the net of the cuboid), then cut and fold it. A party hat is a cone made from a sector-shaped net. An ice cream cone is an example of a cone whose net is a sector.",
+      "karnataka_example": "Karnataka's famous Mysuru sandal soap boxes are cuboids made from nets — flat cardboard sheets printed with the Mysore Sandal design, then folded into boxes. The packaging industry in Karnataka (Bengaluru has many packaging companies) designs thousands of box nets daily using the exact geometry you learn in this chapter. Understanding nets also helps in designing the decorative packaging for Karnataka's famous Dharwad Pedha sweet boxes.",
+      "common_mistakes": "Students often draw invalid nets — arrangements of faces that, when folded, overlap each other or leave gaps. The most common error is drawing the 6 squares of a cube in a straight line (1×6 grid) — this does NOT fold into a cube. Always mentally fold your net to check it works.",
+      "memory_tip": "NET = Not Enough Thickness (it is flat/2D). Fold the NET → get the SOLID (3D). Cube net = 6 squares with 11 different arrangements. Key check: does every face appear? No overlaps? No gaps? If yes — valid net! 'NET becomes 3D when you FOLD the deal!'"
     }
+  ],
+
+  "key_terms_glossary": [
+    { "term": "Polyhedron", "meaning": "A 3D solid whose faces are all flat polygons. Examples: cube, cuboid, pyramid, prism. Non-polyhedra (curved surfaces): cylinder, cone, sphere." },
+    { "term": "Face", "meaning": "A flat surface of a 3D solid. A cube has 6 square faces. A triangular prism has 5 faces (2 triangles + 3 rectangles)." },
+    { "term": "Edge", "meaning": "The line segment where two faces of a solid meet. A cube has 12 edges. Each edge is shared by exactly two faces." },
+    { "term": "Vertex (Vertices)", "meaning": "A corner point where three or more edges of a solid meet. A cube has 8 vertices. Plural: vertices." },
+    { "term": "Euler's Formula", "meaning": "For any convex polyhedron: F + V − E = 2, where F = faces, V = vertices, E = edges. Valid for all polyhedra; not valid for curved surfaces." },
+    { "term": "Net", "meaning": "A flat 2D arrangement of a solid's faces that, when folded, forms the 3D solid. A cube has 11 different nets. Used in packaging design." },
+    { "term": "Prism", "meaning": "A polyhedron with two identical parallel faces (bases) connected by rectangles. A triangular prism has triangular bases; a rectangular prism (cuboid) has rectangular bases." },
+    { "term": "Pyramid", "meaning": "A polyhedron with a polygon base and triangular faces meeting at a single apex (tip). A square pyramid has a square base + 4 triangular faces." },
+    { "term": "Top view / Plan", "meaning": "The 2D shape seen when looking at a 3D object directly from above. A cylinder's top view is a circle; a cube's top view is a square." },
+    { "term": "Oblique sketch", "meaning": "A simple 3D drawing method where front face is drawn true to shape and edges going back are drawn at 45° to the horizontal, shorter than actual length." }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Comprehension",
+      "question": "Verify Euler's formula for a triangular prism. State the number of faces, vertices, and edges.",
+      "step_by_step_answer": [
+        "Step 1: Identify the shape — triangular prism has 2 triangular bases (top and bottom) and 3 rectangular lateral faces.",
+        "Step 2: Count Faces (F) — 2 triangles + 3 rectangles = 5 faces.",
+        "Step 3: Count Vertices (V) — each triangle has 3 corners × 2 triangles = 6 vertices.",
+        "Step 4: Count Edges (E) — 3 edges on top triangle + 3 edges on bottom triangle + 3 vertical edges connecting them = 9 edges.",
+        "Step 5: Apply Euler's Formula: F + V − E = 5 + 6 − 9 = 2 ✓.",
+        "Conclusion: Triangular prism has F=5, V=6, E=9, and 5+6−9 = 2 confirms Euler's formula."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Vocabulary in context",
+      "question": "Describe the front view, side view, and top view of a cylinder.",
+      "step_by_step_answer": [
+        "Step 1: Visualise the cylinder — a 3D solid with a circular base, circular top, and curved surface connecting them (like a tin can).",
+        "Step 2: Front view — look at the cylinder directly from the front. You see the curved surface as a rectangle (width = diameter, height = height of cylinder).",
+        "Step 3: Side view — look from the left or right. Same as front view: a rectangle (same dimensions).",
+        "Step 4: Top view — look directly down from above. You see the circular top face: a circle (diameter = diameter of cylinder).",
+        "Conclusion: Cylinder — Front view: rectangle. Side view: rectangle. Top view: circle."
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Moral application",
+      "question": "A cardboard box (cuboid) is 5 cm long, 3 cm wide, and 4 cm tall. Draw its net and describe what it looks like.",
+      "step_by_step_answer": [
+        "Step 1: Identify the six faces — Top (5×3), Bottom (5×3), Front (5×4), Back (5×4), Left (3×4), Right (3×4).",
+        "Step 2: The net has 6 rectangles arranged so they fold into the cuboid. A standard cross-shaped net: place Front (5×4) in centre. Attach Top (5×3) above it. Attach Bottom (5×3) below it. Attach Back (5×4) below Bottom. Attach Left (3×4) to the left of Front. Attach Right (3×4) to the right of Front.",
+        "Step 3: Verify — this net has all 6 faces, each appearing once, and folds correctly.",
+        "Step 4: Total area of net = sum of all 6 faces = 2(5×3) + 2(5×4) + 2(3×4) = 30 + 40 + 24 = 94 cm².",
+        "Conclusion: The net is a cross-shaped arrangement of 6 rectangles. Its total area = 94 cm² = the surface area of the box."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Faces, Edges, Vertices and Euler's Formula",
+      "questions": [
+        { "type": "Recall", "q": "How many faces, edges, and vertices does a cube have?", "a": "Cube: F=6, E=12, V=8. Verification: F+V−E = 6+8−12 = 2 ✓ (Euler's formula)." },
+        { "type": "Recall", "q": "State Euler's formula for polyhedra.", "a": "F + V − E = 2, where F = number of faces, V = number of vertices, E = number of edges. Valid for all convex polyhedra." },
+        { "type": "Understanding", "q": "Why does Euler's formula NOT apply to a sphere?", "a": "Euler's formula applies only to polyhedra — solids with FLAT faces. A sphere has no flat faces, no edges, and no vertices — it is not a polyhedron. The formula F + V − E = 2 requires a polygon-faced solid." },
+        { "type": "Understanding", "q": "A square pyramid has 5 faces and 5 vertices. How many edges does it have?", "a": "Using Euler's formula: F + V − E = 2 → 5 + 5 − E = 2 → E = 8. A square pyramid has 8 edges (4 base edges + 4 lateral edges going to the apex)." },
+        { "type": "Application", "q": "Name a real-life object that is shaped like a cylinder. What are its front and top views?", "a": "Examples: a tin can, a water bottle, a rolling pin. Front view = rectangle. Top view = circle." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "3D solids have faces (surfaces), edges (where faces meet), and vertices (corner points).",
+    "Euler's Formula: F + V − E = 2, valid for all convex polyhedra (not for cylinders, cones, spheres).",
+    "Cube: F=6, V=8, E=12. Cuboid: F=6, V=8, E=12. Triangular prism: F=5, V=6, E=9. Square pyramid: F=5, V=5, E=8.",
+    "Three standard views of any 3D solid: front view, side view, top view.",
+    "Cylinder views: front=rectangle, side=rectangle, top=circle.",
+    "Cone views: front=triangle, side=triangle, top=circle.",
+    "Sphere views: all three = circle.",
+    "A net is a flat 2D unfolding of a 3D solid's faces. A cube has 11 different valid nets.",
+    "Net of a cylinder = 1 rectangle + 2 circles. Net of a cone = 1 sector + 1 circle.",
+    "Karnataka connection: Gol Gumbaz (hemisphere + cube), Hampi temples (cuboids and pyramids), ISRO satellite design (complex 3D shapes)."
+  ],
+
+  "mind_map": {
+    "root": "Visualising Solid Shapes",
+    "branches": [
+      { "branch": "3D Solids", "sub": ["Polyhedra: cube, cuboid, prism, pyramid", "Non-polyhedra: cylinder, cone, sphere", "Faces, Edges, Vertices"] },
+      { "branch": "Euler's Formula", "sub": ["F + V − E = 2", "Cube: 6+8−12=2 ✓", "Only for polyhedra", "Not for curved surfaces"] },
+      { "branch": "Views", "sub": ["Front view (elevation)", "Side view", "Top view (plan)", "Cylinder: rectangle+circle", "Sphere: always circle"] },
+      { "branch": "Nets", "sub": ["Flat unfolding of 3D solid", "Cube: 11 valid nets", "Net area = surface area", "Cylinder: rectangle + 2 circles"] },
+      { "branch": "Karnataka Links", "sub": ["Gol Gumbaz – hemisphere", "Hampi – cuboid tanks", "Mysore soap boxes – cuboid nets", "ISRO – 3D satellite design"] }
+    ]
+  },
+
+  "revision_notes": "Chapter 15 covers 3D solid shapes and how to visualise them. Polyhedra have flat faces: cube (6F, 8V, 12E), cuboid (6F, 8V, 12E), triangular prism (5F, 6V, 9E), square pyramid (5F, 5V, 8E). Non-polyhedra (curved surfaces): cylinder, cone, sphere — Euler's formula does NOT apply to them. Euler's Formula: F + V − E = 2 for all convex polyhedra. Three standard views of solids: Front view (looking from front), Side view (from left/right), Top view (from above/plan). Key views: Cube — all three views = square. Cylinder — front/side = rectangle, top = circle. Cone — front/side = triangle, top = circle. Sphere — all three = circle. Nets: a flat 2D unfolding that folds to make the 3D solid. Cube has 11 valid nets. Net of cuboid = 6 rectangles. Net of cylinder = 2 circles + 1 rectangle. Net of cone = 1 circle + 1 sector. Net area = surface area of the solid. Karnataka connections: Gol Gumbaz (hemisphere), Hampi stepped tanks (cuboid), Mysore soap box nets, ISRO 3D design.",
+
+  "must_remember_facts": [
+    "Cube: F=6, V=8, E=12. (Mnemonic: die has 6 faces, 8 corners, 12 edges.)",
+    "Euler's Formula: F + V − E = 2. Valid ONLY for polyhedra (flat faces).",
+    "A square pyramid: F=5, V=5, E=8.",
+    "A triangular prism: F=5, V=6, E=9.",
+    "Three views: Front view, Side view, Top view.",
+    "Cylinder views: front & side = rectangle; top = circle.",
+    "Cone views: front & side = triangle; top = circle.",
+    "Sphere views: all three views = circle.",
+    "A net is the FLAT UNFOLDING of a 3D shape. A cube has 11 different valid nets.",
+    "Karnataka link: Gol Gumbaz, Bijapur = cube base + hemisphere dome; Hampi tanks = cuboid geometry."
   ]
 }

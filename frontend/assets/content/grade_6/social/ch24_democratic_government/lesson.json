@@ -1,114 +1,142 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "social",
-  "chapter_id": "ch24_democratic_government",
-  "chapter_title": {
-    "en": "Key Elements of a Democratic Government",
-    "hi": "लोकतांत्रिक सरकार के मुख्य तत्व",
-    "kn": "ಪ್ರಜಾಸತ್ತಾತ್ಮಕ ಸರ್ಕಾರದ ಪ್ರಮುಖ ಅಂಶಗಳು"
+  "subject": "Social Science",
+  "textbook": "Social and Political Life — Textbook for Class VI",
+  "chapter_number": 24,
+  "chapter_title": "Key Elements of a Democratic Government",
+  "estimated_study_time_minutes": 50,
+  "difficulty": "Easy",
+  "learning_objectives": [
+    "Identify and explain the five key elements of a democratic government: participation, accountability, conflict resolution, equality and justice, and rule of law",
+    "Describe various forms of citizen participation beyond voting",
+    "Explain what accountability means and how it is achieved through elections, RTI, Question Hour, and media",
+    "Describe how democratic governments resolve conflicts peacefully",
+    "Explain the importance of equality and justice in a democracy, including minority rights",
+    "Understand the role of the Gram Sabha and local governance in direct democracy",
+    "Connect Karnataka's Lokayukta, Gram Panchayat, and social audit systems to democratic principles"
+  ],
+  "prerequisite_knowledge": [
+    "Understanding from Chapter 23: what government is, the three tiers, and the three branches",
+    "Knowledge of the Indian Constitution's Fundamental Rights from Chapter 23",
+    "Awareness of India's diversity and discrimination from Chapters 21–22",
+    "Basic familiarity with elections, Parliament, and the Chief Minister from news and school"
+  ],
+  "introduction": {
+    "why_important": "Knowing that India is a democracy is not enough. Understanding WHAT MAKES a government democratic — and how to evaluate whether your government is living up to democratic ideals — is what this chapter provides. These five elements are the standards by which citizens should judge their government, and the tools they can use to improve it. Democracy is not a gift — it is an active practice that requires informed, participating citizens.",
+    "real_life_relevance": "Every time you file an RTI, attend a Gram Sabha, sign a petition, watch Parliament's Question Hour on television, or read investigative journalism — you are living the elements of this chapter. These are not abstract concepts — they are daily tools of democratic citizenship that become more powerful the more people use them.",
+    "karnataka_context": "Karnataka is a rich case study for all five democratic elements: (1) Participation — Karnataka's Gram Sabhas and the state's active civil society organisations (Dalit Sangharsha Samiti, farmers' groups); (2) Accountability — Karnataka's Lokayukta (1984, one of India's first) and the Social Audit Unit for MGNREGA; (3) Conflict resolution — Karnataka's Nyaya Panchayats (village courts) for minor disputes; the Cauvery River water dispute between Karnataka and Tamil Nadu as a complex inter-state conflict resolved through the Supreme Court and Cauvery Water Disputes Tribunal; (4) Equality and justice — Karnataka's 50% women's reservation in Panchayats; SC/ST reservations in government jobs and education; (5) Rule of law — Karnataka High Court (established 1884, one of India's oldest); the Bommai Case (1994) from Karnataka that strengthened federal rule of law. Karnataka is not just a participant in Indian democracy — it has shaped national democratic institutions.",
+    "connection_to_previous_learning": "Chapter 23 asked 'what is government?' and showed India's institutional structures. Chapter 24 asks 'what makes government democratic?' — shifting from structure to values and practice. The five elements are the evaluation criteria for any government: a government that lacks participation, accountability, conflict resolution, equality, or rule of law is failing as a democracy, regardless of its formal structure."
   },
-  "topics": [
+  "story_summary": {
+    "characters": [
+      {"name": "The Citizens", "role": "The protagonists of democracy — participants, questioners, voters, protesters; the source of democratic power"},
+      {"name": "The Government", "role": "The accountable party — must answer to citizens, resolve their conflicts, protect their equality, and follow the law"},
+      {"name": "The Gram Sabha", "role": "The chapter's model institution — showing all five elements of democracy working at the village level"},
+      {"name": "Nelson Mandela", "role": "The global example — his anti-apartheid struggle illustrates participation, equality, and rule of law at the highest stakes"}
+    ],
+    "plot": [
+      "The chapter opens with the question: what makes a government truly democratic — beyond just having elections?",
+      "It introduces the five key elements and explains each with concrete examples.",
+      "It explores participation — voting is just the start; RTI, protests, Gram Sabha, petitions are all forms of participation.",
+      "It examines accountability — elections, Question Hour, Lokayukta, RTI, and media as accountability tools.",
+      "It looks at conflict resolution — courts, negotiations, legislation as peaceful dispute mechanisms.",
+      "It discusses equality and justice — constitutional protections, minority rights, MGNREGA as economic justice.",
+      "It covers rule of law — no one above the law, including the government.",
+      "It uses the South African apartheid example and the Gram Sabha water story to make the elements concrete.",
+      "It concludes by asking students to evaluate their own local government against these five standards."
+    ],
+    "moral": "Democracy is not a spectator sport. It requires active, informed, and persistent citizen participation. The five elements of democratic government are not gifts from leaders — they are rights demanded and maintained by citizens. Every generation must re-earn democracy through active participation."
+  },
+  "core_concepts": [
     {
-      "topic_id": "social_grade6_ch24_democratic_government_basics",
-      "title": {
-        "en": "Key Elements of a Democratic Government - Fundamentals",
-        "hi": "लोकतांत्रिक सरकार के मुख्य तत्व - बुनियादी बातें",
-        "kn": "ಪ್ರಜಾಸತ್ತಾತ್ಮಕ ಸರ್ಕಾರದ ಪ್ರಮುಖ ಅಂಶಗಳು - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of Key Elements of a Democratic Government",
-        "Solve exercises and apply rules related to Key Elements of a Democratic Government",
-        "Analyze practical examples of Key Elements of a Democratic Government in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Key Elements of a Democratic Government. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम लोकतांत्रिक सरकार के मुख्य तत्व का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಪ್ರಜಾಸತ್ತಾತ್ಮಕ ಸರ್ಕಾರದ ಪ್ರಮುಖ ಅಂಶಗಳು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Key Elements of a Democratic Government in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम लोकतांत्रिक सरकार के मुख्य तत्व का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಪ್ರಜಾಸತ್ತಾತ್ಮಕ ಸರ್ಕಾರದ ಪ್ರಮುಖ ಅಂಶಗಳು ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Key Elements of a Democratic Government.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Key Elements of a Democratic Government.",
-            "hi": "चरण 1: लोकतांत्रिक सरकार के मुख्य तत्व के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಪ್ರಜಾಸತ್ತಾತ್ಮಕ ಸರ್ಕಾರದ ಪ್ರಮುಖ ಅಂಶಗಳು ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Key Elements of a Democratic Government builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "लोकतांत्रिक सरकार के मुख्य तत्व में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಪ್ರಜಾಸತ್ತಾತ್ಮಕ ಸರ್ಕಾರದ ಪ್ರಮುಖ ಅಂಶಗಳು ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Participation — Citizens as Active Democratic Agents",
+      "simple_explanation": "Participation means citizens actively engage in governance — not just voting every five years but continuously influencing decisions through protests, petitions, RTI, Gram Sabha attendance, and more.",
+      "detailed_explanation": "Democratic participation exists on a spectrum from minimum to maximum: Minimum participation: voting in elections every 5 years (essential, but insufficient). Moderate participation: staying informed through news; discussing civic issues; contacting elected representatives about problems; signing petitions. Active participation: filing RTI applications; attending Gram Sabha meetings; participating in public hearings for major projects; joining civic organisations. Maximum participation: standing for election; leading campaigns; organising community action. Each level of participation strengthens democracy — a government that only faces citizen voice at elections has far less accountability than one that faces it daily. Key tools of participation in India: Vote (elections), RTI Act (information requests), Gram Sabha (direct village democracy), Public Interest Litigation (PIL) — a citizen can approach the Supreme Court on behalf of the public interest, Protests (Article 19), Panchayat meetings, Public consultations for Environmental Impact Assessments.",
+      "real_life_example": "The Mazdoor Kisan Shakti Sangathan (MKSS) in Rajasthan began as a movement of poor workers demanding their wage records from government. They pioneered the 'Jan Sunwai' (public hearing) where government records were read aloud and workers verified whether they had been paid. This grassroots movement directly led to the demand for the RTI Act — eventually enacted in 2005. One community's participatory demand changed national law. This is participation at its most powerful.",
+      "karnataka_example": "Karnataka's Gram Sabhas are constitutionally mandated to meet at least twice a year and are required for key decisions — selecting MGNREGA work sites, approving panchayat budgets, identifying beneficiaries for government housing schemes. In Karnataka's best-performing districts (like Udupi, Dharwad), Gram Sabhas have high attendance and active deliberation — women and Dalit members regularly raise issues. Karnataka's civil society — the Dalit Sangharsha Samiti, farmers' organisations, women's SHGs — maintains continuous pressure on the state government, exemplifying non-electoral participation.",
+      "common_mistakes": "Students sometimes think participation only means voting. In fact, voting is just the baseline. Between elections, citizens must continuously engage — otherwise the government has no feedback and no accountability. Also, students sometimes think only adults can participate — students can sign petitions, write to their school's elected body, attend community meetings (with family), and learn civic skills that prepare them for full participation at 18.",
+      "memory_tip": "PARTICIPATION PYRAMID: Vote (base — everyone) → Inform yourself (next level) → Petition/RTI (active) → Protest (assertive) → Stand for election (peak). Climb as high as your civic engagement allows. Democracy needs citizens at every level."
+    },
+    {
+      "concept_name": "Accountability — Government Answering to Citizens",
+      "simple_explanation": "Accountability means elected leaders must answer for their decisions and actions to the people who elected them. Multiple mechanisms — elections, Question Hour, RTI, Lokayukta, courts, media — hold the government accountable.",
+      "detailed_explanation": "Accountability operates through multiple interlocking mechanisms: Electoral accountability: citizens vote out governments that fail them — the ultimate accountability mechanism. But elections are infrequent (every 5 years) and voters decide on many issues at once. Between elections, other mechanisms fill the gap: Parliamentary accountability: Question Hour (ministers answer MPs daily); debates on government policy; no-confidence motion (Parliament can dismiss the government); Parliamentary committees investigate government departments. RTI accountability: any citizen can demand information about government decisions and spending within 30 days. Institutional accountability: Lokayukta/Lokpal (anti-corruption ombudsmen); Comptroller and Auditor General (CAG — audits all government spending independently); Information Commissioners (hear RTI appeals). Judicial accountability: courts can declare government actions illegal; citizens can approach courts against government (writ petitions under Article 32/226). Media accountability: investigative journalism exposes what formal mechanisms miss. Community accountability: social audits of MGNREGA; Gram Sabha reviews of panchayat spending. Each mechanism covers gaps left by others — together creating a web of accountability.",
+      "real_life_example": "In 2012, the CAG (Comptroller and Auditor General) report on the 2G spectrum allocation scandal estimated a notional loss of Rs 1.76 lakh crore to the government — exposing a massive corruption case involving telecom licences. This led to arrests, court cases, and ultimately the Supreme Court cancelling the licences. The CAG's independent audit was the accountability mechanism that triggered the entire chain. Without institutional accountability, this corruption might have remained hidden.",
+      "karnataka_example": "Karnataka's Lokayukta (1984) is one of India's most active anti-corruption bodies. Under Justice Santosh Hegde (Lokayukta 2001–2006), the Lokayukta's report on illegal mining in Karnataka (the 'Mining Report') exposed systematic corruption involving politicians, officials, and mining companies worth thousands of crores. This directly led to the resignation of a Chief Minister, multiple FIRs, and a Supreme Court-ordered mining ban in Bellary district. One Lokayukta report triggered accountability across three government levels — local, state, and national. Karnataka's Lokayukta demonstrates institutional accountability at its most effective.",
+      "common_mistakes": "Students sometimes think accountability only means elections — voting out bad leaders. While elections are central, the 5-year gap means other mechanisms are essential. Also, accountability is not the same as punishment — accountability means giving an account of your decisions. If the account is good, no punishment is needed. If the account reveals wrongdoing, punishment follows. Accountability is first about transparency, then about consequences.",
+      "memory_tip": "ACCOUNTABILITY = ACCOUNT + ABILITY. The government must give an ACCOUNT (of decisions, spending, actions) AND have the ABILITY to be questioned and penalised. Multiple mechanisms: Vote (5 years), RTI (30 days), Question Hour (daily), Lokayukta (ongoing), Courts (anytime). Together = no escape for corruption."
+    },
+    {
+      "concept_name": "Conflict Resolution and the Rule of Law",
+      "simple_explanation": "Democracies resolve conflicts through peaceful mechanisms — courts, negotiations, legislation — not through violence or the dominance of the most powerful. The rule of law means the same laws apply to everyone, including the most powerful.",
+      "detailed_explanation": "Conflict is inevitable in a diverse society with competing interests. The question is how conflicts are resolved. Non-democratic resolution: might makes right — the powerful impose their will; violence settles disputes; the rich buy justice. Democratic resolution mechanisms: (1) Courts — formal adjudication by independent judges following established law; appeals process ensures fairness; (2) Negotiation and mediation — government mediates between competing parties (e.g., state government mediating between farmers and a dam project); (3) Legislation — Parliament passes laws that set clear, general rules for recurring conflict types; (4) Alternative Dispute Resolution — Lok Adalats (people's courts) settle cases through compromise; (5) Gram Nyayalayas — village courts that handle minor civil and criminal cases without expensive lawyers; (6) Ombudsmen — Lokayukta/Lokpal settle citizen-government conflicts. Rule of Law means: no one — not the Prime Minister, not a millionaire, not a majority community — is above the law; the same procedure applies to all; independent courts apply the law impartially. Rule of law is violated when: powerful people buy verdicts; police selectively enforce against minorities; government ignores court orders.",
+      "real_life_example": "The Cauvery River water dispute between Karnataka and Tamil Nadu is one of India's longest interstate conflicts — both states claim rights to Cauvery water for their farmers. Despite intense political pressure and occasional violence, the dispute has been managed through the Supreme Court and the Cauvery Water Disputes Tribunal (established 1990). Both states have sometimes defied tribunal orders (rule of law violations), but the ultimate resolution has come through legal institutions rather than war. This is democratic conflict resolution — imperfect, slow, but peaceful.",
+      "karnataka_example": "Karnataka's Cauvery conflict with Tamil Nadu is the state's most prominent example of inter-state conflict resolution through democratic mechanisms. Karnataka farmers (particularly in the Cauvery basin — Mandya, Mysuru, Hassan districts) and Tamil Nadu farmers both depend on the Cauvery for irrigation. The Supreme Court's 2018 final order allocated water between the two states. Despite protests in both states, both governments accepted the Supreme Court's authority — demonstrating rule of law even in a highly politically charged dispute. Additionally, Karnataka's Gram Nyayalayas (village courts, established under the 2008 Gram Nyayalayas Act) resolve minor disputes at the village level — reducing burden on higher courts and bringing justice to rural citizens.",
+      "common_mistakes": "Students sometimes think rule of law means 'there are many laws.' The rule of law is about the QUALITY and EQUAL APPLICATION of law — not the quantity. A country with many laws applied only to the poor and never to the rich does not have rule of law. Also, students sometimes confuse conflict resolution with conflict elimination — democracy does not eliminate conflict (impossible in a diverse society); it provides peaceful mechanisms to manage it.",
+      "memory_tip": "RULE OF LAW = THE LAW RULES EVERYONE EQUALLY. Not the ruler's law — the law's rule. Imagine a weighing scale: rule of law = the scale works the same for all. No thumb on the scale for the powerful. CONFLICT RESOLUTION = REFEREE, NOT MUSCLE. In democracy, disputes go to courts and dialogue — not to fists and weapons."
+    },
+    {
+      "concept_name": "Equality, Justice, and Participation of the Marginalised",
+      "simple_explanation": "Democratic governments must ensure all citizens are treated equally and with justice — especially those who have historically been excluded. Women, Dalits, Adivasis, and minorities must have equal opportunities to participate and receive fair treatment.",
+      "detailed_explanation": "Equality in democracy operates at two levels: Formal equality — everyone has the same legal rights (Constitution, Articles 14–17). Substantive equality — ensuring historically disadvantaged groups can actually exercise those rights, through affirmative measures. India's measures for substantive equality: Reservations — SC/ST students get reserved seats in government colleges; SC/ST communities get reserved jobs in government; women get 33–50% reservation in Panchayati Raj bodies; Scheduled Castes and Tribes get reservation in Parliament and State Legislatures. Economic programmes — MGNREGA (employment guarantee, prioritising Dalits and women); PM Awas Yojana (housing priority for SC/ST); Scholarships for SC/ST students. Political representation — reserved constituencies ensure SC/ST MPs and MLAs in Parliament and State Legislatures. The connection between equality and participation: when marginalised communities have more political representation (more women in panchayats, more Dalits in Parliament), their issues get more attention in governance — proving that equality in participation leads to better governance for all.",
+      "real_life_example": "After 33% reservation for women in Gram Panchayats was implemented nationally (73rd Amendment, 1992), studies showed that: panchayats with women leaders invested more in drinking water, public toilets for women, and health centres — issues that men often deprioritised. In Karnataka, where 50% reservation applies, villages with women Adhyakshas (presidents) showed better sanitation and school attendance. Equality in participation (women in leadership) produced equality in outcomes (better services for the most vulnerable). This is why participation of marginalised groups is not just a matter of fairness — it produces better government.",
+      "karnataka_example": "Karnataka's approach to equality in democratic participation: (1) 50% reservation for women in all Panchayati Raj institutions — exceeding the national 33% requirement; (2) SC/ST reservation: 15% for SC, 3% for ST in government jobs and educational institutions; (3) OBC (Other Backward Classes) reservation — Karnataka has OBC reservation both in government jobs and panchayat bodies; (4) Morarji Desai and Kittur Rani Chennamma residential schools — free quality education for SC/ST and backward-class students, addressing educational inequality; (5) MGNREGA in Karnataka — 60%+ of MGNREGA workers in Karnataka are women and SC/ST community members — the scheme reaches those who most need economic security. Karnataka's equality measures go beyond the national minimum — reflecting a state tradition of social justice from Basavanna to the present.",
+      "common_mistakes": "Students sometimes confuse reservations with charity — thinking reserved seats are given to 'lesser' candidates. In fact, reserved candidates must still meet eligibility criteria; reservation addresses the structural disadvantage created by centuries of exclusion. Also, students sometimes think equality means identical treatment in all cases — in fact, equality sometimes requires different treatment to achieve equal outcomes (a student with a disability needs a ramp; giving everyone the same flat floor is not equal). The Constitution recognises this in its affirmative action provisions.",
+      "memory_tip": "EQUALITY = SAME FINISH LINE, DIFFERENT STARTING BLOCKS. Centuries of caste/gender discrimination created unequal starting blocks. Reservations and schemes try to bring everyone to a similar starting point. The goal is equal opportunity, not just equal treatment. A fair race needs equal starting conditions."
     }
+  ],
+  "quick_check_questions": [
+    {
+      "after_concept": "Participation — Citizens as Active Democratic Agents",
+      "questions": [
+        {"type": "Recall", "q": "Name four ways a citizen can participate in democracy beyond voting.", "a": "Any four from: filing RTI applications, attending Gram Sabha meetings, signing petitions, writing to their MLA/MP, joining protests, filing Public Interest Litigation (PIL), attending public hearings for development projects, standing for election."},
+        {"type": "Application", "q": "A village has no clean drinking water. List two democratic actions the villagers could take to address this.", "a": "Any two: (1) Raise it at the Gram Sabha and pass a resolution demanding the panchayat address it; (2) File an RTI asking the panchayat about water supply budget and spending; (3) Write a petition to the MLA/MP; (4) Contact the BWSSB/ZP water supply office; (5) Organise a peaceful demonstration demanding government action."}
+      ]
+    },
+    {
+      "after_concept": "Accountability — Government Answering to Citizens",
+      "questions": [
+        {"type": "Recall", "q": "What is the RTI Act? When was it passed?", "a": "The Right to Information Act (2005) gives every Indian citizen the right to request any information from public authorities, which must respond within 30 days. It is a key tool of government accountability."},
+        {"type": "Application", "q": "Why is Karnataka's Lokayukta important for democratic accountability?", "a": "The Lokayukta (1984) is an independent anti-corruption ombudsman that investigates citizen complaints against state government officials without political interference. Citizens can report corruption directly to the Lokayukta, bypassing the government hierarchy. The Lokayukta can conduct raids, investigate, and recommend prosecution — making government officials accountable to citizens, not just to superiors within the government."}
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "The five key elements of democratic government: Participation, Accountability, Conflict Resolution, Equality and Justice, Rule of Law (PACER).",
+    "Participation goes beyond voting — RTI, Gram Sabha, protests, petitions, and PILs are all valid democratic participation.",
+    "Accountability is achieved through: elections, Question Hour, RTI, Lokayukta, independent courts, and free media.",
+    "The RTI Act (2005) gives every citizen the right to demand government information within 30 days.",
+    "The Gram Sabha is India's most direct form of democracy — every adult voter in a village is a member.",
+    "Democratic conflict resolution uses courts, negotiation, legislation, and ombudsmen — not violence.",
+    "Rule of Law means the same laws apply to everyone — including the most powerful.",
+    "Equality requires both formal equality (same rights in law) and substantive equality (affirmative measures to overcome historical disadvantage).",
+    "Karnataka's Lokayukta (1984) and Social Audit Unit are models of democratic accountability in practice.",
+    "Karnataka gives 50% Panchayat reservation to women — exceeding the national 33% requirement — advancing gender equality in governance."
+  ],
+  "mind_map": {
+    "root": "Key Elements of a Democratic Government",
+    "branches": [
+      {"branch": "Participation", "sub": ["Voting — minimum participation", "RTI Act (2005) — information demand", "Gram Sabha — direct village democracy", "Protests (Article 19), petitions, PILs", "Standing for election"]},
+      {"branch": "Accountability", "sub": ["Elections — vote out bad leaders", "Question Hour — daily parliamentary scrutiny", "RTI — citizens demand information", "Lokayukta/CAG — institutional watchdogs", "Free media — fourth estate"]},
+      {"branch": "Conflict Resolution", "sub": ["Courts — formal adjudication", "Lok Adalats, Gram Nyayalayas — accessible justice", "Government negotiation — interstate disputes", "Legislation — setting rules for recurring conflicts"]},
+      {"branch": "Equality and Justice", "sub": ["Formal equality — same rights in law (Articles 14–17)", "Substantive equality — reservations, MGNREGA, schemes", "Minority rights — cannot be overridden by majority vote", "Women's participation — 33–50% Panchayat reservation"]},
+      {"branch": "Rule of Law", "sub": ["No one above the law", "Same laws for all", "Independent judiciary enforces", "Cauvery dispute (Karnataka) — settled by law, not force"]},
+      {"branch": "Karnataka Connections", "sub": ["Lokayukta (1984) — anti-corruption model", "Social Audit Unit — community accountability", "50% women's Panchayat reservation", "Cauvery dispute — democratic conflict resolution", "6,016 Gram Panchayats — grassroots participation"]}
+    ]
+  },
+  "revision_notes": "Chapter 24 covers five key elements of democratic government: (1) Participation — voting + RTI + Gram Sabha + protests + petitions + PIL. RTI Act 2005: any citizen can demand government information within 30 days. Gram Sabha = all adult voters of a village; meets twice yearly; most direct democracy. (2) Accountability — elections, Question Hour (MPs question ministers daily in Parliament), RTI, Lokayukta (anti-corruption ombudsman; Karnataka's established 1984), CAG, social audits, free media. (3) Conflict Resolution — courts, Lok Adalats, Gram Nyayalayas, government negotiation, legislation. Cauvery dispute = Karnataka's example of legal conflict resolution. (4) Equality and Justice — formal (same rights in law) + substantive (reservations, MGNREGA, schemes). Minority rights cannot be overridden by majority. MGNREGA 2005: 100 days guaranteed work; social audits verify spending. (5) Rule of Law — same law for all, including government; courts check government. Karnataka's 50% Panchayat women reservation, Lokayukta raids, Social Audit Unit = living examples of all five elements.",
+  "must_remember_facts": [
+    "Five elements of democratic government: Participation, Accountability, Conflict Resolution, Equality & Justice, Rule of Law — PACER.",
+    "RTI Act 2005: every citizen can request government information; response required within 30 DAYS.",
+    "Gram Sabha = ALL adult voters of a village; India's most DIRECT democracy; meets at least TWICE a year.",
+    "Karnataka's Lokayukta established in 1984 — one of India's FIRST and most active anti-corruption ombudsmen.",
+    "Question Hour: FIRST HOUR of every Parliamentary session — MPs publicly question ministers.",
+    "MGNREGA (2005): guarantees 100 days paid work to rural households; includes mandatory SOCIAL AUDIT.",
+    "Rule of Law: the SAME laws apply to EVERYONE — including the Prime Minister and Chief Minister.",
+    "Karnataka gives 50% Gram Panchayat seats to WOMEN — exceeding the national 33% constitutional requirement.",
+    "South Africa's apartheid ended in 1994 — Nelson Mandela's election demonstrated that democracy requires EQUAL PARTICIPATION regardless of race.",
+    "Majority rule + minority rights = CONSTITUTIONAL DEMOCRACY. Majority cannot override Fundamental Rights of any minority."
   ]
 }

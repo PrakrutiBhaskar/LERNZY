@@ -1,114 +1,137 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "social",
-  "chapter_id": "ch21_understanding_diversity",
-  "chapter_title": {
-    "en": "Understanding Diversity",
-    "hi": "विविधता की समझ",
-    "kn": "ವೈವಿಧ್ಯತೆಯ ತಿಳುವಳಿಕೆ"
+  "subject": "Social Science",
+  "textbook": "Social and Political Life — Textbook for Class VI",
+  "chapter_number": 21,
+  "chapter_title": "Understanding Diversity",
+  "estimated_study_time_minutes": 45,
+  "difficulty": "Easy",
+  "learning_objectives": [
+    "Define diversity and explain why India is one of the most diverse countries in the world",
+    "Identify examples of India's diversity in language, religion, food, clothing, and festivals",
+    "Explain how geography and history have shaped India's cultural diversity",
+    "Understand what 'Unity in Diversity' means and why it is India's defining principle",
+    "Recognise stereotypes and prejudice, and understand why they are harmful",
+    "Demonstrate ways of respecting and appreciating diversity in everyday life",
+    "Connect Karnataka's specific cultural contributions to India's national diversity"
+  ],
+  "prerequisite_knowledge": [
+    "Basic awareness of India as a country with many states",
+    "Knowledge of a few Indian festivals and religions from daily life",
+    "Familiarity with the concept of culture from home and school",
+    "Understanding from earlier chapters about India's geography and its varied landscapes"
+  ],
+  "introduction": {
+    "why_important": "India's diversity is not just an interesting fact — it is the foundation of Indian democracy. A democratic society must manage differences peacefully and justly. Understanding diversity teaches students why people are different, why those differences deserve respect, and how India holds together as one nation despite extraordinary variety. This chapter also prepares students to resist prejudice and discrimination.",
+    "real_life_relevance": "Every classroom in Karnataka has students from different communities, castes, and linguistic backgrounds. Every neighbourhood has neighbours celebrating different festivals. The food you eat, the clothes you wear, the language you speak — all are products of your community's specific cultural history within India's diversity. Understanding this makes you a more thoughtful, respectful citizen.",
+    "karnataka_context": "Karnataka itself is a microcosm of India's diversity. The coastal districts speak Tulu, not just Kannada; the Kodava people of Coorg have their own language, cuisine, and the unique tradition of owning firearms; the Lingayat community (founded by Basavanna in the 12th century) challenged caste through a social revolution; Siddi communities (of African descent, settled in Karnataka and Goa for centuries) maintain their own cultural traditions; the Hakki Pikki, Soliga, and Jenu Kuruba are among Karnataka's tribal communities with rich forest-based knowledge systems. Karnataka's 8 Jnanpith Award-winning literature, its UNESCO-listed temples (Hampi, Hoysala), and its diverse folk arts (Yakshagana, Dollu Kunitha, Veeragase, Kolata) together represent one state's enormous contribution to India's cultural wealth.",
+    "connection_to_previous_learning": "This chapter is the first chapter in the Social and Political Life textbook, setting the foundation for all civic concepts to follow. It connects to geography (Chapter on India's physical diversity), history (ancient trade routes and civilisations), and later chapters on discrimination, government, and rights — all of which must be understood through the lens of India's diverse society."
   },
-  "topics": [
+  "story_summary": {
+    "characters": [
+      {"name": "Samaira", "role": "A child from one cultural background — represents one strand of India's diversity"},
+      {"name": "Harish", "role": "A child from a different background — their friendship across difference is the chapter's central story"},
+      {"name": "India's Communities", "role": "The collective protagonist — hundreds of communities whose interactions over millennia created the cultural mosaic"}
+    ],
+    "plot": [
+      "The chapter opens with children from different backgrounds meeting in school and discovering their differences.",
+      "It explores what causes diversity — geography, religion, history of trade and migration.",
+      "It celebrates diversity through examples of different foods, festivals, languages, and art forms.",
+      "It introduces the concept of 'Unity in Diversity' — India's unique achievement of holding together as one nation.",
+      "It then examines the darker side: stereotypes and prejudice that arise when people fear or misunderstand difference.",
+      "It concludes with the idea that diversity enriches us — the more we know about different communities, the richer our understanding of the world."
+    ],
+    "moral": "India's diversity is not a problem to be solved — it is a gift to be celebrated. Understanding others' differences with curiosity and respect, rather than fear or judgment, makes us better citizens and better human beings."
+  },
+  "core_concepts": [
     {
-      "topic_id": "social_grade6_ch21_understanding_diversity_basics",
-      "title": {
-        "en": "Understanding Diversity - Fundamentals",
-        "hi": "विविधता की समझ - बुनियादी बातें",
-        "kn": "ವೈವಿಧ್ಯತೆಯ ತಿಳುವಳಿಕೆ - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of Understanding Diversity",
-        "Solve exercises and apply rules related to Understanding Diversity",
-        "Analyze practical examples of Understanding Diversity in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Understanding Diversity. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम विविधता की समझ का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ವೈವಿಧ್ಯತೆಯ ತಿಳುವಳಿಕೆ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Understanding Diversity in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम विविधता की समझ का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ವೈವಿಧ್ಯತೆಯ ತಿಳುವಳಿಕೆ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Understanding Diversity.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Understanding Diversity.",
-            "hi": "चरण 1: विविधता की समझ के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ವೈವಿಧ್ಯತೆಯ ತಿಳುವಳಿಕೆ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Understanding Diversity builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "विविधता की समझ में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ವೈವಿಧ್ಯತೆಯ ತಿಳುವಳಿಕೆ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "What is Diversity and Why Does India Have It?",
+      "simple_explanation": "Diversity means many different kinds of people living together. India has it because of its geography, ancient history, and centuries of trade and migration that brought different peoples and cultures together.",
+      "detailed_explanation": "India's diversity has three main causes: (1) Geography — India's vast size (3.2 million sq km) encompasses Himalayan mountains, Deccan plateau, Thar desert, coastal plains, and northeastern forests. Each geographic zone shaped distinct ways of life — different crops, different clothes, different building styles; (2) Ancient history — India has been inhabited for over 70,000 years. Multiple civilisations (Indus Valley, Vedic, Dravidian, Buddhist, Mughal) developed here, each contributing to the cultural layers; (3) Trade and migration — India's ports (Mangaluru, Calicut, Surat) attracted Arab, Chinese, African, Portuguese, and British traders and settlers. Each group left cultural traces — architecture, food, religion, language. These three forces together created a society where hundreds of communities live with distinct identities yet share a common homeland.",
+      "real_life_example": "Compare your own family's culture with that of a classmate from a different community. You may eat different foods at home, celebrate different festivals, speak differently, and pray differently — yet you sit in the same classroom, follow the same school rules, and share the same national holidays. That everyday experience is diversity.",
+      "karnataka_example": "Karnataka has four distinct geographical zones — the Western Ghats (Malnad), the coastal strip (Karavali), the Deccan Plateau (Bayaluseeme), and the northern districts (Uttara Karnataka). Each zone has distinct food, dialect, and culture: coastal Tulu-speaking fish-eaters, highland coffee-growing Kodavas, plateau-dwelling ragi-eating Kannadigas, and northern district communities with Urdu and Telugu influences. Four zones, one state — this is diversity in action.",
+      "common_mistakes": "Students sometimes think diversity means conflict or division. In fact, diversity simply means variety. Conflict arises only when diversity is met with prejudice rather than respect. Many countries with great diversity — India, Canada, South Africa — have successfully built united democratic societies.",
+      "memory_tip": "Diversity = INDIA'S RECIPE. Like a complex curry with 50 spices — each spice is distinct, yet together they make something richer than any single spice alone. Remove one spice: the curry is poorer. Remove a community: India is poorer."
+    },
+    {
+      "concept_name": "Unity in Diversity",
+      "simple_explanation": "Unity in Diversity means that despite India's enormous differences in language, religion, and culture, all Indians are united by shared citizenship, the Constitution, and national symbols.",
+      "detailed_explanation": "India's unity is not based on sameness — it is based on shared democratic values and constitutional rights. What unites India: (1) Constitution — one Constitution applies equally to every Indian, regardless of religion, language, or caste; (2) Citizenship — every person born in India is an Indian citizen with equal rights; (3) National symbols — every Indian shares the same national flag, anthem (Jana Gana Mana), emblem (Ashoka's Lion Capital), and national bird/flower/animal; (4) Democratic institutions — every adult votes in the same elections; (5) Common history of the freedom struggle — Indians of all communities fought together against British rule. Unity in Diversity is not a slogan — it is a deliberate constitutional design. The Constitution's Preamble declares India a 'sovereign, socialist, secular, democratic republic' — 'secular' means the state has no official religion and treats all religions equally. This principle allows India to be both diverse and united.",
+      "real_life_example": "Watch India play cricket. Fans from every state, every religion, every community support 'Team India' with equal passion. The team itself has players from different regions, religions, and castes — yet they play as one. The cricket ground is a live demonstration of Unity in Diversity.",
+      "karnataka_example": "Karnataka's Rajyotsava Day (November 1st — the day Karnataka was formed as a unified linguistic state in 1956) celebrates the unity of all Kannada-speaking regions while acknowledging the diversity within: Tulu speakers, Kodava speakers, Konkani speakers, and tribal language speakers are all part of Karnataka yet maintain their own identities. The Rajyotsava celebrates the unity of diversity within Karnataka just as India's Republic Day celebrates Unity in Diversity at the national level.",
+      "common_mistakes": "Students sometimes confuse 'unity' with 'uniformity.' Unity means being connected and cooperative. Uniformity means being identical. India's unity does NOT require everyone to speak the same language, follow the same religion, or eat the same food. Unity comes from shared rights and responsibilities, not shared cultural practices.",
+      "memory_tip": "UNITY ≠ UNIFORMITY. Unity = same team (same Constitution, same citizenship). Uniformity = same jersey colour (same language, same religion). India is one team with players in different jerseys — that is Unity in Diversity."
+    },
+    {
+      "concept_name": "Stereotypes and Prejudice",
+      "simple_explanation": "A stereotype is an oversimplified belief about all members of a group. Prejudice is an unfair attitude based on stereotypes. Both prevent us from seeing people as individuals and lead to discrimination.",
+      "detailed_explanation": "How stereotypes form: humans naturally categorise things (it is a cognitive shortcut). But when we categorise people based on their group identity and assume all members share traits, we create stereotypes. Examples of stereotypes in India: 'People from X state are miserly'; 'Y community is violent'; 'Girls are not good at mathematics.' Why stereotypes are wrong: (1) They ignore individual variation — every group has billions of individuals with unique personalities; (2) They are self-fulfilling — treated as a stereotype, a person may live up to or down to expectations; (3) They are based on limited experience or inherited bias. Prejudice is the emotional attitude that accompanies a stereotype — disliking or fearing a group without knowing individual members. Prejudice leads to discrimination — actually treating people differently based on their group identity. The chain: stereotype → prejudice → discrimination. Breaking the chain requires: education, personal friendships across communities, and conscious self-reflection.",
+      "real_life_example": "Have you ever assumed something about a new classmate based on their name, religion, or the state their family comes from — before getting to know them? That assumption is a stereotype in action. When you actually talk to them and discover they are a complex individual who may not fit your expectation at all, you are breaking the stereotype through experience.",
+      "karnataka_example": "Karnataka's Vachana movement (12th century, founded by Basavanna) was a radical challenge to caste stereotypes. Basavanna rejected the idea that a person's caste determined their worth, character, or spiritual capability. He welcomed people of all castes into his Anubhava Mantapa (gathering of experiencers) — a revolutionary social experiment in a time when caste stereotypes governed every aspect of life. His vachanas (devotional poems) explicitly state: 'Do not boast of your caste, wealth, or beauty — what counts is your devotion and compassion.' This ancient Karnataka tradition of challenging stereotypes is part of the state's cultural heritage.",
+      "common_mistakes": "Students often think prejudice means physical violence against a group. In fact, prejudice can be subtle — avoiding someone from a certain community, using derogatory jokes, or making assumptions about their abilities. Also, students sometimes think 'positive stereotypes' are harmless (e.g., 'all members of X group are good at mathematics'). Positive stereotypes are still harmful — they reduce individuals to group identities and create pressure to conform to expectations.",
+      "memory_tip": "STEREOTYPE → PREJUDICE → DISCRIMINATION: three links in a chain of harm. Stereotype = wrong thought. Prejudice = wrong feeling. Discrimination = wrong action. Breaking one link breaks the chain. Education breaks the stereotype. Empathy breaks the prejudice. Law breaks the discrimination."
+    },
+    {
+      "concept_name": "Karnataka's Contribution to India's Cultural Diversity",
+      "simple_explanation": "Karnataka has made extraordinary contributions to India's cultural heritage — in classical music, literature, architecture, philosophy, and performing arts — that are irreplaceable parts of India's national cultural identity.",
+      "detailed_explanation": "Karnataka's cultural contributions by domain: (1) Architecture — Chalukya temples (Badami, Aihole, Pattadakal — 6th–8th century), Hoysala temples (Belur, Halebid, Somnathpur — 12th–13th century, now UNESCO World Heritage), Vijayanagara ruins (Hampi — 14th–16th century, UNESCO World Heritage). These are distinct architectural traditions found nowhere else; (2) Classical music — Purandaradasa (1484–1564) systematised Carnatic music pedagogy; Karnataka Sangeetha tradition contributed Tyagaraja's compositions performed in Mysuru-style; (3) Literature — 8 Jnanpith Awards (most for any Indian language), Kuvempu's Ramayana Darshanam, Dr. S.L. Bhyrappa's novels; (4) Philosophy — Basavanna's Vachana movement (12th c.), Madhvacharya's Dvaita Vedanta (13th c.), both profoundly influenced Indian philosophy; (5) Performing arts — Yakshagana (coastal Karnataka), Dollu Kunitha (drum dance), Veeragase, Nandi Dhwaja, Kolata; (6) Cuisine — Udupi cuisine (one of India's most influential vegetarian traditions). All of these are distinct expressions that enrich India's overall cultural mosaic.",
+      "real_life_example": "When you eat at an 'Udupi hotel' anywhere in India — from Delhi to Chennai to Mumbai — you are experiencing Karnataka's cultural contribution to the nation. Udupi cuisine (masala dosa, idli, sambar, rasam, filter coffee) has become part of India's national food culture. This spread of a local cuisine across the country is cultural diversity in action — Karnataka gave something to India, and India embraced it.",
+      "karnataka_example": "Hampi (Vijayanagara) was the world's second-largest city in the 15th century and the capital of an empire that stretched across South India. Travellers from Persia, Portugal, and Arabia described Hampi as richer than Rome. The ruins that remain — stone temples, bazaar streets, elephant stables, water tanks — are Karnataka's gift to India's architectural heritage and to world history. Every Karnataka student visiting Hampi is visiting the history of a civilisation that shaped South Indian culture for centuries.",
+      "common_mistakes": "Students sometimes think cultural contributions are only from ancient times. Modern Karnataka also contributes: Bengaluru as India's Silicon Valley (technology culture), Karnataka's film industry (Sandalwood), contemporary Kannada literature, and the many startups and scientists from Karnataka. Cultural contribution is ongoing, not just historical.",
+      "memory_tip": "Karnataka's Cultural HAMPI: Heritage (Hampi, Hoysala, Badami), Arts (Yakshagana, Dollu Kunitha), Music (Purandaradasa, Carnatic), Philosophy (Basavanna, Madhvacharya), and Identity (8 Jnanpith Awards). HAMPI = Karnataka's cultural fingerprint on India."
     }
+  ],
+  "quick_check_questions": [
+    {
+      "after_concept": "What is Diversity and Why Does India Have It?",
+      "questions": [
+        {"type": "Recall", "q": "Name three causes of India's cultural diversity.", "a": "1. India's varied geography. 2. India's ancient history of multiple civilisations. 3. Centuries of trade and migration bringing different peoples to India."},
+        {"type": "Application", "q": "How does geography shape the food habits of coastal Karnataka?", "a": "Proximity to the Arabian Sea means fish is abundantly available, so fish curry is a staple. Coconut trees grow in coastal climate, so coconut milk and coconut oil feature in most dishes. The humid climate suits rice cultivation, making rice the main grain."}
+      ]
+    },
+    {
+      "after_concept": "Stereotypes and Prejudice",
+      "questions": [
+        {"type": "Recall", "q": "What is the difference between a stereotype and discrimination?", "a": "A stereotype is an oversimplified belief about a group (thought). Discrimination is actually treating someone unfairly based on their group identity (action). Prejudice (negative feeling) typically connects the two."},
+        {"type": "Application", "q": "Give one example of a stereotype you have heard and explain why it is wrong.", "a": "Accept any reasonable example, e.g., 'Girls are not good at science.' This is wrong because ability in science depends on individual effort, teaching, and interest — not gender. Millions of women scientists (e.g., Tessy Thomas, C.N.R. Rao's female colleagues, ISRO scientists) disprove this stereotype."}
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Diversity means the presence of many different languages, religions, cultures, and traditions — India is one of the most diverse countries in the world.",
+    "India's diversity is caused by its varied geography, ancient history, and centuries of trade and migration.",
+    "'Unity in Diversity' means Indians are united by shared citizenship and the Constitution despite enormous cultural differences.",
+    "Unity is NOT uniformity — India does not require everyone to speak the same language or follow the same religion.",
+    "A stereotype is an oversimplified generalised belief about all members of a group — almost always inaccurate and harmful.",
+    "Prejudice is an unfair preconceived attitude toward a group; discrimination is the unfair action that follows from prejudice.",
+    "Stereotypes can be unlearned through education, personal experience, and cross-community friendships.",
+    "Karnataka's diversity includes Tulu, Kodava, Konkani, and Kannada communities with distinct cultures within one state.",
+    "Karnataka has contributed uniquely to India's cultural heritage through Hampi, Hoysala temples, Carnatic music, Jnanpith literature, and Basavanna's philosophy.",
+    "Respecting diversity means seeing people as individuals rather than as representatives of their group."
+  ],
+  "mind_map": {
+    "root": "Understanding Diversity",
+    "branches": [
+      {"branch": "What is Diversity?", "sub": ["Language — 22 scheduled languages, 1600+ mother tongues", "Religion — Hindu, Muslim, Christian, Sikh, Buddhist, Jain", "Food — shaped by geography and religion", "Clothing, festivals, arts — regionally distinct"]},
+      {"branch": "Causes of India's Diversity", "sub": ["Geography — mountains, deserts, coasts, plains", "History — multiple civilisations over millennia", "Trade and migration — Arab, Mughal, British, others"]},
+      {"branch": "Unity in Diversity", "sub": ["Shared Constitution and citizenship", "Common national symbols", "Democratic elections", "Freedom struggle — fought together"]},
+      {"branch": "Stereotypes and Prejudice", "sub": ["Stereotype = oversimplified group belief", "Prejudice = unfair preconceived attitude", "Discrimination = unfair action from prejudice", "All can be unlearned through education"]},
+      {"branch": "Karnataka's Diversity", "sub": ["Internal — Tulu, Kodava, Kannada, Konkani communities", "Contributions — Hampi, Hoysala, Carnatic music, 8 Jnanpith", "Basavanna's Vachana movement — challenged caste", "Yakshagana, Dollu Kunitha — performing arts"]}
+    ]
+  },
+  "revision_notes": "Chapter 21 introduces diversity — the existence of different languages, religions, cultures, and customs in India. Causes: geography (mountains/coast/desert shape different lifestyles), history (multiple civilisations), and trade/migration (Arabs, Mughals, British added cultural layers). Unity in Diversity = India is united by shared Constitution, citizenship, and national symbols despite cultural differences. Unity ≠ uniformity. Stereotype = oversimplified generalised belief about a group. Prejudice = unfair preconceived attitude based on identity. Discrimination = treating people unfairly because of group identity. Chain: Stereotype → Prejudice → Discrimination. All can be broken through education and cross-community friendships. Karnataka's contributions: Hampi (Vijayanagara, UNESCO), Hoysala temples (UNESCO, Belur/Halebid), Purandaradasa (Carnatic music), Basavanna (12th century social reform), 8 Jnanpith Awards (Kannada literature). Karnataka's internal diversity: Tulu (coast), Kodava (Coorg), Konkani (coast), tribal communities. National connections: Article 15 (no discrimination), Article 29 (right to preserve culture).",
+  "must_remember_facts": [
+    "India has 22 officially scheduled languages (8th Schedule of the Constitution) and over 1,600 mother tongues.",
+    "'Unity in Diversity' — Nehru's phrase capturing India's achievement of unity despite enormous cultural diversity.",
+    "Three causes of India's diversity: geography, ancient history, trade and migration.",
+    "Stereotype = oversimplified belief about a group. Prejudice = unfair attitude. Discrimination = unfair action.",
+    "Karnataka has won 8 Jnanpith Awards — the most for any Indian language (shared with Hindi).",
+    "Hampi (Vijayanagara) and Hoysala temples (Belur, Halebid) are UNESCO World Heritage Sites in Karnataka.",
+    "Purandaradasa (Karnataka) is called the 'Pitamaha (grandfather) of Carnatic music.'",
+    "Basavanna (12th century, Karnataka) founded the Vachana movement challenging caste discrimination.",
+    "Article 15 of the Constitution prohibits discrimination based on religion, race, caste, sex, or place of birth.",
+    "Article 29 protects the right of any community to preserve its distinct language, script, and culture."
   ]
 }

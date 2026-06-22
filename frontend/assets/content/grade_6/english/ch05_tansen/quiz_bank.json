@@ -1,366 +1,62 @@
 {
-  "version": "1.0",
-  "topic_id": "english_grade6_ch05_tansen_basics",
-  "questions": [
-    {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the primary objective of studying Tansen? (Q1)",
-        "hi": "What is the primary objective of studying Tansen? (Q1)",
-        "kn": "What is the primary objective of studying Tansen? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Tansen in a text. (Q2)",
-        "hi": "Identify the grammatical or descriptive role of Tansen in a text. (Q2)",
-        "kn": "Identify the grammatical or descriptive role of Tansen in a text. (Q2)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the primary objective of studying Tansen? (Q3)",
-        "hi": "What is the primary objective of studying Tansen? (Q3)",
-        "kn": "What is the primary objective of studying Tansen? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Tansen in a text. (Q4)",
-        "hi": "Identify the grammatical or descriptive role of Tansen in a text. (Q4)",
-        "kn": "Identify the grammatical or descriptive role of Tansen in a text. (Q4)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the primary objective of studying Tansen? (Q5)",
-        "hi": "What is the primary objective of studying Tansen? (Q5)",
-        "kn": "What is the primary objective of studying Tansen? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Tansen in a text. (Q6)",
-        "hi": "Identify the grammatical or descriptive role of Tansen in a text. (Q6)",
-        "kn": "Identify the grammatical or descriptive role of Tansen in a text. (Q6)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the primary objective of studying Tansen? (Q7)",
-        "hi": "What is the primary objective of studying Tansen? (Q7)",
-        "kn": "What is the primary objective of studying Tansen? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Tansen in a text. (Q8)",
-        "hi": "Identify the grammatical or descriptive role of Tansen in a text. (Q8)",
-        "kn": "Identify the grammatical or descriptive role of Tansen in a text. (Q8)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the primary objective of studying Tansen? (Q9)",
-        "hi": "What is the primary objective of studying Tansen? (Q9)",
-        "kn": "What is the primary objective of studying Tansen? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Tansen in a text. (Q10)",
-        "hi": "Identify the grammatical or descriptive role of Tansen in a text. (Q10)",
-        "kn": "Identify the grammatical or descriptive role of Tansen in a text. (Q10)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
-    }
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "English",
+  "textbook": "A Pact with the Sun",
+  "chapter_number": 5,
+  "chapter_title": "Tansen",
+
+  "level_1_mcqs": [
+    { "id": "mcq01", "difficulty": "Easy", "question": "What was Tansen's real name?", "options": ["Tanveer", "Ramtanu", "Akbar", "Haridas"], "correct_answer": "Ramtanu", "explanation": "Tansen was originally named Ramtanu. He was later given the name Tansen, meaning 'master of musical notes.'" },
+    { "id": "mcq02", "difficulty": "Easy", "question": "Who discovered Tansen's musical talent in the forest?", "options": ["Emperor Akbar", "Muhammad Ghaus", "Swami Haridas", "His father"], "correct_answer": "Swami Haridas", "explanation": "Swami Haridas, a great musician and saint, heard the young Tansen imitating animal sounds in the forest and recognised his extraordinary talent." },
+    { "id": "mcq03", "difficulty": "Easy", "question": "How many years did Tansen train under Swami Haridas?", "options": ["Three years", "Five years", "Seven years", "Eleven years"], "correct_answer": "Eleven years", "explanation": "Tansen trained under Swami Haridas for eleven years — a long and dedicated period that transformed his raw talent into true mastery." },
+    { "id": "mcq04", "difficulty": "Easy", "question": "Which Mughal emperor invited Tansen to his court?", "options": ["Babur", "Humayun", "Akbar", "Aurangzeb"], "correct_answer": "Akbar", "explanation": "Emperor Akbar, one of the greatest Mughal rulers, heard of Tansen's fame and invited him to his court." },
+    { "id": "mcq05", "difficulty": "Easy", "question": "What were the 'Navaratnas' at Akbar's court?", "options": ["Nine gold statues", "Nine trusted soldiers", "Nine most talented people at court", "Nine royal advisors"], "correct_answer": "Nine most talented people at court", "explanation": "The Navaratnas (Nine Gems) were the nine most brilliant and talented individuals in Akbar's court. Tansen was one of them." },
+    { "id": "mcq06", "difficulty": "Easy", "question": "Which raga was said to produce heat and fire when Tansen sang it?", "options": ["Raga Bhairav", "Raga Yaman", "Raga Deepak", "Raga Todi"], "correct_answer": "Raga Deepak", "explanation": "Raga Deepak (deepak means lamp) was associated with fire and heat. Legend says singing it lit lamps, but its heat was so intense it endangered Tansen's own life." },
+    { "id": "mcq07", "difficulty": "Easy", "question": "Which raga saved Tansen from the heat of Raga Deepak?", "options": ["Raga Bhairavi", "Raga Megh Malhar", "Raga Darbari", "Raga Kafi"], "correct_answer": "Raga Megh Malhar", "explanation": "Raga Megh Malhar is associated with rain and cooling. Tansen's wife Hussaini sang it to counteract the dangerous heat produced by Raga Deepak." },
+    { "id": "mcq08", "difficulty": "Easy", "question": "Who was Tansen's second guru?", "options": ["Swami Haridas", "Emperor Akbar", "Muhammad Ghaus", "Birbal"], "correct_answer": "Muhammad Ghaus", "explanation": "After training with Swami Haridas, Tansen went to Gwalior where he trained under Muhammad Ghaus, a Sufi saint and musician." },
+    { "id": "mcq09", "difficulty": "Easy", "question": "What is the moral of the chapter on Tansen?", "options": ["Music is the best career", "Only talented people can be musicians", "Dedicated practice under great teachers leads to mastery", "Akbar was the best emperor in India"], "correct_answer": "Dedicated practice under great teachers leads to mastery", "explanation": "Tansen's life teaches that natural talent, combined with years of dedicated practice and great guidance from gurus, creates true mastery." },
+    { "id": "mcq10", "difficulty": "Easy", "question": "What special skill did young Tansen show in the forest?", "options": ["He could dance beautifully", "He could paint animals", "He could imitate the sounds of birds and animals", "He could wrestle wild animals"], "correct_answer": "He could imitate the sounds of birds and animals", "explanation": "Young Tansen had the extraordinary ability to imitate the sounds of animals and birds in the forest. This demonstrated his exceptional musical ear and voice." }
+  ],
+
+  "level_2_short_answer": [
+    { "id": "sa01", "difficulty": "Moderate", "question": "How did Swami Haridas come to discover Tansen? What did he see in the boy?", "model_answer": "Swami Haridas was passing through the forest when he heard a young boy imitating the sounds of birds and animals with remarkable accuracy and musical ability. The sounds were so extraordinary that Swami Haridas stopped to find their source. He found young Ramtanu (Tansen) and was deeply impressed by his natural talent — the boy's voice, his musical ear, and his ability to reproduce sounds were exceptional. Recognising this raw but extraordinary gift, Swami Haridas decided to take the boy as his disciple and train him in classical music." },
+    { "id": "sa02", "difficulty": "Moderate", "question": "Describe the legend of Raga Deepak and Raga Megh Malhar. What do these legends tell us about Tansen's music?", "model_answer": "According to legend, Raga Deepak was so powerful that when Tansen sang it, lamps lit on their own through its heat. However, this raga was also dangerous — its intense heat began to affect Tansen's own body. To save him, his wife Hussaini sang Raga Megh Malhar — a raga associated with rain and cooling — which counteracted the heat and saved Tansen's life. These legends tell us that Tansen's music was believed to have extraordinary, almost supernatural power. They are poetic exaggerations that express how deeply and powerfully his music moved people — as if it could change the physical world itself." },
+    { "id": "sa03", "difficulty": "Moderate", "question": "What was the guru-shishya tradition? How is it shown in Tansen's life?", "model_answer": "The guru-shishya tradition is a traditional Indian system of education in which a guru (master teacher) personally trains a shishya (disciple). The student often lives in the guru's home, serves them, and receives deep, personalised teaching over many years. In Tansen's life, this is shown through his relationship with Swami Haridas. Tansen lived and trained with Swami Haridas for eleven years, receiving intensive musical education. This devoted, long-term relationship between teacher and student was what transformed raw talent into true greatness. Without this tradition, Tansen would never have become India's greatest musician." },
+    { "id": "sa04", "difficulty": "Moderate", "question": "Write the meanings of: raga, guru, shishya, Navaratnas, riyaaz.", "model_answer": "Raga — a framework or pattern of musical notes in Indian classical music, each with its own mood, time association, and emotional quality. Guru — a master teacher, especially in music, arts, or spirituality, who trains a student with great personal care. Shishya — a student or disciple who learns from a guru, often with deep devotion and service. Navaratnas — the 'Nine Gems'; the nine most talented and outstanding people at Emperor Akbar's court; Tansen was one of them. Riyaaz — regular, disciplined daily practice of music (or any skill); the consistent hard work that builds mastery." },
+    { "id": "sa05", "difficulty": "Moderate", "question": "How does Tansen's life story inspire students who are learning something new and finding it difficult?", "model_answer": "Tansen's story is deeply inspiring for students because he did not start as a polished musician. He began as a wild, mischievous boy imitating animals in a forest. He had natural ability, but raw and untrained. Only through eleven years of dedicated practice under Swami Haridas did he become the greatest musician of his time. This tells students that difficulty at the beginning is normal. What matters is finding a good teacher, staying humble, and practicing consistently — not giving up when progress seems slow. Tansen's eleven years of riyaaz show that mastery takes time and effort, but the result is extraordinary." }
+  ],
+
+  "level_3_application": [
+    { "id": "app01", "difficulty": "Advanced", "question": "Compare Tansen's path to mastery with what modern scientists call 'deliberate practice.' How are they similar?", "detailed_solution": "Modern research by psychologist Anders Ericsson found that world-class experts in any field — music, chess, sports, science — became great not just through talent but through thousands of hours of what he called 'deliberate practice': focused, consistent effort with good coaching and clear feedback. Tansen's eleven years of training under Swami Haridas matches this model exactly. Swami Haridas was not just a teacher — he was a master who gave Tansen structured, progressive training with constant guidance. Tansen practiced daily (riyaaz), received expert feedback from his guru, and worked on specific skills over many years. This is precisely what deliberate practice looks like. The ancient Indian guru-shishya tradition intuitively understood what modern science has now confirmed: mastery is built, not born." },
+    { "id": "app02", "difficulty": "Advanced", "question": "Tansen is compared to other court musicians by Emperor Akbar's other ministers. Why do you think Akbar chose to make Tansen a Navaratna?", "detailed_solution": "Emperor Akbar was himself a man of extraordinary ability and taste. He surrounded himself with the best in every field — Birbal (wit and wisdom), Raja Todar Mal (finance), Raja Man Singh (military). When it came to music, Tansen was simply incomparable. His music was not just entertainment — it was said to have the power to change nature itself (Deepak, Megh Malhar). He had been trained by the greatest gurus. His technical mastery, emotional depth, and the spiritual quality of his music set him apart from every other musician. Akbar, who believed in meritocracy (merit over birth), recognised this extraordinary achievement and placed Tansen at the highest level. The title Navaratna was not a gift — it was a recognition of proven, unmatched excellence." },
+    { "id": "app03", "difficulty": "Advanced", "question": "Imagine a conversation between the young Tansen (before his training) and an older Tansen (at Akbar's court). What might they say to each other?", "detailed_solution": "Sample Dialogue: Young Tansen: 'I just want to run in the forest and make the animals' sounds. Why must I sit and practice the same notes all day? It is boring!' Older Tansen: 'I remember feeling exactly that way. But I tell you now — every one of those hours of practice became a brick. And those bricks built the palace that is my music today. Swami Haridas was not boring you — he was building you.' Young Tansen: 'But what if I am not talented enough?' Older Tansen: 'Talent is just the door. Practice is what fills the house. You have the door. Now fill the house. Eleven years from now, you will understand what I mean.' Young Tansen: 'Did it hurt? The hard work?' Older Tansen: 'Yes. But it hurt the way a tree aches growing tall — the pain was growth itself.'" },
+    { "id": "app04", "difficulty": "Advanced", "question": "How does Karnataka's own Purandaradasa mirror the legacy of Tansen? What do both figures tell us about India's musical heritage?", "detailed_solution": "Purandaradasa (1484–1564) was a contemporary of Tansen and is called the Father of Carnatic Music. Like Tansen, he began from humble circumstances (a wealthy merchant who renounced wealth after a spiritual experience). He composed thousands of songs (kritis) and developed the fundamental teaching system of Carnatic music — the sarali varisai, janta varisai, and alankaras that every Carnatic student learns today. Just as Tansen mastered and systematised Hindustani music, Purandaradasa structured Carnatic music for future generations. Both figures show that India's musical heritage is extraordinarily deep, diverse, and carefully preserved. Hindustani and Carnatic are two branches of the same ancient tree — and both were shaped by devoted individuals who combined natural talent with lifelong practice and spiritual dedication. India's musical legacy is truly one of the world's great cultural achievements." },
+    { "id": "app05", "difficulty": "Advanced", "question": "Design a 'Tansen Study Plan' for yourself for one subject you find difficult. How would you apply the lessons of talent, practice, and good guidance?", "detailed_solution": "Tansen Study Plan — Applied to Mathematics (example): Step 1 (Identify talent/interest): Even if I don't feel naturally gifted in Maths, I notice I am good at patterns and puzzles — that is my starting talent. Step 2 (Find my Swami Haridas): I identify my best resource — my teacher, a tutor, or a strong YouTube channel like NCERT official videos. This is my guru. Step 3 (Daily riyaaz): I commit to 20 minutes of Maths practice every day — not just before exams. Small daily work builds mastery, just as Tansen practiced daily. Step 4 (Progressive challenge): Each week I tackle slightly harder problems — just as Tansen moved from basic scales to complex ragas over eleven years. Step 5 (Humility): When I get something wrong, I ask my teacher and learn from it, not pretend I understand. Step 6 (Review): Every month I revisit old topics to ensure they are solid — just as Tansen revisited and refined basic ragas throughout his life. Result: After one year of this plan, I will understand mathematics far better than any amount of last-minute cramming could achieve." }
+  ],
+
+  "level_4_exam_oriented": {
+    "one_mark_questions": [
+      { "id": "em01", "question": "What was Tansen's original name?", "answer": "Tansen's original name was Ramtanu.", "marks": 1 },
+      { "id": "em02", "question": "Who were the Navaratnas?", "answer": "The Navaratnas were the nine most talented and brilliant people at Emperor Akbar's court. Tansen was one of them.", "marks": 1 }
+    ],
+    "two_mark_questions": [
+      { "id": "em03", "question": "How did Swami Haridas discover Tansen? What made the boy stand out?", "answer": "Swami Haridas was passing through the forest when he heard young Ramtanu (Tansen) imitating the sounds of birds and animals with extraordinary accuracy and musical ability. The boy's voice, musical ear, and remarkable skill stood out immediately. Recognising this rare gift, Swami Haridas decided to take the boy as his disciple.", "marks": 2, "marking_scheme": "1 mark for the discovery scene (forest, animal imitations). 1 mark for what made him stand out (extraordinary voice and musical talent)." },
+      { "id": "em04", "question": "What are Raga Deepak and Raga Megh Malhar? How are they connected in Tansen's story?", "answer": "Raga Deepak is associated with fire and heat — legend says singing it lit lamps. Raga Megh Malhar is associated with rain and cooling. In Tansen's story, they are connected because when Tansen sang Deepak and was endangered by its heat, his wife Hussaini sang Megh Malhar to save his life by cooling him down.", "marks": 2, "marking_scheme": "1 mark for explaining both ragas. 1 mark for how they connect in the story." }
+    ],
+    "three_mark_questions": [
+      { "id": "em05", "question": "Describe the role of Swami Haridas in Tansen's life. Why is a good teacher important?", "answer": "Swami Haridas played the most crucial role in Tansen's life. He discovered the boy's raw talent in the forest, took him as a disciple, and trained him for eleven years in classical music. Without Swami Haridas, Tansen's extraordinary natural ability might never have been developed or disciplined. Swami Haridas gave him structure, technique, musical knowledge, and the foundation for everything he later achieved. A good teacher is important because talent alone is not enough — it needs the right guidance, structure, and encouragement to reach its full potential. Just as a diamond needs a skilled cutter, talent needs a skilled teacher.", "marks": 3, "marking_scheme": "1 mark for discovery. 1 mark for 11 years of training. 1 mark for broader importance of a good teacher." },
+      { "id": "em06", "question": "What does Tansen's story teach us about the way to achieve mastery in any skill?", "answer": "Tansen's story teaches that mastery requires three elements working together. First, natural inclination or talent — Tansen had an exceptional voice and musical ear from childhood. Second, a great teacher — Swami Haridas guided him patiently for eleven years in the guru-shishya tradition. Third, dedicated, consistent practice (riyaaz) — talent and a good teacher are not enough; the student must work hard every day over many years. Akbar recognised Tansen's greatness only after all three elements had worked together over a long period. The lesson is: anyone who combines their natural strengths with great guidance and daily practice can achieve extraordinary things.", "marks": 3, "marking_scheme": "1 mark for natural talent. 1 mark for great teacher/guru. 1 mark for dedicated practice/riyaaz." }
+    ],
+    "five_mark_questions": [
+      { "id": "em07", "question": "Write a biographical account of Tansen in your own words.", "answer": "Tansen, whose original name was Ramtanu, was born in Gwalior around 1506. As a child, he was mischievous and loved to roam the forest, where he would imitate the sounds of birds and animals with extraordinary skill. One day, the great musician and saint Swami Haridas heard him and immediately recognised his exceptional talent. He took young Ramtanu as his disciple and trained him intensively for eleven years. This long period of dedicated practice under a great master transformed his raw talent into true mastery. After completing his training with Swami Haridas, Tansen went to Gwalior where he trained further under Muhammad Ghaus, a Sufi saint and musician. His fame spread throughout India. Emperor Akbar, one of the greatest Mughal rulers and a passionate lover of music, heard of Tansen and invited him to his court. Tansen became one of the Navaratnas — the Nine Gems of Akbar's court. He could sing Raga Deepak, said to produce fire, and Raga Megh Malhar, said to bring rain. When the heat of Raga Deepak endangered him, his wife Hussaini sang Megh Malhar to save his life. Tansen is remembered as one of the greatest musicians India has ever produced. His life teaches us that natural talent, combined with dedicated practice and great teachers, leads to true mastery.", "marks": 5, "marking_scheme": "1 mark: Early life and discovery by Swami Haridas. 1 mark: 11 years of training. 1 mark: Muhammad Ghaus and rise to fame. 1 mark: Navaratna at Akbar's court, ragas legend. 1 mark: Moral/legacy stated clearly." },
+      { "id": "em08", "question": "What does Tansen's story teach us about achieving excellence? How can you apply these lessons in your own studies or hobby?", "answer": "Tansen's story teaches us three essential lessons about achieving excellence. First, natural talent is a starting point, not a guarantee. Tansen had exceptional raw ability, but it was eleven years of dedicated training that made him the greatest. This tells us that whatever natural ability we have, it must be developed through consistent effort. Second, a great teacher makes all the difference. Swami Haridas did not just teach Tansen music — he shaped his whole musical personality over eleven years. In our own lives, we should value our teachers, listen to their feedback, and seek out the best guidance we can. Third, daily practice (riyaaz) is non-negotiable. Tansen did not practice only when he felt like it. He practiced every day, systematically, over many years. In our studies or hobbies, we should set aside time each day for focused practice — whether it is mathematics, a sport, drawing, or music. We should not wait for exams to study or contests to practice. The habit of daily, disciplined effort is what separates good from great. Like Tansen in the forest — every day that he imitated those animals, every note he sang for Swami Haridas, every raga he practiced was a step closer to becoming India's greatest musician. Our steps may be smaller, but the principle is exactly the same.", "marks": 5, "marking_scheme": "1 mark: Talent as starting point. 1 mark: Importance of great teacher. 1 mark: Riyaaz/daily practice. 1 mark: Application to school/hobby. 1 mark: Coherent, inspiring conclusion." }
+    ]
+  },
+
+  "common_misconceptions": [
+    { "misconception": "Tansen was great because he was born with a magical gift.", "why_confused": "The legends about Raga Deepak and Megh Malhar make him seem supernatural.", "correct_explanation": "Tansen's greatness was built through eleven years of rigorous training and daily practice under Swami Haridas. The legends about his ragas are poetic exaggerations of his extraordinary skill. The story emphasises hard work and great guidance, not magic.", "mini_practice_question": "What made Tansen great — natural talent alone, or talent + training + practice?", "answer": "Talent + training + practice. He trained for eleven years. Natural talent alone would not have made him India's greatest musician." },
+    { "misconception": "Emperor Akbar made Tansen famous by inviting him to court.", "why_confused": "Students may think royal patronage = cause of greatness.", "correct_explanation": "Tansen was already famous and recognised throughout India before Akbar invited him. Akbar RECOGNISED his existing greatness and gave him a platform. The greatness came from Tansen's own years of work, not from Akbar's invitation.", "mini_practice_question": "Was Tansen great because of Akbar, or was Akbar attracted to Tansen because he was already great?", "answer": "Akbar was attracted to Tansen because Tansen was already great. Akbar's invitation was recognition of existing excellence, not its cause." }
   ]
 }

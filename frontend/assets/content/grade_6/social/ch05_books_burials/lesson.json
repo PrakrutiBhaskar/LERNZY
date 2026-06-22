@@ -1,114 +1,191 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "social",
-  "chapter_id": "ch05_books_burials",
-  "chapter_title": {
-    "en": "What Books and Burials Tell Us",
-    "hi": "क्या बताती हैं हमें किताबें और कब्रें",
-    "kn": "ಪುಸ್ತಕಗಳು ಮತ್ತು ಸಮಾಧಿಗಳು ನಮಗೆ ತಿಳಿಸುವುದೇನು"
+  "subject": "Social Science – History",
+  "textbook": "Our Pasts – I",
+  "chapter_number": 5,
+  "chapter_title": "Books and Burials",
+  "estimated_study_time_minutes": 50,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Understand what the Vedas are, when they were composed, and how they were preserved",
+    "Identify the four Vedas and describe the content of the Rigveda",
+    "Explain the social divisions (varnas) described in later Vedic texts",
+    "Describe the burial practices found at Inamgaon and Brahmagiri and what they reveal about ancient society",
+    "Distinguish between archaeological evidence and textual evidence as sources of history",
+    "Understand how megalithic burial sites provide evidence about ancient communities",
+    "Appreciate that ancient India had both literate and non-literate traditions existing simultaneously",
+    "Connect Vedic and megalithic cultures to the broader development of Indian civilisation"
+  ],
+
+  "prerequisite_knowledge": [
+    "Basic understanding of early human settlements from Chapter 2 and 3",
+    "Familiarity with sources of history — archaeological and literary — from Chapter 1",
+    "Knowledge that the Indus Valley Civilisation had a writing system that has not yet been deciphered"
+  ],
+
+  "introduction": {
+    "why_important": "The Vedas are the oldest surviving texts of India and among the oldest in the world. Understanding them helps us know how people thought, worshipped, and organised society over 3,500 years ago. Alongside texts, burial sites give us physical evidence of ancient communities that left no written records.",
+    "real_life_relevance": "When you recite a prayer or hear Sanskrit chants in a temple or at home, you are part of a living tradition that stretches back over 3,000 years to the Rigveda. The oral tradition of memorising the Vedas — still practised by Vedic scholars (pandits) today — is one of humanity's most remarkable achievements of memory.",
+    "karnataka_context": "Karnataka has important megalithic burial sites — at Brahmagiri near Chitradurga, archaeologist Sir Mortimer Wheeler excavated burial urns and iron tools in the 1940s. The site is one of South India's most significant megalithic discoveries. Iron Age megalithic cultures in Karnataka (around 1000–300 BCE) used large stone structures called dolmens and cairns — some still visible today in parts of Raichur, Bellary, and Kodagu districts.",
+    "connection_to_previous_learning": "In Chapter 4, you learned about the Indus Valley cities and their undeciphered script. This chapter moves to a different tradition — the Vedic tradition — which used Sanskrit and an oral rather than written form of preservation. It also introduces burial archaeology as a new source of historical evidence."
   },
-  "topics": [
+
+  "story_summary": {
+    "characters": [
+      { "name": "Vedic composers", "role": "Ancient poets and seers (rishis) who composed the hymns of the Rigveda, addressed to various deities" },
+      { "name": "Indra", "role": "Most important deity in the Rigveda — god of rain, thunder, and war; praised in many hymns" },
+      { "name": "Agni", "role": "God of fire — second most frequently praised deity in the Rigveda; fire was central to Vedic rituals" },
+      { "name": "Dasas / Dasyus", "role": "Groups mentioned in the Rigveda who were in conflict with the Vedic people; term later came to mean slaves" },
+      { "name": "Mortimer Wheeler", "role": "British archaeologist who excavated Brahmagiri, Karnataka in the 1940s, uncovering megalithic burials" }
+    ],
+    "plot": [
+      "The Vedas are four ancient Sanskrit texts: Rigveda, Samaveda, Yajurveda, and Atharvaveda — composed between 1500 BCE and 600 BCE",
+      "The Rigveda is the oldest — it contains over 1000 hymns (suktas) addressed to deities like Indra, Agni, and Varuna",
+      "Vedas were composed orally and memorised with great precision — priests learned them word for word over many years",
+      "Later Vedas — Samaveda, Yajurveda, Atharvaveda — contain information about rituals, spells, and social arrangements",
+      "Later Vedic texts describe a four-fold division of society called varnas: Brahmin (priests), Kshatriya (warriors/rulers), Vaishya (farmers/traders), Shudra (workers/servants)",
+      "The Vedic texts also mention the concept of 'gana' — tribal assemblies — and 'raja' — chiefs or kings",
+      "Simultaneously, in many parts of India, people were not part of the Vedic tradition — they built megalithic burial sites",
+      "Megaliths are large stone structures used to mark burials — found across South India, Maharashtra, and parts of Northeast India",
+      "At Inamgaon (Maharashtra), burial excavations revealed evidence of social differences — some people were buried with more goods than others",
+      "At Brahmagiri (Karnataka), archaeologists found iron tools, pottery, and burial urns, suggesting a settled agricultural community",
+      "The buried goods — pots, tools, ornaments, food — suggest that people believed the dead needed these items in the afterlife",
+      "These two types of evidence — Vedic texts and megalithic burials — together give us a richer picture of ancient Indian societies"
+    ],
+    "moral": "History is built from many types of evidence. Textual sources like the Vedas and archaeological sources like burial sites together help us understand ancient India's diverse, complex societies."
+  },
+
+  "core_concepts": [
     {
-      "topic_id": "social_grade6_ch05_books_burials_basics",
-      "title": {
-        "en": "What Books and Burials Tell Us - Fundamentals",
-        "hi": "क्या बताती हैं हमें किताबें और कब्रें - बुनियादी बातें",
-        "kn": "ಪುಸ್ತಕಗಳು ಮತ್ತು ಸಮಾಧಿಗಳು ನಮಗೆ ತಿಳಿಸುವುದೇನು - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of What Books and Burials Tell Us",
-        "Solve exercises and apply rules related to What Books and Burials Tell Us",
-        "Analyze practical examples of What Books and Burials Tell Us in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore What Books and Burials Tell Us. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम क्या बताती हैं हमें किताबें और कब्रें का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಪುಸ್ತಕಗಳು ಮತ್ತು ಸಮಾಧಿಗಳು ನಮಗೆ ತಿಳಿಸುವುದೇನು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore What Books and Burials Tell Us in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम क्या बताती हैं हमें किताबें और कब्रें का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಪುಸ್ತಕಗಳು ಮತ್ತು ಸಮಾಧಿಗಳು ನಮಗೆ ತಿಳಿಸುವುದೇನು ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of What Books and Burials Tell Us.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in What Books and Burials Tell Us.",
-            "hi": "चरण 1: क्या बताती हैं हमें किताबें और कब्रें के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಪುಸ್ತಕಗಳು ಮತ್ತು ಸಮಾಧಿಗಳು ನಮಗೆ ತಿಳಿಸುವುದೇನು ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering What Books and Burials Tell Us builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "क्या बताती हैं हमें किताबें और कब्रें में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಪುಸ್ತಕಗಳು ಮತ್ತು ಸಮಾಧಿಗಳು ನಮಗೆ ತಿಳಿಸುವುದೇನು ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "The Vedas — India's Oldest Texts",
+      "simple_explanation": "The Vedas are four very old books of hymns and prayers in Sanskrit. They were not written down at first — priests memorised them perfectly for thousands of years before they were written.",
+      "detailed_explanation": "The word 'Veda' means 'knowledge' in Sanskrit. There are four Vedas: Rigveda (hymns to gods), Samaveda (melodies for rituals), Yajurveda (ritual instructions), and Atharvaveda (spells and everyday rituals). The Rigveda is the oldest, composed around 1500 BCE, and contains 1028 hymns (suktas) in 10 books (mandalas). These hymns were addressed to nature gods like Indra (thunder/rain), Agni (fire), Varuna (cosmic order), and Soma (ritual drink). Crucially, the Vedas were composed and preserved orally — through a technique called sruti (that which is heard). Brahmin priests memorised them with extraordinary precision, using special chanting patterns to ensure not a single word changed over millennia. This oral tradition is itself a UNESCO Intangible Cultural Heritage today. The Vedas give us detailed information about early Aryan society, their religious practices, their understanding of nature, and their social organisation.",
+      "real_life_example": "Think of learning a very long poem by heart — not just the words but the exact pronunciation of every syllable. Now imagine passing that poem to your children, who pass it to theirs, for 3,000 years without ever writing it down — and the poem stays exactly the same. That is what Vedic priests achieved with the Rigveda.",
+      "karnataka_example": "The Karnataka Samskrit University in Bengaluru and traditional Vedic patashalas (schools) in places like Udupi and Shringeri still train students in the oral recitation of the Vedas. The Sharada Peetha in Sringeri, founded by Adi Shankaracharya in the 8th century CE, has been a centre of Vedic learning for over 1,200 years — making Karnataka one of the living custodians of this ancient tradition.",
+      "common_mistakes": "Many students think the Vedas were written books from the beginning. They were NOT. They were oral compositions memorised and transmitted by priests for over a thousand years before being written down. Also, students often confuse the four Vedas — remember: Rig = hymns, Sama = melodies, Yajur = rituals, Atharva = spells.",
+      "memory_tip": "Four Vedas = RSYA: Rig (hymns), Sama (songs), Yajur (yajnas/rituals), Atharva (spells). Remember 'RSYA' as 'Rishi's Special Yoga Advice' — because rishis composed all four!"
+    },
+    {
+      "concept_name": "Varna System — Social Divisions in Vedic Society",
+      "simple_explanation": "Later Vedic texts describe four groups called varnas — Brahmins (priests), Kshatriyas (warriors), Vaishyas (traders and farmers), and Shudras (workers). These groups had different roles in society.",
+      "detailed_explanation": "The varna system is described in the Purusha Sukta — a late hymn in the Rigveda — which metaphorically describes the four varnas as emerging from different parts of a cosmic being (Purusha). However, it is in later texts like the Brahmanas that the varna system becomes more detailed and rigidly defined. Brahmins performed rituals and studied the Vedas; Kshatriyas were rulers and warriors; Vaishyas were farmers, herders, and traders; Shudras served the other three groups. The system was initially based on occupation (jati by birth came later). Importantly, the textbook notes that these categories were not fixed from birth in the earliest period — people could move between categories. The varna system later became hereditary and more rigid, eventually developing into the complex caste system of later Indian society. Understanding the varna system in its early form — as an occupational classification — is important for historical accuracy.",
+      "real_life_example": "Imagine a school where students are divided into groups based on what their parents do: one group for children of doctors, one for teachers, one for farmers, one for support staff — and each group has different privileges and duties. This is somewhat like the varna system, though in modern India, such birth-based divisions are illegal and considered unjust.",
+      "karnataka_example": "The Lingayat movement founded by Basavanna in 12th-century Karnataka was partly a protest against the rigid caste system that the varna system had evolved into. Basavanna welcomed people of all castes into his community and explicitly rejected birth-based discrimination — showing that Karnataka has a strong historical tradition of challenging inherited social inequality rooted in the varna system.",
+      "common_mistakes": "Students often confuse varna with jati (caste). Varna is the broad four-fold classification in ancient texts. Jati refers to the hundreds of hereditary occupational communities that developed later and are what we usually call 'caste' today. The two are related but not identical. Also, do not assume the varna system was always as rigid as it became — in its earliest form, it described roles, not absolute birth-based destinies.",
+      "memory_tip": "4 Varnas = BKVS: Brahmin (B for Books/prayers), Kshatriya (K for Kings/warriors), Vaishya (V for Village farmers/traders), Shudra (S for Servants/workers). Remember top to bottom: B-K-V-S = 'Books, Kings, Villages, Service'."
+    },
+    {
+      "concept_name": "Megaliths and Burial Sites — Evidence from Non-Vedic India",
+      "simple_explanation": "While Vedic people were composing hymns, other communities in South India were building huge stone burial structures called megaliths. The objects buried with the dead tell us a lot about how these communities lived.",
+      "detailed_explanation": "The word 'megalith' comes from Greek: 'mega' (big) + 'lithos' (stone). Megalithic burial sites are found across South India (Karnataka, Kerala, Tamil Nadu, Andhra Pradesh), Maharashtra, and parts of Northeast India, dating from roughly 1000 BCE to 200 BCE. These communities were not part of the Vedic literary tradition — they left no written records. What we know about them comes entirely from archaeological excavations of their burial sites. At Inamgaon (Maharashtra), excavations revealed burial pits with pottery, tools, ornaments, and sometimes food — suggesting belief in afterlife. Some people were buried with more goods, indicating social differences. At Brahmagiri (Karnataka), Mortimer Wheeler's excavations found iron tools, black-and-red pottery, and burial urns — showing an iron-using, agricultural community. Megaliths themselves — dolmens (stone chamber burials), cairns (stone mounds), menhirs (upright stones) — required significant community effort to build, suggesting organised societies.",
+      "real_life_example": "Think of how we bury or cremate people today and place flowers, photographs, or favourite objects near them. The items we choose reflect what we valued about the person and what we believe happens after death. Ancient megalithic communities did the same — but with iron tools, pots of food, and ornaments — giving archaeologists today a window into their beliefs and social structure.",
+      "karnataka_example": "Brahmagiri near Chitradurga in Karnataka is one of India's most important megalithic sites. Excavated first by Sir Mortimer Wheeler in 1947, it revealed three cultural phases: megalithic burials, followed by an Andhra culture layer, and a medieval layer. Stone circles, burial urns, and iron implements were found. Today, Brahmagiri is a protected archaeological site under the Archaeological Survey of India. Students from Karnataka can visit or read about it as a piece of their own district's ancient history.",
+      "common_mistakes": "Students sometimes think megaliths were only about death and burial. Actually, they reveal a great deal about LIFE — the tools, foods, ornaments, and pottery buried show what people used in everyday life. Also, students often think all ancient Indians followed the Vedic tradition. In fact, large communities in South India had completely separate cultural traditions that are equally important parts of Indian history.",
+      "memory_tip": "MEGA-liths = MEGA-sized stone burial sites. Remember the three types: D-C-M = Dolmens (stone chambers), Cairns (stone mounds over graves), Menhirs (tall standing stones). Think 'Dead Comrades Memorialised' — the three ways megalithic people honoured their dead."
     }
+  ],
+
+  "key_terms_glossary": [
+    { "term": "Veda", "meaning": "Sanskrit word meaning 'knowledge'. The four Vedas (Rigveda, Samaveda, Yajurveda, Atharvaveda) are ancient Indian texts composed between 1500–600 BCE containing hymns, rituals, and knowledge." },
+    { "term": "Rigveda", "meaning": "The oldest of the four Vedas, containing 1028 hymns (suktas) addressed to gods like Indra, Agni, and Varuna. Composed around 1500 BCE in Sanskrit." },
+    { "term": "Sruti", "meaning": "'That which is heard' — refers to the oral tradition of transmitting the Vedas through memorisation and recitation, rather than writing." },
+    { "term": "Sukta", "meaning": "'Well said' in Sanskrit — the hymns of the Rigveda. Each sukta is a poem praising a deity or describing a ritual." },
+    { "term": "Varna", "meaning": "The four-fold social classification described in later Vedic texts: Brahmin (priests), Kshatriya (warriors), Vaishya (traders/farmers), Shudra (workers)." },
+    { "term": "Megalith", "meaning": "From Greek: 'mega' (big) + 'lithos' (stone). Large stone structures built over burial sites in South India and other parts of ancient India (1000–200 BCE)." },
+    { "term": "Dolmen", "meaning": "A type of megalith — a stone chamber made of large upright stones with a flat stone on top, used as a burial chamber for the dead." },
+    { "term": "Cairn", "meaning": "A heap of stones placed over a burial site as a marker. Found at many megalithic sites across South India." },
+    { "term": "Inamgaon", "meaning": "An archaeological site in Maharashtra where burial excavations revealed evidence of ancient social differences through the varying wealth of grave goods." },
+    { "term": "Brahmagiri", "meaning": "An important megalithic archaeological site near Chitradurga, Karnataka, excavated by Sir Mortimer Wheeler in 1947. It revealed iron tools, burial urns, and pottery from the Iron Age." }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Comprehension",
+      "question": "Why were the Vedas transmitted orally rather than in writing? What does this tell us about ancient Indian society?",
+      "step_by_step_answer": [
+        "Step 1: Recall the context — the Vedas were composed around 1500 BCE. At that time, the Vedic people did not use a writing system for sacred texts.",
+        "Step 2: Understand the oral method — priests (Brahmins) memorised every word, syllable, and intonation of the Vedas using precise chanting patterns and repetition techniques.",
+        "Step 3: Understand WHY oral — the oral tradition was considered more reliable and sacred. Writing could be damaged, lost, or copied incorrectly; a well-trained human memory was considered a more faithful transmitter.",
+        "Step 4: Consider what this tells us — it shows that Vedic society placed enormous value on trained Brahmin priests as custodians of sacred knowledge. It also shows high levels of mental discipline and a sophisticated educational system.",
+        "Conclusion: The oral transmission of the Vedas reflects a society where certain groups (Brahmins) held special roles as memory-keepers, and where knowledge was considered so sacred that the human voice was trusted over writing to preserve it perfectly."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Vocabulary in context",
+      "question": "Use the word 'megalith' in a sentence that explains its historical significance.",
+      "step_by_step_answer": [
+        "Step 1: Recall meaning — a megalith is a large stone structure built over burial sites by ancient communities, especially in South India, around 1000–200 BCE.",
+        "Step 2: Connect to history — megaliths are the primary source of historical evidence for communities that had no writing system.",
+        "Step 3: Write sentence: 'The megaliths found at Brahmagiri in Karnataka are our only window into the lives of Iron Age communities who left no written records — the iron tools, pottery, and ornaments buried with the dead tell archaeologists how these people lived, worked, and believed in an afterlife.'"
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Moral application",
+      "question": "How does this chapter teach us to value different types of historical evidence?",
+      "step_by_step_answer": [
+        "Step 1: Identify the two types of evidence — textual (the Vedas) and archaeological (megalithic burial sites).",
+        "Step 2: Recognise what each type tells us — Vedic texts tell us about religion, language, and social structure of north Indian communities; megalithic burials tell us about the material culture, social differences, and beliefs of south Indian communities.",
+        "Step 3: Apply the lesson — neither source alone gives us the complete picture. Combining texts and archaeology gives historians a fuller, more accurate view of the past.",
+        "Step 4: Conclusion — this teaches us to never rely on a single source of information, whether in history class or in daily life. Checking multiple sources and types of evidence — like checking both a textbook and a news article about a topic — leads to better understanding."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "The Vedas — India's Oldest Texts",
+      "questions": [
+        { "type": "Recall", "q": "What does the word 'Veda' mean?", "a": "'Veda' means 'knowledge' in Sanskrit." },
+        { "type": "Recall", "q": "Name the four Vedas in order from oldest to last.", "a": "Rigveda (oldest), Samaveda, Yajurveda, Atharvaveda." },
+        { "type": "Understanding", "q": "Why is the oral transmission of the Vedas considered remarkable?", "a": "Because thousands of hymns were memorised and transmitted word-for-word across generations for over a millennium without any writing — a feat of human memory." },
+        { "type": "Understanding", "q": "Which two gods are most frequently praised in the Rigveda?", "a": "Indra (god of rain and thunder) and Agni (god of fire) are the most frequently praised deities." },
+        { "type": "Application", "q": "If the Rigveda had never been written down, would it have survived? Explain.", "a": "Possibly yes — because the oral tradition was so precise and carefully maintained by Brahmin priests. However, it would have been at risk if the community of priests had been destroyed. Writing eventually provided an additional layer of preservation." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "The four Vedas — Rigveda, Samaveda, Yajurveda, Atharvaveda — are India's oldest texts, composed between 1500–600 BCE.",
+    "The Rigveda contains 1028 hymns addressed to gods like Indra, Agni, and Varuna; it is the oldest known Sanskrit text.",
+    "Vedas were preserved orally (sruti) through precise memorisation by Brahmin priests — not through writing.",
+    "Later Vedic texts describe the four varnas: Brahmin, Kshatriya, Vaishya, Shudra — an occupational social classification.",
+    "Megalithic burial sites are large stone structures (dolmens, cairns, menhirs) found across South India, dating 1000–200 BCE.",
+    "At Inamgaon (Maharashtra) and Brahmagiri (Karnataka), excavations reveal social differences and Iron Age material culture.",
+    "Grave goods (pottery, iron tools, ornaments, food) buried with the dead suggest belief in afterlife and indicate social status.",
+    "Vedic and megalithic cultures coexisted — ancient India was NOT culturally uniform but had diverse regional traditions.",
+    "Karnataka connection: Brahmagiri near Chitradurga is one of India's most important megalithic sites.",
+    "Two types of evidence — textual and archaeological — together provide a more complete picture of ancient India."
+  ],
+
+  "mind_map": {
+    "root": "Books and Burials",
+    "branches": [
+      { "branch": "The Four Vedas", "sub": ["Rigveda (hymns – oldest)", "Samaveda (melodies)", "Yajurveda (rituals)", "Atharvaveda (spells)"] },
+      { "branch": "Vedic Society", "sub": ["Oral transmission (sruti)", "Indra and Agni – main gods", "Four varnas (BKVS)", "Tribal assemblies (gana)"] },
+      { "branch": "Megalithic Burials", "sub": ["Dolmens, Cairns, Menhirs", "Inamgaon (Maharashtra)", "Brahmagiri (Karnataka)", "Iron tools and pottery"] },
+      { "branch": "What Burials Tell Us", "sub": ["Belief in afterlife", "Social differences", "Iron Age material culture", "Organised communities"] },
+      { "branch": "Types of Evidence", "sub": ["Textual (Vedas)", "Archaeological (burials)", "Both needed for complete picture"] }
+    ]
+  },
+
+  "revision_notes": "Chapter 5 covers two major aspects of ancient Indian history: the Vedas and megalithic burials. The four Vedas — Rigveda (oldest, ~1500 BCE), Samaveda, Yajurveda, and Atharvaveda — are the foundational texts of Indian civilisation. 'Veda' means knowledge in Sanskrit. The Rigveda has 1028 hymns (suktas) praising gods like Indra (rain/thunder) and Agni (fire). Uniquely, the Vedas were preserved orally (sruti — that which is heard) by Brahmin priests through precise memorisation, not writing. Later Vedic texts describe four varnas: Brahmin (priests), Kshatriya (warriors/rulers), Vaishya (farmers/traders), and Shudra (workers). Simultaneously, in South India and elsewhere, communities built megalithic burial sites — large stone structures (dolmens, cairns, menhirs) — dating from 1000–200 BCE. These peoples left no texts; archaeological evidence is our only source. At Inamgaon (Maharashtra) and Brahmagiri (Karnataka — excavated by Mortimer Wheeler in 1947), iron tools, pottery, ornaments, and burial urns were found. Differences in grave goods indicate social hierarchy. Megaliths suggest belief in afterlife. Key lesson: Vedic and megalithic cultures coexisted, and India was never culturally uniform. Both textual and archaeological evidence must be used together.",
+
+  "must_remember_facts": [
+    "Four Vedas: Rigveda, Samaveda, Yajurveda, Atharvaveda (RSYA).",
+    "Rigveda: oldest Veda, ~1500 BCE, 1028 hymns, main gods: Indra and Agni.",
+    "'Veda' = knowledge; 'sruti' = oral transmission (that which is heard); 'sukta' = hymn.",
+    "Four varnas: Brahmin (priests), Kshatriya (warriors), Vaishya (traders), Shudra (workers).",
+    "Megalith = large stone burial structure (from Greek: mega + lithos).",
+    "Three types of megaliths: Dolmens (stone chambers), Cairns (stone mounds), Menhirs (standing stones).",
+    "Inamgaon (Maharashtra): burial site showing social differences through grave goods.",
+    "Brahmagiri (Karnataka): excavated by Mortimer Wheeler (1947); iron tools, burial urns found.",
+    "Megalithic cultures: South India, Maharashtra, Northeast India — 1000–200 BCE.",
+    "Grave goods tell us: belief in afterlife + social status of the buried person."
   ]
 }

@@ -1,96 +1,32 @@
 {
-  "version": "1.0",
-  "topic_id": "math_grade7_ch07_congruence_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 7,
+  "subject": "Mathematics",
+  "textbook": "Mathematics — Textbook for Class VII",
+  "chapter_number": 7,
+  "chapter_title": "Congruence of Triangles",
+  "total_cards": 20,
   "cards": [
-    {
-      "id": "fc01",
-      "front": {
-        "en": "What is the core idea of Congruence of Triangles? (FC1)",
-        "hi": "What is the core idea of Congruence of Triangles? (FC1)",
-        "kn": "What is the core idea of Congruence of Triangles? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc02",
-      "front": {
-        "en": "Why is Congruence of Triangles important? (FC2)",
-        "hi": "Why is Congruence of Triangles important? (FC2)",
-        "kn": "Why is Congruence of Triangles important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc03",
-      "front": {
-        "en": "What is the core idea of Congruence of Triangles? (FC3)",
-        "hi": "What is the core idea of Congruence of Triangles? (FC3)",
-        "kn": "What is the core idea of Congruence of Triangles? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc04",
-      "front": {
-        "en": "Why is Congruence of Triangles important? (FC4)",
-        "hi": "Why is Congruence of Triangles important? (FC4)",
-        "kn": "Why is Congruence of Triangles important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc05",
-      "front": {
-        "en": "What is the core idea of Congruence of Triangles? (FC5)",
-        "hi": "What is the core idea of Congruence of Triangles? (FC5)",
-        "kn": "What is the core idea of Congruence of Triangles? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    }
+    { "id": "fc01", "type": "Definition", "difficulty": "Easy", "front": "What does it mean for two figures to be congruent?", "back": "Two figures are congruent (≅) if they have exactly the same shape AND the same size. One figure can be placed exactly on top of the other — with perfect overlap — by sliding, rotating, or flipping. All corresponding sides are equal AND all corresponding angles are equal. Congruence is stricter than similarity: similar figures have the same shape but may differ in size; congruent figures are identical in every dimension.", "memory_hook": "CONGRUENT = Carbon copy. Like using a stamp — the impression is exactly the same shape and size as the stamp. ≅ symbol looks like = with a ~ on top: equal in size (~) AND equal in shape (=)." },
+    { "id": "fc02", "type": "Definition", "difficulty": "Easy", "front": "In a congruence statement △ABC ≅ △PQR, what does the order of letters tell you?", "back": "The order of letters defines the correspondence: A↔P, B↔Q, C↔R. This means: ∠A=∠P, ∠B=∠Q, ∠C=∠R (corresponding angles are equal). AB=PQ, BC=QR, AC=PR (corresponding sides are equal). If the order were different, say △ABC ≅ △QPR, then A↔Q, B↔P, C↔R — different correspondence. The order is NOT arbitrary — it must correctly identify which vertices match.", "memory_hook": "Letters match in POSITION: 1st↔1st, 2nd↔2nd, 3rd↔3rd. △ABC ≅ △PQR means A-goes-with-P, B-with-Q, C-with-R. Read the statement like a ZIP code — position matters." },
+    { "id": "fc03", "type": "Definition", "difficulty": "Easy", "front": "State the SSS congruence criterion.", "back": "SSS (Side-Side-Side): If all THREE sides of one triangle are equal to the three corresponding sides of another triangle, then the two triangles are congruent. If AB=DE, BC=EF, and AC=DF → △ABC ≅ △DEF by SSS. No information about angles is needed — knowing all three sides completely determines the triangle's shape and size.", "memory_hook": "SSS = Three equal Sides. If the three 'bones' (sides) are the same, the triangles are clones. Like two identical triangular picture frames — same three side lengths → identical triangles." },
+    { "id": "fc04", "type": "Definition", "difficulty": "Easy", "front": "State the SAS congruence criterion. What is the 'included angle'?", "back": "SAS (Side-Angle-Side): If TWO sides and the INCLUDED ANGLE of one triangle are equal to the corresponding two sides and included angle of another, the triangles are congruent. The included angle is the angle BETWEEN (formed by) the two given sides. Example: If AB=DE, ∠B=∠E, BC=EF → △ABC ≅ △DEF by SAS (∠B is between sides AB and BC). CRITICAL: the angle must be included — sandwiched between the two sides.", "memory_hook": "SAS = Side-ANGLE-Side. The angle is in the MIDDLE of the three letters — and must be in the middle (between) the two sides. Think of a 'sandwich': Side-[Angle]-Side. Angle is the filling between the bread." },
+    { "id": "fc05", "type": "Definition", "difficulty": "Easy", "front": "State the ASA congruence criterion. What is the 'included side'?", "back": "ASA (Angle-Side-Angle): If TWO angles and the INCLUDED SIDE of one triangle equal the corresponding two angles and included side of another → congruent. The included side is the side BETWEEN (shared by) the two given angles. Example: ∠A=∠D, AB=DE, ∠B=∠E → △ABC ≅ △DEF by ASA (side AB is between angles A and B). CRITICAL: the side must be included — between the two angles.", "memory_hook": "ASA = Angle-SIDE-Angle. Side in the MIDDLE of the letters = side must be in the MIDDLE (between) the two angles. The side is the 'spine' between two angular 'shoulders'." },
+    { "id": "fc06", "type": "Definition", "difficulty": "Easy", "front": "State the AAS congruence criterion. How is it different from ASA?", "back": "AAS (Angle-Angle-Side): If TWO angles and a NON-INCLUDED side (not between the two angles) of one triangle equal the corresponding two angles and non-included side → congruent. Example: ∠A=∠D, ∠B=∠E, BC=EF → △ABC ≅ △DEF by AAS (BC is NOT between ∠A and ∠B — it's opposite to ∠A). Difference from ASA: In ASA, the given side is BETWEEN the two angles. In AAS, the given side is NOT between the two angles (it's adjacent to only one of them).", "memory_hook": "AAS = two Angles + a Side that's NOT in the middle. ASA: side IS between angles. AAS: side is NOT between angles. ASA vs AAS: position of the Side relative to the Angles." },
+    { "id": "fc07", "type": "Definition", "difficulty": "Easy", "front": "State the RHS congruence criterion. When can it be applied?", "back": "RHS (Right angle-Hypotenuse-Side): Applicable ONLY to right-angled triangles. If the HYPOTENUSE and ONE SIDE (leg) of one right-angled triangle equal the hypotenuse and one side of another right-angled triangle → the triangles are congruent. Both triangles must have the right angle (90°). Example: In △ABC and △PQR, ∠B=∠Q=90°, AC=PR (hypotenuse), BC=QR (one leg) → △ABC ≅ △PQR by RHS.", "memory_hook": "RHS = Right angle + Hypotenuse + Side. Only for RIGHT triangles. The H (hypotenuse) must be equal. Plus ONE more side. R-H-S: the three letters in order of importance." },
+    { "id": "fc08", "type": "Concept", "difficulty": "Easy", "front": "Why is AAA NOT a valid congruence criterion?", "back": "AAA (Angle-Angle-Angle) proves that two triangles have the same shape but does NOT guarantee the same size. Two triangles with all three angles equal are SIMILAR — they look the same but one could be a scaled-up or scaled-down version of the other. Example: An equilateral triangle with side 3cm and one with side 6cm have the same angles (60°, 60°, 60°) but are NOT congruent — they have different sizes. AAA proves similarity, not congruence.", "memory_hook": "AAA = similar, NOT congruent. Angles determine SHAPE but not SIZE. A photo and its enlargement have the same angles (AAA) but are NOT congruent. Need at least ONE side for congruence." },
+    { "id": "fc09", "type": "Concept", "difficulty": "Easy", "front": "Why is SSA NOT a valid congruence criterion?", "back": "SSA (Side-Side-Angle) is called the 'ambiguous case' because two different triangles can be drawn with the same two sides and a non-included angle, so it does NOT guarantee unique congruence. Example: Given two sides and an angle that is not between them, you might be able to construct two different triangles — or sometimes just one, or none — depending on the specific values. This ambiguity makes SSA invalid as a congruence criterion. This is why the angle in SAS must be the INCLUDED angle.", "memory_hook": "SSA = ambiguous. S-S-A = the 'donkey' criterion (also nicknamed the 'ASS rule' in some texts — avoid). It fails because the non-included angle allows 'wiggle room' for two possible triangles. SSA ≠ congruent." },
+    { "id": "fc10", "type": "Definition", "difficulty": "Easy", "front": "What is CPCT and how is it used?", "back": "CPCT = Corresponding Parts of Congruent Triangles (are equal). Once you prove two triangles are congruent (using SSS, SAS, ASA, AAS, or RHS), you can state that ALL corresponding sides and angles are equal, using CPCT as the reason. Correct usage: Step 1: Prove △ABC ≅ △DEF by [criterion]. Step 2: Therefore [required part] = [corresponding part], by CPCT. CPCT is the CONCLUSION — used after proving congruence. It cannot be used as a reason to prove congruence.", "memory_hook": "CPCT = Consequence of Proved Congruent Triangles. Prove first, then CPCT gives you everything else for free. It's like winning a bundle deal: prove they're congruent → get all six equal parts at once." },
+    { "id": "fc11", "type": "Application", "difficulty": "Easy", "front": "In △ABC and △DEF: AB=DE=5cm, BC=EF=7cm, CA=FD=9cm. State the congruence criterion and write the congruence statement.", "back": "All three sides are given and equal: AB=DE, BC=EF, CA=FD. This is SSS (Side-Side-Side) criterion. Congruence statement: △ABC ≅ △DEF (by SSS). By CPCT: ∠A=∠D, ∠B=∠E, ∠C=∠F.", "memory_hook": "Three sides equal → SSS. Write the statement matching vertices: A↔D (AB=DE), B↔E (BC=EF), C↔F (CA=FD). Check all three pairs, state SSS, write △ABC≅△DEF." },
+    { "id": "fc12", "type": "Application", "difficulty": "Easy", "front": "In △PQR and △XYZ: ∠P=∠X=62°, PQ=XY=8cm, ∠Q=∠Y=48°. State the congruence criterion.", "back": "Given: ∠P=∠X, PQ=XY, ∠Q=∠Y. The side PQ is between angles P and Q → the side is INCLUDED between the two angles. This is ASA (Angle-Side-Angle). Congruence statement: △PQR ≅ △XYZ (by ASA). Note: ∠R = ∠Z automatically (angle sum) and can be confirmed by CPCT.", "memory_hook": "Two angles + the side between them = ASA. PQ is between ∠P and ∠Q — sandwiched. A-S-A: the S is sandwiched between the two A's in the letters and between the two angles in the triangle." },
+    { "id": "fc13", "type": "Application", "difficulty": "Easy", "front": "In two right-angled triangles △ABC and △PQR: ∠B=∠Q=90°, hypotenuse AC=PR=13cm, AB=PQ=5cm. State the congruence criterion.", "back": "Both triangles are right-angled (∠B=∠Q=90°). Hypotenuse AC=PR (equal hypotenuses). One leg AB=PQ (equal legs). This is RHS (Right angle-Hypotenuse-Side). Congruence statement: △ABC ≅ △PQR (by RHS). By CPCT: BC=QR and ∠A=∠P, ∠C=∠R.", "memory_hook": "Right angle ✓ + Hypotenuse equal ✓ + One side equal ✓ = RHS. Only for right triangles. Order matters: state the right angle first, then hypotenuse, then the other side." },
+    { "id": "fc14", "type": "Application", "difficulty": "Moderate", "front": "△ABC ≅ △FED (by SAS). ∠B=∠E, AB=FE=6cm, BC=ED=9cm. Find AC and ∠A.", "back": "Since △ABC ≅ △FED: A↔F, B↔E, C↔D. By CPCT: AC = FD. The third side FD must be calculated or is equal to AC. Also, ∠A = ∠F and ∠C = ∠D. The question asks us to use CPCT: AC = FD (we need the value of FD to state AC, or the question implies FD is given). If FD=11cm (example), then AC=11cm by CPCT. ∠A=∠F by CPCT.", "memory_hook": "CPCT after SAS: the third side and remaining angles are equal by CPCT. Match letters: △ABC≅△FED means A↔F, B↔E, C↔D. Then AC↔FD, ∠A↔∠F, ∠C↔∠D." },
+    { "id": "fc15", "type": "Application", "difficulty": "Moderate", "front": "In isosceles △ABC, AB=AC. Prove that ∠B=∠C using congruence.", "back": "Draw the median AD from A to midpoint D of BC. In △ABD and △ACD: AB=AC (given, isosceles). AD=AD (common side). BD=DC (D is midpoint of BC). By SSS: △ABD ≅ △ACD. By CPCT: ∠ABD=∠ACD, i.e., ∠B=∠C. This proves that base angles of an isosceles triangle are equal — using SSS congruence and CPCT.", "memory_hook": "Isosceles → draw median from apex → two congruent triangles by SSS → base angles equal by CPCT. This is a classic proof technique: create congruent triangles to prove angles equal." },
+    { "id": "fc16", "type": "Application", "difficulty": "Moderate", "front": "△MNO ≅ △QRP. List all the equal corresponding sides and angles.", "back": "Correspondence from the statement: M↔Q, N↔R, O↔P. Equal sides: MN=QR, NO=RP, MO=QP. Equal angles: ∠M=∠Q, ∠N=∠R, ∠O=∠P. Note the ORDER carefully: △MNO≅△QRP means M(1st)↔Q(1st), N(2nd)↔R(2nd), O(3rd)↔P(3rd). Side MN (between M and N) = side QR (between Q and R). Don't mix up the correspondence.", "memory_hook": "Read position by position: M-Q, N-R, O-P. Then sides join adjacent vertices: MN=QR, NO=RP, MO=QP. Angles at each vertex: ∠M=∠Q, ∠N=∠R, ∠O=∠P." },
+    { "id": "fc17", "type": "Concept", "difficulty": "Easy", "front": "Which of the following is valid: SSS, AAA, SAS, SSA, RHS, ASA, AAS?", "back": "VALID congruence criteria: SSS ✓, SAS ✓ (included angle), ASA ✓ (included side), AAS ✓ (non-included side), RHS ✓ (right triangles only). INVALID criteria: AAA ✗ (proves similarity only — same shape, possibly different size), SSA ✗ (ambiguous case — doesn't uniquely determine the triangle). Summary: 5 valid (SSS, SAS, ASA, AAS, RHS), 2 invalid (AAA, SSA).", "memory_hook": "Five VALID: SSS-SAS-ASA-AAS-RHS. Two INVALID: AAA (similar only) and SSA (ambiguous). Remember 'SSASAARS' → SSS, SA(S), A(SA), AAS, RH(S) — the five good ones." },
+    { "id": "fc18", "type": "Application", "difficulty": "Moderate", "front": "In △ABC, D is the midpoint of BC. If AD bisects ∠BAC equally (∠BAD=∠CAD), which congruence criterion proves △ABD ≅ △ACD?", "back": "In △ABD and △ACD: AD=AD (common side). ∠BAD=∠CAD (given — AD bisects ∠BAC). BD=DC (D is midpoint of BC → equal sides). By SAS: AD is common, ∠BAD=∠CAD (angle at A), and the sides AD are shared → wait, we need two sides and the included angle. Actually: AD=AD, ∠DAB=∠DAC, AB=AC? Not given. Better: use SAS with BD=DC, AD=AD, and ∠ADB=∠ADC? Only if AD⊥BC. Correct criterion with given info: SSS if AB=AC is also established, or use the given info carefully. With BD=DC, ∠BAD=∠CAD, AD=AD: this is SAS (BD=DC, ∠BDA might not equal ∠CDA). Best answer: △ABD≅△ACD by SSS if AB=AC, or by SAS if the included angle condition holds precisely.", "memory_hook": "When D is midpoint: BD=DC. When AD bisects the top angle: ∠BAD=∠CAD. Plus AD is common. Use SSS (if AB=AC given) or carefully identify the included angle for SAS." },
+    { "id": "fc19", "type": "Application", "difficulty": "Moderate", "front": "Two triangles have angles 50°, 70°, 60° and 50°, 70°, 60° respectively. One has a side of 8cm and the other has the corresponding side of 8cm. Are they congruent? Which criterion?", "back": "All three angles are equal (50°=50°, 70°=70°, 60°=60°) — but angles alone (AAA) don't prove congruence. However, ONE pair of corresponding sides is also given equal (8cm=8cm). Two angles + one side equal → AAS criterion applies (we have two angles and a side, even though the third angle is also known). Therefore: △ABC ≅ △DEF by AAS. CPCT then gives the other sides equal too. Note: three equal angles + one equal side → the triangles are congruent (not just similar).", "memory_hook": "AAA alone → similar only. AAA + one equal corresponding side → AAS → congruent. One side makes all the difference between similar and congruent!" },
+    { "id": "fc20", "type": "Application", "difficulty": "Moderate", "front": "Karnataka's ISRO centre builds two triangular solar panel frames with struts: Frame A has sides 1.2m, 0.9m, 1.5m. Frame B has sides 1.2m, 0.9m, 1.5m. Are they congruent? Criterion? What does CPCT guarantee?", "back": "All three sides are equal: 1.2=1.2, 0.9=0.9, 1.5=1.5. SSS criterion applies. Frame A ≅ Frame B (by SSS). CPCT guarantees: all three corresponding angles are equal, so the frames are identical in shape AND size — every joint angle, every mounting hole angle, every geometric property is the same. Note: (0.9, 1.2, 1.5) = 0.3×(3,4,5) → right-angled frames! CPCT further confirms the right angles are equal.", "memory_hook": "SSS in engineering: same three strut lengths → congruent frames. CPCT = all angles match. (0.9,1.2,1.5) = scaled (3,4,5) → right-angled triangle! Engineering + maths in one problem." }
   ]
 }

@@ -1,366 +1,212 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch14_globe_lat_long_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science — Geography",
+  "textbook": "Our Environment — Textbook for Class VI",
+  "chapter_number": 14,
+  "chapter_title": "Globe: Latitudes and Longitudes",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Globe: Latitudes and Longitudes? (Q1)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Globe: Latitudes and Longitudes? (Q1)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Globe: Latitudes and Longitudes? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "What is the latitude of the Equator?",
+      "options": ["A) 90°N", "B) 23.5°N", "C) 0°", "D) 66.5°S"],
+      "correct_answer": "C) 0°",
+      "explanation": "The Equator is at 0° latitude. It is the reference line from which all other latitudes are measured — north latitudes (0° to 90°N) and south latitudes (0° to 90°S). The Equator is the longest parallel, divides Earth into Northern and Southern hemispheres, and receives the most solar energy year-round."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Globe: Latitudes and Longitudes in a community? (Q2)",
-        "hi": "Who or what body regulates the civic issues related to Globe: Latitudes and Longitudes in a community? (Q2)",
-        "kn": "Who or what body regulates the civic issues related to Globe: Latitudes and Longitudes in a community? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "Lines of latitude are also called:",
+      "options": ["A) Meridians", "B) Parallels", "C) Prime lines", "D) Verticals"],
+      "correct_answer": "B) Parallels",
+      "explanation": "Lines of latitude are called parallels because they run parallel to each other and to the Equator — they never intersect. Lines of longitude are called meridians. This naming convention helps distinguish between the two types of grid lines on a globe or map."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Globe: Latitudes and Longitudes? (Q3)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Globe: Latitudes and Longitudes? (Q3)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Globe: Latitudes and Longitudes? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "The Tropic of Cancer is at:",
+      "options": ["A) 0°", "B) 23.5°S", "C) 23.5°N", "D) 66.5°N"],
+      "correct_answer": "C) 23.5°N",
+      "explanation": "The Tropic of Cancer is at 23.5°N latitude. On June 21 (Summer Solstice in the Northern Hemisphere), the Sun is directly overhead at the Tropic of Cancer — the northernmost point where this is possible. It passes through India (8 states including Rajasthan, Madhya Pradesh, and West Bengal). The Tropic of Capricorn is its southern counterpart at 23.5°S."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Globe: Latitudes and Longitudes in a community? (Q4)",
-        "hi": "Who or what body regulates the civic issues related to Globe: Latitudes and Longitudes in a community? (Q4)",
-        "kn": "Who or what body regulates the civic issues related to Globe: Latitudes and Longitudes in a community? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "The Prime Meridian (0° longitude) passes through:",
+      "options": ["A) Washington, D.C.", "B) Paris, France", "C) Greenwich, England", "D) New Delhi, India"],
+      "correct_answer": "C) Greenwich, England",
+      "explanation": "The Prime Meridian (0° longitude) passes through the Royal Observatory in Greenwich, near London, England. It was established by international agreement at the 1884 International Meridian Conference. All longitudes are measured east or west from this reference line. India's Standard Meridian (82.5°E) is approximately 82.5° east of the Prime Meridian."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Globe: Latitudes and Longitudes? (Q5)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Globe: Latitudes and Longitudes? (Q5)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Globe: Latitudes and Longitudes? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "How many degrees does Earth rotate per hour?",
+      "options": ["A) 24°", "B) 15°", "C) 360°", "D) 30°"],
+      "correct_answer": "B) 15°",
+      "explanation": "Earth completes one full rotation of 360° in 24 hours. Therefore, 360° ÷ 24 hours = 15° per hour. This means every 15° of longitude corresponds to 1 hour of time difference. This relationship is the basis for the world's 24 time zones, each approximately 15° wide."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Globe: Latitudes and Longitudes in a community? (Q6)",
-        "hi": "Who or what body regulates the civic issues related to Globe: Latitudes and Longitudes in a community? (Q6)",
-        "kn": "Who or what body regulates the civic issues related to Globe: Latitudes and Longitudes in a community? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "India's Standard Meridian is at:",
+      "options": ["A) 77.5°E", "B) 82.5°E", "C) 90°E", "D) 68°E"],
+      "correct_answer": "B) 82.5°E",
+      "explanation": "India's Standard Meridian is 82.5°E, which passes through Mirzapur in Uttar Pradesh. Indian Standard Time (IST) is based on this meridian. Since 82.5° ÷ 15 = 5.5, IST is UTC + 5 hours 30 minutes. India uses a single time zone for the whole country, despite spanning approximately 68°E to 97°E geographically."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Globe: Latitudes and Longitudes? (Q7)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Globe: Latitudes and Longitudes? (Q7)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Globe: Latitudes and Longitudes? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "The Arctic Circle is at:",
+      "options": ["A) 23.5°N", "B) 45°N", "C) 66.5°N", "D) 90°N"],
+      "correct_answer": "C) 66.5°N",
+      "explanation": "The Arctic Circle is at 66.5°N latitude. Above this circle, there is at least one day per year when the Sun does not set (midnight sun, around June 21) and at least one day when the Sun does not rise (polar night, around December 21). This is caused by Earth's axial tilt of 23.5°. Note: 66.5° + 23.5° = 90° (the pole) — they are complementary."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Globe: Latitudes and Longitudes in a community? (Q8)",
-        "hi": "Who or what body regulates the civic issues related to Globe: Latitudes and Longitudes in a community? (Q8)",
-        "kn": "Who or what body regulates the civic issues related to Globe: Latitudes and Longitudes in a community? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "What happens when you cross the International Date Line travelling westward?",
+      "options": [
+        "A) You go back one calendar day",
+        "B) You advance one calendar day",
+        "C) The time changes by 12 hours",
+        "D) Nothing changes — only the time zone changes"
+      ],
+      "correct_answer": "B) You advance one calendar day",
+      "explanation": "The International Date Line is at approximately 180° longitude. Crossing it westward (travelling from the Americas towards Asia/Pacific) means you advance one calendar day — you skip a day. Crossing it eastward (from Asia/Pacific towards the Americas) means you go back one calendar day — you repeat a day. This is because travelling west takes you into an earlier time zone, and at 180° the date must reset."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Globe: Latitudes and Longitudes? (Q9)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Globe: Latitudes and Longitudes? (Q9)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Globe: Latitudes and Longitudes? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "Karnataka lies approximately between which latitudes?",
+      "options": ["A) 23.5°N to 30°N", "B) 0° to 10°N", "C) 11°N to 18°N", "D) 20°N to 25°N"],
+      "correct_answer": "C) 11°N to 18°N",
+      "explanation": "Karnataka lies approximately between 11°N and 18°N latitude and 74°E to 78°E longitude. This places it entirely within the tropical zone (between the Equator at 0° and the Tropic of Cancer at 23.5°N), explaining Karnataka's hot, tropical climate with monsoon rainfall. Bengaluru is located at approximately 12.97°N, 77.59°E."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Globe: Latitudes and Longitudes in a community? (Q10)",
-        "hi": "Who or what body regulates the civic issues related to Globe: Latitudes and Longitudes in a community? (Q10)",
-        "kn": "Who or what body regulates the civic issues related to Globe: Latitudes and Longitudes in a community? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "Which of the following is true about all meridians (lines of longitude)?",
+      "options": [
+        "A) They are all different lengths",
+        "B) They all meet at the Equator",
+        "C) They are all equal in length and meet at both poles",
+        "D) They run parallel to each other"
+      ],
+      "correct_answer": "C) They are all equal in length and meet at both poles",
+      "explanation": "All meridians (longitudes) are semi-circles of equal length (~20,000 km) running from the North Pole to the South Pole. They all converge and meet at both poles. This is unlike parallels (latitudes), which are circles of different sizes — the Equator is the largest, and they decrease in size towards the poles, becoming points at the poles."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "If it is 12:00 noon at 0° longitude (Greenwich), what is the time at 90°E?",
+      "options": ["A) 6:00 AM", "B) 12:00 midnight", "C) 6:00 PM", "D) 3:00 PM"],
+      "correct_answer": "C) 6:00 PM",
+      "explanation": "90° ÷ 15 = 6 hours. Since 90°E is east of Greenwich, it is 6 hours ahead. 12:00 noon + 6 hours = 6:00 PM. East is always ahead in time because Earth rotates from west to east — places in the east receive sunlight (and reach noon) before places in the west. This is a standard time-longitude calculation."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "The region between the Tropic of Cancer and Tropic of Capricorn is called the:",
+      "options": ["A) Frigid Zone", "B) Temperate Zone", "C) Torrid Zone", "D) Arctic Zone"],
+      "correct_answer": "C) Torrid Zone",
+      "explanation": "The Torrid Zone (or Tropical Zone) is the region between the Tropic of Cancer (23.5°N) and the Tropic of Capricorn (23.5°S). The Sun's rays are most direct in this zone, making it the hottest on Earth. The Temperate Zones are between the Tropics and the Polar Circles. The Frigid Zones are beyond the Polar Circles (above 66.5°N and below 66.5°S)."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "Bengaluru is located at approximately 12.97°N, 77.59°E. What does the '77.59°E' tell us?",
+      "options": [
+        "A) Bengaluru is 77.59 km east of the Prime Meridian",
+        "B) Bengaluru is 77.59 degrees east of the Prime Meridian (Greenwich)",
+        "C) Bengaluru is 77.59 degrees north of the Equator",
+        "D) Bengaluru is in the 77th time zone"
+      ],
+      "correct_answer": "B) Bengaluru is 77.59 degrees east of the Prime Meridian (Greenwich)",
+      "explanation": "77.59°E means Bengaluru is 77.59 degrees of longitude east of the Prime Meridian (0° at Greenwich, England). Longitude measures angular distance east or west of Greenwich. Since Bengaluru is east of Greenwich, it is in the Eastern Hemisphere. Time-wise: 77.59° ÷ 15 ≈ 5.17 hours ahead of Greenwich — though India officially uses IST (82.5°E = UTC+5:30)."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "Why is a globe considered more accurate than a flat map for representing Earth?",
+      "options": [
+        "A) Globes are larger and show more detail",
+        "B) Globes preserve the true spherical shape, relative sizes, and distances of Earth's features without distortion",
+        "C) Flat maps cannot show oceans",
+        "D) Globes show future climate changes more accurately"
+      ],
+      "correct_answer": "B) Globes preserve the true spherical shape, relative sizes, and distances of Earth's features without distortion",
+      "explanation": "A globe is a three-dimensional sphere that accurately represents Earth's spherical shape. Flat maps must project a sphere onto a flat surface, which always causes some distortion. For example, on a Mercator map, Greenland appears as large as Africa, though Africa is actually about 14 times larger. A globe shows correct relative sizes, true distances, and accurate shapes — making it more accurate, though less practical than a flat map."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "The Tropic of Capricorn passes through which of the following countries?",
+      "options": ["A) India", "B) England", "C) Brazil", "D) Russia"],
+      "correct_answer": "C) Brazil",
+      "explanation": "The Tropic of Capricorn (23.5°S) passes through the Southern Hemisphere. Countries it passes through include Brazil, Argentina, Chile, South Africa, Mozambique, Madagascar, Australia. It does NOT pass through India (India is in the Northern Hemisphere, between 8°N and 37°N). England is at ~51°N (Temperate Zone). Russia is mostly in the Temperate and Frigid Zones."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Why do all lines of latitude (parallels) run parallel to each other but all lines of longitude (meridians) meet at the poles?",
+      "options": [
+        "A) Latitudes are straight lines; longitudes are curved",
+        "B) Latitudes are horizontal circles of different sizes; meridians are semi-circles that converge at the poles by definition",
+        "C) This is a cartographic error in map-making",
+        "D) Latitudes are used only in the Northern Hemisphere"
+      ],
+      "correct_answer": "B) Latitudes are horizontal circles of different sizes; meridians are semi-circles that converge at the poles by definition",
+      "explanation": "Parallels (latitudes) are complete circles running horizontally around Earth — like the hoops of a barrel. Circles of different sizes that share the same axis (Earth's rotational axis) are concentric and never intersect. Meridians (longitudes) are semi-circles running from pole to pole — like the segments of an orange. All orange segments naturally meet at the top and bottom. The geometry of a sphere dictates that vertical semi-circles must meet at the poles."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "Which statement about the Equator is INCORRECT?",
+      "options": [
+        "A) The Equator is at 0° latitude",
+        "B) The Equator divides Earth into Northern and Southern hemispheres",
+        "C) The Equator is the shortest parallel of latitude",
+        "D) Day and night are approximately equal at the Equator year-round"
+      ],
+      "correct_answer": "C) The Equator is the shortest parallel of latitude",
+      "explanation": "The Equator is actually the LONGEST parallel of latitude — it is a great circle with a circumference of approximately 40,075 km. Parallels decrease in length as you move towards the poles. The poles themselves are just points (0 length). Options A, B, and D are all correct: the Equator is 0°, divides hemispheres, and has roughly 12 hours of daylight year-round. Only C is incorrect."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "A pilot flies from 30°E to 60°E. By how much time has their local time changed?",
+      "options": ["A) 1 hour", "B) 2 hours", "C) 3 hours", "D) 4 hours"],
+      "correct_answer": "B) 2 hours",
+      "explanation": "Difference in longitude = 60°E – 30°E = 30°. Time difference = 30° ÷ 15 = 2 hours. Since the pilot is flying eastward (from 30°E to 60°E), they are moving to a location where the Sun is further ahead in its daily cycle. Local time at 60°E is 2 hours ahead of local time at 30°E. Standard exam calculation: degrees difference ÷ 15 = hours difference."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "The Tropic of Cancer passes through 8 Indian states but NOT through Karnataka. A student asks: 'Does this mean Karnataka is not in the tropics?' What is the correct answer?",
+      "options": [
+        "A) Correct — Karnataka is not in the tropics because the Tropic of Cancer does not pass through it",
+        "B) Incorrect — Karnataka (11°N–18°N) lies between the Equator and Tropic of Cancer, placing it entirely within the Torrid/Tropical Zone",
+        "C) Incorrect — Karnataka is in the temperate zone because it has moderate temperatures",
+        "D) Correct — only states through which the Tropic of Cancer passes are considered tropical"
+      ],
+      "correct_answer": "B) Incorrect — Karnataka (11°N–18°N) lies between the Equator and Tropic of Cancer, placing it entirely within the Torrid/Tropical Zone",
+      "explanation": "The Tropical (Torrid) Zone is the entire region BETWEEN the Tropic of Cancer (23.5°N) and the Tropic of Capricorn (23.5°S). Karnataka at 11°N–18°N is south of the Tropic of Cancer — within the tropical zone. A place does not need to be ON the Tropic to be in the tropics; it needs to be BETWEEN the two Tropics. Karnataka's tropical climate (warm year-round, monsoon rains, high solar radiation) confirms its tropical position."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "A ship crosses the International Date Line heading eastward on Tuesday, March 15. What date and day does it become after crossing?",
+      "options": [
+        "A) Wednesday, March 16",
+        "B) Monday, March 14",
+        "C) Tuesday, March 15 (no change)",
+        "D) Thursday, March 17"
+      ],
+      "correct_answer": "B) Monday, March 14",
+      "explanation": "Crossing the International Date Line eastward (from west to east, e.g. from Asia/Pacific towards North America) means you subtract one calendar day. The ship was on Tuesday March 15; after crossing eastward, it becomes Monday March 14. This seems counterintuitive but reflects the fact that you are travelling into earlier time zones. Travelling westward across the IDL (from Americas towards Asia) would instead advance the date — from Tuesday March 15 to Wednesday March 16."
     }
   ]
 }

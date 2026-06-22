@@ -1,114 +1,182 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "social",
-  "chapter_id": "ch04_earliest_cities",
-  "chapter_title": {
-    "en": "In the Earliest Cities",
-    "hi": "आरंभिक नगर",
-    "kn": "ಆರಂಭಿಕ ನಗರಗಳಲ್ಲಿ"
+  "subject": "Social Science — History",
+  "textbook": "Our Pasts-I",
+  "chapter_number": 4,
+  "chapter_title": "What Books and Burials Tell Us",
+  "estimated_study_time_minutes": 50,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Understand what the Rigveda is and why it is important as a historical source",
+    "Identify the key features of the Vedic period — the role of the 'jana', 'gana', cattle, horses, and chariot warfare",
+    "Explain how burials and megalithic graves help us understand ancient society",
+    "Understand what megaliths are and where they are found in India",
+    "Describe what burial goods tell us about ancient beliefs in life after death",
+    "Identify the Inamgaon site and what it tells us about social differences in ancient India",
+    "Connect the themes of books and burials to Karnataka's own megalithic heritage",
+    "Answer comprehension and MCQ questions accurately based on the chapter"
+  ],
+
+  "prerequisite_knowledge": [
+    "From Chapter 1: understanding that manuscripts and archaeological remains are both sources of history",
+    "From Chapter 3: knowledge that the Harappan civilisation declined around 3900 years ago",
+    "Basic understanding that ancient people had religious beliefs and rituals",
+    "Knowledge of what BCE dating means"
+  ],
+
+  "introduction": {
+    "why_important": "Books (especially the Vedas) and burials (megaliths and grave goods) give us two completely different kinds of evidence about ancient Indian society — one from what people wrote and believed, the other from how they treated their dead. Together they reveal the social structure, beliefs, and values of communities that lived 3000–4000 years ago.",
+    "real_life_relevance": "When a person dies today, we often bury or cremate them with objects that mattered to them — flowers, clothing, sometimes a favourite item. We hold rituals and ceremonies. Archaeologists study ancient burials in the same way — seeing what objects were included tells them about the dead person's status, beliefs, and the society they lived in. The Vedas similarly tell us what people believed and valued through hymns and prayers.",
+    "karnataka_context": "Karnataka is one of the richest states in India for megalithic remains. The Deccan plateau — much of which is in Karnataka — has thousands of megalithic burial sites. Sites like Brahmagiri (Hassan district), Hire Benakal (Koppal district), and Hallur (Haveri district) have yielded megalithic graves with burial goods including iron tools, pottery, and ornaments. Karnataka's megaliths date from approximately 1200–200 BCE, making them directly relevant to this chapter.",
+    "connection_to_previous_learning": "Chapter 3 ended with the decline of Harappan cities around 3900 years ago. Chapter 4 explores what was happening in other parts of the subcontinent around the same time and later — through the Rigveda (about 3500 years ago) and megaliths — giving a broader picture of ancient Indian society."
   },
-  "topics": [
+
+  "chapter_summary": {
+    "key_topics": [
+      "The Rigveda: the oldest of the four Vedas; composed about 3500 years ago; written in Sanskrit; contains hymns praising gods; oral tradition — passed from teacher to student by memorisation before being written down",
+      "Vedic society: people called themselves 'jana' (group/people); cattle were important wealth; horses used in chariot battles; distinctions between 'dasas' or 'dasyus' and 'aryas' (different groups, possibly with cultural differences)",
+      "Sanskrit: the language of the Rigveda; related to other European languages (Latin, Greek, Persian) — all part of the Indo-European language family",
+      "Burials: different societies had different burial practices — burial in pits, on river banks, burial with objects; Inamgaon site (Maharashtra, about 3600 years ago): some adults buried in pots in courtyard, children buried differently, one man buried in unique posture with many pots — suggesting he was special or important",
+      "Megaliths: large stone structures built over burial sites; found across South India, Northeast India, and other parts; date from roughly 3000 to 2000 years ago (1500–200 BCE); Brahmagiri (Karnataka) is a key site",
+      "Burial goods in megaliths: pots with food/water, iron tools and weapons, skeletons of horses, ornaments — suggesting belief in life after death; same goods found in different graves suggest relative equality; but some graves have more goods = social differences existed",
+      "Inamgaon: site on Ghod river (tributary of Bhima), Maharashtra; farming community; adults buried in large pots under house floors; one special burial — man in large jar with many pots — suggested leader or important person"
+    ],
+    "moral_lesson": "How we treat our dead reveals how we think about life, equality, status, and the afterlife. Ancient burials show that concerns about inequality, status, and the afterlife are not modern inventions — they are deeply human."
+  },
+
+  "core_concepts": [
     {
-      "topic_id": "social_grade6_ch04_earliest_cities_basics",
-      "title": {
-        "en": "In the Earliest Cities - Fundamentals",
-        "hi": "आरंभिक नगर - बुनियादी बातें",
-        "kn": "ಆರಂಭಿಕ ನಗರಗಳಲ್ಲಿ - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of In the Earliest Cities",
-        "Solve exercises and apply rules related to In the Earliest Cities",
-        "Analyze practical examples of In the Earliest Cities in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore In the Earliest Cities. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम आरंभिक नगर का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಆರಂಭಿಕ ನಗರಗಳಲ್ಲಿ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore In the Earliest Cities in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम आरंभिक नगर का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಆರಂಭಿಕ ನಗರಗಳಲ್ಲಿ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of In the Earliest Cities.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in In the Earliest Cities.",
-            "hi": "चरण 1: आरंभिक नगर के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಆರಂಭಿಕ ನಗರಗಳಲ್ಲಿ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering In the Earliest Cities builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "आरंभिक नगर में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಆರಂಭಿಕ ನಗರಗಳಲ್ಲಿ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "The Rigveda as a Historical Source",
+      "simple_explanation": "The Rigveda is the oldest of the four Vedas — ancient religious texts of India. Composed about 3500 years ago in Sanskrit, it contains hymns to gods and gives us valuable information about early Indian society.",
+      "detailed_explanation": "The Rigveda is the oldest of the four Vedas (the others being the Samaveda, Yajurveda, and Atharvaveda). It was composed approximately 3500 years ago (around 1500 BCE) in an early form of Sanskrit. It contains 1028 hymns praising various gods — Agni (fire), Indra (thunder/war), Soma (a plant/ritual drink), and others. Crucially, the Rigveda was an oral text for most of its history — it was not written down initially. Instead, priests learned it by memorisation and passed it from teacher (guru) to student over generations. This oral transmission was so precise that the Rigveda has survived virtually unchanged for 3500 years. As a historical source, the Rigveda tells us about: the language of the period (Sanskrit), the gods people worshipped, the importance of cattle and horses, the social distinctions between groups ('aryas' and 'dasas/dasyus'), and the practice of chariot warfare. However, like all sources, it must be read critically — it was composed by priests and reflects their perspective.",
+      "real_life_example": "Imagine a song that was so important to a community that every generation memorised and passed it on perfectly — for 3500 years — before anyone wrote it down. This is what happened with the Rigveda. The precision of oral transmission in ancient India was extraordinary. Today, many grandparents still recite Sanskrit shlokas from memory that they learned from their parents — a tradition going back to this period.",
+      "karnataka_example": "Karnataka has a rich Vedic tradition. The Sringeri Sharada Peetha (established by Adi Shankaracharya in the 8th century CE) is one of the most important centres of Vedic learning in India. Karnataka's own tradition of Harikatha, Vachana literature, and oral religious poetry carries forward this ancient practice of transmitting sacred knowledge through oral tradition — just as the Rigveda was transmitted for centuries before being written down.",
+      "common_mistakes": "Students often think the Vedas were always written. They were not — they were oral texts for centuries before being written. Also, students sometimes think the Rigveda describes all of ancient India — it actually reflects the perspective of a specific group (priestly composers) in a specific region (northwest India) during a specific period. It is an important but partial source.",
+      "memory_tip": "RIGVEDA = Recited In Groups, Very Exactly, Daily, Across generations. 1028 hymns + 3500 years + memorised perfectly = India's oldest surviving oral-then-written text. RIG = 'recitation' in Sanskrit root. The Rig-veda was literally recited before it was recorded!"
+    },
+    {
+      "concept_name": "Megaliths — Large Stone Burial Structures",
+      "simple_explanation": "Megaliths are large stone structures built over burial sites. 'Mega' means large; 'lith' means stone. They are found across South India and date from roughly 3000 to 2000 years ago.",
+      "detailed_explanation": "The word megalith comes from Greek: 'mega' (large) + 'lithos' (stone). Megaliths are large stone structures — boulders, slabs, or circles of stone — placed over or around burial sites. They are found across South India (Karnataka, Tamil Nadu, Kerala, Andhra Pradesh), Northeast India, and other parts of the subcontinent. Harappan burials (from northwestern India) were different in style, showing that different communities had different burial practices. Megaliths generally date from approximately 3000–2000 years ago (1500–200 BCE in different regions). Inside megalithic graves, archaeologists find: skeletons of the dead, pottery with food and water (suggesting belief in afterlife), iron tools and weapons (suggesting knowledge of iron technology), bones of horses (suggesting horses were valued status symbols), and ornaments. The presence of similar goods in different graves suggests a degree of social equality — but some graves having more or richer goods suggests some social stratification.",
+      "real_life_example": "When you visit an old cemetery today and notice that some families have large, elaborate headstones while others have simple markers, you are seeing the same phenomenon as megalithic graves — the size and richness of a burial reflects the status of the person buried. The ancient people who built megaliths were making the same statement: this person was important enough to have a large stone structure marking their grave.",
+      "karnataka_example": "Karnataka is exceptionally rich in megalithic sites. Hire Benakal in Koppal district is one of the largest megalithic sites in India, with hundreds of stone circles and cist graves. Brahmagiri in Hassan district has yielded both Neolithic and megalithic remains. These Karnataka megaliths contain iron tools, black and red pottery, horse bones, and ornaments — exactly matching the burial goods described in this chapter. Visiting Hire Benakal today is like stepping into the chapter.",
+      "common_mistakes": "Students sometimes confuse megaliths with temple structures. Megaliths are burial monuments — they mark the graves of dead people, not places of worship (though they may have had religious significance). Also, students think megaliths are only from South India — while South India has the most, megaliths are found across India and the world (Stonehenge in England is a famous example).",
+      "memory_tip": "MEGA-LITH = Massive Eerie Graves All Lined In The Hills. Or simpler: MEGA = very big, LITH = stone. Megaliths = BIG STONE GRAVES. Think Stonehenge in England — that is a megalith too! South India's Deccan plateau is full of India's own Stonehenges."
+    },
+    {
+      "concept_name": "What Burial Goods Tell Us About Ancient Society",
+      "simple_explanation": "The objects placed with dead people in their graves (burial goods) tell historians about the beliefs, values, and social structure of ancient communities. They reveal beliefs about the afterlife and differences in social status.",
+      "detailed_explanation": "When archaeologists excavate ancient graves, they find objects placed alongside the body — pottery with food and water, tools, weapons, ornaments, and sometimes animal bones. These are called 'burial goods' or 'grave goods'. They reveal several important things about ancient societies. First, they show beliefs about the afterlife — food and water were placed so the dead person could survive after death; tools were included so they could work; weapons were included so they could fight. This suggests the ancient people believed life continued after death in some form. Second, the quality and quantity of burial goods reveal social status — a grave with many rich goods belonged to an important or wealthy person; a simpler grave belonged to an ordinary person. At Inamgaon (Maharashtra), archaeologists found one man buried in a large pot with many pots around him — suggesting he was a leader or person of high status. Children's graves were simpler. This shows that social differences existed even in death.",
+      "real_life_example": "Today, wealthy families build large, elaborate tombs and memorials; ordinary families may have simpler graves. In some cultures, people are buried with their most valued possessions. These practices reflect our beliefs about death, the afterlife, and social status — exactly what archaeologists read from ancient burials. The study of burial practices is one of the richest sources for understanding ancient societies.",
+      "karnataka_example": "At Brahmagiri (Hassan, Karnataka), megalithic graves contained black and red pottery (with food/water), iron tools and weapons, beads, and in some graves, horse bones. The presence of horse bones specifically in some graves — not all — suggests that horses were associated with high-status individuals. Similarly, at Hire Benakal, differences in the size of stone circles over graves and the richness of grave goods indicate that social stratification existed in ancient Karnataka society.",
+      "common_mistakes": "Students often think all ancient burials were the same or that all graves had the same goods. The chapter specifically shows that different societies had different burial practices (some buried under house floors, some in megaliths, some in pits) and that different individuals within the same society had different quantities of burial goods — showing social variation.",
+      "memory_tip": "BURIAL GOODS = Life After Death Insurance Policy. People packed the grave with everything the dead person might need in the next life — food, water, tools, weapons. The richer the packing, the more important the person. Read the grave goods = read the society!"
     }
+  ],
+
+  "key_terms_glossary": [
+    { "term": "Rigveda", "meaning": "The oldest of the four Vedas, composed approximately 3500 years ago in Sanskrit. It contains 1028 hymns praising gods like Agni, Indra, and Soma. It was originally an oral text, memorised and transmitted from teacher to student for centuries before being written down." },
+    { "term": "Sanskrit", "meaning": "The ancient language in which the Vedas (including the Rigveda) were composed. Sanskrit is part of the Indo-European language family — related to Latin, Greek, Persian, and eventually modern languages like Hindi, Kannada, Marathi, and many European languages." },
+    { "term": "Veda / Vedic", "meaning": "Veda means 'knowledge' in Sanskrit. The four Vedas (Rigveda, Samaveda, Yajurveda, Atharvaveda) are the oldest religious texts of the Indian subcontinent. 'Vedic' refers to the period and culture associated with the composition and use of the Vedas." },
+    { "term": "Megalith", "meaning": "From Greek 'mega' (large) + 'lithos' (stone). A large stone structure built over or around a burial site. Megaliths are found across South India, Northeast India, and worldwide. They date from approximately 3000–2000 years ago in South India." },
+    { "term": "Burial goods / Grave goods", "meaning": "Objects placed with the dead in a grave. These include pottery (with food/water), tools, weapons, ornaments, and animal bones. Burial goods reveal beliefs about the afterlife and the social status of the person buried." },
+    { "term": "Inamgaon", "meaning": "An archaeological site on the banks of the Ghod river (a tributary of the Bhima) in Maharashtra. A farming community lived here about 3600 years ago. Adults were buried in large pots under house floors. One special burial — a man in a large pot with many surrounding pots — suggests social differentiation." },
+    { "term": "Oral tradition", "meaning": "The practice of transmitting knowledge, literature, and cultural values through spoken word and memory — not through written texts. The Rigveda was an oral tradition for centuries before it was written down. Many communities across India (and the world) have rich oral traditions." },
+    { "term": "Jana", "meaning": "A Sanskrit word meaning 'people' or 'group'. The Rigveda describes different 'janas' — groups or tribes — who were distinct communities. The word survives in modern Indian languages: 'Janata' (people), 'Janapada' (people's territory)." },
+    { "term": "Arya / Aryas", "meaning": "A term used in the Rigveda to describe groups who composed and used the Vedas (possibly meaning 'noble' or 'respectable'). The text also mentions 'dasas' or 'dasyus' — possibly referring to different cultural or linguistic groups. The exact meaning and social implications of these terms are debated by historians." },
+    { "term": "Cist grave", "meaning": "A type of megalithic burial chamber made by placing large stone slabs on four sides (like walls) and one on top (like a roof) to create a stone 'box' for the body. Cist graves are one of the most common types of megalithic burial structures found in Karnataka." }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Comprehension",
+      "question": "What can we learn about early Indian society from the Rigveda?",
+      "step_by_step_answer": [
+        "Step 1: Establish the Rigveda as a source — it was composed about 3500 years ago in Sanskrit, contains 1028 hymns, and was originally an oral text.",
+        "Step 2: Information about religion — the Rigveda tells us about the gods people worshipped: Agni (fire), Indra (storms/war), Soma (a plant/drink used in rituals).",
+        "Step 3: Information about economy — cattle were very important as wealth; horses were used in chariot warfare, suggesting they were highly valued.",
+        "Step 4: Information about society — there were different groups: 'aryas' (who composed the Vedas) and 'dasas'/'dasyus' (others, possibly with different cultural practices). The 'jana' (group/people) was an important social unit.",
+        "Step 5: Information about language — the Rigveda was composed in Sanskrit, which is related to Latin, Greek, and Persian — showing ancient connections between Indian and European languages.",
+        "Conclusion: The Rigveda is a primary source that tells us about religion, economy (cattle, horses), social groups, and language in ancient India around 3500 years ago. However, it reflects the perspective of priestly composers — not everyone in society."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Vocabulary in context",
+      "question": "Use the word 'megalith' in a sentence explaining its significance in understanding ancient South Indian history.",
+      "step_by_step_answer": [
+        "Step 1: Recall meaning — megalith = large stone structure built over a burial site; from Greek mega (large) + lithos (stone).",
+        "Step 2: Connect to the chapter — megaliths are found across South India (including Karnataka) and date from about 3000–2000 years ago. They contain burial goods that reveal social structure and beliefs.",
+        "Step 3: Write sentence: 'Megaliths — large stone burial structures found across South India, including at Hire Benakal and Brahmagiri in Karnataka — are crucial sources for understanding ancient social structures, as the burial goods found within them reveal beliefs about the afterlife and differences in social status among people who lived about 3000–2000 years ago.'"
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Application",
+      "question": "What does the special burial at Inamgaon (a man buried in a large pot with many surrounding pots) tell us about ancient Indian society?",
+      "step_by_step_answer": [
+        "Step 1: Describe the burial — at Inamgaon, one man was found buried in a large pot, surrounded by many smaller pots. Other adults were buried in large pots under house floors; children in simple pots or urns.",
+        "Step 2: Compare with other burials — most adult burials had similar goods; children's burials were simpler. The one special burial stood out for having far more surrounding pots.",
+        "Step 3: Interpret what this means — the extra pots likely contained food, water, and other provisions — more than other burials. This suggests the person was special: possibly a leader, a person of high status, or someone with religious significance.",
+        "Step 4: What it tells us about society — even in a relatively small farming community like Inamgaon, social differences existed. Not everyone was treated equally in death — some people received more elaborate burials reflecting their higher status in life.",
+        "Conclusion: The Inamgaon burial evidence shows that social stratification (differences in status and wealth) existed in ancient Indian farming communities — even 3600 years ago. Studying burials gives us direct evidence of these social differences that written texts may not record."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "The Rigveda as a Historical Source",
+      "questions": [
+        { "type": "Recall", "q": "What is the Rigveda and when was it composed?", "a": "The Rigveda is the oldest of the four Vedas — ancient religious texts. It was composed approximately 3500 years ago (around 1500 BCE) in Sanskrit. It contains 1028 hymns praising various gods." },
+        { "type": "Recall", "q": "How was the Rigveda transmitted before it was written down?", "a": "The Rigveda was transmitted orally — through careful memorisation and recitation from teacher (guru) to student over many generations. This oral tradition was so precise that the text was preserved virtually unchanged for centuries before being written down." },
+        { "type": "Understanding", "q": "Why is Sanskrit considered important in the history of world languages?", "a": "Sanskrit is part of the Indo-European language family — the same family that includes Latin, Greek, Persian, and eventually modern languages like Hindi, Kannada, French, German, and English. This shows ancient linguistic connections between India and Europe, suggesting shared origins or ancient contact." },
+        { "type": "Understanding", "q": "What does the Rigveda tell us about the economy of the Vedic period?", "a": "The Rigveda shows that cattle were extremely important as wealth — many hymns mention cows and cattle raids. Horses were also important — used in chariots for warfare. These two animals were central to the economy and warfare of the Vedic period." },
+        { "type": "Application", "q": "Why is the Rigveda considered a partial (not complete) source for understanding ancient Indian society?", "a": "The Rigveda was composed by priests (Brahmins) and reflects their perspective and concerns — religious rituals, hymns to gods, the importance of sacrifice. It does not give us the perspective of farmers, crafts persons, women, or other social groups. It covers mainly the northwest of the subcontinent, not all of ancient India. Like all sources, it must be read critically." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "The Rigveda is the oldest of the four Vedas — composed about 3500 years ago in Sanskrit; contains 1028 hymns; originally an oral text transmitted by memorisation.",
+    "The Rigveda tells us about Vedic society: gods (Agni, Indra, Soma), importance of cattle and horses, chariot warfare, social groups ('aryas' and 'dasas/dasyus'), and the 'jana' (group).",
+    "Sanskrit is related to Latin, Greek, and Persian — all part of the Indo-European language family.",
+    "Megaliths are large stone burial structures — 'mega' (large) + 'lithos' (stone). Found across South India; date from about 3000–2000 years ago.",
+    "Burial goods in megaliths include: pottery with food/water, iron tools and weapons, horse bones, and ornaments — suggesting belief in life after death.",
+    "Similar burial goods in different graves suggest some degree of equality; but graves with richer goods indicate social stratification.",
+    "Inamgaon (Maharashtra, ~3600 years ago): adults buried in large pots under house floors; one special burial (man with many pots) suggests social differentiation.",
+    "Different communities across ancient India had completely different burial practices — showing cultural diversity.",
+    "Karnataka connection: megalithic sites at Hire Benakal (Koppal) and Brahmagiri (Hassan) contain iron tools, pottery, horse bones — matching the chapter's description exactly.",
+    "Books (Rigveda) and burials (megaliths, Inamgaon) together give us a richer picture of ancient Indian society than either source alone."
+  ],
+
+  "mind_map": {
+    "root": "What Books and Burials Tell Us",
+    "branches": [
+      { "branch": "Rigveda", "sub": ["Oldest Veda — 3500 years ago", "1028 hymns in Sanskrit", "Oral tradition — memorised", "Gods: Agni, Indra, Soma", "Cattle, horses, chariot warfare"] },
+      { "branch": "Vedic Society", "sub": ["Jana = group/people", "Aryas vs Dasas/Dasyus", "Cattle = wealth", "Indo-European language family"] },
+      { "branch": "Megaliths", "sub": ["Large stone burial structures", "South India + Northeast", "3000–2000 years ago", "Brahmagiri, Hire Benakal (Karnataka)"] },
+      { "branch": "Burial Goods", "sub": ["Pottery (food/water)", "Iron tools & weapons", "Horse bones", "Ornaments", "Suggest: afterlife belief + social status"] },
+      { "branch": "Inamgaon", "sub": ["Maharashtra, Ghod river", "3600 years ago", "Adults in pots under floors", "One special burial = leader?", "Shows social stratification"] }
+    ]
+  },
+
+  "revision_notes": "Chapter 4 explores two major sources for understanding ancient Indian society: books (specifically the Rigveda) and burials (megaliths and grave sites like Inamgaon). The Rigveda is the oldest of the four Vedas, composed about 3500 years ago in Sanskrit. It contains 1028 hymns to gods like Agni (fire), Indra (storms/war), and Soma. It was originally an oral text, transmitted by memorisation from teacher to student. It tells us about: the importance of cattle and horses, chariot warfare, social groups ('aryas' and 'dasas/dasyus'), and the 'jana' (group of people). Sanskrit is part of the Indo-European language family (related to Latin, Greek, Persian). Megaliths (mega = large, lith = stone) are large stone structures over burial sites. Found across South India (Karnataka, Tamil Nadu, Kerala), they date from approximately 3000–2000 years ago. Inside megaliths: pottery with food/water (belief in afterlife), iron tools and weapons, horse bones, ornaments. Similarities in grave goods suggest some equality; differences suggest social stratification. Inamgaon (Maharashtra, ~3600 years ago): adults buried in large pots under house floors; one special burial (man in large pot with many surrounding pots) suggests he was a leader. Different burial practices show cultural diversity across ancient India. Key vocabulary: Rigveda, Sanskrit, Veda/Vedic, megalith, burial goods, Inamgaon, jana, oral tradition, Indo-European, cist grave.",
+
+  "must_remember_facts": [
+    "Rigveda: oldest Veda, composed ~3500 years ago, 1028 hymns, in Sanskrit, originally oral.",
+    "Gods in Rigveda: Agni (fire), Indra (storms/war), Soma (plant/ritual drink).",
+    "Vedic society: cattle = important wealth; horses used in chariot warfare; 'jana' = group.",
+    "Sanskrit is part of the Indo-European language family (related to Latin, Greek, Persian).",
+    "Megalith = large stone burial structure; from Greek 'mega' (large) + 'lithos' (stone).",
+    "Megaliths found in South India, Northeast India; date ~3000–2000 years ago.",
+    "Burial goods: pottery (food/water), iron tools, horse bones, ornaments = belief in afterlife.",
+    "Similar goods in different graves = some equality; more goods in some = social stratification.",
+    "Inamgaon (Maharashtra, ~3600 years ago): adults in pots under house floors; special man's burial with many pots.",
+    "Karnataka megalithic sites: Hire Benakal (Koppal), Brahmagiri (Hassan) — among the most important in India."
   ]
 }

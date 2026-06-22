@@ -1,96 +1,172 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch16_maps_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science — Geography",
+  "textbook": "Our Environment — Textbook for Class VI",
+  "chapter_number": 16,
+  "chapter_title": "Maps",
+  "total_cards": 20,
   "cards": [
     {
       "id": "fc01",
-      "front": {
-        "en": "What is the core idea of Maps? (FC1)",
-        "hi": "What is the core idea of Maps? (FC1)",
-        "kn": "What is the core idea of Maps? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a map? How is it different from a globe?",
+      "back": "A map is a flat (two-dimensional), scaled-down representation of Earth's surface or any part of it drawn on a flat surface (paper, screen). A globe is a three-dimensional spherical model of the entire Earth. Key differences: Globe = 3D, spherical, accurate for large areas, not portable, shows whole Earth only. Map = 2D, flat, portable, can show any area at any detail level, distorts large areas but is very practical. For small areas (city, district), maps are highly accurate. For large areas (continents), globes are more accurate.",
+      "memory_hook": "Globe = reality model (round like Earth, accurate). Map = useful compromise (flat like paper, practical). You can't fold a globe and put it in your pocket — but you can fold a map. Practicality > perfection = map wins for daily use."
     },
     {
       "id": "fc02",
-      "front": {
-        "en": "Why is Maps important? (FC2)",
-        "hi": "Why is Maps important? (FC2)",
-        "kn": "Why is Maps important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What are the three essential components of every map?",
+      "back": "Every map must have three components: (1) Scale — tells the ratio between map distances and real distances on Earth. (2) Direction — shows orientation, usually indicated by a North arrow or compass rose. (3) Symbols — conventional signs that represent real-world features (rivers, roads, mountains, etc.), explained in the map's legend/key. Without all three, a map is incomplete and unreliable. These are sometimes called the 'three Ds': Distance (scale), Direction, and Design (symbols).",
+      "memory_hook": "SDS = Scale, Direction, Symbols. Or: every map has three legs like a tripod — remove one leg and it falls. No scale = can't measure distances. No direction = can't navigate. No symbols = can't understand what's shown. All three are non-negotiable."
     },
     {
       "id": "fc03",
-      "front": {
-        "en": "What is the core idea of Maps? (FC3)",
-        "hi": "What is the core idea of Maps? (FC3)",
-        "kn": "What is the core idea of Maps? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is map scale? Give an example of a statement scale.",
+      "back": "Map scale is the ratio between distances on the map and the corresponding actual distances on Earth's surface. It tells you how much the real world has been shrunk to fit on the map. Statement scale (verbal scale): expressed in words. Example: '1 cm represents 10 km' or '1 centimetre = 10 kilometres'. This means every 1 cm measured on the map equals 10 km in the real world. Practical use: if two towns are 3 cm apart on this map, they are 3 × 10 = 30 km apart in reality.",
+      "memory_hook": "Scale = the map's shrink factor. Real world → shrunk down → map. Statement scale tells you the shrink ratio in plain words. '1 cm = 10 km' = 'map 1 thumb-width = real 10 km'. Simple, readable, clear."
     },
     {
       "id": "fc04",
-      "front": {
-        "en": "Why is Maps important? (FC4)",
-        "hi": "Why is Maps important? (FC4)",
-        "kn": "Why is Maps important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a Representative Fraction (RF)? Give an example and explain it.",
+      "back": "A Representative Fraction (RF) is a scale expressed as a ratio or fraction: e.g. 1:50,000 or 1/50,000. It means 1 unit on the map = 50,000 of the same units on the ground. It has no units — so 1 cm on the map = 50,000 cm on the ground = 500 m = 0.5 km. Or 1 inch on the map = 50,000 inches on the ground. Key advantages: (1) Unit-free — works with any unit. (2) Does not change if the map is photocopied at a different size (unlike statement scale, which becomes wrong if the map is enlarged or reduced).",
+      "memory_hook": "RF = the universal scale. No cm, no km — just a pure ratio. 1:50,000 means 'one to fifty thousand.' Count zeros: 1:50,000 → 5 zeros → 500 m per unit. 1:1,000,000 → 6 zeros → 10 km per cm. The more zeros, the smaller the scale (more area shown)."
     },
     {
       "id": "fc05",
-      "front": {
-        "en": "What is the core idea of Maps? (FC5)",
-        "hi": "What is the core idea of Maps? (FC5)",
-        "kn": "What is the core idea of Maps? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a linear (graphic) scale? What is its biggest advantage?",
+      "back": "A linear or graphic scale is a drawn line on the map divided into segments, each labelled with actual distances. Example: a 5 cm line on the map divided into 5 equal parts, each labelled '10 km' — total line represents 50 km. Biggest advantage: it remains accurate even when the map is photocopied, enlarged, or reduced at a different size. When you resize the map, the graphic scale bar resizes proportionally with it, keeping the scale visually accurate. Statement scales and RFs written as text do NOT maintain accuracy when the map is resized.",
+      "memory_hook": "Graphic scale = the scale that scales with the map. Photocopy the map at 50% size? The bar also shrinks by 50% — still correct. Statement scale written as text? '1 cm = 10 km' is now wrong because your 1 cm has become 0.5 cm. Graphic scale is the most resilient scale type."
+    },
+    {
+      "id": "fc06",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is the difference between a large scale map and a small scale map? Give an example of each.",
+      "back": "Large scale map: shows a SMALL area in GREAT detail. The ratio is large (e.g. 1:10,000 — 1 cm = 100 m). Example: a city road map, a campus map, a building floor plan. Shows individual streets, buildings, and features. Small scale map: shows a LARGE area with LESS detail. The ratio is small (e.g. 1:10,000,000 — 1 cm = 100 km). Example: a world map, a country map, a continent map. Cannot show individual streets or buildings. Counter-intuitive rule: a 'large scale' map has a larger fraction (1/10,000 is bigger than 1/10,000,000), showing less area but more detail.",
+      "memory_hook": "Large scale = Large detail, Small area. Small scale = Small detail, Large area. OR: Large scale = like a magnifying glass (see everything, but only a small patch). Small scale = like stepping back far away (see the whole world, but tiny). Zoom in = large scale. Zoom out = small scale."
+    },
+    {
+      "id": "fc07",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Name the four cardinal directions and four intermediate directions.",
+      "back": "Cardinal directions (four primary compass directions): North (N), South (S), East (E), West (W). Intermediate directions (midway between cardinal directions): Northeast (NE) — between N and E. Southeast (SE) — between S and E. Southwest (SW) — between S and W. Northwest (NW) — between N and W. Together these eight directions form the points of a compass rose. In order clockwise from North: N, NE, E, SE, S, SW, W, NW.",
+      "memory_hook": "Clockwise from North: Never Eat Shredded Wheat (N, E, S, W). Intermediate: NE, SE, SW, NW — just add the two surrounding cardinals. Clockwise full compass: N → NE → E → SE → S → SW → W → NW → N. Draw a compass rose once — then you'll remember it forever."
+    },
+    {
+      "id": "fc08",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a compass? How does it help in map reading?",
+      "back": "A compass is a navigation instrument containing a magnetised needle balanced on a pivot. The needle always aligns with Earth's magnetic field, pointing towards Magnetic North. In map reading, a compass is used to: (1) Find which direction is north in the real world. (2) Orient the map correctly — turn the map until its North arrow aligns with the compass needle pointing north. Once the map is correctly oriented, all directions on the map match real directions. (3) Determine which direction to travel to reach a destination shown on the map.",
+      "memory_hook": "Compass = the north-finder. Map says 'hospital is north of school.' Compass tells you which way is north in real life. Combine them: map + compass = navigation. Without compass, you can't orient the map to reality. With compass, the map comes alive and shows you exactly which way to walk."
+    },
+    {
+      "id": "fc09",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What are conventional symbols (map symbols)? Why are they used?",
+      "back": "Conventional symbols are agreed-upon marks, signs, colours, and patterns used on maps to represent real-world features. They are used because: (1) A map cannot draw everything in full detail — symbols compress information. (2) They save space — a blue line represents an entire river. (3) They are internationally agreed — the same symbols are understood by map-readers worldwide. Examples: Blue colour/line = rivers, lakes, oceans. Brown contour lines = elevation. Green shading = forests. Red lines = national highways. Black dots = settlements. Dotted lines = state/district boundaries. Solid lines = national boundaries.",
+      "memory_hook": "Symbols = map's shorthand. Instead of drawing the Ganga river in full detail, one blue wavy line says it all. Every map symbol is a compact code. Blue = water (obvious — sky and sea are blue). Green = vegetation (obvious — forests are green). Brown contours = hills (less obvious — needs legend)."
+    },
+    {
+      "id": "fc10",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a map legend (key)? Why is it essential?",
+      "back": "A map legend (or key) is a box on the map that lists all the symbols used on that map and explains what each one represents. It is essential because: (1) Without a legend, symbols on the map are meaningless to the reader. (2) Different maps use different symbols for the same feature — the legend makes each map self-explanatory. (3) Thematic maps especially need detailed legends to explain colours and patterns. A legend is essentially the map's dictionary — it translates the visual language of symbols back into words and meaning. No legend = no reliable map reading.",
+      "memory_hook": "Legend = the map's instruction manual. Lost without it. Imagine getting a box of items with symbols but no explanation — useless. The legend is what turns a confusing picture into a readable document. Always find and read the legend FIRST before trying to interpret a map."
+    },
+    {
+      "id": "fc11",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What are the three main types of maps? Describe what each shows.",
+      "back": "1. Physical maps: Show natural (physical) features of Earth's surface — mountains, plateaus, plains, rivers, lakes, oceans. Use colour to show elevation (blue = oceans, green = lowlands, yellow/brown = higher land, white = snow-capped peaks). Example: Physical map of Karnataka showing Western Ghats, Deccan Plateau, coastal plains, rivers. 2. Political maps: Show human-made boundaries and features — national borders, state borders, district boundaries, capitals, cities, towns, roads. Example: Political map of India showing state boundaries and capitals. 3. Thematic maps: Show a specific theme — rainfall distribution, soil types, population density, mineral resources, crop patterns, temperature zones. Each map is dedicated to one topic.",
+      "memory_hook": "PPT = Physical, Political, Thematic. Physical = nature's features. Political = humans' lines (borders). Thematic = one special topic. Your school atlas has all three types — check the table of contents: Physical map of India, Political map of India, Rainfall map of India (thematic)."
+    },
+    {
+      "id": "fc12",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a sketch map? How is it different from a regular map?",
+      "back": "A sketch map is a rough, hand-drawn, informal map made without accurate scale. It shows the general shape, relative positions, and key landmarks of an area — useful for giving directions or communicating spatial relationships quickly. Key differences from a regular map: (1) No accurate scale — distances are approximate, not measured. (2) No precise coordinates. (3) Made quickly for a specific purpose. (4) Not for navigation or precise measurement. Example: Drawing a rough map to show a friend how to get from their house to yours — showing roads, turns, and landmarks but not to scale.",
+      "memory_hook": "Sketch map = a map drawing = rough guide. Like a rough draft of a story vs. a published book. Useful for communication, NOT for precision. If someone asks 'draw me a map to your house', you make a sketch map — you don't plot GPS coordinates on graph paper."
+    },
+    {
+      "id": "fc13",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "On a map with scale 1 cm = 25 km, two cities are 8 cm apart. What is the real distance?",
+      "back": "Real distance = map distance × scale factor. Real distance = 8 cm × 25 km/cm = 200 km. The two cities are 200 km apart in reality. Reverse calculation: If two cities are 350 km apart in reality, how far are they on this map? Map distance = real distance ÷ scale factor = 350 km ÷ 25 km/cm = 14 cm on the map. These two types of calculations — map to reality and reality to map — are the core skills for using any map with a statement scale.",
+      "memory_hook": "Map to Real: multiply (map cm × km/cm = real km). Real to Map: divide (real km ÷ km/cm = map cm). Scale works like a currency exchange: 1 map-cm buys you 25 real-km. Buy 8: 8 × 25 = 200 km. Want to know how many map-cm costs 350 km? 350 ÷ 25 = 14 cm."
+    },
+    {
+      "id": "fc14",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "ISRO's Bhuvan geoportal shows Karnataka at different zoom levels. When zoomed to see all of Karnataka (a large area), is this a large scale or small scale view? When zoomed to see a single street in Bengaluru, is it large or small scale?",
+      "back": "All of Karnataka view: Small scale — a large area is shown with less detail. You can see district boundaries, major rivers, and highways, but not individual streets or buildings. Single street in Bengaluru view: Large scale — a small area is shown in great detail. You can see individual buildings, lanes, and features clearly. This is the same principle used in all maps and digital map applications. Zooming OUT on Bhuvan = moving to smaller scale. Zooming IN on Bhuvan = moving to larger scale. ISRO's Bhuvan uses this multi-scale system to serve different user needs — from forest area calculations (state level) to urban planning (street level).",
+      "memory_hook": "Zoom OUT = small scale (more area, less detail). Zoom IN = large scale (less area, more detail). Your phone map works exactly this way. State view = small scale. Street view = large scale. ISRO Bhuvan = the same principle, with satellite images."
+    },
+    {
+      "id": "fc15",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "You are given a map of Karnataka with no North arrow. How do you determine direction on this map?",
+      "back": "By convention, in the absence of a North arrow on a map, North is assumed to be at the TOP of the map. Therefore: Top = North, Bottom = South, Right = East, Left = West. You can verify this using: (1) A physical compass — hold it near the map; orient the map so its top aligns with the compass needle pointing north. (2) Knowledge of known features — the Arabian Sea is west of Karnataka; if the map shows sea on the left, the top is north. (3) Latitude lines (parallels) run east-west — they run horizontally if North is at the top. Note: always check for a North arrow first — some maps (especially historical or artistic) may be oriented differently.",
+      "memory_hook": "No North arrow? NORTH = TOP. Always. This is the universal convention for modern maps. Upward = North. Downward = South. Right = East. Left = West. Turn your map so that what you know is north appears at the top — and you've oriented it correctly."
+    },
+    {
+      "id": "fc16",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "Why do all maps of large areas (continents, world) distort shape or size?",
+      "back": "Earth is a sphere (three-dimensional). A map is flat (two-dimensional). It is geometrically impossible to 'unroll' a sphere onto a flat surface without some distortion — just as you cannot flatten an orange peel into a perfect rectangle without tearing or stretching it. This is the map projection problem. Different projections minimise different distortions: Mercator projection (most common world map): preserves shapes/angles but distorts size (areas far from Equator appear too large — Greenland looks as large as Africa). Equal-area projections: preserve size but distort shape. For small areas (a city, a district), distortion is negligible — maps are essentially accurate. The globe avoids all distortion because it is three-dimensional like Earth.",
+      "memory_hook": "Flat map from round Earth = always some compromise. Like ironing a ball — it tears or stretches. For world maps, always ask: 'which distortion does this projection accept?' Mercator says: 'I'll distort size but keep shapes.' Others say the opposite. No free lunch in cartography."
+    },
+    {
+      "id": "fc17",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Your atlas has three maps of Karnataka: one showing rivers and mountains, one showing districts and cities, and one showing annual rainfall. Classify each.",
+      "back": "Rivers and mountains map → Physical map (shows natural features — rivers, mountains, plateaus, plains). Districts and cities map → Political map (shows human-made administrative boundaries and settlements — districts, taluks, cities, towns). Annual rainfall map → Thematic map (shows one specific topic — rainfall distribution across Karnataka). Using these three maps together gives a complete picture: the physical environment (mountains channel rain), the administrative divisions (districts for governance), and a specific parameter (rainfall for agricultural and water planning).",
+      "memory_hook": "Nature = Physical. Lines humans drew = Political. One special topic = Thematic. Karnataka's three maps: mountains and rivers (nature made them = Physical), districts (government drew them = Political), rainfall (one weather topic = Thematic). Every atlas has all three types — learn to identify them instantly."
+    },
+    {
+      "id": "fc18",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "How does BBMP (Bengaluru's city corporation) use maps in urban planning?",
+      "back": "BBMP uses GIS (Geographic Information System) — a digital mapping system with multiple map layers stacked over each other: Base map layer: shows streets, buildings, ward boundaries. Utility layer: shows water pipes, sewage lines, electricity cables. Land use layer: shows residential, commercial, industrial, and green zones. Transport layer: shows bus routes, metro corridors, flyovers. Population layer: shows population density by ward. By overlaying these layers, BBMP planners can identify: where new roads are needed (transport layer + population layer), where water pipes are old and need replacement (utility + age data layer), which areas are flood-prone (elevation + drainage layers). This multi-layer map system is the modern evolution of traditional paper maps.",
+      "memory_hook": "GIS = Google Maps on steroids. Multiple transparent map sheets stacked. Each sheet = one layer of information. Urban planning = asking questions across layers: 'Where are the most people and the fewest hospitals?' Overlay population map + hospital map → answer appears. BBMP does this daily for Bengaluru."
+    },
+    {
+      "id": "fc19",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "A map has the scale 1:2,500,000. If Mysuru and Bengaluru are 2.4 cm apart on this map, what is the actual distance?",
+      "back": "RF = 1:2,500,000 means 1 cm on map = 2,500,000 cm on ground. Real distance = 2.4 cm × 2,500,000 cm = 6,000,000 cm. Convert to km: 6,000,000 cm ÷ 100 = 60,000 m ÷ 1000 = 60 km (approximately). The actual road distance between Mysuru and Bengaluru is about 140–150 km, but straight-line (as-the-crow-flies) distance on a map measures only the direct distance. Maps show straight-line distances; road distances are always longer because roads curve and wind. Always note whether the question asks for map distance or road distance.",
+      "memory_hook": "RF calculation: map distance × denominator of RF = real distance in same unit. Then convert units. 2.4 cm × 2,500,000 = 6,000,000 cm → ÷ 100 = 60,000 m → ÷ 1000 = 60 km. RF is pure maths — just multiply and convert. Practise the unit conversion chain: cm → m → km."
+    },
+    {
+      "id": "fc20",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "A friend gives you hand-drawn directions: 'Go past the big banyan tree, turn left at the chai shop, second right after the temple.' Is this a map? A sketch map? Or neither? What makes it one or the other?",
+      "back": "This is closest to a sketch map in verbal form — or the basis for making one. A sketch map is an informal, rough representation of an area showing relative positions and landmarks without accurate scale or coordinates. Your friend's directions describe: landmarks (banyan tree, chai shop, temple), relative directions (left, right), and sequence. If drawn on paper, this would be a sketch map. It lacks: accurate scale, compass direction (no north arrow), coordinate grid. Regular maps have all three components (scale, direction, symbols/legend) and are accurately measured. Sketch maps only need to communicate relative positions — they do this effectively even without precision.",
+      "memory_hook": "Verbal directions → sketch map → regular map: three levels of formality. Your friend's description is a 'verbal sketch map.' Draw it → it becomes a sketch map. Measure and scale it → it becomes a regular map. The difference is precision, not purpose — all three try to tell you HOW TO GET SOMEWHERE."
     }
   ]
 }

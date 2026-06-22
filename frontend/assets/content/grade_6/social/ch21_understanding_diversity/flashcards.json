@@ -1,96 +1,172 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch21_understanding_diversity_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science",
+  "textbook": "Social and Political Life — Textbook for Class VI",
+  "chapter_number": 21,
+  "chapter_title": "Understanding Diversity",
+  "total_cards": 20,
   "cards": [
     {
       "id": "fc01",
-      "front": {
-        "en": "What is the core idea of Understanding Diversity? (FC1)",
-        "hi": "What is the core idea of Understanding Diversity? (FC1)",
-        "kn": "What is the core idea of Understanding Diversity? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is diversity? Give two examples from India.",
+      "back": "Diversity means the existence of many different kinds of people, cultures, languages, religions, customs, and traditions within a society or country. India's examples: (1) India has 22 officially recognised languages (and hundreds of dialects) — people in Karnataka speak Kannada, while people in Tamil Nadu speak Tamil; (2) India has people following Hinduism, Islam, Christianity, Sikhism, Buddhism, Jainism, and many other religions — all coexisting. Diversity is one of India's greatest strengths and a defining feature of its identity.",
+      "memory_hook": "DIVERSITY = DIFFERENT + VARIETY. India is like a thali — many different items on one plate, each with its own taste, together making a complete meal. No two items the same, yet all on the same plate."
     },
     {
       "id": "fc02",
-      "front": {
-        "en": "Why is Understanding Diversity important? (FC2)",
-        "hi": "Why is Understanding Diversity important? (FC2)",
-        "kn": "Why is Understanding Diversity important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What does the phrase 'Unity in Diversity' mean? Why is it India's guiding principle?",
+      "back": "'Unity in Diversity' means that despite India's enormous variety of languages, religions, cultures, and traditions, its people are united as one nation. It is India's guiding principle because: India has over 1.4 billion people from hundreds of communities, castes, and religions — yet they all share one Constitution, one citizenship, and common national symbols (flag, anthem). This unity despite difference is a remarkable achievement. The phrase was popularised by Jawaharlal Nehru and reflects the idea that difference does not mean division.",
+      "memory_hook": "Unity in Diversity = INDIA'S SUPERPOWER. One country, one Constitution, one flag — but infinite cultures, languages, foods, and festivals. Like a rainbow: many colours, one sky."
     },
     {
       "id": "fc03",
-      "front": {
-        "en": "What is the core idea of Understanding Diversity? (FC3)",
-        "hi": "What is the core idea of Understanding Diversity? (FC3)",
-        "kn": "What is the core idea of Understanding Diversity? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Name four ways in which Indians are diverse.",
+      "back": "Indians are diverse in: (1) Language — over 1,600 mother tongues; 22 scheduled languages in the 8th Schedule of the Constitution; (2) Religion — Hinduism, Islam, Christianity, Sikhism, Buddhism, Jainism, Zoroastrianism, Judaism, and tribal faiths; (3) Food — rice in the South, wheat/roti in the North, fish in coastal areas, millet in arid regions; (4) Clothing — saree, dhoti, salwar-kameez, lungi, pheran (Kashmir), mundu (Kerala), ilkal saree (Karnataka); (5) Festivals — Diwali, Eid, Christmas, Onam, Pongal, Ugadi, Baisakhi. All these coexist within one nation.",
+      "memory_hook": "LRFCF: Language, Religion, Food, Clothing, Festivals — India's Five Faces of Diversity. Every state is a different flavour of the same country."
     },
     {
       "id": "fc04",
-      "front": {
-        "en": "Why is Understanding Diversity important? (FC4)",
-        "hi": "Why is Understanding Diversity important? (FC4)",
-        "kn": "Why is Understanding Diversity important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "How does geography influence cultural diversity in India?",
+      "back": "India's varied geography directly shapes cultural diversity: (1) Coastal areas (Karnataka's Dakshina Kannada, Kerala, Goa) — fishing communities, coconut-based food, boat festivals, seafaring traditions; (2) Desert regions (Rajasthan) — brightly coloured clothing (to combat sun), camel culture, water-conservation traditions; (3) Mountain regions (Himalayas, Northeast) — warm woollen clothes, terrace farming, tribal cultures; (4) River plains (Ganga, Kaveri) — rice and wheat cultivation, dense populations, ancient civilisations. Geography shapes what people eat, wear, celebrate, and how they live — creating the cultural mosaic of India.",
+      "memory_hook": "GEOGRAPHY = CULTURE'S ARCHITECT. The land shapes the life. Coastal = fish. Desert = colour. Mountain = wool. River plains = grain. India's map is a cultural map."
     },
     {
       "id": "fc05",
-      "front": {
-        "en": "What is the core idea of Understanding Diversity? (FC5)",
-        "hi": "What is the core idea of Understanding Diversity? (FC5)",
-        "kn": "What is the core idea of Understanding Diversity? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "How did historical interactions create diversity in India?",
+      "back": "India's history of trade, migration, and conquest brought diverse peoples and cultures: (1) Traders — Arab traders came to Kerala's Malabar coast for spices, bringing Islam; Jewish traders settled in Kerala centuries ago; (2) Conquerors — Mughals brought Persian language, architecture (Taj Mahal), and Islamic art; (3) Colonisers — British brought English language, railways, Western education; (4) Migrations — communities from Central Asia (Parsis fleeing Persia), Africa (Siddis), and Southeast Asia settled in India. Each group left cultural traces — architecture, food, language, and religion — adding layers to India's diversity.",
+      "memory_hook": "India = CULTURAL PALIMPSEST. Layer upon layer of history written over each other. Each invasion, trade route, and migration added a new cultural colour. India absorbed them all."
+    },
+    {
+      "id": "fc06",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "How is Karnataka specifically diverse? Give examples of language, food, and festival diversity within the state.",
+      "back": "Karnataka's internal diversity: Language — Kannada is the official language, but Tulu (Dakshina Kannada/Udupi), Kodava (Kodagu), Konkani (coastal), Beary (north Kerala border), Urdu (in some districts), and dozens of tribal languages are spoken. Food — Ragi mudde and saaru (North Karnataka), rice and fish curry (coastal), coorg pandi curry (Kodagu), Udupi vegetarian cuisine (famous worldwide), Mysuru pak (sweet). Festivals — Ugadi (New Year), Dasara (Mysuru Dasara is a UNESCO-recognised festival), Hampi Utsava, Karaga (Bengaluru), Kodava Puttari harvest festival. Karnataka is itself a microcosm of India's diversity.",
+      "memory_hook": "Karnataka = MINI-INDIA. Tulu coast, Kodava hills, Deccan plateau, Kannada heartland — each region is different. Yet all are Kannadiga. Diversity within diversity."
+    },
+    {
+      "id": "fc07",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is a stereotype? Give an example of a harmful stereotype about a community in India.",
+      "back": "A stereotype is an oversimplified, generalised, and often inaccurate belief or image about a group of people — assuming all members of a group are the same. Examples of harmful stereotypes in India: 'All people from a particular region are dishonest' (not true — individuals vary); 'Women cannot do technical jobs' (not true — millions of women are engineers, scientists, pilots); 'A person's ability is determined by their caste' (rejected by the Constitution). Stereotypes are harmful because they prevent us from seeing people as individuals, lead to discrimination, and are usually based on prejudice rather than fact.",
+      "memory_hook": "STEREOTYPE = LAZY THINKING. Instead of knowing a person, you put a label on their group. 'All X are Y' is almost always wrong. People are individuals, not stamps of their community."
+    },
+    {
+      "id": "fc08",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is prejudice? How is it different from a stereotype?",
+      "back": "Prejudice is an unfair, preconceived opinion about a person or group based on their identity (caste, religion, gender, region, language) rather than on actual knowledge or experience. Stereotype vs. Prejudice: A stereotype is a generalised image ('all members of group X are lazy'). Prejudice is the attitude or feeling of dislike/distrust toward a group based on a stereotype ('I don't like people from group X because they are lazy'). Prejudice leads to discrimination — treating people unequally based on their identity. Both stereotypes and prejudice are learned and can be unlearned through education and exposure.",
+      "memory_hook": "PRE-JUDICE = JUDGING BEFORE KNOWING. You form an opinion about someone before meeting them based on their group. Prejudice is the feeling; stereotype is the thought. Discrimination is the action. All three are interconnected."
+    },
+    {
+      "id": "fc09",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why is diversity considered a strength rather than a problem in India?",
+      "back": "Diversity is India's strength because: (1) Different communities bring different skills, knowledge, and perspectives — making the nation more creative and resilient; (2) Different crops and farming practices from diverse regions together feed the entire country; (3) Cultural exchange between communities enriches art, music, food, and literature — Carnatic music, Hindustani music, classical dance forms each contribute to a rich national culture; (4) India's diverse diaspora (Indians living abroad from multiple communities) contributes to the global economy; (5) Democratic pluralism — different voices and perspectives make governance more representative. Jawaharlal Nehru said India was 'an ancient palimpsest on which layer upon layer of thought and reverie had been inscribed.'",
+      "memory_hook": "DIVERSITY = ECOSYSTEM STRENGTH. Like a forest with many species is more resilient than a monoculture plantation — India with many cultures is stronger than a homogeneous nation would be."
+    },
+    {
+      "id": "fc10",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Name the two children in the NCERT chapter story about diversity. What did their friendship illustrate?",
+      "back": "In the NCERT Class 6 Social Science chapter on Diversity, the story features Samaira and Harish — children from different backgrounds (different regions, possibly different communities) who become friends despite their differences. Their friendship illustrates that: diversity is not a barrier to friendship; understanding and respecting differences builds stronger relationships; children naturally accept difference before adults teach them prejudice; genuine human connection goes beyond caste, religion, or region. The story shows that diversity, when approached with curiosity and respect, enriches friendships and experiences.",
+      "memory_hook": "SAMAIRA + HARISH = INDIA'S IDEAL. Two different backgrounds, one genuine friendship. Their story = the Constitution's dream lived in a schoolyard. Difference is interesting, not threatening."
+    },
+    {
+      "id": "fc11",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "How is India's diversity different from that of other diverse countries like the USA?",
+      "back": "India's diversity is different in nature: (1) India's diversity is ancient — most communities have lived in India for thousands of years, developing distinct cultures over millennia. USA's diversity is largely from relatively recent immigration over the past 400 years. (2) India has continuous ancient civilisations — the Indus Valley Civilisation, Vedic culture, Dravidian culture — each contributing to the current mosaic; (3) India's languages are from different families (Indo-Aryan in the North, Dravidian in the South, Tibeto-Burman in the Northeast) — these are structurally very different languages; (4) India's religious diversity includes religions that were born on Indian soil (Hinduism, Buddhism, Jainism, Sikhism) — giving a deep indigenous character to its pluralism.",
+      "memory_hook": "India's diversity = DEEP ROOTS. Not just different recent immigrants but distinct civilisations that have coexisted for thousands of years. USA = melting pot. India = thali — items retain distinct flavours."
+    },
+    {
+      "id": "fc12",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "How do Indian festivals reflect the country's diversity? Give three examples of festivals from different religions/regions.",
+      "back": "Indian festivals reflect diversity across religion, season, and region: (1) Diwali (Hindu — festival of lights, celebrated across North India and Karnataka, marking Rama's return and Lakshmi's worship); (2) Eid-ul-Fitr (Islam — marks the end of Ramadan fasting, celebrated across India with prayers and feasting); (3) Christmas (Christianity — celebrated across India, especially in Goa, Mangaluru, and Northeast India); (4) Baisakhi (Sikh/Punjabi harvest festival — also the founding anniversary of the Khalsa); (5) Onam (Kerala — celebrates the mythical return of King Mahabali, with flower rangolis, boat races, and traditional feasts). All these are national holidays, recognising India's religious diversity.",
+      "memory_hook": "India's CALENDAR = India's DIVERSITY CHART. Every month has a different community's festival. Diwali + Eid + Christmas + Onam = India celebrating itself."
+    },
+    {
+      "id": "fc13",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why do people in different parts of India eat different foods?",
+      "back": "Food differences are primarily shaped by: (1) Geography and climate — rice grows in wet regions (Karnataka coast, Bengal, Kerala) → rice is the staple. Wheat grows in drier plains (Punjab, UP, Rajasthan) → roti/chapati is the staple. Millet (ragi, jowar, bajra) grows in semi-arid regions (North Karnataka, Maharashtra) → mudde and bhakri; (2) Religion — Hindus (many) avoid beef; Muslims avoid pork; Jains avoid root vegetables; some castes are strictly vegetarian; (3) Occupation — fishing communities eat fish daily; pastoral communities consume dairy; agricultural communities eat the crops they grow; (4) Trade history — spices from Kerala became part of global cuisine; coastal communities developed distinct spice profiles.",
+      "memory_hook": "FOOD FOLLOWS GEOGRAPHY + RELIGION + HISTORY. What grows nearby, what religion allows, and what traders brought — these three forces explain every regional cuisine. Karnataka's ragi mudde = Deccan soil + dry climate + ancient tradition."
+    },
+    {
+      "id": "fc14",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What does it mean to 'respect diversity'? Give two examples of respectful behaviour.",
+      "back": "Respecting diversity means accepting and appreciating differences in culture, religion, language, and customs without prejudice or discrimination. Examples of respectful behaviour: (1) Attending a friend's Eid celebration, Diwali puja, or Christmas event with genuine curiosity and respect — not judging their traditions; (2) Using a person's name correctly rather than making fun of unusual names from different languages; (3) Not making derogatory jokes about communities, regions, or religions; (4) Learning a few words of a friend's language as a gesture of respect; (5) Standing respectfully during another community's national or religious ceremony. Respect means treating every person's culture as equally valid and worthy of dignity.",
+      "memory_hook": "RESPECT = SEE THE PERSON, NOT THE LABEL. Their culture is not inferior or superior — it is different and equally valid. Would you want your culture mocked? No. Then don't mock others'."
+    },
+    {
+      "id": "fc15",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "How did the ancient Silk Route contribute to India's cultural diversity?",
+      "back": "The Silk Route was an ancient network of trade routes connecting India to Central Asia, China, Persia, Arabia, and Europe. Its contributions to India's diversity: (1) Buddhism spread from India to China, Japan, and Southeast Asia via the Silk Route — and Buddhist pilgrims like Xuanzang brought Chinese cultural elements to India; (2) Spices, textiles, and ideas flowed both ways — Indian mathematics (zero, decimal system) reached the Arab world; Arab astronomy came to India; (3) Artistic traditions merged — Gandhara art (combining Greek and Buddhist styles) emerged in Northwest India; (4) New food crops (like certain Central Asian fruits) entered India; (5) Languages borrowed words from trade partners. Trade routes = cultural exchange highways.",
+      "memory_hook": "SILK ROUTE = WORLD'S FIRST INTERNET. Ideas, goods, languages, and religions travelled along it just as data travels on the internet. India was a major node — sending and receiving cultural data for centuries."
+    },
+    {
+      "id": "fc16",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Is it correct to say 'all South Indians are the same'? What does this misunderstanding ignore?",
+      "back": "No — it is a harmful stereotype and oversimplification. South India (Karnataka, Tamil Nadu, Kerala, Andhra Pradesh, Telangana, Goa) has enormous diversity: Language — Kannada, Tamil, Malayalam, Telugu, Tulu, Konkani, Kodava are all completely different languages with different scripts; Food — Udupi vegetarian cuisine ≠ Kerala fish curry ≠ Andhra spicy biryani ≠ Kodagu pandi curry; Religion — Kerala has ancient Jewish and Christian communities (St. Thomas Christians from 52 CE); Karnataka has a rich Lingayat tradition; Tamil Nadu has major Shaivite and Vaishnavite temple traditions; Culture — Yakshagana (Karnataka) ≠ Kathakali (Kerala) ≠ Bharatanatyam (Tamil Nadu). Treating 'South India' as homogeneous ignores centuries of distinct civilisations.",
+      "memory_hook": "South India = FIVE DISTINCT CIVILISATIONS, not one. Assuming sameness is lazy. Explore: each state has its own script, its own cuisine, its own dance, its own history. The diversity inside South India alone could fill a library."
+    },
+    {
+      "id": "fc17",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Name India's five major classical dance forms and the state each comes from.",
+      "back": "India's eight classical dance forms (major five): (1) Bharatanatyam — Tamil Nadu (one of the oldest, highly stylised temple dance); (2) Kathakali — Kerala (elaborate costumes, facial expressions, mythological themes); (3) Odissi — Odisha (graceful, based on ancient temple sculptures); (4) Kuchipudi — Andhra Pradesh (combines dance and drama); (5) Manipuri — Manipur (gentle, circular movements, associated with Vaishnavism); (6) Yakshagana — Karnataka (not classical by Sangeet Natak Akademi but a major traditional form). Each dance form reflects the culture, mythology, and artistic tradition of its home state — a direct expression of regional diversity within a shared classical arts heritage.",
+      "memory_hook": "B-K-O-K-M: Bharatanatyam (TN), Kathakali (KL), Odissi (OD), Kuchipudi (AP), Manipuri (MN). 'Big Kings Often Keep Monkeys' — five classical dances, five states, one classical arts heritage."
+    },
+    {
+      "id": "fc18",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "How do schools in India promote appreciation of diversity?",
+      "back": "Schools promote diversity appreciation through: (1) Celebrating all major festivals — schools hold Diwali, Eid, Christmas, and Ugadi celebrations, exposing students to different traditions; (2) Teaching history of multiple communities and their contributions; (3) Multilingual education — some schools teach in regional languages while others teach in Hindi or English, respecting linguistic diversity; (4) Cultural programmes — folk dance, classical music, and regional art forms from different states are showcased; (5) Intermingling of students from different communities in classrooms and playgrounds — building natural friendships; (6) NCERT textbooks (like this chapter) specifically teach about diversity, prejudice, and the need for respect. Schools are India's first laboratory for living with diversity.",
+      "memory_hook": "SCHOOL = INDIA IN MINIATURE. Students from different backgrounds share a classroom, a playground, a lunch break. The school that celebrates all festivals teaches the Constitution's spirit."
+    },
+    {
+      "id": "fc19",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "The NCERT chapter discusses Ladakh and Kerala as examples of India's diverse regions. How are they different yet both Indian?",
+      "back": "Ladakh (Jammu & Kashmir/Ladakh Union Territory) — high-altitude cold desert; Buddhist and Muslim population; Tibetan-influenced culture; yak herding and barley farming; Goncha dress; Hemis monastery; extreme cold winters. Kerala — tropical coastal state; Hindu, Christian, and Muslim communities in roughly equal proportions; rice and fish-based cuisine; matrilineal traditions in some communities; Kathakali and Theyyam performing arts; Kerala Ayurveda tradition; 100% literacy rate (among India's highest). Despite being dramatically different in climate, religion, food, language, and culture — BOTH have Indian citizens, governed by the same Constitution, vote in the same elections, share national symbols. Their difference is India's diversity; their shared citizenship is India's unity.",
+      "memory_hook": "LADAKH + KERALA = INDIA'S TWO EXTREMES. Snow desert vs tropical coast. Buddhist monastery vs Kathakali stage. Yet same Aadhaar card, same Indian passport, same Constitution. Difference + Sameness = Unity in Diversity."
+    },
+    {
+      "id": "fc20",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "How has Karnataka contributed to India's cultural diversity through its arts, literature, and architecture?",
+      "back": "Karnataka's contributions to India's cultural diversity: (1) Architecture — Chalukya temples (Badami, Aihole, Pattadakal — UNESCO World Heritage), Hoysala temples (Belur, Halebid — intricate stone carvings), Vijayanagara ruins (Hampi — UNESCO World Heritage); (2) Classical music — Carnatic music tradition (Purandaradasa, the 'father of Carnatic music' was from Karnataka); (3) Literature — Kannada literature has 8 Jnanpith Awards (the most for any Indian language, shared with Hindi); ancient texts like Kavirajamarga, Pampa Bharata; (4) Performing arts — Yakshagana, Dollu Kunitha, Veeragase, Bayalata; (5) Philosophy — Basavanna's Lingayat movement (12th century Vachana movement). Karnataka's cultural contributions are irreplaceable parts of India's civilisational heritage.",
+      "memory_hook": "Karnataka = 8 JNANPITH AWARDS. Most for any language in India. Hampi, Badami, Belur = world-class heritage. Carnatic music born here. Karnataka's culture is India's backbone."
     }
   ]
 }

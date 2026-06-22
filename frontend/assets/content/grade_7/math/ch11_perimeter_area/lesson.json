@@ -1,114 +1,170 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 7,
-  "subject": "math",
-  "chapter_id": "ch11_perimeter_area",
-  "chapter_title": {
-    "en": "Perimeter and Area",
-    "hi": "परिमाप और क्षेत्रफल",
-    "kn": "ಸುತ್ತಳತೆ ಮತ್ತು ವಿಸ್ತೀರ್ಣ"
+  "subject": "Mathematics",
+  "textbook": "Mathematics — Class 7 (NCERT)",
+  "chapter_number": 11,
+  "chapter_title": "Perimeter and Area",
+  "estimated_study_time_minutes": 55,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Recall and apply perimeter and area formulas for squares, rectangles, and triangles",
+    "Derive and apply the area formula for parallelograms",
+    "Derive and apply the area formula for triangles (including using base and height)",
+    "Find the circumference and area of circles using π",
+    "Convert between different units of area (cm², m², km²)",
+    "Solve problems involving paths, borders, and combined shapes",
+    "Apply area and perimeter concepts to real-life situations",
+    "Understand the relationship between shapes of equal area but different perimeters"
+  ],
+
+  "prerequisite_knowledge": [
+    "Perimeter and area of squares and rectangles from earlier classes",
+    "Properties of triangles, parallelograms, and circles",
+    "Basic operations with fractions and decimals",
+    "Understanding of π (pi) as approximately 22/7 or 3.14"
+  ],
+
+  "introduction": {
+    "why_important": "Perimeter and area are fundamental measurements used in every aspect of daily life — from buying tiles for a floor, fencing a garden, painting a wall, to designing buildings. This chapter extends earlier knowledge to more shapes (parallelograms, triangles, circles) and real-life applications.",
+    "real_life_relevance": "Perimeter: how much fencing is needed for a field? Circumference: how far does a wheel travel in one rotation? Area: how many tiles cover a floor? How much paint for a wall? These are daily calculations for farmers, builders, engineers, and even home owners.",
+    "karnataka_context": "Karnataka's agricultural economy (rice fields in the Cauvery basin, sugarcane in Mandya, coffee in Coorg) constantly requires area calculations for land measurement. The traditional unit 'guntha' (approximately 101 square metres) is still used alongside modern units. Karnataka's construction boom in Bengaluru requires area calculations for apartments, commercial spaces, and IT parks. The famous Cubbon Park in Bengaluru covers 300 acres — an area calculation problem on a grand scale.",
+    "connection_to_previous_learning": "Class 6 introduced perimeter and area of squares and rectangles. Class 7 extends this to triangles (revisited with the height concept), parallelograms, and circles — and introduces more complex application problems."
   },
-  "topics": [
+
+  "core_concepts": [
     {
-      "topic_id": "math_grade7_ch11_perimeter_area_basics",
-      "title": {
-        "en": "Perimeter and Area - Fundamentals",
-        "hi": "परिमाप और क्षेत्रफल - बुनियादी बातें",
-        "kn": "ಸುತ್ತಳತೆ ಮತ್ತು ವಿಸ್ತೀರ್ಣ - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of Perimeter and Area",
-        "Solve exercises and apply rules related to Perimeter and Area",
-        "Analyze practical examples of Perimeter and Area in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Perimeter and Area. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम परिमाप और क्षेत्रफल का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಸುತ್ತಳತೆ ಮತ್ತು ವಿಸ್ತೀರ್ಣ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Perimeter and Area in detail. This topic is essential for Grade 7 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम परिमाप और क्षेत्रफल का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಸುತ್ತಳತೆ ಮತ್ತು ವಿಸ್ತೀರ್ಣ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Perimeter and Area.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Perimeter and Area.",
-            "hi": "चरण 1: परिमाप और क्षेत्रफल के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಸುತ್ತಳತೆ ಮತ್ತು ವಿಸ್ತೀರ್ಣ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Perimeter and Area builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "परिमाप और क्षेत्रफल में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಸುತ್ತಳತೆ ಮತ್ತು ವಿಸ್ತೀರ್ಣ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Area of Parallelogram and Triangle",
+      "simple_explanation": "The area of a parallelogram is base × height (not base × slant side). The area of a triangle is ½ × base × height. The 'height' must be PERPENDICULAR to the base.",
+      "detailed_explanation": "PARALLELOGRAM: A parallelogram can be converted to a rectangle by cutting a triangle from one end and placing it on the other. The resulting rectangle has the same base and height as the parallelogram. So: Area of parallelogram = base (b) × height (h), where h is the PERPENDICULAR distance between the parallel sides (not the slant side). TRIANGLE: Any triangle is exactly half a parallelogram (draw the diagonal of a parallelogram — it divides into two equal triangles). So: Area of triangle = ½ × base × height. The height (h) must be the PERPENDICULAR distance from the base to the opposite vertex. For an obtuse triangle, the height may fall outside the triangle (but is still valid). Key: the base and height must be perpendicular to each other — you cannot use the slant side as height.",
+      "real_life_example": "A farmer has a parallelogram-shaped plot with base 20 m and perpendicular height 15 m. Area = 20 × 15 = 300 m². If they build a fence along the boundary, they need the perimeter (using the actual sides, not height). A triangular park has a base of 50 m and a perpendicular height of 30 m. Area = ½ × 50 × 30 = 750 m².",
+      "karnataka_example": "Karnataka's Deccan plateau has many irregularly shaped agricultural plots. Survey departments use the parallelogram and triangle area formulas to calculate plot areas from the base and height measurements. The Revenue Department of Karnataka calculates land tax based on area in square metres or guntha — directly using these formulas.",
+      "common_mistakes": "Most common mistake: using the SLANT SIDE instead of the PERPENDICULAR HEIGHT in the area formula. In a parallelogram with base 10 cm, slant side 8 cm, and height 6 cm, the area = 10 × 6 = 60 cm² (NOT 10 × 8 = 80 cm²). Always identify the perpendicular height — it is drawn at 90° to the base.",
+      "memory_tip": "PARALLELOGRAM area: imagine pushing a rectangle into a lean — it's still base × height because you're just rearranging the same area. TRIANGLE = HALF PARALLELOGRAM. Draw a diagonal across any parallelogram — two triangles appear. Each is ½ × base × height!"
+    },
+    {
+      "concept_name": "Circumference and Area of a Circle",
+      "simple_explanation": "A circle's circumference (perimeter) = 2πr or πd. Its area = πr². Here π ≈ 22/7 ≈ 3.14, r = radius, d = diameter.",
+      "detailed_explanation": "A circle's measurements use the constant π (pi) ≈ 22/7 ≈ 3.14159... CIRCUMFERENCE: The distance around a circle (its perimeter). C = 2πr (where r = radius) or C = πd (where d = diameter). Derivation concept: if you unroll the circumference of a circle, it stretches to approximately 3.14 times the diameter. AREA: The space enclosed inside a circle. A = πr². Derivation concept: cut a circle into many thin sectors (like pizza slices) and rearrange them — they form an approximate rectangle with length = πr (half circumference) and width = r, so area = πr × r = πr². KEY FACTS: radius = diameter/2; diameter = 2 × radius; π is irrational (never ends, never repeats) — we use 22/7 or 3.14 as approximations. For answers: use π = 22/7 when radius is a multiple of 7; use π = 3.14 otherwise.",
+      "real_life_example": "A bicycle wheel has diameter 70 cm (radius 35 cm). Circumference = 2π × 35 = 2 × (22/7) × 35 = 220 cm = 2.2 m. So for every one rotation of the wheel, the bicycle travels 2.2 m. To travel 1 km = 1000 m, the wheel rotates 1000/2.2 ≈ 454 times.",
+      "karnataka_example": "Karnataka's famous Mysuru Dasara chariot wheels are large circles. A traditional chariot wheel of diameter 1.4 m has circumference = π × 1.4 = 22/7 × 1.4 = 4.4 m. The entire chariot procession route (about 5 km) would cause the wheel to rotate 5000/4.4 ≈ 1136 times. Bengaluru's metro circular tunnel sections use circle area calculations for construction planning.",
+      "common_mistakes": "Three common errors: (1) Confusing radius and diameter — radius = half of diameter. If diameter = 14 cm, radius = 7 cm, not 14 cm. (2) Using diameter instead of radius in area formula: area = π × r² (NOT π × d²). (3) Forgetting to square the radius: area = πr² means π × r × r, not π × r × 2.",
+      "memory_tip": "C = 2πr (circumference = 2 × π × r). Area = πr² (π × r × r). Memory trick: CIRCUMFERENCE has the word 'CIRCLE AROUND' — it goes around. AREA is the INSIDE — it squares up. 'Sir cumference' rides AROUND the circle; the AREA SQUARES up inside it!"
+    },
+    {
+      "concept_name": "Paths, Borders, and Unit Conversions",
+      "simple_explanation": "When a path or border is added around a shape, the outer shape has larger dimensions. The path area = area of outer shape − area of inner shape. Convert: 1 m² = 10,000 cm²; 1 km² = 1,000,000 m².",
+      "detailed_explanation": "PATH PROBLEMS: If a rectangular field is surrounded by a path of uniform width w: outer length = inner length + 2w; outer width = inner width + 2w. Path area = outer area − inner area. For circular paths: outer radius = inner radius + path width. Path area = π(R² − r²) where R = outer radius, r = inner radius. BORDERS: A border of width w inside or outside a shape uses the same approach. UNIT CONVERSIONS: 1 m = 100 cm, so 1 m² = 100 × 100 = 10,000 cm². 1 km = 1000 m, so 1 km² = 1000 × 1000 = 1,000,000 m² = 10⁶ m². 1 hectare = 10,000 m². 1 acre ≈ 4047 m². These conversions are critical for real-world problems where dimensions are given in one unit and answers required in another.",
+      "real_life_example": "A garden 20 m × 15 m is surrounded by a path 2 m wide. Outer dimensions: (20+4) × (15+4) = 24 × 19 = 456 m². Inner area: 20 × 15 = 300 m². Path area = 456 − 300 = 156 m². If tiles cost ₹50 per m², the path tiling cost = 156 × 50 = ₹7,800.",
+      "karnataka_example": "Bengaluru's lal Bagh botanical garden (240 acres) has winding paths that gardeners must maintain. The Nandi Hills viewpoint has a circular viewing platform with a path around it — exactly the circular path problem in this chapter. Karnataka's village tank (kere) bunds (embankments) are calculated using path-around-rectangle formulas for their maintenance budgets.",
+      "common_mistakes": "In path problems: students forget that the path adds to BOTH sides of the shape (not just one). If path width is 2 m, the outer length = inner length + 2+2 = inner + 4 (not inner + 2). Similarly for width. Also, unit conversion: 1 m² ≠ 100 cm² — it equals 10,000 cm² (100×100).",
+      "memory_tip": "PATH ADDS TO BOTH SIDES: width w → outer dimension = inner + 2w (add w on each side). Think of hugging a box — you extend on BOTH sides, not just one. And unit conversion: m to cm = ×100, so m² to cm² = ×100² = ×10,000. SQUARE the conversion factor!"
     }
+  ],
+
+  "key_terms_glossary": [
+    { "term": "Perimeter", "meaning": "The total length of the boundary of a closed figure. For a circle, the perimeter is called the CIRCUMFERENCE. Units: cm, m, km. Formulas: rectangle = 2(l+b); square = 4a; triangle = a+b+c; circle = 2πr." },
+    { "term": "Area", "meaning": "The amount of surface enclosed within a closed figure. Measured in square units (cm², m², km²). Formulas: rectangle = l×b; square = a²; parallelogram = b×h; triangle = ½×b×h; circle = πr²." },
+    { "term": "Height (of a triangle/parallelogram)", "meaning": "The PERPENDICULAR distance from the base to the opposite vertex (triangle) or opposite side (parallelogram). The height is always at 90° to the base — it is NOT the slant side. Also called the altitude." },
+    { "term": "Base", "meaning": "Any side of a triangle or parallelogram that is chosen as the reference for calculating area. The height must be drawn perpendicular to the chosen base. Any side can be the base, but the corresponding height changes accordingly." },
+    { "term": "Parallelogram", "meaning": "A quadrilateral with two pairs of parallel sides. Opposite sides are equal and parallel. Area = base × height (perpendicular height, NOT slant side). Perimeter = 2(a+b) where a and b are adjacent sides." },
+    { "term": "Circumference", "meaning": "The perimeter (boundary length) of a circle. Formula: C = 2πr = πd, where r = radius, d = diameter, π ≈ 22/7 ≈ 3.14. If the radius of a circle is 7 cm, circumference = 2 × 22/7 × 7 = 44 cm." },
+    { "term": "π (Pi)", "meaning": "A mathematical constant representing the ratio of a circle's circumference to its diameter. π = circumference/diameter ≈ 3.14159... It is irrational (non-terminating, non-repeating). We use 22/7 or 3.14 as approximations. Use 22/7 when the radius is a multiple of 7." },
+    { "term": "Radius", "meaning": "The distance from the centre of a circle to any point on its boundary. Radius = diameter/2. Denoted by 'r'. All radii of a circle are equal. The area of a circle = πr²." },
+    { "term": "Diameter", "meaning": "The longest chord of a circle — a straight line through the centre joining two points on the boundary. Diameter = 2 × radius. The circumference = π × diameter = πd." },
+    { "term": "Hectare", "meaning": "A unit of area equal to 10,000 m² (or 100 m × 100 m). Commonly used for measuring land area. 1 km² = 100 hectares. Karnataka's agricultural land is often measured in hectares for government records and crop surveys." }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Area of Parallelogram",
+      "question": "A parallelogram has base = 12 cm, slant side = 8 cm, and height = 6 cm. Find its area and perimeter.",
+      "step_by_step_answer": [
+        "Step 1: Identify values. Base (b) = 12 cm, height (h) = 6 cm (perpendicular), slant side = 8 cm.",
+        "Step 2: Area = b × h = 12 × 6 = 72 cm².",
+        "Step 3: For perimeter, use both pairs of sides. Opposite sides of a parallelogram are equal: sides are 12 cm and 8 cm.",
+        "Step 4: Perimeter = 2 × (12 + 8) = 2 × 20 = 40 cm.",
+        "Answer: Area = 72 cm², Perimeter = 40 cm.",
+        "Note: The slant side (8 cm) is used for PERIMETER, not for AREA. The HEIGHT (6 cm) is used for AREA."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Circumference and Area of Circle",
+      "question": "A circle has radius = 14 cm. Find its circumference and area. (Use π = 22/7)",
+      "step_by_step_answer": [
+        "Step 1: Radius r = 14 cm. Since 14 is a multiple of 7, use π = 22/7.",
+        "Step 2: Circumference = 2πr = 2 × (22/7) × 14 = 2 × 22 × 2 = 88 cm.",
+        "Step 3: Area = πr² = (22/7) × 14 × 14 = (22/7) × 196 = 22 × 28 = 616 cm².",
+        "Answer: Circumference = 88 cm, Area = 616 cm²."
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Path Problem",
+      "question": "A rectangular field is 50 m long and 30 m wide. A path 5 m wide surrounds it from outside. Find the area of the path.",
+      "step_by_step_answer": [
+        "Step 1: Inner dimensions: length = 50 m, width = 30 m. Inner area = 50 × 30 = 1500 m².",
+        "Step 2: Path is 5 m wide on ALL sides. Outer length = 50 + 5 + 5 = 60 m. Outer width = 30 + 5 + 5 = 40 m.",
+        "Step 3: Outer area = 60 × 40 = 2400 m².",
+        "Step 4: Path area = Outer area − Inner area = 2400 − 1500 = 900 m².",
+        "Answer: Area of path = 900 m²."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Area of Parallelogram and Triangle",
+      "questions": [
+        { "type": "Recall", "q": "State the formula for the area of a parallelogram.", "a": "Area of parallelogram = base × height = b × h, where h is the PERPENDICULAR height (not the slant side)." },
+        { "type": "Recall", "q": "A triangle has base 10 cm and height 8 cm. Find its area.", "a": "Area = ½ × base × height = ½ × 10 × 8 = 40 cm²." },
+        { "type": "Understanding", "q": "Why is the area of a triangle half the area of a parallelogram with the same base and height?", "a": "Because a diagonal of a parallelogram divides it into two congruent (equal) triangles. Each triangle has area = half the parallelogram's area. So triangle area = ½ × (parallelogram area) = ½ × base × height." },
+        { "type": "Understanding", "q": "A parallelogram has base 15 cm, slant side 10 cm, and height 7 cm. A student calculates area = 15 × 10 = 150 cm². What mistake did the student make?", "a": "The student used the SLANT SIDE (10 cm) instead of the PERPENDICULAR HEIGHT (7 cm). The correct area = 15 × 7 = 105 cm². In area formulas, 'height' always means perpendicular distance — never the slant side." },
+        { "type": "Application", "q": "A triangular garden has sides 8 m, 6 m, and 10 m. A vertical pole stands at the midpoint of the 10 m side and reaches the opposite vertex at 4.8 m height. Find the garden's area.", "a": "Base = 10 m, Height = 4.8 m (perpendicular from opposite vertex to 10 m base). Area = ½ × 10 × 4.8 = 24 m²." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Parallelogram area = base × height (perpendicular height, NOT slant side). Perimeter = 2(a+b).",
+    "Triangle area = ½ × base × height. A triangle = half a parallelogram with same base and height.",
+    "Circumference of circle = 2πr = πd. Area of circle = πr².",
+    "π ≈ 22/7 (use when r is a multiple of 7) or π ≈ 3.14 (otherwise).",
+    "For path problems: outer dimension = inner dimension + 2 × path width (on both sides).",
+    "Path area = outer area − inner area.",
+    "Unit conversions: 1 m² = 10,000 cm²; 1 km² = 1,000,000 m² = 100 hectares; 1 hectare = 10,000 m².",
+    "The height in area formulas is ALWAYS perpendicular to the base — never the slant side.",
+    "Same area can have different perimeters. Same perimeter can have different areas.",
+    "Karnataka connection: land measurement (guntha, hectare), Dasara chariot wheels (circumference), Bengaluru apartment areas."
+  ],
+
+  "mind_map": {
+    "root": "Perimeter and Area",
+    "branches": [
+      { "branch": "Parallelogram", "sub": ["Area = base × height (⊥)", "Perimeter = 2(a+b)", "Height ≠ slant side"] },
+      { "branch": "Triangle", "sub": ["Area = ½ × base × height", "= half parallelogram", "Height must be ⊥ to base"] },
+      { "branch": "Circle", "sub": ["Circumference = 2πr = πd", "Area = πr²", "π ≈ 22/7 or 3.14", "r = radius, d = diameter"] },
+      { "branch": "Path/Border", "sub": ["Outer dim = inner + 2w", "Path area = outer − inner", "Circular path: π(R²−r²)"] },
+      { "branch": "Unit Conversions", "sub": ["1 m² = 10,000 cm²", "1 km² = 10⁶ m²", "1 hectare = 10,000 m²"] }
+    ]
+  },
+
+  "revision_notes": "Chapter 11 extends perimeter and area to parallelograms, triangles, and circles, and introduces path problems. Parallelogram: Area = base × height (perpendicular, NOT slant side); Perimeter = 2(a+b). Triangle: Area = ½ × base × height (perpendicular to base) — a triangle is half a parallelogram with the same base and height. Circle: Circumference = 2πr = πd; Area = πr², where π ≈ 22/7 or 3.14. Use 22/7 when radius is a multiple of 7. Path problems: if path width = w, outer dimension = inner + 2w (path on both sides); path area = outer area − inner area. For circular paths, path area = π(R² − r²) where R = outer radius, r = inner radius. Unit conversions: 1 m² = 10,000 cm²; 1 km² = 1,000,000 m²; 1 hectare = 10,000 m². Key mistakes to avoid: using slant side instead of perpendicular height; confusing radius and diameter; forgetting to add path width on BOTH sides; wrong unit conversion (1 m² = 10,000 cm² NOT 100 cm²).",
+
+  "must_remember_facts": [
+    "Parallelogram area = base × PERPENDICULAR height (not slant side).",
+    "Triangle area = ½ × base × perpendicular height.",
+    "Triangle = ½ × parallelogram with same base and height.",
+    "Circumference = 2πr = πd.",
+    "Circle area = πr² (NOT πd²).",
+    "π = 22/7 (r is multiple of 7) or 3.14 (otherwise).",
+    "Radius = diameter ÷ 2. Diameter = 2 × radius.",
+    "Path width w → outer dim = inner dim + 2w (BOTH sides).",
+    "Path area = outer area − inner area.",
+    "1 m² = 10,000 cm². 1 hectare = 10,000 m². 1 km² = 100 hectares."
   ]
 }

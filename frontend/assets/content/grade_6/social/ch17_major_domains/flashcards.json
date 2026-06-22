@@ -1,96 +1,172 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch17_major_domains_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science — Geography",
+  "textbook": "The Earth: Our Habitat — Textbook for Class VI",
+  "chapter_number": 17,
+  "chapter_title": "Major Domains of the Earth",
+  "total_cards": 20,
   "cards": [
     {
       "id": "fc01",
-      "front": {
-        "en": "What is the core idea of Major Domains of the Earth? (FC1)",
-        "hi": "What is the core idea of Major Domains of the Earth? (FC1)",
-        "kn": "What is the core idea of Major Domains of the Earth? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What are the four major domains of the Earth?",
+      "back": "The four major domains of the Earth are: (1) Lithosphere — the solid land part, (2) Hydrosphere — the water part, (3) Atmosphere — the air/gaseous envelope, and (4) Biosphere — the narrow zone where all living organisms exist. Together, these four domains interact to support life on Earth.",
+      "memory_hook": "LHAB: Land, Hydrosphere, Air, Bio. Or remember 'Lily Had A Butterfly' — Lithosphere, Hydrosphere, Atmosphere, Biosphere."
     },
     {
       "id": "fc02",
-      "front": {
-        "en": "Why is Major Domains of the Earth important? (FC2)",
-        "hi": "Why is Major Domains of the Earth important? (FC2)",
-        "kn": "Why is Major Domains of the Earth important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is the Lithosphere?",
+      "back": "The Lithosphere is the solid outer layer of the Earth that includes the crust and the upper part of the mantle. It covers both the continents (land masses) and the ocean floors. The word 'litho' comes from the Greek word for stone/rock. The lithosphere provides the land surface on which we live, build, and grow food.",
+      "memory_hook": "LITHO = stone in Greek. Lithosphere = stone/rock sphere. Think of lithograph (rock print). Solid rock = Lithosphere."
     },
     {
       "id": "fc03",
-      "front": {
-        "en": "What is the core idea of Major Domains of the Earth? (FC3)",
-        "hi": "What is the core idea of Major Domains of the Earth? (FC3)",
-        "kn": "What is the core idea of Major Domains of the Earth? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Name the seven continents of the world from largest to smallest.",
+      "back": "Asia (largest), Africa, North America, South America, Antarctica, Europe, Australia/Oceania (smallest). A helpful way to remember: Asia is about 44 million sq km — larger than all other continents combined. Antarctica is unique as it has no permanent human population.",
+      "memory_hook": "Mnemonic: 'A Friendly Neighbour Says All Europeans Are Awesome' — Asia, Africa, North America, South America, Antarctica, Europe, Australia."
     },
     {
       "id": "fc04",
-      "front": {
-        "en": "Why is Major Domains of the Earth important? (FC4)",
-        "hi": "Why is Major Domains of the Earth important? (FC4)",
-        "kn": "Why is Major Domains of the Earth important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Name the five major oceans of the world from largest to smallest.",
+      "back": "Pacific Ocean (largest — covers more area than all land combined), Atlantic Ocean, Indian Ocean, Southern Ocean (Antarctic Ocean), Arctic Ocean (smallest). The Pacific Ocean alone covers about one-third of Earth's total surface area.",
+      "memory_hook": "Mnemonic: 'Powerful Athletes Incredibly Surpass All' — Pacific, Atlantic, Indian, Southern, Arctic."
     },
     {
       "id": "fc05",
-      "front": {
-        "en": "What is the core idea of Major Domains of the Earth? (FC5)",
-        "hi": "What is the core idea of Major Domains of the Earth? (FC5)",
-        "kn": "What is the core idea of Major Domains of the Earth? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is the Hydrosphere?",
+      "back": "The Hydrosphere includes all the water found on Earth — in oceans, seas, rivers, lakes, glaciers, groundwater, and water vapour in the atmosphere. About 71% of Earth's surface is covered by water. Of this, about 97% is saltwater (in oceans) and only 3% is freshwater (in rivers, lakes, glaciers, and groundwater).",
+      "memory_hook": "HYDRO = water in Greek (like hydrogen = water-forming element). Hydrosphere = water sphere. Hydration needs the Hydrosphere."
+    },
+    {
+      "id": "fc06",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is the Atmosphere?",
+      "back": "The Atmosphere is the thin blanket of air (gases) that surrounds the Earth. It is held in place by Earth's gravity. It contains mainly nitrogen (78%) and oxygen (21%), with small amounts of carbon dioxide, argon, and other gases. The atmosphere protects life by blocking harmful UV rays, regulating temperature, and providing the air we breathe.",
+      "memory_hook": "ATMO = vapour/air in Greek. Atmosphere = air sphere. It's Earth's invisible protective blanket — without it, no life, no weather, no sound."
+    },
+    {
+      "id": "fc07",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is the Biosphere?",
+      "back": "The Biosphere is the narrow zone of Earth where life exists — including parts of the lithosphere (soil), hydrosphere (water bodies), and lower atmosphere (air). It extends from about 10 km above sea level to about 10 km below the ocean surface. All living organisms — plants, animals, microbes, fungi — are part of the biosphere.",
+      "memory_hook": "BIO = life in Greek. Biosphere = life sphere. The biosphere is where lithosphere, hydrosphere, and atmosphere all OVERLAP — that overlap zone is where life happens."
+    },
+    {
+      "id": "fc08",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Which is the largest continent and which is the smallest?",
+      "back": "Largest continent: Asia (about 44.6 million sq km — covers about 30% of Earth's total land area). Smallest continent: Australia (about 7.7 million sq km). Australia is the only continent that is also a single country. Asia is home to about 60% of the world's population, including India and China.",
+      "memory_hook": "Asia = A-class giant. Australia = Alone and small. Both start with 'A' — the biggest and the smallest continents."
+    },
+    {
+      "id": "fc09",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Which is the largest ocean and how big is it?",
+      "back": "The Pacific Ocean is the largest ocean, covering about 165 million sq km — more than the combined area of all the continents of the world. It extends from the Arctic in the north to the Antarctic in the south and from Asia and Australia in the west to the Americas in the east. It is also the deepest ocean (Mariana Trench, 11,034 m).",
+      "memory_hook": "Pacific = Peaceful (from Spanish 'Pacifico'). The most peaceful but the most MASSIVE ocean. Mariana Trench = deepest point on Earth, and it's in the Pacific."
+    },
+    {
+      "id": "fc10",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What percentage of Earth's surface is water and what percentage is land?",
+      "back": "About 71% of Earth's surface is covered by water (hydrosphere) and only 29% is land (lithosphere). This is why Earth is called the 'Blue Planet' — from space, it appears predominantly blue due to the vast water coverage. Of the 29% land, about two-thirds are habitable by humans.",
+      "memory_hook": "Earth = 71% water, 29% land. Think: roughly 3/4 water, 1/4 land. The planet should really be called 'Ocean', not Earth!"
+    },
+    {
+      "id": "fc11",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "Why is Earth called the 'Blue Planet'?",
+      "back": "Earth is called the 'Blue Planet' because approximately 71% of its surface is covered by water (oceans, seas, lakes, and rivers). When viewed from space, this vast water area gives Earth a predominantly blue appearance. No other planet in our solar system has such extensive liquid water on its surface, making Earth unique and life-supporting.",
+      "memory_hook": "Blue Planet = Blue water. 71% water = mostly blue from space. Mars is the Red Planet, Saturn is the Ringed Planet, Earth is the Blue Planet — all named for their most visible feature."
+    },
+    {
+      "id": "fc12",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Which continent is known as the 'Dark Continent' and why?",
+      "back": "Africa is called the 'Dark Continent'. This term was used historically by European explorers because much of Africa's interior was unknown and unexplored by Europeans until the 19th century. Africa is actually the second largest continent and home to some of the world's oldest human civilisations, including ancient Egypt. Today, 'Dark Continent' is considered an outdated and inappropriate term.",
+      "memory_hook": "Africa = ancient, vast, and once 'unknown' to European explorers. Africa is the continent closest to all other continents — it nearly touches Europe (at Gibraltar) and Asia (at Suez)."
+    },
+    {
+      "id": "fc13",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What gases make up the Earth's atmosphere and in what proportion?",
+      "back": "The Earth's atmosphere is composed mainly of: Nitrogen — 78% (most abundant), Oxygen — 21% (essential for breathing and combustion), Argon — 0.93%, Carbon dioxide — 0.04%, and trace amounts of other gases including ozone, helium, and hydrogen. Water vapour is also present in variable amounts. Oxygen, though only 21%, is the most critical gas for animal life.",
+      "memory_hook": "NOAr: Nitrogen 78, Oxygen 21, Argon ~1. Or: '78-21-1' — like a highway (78), a door number (21), and one extra (1). Nitrogen dominates but Oxygen is the star performer."
+    },
+    {
+      "id": "fc14",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why is the Biosphere important for life on Earth?",
+      "back": "The Biosphere is the only known zone in the universe where life exists. It is important because: (1) it provides food, oxygen, and resources for all living organisms, (2) it regulates the Earth's climate through the carbon and water cycles, (3) it maintains soil fertility through decomposition, and (4) it supports biodiversity — millions of species of plants, animals, fungi, and microbes. Without the biosphere, Earth would be as barren as Mars.",
+      "memory_hook": "Biosphere = life support system. Like the life support capsule in a spaceship — remove it, and everything dies. It's where land + water + air all cooperate to allow life."
+    },
+    {
+      "id": "fc15",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "India is located in which continent and is bordered by which ocean?",
+      "back": "India is located in Asia — specifically in South Asia. India is bordered to the south by the Indian Ocean, which splits into the Bay of Bengal (east) and the Arabian Sea (west). The Indian Ocean is the third largest ocean and is named after India, reflecting India's historical importance as a centre of trade. India has a coastline of about 7,516 km.",
+      "memory_hook": "India → Asia (continent), Indian Ocean (ocean). The ocean is literally named after us — India gave its name to the Indian Ocean, reflecting our country's ancient maritime trade importance."
+    },
+    {
+      "id": "fc16",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Which continent has no permanent human population? Why?",
+      "back": "Antarctica is the only continent with no permanent human population. It is the coldest, driest, and windiest continent, with temperatures as low as −89°C. It is almost entirely covered by an ice sheet. However, temporary research stations operated by various countries (including India — Maitri and Bharati stations) are present there. It is protected by the Antarctic Treaty (1959).",
+      "memory_hook": "Antarctica = Anti + Arctic (opposite of Arctic). It is at the South Pole — the most isolated and hostile place on Earth. Only scientists, not settlers, live there temporarily."
+    },
+    {
+      "id": "fc17",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "How do the four domains of the Earth interact with each other?",
+      "back": "The four domains interact continuously: the Lithosphere provides minerals and soil, the Hydrosphere provides water, the Atmosphere provides gases and regulates temperature, and together they create the Biosphere where life thrives. Example: Rain (Atmosphere + Hydrosphere) falls on soil (Lithosphere), plants absorb water and CO₂ to grow (Biosphere), and they release oxygen into the Atmosphere. These cycles — water, carbon, nitrogen — connect all four domains.",
+      "memory_hook": "Think of the domains as four friends who CANNOT live without each other. Land + Water + Air = Life. Remove any one, and life collapses."
+    },
+    {
+      "id": "fc18",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a continent? How is it different from an island?",
+      "back": "A continent is a large, continuous landmass on Earth's surface. There are seven continents. An island is a much smaller landmass completely surrounded by water. The key difference is size — continents are massive landmasses while islands are small. Australia is sometimes called both a continent and an island-continent. India has island territories like the Andaman & Nicobar Islands and Lakshadweep.",
+      "memory_hook": "Continent = HUGE landmass (like Asia — bigger than some planets' surfaces). Island = small land surrounded by water (like Sri Lanka near India). Size is the key difference."
+    },
+    {
+      "id": "fc19",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "India has two research stations in Antarctica. What are their names?",
+      "back": "India operates two active research stations in Antarctica: (1) Maitri — established in 1989, located in the Schirmacher Hills; and (2) Bharati — established in 2012, located on the Larsemann Hills. India's first station was Dakshin Gangotri (1983), which is now buried under ice and used only as a supply base. India conducts scientific research on climate, ice cores, and marine biology from these stations.",
+      "memory_hook": "Maitri (friendship) + Bharati (goddess of knowledge) = India's Antarctic friendship with science. Earlier: Dakshin Gangotri = India's first footprint at the South Pole."
+    },
+    {
+      "id": "fc20",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is meant by 'freshwater' and why is it important? What percentage of Earth's water is fresh?",
+      "back": "Freshwater is water with very low salt content, suitable for drinking, agriculture, and most human uses. Only about 3% of Earth's total water is freshwater. Of this 3%, about 70% is locked in polar ice caps and glaciers, making it inaccessible. Only about 1% of all Earth's water is readily available as liquid freshwater (rivers, lakes, groundwater). This scarcity makes freshwater conservation critical.",
+      "memory_hook": "97% saltwater (oceans) + 3% freshwater. Of the 3%, most is frozen. So usable water = tiny fraction. Think: if all Earth's water were a bucket, usable freshwater would be just a teaspoon!"
     }
   ]
 }

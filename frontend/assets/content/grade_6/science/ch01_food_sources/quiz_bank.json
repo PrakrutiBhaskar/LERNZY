@@ -1,366 +1,207 @@
 {
-  "version": "1.0",
-  "topic_id": "science_grade6_ch01_food_sources_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 1,
+  "chapter_title": "Food: Where Does It Come From?",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Food: Where Does It Come From? (Q1)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Food: Where Does It Come From? (Q1)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Food: Where Does It Come From? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Which of the following is NOT a source of food?",
+      "options": ["A) Plants", "B) Animals", "C) Sunlight", "D) Both plants and animals"],
+      "correct_answer": "C) Sunlight",
+      "explanation": "All food comes from plants or animals. Sunlight is an energy source for plants (used in photosynthesis) but is not directly eaten as food by humans or animals. Plants and animals are the two and only two direct sources of all food."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Food: Where Does It Come From experiment? (Q2)",
-        "hi": "What is the standard tool used to measure changes in a Food: Where Does It Come From experiment? (Q2)",
-        "kn": "What is the standard tool used to measure changes in a Food: Where Does It Come From experiment? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "Which part of the plant does rice come from?",
+      "options": ["A) Root", "B) Stem", "C) Leaf", "D) Seed"],
+      "correct_answer": "D) Seed",
+      "explanation": "Rice is the seed of the paddy plant. Seeds are the most widely consumed plant part globally — other seed foods include wheat, maize, lentils (dal), and groundnut. Seeds contain stored nutrients (food for the growing plant) which makes them highly nutritious for us too."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Food: Where Does It Come From? (Q3)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Food: Where Does It Come From? (Q3)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Food: Where Does It Come From? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "A potato is an example of which plant part?",
+      "options": ["A) Root", "B) Stem", "C) Leaf", "D) Fruit"],
+      "correct_answer": "B) Stem",
+      "explanation": "Potato is a modified underground stem called a tuber — NOT a root. Unlike roots, tubers have 'eyes' (buds) from which new plants grow. True roots like carrot and radish have no buds. This is one of the most commonly tested facts in this chapter."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Food: Where Does It Come From experiment? (Q4)",
-        "hi": "What is the standard tool used to measure changes in a Food: Where Does It Come From experiment? (Q4)",
-        "kn": "What is the standard tool used to measure changes in a Food: Where Does It Come From experiment? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "Which of the following is an example of a food we get from a flower?",
+      "options": ["A) Spinach", "B) Cauliflower", "C) Carrot", "D) Potato"],
+      "correct_answer": "B) Cauliflower",
+      "explanation": "Cauliflower (and broccoli) are flowers we eat — specifically the unopened flower head of the plant. Spinach is a leaf, carrot is a root, and potato is a stem (tuber). Banana flower (banana blossom) is another flower used as food, especially in South Indian cooking."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Food: Where Does It Come From? (Q5)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Food: Where Does It Come From? (Q5)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Food: Where Does It Come From? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "Honey is produced by bees from:",
+      "options": ["A) Tree sap", "B) Flower nectar", "C) Fruit juice", "D) Rainwater"],
+      "correct_answer": "B) Flower nectar",
+      "explanation": "Honey bees collect nectar — a sweet liquid produced inside flowers — and carry it back to their hive. Inside the hive, bees process the nectar by adding enzymes and evaporating water, converting it into honey. This makes honey an animal product (made by bees) from a plant source (nectar)."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Food: Where Does It Come From experiment? (Q6)",
-        "hi": "What is the standard tool used to measure changes in a Food: Where Does It Come From experiment? (Q6)",
-        "kn": "What is the standard tool used to measure changes in a Food: Where Does It Come From experiment? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "Which of the following animals is a herbivore?",
+      "options": ["A) Lion", "B) Dog", "C) Deer", "D) Crow"],
+      "correct_answer": "C) Deer",
+      "explanation": "A deer is a herbivore — it eats only plants such as grass, leaves, and shrubs. A lion is a carnivore (eats only meat). A dog and a crow are omnivores (eat both plants and animals). The key test is: does the animal eat only plants? If yes, it is a herbivore."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Food: Where Does It Come From? (Q7)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Food: Where Does It Come From? (Q7)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Food: Where Does It Come From? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "Which of the following is an omnivore?",
+      "options": ["A) Cow", "B) Tiger", "C) Snake", "D) Human"],
+      "correct_answer": "D) Human",
+      "explanation": "Humans are omnivores — we can eat and digest both plant-based foods (rice, vegetables, fruits) and animal-based foods (milk, eggs, meat). Cow is a herbivore, tiger and snake are carnivores. Humans are biologically omnivores regardless of personal dietary choices."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Food: Where Does It Come From experiment? (Q8)",
-        "hi": "What is the standard tool used to measure changes in a Food: Where Does It Come From experiment? (Q8)",
-        "kn": "What is the standard tool used to measure changes in a Food: Where Does It Come From experiment? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "Which food is obtained from an animal source?",
+      "options": ["A) Rice", "B) Dal", "C) Groundnut", "D) Honey"],
+      "correct_answer": "D) Honey",
+      "explanation": "Honey is an animal product — it is made by honey bees. Rice is a seed (plant), dal is a seed (plant), and groundnut is a seed (plant). All other options are plant sources. Honey bees are insects (animals), so honey is classified as an animal-sourced food."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Food: Where Does It Come From? (Q9)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Food: Where Does It Come From? (Q9)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Food: Where Does It Come From? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "Scientifically, a tomato is classified as a:",
+      "options": ["A) Root", "B) Vegetable", "C) Fruit", "D) Stem"],
+      "correct_answer": "C) Fruit",
+      "explanation": "A fruit is defined as the part of a plant that develops from a flower and contains seeds. Tomatoes grow from the tomato plant's flower and contain seeds — making them fruits scientifically. In common language, tomato is called a vegetable, but the correct scientific classification is fruit."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Food: Where Does It Come From experiment? (Q10)",
-        "hi": "What is the standard tool used to measure changes in a Food: Where Does It Come From experiment? (Q10)",
-        "kn": "What is the standard tool used to measure changes in a Food: Where Does It Come From experiment? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "Karnataka is India's largest producer of which food crop?",
+      "options": ["A) Rice", "B) Wheat", "C) Ragi (finger millet)", "D) Sugarcane"],
+      "correct_answer": "C) Ragi (finger millet)",
+      "explanation": "Karnataka is India's largest producer of ragi (finger millet), a highly nutritious cereal seed crop. Ragi is grown in districts like Tumakuru, Kolar, and Ramanagara, and is used to make ragi mudde, ragi roti, and ragi malt. It is rich in calcium and iron."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "Which of the following is the correct food chain?",
+      "options": [
+        "A) Lion → Deer → Grass",
+        "B) Grass → Lion → Deer",
+        "C) Grass → Deer → Lion",
+        "D) Deer → Grass → Lion"
+      ],
+      "correct_answer": "C) Grass → Deer → Lion",
+      "explanation": "A food chain shows the flow of energy from producer to consumer. Grass (plant/producer) is eaten by deer (herbivore/primary consumer), which is then eaten by a lion (carnivore/secondary consumer). Energy flows from left to right — always starting with a plant (producer) and ending with a top predator."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "Why are plants called 'producers' in a food chain?",
+      "options": [
+        "A) Because they produce seeds that grow into new plants",
+        "B) Because they can make their own food using sunlight through photosynthesis",
+        "C) Because they produce oxygen for animals to breathe",
+        "D) Because they produce more biomass than animals"
+      ],
+      "correct_answer": "B) Because they can make their own food using sunlight through photosynthesis",
+      "explanation": "Plants are called producers because they produce (make) their own food through photosynthesis — using sunlight, water, and CO₂ to make glucose. Animals cannot make their own food and must eat plants or other animals. This is why plants are the foundation of all food chains."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "A student lists these as roots: carrot, potato, radish, beetroot. Which item in this list is INCORRECTLY classified?",
+      "options": ["A) Carrot", "B) Potato", "C) Radish", "D) Beetroot"],
+      "correct_answer": "B) Potato",
+      "explanation": "Potato is a stem (tuber), not a root. Carrot, radish, and beetroot are all true roots — they are modified taproots that store food. Potato grows underground like a root but is actually a swollen stem with buds (eyes) from which new plants sprout. True roots have no buds."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "Which of the following meals is COMPLETELY plant-based (no animal products)?",
+      "options": [
+        "A) Rice, dal, and buttermilk",
+        "B) Idli and egg curry",
+        "C) Ragi mudde, sambar, and green salad",
+        "D) Chapati, vegetable sabzi, and paneer"
+      ],
+      "correct_answer": "C) Ragi mudde, sambar, and green salad",
+      "explanation": "Ragi mudde (ragi seed), sambar (toor dal, vegetables — all plant sources), and green salad (vegetables — plant sources) are all plant-based. Option A has buttermilk (from milk = animal). Option B has eggs (animal). Option D has paneer (from milk = animal). Only option C contains no animal products."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "Sugarcane is eaten for its sweet juice. Which plant part does it represent?",
+      "options": ["A) Root", "B) Stem", "C) Leaf", "D) Fruit"],
+      "correct_answer": "B) Stem",
+      "explanation": "Sugarcane is the stem of the sugarcane plant. We eat/juice the stem for its sweet sap. This is an above-ground stem (unlike potato, which is an underground stem). Other stem foods include ginger and turmeric (underground stems called rhizomes) and onion (modified underground stem)."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "What does the term 'edible' mean in science?",
+      "options": [
+        "A) Something that is cooked before eating",
+        "B) Something that is safe and fit to be eaten",
+        "C) Something that comes from a plant source",
+        "D) Something that can be grown in a garden"
+      ],
+      "correct_answer": "B) Something that is safe and fit to be eaten",
+      "explanation": "Edible means safe and fit for consumption (eating). Not all parts of a plant are edible — for example, mango fruit is edible but mango leaves are not. Similarly, tomato fruit is edible but its leaves contain toxic compounds. Knowing what is edible vs non-edible is an important safety concept."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "The Karnataka Cooperative Milk Producers' Federation markets its products under which brand name?",
+      "options": ["A) Amul", "B) Mother Dairy", "C) Nandini", "D) Milma"],
+      "correct_answer": "C) Nandini",
+      "explanation": "The Karnataka Cooperative Milk Producers' Federation (KMF) markets its dairy products under the brand name 'Nandini'. It is one of India's largest dairy cooperatives, procuring milk from over 25 lakh farmer members across Karnataka. Amul is from Gujarat, Mother Dairy is from Delhi, and Milma is from Kerala."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "Which of the following correctly classifies the diet type of the given animal? Eagle — eats fish and rabbits.",
+      "options": [
+        "A) Herbivore — because eagles live near plants",
+        "B) Carnivore — because eagles eat only other animals",
+        "C) Omnivore — because eagles eat fish (water) and rabbits (land)",
+        "D) Producer — because eagles are at the top of the food chain"
+      ],
+      "correct_answer": "B) Carnivore — because eagles eat only other animals",
+      "explanation": "An eagle that eats fish and rabbits eats only animals — making it a carnivore. The fact that it eats animals from different habitats (water and land) does not make it an omnivore. Omnivore requires eating both plants AND animals. Eagles eat only meat, so they are carnivores. Producers are plants, not animals."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "A student argues that honey is a plant product because it comes from nectar, which comes from flowers. Is this correct? Why or why not?",
+      "options": [
+        "A) Correct — honey's raw material (nectar) comes from plants, so honey is a plant product",
+        "B) Incorrect — honey is an animal product because it is made by bees (an animal) that process nectar into honey",
+        "C) Correct — honey is made inside a flower, which is a plant part",
+        "D) Incorrect — honey is neither a plant nor animal product; it is a natural mineral"
+      ],
+      "correct_answer": "B) Incorrect — honey is an animal product because it is made by bees (an animal) that process nectar into honey",
+      "explanation": "Honey is classified as an animal product because it is made BY an animal (the honey bee). The raw material (nectar) comes from plants, but the honey bee transforms nectar into honey through enzymatic processes inside the hive. Classification follows who MAKES the product, not what the raw material is. Bee = animal → honey = animal product."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "If all plants on Earth were to disappear, which group of animals would be affected FIRST and most directly?",
+      "options": [
+        "A) Carnivores — because they would lose their habitat",
+        "B) Omnivores — because they eat both plants and animals",
+        "C) Herbivores — because they depend directly on plants for food",
+        "D) All animals would be equally and simultaneously affected"
+      ],
+      "correct_answer": "C) Herbivores — because they depend directly on plants for food",
+      "explanation": "Herbivores eat only plants, so they would be the first and most directly affected if all plants disappeared — they would have nothing to eat immediately. Carnivores eat herbivores, so they would be affected next (after herbivores decline). Omnivores would be affected as plant options disappear but could survive longer on animal food. However, ultimately ALL life would collapse since plants are the base of every food chain."
     }
   ]
 }

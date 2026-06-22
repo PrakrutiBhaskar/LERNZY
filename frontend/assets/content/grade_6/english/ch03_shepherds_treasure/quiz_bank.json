@@ -1,366 +1,62 @@
 {
-  "version": "1.0",
-  "topic_id": "english_grade6_ch03_shepherds_treasure_basics",
-  "questions": [
-    {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the primary objective of studying The Shepherd's Treasure? (Q1)",
-        "hi": "What is the primary objective of studying The Shepherd's Treasure? (Q1)",
-        "kn": "What is the primary objective of studying The Shepherd's Treasure? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of The Shepherd's Treasure in a text. (Q2)",
-        "hi": "Identify the grammatical or descriptive role of The Shepherd's Treasure in a text. (Q2)",
-        "kn": "Identify the grammatical or descriptive role of The Shepherd's Treasure in a text. (Q2)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the primary objective of studying The Shepherd's Treasure? (Q3)",
-        "hi": "What is the primary objective of studying The Shepherd's Treasure? (Q3)",
-        "kn": "What is the primary objective of studying The Shepherd's Treasure? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of The Shepherd's Treasure in a text. (Q4)",
-        "hi": "Identify the grammatical or descriptive role of The Shepherd's Treasure in a text. (Q4)",
-        "kn": "Identify the grammatical or descriptive role of The Shepherd's Treasure in a text. (Q4)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the primary objective of studying The Shepherd's Treasure? (Q5)",
-        "hi": "What is the primary objective of studying The Shepherd's Treasure? (Q5)",
-        "kn": "What is the primary objective of studying The Shepherd's Treasure? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of The Shepherd's Treasure in a text. (Q6)",
-        "hi": "Identify the grammatical or descriptive role of The Shepherd's Treasure in a text. (Q6)",
-        "kn": "Identify the grammatical or descriptive role of The Shepherd's Treasure in a text. (Q6)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the primary objective of studying The Shepherd's Treasure? (Q7)",
-        "hi": "What is the primary objective of studying The Shepherd's Treasure? (Q7)",
-        "kn": "What is the primary objective of studying The Shepherd's Treasure? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of The Shepherd's Treasure in a text. (Q8)",
-        "hi": "Identify the grammatical or descriptive role of The Shepherd's Treasure in a text. (Q8)",
-        "kn": "Identify the grammatical or descriptive role of The Shepherd's Treasure in a text. (Q8)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the primary objective of studying The Shepherd's Treasure? (Q9)",
-        "hi": "What is the primary objective of studying The Shepherd's Treasure? (Q9)",
-        "kn": "What is the primary objective of studying The Shepherd's Treasure? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of The Shepherd's Treasure in a text. (Q10)",
-        "hi": "Identify the grammatical or descriptive role of The Shepherd's Treasure in a text. (Q10)",
-        "kn": "Identify the grammatical or descriptive role of The Shepherd's Treasure in a text. (Q10)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
-    }
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "English",
+  "textbook": "A Pact with the Sun",
+  "chapter_number": 3,
+  "chapter_title": "The Shepherd's Treasure",
+
+  "level_1_mcqs": [
+    { "id": "mcq01", "difficulty": "Easy", "question": "What was the shepherd known for before the king met him?", "options": ["His wealth", "His wisdom and kindness", "His strength", "His large flock of sheep"], "correct_answer": "His wisdom and kindness", "explanation": "The shepherd was famous throughout the land for giving wise advice and helping people. This reputation reached the king." },
+    { "id": "mcq02", "difficulty": "Easy", "question": "What did the king do after meeting the shepherd?", "options": ["Gave him a bag of gold", "Made him a soldier", "Appointed him governor of a small district", "Sent him back to his village"], "correct_answer": "Appointed him governor of a small district", "explanation": "Impressed by the shepherd's wisdom, the king appointed him governor of a small district. He was later promoted to govern a larger district." },
+    { "id": "mcq03", "difficulty": "Easy", "question": "What did the shepherd always keep with him?", "options": ["A bag of gold", "A sword", "An iron chest", "A shepherd's staff"], "correct_answer": "An iron chest", "explanation": "The shepherd always carried an iron chest with him wherever he went. It was a mystery to others." },
+    { "id": "mcq04", "difficulty": "Easy", "question": "What did the jealous governors accuse the shepherd of?", "options": ["Being lazy", "Hoarding stolen treasure in the iron chest", "Being rude to the king", "Spending too much money"], "correct_answer": "Hoarding stolen treasure in the iron chest", "explanation": "The jealous governors told the king the chest might contain stolen treasure or gold, hoping this would get the shepherd dismissed." },
+    { "id": "mcq05", "difficulty": "Easy", "question": "What was found inside the iron chest?", "options": ["Gold coins", "Jewels", "An old shepherd's cloak", "Secret letters"], "correct_answer": "An old shepherd's cloak", "explanation": "When the chest was opened before the king, it contained only the shepherd's old worn cloak — the clothes he wore when he was a poor shepherd." },
+    { "id": "mcq06", "difficulty": "Easy", "question": "Why did the shepherd keep the old cloak?", "options": ["Because it was very expensive", "To remind himself to stay humble and remember his origins", "To protect himself from cold", "Because the king gave it to him"], "correct_answer": "To remind himself to stay humble and remember his origins", "explanation": "The cloak was the shepherd's personal reminder that he was once a poor shepherd. It kept him grounded and prevented arrogance." },
+    { "id": "mcq07", "difficulty": "Easy", "question": "What is the moral of 'The Shepherd's Treasure'?", "options": ["Wealth is the most important thing", "Never trust governors", "Humility and honesty are a person's greatest treasures", "Only shepherds can be good governors"], "correct_answer": "Humility and honesty are a person's greatest treasures", "explanation": "The shepherd's old cloak — his reminder to stay humble and honest — was his real treasure. The story teaches that inner virtues are more valuable than gold." },
+    { "id": "mcq08", "difficulty": "Easy", "question": "How did the shepherd react when the king asked him to open the chest?", "options": ["He refused", "He escaped", "He opened it without hesitation", "He became angry"], "correct_answer": "He opened it without hesitation", "explanation": "The shepherd opened the chest immediately and confidently because he had nothing to hide. His honesty and transparency were complete." },
+    { "id": "mcq09", "difficulty": "Easy", "question": "What quality did the jealous governors lack?", "options": ["Intelligence", "Humility and honesty", "Wealth", "Physical strength"], "correct_answer": "Humility and honesty", "explanation": "The jealous governors tried to destroy an innocent man through false accusations. They lacked the humility and honesty that the shepherd had in abundance." },
+    { "id": "mcq10", "difficulty": "Easy", "question": "What does the word 'humility' mean?", "options": ["Being very rich", "Being very proud", "Not being arrogant; staying modest and remembering one's roots", "Being very strong"], "correct_answer": "Not being arrogant; staying modest and remembering one's roots", "explanation": "Humility is the quality of remaining modest and grounded, not letting success or power make you arrogant or forgetful of where you came from." }
+  ],
+
+  "level_2_short_answer": [
+    { "id": "sa01", "difficulty": "Moderate", "question": "Why were the other governors jealous of the shepherd? What did they do about it?", "model_answer": "The other governors were jealous because the shepherd rose from a simple, poor background and quickly became a highly trusted and respected governor. The king favored him over them. To get the shepherd into trouble, they went to the king and told him that the shepherd always kept a secret iron chest with him, suggesting it might contain stolen treasure. They hoped this accusation would get the shepherd dismissed or punished." },
+    { "id": "sa02", "difficulty": "Moderate", "question": "What was inside the iron chest and why was it the shepherd's 'real treasure'?", "model_answer": "Inside the iron chest was only an old shepherd's cloak — the simple garment the shepherd wore when he was a poor shepherd. He called it his 'real treasure' because it was his reminder to stay humble. Whenever he felt too powerful or proud, he would put on the cloak to remember that he was once a simple, poor shepherd. In this way, the cloak protected him from arrogance and kept him honest and grounded. For the shepherd, humility was more valuable than gold." },
+    { "id": "sa03", "difficulty": "Moderate", "question": "How did the shepherd prove his honesty when the king asked him to open the chest?", "model_answer": "The shepherd opened the chest immediately and without hesitation in front of the entire court. There was no stolen gold, no secret papers — only an old cloak. He then explained to the king that the cloak was his personal reminder to stay humble. His willingness to open the chest openly, and the simple, honest content inside it, proved his complete integrity. He had nothing to hide because he had done nothing wrong." },
+    { "id": "sa04", "difficulty": "Moderate", "question": "Write the meanings of: shepherd, governor, humility, integrity, jealousy.", "model_answer": "Shepherd — a person who looks after sheep; in the story, the main character who becomes a governor. Governor — an official appointed by the king to rule and administer a district or region. Humility — the quality of being modest and not arrogant, even when successful; remembering one's roots. Integrity — the quality of being honest and doing the right thing, even when no one is watching. Jealousy — the feeling of envy toward someone who has more success, often leading to harmful actions against them." },
+    { "id": "sa05", "difficulty": "Moderate", "question": "What lesson from this story can a student leader or class monitor apply in their own life?", "model_answer": "A student who becomes class monitor or school leader can apply this lesson by staying humble and treating all classmates equally, just as they did before getting the position. They should not become proud or misuse their small authority. They can create their own 'iron chest' — perhaps a photo from their first day of school or a note from a teacher — to remind themselves that they were just a regular student, and that their character and helpfulness matter more than their title. Like the shepherd, they should lead with kindness and honesty, not with pride." }
+  ],
+
+  "level_3_application": [
+    { "id": "app01", "difficulty": "Advanced", "question": "Compare the morals of Chapters 1, 2, and 3. What overall lesson do the first three chapters of 'A Pact with the Sun' teach?", "detailed_solution": "Chapter 1 ('A Tale of Two Birds') teaches: your environment and company shape your character. Chapter 2 ('The Friendly Mongoose') teaches: never act in haste; think before you act. Chapter 3 ('The Shepherd's Treasure') teaches: humility and honesty are a person's greatest treasures. Together, these three chapters offer a complete life guide for a young person: (1) Choose your environment wisely — it shapes who you become. (2) Think carefully before every action — haste leads to regret. (3) Even as you grow in success, stay humble and honest — these are the qualities that make you truly great. The three lessons are progressive: character formation → wise action → virtuous living." },
+    { "id": "app02", "difficulty": "Advanced", "question": "The shepherd's cloak is a powerful symbol. What other symbols of humility exist in famous Indian stories or history?", "detailed_solution": "Many famous figures in Indian history used symbols of humility. Mahatma Gandhi wore a simple dhoti (loincloth) throughout his life, even when negotiating with British rulers — it was his personal statement that he stood with the poorest Indians. Kanakadasa of Karnataka came from a humble background and refused to enter the Udupi temple through the front door (denied access due to caste); yet, legend says the wall of the temple cracked to let him see Lord Krishna — humility was rewarded. Basavanna of Karnataka rejected the caste system and preached equality through the Vachana literature, saying that work and devotion matter, not birth. Like the shepherd's cloak, these figures had their own 'iron chests' — reminders that inner virtue, not social status, defines greatness." },
+    { "id": "app03", "difficulty": "Advanced", "question": "Imagine you are the king. Write a speech (6–8 sentences) you would give to your court after the shepherd opens the iron chest.", "detailed_solution": "Sample Speech: 'My people, today we have witnessed something far more precious than gold. When I asked our governor to open his chest, I expected treasure — but what I found was wisdom. A worn shepherd's cloak: the humble origins of a great man, worn as a reminder so that power would never corrupt him. This man carries his roots with him, always. How many of us can say the same? He is not the richest man in this court — he may be the poorest in gold. But he is the wealthiest in character. Let this be a lesson to every one of you: your title, your district, your wealth — these are borrowed things. What you truly own is your honesty, your humility, and the way you treat others. I am proud to call this shepherd my most trusted governor.'" },
+    { "id": "app04", "difficulty": "Advanced", "question": "Why do you think the story is called 'The Shepherd's Treasure' and not 'The Honest Governor' or 'The Iron Chest'? What does the title tell us?", "detailed_solution": "The title 'The Shepherd's Treasure' is deliberately chosen to create a double meaning. On the surface, it sounds like a story about a shepherd finding or keeping a physical treasure — which makes the reader curious. But the real meaning is revealed at the end: the shepherd's true treasure is his humility and honesty, not gold. The word 'shepherd' in the title is important because even after becoming a governor, the story still calls him by his original identity — 'shepherd.' This tells us that his humble origins are the source of his greatness, not his new title. The title 'The Honest Governor' would give away the lesson too early, while 'The Iron Chest' would focus on the object rather than the person. 'The Shepherd's Treasure' perfectly captures the story's surprise and its deeper meaning." },
+    { "id": "app05", "difficulty": "Advanced", "question": "Design a short character test based on this story. What three questions would you ask a person to find out if they have the shepherd's qualities?", "detailed_solution": "A Character Test inspired by the Shepherd's Treasure: Question 1 (Humility): 'If you were made class leader tomorrow, how would you treat the classmates who were not selected?' A humble person would say they would continue treating everyone equally and not act superior. Question 2 (Integrity): 'If you found Rs 500 on the classroom floor with no one watching, what would you do?' A person with integrity would hand it to the teacher rather than keep it. Question 3 (Self-awareness): 'What is one thing you do to remind yourself not to become too proud or arrogant?' A person like the shepherd would have a practice, a habit, or a reminder — their own 'cloak' — that keeps them grounded. These three questions test the same qualities the shepherd demonstrated: humility, integrity, and self-awareness." }
+  ],
+
+  "level_4_exam_oriented": {
+    "one_mark_questions": [
+      { "id": "em01", "question": "What was inside the shepherd's iron chest?", "answer": "An old shepherd's cloak — the simple garment he wore when he was a poor shepherd.", "marks": 1 },
+      { "id": "em02", "question": "What is the moral of 'The Shepherd's Treasure'?", "answer": "Humility and honesty are a person's greatest treasures. True greatness comes from inner virtues, not wealth or status.", "marks": 1 }
+    ],
+    "two_mark_questions": [
+      { "id": "em03", "question": "Why did the other governors complain about the shepherd to the king?", "answer": "The other governors were jealous of the shepherd's success and the king's trust in him. To get him into trouble, they told the king that the shepherd always carried a mysterious iron chest that might contain stolen treasure, hoping this accusation would lead to his dismissal.", "marks": 2, "marking_scheme": "1 mark for jealousy as motive. 1 mark for what they told the king." },
+      { "id": "em04", "question": "How did the shepherd explain the iron chest to the king?", "answer": "He said the chest contained only his old shepherd's cloak — his 'real treasure.' He explained that the cloak reminded him of his humble origins as a poor shepherd. Whenever he felt too proud or forgot his roots, he would put on the cloak to stay humble.", "marks": 2, "marking_scheme": "1 mark for what was in the chest. 1 mark for the explanation about humility." }
+    ],
+    "three_mark_questions": [
+      { "id": "em05", "question": "Describe the character of the shepherd. What made him a great governor?", "answer": "The shepherd was wise, kind, humble, and honest. He was known throughout the land for his wisdom even before the king met him. As governor, he was fair, just, and genuinely cared for the people he governed. He never misused his power and always carried the reminder of his humble origins. His humility and honesty made him a great governor — the people trusted him, the king valued him, and even jealous rivals could not find any true fault in him.", "marks": 3, "marking_scheme": "1 mark for wisdom and kindness. 1 mark for humility. 1 mark for integrity/honesty as governor." },
+      { "id": "em06", "question": "What does the iron chest symbolise in the story? How does it represent the theme?", "answer": "The iron chest symbolises the shepherd's humility and honesty. While others imagined it contained gold or stolen treasure, it actually held only an old shepherd's cloak. The contrast between what people imagined (wealth) and what was actually inside (simplicity) perfectly captures the story's theme: true treasure is not gold, but inner virtues like humility and honesty. The chest is a physical symbol of the shepherd's character — what looks like a mystery from the outside is actually a simple, pure truth on the inside.", "marks": 3, "marking_scheme": "1 mark for identifying the symbol. 1 mark for contrasting expectations vs reality. 1 mark for connecting to the theme." }
+    ],
+    "five_mark_questions": [
+      { "id": "em07", "question": "Narrate the story of 'The Shepherd's Treasure' in your own words and state its moral.", "answer": "A young shepherd was famous throughout the land for his wisdom and kindness. One day, the king heard of him and decided to meet him. After speaking with the shepherd, the king was so impressed that he appointed him governor of a small district. The shepherd proved to be a wise and fair governor, and the king soon promoted him to govern a large, important district. But the other governors grew jealous of his success. They went to the king and told him that the shepherd always carried a secret iron chest — perhaps full of stolen treasure. The king summoned the shepherd and asked him to open the chest in front of the court. Everyone waited in suspense. When the chest was opened, there was nothing inside except an old, worn shepherd's cloak. The shepherd explained: this cloak was his real treasure. It reminded him that he was once a poor shepherd. Whenever he became too proud or forgot his roots, he would put on the cloak. The king was deeply moved by this display of wisdom and humility. He honoured the shepherd more than ever before. The moral of the story is: humility and honesty are a person's greatest treasures. True greatness lies not in wealth or power, but in inner virtues.", "marks": 5, "marking_scheme": "1 mark: Shepherd's reputation and king's meeting. 1 mark: Appointment and promotion. 1 mark: Jealous governors' accusation. 1 mark: Opening of chest and shepherd's explanation. 1 mark: Moral stated clearly." },
+      { "id": "em08", "question": "What does 'The Shepherd's Treasure' teach us about the qualities needed for true leadership? How can you apply this in your own life?", "answer": "The story teaches that true leadership requires humility, honesty, and wisdom — not wealth or a powerful background. The shepherd was not born into royalty or wealth. He rose to power because of who he was inside. As a leader, he was kind and fair to those he governed. He never misused his position for personal gain. He actively worked to prevent arrogance by keeping his old cloak as a reminder of his roots. These are the qualities that made him a great governor — not his title or salary. In our own lives, we can apply these lessons in many ways. As a class leader or school captain, we should treat all students equally and use our position to help others, not to show off. We should be honest — not copying in exams or taking credit for others' work. We should stay humble — remembering that success comes from hard work and good values, not luck or status. Like the shepherd, we should have something that keeps us grounded — perhaps our parents' sacrifices, our teachers' encouragement, or our own early struggles. A leader who remembers where they came from will always know where they are going.", "marks": 5, "marking_scheme": "1 mark: Qualities of humility and honesty. 1 mark: Example from story. 1 mark: Application to school leadership. 1 mark: Application to personal honesty. 1 mark: Coherent conclusion about staying grounded." }
+    ]
+  },
+
+  "common_misconceptions": [
+    { "misconception": "The shepherd was keeping the chest secret because he was hiding something wrong.", "why_confused": "Students may think mystery = guilt.", "correct_explanation": "The shepherd never said the chest was secret — the jealous governors assumed so. He opened it immediately when asked. He kept the chest with him always, which is different from hiding it. The mystery was in others' suspicious minds, not in the shepherd's actions.", "mini_practice_question": "Did the shepherd try to hide the chest from the king?", "answer": "No. He opened it immediately and confidently when the king asked. He had nothing to hide." },
+    { "misconception": "The moral is that poor people make better leaders than rich people.", "why_confused": "Because the shepherd came from a poor background and was a good leader.", "correct_explanation": "The moral is not about economic background. It is about inner qualities — humility, honesty, and wisdom. A rich person with these qualities would also be a great leader. The shepherd's poverty is the context, not the lesson.", "mini_practice_question": "Could a rich person also be a great leader like the shepherd? Why or why not?", "answer": "Yes, if they have humility, honesty, and wisdom. Wealth or poverty by itself does not determine leadership quality — character does." }
   ]
 }

@@ -1,366 +1,197 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch17_major_domains_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science — Geography",
+  "textbook": "The Earth: Our Habitat — Textbook for Class VI",
+  "chapter_number": 17,
+  "chapter_title": "Major Domains of the Earth",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Major Domains of the Earth? (Q1)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Major Domains of the Earth? (Q1)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Major Domains of the Earth? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "How many major domains of the Earth are there?",
+      "options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+      "correct_answer": "C) 4",
+      "explanation": "The four major domains of the Earth are the Lithosphere (land), Hydrosphere (water), Atmosphere (air), and Biosphere (life zone). Together, these four domains interact to sustain all life on Earth."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Major Domains of the Earth in a community? (Q2)",
-        "hi": "Who or what body regulates the civic issues related to Major Domains of the Earth in a community? (Q2)",
-        "kn": "Who or what body regulates the civic issues related to Major Domains of the Earth in a community? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "Which domain of the Earth includes all water bodies such as oceans, rivers, and glaciers?",
+      "options": ["A) Lithosphere", "B) Atmosphere", "C) Biosphere", "D) Hydrosphere"],
+      "correct_answer": "D) Hydrosphere",
+      "explanation": "The Hydrosphere includes all water on Earth — oceans, seas, rivers, lakes, glaciers, and groundwater. 'Hydro' is Greek for water. About 71% of Earth's surface is covered by the Hydrosphere."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Major Domains of the Earth? (Q3)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Major Domains of the Earth? (Q3)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Major Domains of the Earth? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "Which is the largest continent in the world?",
+      "options": ["A) Africa", "B) North America", "C) Asia", "D) Europe"],
+      "correct_answer": "C) Asia",
+      "explanation": "Asia is the largest continent, covering about 44.6 million sq km — approximately 30% of Earth's total land area. It is home to about 60% of the world's population, including India and China."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Major Domains of the Earth in a community? (Q4)",
-        "hi": "Who or what body regulates the civic issues related to Major Domains of the Earth in a community? (Q4)",
-        "kn": "Who or what body regulates the civic issues related to Major Domains of the Earth in a community? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "Which is the smallest continent?",
+      "options": ["A) Europe", "B) Antarctica", "C) Australia", "D) South America"],
+      "correct_answer": "C) Australia",
+      "explanation": "Australia is the smallest continent, covering about 7.7 million sq km. It is also unique because it is both a continent and a single country. It is sometimes called an 'island continent' since it is completely surrounded by water."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Major Domains of the Earth? (Q5)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Major Domains of the Earth? (Q5)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Major Domains of the Earth? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "Approximately what percentage of the Earth's surface is covered by water?",
+      "options": ["A) 29%", "B) 50%", "C) 61%", "D) 71%"],
+      "correct_answer": "D) 71%",
+      "explanation": "About 71% of Earth's surface is covered by water, which is why Earth is called the 'Blue Planet'. The remaining 29% is land. The vast water coverage gives Earth its distinctive blue appearance when viewed from space."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Major Domains of the Earth in a community? (Q6)",
-        "hi": "Who or what body regulates the civic issues related to Major Domains of the Earth in a community? (Q6)",
-        "kn": "Who or what body regulates the civic issues related to Major Domains of the Earth in a community? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "Which is the largest ocean in the world?",
+      "options": ["A) Atlantic Ocean", "B) Indian Ocean", "C) Pacific Ocean", "D) Arctic Ocean"],
+      "correct_answer": "C) Pacific Ocean",
+      "explanation": "The Pacific Ocean is the largest ocean, covering about 165 million sq km — larger than the combined area of all continents. It also contains the deepest point on Earth: the Mariana Trench (11,034 m deep). 'Pacific' means peaceful in Spanish."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Major Domains of the Earth? (Q7)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Major Domains of the Earth? (Q7)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Major Domains of the Earth? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "The solid outer layer of the Earth that includes the crust and upper mantle is called the:",
+      "options": ["A) Hydrosphere", "B) Lithosphere", "C) Atmosphere", "D) Biosphere"],
+      "correct_answer": "B) Lithosphere",
+      "explanation": "The Lithosphere is the solid outer layer of the Earth, consisting of the crust and upper mantle. 'Litho' means stone/rock in Greek. It forms the physical land surface on which humans and other terrestrial organisms live."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Major Domains of the Earth in a community? (Q8)",
-        "hi": "Who or what body regulates the civic issues related to Major Domains of the Earth in a community? (Q8)",
-        "kn": "Who or what body regulates the civic issues related to Major Domains of the Earth in a community? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "Which gas is most abundant in the Earth's atmosphere?",
+      "options": ["A) Oxygen", "B) Carbon dioxide", "C) Nitrogen", "D) Argon"],
+      "correct_answer": "C) Nitrogen",
+      "explanation": "Nitrogen makes up about 78% of the Earth's atmosphere. Oxygen is the second most abundant at 21%. Although nitrogen is the most abundant, oxygen is the most critical gas for animal life and respiration."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Major Domains of the Earth? (Q9)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Major Domains of the Earth? (Q9)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Major Domains of the Earth? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "Why is Earth called the 'Blue Planet'?",
+      "options": [
+        "A) Because it is very cold",
+        "B) Because its sky is blue during the day",
+        "C) Because about 71% of its surface is covered by water",
+        "D) Because it is the only planet with a blue atmosphere"
+      ],
+      "correct_answer": "C) Because about 71% of its surface is covered by water",
+      "explanation": "Earth is called the 'Blue Planet' because approximately 71% of its surface is covered by water, which makes it appear predominantly blue when viewed from space. This abundant liquid water makes Earth unique in our solar system and supports all life."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Major Domains of the Earth in a community? (Q10)",
-        "hi": "Who or what body regulates the civic issues related to Major Domains of the Earth in a community? (Q10)",
-        "kn": "Who or what body regulates the civic issues related to Major Domains of the Earth in a community? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "Which continent has no permanent human population?",
+      "options": ["A) Arctic", "B) Australia", "C) Antarctica", "D) Greenland"],
+      "correct_answer": "C) Antarctica",
+      "explanation": "Antarctica, located at the South Pole, has no permanent human population due to its extreme cold (temperatures can reach −89°C). Only temporary research stations, including India's Maitri and Bharati stations, are operated there by various countries."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Easy",
+      "question": "The narrow zone of Earth where all living organisms exist is called the:",
+      "options": ["A) Atmosphere", "B) Lithosphere", "C) Biosphere", "D) Hydrosphere"],
+      "correct_answer": "C) Biosphere",
+      "explanation": "The Biosphere is the narrow zone of Earth where all forms of life — plants, animals, microbes — exist. It overlaps parts of the lithosphere, hydrosphere, and lower atmosphere. 'Bio' is Greek for life. The biosphere extends from about 10 km above to 10 km below the ocean surface."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Easy",
+      "question": "India's ocean — the Indian Ocean — is the ___ largest ocean in the world.",
+      "options": ["A) First", "B) Second", "C) Third", "D) Fourth"],
+      "correct_answer": "C) Third",
+      "explanation": "The Indian Ocean is the third largest ocean in the world, after the Pacific and Atlantic Oceans. India is bounded on the south by the Indian Ocean, which splits into the Bay of Bengal (east) and the Arabian Sea (west). The Indian Ocean is named after India, reflecting its historical significance."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "Which of the following is NOT a continent?",
+      "options": ["A) Antarctica", "B) Greenland", "C) Australia", "D) Africa"],
+      "correct_answer": "B) Greenland",
+      "explanation": "Greenland is not a continent — it is the world's largest island, located in the Arctic Ocean. It is an autonomous territory of Denmark. The seven continents are: Asia, Africa, North America, South America, Antarctica, Europe, and Australia. Islands and continents differ primarily in size."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "India operates research stations in Antarctica. Which of the following is one of India's active stations there?",
+      "options": ["A) Dakshin Gangotri", "B) Maitri", "C) Polar Star", "D) Bharatpur"],
+      "correct_answer": "B) Maitri",
+      "explanation": "Maitri (established 1989) is one of India's two active research stations in Antarctica. India's other active station is Bharati (established 2012). Dakshin Gangotri was India's first station (1983) but is now buried under ice and used only as a supply base."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "Approximately what percentage of Earth's total water is freshwater?",
+      "options": ["A) 3%", "B) 10%", "C) 29%", "D) 50%"],
+      "correct_answer": "A) 3%",
+      "explanation": "Only about 3% of Earth's total water is freshwater. The remaining 97% is saltwater in the oceans. Of the 3% freshwater, about 70% is locked in polar ice caps and glaciers, leaving only about 1% of all Earth's water as readily accessible liquid freshwater — making conservation extremely important."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "How many continents are there in the world?",
+      "options": ["A) 5", "B) 6", "C) 7", "D) 8"],
+      "correct_answer": "C) 7",
+      "explanation": "There are 7 continents: Asia (largest), Africa, North America, South America, Antarctica, Europe, and Australia/Oceania (smallest). Some models combine Europe and Asia as 'Eurasia' (6 continents model), but the 7-continent model is followed in Indian school textbooks."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "The correct order of oceans from largest to smallest is:",
+      "options": [
+        "A) Pacific, Atlantic, Indian, Arctic, Southern",
+        "B) Atlantic, Pacific, Indian, Southern, Arctic",
+        "C) Pacific, Atlantic, Indian, Southern, Arctic",
+        "D) Indian, Pacific, Atlantic, Arctic, Southern"
+      ],
+      "correct_answer": "C) Pacific, Atlantic, Indian, Southern, Arctic",
+      "explanation": "The correct order of the five oceans from largest to smallest is: Pacific, Atlantic, Indian, Southern (Antarctic), and Arctic. The Pacific is the largest and deepest; the Arctic is the smallest and shallowest. The Southern Ocean surrounds Antarctica and was formally recognised by the IHO in 2000."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "Which of the following statements about the Atmosphere is CORRECT?",
+      "options": [
+        "A) The atmosphere is composed mainly of oxygen (78%) and nitrogen (21%)",
+        "B) The atmosphere is composed mainly of nitrogen (78%) and oxygen (21%)",
+        "C) The atmosphere contains equal proportions of all gases",
+        "D) The atmosphere has no carbon dioxide"
+      ],
+      "correct_answer": "B) The atmosphere is composed mainly of nitrogen (78%) and oxygen (21%)",
+      "explanation": "The Earth's atmosphere is composed mainly of nitrogen (78%) and oxygen (21%). Carbon dioxide, argon, and other gases make up the remaining ~1%. Nitrogen is the most abundant gas; oxygen is essential for animal respiration. Water vapour is also present in variable amounts."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "A student says: 'The Biosphere is independent of the other three domains.' Is this correct?",
+      "options": [
+        "A) Yes — the Biosphere functions independently of land, water, and air",
+        "B) No — the Biosphere is the overlap zone where Lithosphere, Hydrosphere, and Atmosphere interact to support life",
+        "C) Yes — only the Atmosphere supports the Biosphere",
+        "D) No — the Biosphere is only part of the Hydrosphere"
+      ],
+      "correct_answer": "B) No — the Biosphere is the overlap zone where Lithosphere, Hydrosphere, and Atmosphere interact to support life",
+      "explanation": "The Biosphere is NOT independent — it exists BECAUSE of the interaction of the other three domains. Plants need soil (Lithosphere), water (Hydrosphere), and air/CO₂ (Atmosphere) to survive. Animals need air, water, and land. The Biosphere is the zone where all three other domains meet and cooperate to allow life."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "If the Hydrosphere were to completely disappear from Earth, which of the following outcomes would MOST directly result?",
+      "options": [
+        "A) Only marine animals would be affected; land animals would survive",
+        "B) The Atmosphere would expand to fill the space left by water",
+        "C) All life in the Biosphere would eventually cease because water is essential for all known living organisms",
+        "D) The Lithosphere would melt into the space left by the Hydrosphere"
+      ],
+      "correct_answer": "C) All life in the Biosphere would eventually cease because water is essential for all known living organisms",
+      "explanation": "Water is a fundamental requirement for all known living organisms — it is used in photosynthesis, digestion, temperature regulation, and cellular functions. Without the Hydrosphere, the Biosphere would collapse entirely — not just marine life. Land plants and animals also depend on fresh water from rivers, rain (atmospheric water), and groundwater."
     }
   ]
 }

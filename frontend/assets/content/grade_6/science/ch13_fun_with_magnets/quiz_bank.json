@@ -1,366 +1,222 @@
 {
-  "version": "1.0",
-  "topic_id": "science_grade6_ch13_fun_with_magnets_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 13,
+  "chapter_title": "Fun with Magnets",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Fun with Magnets? (Q1)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Fun with Magnets? (Q1)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Fun with Magnets? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Which of the following materials is attracted by a magnet?",
+      "options": ["A) Aluminium", "B) Copper", "C) Iron", "D) Plastic"],
+      "correct_answer": "C) Iron",
+      "explanation": "Iron is a magnetic material and is attracted by a magnet. Aluminium and copper are metals but are non-magnetic — they are not attracted by a magnet. Plastic is also non-magnetic. Only iron, nickel, and cobalt (and their alloys like steel) are magnetic materials."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Fun with Magnets experiment? (Q2)",
-        "hi": "What is the standard tool used to measure changes in a Fun with Magnets experiment? (Q2)",
-        "kn": "What is the standard tool used to measure changes in a Fun with Magnets experiment? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "How many poles does every magnet have?",
+      "options": ["A) One", "B) Two", "C) Three", "D) Four"],
+      "correct_answer": "B) Two",
+      "explanation": "Every magnet has exactly two poles: North (N) and South (S). Magnetic poles always exist in pairs and cannot be separated. Even if a magnet is cut into many pieces, each piece will still have two poles (North and South)."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Fun with Magnets? (Q3)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Fun with Magnets? (Q3)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Fun with Magnets? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "What happens when the North pole of one magnet is brought close to the North pole of another magnet?",
+      "options": ["A) They attract each other", "B) They repel each other", "C) Nothing happens", "D) They merge into one magnet"],
+      "correct_answer": "B) They repel each other",
+      "explanation": "Like poles repel each other. North–North = repulsion. South–South = repulsion. Only unlike poles (North and South) attract each other. This is the fundamental law of magnetic poles, similar to the rule for electric charges."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Fun with Magnets experiment? (Q4)",
-        "hi": "What is the standard tool used to measure changes in a Fun with Magnets experiment? (Q4)",
-        "kn": "What is the standard tool used to measure changes in a Fun with Magnets experiment? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "A freely suspended bar magnet always points in which direction?",
+      "options": ["A) East–West", "B) North–South", "C) Northeast–Southwest", "D) It points randomly"],
+      "correct_answer": "B) North–South",
+      "explanation": "A freely suspended bar magnet always aligns in the North–South direction because Earth itself acts like a giant magnet. The North pole of the suspended magnet points towards geographic north and the South pole points towards geographic south. This property is the basis of the magnetic compass."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Fun with Magnets? (Q5)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Fun with Magnets? (Q5)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Fun with Magnets? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "What is a compass used for?",
+      "options": ["A) Measuring temperature", "B) Finding direction", "C) Measuring distance", "D) Measuring magnetic strength"],
+      "correct_answer": "B) Finding direction",
+      "explanation": "A compass is a direction-finding instrument that consists of a magnetised needle on a pivot. The needle always points north because it is a magnet responding to Earth's magnetic field. Sailors, trekkers, and navigators use compasses to determine north and thereby all four cardinal directions."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Fun with Magnets experiment? (Q6)",
-        "hi": "What is the standard tool used to measure changes in a Fun with Magnets experiment? (Q6)",
-        "kn": "What is the standard tool used to measure changes in a Fun with Magnets experiment? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "Which of the following is a natural magnet?",
+      "options": ["A) Bar magnet", "B) Horseshoe magnet", "C) Lodestone", "D) Electromagnet"],
+      "correct_answer": "C) Lodestone",
+      "explanation": "Lodestone (magnetite, Fe₃O₄) is a naturally occurring magnetic rock — it is a natural magnet. Bar magnets and horseshoe magnets are artificial permanent magnets made by humans. Electromagnets are temporary magnets that work only when electric current flows through them."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Fun with Magnets? (Q7)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Fun with Magnets? (Q7)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Fun with Magnets? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "Which part of a magnet has the strongest magnetic force?",
+      "options": ["A) The centre", "B) The poles (ends)", "C) The middle third", "D) The force is equal throughout"],
+      "correct_answer": "B) The poles (ends)",
+      "explanation": "The magnetic force of a bar magnet is strongest at its poles (the two ends). In the middle, the force is weakest. This can be demonstrated by dipping a bar magnet in iron filings — the filings cluster most thickly at the two poles."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Fun with Magnets experiment? (Q8)",
-        "hi": "What is the standard tool used to measure changes in a Fun with Magnets experiment? (Q8)",
-        "kn": "What is the standard tool used to measure changes in a Fun with Magnets experiment? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "What is an electromagnet?",
+      "options": [
+        "A) A magnet found in nature",
+        "B) A magnet made by cooling iron rapidly",
+        "C) A temporary magnet made using electric current and an iron core",
+        "D) A magnet that only attracts non-metals"
+      ],
+      "correct_answer": "C) A temporary magnet made using electric current and an iron core",
+      "explanation": "An electromagnet is made by wrapping an insulated copper wire around an iron core and passing electric current through the wire. The iron core becomes magnetic when current flows and loses its magnetism when current stops. This makes it a temporary, switchable magnet — very useful for cranes, MRI machines, and electric motors."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Fun with Magnets? (Q9)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Fun with Magnets? (Q9)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Fun with Magnets? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "A magnet will lose its magnetism if it is:",
+      "options": ["A) Stored in a cool, dry place", "B) Kept with iron keepers", "C) Heated strongly", "D) Placed in a magnetic field"],
+      "correct_answer": "C) Heated strongly",
+      "explanation": "Heating a magnet strongly causes its magnetic domains to become randomly oriented, destroying the magnetism. Magnets also lose magnetism if dropped hard or hammered. Storing a magnet in a cool, dry place with iron keepers actually preserves its magnetism."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Fun with Magnets experiment? (Q10)",
-        "hi": "What is the standard tool used to measure changes in a Fun with Magnets experiment? (Q10)",
-        "kn": "What is the standard tool used to measure changes in a Fun with Magnets experiment? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "Which of the following is NOT attracted by a magnet?",
+      "options": ["A) Steel", "B) Iron nail", "C) Nickel coin", "D) Copper wire"],
+      "correct_answer": "D) Copper wire",
+      "explanation": "Copper is a non-magnetic metal — it is not attracted by a magnet. Steel (iron alloy) and iron nails are attracted because they contain iron. Nickel is one of the three magnetic elements (Iron, Nickel, Cobalt) and is attracted. Copper and aluminium are metals but lack magnetic properties."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "If a bar magnet is cut into two equal pieces, what do you get?",
+      "options": [
+        "A) One North pole magnet and one South pole magnet",
+        "B) Two pieces, each with no poles",
+        "C) Two complete magnets, each with a North and South pole",
+        "D) A stronger magnet and a weaker magnet"
+      ],
+      "correct_answer": "C) Two complete magnets, each with a North and South pole",
+      "explanation": "When you cut a bar magnet, each piece becomes a complete magnet with its own North and South poles. Magnetic poles cannot be isolated — you can never get a magnet with only one pole. Even the tiniest piece of a magnet will have both a North and a South pole."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "In the single-stroke method of making a magnet, why must the stroking always be in ONE direction?",
+      "options": [
+        "A) To avoid scratching the iron surface",
+        "B) To ensure all magnetic domains align in the same direction",
+        "C) Because the magnet heats up if stroked back and forth",
+        "D) To prevent the iron from breaking"
+      ],
+      "correct_answer": "B) To ensure all magnetic domains align in the same direction",
+      "explanation": "Stroking in one direction causes the tiny magnetic domains inside the iron to gradually align in the same direction, making the whole object magnetic. Stroking back and forth would align domains in opposite directions, causing them to cancel out, and no net magnetism would be produced."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "Why is a compass needle made of a magnetic material rather than a non-magnetic material?",
+      "options": [
+        "A) Magnetic needles are heavier and balance better",
+        "B) Only a magnetic needle can respond to Earth's magnetic field and point north",
+        "C) Non-magnetic needles are too expensive to use",
+        "D) Magnetic needles are resistant to rust"
+      ],
+      "correct_answer": "B) Only a magnetic needle can respond to Earth's magnetic field and point north",
+      "explanation": "A compass works because the magnetised needle interacts with Earth's magnetic field and aligns north–south. A non-magnetic material (like aluminium or plastic) has no interaction with Earth's magnetic field and would not point in any consistent direction — making it useless as a compass."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "A scrapyard crane uses an electromagnet rather than a permanent magnet to lift scrap iron. Why?",
+      "options": [
+        "A) Electromagnets are lighter than permanent magnets",
+        "B) Electromagnets can be switched off to drop the iron load",
+        "C) Electromagnets do not require electricity to work",
+        "D) Permanent magnets cannot lift iron"
+      ],
+      "correct_answer": "B) Electromagnets can be switched off to drop the iron load",
+      "explanation": "The key advantage of an electromagnet is that it can be switched ON (by passing current) to lift iron/steel scrap and switched OFF (by stopping current) to drop it wherever needed. A permanent magnet would always attract iron and could not easily release its load — making it impractical for a scrapyard crane."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "Karnataka district known for large deposits of iron ore (magnetite) used in steel production:",
+      "options": ["A) Mysuru", "B) Kodagu", "C) Ballari (Bellary)", "D) Belagavi"],
+      "correct_answer": "C) Ballari (Bellary)",
+      "explanation": "Ballari (formerly Bellary) district in northern Karnataka has some of India's largest iron ore deposits, including magnetite (Fe₃O₄) — the natural magnetic ore. NMDC mines iron ore here for steel production. Magnetite itself is the original 'lodestone' — the world's first natural magnet known to humans."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Which of the following best explains why Earth behaves like a magnet?",
+      "options": [
+        "A) Earth is made entirely of iron",
+        "B) Earth's core contains iron and nickel, generating a magnetic field",
+        "C) The Sun sends magnetic rays that magnetise Earth",
+        "D) Earth's rotation creates magnetism in rocks"
+      ],
+      "correct_answer": "B) Earth's core contains iron and nickel, generating a magnetic field",
+      "explanation": "Earth's outer core is made largely of molten iron and nickel. The movement of these conducting materials generates electric currents, which in turn create Earth's global magnetic field through a dynamo effect. This field extends far into space and is what causes a compass needle to point north."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "Shirin brings a magnet near a mystery object. The object is attracted when any pole of the magnet is brought close, but never shows repulsion. What does this tell us?",
+      "options": [
+        "A) The mystery object is itself a magnet",
+        "B) The mystery object is a magnetic material but not a magnet",
+        "C) The mystery object is non-magnetic",
+        "D) The mystery object has only a South pole"
+      ],
+      "correct_answer": "B) The mystery object is a magnetic material but not a magnet",
+      "explanation": "A magnetic material (like an unmagnetised iron piece) is attracted to both poles of a magnet but never repels either pole. An actual magnet would both attract one pole AND repel the other pole of a test magnet. Repulsion is the definitive proof of a magnet — attraction alone only proves the object is a magnetic material."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "What is the correct procedure in the single-stroke method to magnetise an iron nail?",
+      "options": [
+        "A) Rub the iron nail back and forth with any part of the bar magnet",
+        "B) Stroke the iron nail from end to end in one direction only, using one pole of the bar magnet",
+        "C) Heat the iron nail and then touch it with the bar magnet",
+        "D) Wrap the iron nail in cloth and shake it near the bar magnet"
+      ],
+      "correct_answer": "B) Stroke the iron nail from end to end in one direction only, using one pole of the bar magnet",
+      "explanation": "In the single-stroke method: place the iron nail on a surface, bring one pole of the bar magnet to one end of the nail, and stroke it in ONE direction only (never back and forth). Lift the magnet and repeat. Always use the same pole and always stroke in the same direction, so all magnetic domains in the iron align the same way."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "A student places iron filings near a bar magnet and observes where they accumulate. Where will the maximum concentration of iron filings be seen, and why?",
+      "options": [
+        "A) In the middle of the magnet — because that is the largest surface area",
+        "B) Equally distributed — because the magnetic force is uniform throughout",
+        "C) At the two poles — because the magnetic field is most concentrated there",
+        "D) At the South pole only — because that is the stronger pole"
+      ],
+      "correct_answer": "C) At the two poles — because the magnetic field is most concentrated there",
+      "explanation": "Iron filings accumulate most densely at the two poles of a bar magnet because the magnetic field (and therefore the attractive force on iron filings) is strongest at the poles. Magnetic field lines are most concentrated at the poles, weakest at the centre. Both poles are equally strong — there is no 'stronger' pole."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "An electromagnet is made with 50 turns of wire around an iron core. If the number of turns is increased to 100 (with the same current), what happens to the electromagnet's strength?",
+      "options": [
+        "A) The strength decreases because more wire adds resistance",
+        "B) The strength stays the same — only current affects strength",
+        "C) The strength increases because more turns create a stronger magnetic field",
+        "D) The strength first increases then decreases"
+      ],
+      "correct_answer": "C) The strength increases because more turns create a stronger magnetic field",
+      "explanation": "The strength of an electromagnet depends on: (1) the number of turns of wire — more turns = stronger magnet, (2) the amount of current — more current = stronger magnet, and (3) the material of the core — iron is much better than air. Doubling the turns of wire (from 50 to 100) at the same current will approximately double the magnetic strength, as each turn contributes to the total magnetic field."
     }
   ]
 }

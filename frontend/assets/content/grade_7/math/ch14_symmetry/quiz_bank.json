@@ -1,366 +1,49 @@
 {
-  "version": "1.0",
-  "topic_id": "math_grade7_ch14_symmetry_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 7,
+  "subject": "Mathematics",
+  "textbook": "Mathematics – Class 7",
+  "chapter_number": 14,
+  "chapter_title": "Symmetry",
+
+  "level_1_mcqs": [
+    { "id": "mcq01", "difficulty": "Easy", "question": "How many lines of symmetry does a square have?", "options": ["2", "3", "4", "8"], "correct_answer": "4", "explanation": "A square has 4 lines of symmetry: 2 through the midpoints of opposite sides (horizontal and vertical) and 2 through opposite corners (the two diagonals). All 4 are valid fold lines where both halves match perfectly." },
+    { "id": "mcq02", "difficulty": "Easy", "question": "How many lines of symmetry does a rectangle (non-square) have?", "options": ["0", "2", "4", "1"], "correct_answer": "2", "explanation": "A rectangle has 2 lines of symmetry — the horizontal and vertical midlines. The diagonals are NOT lines of symmetry for a rectangle (unlike a square) because folding along a diagonal does not produce two matching halves." },
+    { "id": "mcq03", "difficulty": "Easy", "question": "What is the order of rotational symmetry of an equilateral triangle?", "options": ["1", "2", "3", "6"], "correct_answer": "3", "explanation": "An equilateral triangle maps onto itself after rotations of 120°, 240°, and 360° — three times in a full turn. So its order of rotational symmetry is 3, and the angle of rotation is 360° ÷ 3 = 120°." },
+    { "id": "mcq04", "difficulty": "Easy", "question": "The angle of rotation for a figure with rotational symmetry of order 6 is:", "options": ["30°", "45°", "60°", "90°"], "correct_answer": "60°", "explanation": "Angle of rotation = 360° ÷ order = 360° ÷ 6 = 60°. A regular hexagon, for example, has order 6 and angle 60° — it looks the same after every 60° rotation." },
+    { "id": "mcq05", "difficulty": "Easy", "question": "Which shape has the MOST lines of symmetry among these?", "options": ["Square", "Equilateral triangle", "Regular hexagon", "Rectangle"], "correct_answer": "Regular hexagon", "explanation": "Regular hexagon has 6 lines of symmetry (n=6). Square has 4 (n=4). Equilateral triangle has 3 (n=3). Rectangle has 2. For regular n-gons, more sides = more lines of symmetry." },
+    { "id": "mcq06", "difficulty": "Easy", "question": "A parallelogram has:", "options": ["2 lines of symmetry and no rotational symmetry", "No lines of symmetry and rotational symmetry of order 2", "2 lines of symmetry and rotational symmetry of order 2", "No lines of symmetry and no rotational symmetry"], "correct_answer": "No lines of symmetry and rotational symmetry of order 2", "explanation": "A parallelogram has NO lines of symmetry (no line divides it into two mirror halves). However, it does have rotational symmetry of order 2 — rotating it 180° about its centre maps it exactly onto itself." },
+    { "id": "mcq07", "difficulty": "Easy", "question": "Which letter has BOTH line symmetry AND rotational symmetry?", "options": ["F", "S", "H", "G"], "correct_answer": "H", "explanation": "H has 2 lines of symmetry (horizontal and vertical midlines) and rotational symmetry of order 2 (maps onto itself after 180°). S has only rotational symmetry (order 2) but no lines of symmetry. F and G have neither." },
+    { "id": "mcq08", "difficulty": "Easy", "question": "A figure has rotational symmetry of order 4. Its angle of rotation is:", "options": ["45°", "90°", "120°", "180°"], "correct_answer": "90°", "explanation": "Angle = 360° ÷ order = 360° ÷ 4 = 90°. A square has order 4 and maps onto itself every 90° (at 90°, 180°, 270°, and 360°)." },
+    { "id": "mcq09", "difficulty": "Easy", "question": "How many lines of symmetry does a circle have?", "options": ["0", "2", "4", "Infinite"], "correct_answer": "Infinite", "explanation": "A circle has infinitely many lines of symmetry — every diameter (line through the centre) is a line of symmetry, and there are infinitely many diameters. It also has infinite order rotational symmetry." },
+    { "id": "mcq10", "difficulty": "Easy", "question": "A regular pentagon has __ lines of symmetry and rotational symmetry of order __.", "options": ["5 and 5", "5 and 4", "4 and 5", "5 and 10"], "correct_answer": "5 and 5", "explanation": "For a regular n-gon: lines of symmetry = n and order of rotational symmetry = n. For a regular pentagon (n=5): 5 lines of symmetry and rotational symmetry of order 5. Angle = 360°/5 = 72°." },
+    { "id": "mcq11", "difficulty": "Easy", "question": "Which of the following has NO line of symmetry?", "options": ["Equilateral triangle", "Square", "Scalene triangle", "Regular hexagon"], "correct_answer": "Scalene triangle", "explanation": "A scalene triangle has all three sides of different lengths and all three angles different — no line can divide it into two mirror-image halves. It has 0 lines of symmetry and no rotational symmetry (order 1)." },
+    { "id": "mcq12", "difficulty": "Easy", "question": "The letter 'S' has:", "options": ["1 line of symmetry only", "Rotational symmetry of order 2 only", "Both line and rotational symmetry", "No symmetry at all"], "correct_answer": "Rotational symmetry of order 2 only", "explanation": "S has NO line of symmetry — no line divides it into two mirror halves. However, rotating S by 180° gives the same S — so it has rotational symmetry of order 2 (point symmetry). Similarly for N and Z." },
+    { "id": "mcq13", "difficulty": "Easy", "question": "A rangoli looks the same after every 60° rotation. What is its order of rotational symmetry?", "options": ["4", "6", "8", "12"], "correct_answer": "6", "explanation": "Order = 360° ÷ angle = 360° ÷ 60° = 6. The rangoli has rotational symmetry of order 6 — it looks the same 6 times during one full rotation, at 60°, 120°, 180°, 240°, 300°, and 360°." },
+    { "id": "mcq14", "difficulty": "Easy", "question": "Which of these statements about the line of symmetry of a rectangle is CORRECT?", "options": ["A rectangle has 4 lines of symmetry including the diagonals", "A rectangle has 2 lines of symmetry: the two midlines", "A rectangle has 1 line of symmetry: the vertical midline", "A rectangle has no lines of symmetry"], "correct_answer": "A rectangle has 2 lines of symmetry: the two midlines", "explanation": "A rectangle has exactly 2 lines of symmetry: the horizontal midline (joining midpoints of top and bottom) and the vertical midline (joining midpoints of left and right). The diagonals are NOT lines of symmetry because folding along a diagonal gives non-matching halves." },
+    { "id": "mcq15", "difficulty": "Easy", "question": "An isosceles triangle (non-equilateral) has:", "options": ["3 lines of symmetry", "1 line of symmetry and no rotational symmetry", "No symmetry at all", "Rotational symmetry of order 2"], "correct_answer": "1 line of symmetry and no rotational symmetry", "explanation": "An isosceles triangle has exactly 1 line of symmetry — the perpendicular from the vertex angle to the base (bisecting the base). It has no rotational symmetry (order 1) because it cannot map onto itself before a full 360° rotation." },
+    { "id": "mcq16", "difficulty": "Easy", "question": "Which regular polygon has an angle of rotation of 72°?", "options": ["Square", "Regular hexagon", "Regular pentagon", "Equilateral triangle"], "correct_answer": "Regular pentagon", "explanation": "Angle of rotation = 360° ÷ order. For a regular pentagon, order = 5, angle = 360°/5 = 72°. Square: 90°, hexagon: 60°, equilateral triangle: 120°." },
+    { "id": "mcq17", "difficulty": "Easy", "question": "How many lines of symmetry does the letter 'A' have?", "options": ["0", "1", "2", "3"], "correct_answer": "1", "explanation": "The letter A has 1 line of symmetry — a vertical line through the peak of the A down through the crossbar. The left half is a mirror image of the right half. It has no horizontal line of symmetry." },
+    { "id": "mcq18", "difficulty": "Easy", "question": "A figure has rotational symmetry of order 8. What angle must it be rotated by to map onto itself?", "options": ["30°", "40°", "45°", "60°"], "correct_answer": "45°", "explanation": "Angle = 360° ÷ 8 = 45°. A figure with order 8 maps onto itself every 45° — at 45°, 90°, 135°, 180°, 225°, 270°, 315°, and 360°. An 8-petalled rangoli is a real-life example." },
+    { "id": "mcq19", "difficulty": "Easy", "question": "Which of the following has rotational symmetry of order 2 but NO line of symmetry?", "options": ["Rectangle", "Square", "Equilateral triangle", "Parallelogram"], "correct_answer": "Parallelogram", "explanation": "A parallelogram has rotational symmetry of order 2 (maps onto itself after 180°) but ZERO lines of symmetry. A rectangle has both. A square has 4 lines and order 4. An equilateral triangle has 3 lines and order 3." },
+    { "id": "mcq20", "difficulty": "Easy", "question": "The Hoysala temples in Karnataka are famous for their stellate (star-shaped) plans. If a temple plan has 16 equal projections arranged in a circle, what is its order of rotational symmetry?", "options": ["8", "12", "16", "32"], "correct_answer": "16", "explanation": "16 equal projections arranged symmetrically around a circle → order of rotational symmetry = 16. Angle = 360°/16 = 22.5°. The Hoysala temple plans at Belur and Halebidu demonstrate this high-order rotational symmetry, reflecting the mathematical sophistication of medieval Karnataka's architects." }
+  ],
+
+  "common_misconceptions": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Determine the primary value when resolving a standard Symmetry expression with coefficients 8 and 4. (Q1)",
-        "hi": "Determine the primary value when resolving a standard Symmetry expression with coefficients 8 and 4. (Q1)",
-        "kn": "Determine the primary value when resolving a standard Symmetry expression with coefficients 8 and 4. (Q1)"
-      },
-      "options": {
-        "en": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "hi": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "kn": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "hi": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "kn": "Adding the coefficients 8 and 4 gives the sum of 12."
-      },
-      "diagram_ref": null
+      "misconception": "A rectangle has 4 lines of symmetry just like a square.",
+      "why_confused": "Students know squares have 4 lines and assume rectangles (which look similar) also have 4.",
+      "correct_explanation": "A rectangle has only 2 lines of symmetry — the horizontal and vertical midlines. The diagonals of a rectangle are NOT lines of symmetry. When you fold a rectangle along its diagonal, the two triangles formed do not coincide as mirror images because the rectangle has unequal adjacent sides. A square's diagonals ARE lines of symmetry because all four sides are equal. Always check: fold the shape — do the halves match exactly?",
+      "mini_practice_question": "How many lines of symmetry does a 6 cm × 4 cm rectangle have? List them.",
+      "answer": "2 lines of symmetry: (1) the horizontal midline joining midpoints of the two 6 cm sides, and (2) the vertical midline joining midpoints of the two 4 cm sides. The diagonals are NOT lines of symmetry."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which mathematical property is most useful when working with Symmetry? (Q2)",
-        "hi": "Which mathematical property is most useful when working with Symmetry? (Q2)",
-        "kn": "Which mathematical property is most useful when working with Symmetry? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "hi": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "kn": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "The distributive property helps simplify operations on expressions.",
-        "hi": "The distributive property helps simplify operations on expressions.",
-        "kn": "The distributive property helps simplify operations on expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Determine the primary value when resolving a standard Symmetry expression with coefficients 8 and 4. (Q3)",
-        "hi": "Determine the primary value when resolving a standard Symmetry expression with coefficients 8 and 4. (Q3)",
-        "kn": "Determine the primary value when resolving a standard Symmetry expression with coefficients 8 and 4. (Q3)"
-      },
-      "options": {
-        "en": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "hi": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "kn": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "hi": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "kn": "Adding the coefficients 8 and 4 gives the sum of 12."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which mathematical property is most useful when working with Symmetry? (Q4)",
-        "hi": "Which mathematical property is most useful when working with Symmetry? (Q4)",
-        "kn": "Which mathematical property is most useful when working with Symmetry? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "hi": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "kn": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "The distributive property helps simplify operations on expressions.",
-        "hi": "The distributive property helps simplify operations on expressions.",
-        "kn": "The distributive property helps simplify operations on expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Determine the primary value when resolving a standard Symmetry expression with coefficients 8 and 4. (Q5)",
-        "hi": "Determine the primary value when resolving a standard Symmetry expression with coefficients 8 and 4. (Q5)",
-        "kn": "Determine the primary value when resolving a standard Symmetry expression with coefficients 8 and 4. (Q5)"
-      },
-      "options": {
-        "en": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "hi": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "kn": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "hi": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "kn": "Adding the coefficients 8 and 4 gives the sum of 12."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which mathematical property is most useful when working with Symmetry? (Q6)",
-        "hi": "Which mathematical property is most useful when working with Symmetry? (Q6)",
-        "kn": "Which mathematical property is most useful when working with Symmetry? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "hi": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "kn": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "The distributive property helps simplify operations on expressions.",
-        "hi": "The distributive property helps simplify operations on expressions.",
-        "kn": "The distributive property helps simplify operations on expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Determine the primary value when resolving a standard Symmetry expression with coefficients 8 and 4. (Q7)",
-        "hi": "Determine the primary value when resolving a standard Symmetry expression with coefficients 8 and 4. (Q7)",
-        "kn": "Determine the primary value when resolving a standard Symmetry expression with coefficients 8 and 4. (Q7)"
-      },
-      "options": {
-        "en": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "hi": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "kn": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "hi": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "kn": "Adding the coefficients 8 and 4 gives the sum of 12."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which mathematical property is most useful when working with Symmetry? (Q8)",
-        "hi": "Which mathematical property is most useful when working with Symmetry? (Q8)",
-        "kn": "Which mathematical property is most useful when working with Symmetry? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "hi": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "kn": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "The distributive property helps simplify operations on expressions.",
-        "hi": "The distributive property helps simplify operations on expressions.",
-        "kn": "The distributive property helps simplify operations on expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Determine the primary value when resolving a standard Symmetry expression with coefficients 8 and 4. (Q9)",
-        "hi": "Determine the primary value when resolving a standard Symmetry expression with coefficients 8 and 4. (Q9)",
-        "kn": "Determine the primary value when resolving a standard Symmetry expression with coefficients 8 and 4. (Q9)"
-      },
-      "options": {
-        "en": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "hi": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "kn": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "hi": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "kn": "Adding the coefficients 8 and 4 gives the sum of 12."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which mathematical property is most useful when working with Symmetry? (Q10)",
-        "hi": "Which mathematical property is most useful when working with Symmetry? (Q10)",
-        "kn": "Which mathematical property is most useful when working with Symmetry? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "hi": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "kn": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "The distributive property helps simplify operations on expressions.",
-        "hi": "The distributive property helps simplify operations on expressions.",
-        "kn": "The distributive property helps simplify operations on expressions."
-      },
-      "diagram_ref": null
+      "misconception": "If a figure has n lines of symmetry, its order of rotational symmetry is always n.",
+      "why_confused": "This rule IS true for regular polygons, so students apply it universally to all shapes.",
+      "correct_explanation": "The rule 'n lines → order n' only holds for REGULAR POLYGONS. For other shapes it can differ. Example: a parallelogram has 0 lines of symmetry but order 2 rotational symmetry. An isosceles triangle has 1 line of symmetry but order 1 (no rotational symmetry). Always check line symmetry and rotational symmetry SEPARATELY for non-regular shapes.",
+      "mini_practice_question": "A shape has 1 line of symmetry. Can you determine its order of rotational symmetry?",
+      "answer": "No — not without more information. An isosceles triangle has 1 line of symmetry and order 1 (no rotational symmetry). But a shape with 1 line could theoretically have different rotational properties. You must check rotational symmetry independently by testing if the shape maps onto itself before 360°."
     }
   ]
 }

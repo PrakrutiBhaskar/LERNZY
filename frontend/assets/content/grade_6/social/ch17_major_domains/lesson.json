@@ -1,114 +1,274 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "social",
-  "chapter_id": "ch17_major_domains",
-  "chapter_title": {
-    "en": "Major Domains of the Earth",
-    "hi": "पृथ्वी के प्रमुख परिमंडल",
-    "kn": "ಭೂಮಿಯ ಪ್ರಮುಖ ಆವರಣಗಳು"
+  "subject": "Social Science — Geography",
+  "textbook": "The Earth: Our Habitat — Textbook for Class VI",
+  "chapter_number": 17,
+  "chapter_title": "Major Domains of the Earth",
+  "estimated_study_time_minutes": 45,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Identify and name the four major domains of the Earth: Lithosphere, Hydrosphere, Atmosphere, and Biosphere",
+    "Explain what each domain consists of and give examples",
+    "Name and locate the seven continents and five oceans on a map",
+    "State the percentage of Earth's surface covered by land and water",
+    "Describe why Earth is called the 'Blue Planet'",
+    "Explain how the four domains interact to support life on Earth",
+    "Connect the domains to India's geography (Indian Ocean, Deccan Plateau, Western Ghats)",
+    "Use correct geographic vocabulary: lithosphere, hydrosphere, atmosphere, biosphere, continent, ocean"
+  ],
+
+  "prerequisite_knowledge": [
+    "Basic awareness that Earth has land and water",
+    "Familiarity with the names of a few countries and oceans from earlier classes",
+    "Understanding that air surrounds us and is essential for life",
+    "Awareness that living organisms exist on land, in water, and in air"
+  ],
+
+  "introduction": {
+    "why_important": "Understanding the four major domains of the Earth gives us a framework to understand how our planet works — how land, water, air, and life are all connected. This is the foundation for all Earth science, geography, and environmental studies.",
+    "real_life_relevance": "Every time you drink water (Hydrosphere), stand on the ground (Lithosphere), breathe air (Atmosphere), or see a tree or animal (Biosphere), you are interacting with one of Earth's four domains. Understanding these domains helps us understand why we need to protect nature.",
+    "karnataka_context": "Karnataka sits on the Deccan Plateau (Lithosphere), is bordered by the Arabian Sea (Hydrosphere), breathes the same atmosphere as the rest of the world, and its Western Ghats are one of the world's richest Biosphere hotspots. India operates two research stations in Antarctica — Maitri and Bharati — studying the Lithosphere and atmosphere at Earth's most extreme location. The Indian Ocean, named after India, is the third largest ocean in the Hydrosphere.",
+    "connection_to_previous_learning": "This chapter builds on students' awareness of land and water and introduces a scientific way to divide the entire Earth into four interacting systems — the foundation for all geography topics ahead."
   },
-  "topics": [
-    {
-      "topic_id": "social_grade6_ch17_major_domains_basics",
-      "title": {
-        "en": "Major Domains of the Earth - Fundamentals",
-        "hi": "पृथ्वी के प्रमुख परिमंडल - बुनियादी बातें",
-        "kn": "ಭೂಮಿಯ ಪ್ರಮುಖ ಆವರಣಗಳು - ಮೂಲತಮxt್ವಗಳು"
+
+  "story_summary": {
+    "characters": [
+      {
+        "name": "Lithosphere",
+        "role": "The solid land part of the Earth — continents, islands, and ocean floors — on which humans build civilisations, grow food, and extract minerals"
       },
-      "learning_objectives": [
-        "Understand key concepts of Major Domains of the Earth",
-        "Solve exercises and apply rules related to Major Domains of the Earth",
-        "Analyze practical examples of Major Domains of the Earth in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Major Domains of the Earth. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम पृथ्वी के प्रमुख परिमंडल का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಭೂಮಿಯ ಪ್ರಮುಖ ಆವರಣಗಳು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
+      {
+        "name": "Hydrosphere",
+        "role": "All water on Earth — oceans, rivers, lakes, glaciers, and groundwater — covering 71% of Earth's surface and supporting all aquatic life"
       },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Major Domains of the Earth in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम पृथ्वी के प्रमुख परिमंडल का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಭೂಮಿಯ ಪ್ರಮುಖ ಆವರಣಗಳು ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
+      {
+        "name": "Atmosphere",
+        "role": "The thin gaseous envelope of air surrounding the Earth — providing oxygen, regulating temperature, blocking harmful UV rays, and making weather and climate possible"
       },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Major Domains of the Earth.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Major Domains of the Earth.",
-            "hi": "चरण 1: पृथ्वी के प्रमुख परिमंडल के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಭೂಮಿಯ ಪ್ರಮುಖ ಆವರಣಗಳು ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Major Domains of the Earth builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "पृथ्वी के प्रमुख परिमंडल में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಭೂಮಿಯ ಪ್ರಮುಖ ಆವರಣಗಳು ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
+      {
+        "name": "Biosphere",
+        "role": "The narrow zone where all life exists — the meeting point of Lithosphere, Hydrosphere, and Atmosphere — home to all plants, animals, fungi, and microbes"
       }
+    ],
+    "plot": [
+      "The chapter opens by asking students to look at a globe and notice the blue (water) and green/brown (land) areas.",
+      "It introduces the four domains of Earth — Lithosphere, Hydrosphere, Atmosphere, and Biosphere — as the four major systems that make up our planet.",
+      "It explores the Lithosphere by naming the seven continents (Asia, Africa, North America, South America, Antarctica, Europe, Australia) and ranking them by size.",
+      "It explores the Hydrosphere by naming the five oceans (Pacific, Atlantic, Indian, Southern, Arctic) and noting that 71% of Earth's surface is water.",
+      "It explains the Atmosphere — Earth's protective air blanket of nitrogen (78%) and oxygen (21%).",
+      "It introduces the Biosphere as the overlap zone where the other three domains interact to make life possible.",
+      "The chapter connects India to each domain — the Deccan Plateau (Lithosphere), Indian Ocean (Hydrosphere), monsoon winds (Atmosphere), and the Western Ghats biodiversity hotspot (Biosphere).",
+      "It closes by explaining how all four domains interact — the water cycle, carbon cycle, and food chains all connect the four domains."
+    ],
+    "moral": "Earth's four domains — land, water, air, and life — are deeply interconnected. Damaging one domain (e.g., polluting the Hydrosphere or deforesting the Biosphere) harms all others. Our responsibility is to understand and protect all four."
+  },
+
+  "core_concepts": [
+    {
+      "concept_name": "The Four Domains of the Earth",
+      "simple_explanation": "The Earth can be divided into four major parts: the solid land (Lithosphere), all the water (Hydrosphere), the surrounding air (Atmosphere), and the zone where life exists (Biosphere).",
+      "detailed_explanation": "The Lithosphere is the solid outer crust of the Earth, including continents and ocean floors — the rocky foundation of our planet. The Hydrosphere includes all water: oceans (saltwater), rivers, lakes, glaciers, and groundwater (freshwater). It covers about 71% of Earth's surface. The Atmosphere is the thin blanket of gases — mainly nitrogen (78%) and oxygen (21%) — held by gravity around Earth. It provides the air we breathe, regulates temperature, and blocks harmful ultraviolet radiation. The Biosphere is not a separate physical layer but an overlap zone — the thin belt where Lithosphere, Hydrosphere, and Atmosphere meet and interact in ways that support life. Every living organism on Earth is part of the Biosphere.",
+      "real_life_example": "When you stand on the ground (Lithosphere), drink water (Hydrosphere), breathe air (Atmosphere), and observe a plant or animal (Biosphere) — you are interacting with all four domains simultaneously. They are not separate worlds; they constantly influence each other.",
+      "karnataka_example": "Karnataka provides examples of all four domains: the Deccan Plateau is the Lithosphere on which Bengaluru, Mysuru, and most of Karnataka's cities sit; the Arabian Sea and rivers like Cauvery and Krishna are the Hydrosphere; the monsoon winds that bring Karnataka's rain are part of the Atmosphere; and the Western Ghats, a UNESCO World Heritage biodiversity hotspot, is an extraordinarily rich part of the Biosphere.",
+      "common_mistakes": "Students often think the four domains are completely separate layers. In reality, they overlap heavily. The ocean (Hydrosphere) sits on the ocean floor (Lithosphere). Fish live in water (Hydrosphere) but are part of the Biosphere. Clouds form in the Atmosphere but carry Hydrosphere water. The Biosphere exists across all three physical domains.",
+      "memory_tip": "LHAB: Lithosphere (Land), Hydrosphere (H₂O/water), Atmosphere (Air), Biosphere (Biology/life). Or remember: 'Lily Had A Butterfly' — a butterfly lives at the intersection of land, water, and air — exactly like the Biosphere."
+    },
+    {
+      "concept_name": "Continents and Oceans",
+      "simple_explanation": "Earth's Lithosphere and Hydrosphere are divided into seven large land masses (continents) and five oceans. Asia is the biggest continent; Australia is the smallest. The Pacific is the biggest ocean; the Arctic is the smallest.",
+      "detailed_explanation": "The seven continents in order of size: Asia (~44.6 million sq km), Africa (~30.3 million sq km), North America (~24.7 million sq km), South America (~17.8 million sq km), Antarctica (~14 million sq km), Europe (~10.5 million sq km), and Australia/Oceania (~7.7 million sq km). The five oceans in order of size: Pacific (largest — larger than all continents combined), Atlantic, Indian (third largest, named after India), Southern (Antarctic Ocean), and Arctic (smallest). Oceans cover 71% of Earth's surface. Only about 3% of all water on Earth is fresh water; 97% is saltwater in the oceans.",
+      "real_life_example": "When you look at a globe, the blue area (oceans) is far bigger than the brown-green area (land). This tells you immediately that Earth is a water-dominated planet. If you spin the globe and let it stop randomly, there is a 71% chance your finger will land on water, and only a 29% chance of landing on land.",
+      "karnataka_example": "India — and Karnataka — are located in Asia, the world's largest continent. The Indian Ocean (third largest ocean) is named after India, and Karnataka's western coast faces the Arabian Sea (part of the Indian Ocean). Understanding the relative sizes of oceans helps students appreciate why the Indian Ocean trade routes were so historically important — ships from Arabia, Africa, and Southeast Asia all crossed the same ocean to reach Indian shores.",
+      "common_mistakes": "Students sometimes confuse continents with countries. A continent is a large landmass; a country is a political unit. Australia is both a continent and a country (unique). Greenland, despite being huge, is an island — not a continent. Also, Antarctica is a continent, not just a frozen ocean. Students may confuse the number of oceans — India's NCERT syllabus recognises 5 oceans (including the Southern/Antarctic Ocean).",
+      "memory_tip": "Continents (largest to smallest): 'A Friendly Neighbour Says All Europeans Are Awesome' — Asia, Africa, North America, South America, Antarctica, Europe, Australia. Oceans (largest to smallest): 'Powerful Athletes Incredibly Surpass All' — Pacific, Atlantic, Indian, Southern, Arctic."
+    },
+    {
+      "concept_name": "The Atmosphere and Biosphere",
+      "simple_explanation": "The Atmosphere is Earth's protective air blanket made mostly of nitrogen and oxygen. The Biosphere is the narrow life zone where land, water, and air all meet and cooperate to support living organisms.",
+      "detailed_explanation": "The Atmosphere has several layers — the troposphere (where weather happens, closest to Earth), stratosphere (contains the ozone layer that blocks UV rays), mesosphere, thermosphere, and exosphere. For Grade 6, the key fact is its composition: 78% nitrogen, 21% oxygen, and 1% other gases including CO₂ and argon. The Atmosphere regulates Earth's temperature (without it, surface temperatures would swing from +120°C by day to −170°C by night), enables the water cycle (evaporation and rainfall), and makes sound transmission possible. The Biosphere extends from about 10 km above sea level to 10 km below the ocean surface. It is not a uniform zone — life is most abundant at Earth's surface and in the shallow ocean (up to 200 m depth).",
+      "real_life_example": "The Atmosphere is why Earth has weather and a stable climate. Without the Atmosphere, there would be no monsoon — and without monsoon, Karnataka's agriculture would collapse. The Biosphere is why the Western Ghats teem with thousands of species of plants, insects, amphibians, birds, and mammals in every square kilometre — all of them living at the intersection of land (Lithosphere), rain (Hydrosphere), and air (Atmosphere).",
+      "karnataka_example": "Karnataka's Biosphere contributions are extraordinary: the Western Ghats in Karnataka alone have over 5,000 species of flowering plants, 450 species of birds, 140 species of mammals, and 250 species of butterflies. India's two Antarctic research stations — Maitri (1989) and Bharati (2012) — study the Atmosphere (climate and ozone research) and Lithosphere (ice core drilling) at the South Pole, showing how domains are studied globally.",
+      "common_mistakes": "Students often think the Biosphere is just the forests or jungles. In fact, the Biosphere includes life in oceans (fish, whales, coral), in the soil (earthworms, microbes), in rivers (fish, amphibians), on mountaintops (alpine plants, snow leopards), and even in the deep ocean trenches. Life exists virtually everywhere on Earth where there is liquid water and some energy source.",
+      "memory_tip": "Biosphere = Bio (life) + Sphere (zone). It's the 'life zone' — the only known zone in the entire universe where life exists. Protect it! The Atmosphere is Earth's invisible shield — punch a hole in it (ozone depletion) and harmful UV radiation reaches Earth, causing skin cancer and damaging crops."
     }
+  ],
+
+  "key_terms_glossary": [
+    {
+      "term": "Lithosphere",
+      "meaning": "The solid outer layer of the Earth including the crust and upper mantle. It forms the land surface (continents and ocean floors) on which we live."
+    },
+    {
+      "term": "Hydrosphere",
+      "meaning": "All the water found on Earth — in oceans, seas, rivers, lakes, glaciers, and groundwater. It covers about 71% of Earth's surface."
+    },
+    {
+      "term": "Atmosphere",
+      "meaning": "The thin blanket of gases surrounding the Earth, held by gravity. It contains mainly nitrogen (78%) and oxygen (21%) and protects life by regulating temperature and blocking UV rays."
+    },
+    {
+      "term": "Biosphere",
+      "meaning": "The narrow zone of Earth where all life exists — the meeting zone of Lithosphere, Hydrosphere, and Atmosphere. All plants, animals, fungi, and microbes are part of the Biosphere."
+    },
+    {
+      "term": "Continent",
+      "meaning": "A large continuous landmass on Earth's surface. There are seven continents: Asia, Africa, North America, South America, Antarctica, Europe, and Australia."
+    },
+    {
+      "term": "Ocean",
+      "meaning": "A vast body of saltwater covering a large area of Earth's surface. There are five oceans: Pacific, Atlantic, Indian, Southern, and Arctic."
+    },
+    {
+      "term": "Freshwater",
+      "meaning": "Water with very low salt content, suitable for drinking and agriculture. Only about 3% of Earth's total water is freshwater; the rest is saltwater in the oceans."
+    },
+    {
+      "term": "Nitrogen",
+      "meaning": "The most abundant gas in the Earth's atmosphere, making up 78% of air. It is essential for making proteins and is part of the nitrogen cycle in nature."
+    },
+    {
+      "term": "Oxygen",
+      "meaning": "The second most abundant gas in the atmosphere (21%). It is essential for animal respiration and combustion. Plants produce oxygen through photosynthesis."
+    },
+    {
+      "term": "Blue Planet",
+      "meaning": "A name for Earth, reflecting the fact that 71% of its surface is covered by water, giving it a predominantly blue appearance when viewed from space."
+    }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Classification",
+      "question": "Classify the following into the correct domain of the Earth: a river, a mountain, a thundercloud, a tiger, the ocean floor, and a fish.",
+      "step_by_step_answer": [
+        "Step 1: Recall the four domains — Lithosphere (solid land), Hydrosphere (all water), Atmosphere (air and gases), Biosphere (all living organisms).",
+        "Step 2: A river — water = Hydrosphere.",
+        "Step 3: A mountain — solid land = Lithosphere.",
+        "Step 4: A thundercloud — clouds form in the Atmosphere (from water vapour — connecting Hydrosphere to Atmosphere).",
+        "Step 5: A tiger — a living organism = Biosphere.",
+        "Step 6: The ocean floor — solid rock under the ocean = Lithosphere (ocean floors are part of the crust).",
+        "Step 7: A fish — a living organism living in water = Biosphere (even though it lives in the Hydrosphere, as a living organism it belongs to the Biosphere).",
+        "Conclusion: River = Hydrosphere. Mountain = Lithosphere. Thundercloud = Atmosphere. Tiger = Biosphere. Ocean floor = Lithosphere. Fish = Biosphere."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Comprehension",
+      "question": "Arrange the seven continents from largest to smallest and name one country in each.",
+      "step_by_step_answer": [
+        "Step 1: Recall the mnemonic — 'A Friendly Neighbour Says All Europeans Are Awesome'.",
+        "Step 2: Asia (largest) — India, China, Japan, Saudi Arabia.",
+        "Step 3: Africa — Nigeria, Egypt, Kenya, South Africa.",
+        "Step 4: North America — USA, Canada, Mexico.",
+        "Step 5: South America — Brazil, Argentina, Peru.",
+        "Step 6: Antarctica — no countries; only research stations (including India's Maitri and Bharati).",
+        "Step 7: Europe — France, Germany, UK, Italy.",
+        "Step 8: Australia (smallest) — Australia (the country shares the continent's name).",
+        "Conclusion: Asia → Africa → North America → South America → Antarctica → Europe → Australia."
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Application",
+      "question": "Why is it said that 'the four domains of the Earth are interdependent'? Give one real-life example from Karnataka.",
+      "step_by_step_answer": [
+        "Step 1: Define interdependence — it means each domain depends on and influences the others.",
+        "Step 2: Give the Karnataka example — The Western Ghats (Lithosphere/mountains) force monsoon winds (Atmosphere) to rise and drop heavy rainfall (Hydrosphere) on the western slopes.",
+        "Step 3: Continue — This rainfall feeds rivers like the Cauvery (Hydrosphere) that nourish forests (Biosphere).",
+        "Step 4: Continue — The forests of the Biosphere absorb CO₂ and release O₂ into the Atmosphere, and their roots hold the soil of the Lithosphere, preventing erosion.",
+        "Step 5: Conclusion — Remove any one domain (e.g., deforest the Biosphere) and you affect all others: less rainfall (Atmosphere/Hydrosphere disrupted), more soil erosion (Lithosphere damaged), and loss of biodiversity (Biosphere collapses). The four domains are inseparable."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "The Four Domains of the Earth",
+      "questions": [
+        {
+          "type": "Recall",
+          "q": "Name the four major domains of the Earth.",
+          "a": "Lithosphere (solid land), Hydrosphere (water), Atmosphere (air/gases), and Biosphere (zone of life)."
+        },
+        {
+          "type": "Recall",
+          "q": "What percentage of Earth's surface is covered by water?",
+          "a": "About 71% of Earth's surface is covered by water."
+        },
+        {
+          "type": "Understanding",
+          "q": "Why is the Biosphere called the 'life zone'?",
+          "a": "The Biosphere is the only zone on Earth where life exists. It is called the 'life zone' because it is the overlap area where Lithosphere, Hydrosphere, and Atmosphere meet and provide conditions suitable for living organisms."
+        },
+        {
+          "type": "Understanding",
+          "q": "Which two gases make up most of the Atmosphere, and in what proportions?",
+          "a": "Nitrogen (78%) and Oxygen (21%) make up about 99% of the Atmosphere."
+        },
+        {
+          "type": "Application",
+          "q": "Give one example of how the Atmosphere and Hydrosphere interact.",
+          "a": "The Atmosphere causes evaporation of ocean water (Hydrosphere), which rises as water vapour, forms clouds in the Atmosphere, and falls back as rainfall — completing the water cycle. Monsoon rain in Karnataka is one example."
+        }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "The Earth has four major domains: Lithosphere (land), Hydrosphere (water), Atmosphere (air), and Biosphere (life zone).",
+    "The Lithosphere includes seven continents — Asia is the largest, Australia is the smallest.",
+    "The Hydrosphere includes five oceans — Pacific is the largest, Arctic is the smallest.",
+    "71% of Earth's surface is water (Hydrosphere); only 29% is land (Lithosphere) — hence Earth is called the 'Blue Planet'.",
+    "The Atmosphere is mainly nitrogen (78%) and oxygen (21%).",
+    "The Biosphere is the narrow zone where all life exists — the meeting point of the other three domains.",
+    "Only about 3% of Earth's water is freshwater; the rest is saltwater in oceans.",
+    "India's research stations in Antarctica (Maitri and Bharati) study the Atmosphere and Lithosphere at the South Pole.",
+    "Karnataka's Western Ghats are a globally significant part of Earth's Biosphere — a UNESCO World Heritage biodiversity hotspot.",
+    "The four domains are interdependent — damaging one affects all others."
+  ],
+
+  "mind_map": {
+    "root": "Major Domains of the Earth",
+    "branches": [
+      {
+        "branch": "Lithosphere",
+        "sub": ["7 Continents: Asia, Africa, N.America, S.America, Antarctica, Europe, Australia", "Solid rock crust + upper mantle", "Ocean floors also part of Lithosphere"]
+      },
+      {
+        "branch": "Hydrosphere",
+        "sub": ["5 Oceans: Pacific, Atlantic, Indian, Southern, Arctic", "71% of Earth's surface is water", "Only 3% is freshwater", "Rivers, lakes, glaciers, groundwater included"]
+      },
+      {
+        "branch": "Atmosphere",
+        "sub": ["78% Nitrogen + 21% Oxygen + 1% others", "Protects from UV rays", "Regulates temperature", "Enables weather and climate"]
+      },
+      {
+        "branch": "Biosphere",
+        "sub": ["Overlap of other 3 domains", "All living organisms: plants, animals, microbes", "Western Ghats = rich Biosphere hotspot", "From 10 km above to 10 km below ocean"]
+      },
+      {
+        "branch": "Karnataka Connections",
+        "sub": ["Deccan Plateau = Lithosphere", "Arabian Sea = Hydrosphere", "Monsoon winds = Atmosphere", "Western Ghats = Biosphere hotspot", "India's Maitri & Bharati stations in Antarctica"]
+      }
+    ]
+  },
+
+  "revision_notes": "Chapter 17 introduces the four major domains of the Earth. The Lithosphere is the solid land (crust + upper mantle), covering 29% of Earth's surface and including seven continents (Asia largest, Australia smallest). The Hydrosphere includes all water — five oceans (Pacific largest, Arctic smallest) and freshwater bodies — covering 71% of Earth's surface; 97% is saltwater, only 3% freshwater. The Atmosphere is Earth's gaseous envelope: 78% nitrogen, 21% oxygen, 1% other gases; it protects life, regulates climate, and enables weather. The Biosphere is the narrow life zone (overlap of the other three domains) extending from 10 km above to 10 km below sea level, home to all living organisms. Key facts: Earth = 'Blue Planet' (71% water). Continents mnemonic: 'A Friendly Neighbour Says All Europeans Are Awesome'. Oceans mnemonic: 'Powerful Athletes Incredibly Surpass All'. Karnataka connections: Deccan Plateau (Lithosphere), Arabian Sea (Hydrosphere), monsoon (Atmosphere), Western Ghats (Biosphere). India's Antarctic stations: Maitri (1989) and Bharati (2012).",
+
+  "must_remember_facts": [
+    "Four domains: Lithosphere (land), Hydrosphere (water), Atmosphere (air), Biosphere (life zone).",
+    "Seven continents: Asia (largest), Africa, North America, South America, Antarctica, Europe, Australia (smallest).",
+    "Five oceans: Pacific (largest), Atlantic, Indian, Southern, Arctic (smallest).",
+    "71% of Earth = water (Hydrosphere); 29% = land (Lithosphere).",
+    "Atmosphere: 78% Nitrogen + 21% Oxygen.",
+    "Only 3% of Earth's water is freshwater.",
+    "Earth is called the 'Blue Planet' because of its vast water coverage.",
+    "Antarctica has no permanent human population; India operates Maitri and Bharati research stations there.",
+    "Biosphere = the only known zone in the universe where life exists.",
+    "The Indian Ocean (third largest) is named after India."
   ]
 }

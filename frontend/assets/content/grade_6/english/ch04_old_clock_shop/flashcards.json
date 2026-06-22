@@ -1,96 +1,32 @@
 {
-  "version": "1.0",
-  "topic_id": "english_grade6_ch04_old_clock_shop_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "English",
+  "textbook": "A Pact with the Sun",
+  "chapter_number": 4,
+  "chapter_title": "The Old-Clock Shop",
+  "total_cards": 20,
   "cards": [
-    {
-      "id": "fc01",
-      "front": {
-        "en": "What is the core idea of The Old-Clock Shop? (FC1)",
-        "hi": "What is the core idea of The Old-Clock Shop? (FC1)",
-        "kn": "What is the core idea of The Old-Clock Shop? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc02",
-      "front": {
-        "en": "Why is The Old-Clock Shop important? (FC2)",
-        "hi": "Why is The Old-Clock Shop important? (FC2)",
-        "kn": "Why is The Old-Clock Shop important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc03",
-      "front": {
-        "en": "What is the core idea of The Old-Clock Shop? (FC3)",
-        "hi": "What is the core idea of The Old-Clock Shop? (FC3)",
-        "kn": "What is the core idea of The Old-Clock Shop? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc04",
-      "front": {
-        "en": "Why is The Old-Clock Shop important? (FC4)",
-        "hi": "Why is The Old-Clock Shop important? (FC4)",
-        "kn": "Why is The Old-Clock Shop important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc05",
-      "front": {
-        "en": "What is the core idea of The Old-Clock Shop? (FC5)",
-        "hi": "What is the core idea of The Old-Clock Shop? (FC5)",
-        "kn": "What is the core idea of The Old-Clock Shop? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    }
+    { "id": "fc01", "type": "Recall", "difficulty": "Easy", "front": "What kind of shop does Ray own?", "back": "An old-clock shop — filled with clocks of all kinds that tick and chime.", "memory_hook": "Old clocks + chiming sounds = Ray's world, even though he cannot hear them." },
+    { "id": "fc02", "type": "Recall", "difficulty": "Easy", "front": "What disability does Ray have?", "back": "Ray is deaf (cannot hear) and mute (cannot speak).", "memory_hook": "Deaf = no hearing. Mute = no speaking. But Ray is sharper than anyone who can do both!" },
+    { "id": "fc03", "type": "Recall", "difficulty": "Easy", "front": "How does Ray communicate with customers?", "back": "Ray communicates by writing notes on a pad. He cannot speak, so he uses written words to interact.", "memory_hook": "Pen and paper = Ray's voice. Simple but effective." },
+    { "id": "fc04", "type": "Recall", "difficulty": "Easy", "front": "When does the story take place?", "back": "On Christmas Eve — a time associated with peace, giving, and goodwill.", "memory_hook": "Christmas Eve = season of giving. Ray gives generously — it fits perfectly." },
+    { "id": "fc05", "type": "Recall", "difficulty": "Easy", "front": "Who enters the clock shop in the story?", "back": "Two young men who appear poor and desperate. They enter with the intention of robbing the shop.", "memory_hook": "Two men enter = threat. Ray's response = surprise them with kindness." },
+    { "id": "fc06", "type": "Concept", "difficulty": "Easy", "front": "How did Ray figure out the two men's real intention?", "back": "Ray carefully observed their body language and behaviour. They were not genuinely looking at clocks — they were looking around the shop, sizing it up. His sharp observation, developed through years of relying on sight rather than hearing, told him they planned to rob him.", "memory_hook": "Cannot hear → must look harder. Ray's eyes were his superpower." },
+    { "id": "fc07", "type": "Concept", "difficulty": "Easy", "front": "What did Ray offer the two young men?", "back": "Ray offered them a good meal, some warm clothing, and enough money to meet their immediate need — addressing the root cause of their desperation.", "memory_hook": "Food + Clothing + Money = all they truly needed. Ray understood the real problem." },
+    { "id": "fc08", "type": "Why/How", "difficulty": "Easy", "front": "Why did the two men give up their plan to rob Ray?", "back": "They were deeply moved and ashamed. Ray had seen through their plan and yet responded with kindness and generosity instead of anger or fear. His compassion transformed their intention — they could no longer bring themselves to harm such a kind man.", "memory_hook": "Kindness disarmed them. No fight needed. Compassion won." },
+    { "id": "fc09", "type": "Definition", "difficulty": "Easy", "front": "What does 'compassion' mean?", "back": "Compassion is deep sympathy and concern for someone who is suffering, combined with the desire to help. It goes beyond feeling sorry — it motivates action.", "memory_hook": "Compassion = Sympathy + Action. Ray didn't just feel sorry for them — he helped them." },
+    { "id": "fc10", "type": "Definition", "difficulty": "Easy", "front": "What does 'perceptive' mean? How was Ray perceptive?", "back": "Perceptive means having a sharp ability to notice and understand things others might miss. Ray was perceptive because he observed the two men's body language and understood their true intention before they acted.", "memory_hook": "Perceptive = sharp observer. Ray saw through the mask of innocent buyers." },
+    { "id": "fc11", "type": "Definition", "difficulty": "Easy", "front": "What does 'desperate' mean? Why were the two men desperate?", "back": "Desperate means being in a very serious situation with little hope, willing to do anything to escape it. The two men appeared desperate — poor, cold, hungry — which led them to consider robbery.", "memory_hook": "Desperate people do desperate things. Understanding WHY matters." },
+    { "id": "fc12", "type": "Application", "difficulty": "Easy", "front": "What is the moral of 'The Old-Clock Shop'?", "back": "Compassion and kindness are more powerful than confrontation or punishment. Treating people with dignity and addressing their real needs can transform even those who intend to do wrong.", "memory_hook": "Kindness > Force. Ray proved it without saying a single word." },
+    { "id": "fc13", "type": "Why/How", "difficulty": "Easy", "front": "How does the story show that physical disability does not limit intelligence?", "back": "Ray was deaf and mute, yet he was the most perceptive and wisest person in the story. He understood the men's plan when no one else could have. He then responded in the most effective way possible. His disability did not limit his intelligence, empathy, or wisdom.", "memory_hook": "Disability ≠ inability. Ray couldn't hear or speak but understood everything." },
+    { "id": "fc14", "type": "Concept", "difficulty": "Easy", "front": "Why did Ray not call the police when he suspected the men of planning to rob him?", "back": "Ray chose compassion over confrontation. He understood the men were desperate, not evil. Calling the police would punish the symptom but not solve the root cause. By offering help, he removed the reason for the robbery entirely.", "memory_hook": "Root cause = desperation. Solution = address the need. No police needed." },
+    { "id": "fc15", "type": "Recall", "difficulty": "Easy", "front": "What is special about the clocks in Ray's shop?", "back": "The shop is full of clocks of all kinds — they tick and chime. The sounds fill the shop with life. Interestingly, Ray, who is deaf, cannot hear the sounds of his own beloved clocks.", "memory_hook": "Irony: a deaf man who loves clocks but cannot hear them tick and chime." },
+    { "id": "fc16", "type": "Definition", "difficulty": "Easy", "front": "What does 'dignity' mean? How did Ray treat the two men with dignity?", "back": "Dignity means being treated with respect and honour. Ray treated the two men with dignity by not humiliating them, not calling the police, and offering them help privately and kindly — as if they were guests, not criminals.", "memory_hook": "Dignity = treating someone as a person, not a problem. Ray chose person over problem." },
+    { "id": "fc17", "type": "Application", "difficulty": "Easy", "front": "Give a modern example of compassion over confrontation.", "back": "A school counsellor who, instead of punishing a bully, finds out the bully is being abused at home and arranges help for them. Addressing the root cause (abuse) through compassion is more effective than just punishment.", "memory_hook": "Behind bad behaviour is often a deeper pain. Ray knew this. Do you?" },
+    { "id": "fc18", "type": "Why/How", "difficulty": "Easy", "front": "Why is Christmas Eve an important setting for this story?", "back": "Christmas Eve is associated with giving, kindness, and goodwill. Ray's act of generosity on this night reinforces the theme — the spirit of the season is one of compassion and giving, which is exactly what Ray embodies.", "memory_hook": "Christmas = season of giving. Ray gave his clocks, cloak... wait — that was Chapter 3! Ray gave food, clothes, and money." },
+    { "id": "fc19", "type": "Concept", "difficulty": "Easy", "front": "What does Ray's character teach us about differently-abled individuals?", "back": "Ray teaches us that differently-abled individuals should never be underestimated. Despite being deaf and mute, Ray was the wisest and most compassionate person in the story. His disability sharpened his other senses and qualities rather than diminishing him.", "memory_hook": "Never underestimate. Ray = proof that ability takes many forms." },
+    { "id": "fc20", "type": "Application", "difficulty": "Easy", "front": "What would you do in Ray's place? Would you respond with compassion or call for help?", "back": "Open answer. The story encourages compassion over confrontation. A good answer would include: checking if the men are truly a threat, understanding their situation, and, if safe to do so, offering help or a way out rather than immediately escalating to punishment.", "memory_hook": "Ask yourself: What is the kindest AND wisest response? That is Ray's question too." }
   ]
 }

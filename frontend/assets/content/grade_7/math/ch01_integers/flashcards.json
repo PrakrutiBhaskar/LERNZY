@@ -1,96 +1,32 @@
 {
-  "version": "1.0",
-  "topic_id": "math_grade7_ch01_integers_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 7,
+  "subject": "Mathematics",
+  "textbook": "Mathematics — Textbook for Class VII",
+  "chapter_number": 1,
+  "chapter_title": "Integers",
+  "total_cards": 20,
   "cards": [
-    {
-      "id": "fc01",
-      "front": {
-        "en": "What is the core idea of Integers? (FC1)",
-        "hi": "What is the core idea of Integers? (FC1)",
-        "kn": "What is the core idea of Integers? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc02",
-      "front": {
-        "en": "Why is Integers important? (FC2)",
-        "hi": "Why is Integers important? (FC2)",
-        "kn": "Why is Integers important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc03",
-      "front": {
-        "en": "What is the core idea of Integers? (FC3)",
-        "hi": "What is the core idea of Integers? (FC3)",
-        "kn": "What is the core idea of Integers? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc04",
-      "front": {
-        "en": "Why is Integers important? (FC4)",
-        "hi": "Why is Integers important? (FC4)",
-        "kn": "Why is Integers important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc05",
-      "front": {
-        "en": "What is the core idea of Integers? (FC5)",
-        "hi": "What is the core idea of Integers? (FC5)",
-        "kn": "What is the core idea of Integers? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    }
+    {"id": "fc01", "type": "Definition", "difficulty": "Easy", "front": "What are integers? Write the set of integers.", "back": "Integers are all whole numbers including zero and their negatives. The set of integers = {…, −4, −3, −2, −1, 0, 1, 2, 3, 4, …}. Integers include: positive integers (1, 2, 3, …), negative integers (−1, −2, −3, …), and zero (0). Integers do NOT include fractions (½) or decimals (1.5).", "memory_hook": "INT = Integral = complete, whole. No halves, no decimals. Every integer is a step on the number line — no gaps, no fractions."},
+    {"id": "fc02", "type": "Recall", "difficulty": "Easy", "front": "What is the additive inverse of an integer? Give three examples.", "back": "The additive inverse of an integer a is −a, such that a + (−a) = 0. Examples: Additive inverse of 7 is −7 (since 7 + (−7) = 0). Additive inverse of −12 is 12 (since −12 + 12 = 0). Additive inverse of 0 is 0 (since 0 + 0 = 0). The additive inverse is also called the 'opposite' of an integer.", "memory_hook": "Additive Inverse = OPPOSITE + CANCELS to ZERO. Every integer has an exact opposite that destroys it (adds to zero). Like equal and opposite reactions in physics."},
+    {"id": "fc03", "type": "Recall", "difficulty": "Easy", "front": "State the commutative and associative properties of addition of integers with examples.", "back": "Commutative Property: a + b = b + a. The order of addition doesn't matter. Example: (−5) + 3 = 3 + (−5) = −2. Associative Property: (a + b) + c = a + (b + c). The grouping doesn't matter. Example: [(−3) + 4] + (−2) = (−3) + [4 + (−2)] = −1. Both properties help simplify calculations by rearranging or regrouping integers.", "memory_hook": "Commutative = Commute (travel/swap). You can swap the order. Associative = Associate (group). You can regroup. Both hold for integer addition and multiplication — but NOT for subtraction or division."},
+    {"id": "fc04", "type": "Concept", "difficulty": "Easy", "front": "What is the rule for multiplying two integers with different signs? Give two examples.", "back": "When multiplying two integers with DIFFERENT signs (one positive, one negative), the product is always NEGATIVE. Examples: (+5) × (−3) = −15. (−8) × (+4) = −32. This rule arises from the pattern of multiplication: 3×2=6, 3×1=3, 3×0=0, 3×(−1)=−3, 3×(−2)=−6 — each step decreases by 3, confirming that positive × negative = negative.", "memory_hook": "DIFFERENT signs = DIFFERENT outcome = NEGATIVE. Like mixing oil and water — opposites don't combine happily. + and − together → always −."},
+    {"id": "fc05", "type": "Concept", "difficulty": "Easy", "front": "What is the rule for multiplying two negative integers? Why does negative × negative = positive?", "back": "When multiplying two NEGATIVE integers, the product is always POSITIVE. Example: (−4) × (−5) = +20. (−3) × (−3) = +9. Pattern reasoning: (−3) × 2 = −6, (−3) × 1 = −3, (−3) × 0 = 0, (−3) × (−1) = +3, (−3) × (−2) = +6 — each step increases by 3, so (−3) × (−1) must be +3. The pattern demands it.", "memory_hook": "'Enemy of my enemy is my friend.' (−)(−) = (+). Two negatives cancel each other to become positive. Count negative signs: EVEN = positive, ODD = negative."},
+    {"id": "fc06", "type": "Recall", "difficulty": "Easy", "front": "State the distributive property of multiplication over addition for integers, with an example.", "back": "Distributive Property: a × (b + c) = (a × b) + (a × c). This lets you 'distribute' multiplication over addition. Example: (−3) × (4 + (−2)) = (−3) × 4 + (−3) × (−2) = −12 + 6 = −6. Check: (−3) × (4 + (−2)) = (−3) × 2 = −6. ✓ Also works for subtraction: a × (b − c) = ab − ac.", "memory_hook": "Distributive = DISTRIBUTE (share). The multiplier gives its value to EACH term inside the bracket. Like a teacher distributing worksheets to each student — everyone in the bracket gets multiplied."},
+    {"id": "fc07", "type": "Concept", "difficulty": "Easy", "front": "What are the sign rules for division of integers?", "back": "Division sign rules (same as multiplication): Positive ÷ Positive = Positive: (+12) ÷ (+4) = +3. Negative ÷ Negative = Positive: (−12) ÷ (−4) = +3. Positive ÷ Negative = Negative: (+12) ÷ (−4) = −3. Negative ÷ Positive = Negative: (−12) ÷ (+4) = −3. Rule summary: SAME signs → Positive quotient. DIFFERENT signs → Negative quotient.", "memory_hook": "Division signs = SAME as multiplication signs. Learn one, learn both. Same signs → smile (+). Different signs → frown (−). No new rules to learn for division!"},
+    {"id": "fc08", "type": "Concept", "difficulty": "Easy", "front": "Why is division by zero undefined? What is 0 ÷ 5?", "back": "Division by zero is UNDEFINED because there is no number that, when multiplied by 0, gives a non-zero result. If 6 ÷ 0 = x, then x × 0 = 6 — but any number times 0 is always 0, never 6. So no such x exists — the operation is impossible/undefined. However, 0 ÷ 5 = 0, because 0 × 5 = 0. ✓. Rule: Any number ÷ 0 = UNDEFINED. 0 ÷ any non-zero number = 0.", "memory_hook": "Divide by zero = impossible. Calculators show 'ERROR'. Think: share 6 sweets among 0 people — it's nonsensical. But share 0 sweets among 5 people = everyone gets 0. Zero ÷ anything = 0. Anything ÷ zero = UNDEFINED."},
+    {"id": "fc09", "type": "Application", "difficulty": "Easy", "front": "The temperature at a hill station at 6 AM is −8°C. It rises by 3°C every hour. What is the temperature at 10 AM?", "back": "From 6 AM to 10 AM = 4 hours. Rise in temperature = 4 × 3 = +12°C. Temperature at 10 AM = −8 + 12 = 4°C. Answer: 4°C at 10 AM. This uses integer addition (adding a positive to a negative) and multiplication (rate × time).", "memory_hook": "Temperature problems are classic integer word problems. Start value + (change per hour × number of hours) = final value. Always check: does the answer make sense? Rising from −8°C by 12°C gives +4°C — makes sense!"},
+    {"id": "fc10", "type": "Recall", "difficulty": "Easy", "front": "Are integers closed under all four operations? Explain.", "back": "Integers are: CLOSED under Addition (sum of two integers is always an integer: −3 + 5 = 2 ✓), CLOSED under Subtraction (difference is always an integer: 2 − 7 = −5 ✓), CLOSED under Multiplication (product is always an integer: (−3) × 4 = −12 ✓), NOT CLOSED under Division (quotient may not be an integer: (−7) ÷ 2 = −3.5 ✗, not an integer). Closure under division fails whenever the divisor does not exactly divide the dividend.", "memory_hook": "Integer closure: +, −, × = YES (always get integer). ÷ = NO (may get fraction). Simple test: can (−7) ÷ 2 be an integer? No — it's −3.5. Division breaks closure!"},
+    {"id": "fc11", "type": "Application", "difficulty": "Easy", "front": "In a quiz, correct = +5, wrong = −2, skipped = 0. Priya gets 6 correct, 4 wrong, 5 skipped. Find her score.", "back": "Correct answers score = 6 × (+5) = +30. Wrong answers score = 4 × (−2) = −8. Skipped score = 5 × 0 = 0. Total score = 30 + (−8) + 0 = 22. Answer: Priya's score is 22. This applies multiplication of integers (positive × negative = negative) and addition of integers.", "memory_hook": "Quiz integer problem: (correct × +5) + (wrong × −2) + (skipped × 0). Always multiply first, then add. This is a real-life use of integer operations — competitive exams like JEE, NEET, and UPSC use this scoring system!"},
+    {"id": "fc12", "type": "Concept", "difficulty": "Easy", "front": "What is the product of: (a) an even number of negative integers? (b) an odd number of negative integers?", "back": "(a) Even number of negative integers → POSITIVE product. Example: (−2) × (−3) × (−4) × (−5) = ? → 4 negatives (even) → positive. |2×3×4×5| = 120. Answer: +120. (b) Odd number of negative integers → NEGATIVE product. Example: (−2) × (−3) × (−4) = ? → 3 negatives (odd) → negative. |2×3×4| = 24. Answer: −24.", "memory_hook": "Count negatives: EVEN = positive (they pair up and cancel). ODD = negative (one is left over unpaired). Like socks: even number of socks = all pairs. Odd number = one leftover = negative sign leftover."},
+    {"id": "fc13", "type": "Recall", "difficulty": "Easy", "front": "State any three properties of multiplication of integers.", "back": "1. Commutative Property: a × b = b × a. Example: (−3) × 4 = 4 × (−3) = −12. 2. Associative Property: (a × b) × c = a × (b × c). Example: [(−2) × 3] × (−4) = (−2) × [3 × (−4)] = 24. 3. Multiplicative Identity: a × 1 = a. Example: (−7) × 1 = −7. Also: Zero property: a × 0 = 0. Distributive: a(b+c) = ab + ac.", "memory_hook": "Multiplication properties = CAD-IZ: Commutative, Associative, Distributive, Identity (×1), Zero (×0=0). All five matter. The Distributive property is the most useful for mental math."},
+    {"id": "fc14", "type": "Application", "difficulty": "Easy", "front": "Use the distributive property to find: (−25) × 99", "back": "Write 99 = 100 − 1. Then: (−25) × 99 = (−25) × (100 − 1) = (−25) × 100 − (−25) × 1 = −2500 − (−25) = −2500 + 25 = −2475. Answer: −2475. This is much easier than directly multiplying (−25) × 99. The distributive property turns hard multiplication into easy steps.", "memory_hook": "Distributive property trick: rewrite the number as a sum or difference of a round number. 99 = 100−1, 98 = 100−2, 51 = 50+1. Then distribute. Mental math becomes fast and accurate."},
+    {"id": "fc15", "type": "Concept", "difficulty": "Easy", "front": "What is the absolute value of an integer? Find |−15| and |+8|.", "back": "The absolute value of an integer is its distance from zero on the number line — always non-negative. Written as |a|. Rules: If a > 0, |a| = a. If a < 0, |a| = −a (flip the sign). If a = 0, |0| = 0. Examples: |−15| = 15 (distance of −15 from 0 is 15 steps). |+8| = 8. |0| = 0. Absolute value is used to find the magnitude of an integer regardless of direction.", "memory_hook": "Absolute value = ALWAYS POSITIVE (or zero). Strip away the sign, keep the size. |−15| = 15 because 15 is 15 steps from zero, whether you go left or right. |a| is like the speed of a car — speed is always positive, direction is separate."},
+    {"id": "fc16", "type": "Application", "difficulty": "Easy", "front": "A submarine is at −120 m. It rises 45 m, then dives 30 m. What is its final depth?", "back": "Start: −120 m. Rise 45 m: −120 + 45 = −75 m. Dive 30 m: −75 + (−30) = −75 − 30 = −105 m. Final depth: −105 m (105 metres below sea level). This combines two integer additions — one positive (rising), one negative (diving).", "memory_hook": "Depth problems: BELOW sea level = negative. RISING = add positive. DIVING = add negative (go deeper = more negative). Always draw a quick number line or imagine an elevator going down."},
+    {"id": "fc17", "type": "Recall", "difficulty": "Easy", "front": "What is the difference between the commutative property and the associative property?", "back": "Commutative Property: concerns the ORDER of operands — swapping order doesn't change the result. a + b = b + a (addition). a × b = b × a (multiplication). Example: 3 + (−5) = (−5) + 3 = −2. Associative Property: concerns the GROUPING (brackets) of operands — changing grouping doesn't change the result. (a + b) + c = a + (b + c). Example: [(−3) + 4] + (−2) = (−3) + [4 + (−2)] = −1. Key: Commutative = SWAP. Associative = REGROUP.", "memory_hook": "Commutative = Commute = TRAVEL/SWAP positions. Associative = Associate = change your GROUP (who you bracket with). SWAP vs REGROUP — two different freedoms in addition and multiplication."},
+    {"id": "fc18", "type": "Application", "difficulty": "Easy", "front": "Evaluate using properties: (−1) × (−2) × (−3) × (−4) × (−5)", "back": "Step 1: Count negatives — 5 (ODD number). → Result is NEGATIVE. Step 2: Multiply absolute values: 1 × 2 × 3 × 4 × 5 = 120. Step 3: Apply sign: answer is −120. Verify step by step: (−1)(−2) = 2. 2×(−3) = −6. (−6)×(−4) = 24. 24×(−5) = −120. ✓ Answer: −120.", "memory_hook": "Product of integers: FIRST count negatives (even→+, odd→−), THEN multiply the absolute values. Two-step method. Never lose track of the sign!"},
+    {"id": "fc19", "type": "Application", "difficulty": "Easy", "front": "A business records a loss of ₹2,400 per month. What is the total profit/loss over 8 months? What does this mean?", "back": "Loss per month = −₹2,400. Over 8 months = (−2400) × 8 = −₹19,200. This means the business has a total LOSS of ₹19,200 over 8 months. Negative sign represents a loss; positive would represent a profit. If the business then gained ₹19,200, total = −19200 + 19200 = 0 (break-even).", "memory_hook": "Business integers: PROFIT = positive, LOSS = negative. Monthly loss × months = total loss. Real-world integer multiplication that accountants and shopkeepers use every day."},
+    {"id": "fc20", "type": "Application", "difficulty": "Easy", "front": "Find the integer that should replace ★: (−36) ÷ ★ = 4", "back": "If (−36) ÷ ★ = 4, then ★ = (−36) ÷ 4 = −9. Check: (−36) ÷ (−9) = +4. ✓ (Negative ÷ negative = positive.) Answer: ★ = −9. This uses the relationship between division and multiplication: if a ÷ b = c, then a = b × c. Also verifies the sign rule: (−36) ÷ (−9) = positive.", "memory_hook": "Find the missing integer: use the inverse operation. Division ↔ Multiplication. If a ÷ b = c → b = a ÷ c. Always check your sign — the sign of the missing integer is determined by the sign rule."}
   ]
 }

@@ -1,366 +1,252 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch26_rural_administration_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science",
+  "textbook": "Social and Political Life — Part I (Civics)",
+  "chapter_number": 26,
+  "chapter_title": "Rural Administration",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Administration? (Q1)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Administration? (Q1)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Administration? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "What is the local name for the Patwari in Karnataka?",
+      "options": ["A) Sarpanch", "B) Village Accountant (Karnam)", "C) Tehsildar", "D) Block Development Officer"],
+      "correct_answer": "B) Village Accountant (Karnam)",
+      "explanation": "In Karnataka, the Patwari (the frontline revenue official who maintains village land records) is known as the Village Accountant or Karnam. The Sarpanch is the elected head of the Gram Panchayat. The Tehsildar is the taluk-level revenue officer who supervises Village Accountants."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Rural Administration in a community? (Q2)",
-        "hi": "Who or what body regulates the civic issues related to Rural Administration in a community? (Q2)",
-        "kn": "Who or what body regulates the civic issues related to Rural Administration in a community? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "What is the RTC (pahani in Karnataka) used for?",
+      "options": [
+        "A) As a voter ID card for Panchayat elections",
+        "B) As the official government document proving land ownership",
+        "C) As a birth certificate for children born in rural areas",
+        "D) As a ration card for the Public Distribution System"
+      ],
+      "correct_answer": "B) As the official government document proving land ownership",
+      "explanation": "The RTC (Record of Rights, Tenancy and Crops), called pahani in Karnataka, is the official land ownership document. It records who owns the land, its size, crops grown, and any dues. It is required for bank loans, land sales, inheritance, and accessing government agricultural schemes."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Administration? (Q3)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Administration? (Q3)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Administration? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "What is land mutation?",
+      "options": [
+        "A) Changing the use of agricultural land to commercial land",
+        "B) Officially updating land records to show a new owner after sale or inheritance",
+        "C) The process of measuring land boundaries by the Patwari",
+        "D) The annual survey of crops grown on a piece of land"
+      ],
+      "correct_answer": "B) Officially updating land records to show a new owner after sale or inheritance",
+      "explanation": "Land mutation is the administrative process of updating official land records to reflect a change in ownership — after the land is sold, inherited, or gifted. The Tehsildar (Revenue Inspector) approves the mutation after the Patwari verifies the facts. Without mutation, the new owner cannot legally prove ownership."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Rural Administration in a community? (Q4)",
-        "hi": "Who or what body regulates the civic issues related to Rural Administration in a community? (Q4)",
-        "kn": "Who or what body regulates the civic issues related to Rural Administration in a community? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "Karnataka's Bhoomi Project was launched primarily to:",
+      "options": [
+        "A) Build irrigation canals in rural Karnataka",
+        "B) Digitise land records and make them accessible to farmers online",
+        "C) Provide housing for landless farmers",
+        "D) Register all voters in rural Karnataka for elections"
+      ],
+      "correct_answer": "B) Digitise land records and make them accessible to farmers online",
+      "explanation": "Bhoomi (launched 2000) is Karnataka's e-governance project that digitised over 20 million land records. Farmers can now access their RTC (pahani) online at bhoomi.karnataka.gov.in or at taluk kiosks for ₹10–15, eliminating dependence on Patwaris for basic records and reducing corruption in land record access."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Administration? (Q5)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Administration? (Q5)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Administration? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "What is an FIR?",
+      "options": [
+        "A) Financial Information Report — filed at the bank when a loan is taken",
+        "B) First Information Report — a formal written complaint filed at the police station after a crime",
+        "C) Field Inspection Record — filed by the Patwari when measuring land",
+        "D) Farmer Income Register — a record of a farmer's annual income kept by the tehsil"
+      ],
+      "correct_answer": "B) First Information Report — a formal written complaint filed at the police station after a crime",
+      "explanation": "FIR (First Information Report) is the formal written complaint filed at a police station when a crime occurs. It records what happened, when, where, and who was involved. Filing an FIR is the legally required first step that triggers a police investigation. Every citizen has the right to file an FIR."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Rural Administration in a community? (Q6)",
-        "hi": "Who or what body regulates the civic issues related to Rural Administration in a community? (Q6)",
-        "kn": "Who or what body regulates the civic issues related to Rural Administration in a community? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "Can a police officer legally refuse to register an FIR?",
+      "options": [
+        "A) Yes — if the officer believes the complaint is false",
+        "B) Yes — if the crime occurred outside the police station's jurisdiction",
+        "C) No — every citizen has the right to file an FIR; refusal is illegal",
+        "D) Yes — if the complainant does not have an Aadhaar card"
+      ],
+      "correct_answer": "C) No — every citizen has the right to file an FIR; refusal is illegal",
+      "explanation": "Every citizen has the legal right to file an FIR. Police cannot refuse — even if they think the complaint may be false (they can investigate that later). If a police officer refuses, the complainant can send the complaint to the Superintendent of Police, approach a magistrate, or file a complaint against the officer. Refusal to register an FIR is a misconduct offence."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Administration? (Q7)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Administration? (Q7)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Administration? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "What is the title of the District Collector in Karnataka?",
+      "options": ["A) District Commissioner", "B) Deputy Commissioner (DC)", "C) Chief Executive Officer", "D) District Superintendent"],
+      "correct_answer": "B) Deputy Commissioner (DC)",
+      "explanation": "In Karnataka, the District Collector is officially titled the Deputy Commissioner (DC). The DC is a senior IAS officer who heads all government departments in the district — revenue, law and order, development, disaster management, and elections. Karnataka has 31 DCs — one for each district."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Rural Administration in a community? (Q8)",
-        "hi": "Who or what body regulates the civic issues related to Rural Administration in a community? (Q8)",
-        "kn": "Who or what body regulates the civic issues related to Rural Administration in a community? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "Which of the following is a responsibility of the District Collector / Deputy Commissioner?",
+      "options": [
+        "A) Electing the Sarpanch of every village in the district",
+        "B) Leading disaster relief operations when floods or droughts affect the district",
+        "C) Teaching in primary schools during teacher shortages",
+        "D) Collecting income tax from citizens in the district"
+      ],
+      "correct_answer": "B) Leading disaster relief operations when floods or droughts affect the district",
+      "explanation": "The District Collector/DC leads disaster management in the district — coordinating NDRF teams, relief camps, food and medicine distribution, evacuation, and damage assessment during floods, droughts, or earthquakes. The DC does not conduct Panchayat elections, teach in schools, or collect income tax (which is a central government function)."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Administration? (Q9)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Administration? (Q9)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Rural Administration? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "What does Karnataka's Sakala scheme guarantee?",
+      "options": [
+        "A) Free land to all SC and ST farmers",
+        "B) Delivery of government services including land records within fixed time limits",
+        "C) Free legal representation for farmers in land disputes",
+        "D) One free trip to the district headquarters for every Gram Panchayat member"
+      ],
+      "correct_answer": "B) Delivery of government services including land records within fixed time limits",
+      "explanation": "Sakala (meaning 'on time' in Kannada) is Karnataka's scheme that legally mandates delivery of government services within specified time limits. For example: RTC/pahani copies must be provided within 7 days; mutations within 30 days; caste certificates within 7 days. Citizens are entitled to compensation if deadlines are missed."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Rural Administration in a community? (Q10)",
-        "hi": "Who or what body regulates the civic issues related to Rural Administration in a community? (Q10)",
-        "kn": "Who or what body regulates the civic issues related to Rural Administration in a community? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "Who is responsible for hearing land mutation applications and supervising Patwaris at the taluk level?",
+      "options": ["A) Sarpanch", "B) District Collector", "C) Tehsildar (Revenue Inspector)", "D) Block Development Officer"],
+      "correct_answer": "C) Tehsildar (Revenue Inspector)",
+      "explanation": "The Tehsildar (called Revenue Inspector/RI or Tahsildar in Karnataka) is the revenue officer at the taluk level. They supervise Patwaris, process land mutation applications, hear local land disputes, and issue income and caste certificates. They are above the Patwari but below the DC in the revenue hierarchy."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "A farmer wants to take a bank loan using her agricultural land as collateral. Which document does the bank require as proof of ownership?",
+      "options": [
+        "A) Voter ID card",
+        "B) Ration card",
+        "C) RTC (pahani) — the Record of Rights from the revenue department",
+        "D) A letter from the Sarpanch certifying land ownership"
+      ],
+      "correct_answer": "C) RTC (pahani) — the Record of Rights from the revenue department",
+      "explanation": "Banks require the RTC (pahani in Karnataka) as the legally recognised proof of land ownership before giving agricultural loans against land as collateral. A voter ID or ration card does not prove land ownership. A Sarpanch's letter has no legal standing as land ownership proof — only the official revenue department record (RTC) carries legal weight."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "Rajan buys land from Geetha. After registration, Rajan finds his name is still not in the government land records. What step has he missed?",
+      "options": [
+        "A) He has not voted in the last Panchayat election",
+        "B) He has not applied for land mutation to update the land records in his name",
+        "C) He has not obtained a No Objection Certificate from the police station",
+        "D) He has not informed the Gram Panchayat about the purchase"
+      ],
+      "correct_answer": "B) He has not applied for land mutation to update the land records in his name",
+      "explanation": "Registering the sale deed (at the Sub-Registrar's office) is NOT the same as land mutation. After registration, the buyer must separately apply for mutation to the Tehsildar, who directs the Patwari to update the land records. Without mutation, the old owner's name remains in the official records even after the legal sale is complete."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "How did the Bhoomi Project specifically reduce corruption in Karnataka's land records administration?",
+      "options": [
+        "A) It deployed extra police at all Patwari offices to prevent bribery",
+        "B) It removed the Patwari's monopoly over information by digitising records and making them publicly accessible online",
+        "C) It replaced all Patwaris with new recruits trained in anti-corruption practices",
+        "D) It transferred all land record functions to Gram Panchayats"
+      ],
+      "correct_answer": "B) It removed the Patwari's monopoly over information by digitising records and making them publicly accessible online",
+      "explanation": "Bhoomi eliminated the root cause of corruption — information asymmetry. Before Bhoomi, only the Patwari had the records, creating a situation where farmers had to bribe to access their own information. By digitising records and making them publicly available online, Bhoomi removed the Patwari's monopoly. When information is transparent and accessible, the opportunity for extortion disappears."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "Two farmers have a boundary dispute. The Patwari's re-measurement supports Farmer A's claim, but Farmer B disagrees. What is Farmer B's next step?",
+      "options": [
+        "A) Physically move the boundary marker to claim the disputed land",
+        "B) File an appeal with the Tehsildar (Revenue Inspector) who can review the Patwari's decision",
+        "C) Directly file a case in the Supreme Court of India",
+        "D) Ask the Sarpanch to settle the dispute at the Gram Sabha"
+      ],
+      "correct_answer": "B) File an appeal with the Tehsildar (Revenue Inspector) who can review the Patwari's decision",
+      "explanation": "The official dispute resolution hierarchy is: Patwari → Tehsildar → DC → Revenue Court. Farmer B should formally appeal to the Tehsildar, who can review the Patwari's measurement, order a fresh survey, and hear both parties' evidence. Physical encroachment is illegal. The Gram Sabha handles Panchayat matters, not revenue land disputes."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "What is the key difference between the District Collector (DC) and the Zila Parishad Chairperson?",
+      "options": [
+        "A) The DC handles rural areas; the ZP Chairperson handles urban areas",
+        "B) The DC is a government-appointed IAS officer; the ZP Chairperson is an elected representative",
+        "C) The DC has more power than the ZP Chairperson in all matters",
+        "D) There is no difference — both serve the same administrative function at the district level"
+      ],
+      "correct_answer": "B) The DC is a government-appointed IAS officer; the ZP Chairperson is an elected representative",
+      "explanation": "The District Collector/DC is an IAS officer appointed by the state government — not elected. They manage the executive government administration. The Zila Parishad Chairperson is elected by voters — a political representative heading the district's elected local body (Panchayati Raj). Both work at the district level but in fundamentally different systems: executive government vs. elected local democracy."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Which government scheme guarantees 100 days of rural employment and is implemented through Gram Panchayats with oversight at the taluk and district levels?",
+      "options": ["A) PM Kisan Samman Nidhi", "B) MGNREGA", "C) Pradhan Mantri Fasal Bima Yojana", "D) National Rural Health Mission"],
+      "correct_answer": "B) MGNREGA",
+      "explanation": "MGNREGA (Mahatma Gandhi National Rural Employment Guarantee Act) guarantees 100 days of wage employment per year to rural households. It is primarily implemented through Gram Panchayats — they register workers, provide employment on public works, and pay wages. The DC's office at the district level and the Panchayat Samiti at the block level oversee implementation and address complaints."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "A theft occurs in Geetha's house in a village. She goes to the police station but the officer says 'we are too busy, come back next week.' What should Geetha do?",
+      "options": [
+        "A) Accept the delay and come back next week as asked",
+        "B) Approach the Sarpanch to file the FIR on her behalf",
+        "C) Send a written complaint to the Superintendent of Police or approach a magistrate who can direct the police to register the FIR",
+        "D) File a complaint directly in the High Court"
+      ],
+      "correct_answer": "C) Send a written complaint to the Superintendent of Police or approach a magistrate who can direct the police to register the FIR",
+      "explanation": "A police officer cannot legally delay registering an FIR — every citizen has the immediate right to have their FIR registered. If an officer refuses or delays without valid reason, the complainant can: (1) send the complaint in writing by registered post to the Superintendent of Police; (2) approach a Judicial Magistrate who can order the police to register the FIR; or (3) file a complaint against the officer with the State Police Complaints Authority."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "Which of the following best explains why land record accuracy is especially important for marginalised rural communities?",
+      "options": [
+        "A) Marginalised communities own more land and therefore need more records",
+        "B) Without accurate records, marginalised farmers cannot prove ownership and risk dispossession by powerful groups who can manipulate records",
+        "C) Land records determine a family's caste certificate, which is needed for reservations",
+        "D) Government schools in rural areas use land records to determine student admission eligibility"
+      ],
+      "correct_answer": "B) Without accurate records, marginalised farmers cannot prove ownership and risk dispossession by powerful groups who can manipulate records",
+      "explanation": "Historically, powerful landowners and upper-caste groups have manipulated land records to falsely claim land belonging to SC/ST and poor farmers. Without accurate records in their own names, these farmers cannot contest false claims in courts or access government agricultural schemes. Digital initiatives like Bhoomi have reduced but not eliminated this problem."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "A farmer discovers that the Patwari has secretly changed the name on her land records to a powerful local landlord's name. She has no documentation. What recourse does she have?",
+      "options": [
+        "A) She has no recourse — the official land record is legally final",
+        "B) She can challenge the change through the revenue hierarchy (Tehsildar → DC → Revenue Court) using any available evidence, and under Bhoomi in Karnataka, the digital audit trail of changes to records can be checked",
+        "C) She must accept the change but can ask the Sarpanch to give her permission to continue farming",
+        "D) She can only appeal if she has a registered sale deed from the original purchase"
+      ],
+      "correct_answer": "B) She can challenge the change through the revenue hierarchy (Tehsildar → DC → Revenue Court) using any available evidence, and under Bhoomi in Karnataka, the digital audit trail of changes to records can be checked",
+      "explanation": "Unauthorised changes to land records are illegal and constitute corruption/fraud. She can: (1) file a complaint with the Tehsildar citing the unauthorised change; (2) request the Tehsildar to check the mutation register for when and how the change occurred; (3) escalate to the DC and Revenue Court with whatever evidence exists (old tax receipts, witnesses, photographs of cultivation). Under Bhoomi, every change to a digital land record creates an audit trail — the system records who made the change and when, making it harder to hide fraudulent mutations."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "Critics argue that rural administration in India suffers from being 'too centralised' — that local officers like Patwaris answer to district officials rather than to the village. How does Panchayati Raj (Chapter 25) attempt to address this problem?",
+      "options": [
+        "A) Panchayati Raj replaces the Patwari with the Sarpanch for all land record functions",
+        "B) Panchayati Raj gives elected local bodies (Gram Panchayats) oversight over some administrative functions, social audit powers over expenditures, and platforms (Gram Sabha) for citizens to demand accountability from officials",
+        "C) Panchayati Raj has no connection to rural administration — they are completely separate systems",
+        "D) Panchayati Raj removes the District Collector's powers and gives them to the Zila Parishad"
+      ],
+      "correct_answer": "B) Panchayati Raj gives elected local bodies (Gram Panchayats) oversight over some administrative functions, social audit powers over expenditures, and platforms (Gram Sabha) for citizens to demand accountability from officials",
+      "explanation": "Rural administration (Patwari, police, DC) operates in a top-down hierarchy. Panchayati Raj partially addresses over-centralisation by: (1) giving Gram Panchayats control over local services (roads, water, sanitation) — reducing dependence on distant officials; (2) the Gram Sabha's social audit gives villagers power to question how government money was spent; (3) Gram Sabha meetings give citizens a formal platform to demand accountability. However, Patwaris still report to Tehsildars (not Panchayats), showing that the integration of these two systems remains incomplete."
     }
   ]
 }

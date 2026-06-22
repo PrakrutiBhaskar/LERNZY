@@ -1,96 +1,172 @@
 {
-  "version": "1.0",
-  "topic_id": "english_grade6_ch08_pact_with_sun_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "English",
+  "textbook": "A Pact with the Sun",
+  "chapter_number": 8,
+  "chapter_title": "A Pact with the Sun",
+  "total_cards": 20,
   "cards": [
     {
       "id": "fc01",
-      "front": {
-        "en": "What is the core idea of A Pact with the Sun? (FC1)",
-        "hi": "What is the core idea of A Pact with the Sun? (FC1)",
-        "kn": "What is the core idea of A Pact with the Sun? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Who is Saeeda, and what is her problem at the start of the story?",
+      "back": "Saeeda is a young, compassionate girl whose mother has been seriously ill for a long time. Her mother is bedridden in a dark, stuffy room kept shut on the old doctor's orders — and is not getting better despite expensive medicines.",
+      "memory_hook": "Saeeda = Love in action. She sees a problem no adult solves, and she acts."
     },
     {
       "id": "fc02",
-      "front": {
-        "en": "Why is A Pact with the Sun important? (FC2)",
-        "hi": "Why is A Pact with the Sun important? (FC2)",
-        "kn": "Why is A Pact with the Sun important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What does the old doctor prescribe, and what does he forbid?",
+      "back": "The old doctor prescribes expensive medicines but forbids opening the window — keeping the room dark and without fresh air. Despite this treatment, Saeeda's mother remains ill. This is because the real cure (sunlight and fresh air) is being withheld.",
+      "memory_hook": "Old doctor: More pills, fewer windows. New doctor: More windows, fewer pills. Spot the greed."
     },
     {
       "id": "fc03",
-      "front": {
-        "en": "What is the core idea of A Pact with the Sun? (FC3)",
-        "hi": "What is the core idea of A Pact with the Sun? (FC3)",
-        "kn": "What is the core idea of A Pact with the Sun? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What does the new, kind doctor recommend for Saeeda's mother?",
+      "back": "The new doctor recommends opening the window to let in fresh air and sunlight. He says the medicines alone cannot cure her — she needs natural light and good ventilation above all else. This is medically accurate advice based on the healing properties of sunlight.",
+      "memory_hook": "New doctor's prescription: Open the window. The cure was free all along."
     },
     {
       "id": "fc04",
-      "front": {
-        "en": "Why is A Pact with the Sun important? (FC4)",
-        "hi": "Why is A Pact with the Sun important? (FC4)",
-        "kn": "Why is A Pact with the Sun important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What does Saeeda do after the new doctor's visit?",
+      "back": "Saeeda goes into the garden in the evening and speaks to the last rays of the setting sun. She pleads with them to come into her mother's room the next morning and help cure her. The sun rays, moved by her sincerity and love, agree — making a pact with Saeeda.",
+      "memory_hook": "Love LEAPS: Saeeda leapt past what adults considered possible and made a pact with the sun itself."
     },
     {
       "id": "fc05",
-      "front": {
-        "en": "What is the core idea of A Pact with the Sun? (FC5)",
-        "hi": "What is the core idea of A Pact with the Sun? (FC5)",
-        "kn": "What is the core idea of A Pact with the Sun? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What obstacle do the sun rays face before keeping their promise?",
+      "back": "Dark clouds gather overnight, threatening to block the sun the next morning. However, the rays wake early and push through the clouds, keeping their promise to Saeeda. The morning sunlight floods into her mother's room through the open window.",
+      "memory_hook": "Clouds = obstacles. Rays pushing through = determination keeps its promise. Even the sun faces obstacles."
+    },
+    {
+      "id": "fc06",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What does 'pact' mean? What pact is made in this story?",
+      "back": "A pact is a formal agreement or promise between two parties. In this story, Saeeda makes a pact with the sun rays — she pleads with them to shine into her mother's room the next morning, and they promise to do so. Despite threatening clouds, the sun rays honour their pact.",
+      "memory_hook": "Pact = Promise + Action. Saeeda asked. The sun promised. The sun delivered. That is a pact."
+    },
+    {
+      "id": "fc07",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is 'personification'? How is it used in this chapter?",
+      "back": "Personification is a literary device in which non-human things are given human qualities like speech, thought, and emotion. In this chapter, the sun rays are personified — they listen to Saeeda's plea, feel moved by her love, and make a promise to visit her mother's room. This makes the natural world respond to human love.",
+      "memory_hook": "Person-ification = making non-persons into persons. The SUN becomes a caring friend who keeps promises."
+    },
+    {
+      "id": "fc08",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is heliotherapy, and how does it connect to this story?",
+      "back": "Heliotherapy is medical treatment using sunlight. Before modern antibiotics, patients with respiratory diseases were placed in sunny, well-ventilated rooms as the primary treatment. The new doctor's advice — to open the window and let in sunlight — is based on this medically sound principle, showing that the story has a real scientific basis.",
+      "memory_hook": "Helio = sun (like helipad, helium). Heliotherapy = sun as doctor. The oldest hospital had no roof."
+    },
+    {
+      "id": "fc09",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why does the old doctor forbid opening the window? What does this reveal about him?",
+      "back": "The old doctor forbids opening the window to keep the patient ill and dependent on his expensive medicines, ensuring he continues to earn money. This reveals him to be greedy and unethical — he puts his financial interest above his patient's health. He is the moral villain of the story.",
+      "memory_hook": "Dr. G (Greedy): Dark room + expensive pills = sick patient forever = more money. Pure greed."
+    },
+    {
+      "id": "fc10",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is Vitamin D, and how does sunlight produce it?",
+      "back": "Vitamin D is an essential nutrient produced by the body when skin is exposed to sunlight (specifically ultraviolet B rays). It is vital for strong bones, a healthy immune system, and mental wellbeing. Saeeda's mother, confined in a dark room, would have had severely low Vitamin D, weakening her body and slowing recovery.",
+      "memory_hook": "Vitamin D = the Daylight Vitamin. Your skin is a solar panel — point it at the sun to power your health."
+    },
+    {
+      "id": "fc11",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What does Saeeda's character represent in the story's moral framework?",
+      "back": "Saeeda represents pure, selfless love and determination. She does not give up when adult doctors and medicines fail her mother. Her extraordinary act — speaking to the sun rays — symbolises how love motivates us to try what others would never attempt. She is the moral hero of the story.",
+      "memory_hook": "Saeeda = Love's Superhero. No cape, no power — just love so strong it moved the sun."
+    },
+    {
+      "id": "fc12",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "How does the contrast between the old doctor and the new doctor develop the theme of greed vs. compassion?",
+      "back": "The old doctor represents greed — he withholds the correct treatment to profit from the patient's illness. The new doctor represents compassion — he immediately identifies and prescribes the real cure (sunlight and fresh air), which is free. The contrast shows that true care leads to healing while greed leads to harm.",
+      "memory_hook": "Two doctors: Dr. G (Greedy — dark, expensive, no cure) vs Dr. C (Compassionate — open window, free cure). G vs C."
+    },
+    {
+      "id": "fc13",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "What happens when the sunlight finally enters Saeeda's mother's room?",
+      "back": "When the morning sunlight floods through the open window, Saeeda's mother sits in the warm light and breathes the fresh morning air. She begins to feel genuinely better for the first time. The natural healing power of sunlight and ventilation starts to work — showing that the new doctor's prescription was correct.",
+      "memory_hook": "Light in = Dark out = Illness out. Sunlight does what expensive medicines could not."
+    },
+    {
+      "id": "fc14",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Which Bengaluru institution treats respiratory illnesses and recommends open-air therapy?",
+      "back": "The Rajiv Gandhi Institute of Chest Diseases (RGICD) in Bengaluru treats thousands of patients with respiratory conditions annually. Like the new doctor in the story, RGICD emphasises sunlight exposure and open-air therapy as essential parts of respiratory recovery — validating the chapter's core health message.",
+      "memory_hook": "RGICD = Real-world proof that this story's doctor was right. Sunlight + fresh air = real medicine."
+    },
+    {
+      "id": "fc15",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "How does the story's lesson about sunlight and fresh air apply to students studying from home?",
+      "back": "Students who study in dark, poorly ventilated rooms may experience fatigue, poor concentration, and low mood — effects linked to lack of sunlight and fresh air. Opening windows, studying near natural light, and taking short outdoor breaks improve alertness, mood, and learning. The chapter's lesson directly applies to better study habits.",
+      "memory_hook": "Study tip from Saeeda: Open your window before you open your textbook."
+    },
+    {
+      "id": "fc16",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is the cultural significance of Surya Namaskara in the context of this chapter?",
+      "back": "Surya Namaskara (Sun Salutation) is an ancient Indian and Kannada tradition of performing a sequence of yoga postures at sunrise, facing the sun. It is widely practised across Karnataka. It maximises early morning sun exposure and reflects the cultural recognition — thousands of years old — that sunlight is essential for health. This connects the chapter's lesson to Indian tradition.",
+      "memory_hook": "Surya Namaskara = India knew heliotherapy before the word existed. The sun was always medicine."
+    },
+    {
+      "id": "fc17",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why is the sun's personification — rather than a human character — used to deliver the cure?",
+      "back": "Personifying the sun makes the story's message more powerful and magical for young readers. It symbolises that pure, loving intent can move even the greatest forces of nature. The sun responding to Saeeda's love makes the story an emotional experience, not just an information lesson. It also honours the Indian tradition of nature as a living, responsive presence.",
+      "memory_hook": "The sun is the world's oldest symbol of life and healing. Making it a character gives nature its due role as healer."
+    },
+    {
+      "id": "fc18",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What does 'bedridden' mean? Who is bedridden in this story?",
+      "back": "Bedridden means being confined to bed due to illness and unable to get up or move around normally. Saeeda's mother is bedridden at the start of the story — she has been ill for so long, in a dark and airless room, that she is too weak to leave her bed. Sunlight and fresh air begin her recovery.",
+      "memory_hook": "Bedridden = Bed + Ridden (trapped). Trapped in bed. Sunlight was the key to unlock the trap."
+    },
+    {
+      "id": "fc19",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "What lesson from this story can you apply if a family member is recovering from illness at home?",
+      "back": "The story teaches that sunlight and fresh air are genuine healing agents, not luxuries. Open their window each morning for ventilation and natural light. Encourage short periods in sunlight if possible. Just as importantly, spend time with them — Saeeda's love and presence contributed to her mother's healing as much as the sunlight itself.",
+      "memory_hook": "Saeeda's home remedy: Open window + warm presence + love = the best medicine."
+    },
+    {
+      "id": "fc20",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "What is the moral of 'A Pact with the Sun'? State it in full.",
+      "back": "The moral has three parts: (1) Natural healing through sunlight and fresh air is often the most effective medicine. (2) Love and determination can achieve what greed and wrong treatment cannot. (3) A doctor's duty is to heal patients, not to profit from their illness. Together they say: love + nature + ethics = real cure.",
+      "memory_hook": "Three-part moral: NATURE heals, LOVE acts, ETHICS guides. When all three work together, the patient recovers."
     }
   ]
 }

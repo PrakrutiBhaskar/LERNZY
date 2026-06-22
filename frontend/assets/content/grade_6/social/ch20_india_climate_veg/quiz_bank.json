@@ -1,366 +1,217 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch20_india_climate_veg_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science — Geography",
+  "textbook": "The Earth: Our Habitat — Textbook for Class VI",
+  "chapter_number": 20,
+  "chapter_title": "India: Climate, Vegetation and Wildlife",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of India: Climate, Vegetation and Wildlife? (Q1)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of India: Climate, Vegetation and Wildlife? (Q1)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of India: Climate, Vegetation and Wildlife? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "What is the main difference between 'weather' and 'climate'?",
+      "options": [
+        "A) Weather refers to temperature only; climate refers to rainfall only",
+        "B) Weather is the atmospheric condition on a specific day; climate is the average weather over a long period (30+ years)",
+        "C) Weather happens in summer; climate happens in winter",
+        "D) Weather affects oceans; climate affects land only"
+      ],
+      "correct_answer": "B) Weather is the atmospheric condition on a specific day; climate is the average weather over a long period (30+ years)",
+      "explanation": "Weather describes short-term atmospheric conditions (today's rain, temperature, wind) at a specific place. Climate is the long-term average pattern of weather over 30 or more years. 'Bengaluru is rainy today' = weather; 'Bengaluru has a moderate, pleasant climate' = climate."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to India: Climate, Vegetation and Wildlife in a community? (Q2)",
-        "hi": "Who or what body regulates the civic issues related to India: Climate, Vegetation and Wildlife in a community? (Q2)",
-        "kn": "Who or what body regulates the civic issues related to India: Climate, Vegetation and Wildlife in a community? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "Which season brings most of India's annual rainfall?",
+      "options": ["A) Winter", "B) Summer", "C) South-West Monsoon", "D) North-East Monsoon"],
+      "correct_answer": "C) South-West Monsoon",
+      "explanation": "The South-West Monsoon (June to September) brings about 75–80% of India's annual rainfall. It originates over the Arabian Sea and Bay of Bengal, picks up moisture, and deposits it across the country. The South-West Monsoon is critical for Indian agriculture, filling rivers, reservoirs, and groundwater."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of India: Climate, Vegetation and Wildlife? (Q3)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of India: Climate, Vegetation and Wildlife? (Q3)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of India: Climate, Vegetation and Wildlife? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "Which of the following places receives the HIGHEST annual rainfall in India?",
+      "options": ["A) Thar Desert, Rajasthan", "B) Bengaluru, Karnataka", "C) Mawsynram, Meghalaya", "D) Delhi"],
+      "correct_answer": "C) Mawsynram, Meghalaya",
+      "explanation": "Mawsynram (and nearby Cherrapunji) in Meghalaya, northeastern India, is among the wettest places on Earth, receiving over 11,000 mm of annual rainfall. It is located on the southern slopes of the Khasi Hills, which force monsoon winds from the Bay of Bengal to rise steeply, causing extremely heavy rainfall."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to India: Climate, Vegetation and Wildlife in a community? (Q4)",
-        "hi": "Who or what body regulates the civic issues related to India: Climate, Vegetation and Wildlife in a community? (Q4)",
-        "kn": "Who or what body regulates the civic issues related to India: Climate, Vegetation and Wildlife in a community? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "Trees that shed their leaves during the dry season to conserve water are called:",
+      "options": ["A) Evergreen trees", "B) Deciduous trees", "C) Coniferous trees", "D) Mangrove trees"],
+      "correct_answer": "B) Deciduous trees",
+      "explanation": "Deciduous trees shed their leaves during the dry season to reduce water loss through transpiration. They grow in areas with moderate rainfall (70–200 cm). When rains return, new leaves grow. Teak, sal, and sandalwood are important deciduous trees in India. The word 'deciduous' comes from the Latin 'decidere' meaning 'to fall'."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of India: Climate, Vegetation and Wildlife? (Q5)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of India: Climate, Vegetation and Wildlife? (Q5)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of India: Climate, Vegetation and Wildlife? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "India's National Animal is the:",
+      "options": ["A) Indian Elephant", "B) Indian Lion", "C) Royal Bengal Tiger", "D) Indian Rhinoceros"],
+      "correct_answer": "C) Royal Bengal Tiger",
+      "explanation": "The Royal Bengal Tiger is India's National Animal, adopted in 1973 coinciding with the launch of Project Tiger. The tiger was chosen to highlight its threatened status and mobilise conservation efforts. India is home to about 75% of the world's wild tiger population. Project Tiger has grown to 55 Tiger Reserves across India."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to India: Climate, Vegetation and Wildlife in a community? (Q6)",
-        "hi": "Who or what body regulates the civic issues related to India: Climate, Vegetation and Wildlife in a community? (Q6)",
-        "kn": "Who or what body regulates the civic issues related to India: Climate, Vegetation and Wildlife in a community? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "Mangrove forests are found in which type of environment?",
+      "options": [
+        "A) High mountain slopes",
+        "B) Dry desert areas",
+        "C) Coastal tidal areas where land meets the sea",
+        "D) Cold temperate regions"
+      ],
+      "correct_answer": "C) Coastal tidal areas where land meets the sea",
+      "explanation": "Mangrove forests grow in coastal tidal areas — estuaries, deltas, and sheltered coasts — where saltwater and freshwater mix. Mangrove trees have special breathing/prop roots (pneumatophores) that allow them to survive in waterlogged, salty soil. The Sundarbans (West Bengal) is the world's largest mangrove forest."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of India: Climate, Vegetation and Wildlife? (Q7)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of India: Climate, Vegetation and Wildlife? (Q7)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of India: Climate, Vegetation and Wildlife? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "Project Tiger was launched in India in which year?",
+      "options": ["A) 1947", "B) 1960", "C) 1973", "D) 1992"],
+      "correct_answer": "C) 1973",
+      "explanation": "Project Tiger was launched by the Indian Government in 1973 in response to the alarming decline in tiger populations. It established dedicated Tiger Reserves with strict protection. India now has 55 Tiger Reserves. India's tiger count has risen significantly — from about 1,827 in 2014 to over 3,600 in 2022, making India a global tiger conservation success story."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to India: Climate, Vegetation and Wildlife in a community? (Q8)",
-        "hi": "Who or what body regulates the civic issues related to India: Climate, Vegetation and Wildlife in a community? (Q8)",
-        "kn": "Who or what body regulates the civic issues related to India: Climate, Vegetation and Wildlife in a community? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "The Indian Lion is found only in which National Park?",
+      "options": ["A) Bandipur National Park, Karnataka", "B) Jim Corbett National Park, Uttarakhand", "C) Gir National Park, Gujarat", "D) Kaziranga National Park, Assam"],
+      "correct_answer": "C) Gir National Park, Gujarat",
+      "explanation": "The Asiatic Lion (Indian Lion) is found exclusively in Gir National Park in Gujarat — the only place in the world outside Africa where wild lions exist. Once nearly extinct, their population has recovered to over 600. Kaziranga (Assam) is famous for the one-horned rhino, Jim Corbett (Uttarakhand) for tigers, and Bandipur (Karnataka) for tigers and elephants."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of India: Climate, Vegetation and Wildlife? (Q9)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of India: Climate, Vegetation and Wildlife? (Q9)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of India: Climate, Vegetation and Wildlife? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "India's National Bird is the:",
+      "options": ["A) Crane", "B) Eagle", "C) Indian Peacock", "D) Flamingo"],
+      "correct_answer": "C) Indian Peacock",
+      "explanation": "The Indian Peacock (peafowl) is India's National Bird. It is known for its magnificent tail feathers, which display vibrant colours in an eye-catching fan. The peacock is deeply embedded in Indian culture and mythology — it is associated with Lord Kartikeya and Lord Krishna. The male peacock's dance during monsoon is an iconic Indian sight."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to India: Climate, Vegetation and Wildlife in a community? (Q10)",
-        "hi": "Who or what body regulates the civic issues related to India: Climate, Vegetation and Wildlife in a community? (Q10)",
-        "kn": "Who or what body regulates the civic issues related to India: Climate, Vegetation and Wildlife in a community? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "Which of the following regions in India receives the LEAST annual rainfall?",
+      "options": ["A) Western Ghats, Karnataka", "B) Assam", "C) Thar Desert, Rajasthan", "D) Andaman & Nicobar Islands"],
+      "correct_answer": "C) Thar Desert, Rajasthan",
+      "explanation": "The Thar Desert (Great Indian Desert) in Rajasthan receives less than 25 cm (250 mm) of annual rainfall — one of the lowest in India. The Aravalli Hills to the east block monsoon winds from reaching the desert. This contrasts sharply with Mawsynram (Meghalaya) which receives 11,000+ mm — one of the wettest places on Earth."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Easy",
+      "question": "What is the 'rain shadow effect' as seen in Karnataka?",
+      "options": [
+        "A) The clouds cast a shadow that prevents rain from falling",
+        "B) The Western Ghats cause heavy rainfall on the western side but leave the eastern side dry, as moisture is lost before winds cross the mountains",
+        "C) The shadow of the Himalayas prevents rainfall in Karnataka",
+        "D) Rain only falls at night in the shadow areas of Karnataka"
+      ],
+      "correct_answer": "B) The Western Ghats cause heavy rainfall on the western side but leave the eastern side dry, as moisture is lost before winds cross the mountains",
+      "explanation": "The rain shadow effect occurs when moist winds hit the Western Ghats and rise. As air rises, it cools, and moisture falls as rainfall on the western (windward) side. After crossing the mountains, the now-dry air descends on the eastern side — leaving areas like interior Karnataka (Mysuru, Bengaluru) and the Deccan Plateau much drier than the coastal and Malnad regions."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "Which of the following is NOT one of India's four biodiversity hotspots?",
+      "options": ["A) Western Ghats", "B) Eastern Himalayas", "C) Thar Desert", "D) Indo-Burma Region"],
+      "correct_answer": "C) Thar Desert",
+      "explanation": "India's four globally recognised biodiversity hotspots are: Western Ghats, Eastern Himalayas, Indo-Burma Region (northeastern India), and Sundaland (Nicobar Islands). The Thar Desert has low biodiversity due to its extreme aridity and harsh conditions. Biodiversity hotspots are defined as areas with exceptional concentrations of endemic species that face significant habitat loss."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "Karnataka has five Tiger Reserves. Which of these is NOT one of them?",
+      "options": ["A) Bandipur", "B) Nagarhole", "C) Bhadra", "D) Kaziranga"],
+      "correct_answer": "D) Kaziranga",
+      "explanation": "Kaziranga National Park is in Assam (northeastern India) — it is famous for the one-horned Indian rhinoceros, not a Karnataka reserve. Karnataka's 5 Tiger Reserves are: Bandipur, Nagarhole (Rajiv Gandhi NP), Bhadra, Biligiri Rangaswamy Temple (BRT), and Anshi-Dandeli. Bandipur and Nagarhole together form one of Asia's largest contiguous wildlife corridors."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "Why is Kodagu (Coorg) in Karnataka ideal for coffee cultivation?",
+      "options": [
+        "A) It has flat plains with alluvial soil, ideal for large-scale farming",
+        "B) It has cool temperatures, heavy rainfall, high altitude, red laterite soil, and natural forest shade",
+        "C) It is near the coast, which provides sea breeze for cooling coffee plants",
+        "D) It has a dry climate, which helps coffee cherries ripen faster"
+      ],
+      "correct_answer": "B) It has cool temperatures, heavy rainfall, high altitude, red laterite soil, and natural forest shade",
+      "explanation": "Kodagu's ideal coffee conditions: cool temperature (15–28°C), heavy monsoon rainfall (2,500–3,500 mm), high elevation (900–1,800 m) producing better quality beans, red laterite soil with good drainage, and natural shade from Western Ghats forests. Coffee plants need shade, moisture, and cool conditions — all found naturally in Kodagu. Kodagu produces about 30% of India's coffee."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "India's National Tree is the Banyan tree. Why is it called the 'walking tree'?",
+      "options": [
+        "A) Its seeds can be carried by wind to distant places",
+        "B) Its aerial roots grow down from branches to the ground, creating new trunks that slowly spread the tree outward",
+        "C) The entire tree can be moved from one place to another easily",
+        "D) Its branches grow only in one direction, like a walking person"
+      ],
+      "correct_answer": "B) Its aerial roots grow down from branches to the ground, creating new trunks that slowly spread the tree outward",
+      "explanation": "The Banyan tree (Ficus benghalensis) is called the 'walking tree' because it sends down aerial roots from its branches that touch the ground and develop into new trunks. Over time, this creates an ever-expanding ring of trunks that can cover a vast area, making it look like the tree is slowly 'walking'. The Great Banyan tree in the Indian Botanic Garden (Howrah, West Bengal) covers over 18,000 sq m."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Which of the following animals is found EXCLUSIVELY in India (endemic species)?",
+      "options": [
+        "A) Royal Bengal Tiger",
+        "B) Indian (Asiatic) Lion — found only in Gir, India",
+        "C) Flamingo",
+        "D) Snow Leopard"
+      ],
+      "correct_answer": "B) Indian (Asiatic) Lion — found only in Gir, India",
+      "explanation": "The Asiatic (Indian) Lion exists only in Gir National Park, Gujarat, making it truly exclusive to India in the wild. Royal Bengal Tigers are also found in Bangladesh, Nepal, and Myanmar. Flamingos are found across Africa, Europe, and Asia. Snow Leopards are found across the Himalayas including Pakistan, Afghanistan, and Central Asia — not exclusive to India."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "The South-West Monsoon in India arrives first in which part of the country?",
+      "options": ["A) Delhi and the north", "B) Rajasthan in the west", "C) Kerala in the south-west", "D) Assam in the northeast"],
+      "correct_answer": "C) Kerala in the south-west",
+      "explanation": "The South-West Monsoon arrives first in Kerala (usually around June 1) on India's southwestern coast, and then progressively advances northward and eastward across India. Kerala's geography — facing the Arabian Sea and backed by the Western Ghats — makes it the first landfall point for the monsoon. The monsoon arrives in Bengaluru around June 5–10, and Delhi by late June."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "What are 'prop roots' in mangrove forests?",
+      "options": [
+        "A) Roots that grow deep into the ground to find water",
+        "B) Aerial roots that grow from branches downward, like those of the Banyan tree",
+        "C) Above-ground roots of mangrove trees that help the tree breathe in waterlogged, salty soil",
+        "D) Roots that grow sideways to hold soil and prevent erosion"
+      ],
+      "correct_answer": "C) Above-ground roots of mangrove trees that help the tree breathe in waterlogged, salty soil",
+      "explanation": "Mangrove trees grow in waterlogged, oxygen-poor salty soil where ordinary roots cannot survive. They develop special above-ground roots called 'prop roots' or 'pneumatophores' (breathing roots) that stick out of the mud into the air, allowing the tree to absorb oxygen directly. This is a remarkable adaptation to an environment that would kill most other trees."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "If India's Western Ghats forests were completely cleared, which combination of consequences would MOST LIKELY follow?",
+      "options": [
+        "A) More rainfall in eastern Karnataka, more agricultural land, and no change to coastal rivers",
+        "B) Reduced rainfall in coastal Karnataka, decline of major peninsular rivers, loss of biodiversity hotspots, and increased drought in interior Karnataka",
+        "C) Increased rainfall across India due to less tree cover intercepting clouds",
+        "D) Only coastal fishing communities would be affected; interior Karnataka would benefit from more farmland"
+      ],
+      "correct_answer": "B) Reduced rainfall in coastal Karnataka, decline of major peninsular rivers, loss of biodiversity hotspots, and increased drought in interior Karnataka",
+      "explanation": "Western Ghats forests perform multiple functions: they intercept monsoon moisture and cause coastal rainfall (destroy forests = less interception = less rain); their roots hold water in the soil, feeding rivers like the Cauvery and Tungabhadra year-round (destroy forests = rivers become seasonal); they are home to 4 biodiversity hotspots (destroy forests = mass extinction of endemic species); and they recharge groundwater for interior Karnataka's agriculture. The consequences of deforestation here would cascade across the entire peninsula."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "A student observes that Bengaluru (on the Deccan Plateau, east of the Western Ghats) has moderate rainfall, while Mangaluru (on the coast, west of the Western Ghats) has very heavy rainfall, even though they are only 350 km apart. The BEST explanation is:",
+      "options": [
+        "A) Mangaluru is closer to the equator and therefore gets more rain",
+        "B) Bengaluru is at a lower altitude than Mangaluru, so clouds don't reach it",
+        "C) The Western Ghats act as a barrier — monsoon winds deposit most moisture as heavy rain on Mangaluru's side before crossing; by the time they reach Bengaluru, much of the moisture is gone (rain shadow effect)",
+        "D) Mangaluru gets rain because it faces the Pacific Ocean, which has more moisture than the Arabian Sea"
+      ],
+      "correct_answer": "C) The Western Ghats act as a barrier — monsoon winds deposit most moisture as heavy rain on Mangaluru's side before crossing; by the time they reach Bengaluru, much of the moisture is gone (rain shadow effect)",
+      "explanation": "This is the rain shadow effect. Moist southwest monsoon winds from the Arabian Sea hit the Western Ghats and are forced to rise. Rising air cools, moisture condenses, and heavy rainfall occurs on the western side (Mangaluru, ~3,200 mm). After crossing the Ghats, the air descends and warms on the eastern side — Bengaluru receives only ~850 mm. The 350 km distance is crossed by the Western Ghats in between, not by proximity to equator or ocean type."
     }
   ]
 }

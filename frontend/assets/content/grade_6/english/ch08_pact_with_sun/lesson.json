@@ -1,114 +1,273 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "english",
-  "chapter_id": "ch08_pact_with_sun",
-  "chapter_title": {
-    "en": "A Pact with the Sun",
-    "hi": "सूरज के साथ एक समझौता",
-    "kn": "ಸೂರ್ಯನೊಂದಿಗೆ ಒಪ್ಪಂದ"
+  "subject": "English",
+  "textbook": "A Pact with the Sun",
+  "chapter_number": 8,
+  "chapter_title": "A Pact with the Sun",
+  "estimated_study_time_minutes": 45,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Understand the plot, characters, and sequence of events in 'A Pact with the Sun'",
+    "Identify the contrast between the selfish doctor and the caring behaviour of Saeeda",
+    "Explain why sunlight and fresh air are important for health, as portrayed in the story",
+    "State the moral of the story and connect it to real-life health practices",
+    "Define and use key vocabulary from the chapter in context",
+    "Appreciate the power of love, determination, and simple natural remedies in healing",
+    "Analyse the theme of greed versus selflessness as shown through the characters",
+    "Answer comprehension and inference questions about the story with evidence from the text"
+  ],
+
+  "prerequisite_knowledge": [
+    "Basic knowledge that sunlight and fresh air are beneficial for human health",
+    "Familiarity with narrative story structure: characters, plot, conflict, resolution",
+    "Understanding of the concept of greed and its consequences (from earlier chapters)",
+    "Ability to identify themes and morals in short stories"
+  ],
+
+  "introduction": {
+    "why_important": "This story shows that simple natural remedies — fresh air and sunlight — are often the best medicine. It also teaches that kindness, love, and determination can make a huge difference in someone's recovery from illness. These lessons are both medically sound and emotionally true.",
+    "real_life_relevance": "In modern life, many people spend too much time indoors with little natural light or fresh air. Doctors today recommend spending time outdoors as part of managing depression, Vitamin D deficiency, respiratory illness, and general wellness. This story, though simple, is based on real scientific principles about the healing power of sunlight and outdoor air.",
+    "karnataka_context": "Sunlight exposure is especially relevant in Karnataka, where Vitamin D deficiency is surprisingly common despite the sunny climate, largely because people stay indoors. The Rajiv Gandhi Institute of Chest Diseases (RGICD) in Bengaluru treats thousands of patients with respiratory illnesses annually and emphasises sunlight exposure and open-air therapy as part of recovery, aligning with the core lesson of this chapter. Traditional Karnataka medicine (Siddha and Ayurveda) has long recommended sunlight (Surya Namaskara at dawn) as a daily health practice.",
+    "connection_to_previous_learning": "In Chapter 7, we learnt about sleep as a natural biological need. This chapter continues the theme of natural health practices, showing that sunlight and fresh air — like sleep — are fundamental to human wellbeing."
   },
-  "topics": [
-    {
-      "topic_id": "english_grade6_ch08_pact_with_sun_basics",
-      "title": {
-        "en": "A Pact with the Sun - Fundamentals",
-        "hi": "सूरज के साथ एक समझौता - बुनियादी बातें",
-        "kn": "ಸೂರ್ಯನೊಂದಿಗೆ ಒಪ್ಪಂದ - ಮೂಲತಮxt್ವಗಳು"
+
+  "story_summary": {
+    "characters": [
+      {
+        "name": "Saeeda",
+        "role": "The compassionate, determined young daughter who loves her mother deeply and takes extraordinary steps to make her well"
       },
-      "learning_objectives": [
-        "Understand key concepts of A Pact with the Sun",
-        "Solve exercises and apply rules related to A Pact with the Sun",
-        "Analyze practical examples of A Pact with the Sun in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore A Pact with the Sun. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम सूरज के साथ एक समझौता का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಸೂರ್ಯನೊಂದಿಗೆ ಒಪ್ಪಂದ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
+      {
+        "name": "Saeeda's mother",
+        "role": "A kind woman who has been chronically ill, bedridden, and deprived of fresh air and sunlight due to doctor's orders"
       },
-      "concept_explanation": {
-        "en": "In this chapter, we explore A Pact with the Sun in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम सूरज के साथ एक समझौता का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಸೂರ್ಯನೊಂದಿಗೆ ಒಪ್ಪಂದ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
+      {
+        "name": "The Doctor (old, greedy doctor)",
+        "role": "A selfish, money-minded doctor who prescribes expensive medicines and forbids sunlight and fresh air to keep the patient dependent on him"
       },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of A Pact with the Sun.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in A Pact with the Sun.",
-            "hi": "चरण 1: सूरज के साथ एक समझौता के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಸೂರ್ಯನೊಂದಿಗೆ ಒಪ್ಪಂದ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
+      {
+        "name": "The new/kind doctor",
+        "role": "A compassionate doctor who correctly diagnoses the problem and prescribes sunlight and fresh air as the real cure"
       },
-      "key_points": {
-        "en": [
-          "Mastering A Pact with the Sun builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "सूरज के साथ एक समझौता में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಸೂರ್ಯನೊಂದಿಗೆ ಒಪ್ಪಂದ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
+      {
+        "name": "The Sun and the Rays (personified)",
+        "role": "Personified characters who make a pact with Saeeda — promising to shine brightly into her mother's room the next morning"
       }
+    ],
+    "plot": [
+      "Saeeda's mother has been ill for a long time and is confined to a dark, stuffy room on the doctor's orders.",
+      "The old doctor prescribes expensive medicines but does not allow the window to be opened, keeping the room dark and without fresh air.",
+      "Saeeda's mother remains weak and bedridden despite the medicines — the treatment is not working.",
+      "A new, kind doctor visits and immediately notices the room is dark and stuffy. He recommends fresh air and sunlight as the primary treatment.",
+      "The new doctor says the medicines alone cannot cure Saeeda's mother — she needs sunlight and fresh air above all else.",
+      "That evening, Saeeda goes out to the garden and speaks to the last sun rays visible on the treetops.",
+      "She begs the sun rays to come into her mother's room the next morning and help cure her.",
+      "The sun rays, moved by Saeeda's love and sincerity, promise to come to her mother's window the next day.",
+      "That night, dark clouds gather — threatening to block the sun the following morning.",
+      "The rays wake early and push through the clouds, keeping their promise to Saeeda.",
+      "In the morning, golden sunlight floods into the room through the open window.",
+      "Saeeda's mother sits in the warm sunlight, breathes the fresh morning air, and begins to feel genuinely better.",
+      "The story ends with the hope of the mother's recovery and the power of a child's pure, determined love."
+    ],
+    "moral": "Love and determination can achieve what selfishness and greed cannot. Simple natural gifts — sunlight and fresh air — are often the best medicine. A doctor's duty is to care for the patient, not to profit from their illness."
+  },
+
+  "core_concepts": [
+    {
+      "concept_name": "Natural Healing: Sunlight and Fresh Air",
+      "simple_explanation": "Sunlight and fresh air are not just pleasant — they are medically important. Sunlight gives our body Vitamin D, lifts our mood, and kills harmful germs. Fresh air helps our lungs work properly.",
+      "detailed_explanation": "The story is built on a medically accurate foundation: sunlight and fresh air have genuine healing properties. Sunlight triggers the skin to produce Vitamin D, which is essential for strong bones, a healthy immune system, and mental wellbeing. Sunlight also helps regulate the body's circadian rhythm (the biological clock governing sleep and wakefulness). Fresh air — especially outdoors — contains higher oxygen levels and fewer indoor pollutants, helping the respiratory system recover from illness. Historically, before antibiotics, doctors used 'heliotherapy' (sun treatment) and open-air therapy for patients with respiratory diseases like tuberculosis. Keeping a sick person in a dark, stuffy room — as the old doctor ordered — is medically counterproductive and harmful.",
+      "real_life_example": "Doctors today tell patients recovering from respiratory infections (like COVID-19, pneumonia, or severe cough) to get some gentle sunlight and fresh air each morning. Walking in a park or sitting near an open window helps the lungs clear out and the body produce Vitamin D, speeding up recovery.",
+      "karnataka_example": "The ancient practice of Surya Namaskara (Sun Salutation), widely practised across Karnataka and India, is performed at sunrise to maximise early morning sun exposure. Yoga teachers and Ayurvedic practitioners in Karnataka, particularly at institutions like Swami Vivekananda Yoga Anusandhana Samsthana (S-VYASA) in Bengaluru, recommend morning sun exposure as a daily health practice — directly reflecting the lesson of this chapter.",
+      "common_mistakes": "Students sometimes think the story is only about a magical or supernatural event — the sun 'listening' to Saeeda. The personification of the sun rays is a literary device; the real message is about the genuine medical importance of sunlight and fresh air. The story uses magical elements to make this scientific truth more engaging and memorable for young readers.",
+      "memory_tip": "Remember 'SAD' — Sunlight And (fresh) air are the Doctor. In the story, the real doctor is nature itself: Sunlight + Air = Cure."
+    },
+    {
+      "concept_name": "Greed vs. Compassion",
+      "simple_explanation": "The old doctor in the story is selfish and keeps the patient sick on purpose to earn more money. The new doctor and Saeeda show real compassion — they care about making the patient well, not about earning money.",
+      "detailed_explanation": "The contrast between the old and new doctors is the moral heart of the story. The old doctor deliberately keeps the room dark and the patient dependent on expensive medicines — not because this is good medical practice, but because it ensures he keeps getting paid. This is a clear example of greed overriding professional ethics. The new doctor, by contrast, immediately identifies the real problem and prescribes what will actually help: sunlight and fresh air, which are free. Saeeda herself represents pure, selfless compassion — she does not give up on her mother and takes an unusual, determined step (speaking to the sun). The story suggests that true care and love, combined with correct treatment, can cure what greed and wrong medicine cannot.",
+      "real_life_example": "In some families, when a member is ill, a relative may push for expensive private tests and medicines that are not actually needed, perhaps because they own a pharmacy or clinic. In contrast, a doctor who genuinely cares will recommend the simplest, most effective treatment regardless of profit — just like the kind doctor in the story.",
+      "karnataka_example": "The Karnataka Medical Council (KMC), the regulatory body for doctors in Karnataka, has strict ethical guidelines prohibiting doctors from prescribing unnecessary tests or medicines for personal profit. Cases of unethical over-prescription are investigated and can result in licence cancellation — reflecting society's expectation that doctors must act with compassion, not greed, just as the new doctor in this story does.",
+      "common_mistakes": "Some students feel the story is unfair to the old doctor and think he might just have been following old-fashioned medical knowledge. The text, however, makes clear that the old doctor's motivation is financial — he benefits from the patient remaining ill. The story intentionally frames this as a moral failure, not ignorance.",
+      "memory_tip": "Think of two doctors: Dr. G (Greedy — dark room, expensive pills, no cure) and Dr. C (Compassionate — open window, sunlight, real cure). The G vs C contrast helps remember the theme of Greed vs. Compassion."
+    },
+    {
+      "concept_name": "The Power of Love and Determination",
+      "simple_explanation": "Saeeda's deep love for her mother and her refusal to give up is what ultimately leads to her mother's cure. Love gives us the strength to try things others would not think of.",
+      "detailed_explanation": "Saeeda's defining quality is not cleverness or physical strength — it is love and determination. When the new doctor says her mother needs sunlight, Saeeda goes a step further than any adult in the story: she goes out and speaks directly to the sun rays. This act, while fantastical, symbolises a child's absolute faith and refusal to accept defeat. In real life, caregivers who are motivated by genuine love — for a sick parent, a struggling child, a suffering friend — consistently go further and do more than those motivated by duty or money. The story validates the emotional truth that love is a healing force. Saeeda's pact with the sun is the story's most powerful moment, and it results in the sun piercing through the clouds to keep its promise — a metaphor for the power of determined love.",
+      "real_life_example": "Many stories exist of parents who, told that their child has a rare disease with no cure, spend years researching, connecting with specialists, and advocating tirelessly — and sometimes succeeding against the odds. Their love-driven determination achieves what passive acceptance would not.",
+      "karnataka_example": "Sudha Murthy, the celebrated Kannada author, social activist, and philanthropist from Karnataka, has dedicated her life to serving others out of genuine compassion and love. Her work with the Infosys Foundation has built hospitals, schools, and libraries in rural Karnataka — driven entirely by the same quality Saeeda shows: love that expresses itself in determined, selfless action.",
+      "common_mistakes": "Students sometimes read the story literally and debate whether the sun can really 'hear' or 'promise.' This misses the point. The sun's response is a literary device — personification — that represents the way the natural world responds to pure, loving intent. The real message is about how love and determination can change a situation when nothing else works.",
+      "memory_tip": "Remember the phrase: 'LOVE LEAPS' — Love doesn't wait for permission, it LEAPS into action. Saeeda did not wait — she went out and made a pact with the sun. Love Leaps."
     }
+  ],
+
+  "key_terms_glossary": [
+    {
+      "term": "Pact",
+      "meaning": "A formal agreement or promise between two parties. In the story, Saeeda makes a pact with the sun rays — they agree to shine into her mother's room the next morning."
+    },
+    {
+      "term": "Personification",
+      "meaning": "A literary device in which non-human things (like the sun, wind, or animals) are given human qualities and the ability to speak, feel, or act. In this chapter, the sun rays are personified — they listen to Saeeda and make a promise."
+    },
+    {
+      "term": "Compassion",
+      "meaning": "A deep feeling of concern and care for someone who is suffering, along with the desire to help them. Saeeda and the new doctor show great compassion, while the old doctor lacks it."
+    },
+    {
+      "term": "Heliotherapy",
+      "meaning": "Medical treatment using sunlight. Before modern medicines, patients with respiratory diseases were placed in sunlit, airy rooms as part of their healing. The new doctor's advice reflects this principle."
+    },
+    {
+      "term": "Vitamin D",
+      "meaning": "A nutrient produced by the body when skin is exposed to sunlight. It strengthens bones and the immune system. Lack of Vitamin D — caused by staying indoors — weakens the body and slows recovery."
+    },
+    {
+      "term": "Bedridden",
+      "meaning": "Confined to bed due to illness and unable to get up or move about. Saeeda's mother is bedridden at the start of the story because of her prolonged illness."
+    },
+    {
+      "term": "Determination",
+      "meaning": "The quality of being firmly committed to achieving a goal despite obstacles. Saeeda's determination to cure her mother drives the entire story."
+    },
+    {
+      "term": "Greed",
+      "meaning": "An intense, selfish desire for wealth or gain, often at others' expense. The old doctor's greed leads him to keep the patient ill deliberately so he can continue to earn money."
+    },
+    {
+      "term": "Respiratory illness",
+      "meaning": "A disease or condition affecting the lungs and breathing, such as pneumonia, asthma, or bronchitis. Sunlight and fresh air help the respiratory system recover."
+    },
+    {
+      "term": "Stuffy",
+      "meaning": "Describing a room or space that is poorly ventilated, lacking fresh air, and feeling oppressive or uncomfortable. The old doctor kept Saeeda's mother in a stuffy, dark room, which worsened her health."
+    }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Comprehension",
+      "question": "Why did the old doctor forbid opening the window, and what does this tell us about his character?",
+      "step_by_step_answer": [
+        "Step 1: Find the evidence — The old doctor ordered the window to be kept shut, keeping the room dark and airless. Despite expensive medicines, the mother remained ill.",
+        "Step 2: Interpret his motive — The new doctor's arrival makes it clear that sunlight and fresh air would have cured her. The old doctor, therefore, was not keeping the window shut out of ignorance but to keep the patient ill and dependent on his expensive treatments.",
+        "Step 3: Analyse his character — The old doctor is greedy and unethical. He puts his own financial interest above his patient's health. He is the villain of the story — not because he is violent but because he betrays the trust placed in him as a healer.",
+        "Step 4: Connect to theme — His behaviour is the opposite of what a doctor should be, and it sets up the central contrast between greed (old doctor) and compassion (new doctor, Saeeda).",
+        "Conclusion: The old doctor forbade opening the window to keep the patient ill and profitable for himself. This reveals him to be greedy, unethical, and a betrayer of his duty as a healer."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Vocabulary in context",
+      "question": "Use the word 'personification' in a sentence related to the chapter.",
+      "step_by_step_answer": [
+        "Step 1: Recall meaning — Personification is a literary device in which non-human things are given human qualities such as speech, thought, or emotion.",
+        "Step 2: Connect to chapter — In the story, the sun rays are given the ability to listen to Saeeda, feel moved by her love, and make a promise to shine into her mother's room.",
+        "Step 3: Write sentence: 'The author uses personification when the sun rays listen to Saeeda's plea and promise to visit her mother's room the next morning, as though they were compassionate friends.'"
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Moral application",
+      "question": "How can the lesson of this story — that natural remedies and love matter — be applied in your own home when someone is unwell?",
+      "step_by_step_answer": [
+        "Step 1: State the moral — Natural healing through sunlight and fresh air is often as important as medicine. Love and determination can motivate us to go further in helping someone recover.",
+        "Step 2: Think of a home situation — Imagine your grandmother is feeling weak, staying indoors, and saying she has no energy. She is taking medicines but not improving.",
+        "Step 3: Apply it — Like Saeeda, you could open her curtains every morning, sit with her near the window, or take her for a short walk in the garden for sunlight and fresh air. Your caring presence and effort will also help her feel better emotionally.",
+        "Step 4: Conclusion — Just as Saeeda's love and action cured her mother, small, caring actions in our own homes — opening windows, sitting in the sun, being present — can have a real healing impact."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Greed vs. Compassion",
+      "questions": [
+        {
+          "type": "Recall",
+          "q": "What did the old doctor forbid, and what did the new doctor recommend?",
+          "a": "The old doctor forbade opening the window, keeping the room dark and airless. The new doctor recommended opening the window to allow fresh air and sunlight into the room."
+        },
+        {
+          "type": "Recall",
+          "q": "What is the title of the chapter and what does 'pact' mean?",
+          "a": "The chapter is titled 'A Pact with the Sun.' A pact is a promise or agreement. Saeeda makes a pact — an agreement — with the sun rays to shine into her mother's room."
+        },
+        {
+          "type": "Understanding",
+          "q": "How does the old doctor's behaviour show greed rather than care?",
+          "a": "The old doctor knowingly keeps the room dark and airless, which prevents the mother's recovery. He prescribes expensive medicines so the patient continues to need and pay for his services, placing his financial interest above his duty to heal her."
+        },
+        {
+          "type": "Understanding",
+          "q": "Why does Saeeda speak to the sun rays? What does this show about her character?",
+          "a": "Saeeda speaks to the sun rays because she loves her mother deeply and is determined to help her recover. When the new doctor says sunlight is needed, Saeeda does not wait passively — she acts directly. This shows her compassionate, brave, and determined character."
+        },
+        {
+          "type": "Application",
+          "q": "If a friend's family member was ill and confined to a dark room, what advice from this story would you give them?",
+          "a": "Based on the story's lesson, I would advise them to open the windows each morning to let in fresh air and sunlight. Natural light and ventilation are medically beneficial. If the current doctor seems to be making no progress, it may be worth consulting a second doctor, just as Saeeda's family did in the story."
+        }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "The chapter title 'A Pact with the Sun' refers to the promise Saeeda wins from the sun rays to shine into her mother's room and help cure her.",
+    "Saeeda's mother has been ill for a long time in a dark, stuffy room — kept that way by the greedy old doctor.",
+    "The new, kind doctor correctly diagnoses that sunlight and fresh air are the real cure, not expensive medicines.",
+    "The old doctor is selfish and unethical — he keeps the patient ill deliberately for financial gain.",
+    "Saeeda shows extraordinary compassion, love, and determination by speaking directly to the sun rays in the evening.",
+    "The sun rays are personified — a literary device that makes the natural world respond to pure, loving intent.",
+    "Despite threatening clouds, the sun rays push through and keep their promise — bathing the room in healing sunlight.",
+    "Scientifically, sunlight provides Vitamin D and helps the immune system; fresh air aids respiratory recovery.",
+    "Sudha Murthy's value of selfless love and Surya Namaskara in Karnataka tradition both connect to this chapter's themes.",
+    "Moral: Love and determination, combined with the right natural remedies, can achieve what greed and wrong treatment cannot."
+  ],
+
+  "mind_map": {
+    "root": "A Pact with the Sun",
+    "branches": [
+      {
+        "branch": "Characters",
+        "sub": ["Saeeda — compassionate, determined", "Mother — bedridden, recovers with sunlight", "Old doctor — greedy, unethical", "New doctor — caring, gives right advice", "Sun rays — personified, keep their promise"]
+      },
+      {
+        "branch": "Plot",
+        "sub": ["Mother ill in dark, stuffy room", "New doctor prescribes sunlight and fresh air", "Saeeda pleads with sun rays at sunset", "Sun breaks through clouds next morning — mother heals"]
+      },
+      {
+        "branch": "Theme",
+        "sub": ["Greed vs. compassion", "Natural healing power of sunlight", "Love as a healing force"]
+      },
+      {
+        "branch": "Moral",
+        "sub": ["Natural remedies are often best", "Love and determination can overcome obstacles", "A doctor must care for patients, not exploit them"]
+      },
+      {
+        "branch": "Literary Devices",
+        "sub": ["Personification — sun rays speak and promise", "Symbolism — sunlight represents hope and healing", "Contrast — dark stuffy room vs. bright open window"]
+      }
+    ]
+  },
+
+  "revision_notes": "A Pact with the Sun is the title story of the textbook. It tells the story of Saeeda, a young girl whose mother has been ill for a long time in a dark, airless room. The old doctor, driven by greed, deliberately keeps the room shut to maintain the patient's dependence on his expensive medicines. When a new, honest doctor visits, he immediately recommends opening the windows to allow sunlight and fresh air — the real cure. That evening, Saeeda goes out and pleads with the last rays of the setting sun to come into her mother's room the next morning. The sun rays, personified as compassionate beings, agree. Despite clouds gathering overnight, the rays push through at dawn and flood the room with warm, healing light. The mother breathes fresh air, sits in the sunlight, and begins to recover. Key vocabulary: pact (agreement/promise), personification (giving human qualities to non-human things), compassion, greed, bedridden, heliotherapy, Vitamin D, determination. The chapter contrasts greedy, harmful medical practice with genuine care and natural healing. It also celebrates the power of a child's pure love and determination. In Karnataka, traditional practices like Surya Namaskara and institutions like S-VYASA in Bengaluru reflect the same principle of sunlight as health. Moral: Love, determination, and simple natural remedies are more powerful than greed and wrong medicine.",
+
+  "must_remember_facts": [
+    "The chapter is the title story of the textbook 'A Pact with the Sun.'",
+    "Saeeda's mother is kept in a dark, stuffy room by the old doctor — deliberately, for financial gain.",
+    "The new, kind doctor prescribes sunlight and fresh air as the primary treatment.",
+    "Saeeda speaks to the sun rays at sunset and they make a pact — a promise — to shine into her mother's room.",
+    "The sun rays are personified — they are given human qualities (listening, promising, feeling moved).",
+    "Despite clouds gathering overnight, the sun rays keep their promise by piercing through in the morning.",
+    "Sunlight provides Vitamin D and strengthens the immune system — scientifically valid healing.",
+    "The old doctor represents greed; the new doctor and Saeeda represent compassion and love.",
+    "Surya Namaskara, practised widely in Karnataka, reflects the cultural recognition of sunlight's healing power.",
+    "Moral: Simple natural remedies (sunlight, fresh air) combined with love and determination can cure what greed and wrong treatment cannot."
   ]
 }

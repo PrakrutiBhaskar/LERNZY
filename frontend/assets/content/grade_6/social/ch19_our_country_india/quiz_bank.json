@@ -1,366 +1,202 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch19_our_country_india_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science — Geography",
+  "textbook": "The Earth: Our Habitat — Textbook for Class VI",
+  "chapter_number": 19,
+  "chapter_title": "Our Country — India",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Our Country India? (Q1)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Our Country India? (Q1)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Our Country India? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "India is the ___ largest country in the world by area.",
+      "options": ["A) 3rd", "B) 5th", "C) 7th", "D) 10th"],
+      "correct_answer": "C) 7th",
+      "explanation": "India is the 7th largest country in the world by area, with approximately 3.28 million sq km. The six countries larger than India by area are: Russia, Canada, USA, China, Brazil, and Australia. However, India is the most populous country in the world (as of 2023)."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Our Country India in a community? (Q2)",
-        "hi": "Who or what body regulates the civic issues related to Our Country India in a community? (Q2)",
-        "kn": "Who or what body regulates the civic issues related to Our Country India in a community? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "The Tropic of Cancer passes through India at which latitude?",
+      "options": ["A) 0°", "B) 23°30'N", "C) 66°33'N", "D) 90°N"],
+      "correct_answer": "B) 23°30'N",
+      "explanation": "The Tropic of Cancer is located at 23°30'N latitude. It passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram. It marks the northernmost point where the sun can appear directly overhead (during summer solstice, June 21)."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Our Country India? (Q3)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Our Country India? (Q3)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Our Country India? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "India is bordered by water on three sides. Which of these is NOT one of those water bodies?",
+      "options": ["A) Arabian Sea", "B) Bay of Bengal", "C) Pacific Ocean", "D) Indian Ocean"],
+      "correct_answer": "C) Pacific Ocean",
+      "explanation": "India is a peninsula surrounded by the Arabian Sea (west), Bay of Bengal (east), and the Indian Ocean (south). The Pacific Ocean is far to the east and does not border India. India's total coastline is about 7,516 km."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Our Country India in a community? (Q4)",
-        "hi": "Who or what body regulates the civic issues related to Our Country India in a community? (Q4)",
-        "kn": "Who or what body regulates the civic issues related to Our Country India in a community? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "Which is the largest state in India by area?",
+      "options": ["A) Madhya Pradesh", "B) Uttar Pradesh", "C) Maharashtra", "D) Rajasthan"],
+      "correct_answer": "D) Rajasthan",
+      "explanation": "Rajasthan is the largest state in India by area (342,239 sq km). It contains the Thar Desert (Great Indian Desert) and is known for its royal heritage, forts, and palaces. Madhya Pradesh was the largest before 2000, when Chhattisgarh was carved out of it."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Our Country India? (Q5)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Our Country India? (Q5)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Our Country India? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "India's Standard Meridian is 82°30'E. Which city is it closest to?",
+      "options": ["A) New Delhi", "B) Mumbai", "C) Prayagraj (Allahabad)", "D) Bengaluru"],
+      "correct_answer": "C) Prayagraj (Allahabad)",
+      "explanation": "India's Standard Meridian (82°30'E) passes through Naini, near Prayagraj (Allahabad) in Uttar Pradesh. Indian Standard Time (IST) is based on this meridian and is 5 hours 30 minutes ahead of GMT. A single standard time was adopted to avoid confusion across India's vast east-west span."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Our Country India in a community? (Q6)",
-        "hi": "Who or what body regulates the civic issues related to Our Country India in a community? (Q6)",
-        "kn": "Who or what body regulates the civic issues related to Our Country India in a community? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "How many countries share a land border with India?",
+      "options": ["A) 5", "B) 6", "C) 7", "D) 9"],
+      "correct_answer": "C) 7",
+      "explanation": "Seven countries share a land border with India: Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh, and Myanmar. Bangladesh shares the longest land border with India. India's total land boundary is about 15,200 km."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Our Country India? (Q7)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Our Country India? (Q7)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Our Country India? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "The Andaman & Nicobar Islands are located in which water body?",
+      "options": ["A) Arabian Sea", "B) Bay of Bengal", "C) Indian Ocean", "D) Lakshadweep Sea"],
+      "correct_answer": "B) Bay of Bengal",
+      "explanation": "The Andaman & Nicobar Islands are located in the Bay of Bengal, southeast of the Indian mainland. They are a Union Territory with Port Blair as the capital. India's only active volcano, Barren Island, is part of this island group. Lakshadweep is the island group located in the Arabian Sea."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Our Country India in a community? (Q8)",
-        "hi": "Who or what body regulates the civic issues related to Our Country India in a community? (Q8)",
-        "kn": "Who or what body regulates the civic issues related to Our Country India in a community? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "Which of the following is the smallest state in India by area?",
+      "options": ["A) Sikkim", "B) Tripura", "C) Goa", "D) Nagaland"],
+      "correct_answer": "C) Goa",
+      "explanation": "Goa is the smallest state in India by area (3,702 sq km). It is located on the western coast and is known for its beaches, churches, and Portuguese heritage. Despite its small size, Goa has one of the highest per capita incomes in India and is the most visited tourist destination."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Our Country India? (Q9)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Our Country India? (Q9)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Our Country India? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "India is separated from Sri Lanka by which water body?",
+      "options": ["A) Palk Bay only", "B) Arabian Sea", "C) Palk Strait and Palk Bay", "D) Gulf of Mannar only"],
+      "correct_answer": "C) Palk Strait and Palk Bay",
+      "explanation": "India (Tamil Nadu) and Sri Lanka are separated by the Palk Strait and Palk Bay. These are shallow stretches of water. A chain of small limestone shoals called Adam's Bridge (Ram Setu) links India and Sri Lanka. The Gulf of Mannar is on the southern side. This close proximity makes Sri Lanka India's nearest island neighbour."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Our Country India in a community? (Q10)",
-        "hi": "Who or what body regulates the civic issues related to Our Country India in a community? (Q10)",
-        "kn": "Who or what body regulates the civic issues related to Our Country India in a community? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "As of 2024, India has how many states and Union Territories?",
+      "options": ["A) 28 states and 7 UTs", "B) 29 states and 7 UTs", "C) 28 states and 8 UTs", "D) 30 states and 6 UTs"],
+      "correct_answer": "C) 28 states and 8 UTs",
+      "explanation": "India has 28 states and 8 Union Territories (UTs) as of 2024. The 8 UTs are: Delhi, J&K, Ladakh, Puducherry, Chandigarh, Dadra & Nagar Haveli and Daman & Diu, Lakshadweep, and Andaman & Nicobar Islands. Ladakh became a separate UT in 2019 when J&K was reorganised."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Easy",
+      "question": "The Thar Desert is located in which Indian state?",
+      "options": ["A) Gujarat", "B) Rajasthan", "C) Punjab", "D) Haryana"],
+      "correct_answer": "B) Rajasthan",
+      "explanation": "The Thar Desert (Great Indian Desert) is located in Rajasthan, in northwestern India. It is the world's 7th largest desert and also extends into Pakistan. It receives less than 25 cm of annual rainfall. The Aravalli Hills on its eastern border prevent monsoon moisture from reaching the desert."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "Why is India called a 'subcontinent'?",
+      "options": [
+        "A) Because India is smaller than a continent but larger than a country in the usual sense",
+        "B) Because India is a large distinct landmass, separated from the rest of Asia by the Himalayas and surrounded by seas on three sides",
+        "C) Because India has more states than any other country",
+        "D) Because India is located below the Asian continent, like a sub-floor"
+      ],
+      "correct_answer": "B) Because India is a large distinct landmass, separated from the rest of Asia by the Himalayas and surrounded by seas on three sides",
+      "explanation": "India is called a subcontinent because it is a very large landmass that is geographically, culturally, and historically distinct from the rest of Asia. The Himalayas form a natural wall separating it from China and Central Asia, while the Arabian Sea, Bay of Bengal, and Indian Ocean bound it on three sides. The Indian subcontinent includes India, Pakistan, Bangladesh, Nepal, Bhutan, and Sri Lanka."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "Karnataka is the ___ largest state in India by area and shares borders with ___ states.",
+      "options": ["A) 4th largest; 4 states", "B) 6th largest; 5 states", "C) 6th largest; 6 states", "D) 8th largest; 4 states"],
+      "correct_answer": "C) 6th largest; 6 states",
+      "explanation": "Karnataka is the 6th largest state in India by area (191,791 sq km). It shares borders with 6 states: Maharashtra (north), Goa (northwest), Kerala (south), Tamil Nadu (southeast), Andhra Pradesh (east), and Telangana (northeast). Karnataka also has a coastline of about 320 km along the Arabian Sea."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "Why did India adopt 82°30'E as its Standard Meridian instead of, say, 75°E or 90°E?",
+      "options": [
+        "A) Because it passes through New Delhi, the capital",
+        "B) Because it passes through the geographic centre of India and provides a centrally located time reference",
+        "C) Because 82°30'E is exactly halfway between the equator and the North Pole",
+        "D) Because all Commonwealth countries use meridians ending in 30 minutes"
+      ],
+      "correct_answer": "B) Because it passes through the geographic centre of India and provides a centrally located time reference",
+      "explanation": "82°30'E was chosen as India's Standard Meridian because it is approximately centrally located between India's easternmost (97°25'E) and westernmost (68°7'E) points. This minimises the time difference between the extreme east and west compared to using any edge meridian. It passes through Naini, near Prayagraj (UP). IST is GMT+5:30."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "Which of the following lists all the countries that border India correctly?",
+      "options": [
+        "A) Pakistan, China, Nepal, Bhutan, Bangladesh, Myanmar",
+        "B) Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh, Myanmar",
+        "C) Pakistan, Afghanistan, Iran, China, Nepal, Bangladesh",
+        "D) Pakistan, China, Nepal, Bhutan, Bangladesh, Sri Lanka, Myanmar"
+      ],
+      "correct_answer": "B) Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh, Myanmar",
+      "explanation": "India shares land borders with 7 countries: Pakistan (northwest), Afghanistan (tiny stretch in J&K, northwest), China (north and northeast), Nepal (north), Bhutan (northeast), Bangladesh (east), and Myanmar (east). Sri Lanka is a neighbouring island country but shares only a maritime (sea) border, not a land border. Iran does not border India."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Which river is associated with Adam's Bridge (Ram Setu) that connects India to Sri Lanka?",
+      "options": [
+        "A) River Kaveri",
+        "B) It is a chain of limestone shoals, not associated with any river",
+        "C) River Ganga",
+        "D) River Krishna"
+      ],
+      "correct_answer": "B) It is a chain of limestone shoals, not associated with any river",
+      "explanation": "Adam's Bridge (Ram Setu) is a chain of natural limestone shoals (small islands and sandbanks) that stretches from Pamban Island (Rameswaram, Tamil Nadu) to Mannar Island (Sri Lanka) across the Palk Strait. It is not formed by a river but by natural geological processes in a shallow sea. Satellite images show this chain clearly."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "Lakshadweep Islands are made of which type of geological formation?",
+      "options": ["A) Volcanic rock", "B) Granite hills", "C) Coral atolls", "D) Sandstone plateaus"],
+      "correct_answer": "C) Coral atolls",
+      "explanation": "Lakshadweep Islands are coral atolls — low-lying islands made of coral reefs and coral limestone, formed by living and dead coral organisms over thousands of years. They are located in the Arabian Sea and are India's smallest Union Territory (32 sq km total). Being low-lying coral islands, they are highly vulnerable to sea-level rise due to climate change."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "The time difference between India's easternmost point (Arunachal Pradesh) and westernmost point (Gujarat) is approximately:",
+      "options": ["A) 30 minutes", "B) 1 hour", "C) 2 hours", "D) 4 hours"],
+      "correct_answer": "C) 2 hours",
+      "explanation": "India spans about 29 degrees of longitude (68°7'E to 97°25'E). Since the Earth rotates 15° per hour, a 29° span equals roughly 2 hours of time difference. This is why India adopted a single Standard Time (IST at 82°30'E) — to avoid having multiple time zones within the country, which would disrupt railways, communications, and daily life."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "A student argues: 'India should have two time zones like the USA, one for eastern India and one for western India.' What is the strongest argument AGAINST this?",
+      "options": [
+        "A) The USA is a larger country, so time zones only make sense for bigger countries",
+        "B) A single time zone (IST) avoids administrative and logistical complications in railways, communications, and federal governance for a country that is already very diverse",
+        "C) Eastern India has fewer people so their time preference doesn't matter",
+        "D) India's Constitution prohibits having more than one time zone"
+      ],
+      "correct_answer": "B) A single time zone (IST) avoids administrative and logistical complications in railways, communications, and federal governance for a country that is already very diverse",
+      "explanation": "While there is a genuine 2-hour natural time difference between Arunachal Pradesh and Gujarat, a single IST simplifies national coordination enormously — railway timetables, flight schedules, banking hours, and government operations all run on one clock. India is already highly diverse in language, culture, and governance. Adding time zone differences would create additional complexity. The trade-off of some inconvenience (early sunrise in the east) is considered worthwhile for national unity and administrative simplicity."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "If the Himalayas did not exist, which of the following consequences would MOST LIKELY occur in India?",
+      "options": [
+        "A) India would become an island surrounded by ocean on all sides",
+        "B) Northern India would face extremely cold winters from Siberian winds, and the great northern rivers (Ganga, Indus) would not exist, making the Indo-Gangetic Plain infertile",
+        "C) India would receive less monsoon rainfall on the southern coast",
+        "D) The Deccan Plateau would rise higher to replace the Himalayas"
+      ],
+      "correct_answer": "B) Northern India would face extremely cold winters from Siberian winds, and the great northern rivers (Ganga, Indus) would not exist, making the Indo-Gangetic Plain infertile",
+      "explanation": "The Himalayas perform two critical functions: (1) they block cold Siberian/Central Asian winds from reaching the plains — without this, northern India's winters would be as harsh as Siberia or Tibet; (2) they are the source of perennial rivers (Ganga, Indus, Brahmaputra) fed by snowmelt and glaciers — without these rivers, the Indo-Gangetic Plain would be far less fertile. The absence of Himalayas would fundamentally transform India's climate, agriculture, and civilisation."
     }
   ]
 }

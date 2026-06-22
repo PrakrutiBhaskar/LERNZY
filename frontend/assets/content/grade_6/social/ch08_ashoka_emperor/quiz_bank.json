@@ -1,366 +1,224 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch08_ashoka_emperor_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science – History",
+  "textbook": "Our Pasts – I",
+  "chapter_number": 8,
+  "chapter_title": "Ashoka, The Emperor Who Gave Up War",
+
+  "level_1_mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Ashoka, The Emperor Who Gave Up War? (Q1)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Ashoka, The Emperor Who Gave Up War? (Q1)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Ashoka, The Emperor Who Gave Up War? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq01", "difficulty": "Easy",
+      "question": "Who founded the Mauryan Empire?",
+      "options": ["Ashoka", "Bindusara", "Chandragupta Maurya", "Kautilya"],
+      "correct_answer": "Chandragupta Maurya",
+      "explanation": "Chandragupta Maurya founded the Mauryan Empire around 321 BCE after overthrowing the Nanda dynasty, with guidance from his minister Kautilya. Ashoka was his grandson; Bindusara was his son."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Ashoka, The Emperor Who Gave Up War in a community? (Q2)",
-        "hi": "Who or what body regulates the civic issues related to Ashoka, The Emperor Who Gave Up War in a community? (Q2)",
-        "kn": "Who or what body regulates the civic issues related to Ashoka, The Emperor Who Gave Up War in a community? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq02", "difficulty": "Easy",
+      "question": "What was the capital of the Mauryan Empire?",
+      "options": ["Vaishali", "Rajagriha", "Pataliputra", "Taxila"],
+      "correct_answer": "Pataliputra",
+      "explanation": "Pataliputra (modern Patna, Bihar) was the capital of the Mauryan Empire, located at the confluence of the Ganga and Son rivers. It was one of the largest and most prosperous cities in the ancient world."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Ashoka, The Emperor Who Gave Up War? (Q3)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Ashoka, The Emperor Who Gave Up War? (Q3)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Ashoka, The Emperor Who Gave Up War? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq03", "difficulty": "Easy",
+      "question": "Who wrote the Arthashastra?",
+      "options": ["Ashoka", "Megasthenes", "Kautilya (Chanakya)", "Bindusara"],
+      "correct_answer": "Kautilya (Chanakya)",
+      "explanation": "Kautilya, also known as Chanakya or Vishnugupta, was Chandragupta Maurya's chief minister. He wrote the Arthashastra — a comprehensive treatise on statecraft, economics, military strategy, and the duties of a king."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Ashoka, The Emperor Who Gave Up War in a community? (Q4)",
-        "hi": "Who or what body regulates the civic issues related to Ashoka, The Emperor Who Gave Up War in a community? (Q4)",
-        "kn": "Who or what body regulates the civic issues related to Ashoka, The Emperor Who Gave Up War in a community? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq04", "difficulty": "Easy",
+      "question": "Which was the last major kingdom conquered by Ashoka?",
+      "options": ["Magadha", "Kosala", "Kalinga", "Vajji"],
+      "correct_answer": "Kalinga",
+      "explanation": "Kalinga (modern Odisha) was the last major independent kingdom Ashoka conquered, around 261 BCE. The war caused massive destruction — 100,000+ killed and 150,000+ deported — which transformed Ashoka's approach to governance."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Ashoka, The Emperor Who Gave Up War? (Q5)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Ashoka, The Emperor Who Gave Up War? (Q5)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Ashoka, The Emperor Who Gave Up War? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq05", "difficulty": "Easy",
+      "question": "According to Ashoka's own 13th Rock Edict, how many people were killed in the Kalinga War?",
+      "options": ["50,000", "100,000", "200,000", "500,000"],
+      "correct_answer": "100,000",
+      "explanation": "Ashoka's own 13th Rock Edict states that about 100,000 people were killed in the Kalinga War, 150,000 were deported, and many more died from wounds and disease. This public admission of the cost of war is historically unique."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Ashoka, The Emperor Who Gave Up War in a community? (Q6)",
-        "hi": "Who or what body regulates the civic issues related to Ashoka, The Emperor Who Gave Up War in a community? (Q6)",
-        "kn": "Who or what body regulates the civic issues related to Ashoka, The Emperor Who Gave Up War in a community? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq06", "difficulty": "Easy",
+      "question": "What is Ashoka's 'dhamma'?",
+      "options": [
+        "A military strategy for conquest",
+        "A moral code of righteous conduct emphasising ahimsa, respect, and compassion",
+        "The Buddhist Pali scripture",
+        "A tax system for the empire"
+      ],
+      "correct_answer": "A moral code of righteous conduct emphasising ahimsa, respect, and compassion",
+      "explanation": "Ashoka's dhamma was a universal moral code — not exclusively Buddhist — based on ahimsa, respect for all religions, generosity to the poor, truthfulness, and care for animals. It applied to people of all religions in the empire."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Ashoka, The Emperor Who Gave Up War? (Q7)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Ashoka, The Emperor Who Gave Up War? (Q7)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Ashoka, The Emperor Who Gave Up War? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq07", "difficulty": "Easy",
+      "question": "What are Ashoka's edicts?",
+      "options": [
+        "Military battle plans carved on rocks",
+        "Official moral/government proclamations carved on rocks and pillars",
+        "Religious hymns inscribed on temple walls",
+        "Tax records stored in palace archives"
+      ],
+      "correct_answer": "Official moral/government proclamations carved on rocks and pillars",
+      "explanation": "Ashoka's edicts are official proclamations carved on large rocks (rock edicts) and stone pillars (pillar edicts) throughout the Mauryan Empire. Written in Brahmi script, they are among India's earliest surviving written records."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Ashoka, The Emperor Who Gave Up War in a community? (Q8)",
-        "hi": "Who or what body regulates the civic issues related to Ashoka, The Emperor Who Gave Up War in a community? (Q8)",
-        "kn": "Who or what body regulates the civic issues related to Ashoka, The Emperor Who Gave Up War in a community? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq08", "difficulty": "Easy",
+      "question": "Who deciphered Ashoka's Brahmi script, and in which year?",
+      "options": [
+        "John Marshall in 1921",
+        "Mortimer Wheeler in 1947",
+        "James Prinsep in 1837",
+        "Alexander Cunningham in 1861"
+      ],
+      "correct_answer": "James Prinsep in 1837",
+      "explanation": "James Prinsep, a British scholar, deciphered the Brahmi script in 1837. This made Ashoka's edicts readable for the first time in about 2,000 years and opened up vast areas of ancient Indian history."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which aspect is most directly studied when analyzing the historical or geographic impact of Ashoka, The Emperor Who Gave Up War? (Q9)",
-        "hi": "Which aspect is most directly studied when analyzing the historical or geographic impact of Ashoka, The Emperor Who Gave Up War? (Q9)",
-        "kn": "Which aspect is most directly studied when analyzing the historical or geographic impact of Ashoka, The Emperor Who Gave Up War? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "hi": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ],
-        "kn": [
-          "Socio-economic developments",
-          "Planetary orbits",
-          "Algebraic factors",
-          "Chemical structures"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "hi": "Social studies focuses on society, human history, resource distribution, and geography.",
-        "kn": "Social studies focuses on society, human history, resource distribution, and geography."
-      },
-      "diagram_ref": null
+      "id": "mcq09", "difficulty": "Easy",
+      "question": "Which of the following is Ashoka's legacy visible on the Indian national flag?",
+      "options": ["The saffron colour", "The green stripe", "The Ashoka Chakra (24-spoked wheel)", "The spinning wheel"],
+      "correct_answer": "The Ashoka Chakra (24-spoked wheel)",
+      "explanation": "The Ashoka Chakra — the 24-spoked wheel at the centre of the Indian tricolour — is taken from Ashokan pillar art and represents dhamma and eternal progress. The spinning wheel (charkha) was replaced by the Ashoka Chakra when India adopted its flag in 1947."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Who or what body regulates the civic issues related to Ashoka, The Emperor Who Gave Up War in a community? (Q10)",
-        "hi": "Who or what body regulates the civic issues related to Ashoka, The Emperor Who Gave Up War in a community? (Q10)",
-        "kn": "Who or what body regulates the civic issues related to Ashoka, The Emperor Who Gave Up War in a community? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "hi": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ],
-        "kn": [
-          "Local government and administration",
-          "Sports federation",
-          "Science research institute",
-          "Private bank"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Civics deals with governance, public facilities, and societal regulations.",
-        "hi": "Civics deals with governance, public facilities, and societal regulations.",
-        "kn": "Civics deals with governance, public facilities, and societal regulations."
-      },
-      "diagram_ref": null
+      "id": "mcq10", "difficulty": "Easy",
+      "question": "Which of the following is India's national emblem, directly derived from an Ashokan monument?",
+      "options": [
+        "The Taj Mahal",
+        "The Lion Capital from Ashoka's Sarnath pillar",
+        "The Qutub Minar",
+        "The Sun Temple at Konark"
+      ],
+      "correct_answer": "The Lion Capital from Ashoka's Sarnath pillar",
+      "explanation": "India's national emblem is the Lion Capital of Ashoka, originally from his pillar at Sarnath (where the Buddha gave his first sermon). It shows four lions back-to-back on a base with animals and a dhamma wheel. It appears on all Indian currency and official documents."
+    },
+    {
+      "id": "mcq11", "difficulty": "Easy",
+      "question": "Who was Mahinda?",
+      "options": [
+        "Ashoka's chief minister",
+        "The general who won the Kalinga War",
+        "Ashoka's son, sent as a Buddhist missionary to Sri Lanka",
+        "The last ruler of the Nanda dynasty"
+      ],
+      "correct_answer": "Ashoka's son, sent as a Buddhist missionary to Sri Lanka",
+      "explanation": "Mahinda was Ashoka's son (some texts say he became a monk). Ashoka sent him to Sri Lanka to spread Buddhism — a mission that fundamentally shaped Sri Lanka's culture and religion. Buddhism's spread to Southeast Asia began with this mission."
+    },
+    {
+      "id": "mcq12", "difficulty": "Easy",
+      "question": "Which district of Karnataka has three Ashokan minor rock edicts?",
+      "options": ["Mysuru", "Bengaluru Rural", "Chitradurga", "Dharwad"],
+      "correct_answer": "Chitradurga",
+      "explanation": "Chitradurga district in Karnataka has three Ashokan minor rock edicts at Brahmagiri, Siddapura, and Jatinga-Rameshwara. These edicts were crucial in deciphering the Brahmi script and are important evidence of Mauryan rule in South India."
+    },
+    {
+      "id": "mcq13", "difficulty": "Easy",
+      "question": "What was Suvarnaagiri?",
+      "options": [
+        "A Buddhist monastery in Bihar",
+        "The Mauryan administrative capital for South India, in modern Karnataka",
+        "A gold mine discovered by Chandragupta",
+        "The battle site of the Kalinga War"
+      ],
+      "correct_answer": "The Mauryan administrative capital for South India, in modern Karnataka",
+      "explanation": "Suvarnaagiri (identified with Kanakagiri in Koppal district, Karnataka) was the Mauryan administrative headquarters for the southern provinces. A royal prince (kumara) governed South India from here on behalf of the emperor."
+    },
+    {
+      "id": "mcq14", "difficulty": "Easy",
+      "question": "What is the Arthashastra primarily about?",
+      "options": [
+        "The life story of Chandragupta Maurya",
+        "Buddhist philosophy and teachings",
+        "Statecraft, administration, economics, and military strategy",
+        "Vedic hymns and rituals"
+      ],
+      "correct_answer": "Statecraft, administration, economics, and military strategy",
+      "explanation": "The Arthashastra by Kautilya (Chanakya) is a comprehensive treatise on how to govern a state. It covers administration, taxation, diplomacy, military strategy, spy networks, and the duties and conduct of a king — essentially an ancient political science textbook."
+    },
+    {
+      "id": "mcq15", "difficulty": "Easy",
+      "question": "What did Ashoka build along the roads of his empire for the welfare of travellers?",
+      "options": [
+        "Temples and shrines only",
+        "Shade trees, wells, rest houses, and hospitals",
+        "Military forts and garrison posts",
+        "Markets and trading posts only"
+      ],
+      "correct_answer": "Shade trees, wells, rest houses, and hospitals",
+      "explanation": "Ashoka built shade trees for rest, wells for drinking water, rest houses (dharmashalas) for travellers, and hospitals for humans and animals along the empire's roads. These welfare measures were unprecedented for any ruler of his era."
+    },
+    {
+      "id": "mcq16", "difficulty": "Easy",
+      "question": "Which script was used in Ashoka's edicts?",
+      "options": ["Sanskrit Devanagari", "Brahmi script", "Tamil script", "Pali Roman script"],
+      "correct_answer": "Brahmi script",
+      "explanation": "Ashoka's edicts were written in Brahmi script — the ancient Indian writing system from which most modern Indian scripts (Kannada, Devanagari, Bengali, Tamil, Telugu, etc.) later developed. The script was deciphered by James Prinsep in 1837."
+    },
+    {
+      "id": "mcq17", "difficulty": "Easy",
+      "question": "What did Ashoka do AFTER the Kalinga War?",
+      "options": [
+        "He conquered more kingdoms to expand the empire",
+        "He resigned as emperor and became a Buddhist monk",
+        "He gave up war, embraced Buddhism, and governed through dhamma",
+        "He punished the Kalinga people with heavy taxes"
+      ],
+      "correct_answer": "He gave up war, embraced Buddhism, and governed through dhamma",
+      "explanation": "After seeing the destruction of the Kalinga War, Ashoka gave up war permanently, embraced Buddhism, and adopted dhamma as his governing principle. He remained emperor but changed his methods from military conquest to moral governance and welfare."
+    },
+    {
+      "id": "mcq18", "difficulty": "Easy",
+      "question": "Which of the following was NOT part of Ashoka's dhamma?",
+      "options": [
+        "Respect for all religions",
+        "Non-violence (ahimsa)",
+        "Forced conversion to Buddhism",
+        "Generosity to the poor"
+      ],
+      "correct_answer": "Forced conversion to Buddhism",
+      "explanation": "Ashoka explicitly did NOT force anyone to convert to Buddhism. His dhamma was a universal moral code respecting all religious traditions. He gave gifts to Brahmin priests, Jains, and Ajivikas as well as Buddhists. Forced conversion would have been against his principle of religious tolerance."
+    },
+    {
+      "id": "mcq19", "difficulty": "Easy",
+      "question": "What was the Greek ambassador Megasthenes' book about Mauryan India called?",
+      "options": ["Arthashastra", "Indica", "Mahabharata", "Dipavamsa"],
+      "correct_answer": "Indica",
+      "explanation": "Megasthenes was sent to Chandragupta Maurya's court at Pataliputra as the ambassador of the Greek ruler Seleucus Nicator. He wrote 'Indica' — a description of India and Mauryan society that provides important foreign evidence about the Mauryan Empire."
+    },
+    {
+      "id": "mcq20", "difficulty": "Easy",
+      "question": "Why is Ashoka considered historically unique among ancient rulers?",
+      "options": [
+        "He built the largest army in the ancient world",
+        "He was the first ruler to use elephants in battle",
+        "He publicly expressed remorse for war and governed through compassion rather than conquest",
+        "He was the first to build stone monuments in India"
+      ],
+      "correct_answer": "He publicly expressed remorse for war and governed through compassion rather than conquest",
+      "explanation": "Ashoka is historically unique because he publicly admitted guilt over a military victory (13th Rock Edict), gave up further conquest despite having the most powerful army in the subcontinent, and built his legacy on welfare and moral governance rather than military power — unprecedented for any ancient ruler."
+    }
+  ],
+
+  "common_misconceptions": [
+    {
+      "misconception": "Ashoka became a Buddhist monk after the Kalinga War and stopped ruling.",
+      "why_confused": "Students hear that Ashoka 'gave up war' and 'embraced Buddhism' and assume he became a monk and abdicated power.",
+      "correct_explanation": "Ashoka remained emperor until his death around 232 BCE — roughly 30 years after the Kalinga War. He did NOT become a monk. He continued to govern the empire vigorously, but changed his methods: from military conquest to welfare, moral governance, and dhamma-based administration. He remained a ruler — just a very different kind of ruler than before Kalinga.",
+      "mini_practice_question": "Did Ashoka stop being emperor after the Kalinga War? What DID change after Kalinga?",
+      "answer": "No — Ashoka remained emperor until his death (~232 BCE). What changed was his METHOD of governance: he gave up war and conquest, adopted dhamma (compassion, non-violence, welfare), issued edicts, built hospitals and roads, and sent Buddhist missionaries abroad."
+    },
+    {
+      "misconception": "Ashoka's dhamma was the same as Buddhism — he tried to make everyone a Buddhist.",
+      "why_confused": "Because Ashoka personally embraced Buddhism after Kalinga, students assume his state policy was to impose Buddhism on all subjects.",
+      "correct_explanation": "Ashoka's dhamma was deliberately broader than Buddhism. It was a universal moral code — ahimsa, respect, generosity, truthfulness, tolerance — applicable to people of ALL religions. Ashoka explicitly respected Brahmins, Jains, Ajivikas, and other traditions. His edicts say: 'One should not honour only one's own religion and condemn the religions of others.' He gave gifts to non-Buddhist religious groups. His dhamma was closer to a national ethics than a state religion.",
+      "mini_practice_question": "Was Ashoka's dhamma only for Buddhists? Give one piece of evidence from his edicts to support your answer.",
+      "answer": "No. Ashoka's dhamma was universal. His edicts state that one should not condemn other religions, and he gave gifts to Brahmin priests, Jains, and Ajivikas as well as Buddhists. Dhamma was a moral code for ALL subjects, regardless of religion."
     }
   ]
 }

@@ -1,114 +1,258 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "english",
-  "chapter_id": "ch07_wonder_sleep",
-  "chapter_title": {
-    "en": "The Wonder Called Sleep",
-    "hi": "नींद नामक आश्चर्य",
-    "kn": "ನಿದ್ದೆ ಎಂಬ ಅದ್ಭುತ"
+  "subject": "English",
+  "textbook": "A Pact with the Sun",
+  "chapter_number": 7,
+  "chapter_title": "The Wonder Called Sleep",
+  "estimated_study_time_minutes": 45,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Understand what sleep is and why it is essential for the human body and mind",
+    "Explain the two types of sleep — NREM (non-REM) and REM — and their functions",
+    "Describe what happens to the body and brain during sleep",
+    "State why the right amount of sleep is important for students aged 10–12",
+    "Identify the harmful effects of lack of sleep on concentration, memory, and health",
+    "Define and use key scientific vocabulary from the chapter correctly",
+    "Appreciate sleep as an active, essential biological process rather than mere rest",
+    "Answer comprehension and application questions based on the chapter"
+  ],
+
+  "prerequisite_knowledge": [
+    "Basic understanding that the human body needs rest to function properly",
+    "Awareness that the brain is the control centre of the body",
+    "Familiarity with common health habits like eating well and exercising",
+    "Ability to read and understand a non-fiction / informational text in English"
+  ],
+
+  "introduction": {
+    "why_important": "Sleep is not wasted time — it is when the body repairs itself, the brain processes memories, and energy is restored. Understanding sleep helps students make better choices about their daily habits and health.",
+    "real_life_relevance": "Students who sleep well concentrate better in class, remember their lessons longer, and perform better in exams. On the other hand, students who stay up late watching screens or studying too long at night often feel tired, irritable, and forgetful the next day. Knowing the science of sleep helps you protect your own health.",
+    "karnataka_context": "The National Institute of Mental Health and Neurosciences (NIMHANS), located in Bengaluru, Karnataka, is one of India's premier institutions studying the brain, sleep disorders, and mental health. Researchers at NIMHANS study how poor sleep contributes to anxiety, depression, and learning difficulties in Indian students. Their work highlights how important this topic is for students across Karnataka and India.",
+    "connection_to_previous_learning": "Earlier chapters in this textbook explored human values and well-being through stories. This chapter shifts to science and explains the biological importance of sleep — showing that taking care of our bodies is as important as developing good values."
   },
-  "topics": [
-    {
-      "topic_id": "english_grade6_ch07_wonder_sleep_basics",
-      "title": {
-        "en": "The Wonder Called Sleep - Fundamentals",
-        "hi": "नींद नामक आश्चर्य - बुनियादी बातें",
-        "kn": "ನಿದ್ದೆ ಎಂಬ ಅದ್ಭುತ - ಮೂಲತಮxt್ವಗಳು"
+
+  "story_summary": {
+    "characters": [
+      {
+        "name": "The Author / Narrator",
+        "role": "An informative narrator who explains the science and importance of sleep in simple, student-friendly language"
       },
-      "learning_objectives": [
-        "Understand key concepts of The Wonder Called Sleep",
-        "Solve exercises and apply rules related to The Wonder Called Sleep",
-        "Analyze practical examples of The Wonder Called Sleep in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore The Wonder Called Sleep. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम नींद नामक आश्चर्य का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ನಿದ್ದೆ ಎಂಬ ಅದ್ಭುತ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore The Wonder Called Sleep in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम नींद नामक आश्चर्य का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ನಿದ್ದೆ ಎಂಬ ಅದ್ಭುತ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of The Wonder Called Sleep.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in The Wonder Called Sleep.",
-            "hi": "चरण 1: नींद नामक आश्चर्य के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ನಿದ್ದೆ ಎಂಬ ಅದ್ಭುತ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering The Wonder Called Sleep builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "नींद नामक आश्चर्य में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ನಿದ್ದೆ ಎಂಬ ಅದ್ಭುತ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
+      {
+        "name": "Scientists and Researchers (referred to collectively)",
+        "role": "Experts whose research findings are cited to explain the stages and functions of sleep"
       }
+    ],
+    "plot": [
+      "The chapter opens by asking why we sleep — an activity we spend almost one-third of our lives doing.",
+      "It explains that sleep is not simply rest but an active process during which the body carries out vital functions.",
+      "The chapter introduces two main types of sleep: NREM (Non-Rapid Eye Movement) and REM (Rapid Eye Movement) sleep.",
+      "NREM sleep is described as the deep, restful phase during which the body repairs tissues, grows muscles, and strengthens the immune system.",
+      "REM sleep is described as the dream phase — the eyes move rapidly, the brain is very active, and this is when learning and memory are consolidated.",
+      "The chapter explains that a full sleep cycle lasts about 90 minutes and we go through 4–5 cycles per night.",
+      "It discusses how much sleep different age groups need — children and teenagers need 8–10 hours, while adults need 7–8 hours.",
+      "The harmful effects of sleep deprivation are listed: poor concentration, memory loss, mood swings, weakened immunity, and even long-term health problems.",
+      "The chapter debunks the myth that sleeping is lazy or unproductive — it shows that sleep is one of the most important things a person can do for their health.",
+      "It ends by encouraging students to maintain a regular sleep schedule and create a good sleeping environment."
+    ],
+    "moral": "Sleep is not laziness — it is a biological necessity. A well-rested mind and body perform far better than a tired one. Taking care of your sleep is taking care of your health and your future."
+  },
+
+  "core_concepts": [
+    {
+      "concept_name": "NREM and REM Sleep",
+      "simple_explanation": "When we sleep, our body goes through two types of sleep in turns — NREM (quiet, deep sleep where the body heals) and REM (active sleep where we dream and our brain stores memories).",
+      "detailed_explanation": "Sleep is not a single uniform state — it happens in stages. NREM (Non-Rapid Eye Movement) sleep has three stages, moving from light sleep to very deep sleep. During deep NREM, the body repairs damaged cells, grows muscle, and releases growth hormones. The brain waves slow down significantly. REM (Rapid Eye Movement) sleep is very different — the brain becomes almost as active as when we are awake, the eyes dart around under closed eyelids, and this is when we dream. REM sleep plays a critical role in consolidating memories and linking new information to old knowledge. A healthy night's sleep involves cycling through NREM and REM sleep approximately 4–5 times, with each cycle lasting about 90 minutes.",
+      "real_life_example": "After studying hard for a test, if you sleep well, you will remember the material better the next morning than if you stayed up all night revising. This is because REM sleep 'saves' the new information you learned into your long-term memory, just like saving a file on a computer.",
+      "karnataka_example": "NIMHANS (National Institute of Mental Health and Neurosciences) in Bengaluru conducts research on sleep disorders and their impact on students' academic performance. Their studies have found that students in Indian cities who sleep fewer than 7 hours perform significantly worse in memory tests — directly demonstrating the role of REM sleep in learning and memory consolidation.",
+      "common_mistakes": "Many students think that REM sleep (dream sleep) is not real or deep sleep and that it is not as important as the rest phase. In fact, REM sleep is extremely important for the brain — it is when the brain organises and stores new memories. Skipping or reducing REM sleep by waking up too early damages memory and learning.",
+      "memory_tip": "Remember it as: NREM = Body heals (N for kNee — your body), REM = bRain Encodes Memories. Body in NREM, Brain in REM."
+    },
+    {
+      "concept_name": "Sleep Deprivation and Its Effects",
+      "simple_explanation": "Sleep deprivation means not getting enough sleep. When this happens, the body and brain cannot function properly — we feel tired, grumpy, and cannot think clearly.",
+      "detailed_explanation": "Sleep deprivation occurs when a person regularly sleeps less than the recommended amount for their age. For students aged 10–12, the recommended sleep is 9–11 hours per night. When students don't sleep enough — because of late-night screen use, excessive homework, or staying up — the effects are serious. Concentration drops, making it hard to pay attention in class. Memory weakens, so lessons are forgotten quickly. Mood suffers — sleep-deprived students become irritable, anxious, or sad. Physical health also deteriorates: the immune system weakens, making them more prone to colds and infections. Over long periods, chronic sleep deprivation is linked to obesity, diabetes, and heart problems.",
+      "real_life_example": "If you stay up past midnight watching videos on your phone and wake up at 6 a.m. for school, you have slept only 6 hours — far less than the 9–11 hours your body needs. You will likely feel sleepy during morning classes, struggle to remember what the teacher says, and feel irritable. This is sleep deprivation in action.",
+      "karnataka_example": "A study by the Indian Academy of Pediatrics (IAP), which includes paediatricians from Karnataka, found that more than 60% of Indian school children aged 8–14 are sleep-deprived, largely due to increased screen time and academic pressure. Karnataka's state health guidelines for school children recommend no screens after 9 p.m. and a consistent bedtime to address this growing problem.",
+      "common_mistakes": "Many students and parents believe that 'catching up' on sleep during weekends — sleeping 10–12 hours on Saturday and Sunday — can fully compensate for the sleep lost during weekdays. Research shows this is not entirely true. While some recovery occurs, the cognitive damage from weekday sleep deprivation (particularly to memory and concentration) cannot be fully reversed by weekend sleep.",
+      "memory_tip": "Use the word TIRED as an acronym: T = Thinking slows, I = Irritability rises, R = Remembering fails, E = Energy crashes, D = Disease risk rises. That's what sleep deprivation does — it makes you TIRED in every way."
+    },
+    {
+      "concept_name": "Sleep as an Active Biological Process",
+      "simple_explanation": "Many people think sleep is just resting quietly. Actually, sleep is an active time when the body and brain are very busy doing important repair and memory work.",
+      "detailed_explanation": "The common belief is that sleep is passive — the body simply 'switches off' to rest. In reality, sleep is one of the most active and productive periods in a person's 24-hour cycle. During sleep, the body releases growth hormones that repair tissues and build muscles. The immune system produces cytokines — proteins that fight infection. The brain clears out waste products (including toxins associated with memory diseases like Alzheimer's) through the glymphatic system. New information learned during the day is transferred from short-term to long-term memory. Without this active processing, the human body and brain would deteriorate rapidly. Scientists now describe sleep as 'maintenance time' for the biological machine that is the human body.",
+      "real_life_example": "After a sports practice or gym session, muscles feel sore. During sleep that night, growth hormones are released that repair the tiny tears in the muscle fibres, making them stronger. Athletes who sleep 8–9 hours recover faster and perform better than those who sleep 5–6 hours — proving that sleep is an active recovery process, not mere rest.",
+      "karnataka_example": "Pullela Gopichand, the celebrated badminton coach from Hyderabad who has trained Karnataka and national-level players including Saina Nehwal and P.V. Sindhu, emphasises 8–9 hours of sleep as a non-negotiable part of every athlete's training regime at the Gopichand Badminton Academy. He states that the body cannot build strength or speed without adequate sleep — a real-world example of sleep as an active biological process.",
+      "common_mistakes": "Students often believe that studying more (at the cost of sleep) is more productive than sleeping and studying less. Research consistently shows the opposite: studying for 6 hours and sleeping 8 hours produces better exam results than studying for 9 hours and sleeping 5. Sleep actually enhances the learning that happened while awake.",
+      "memory_tip": "Think of sleep as your body's 'Service Centre' — just like a car goes to the garage at night for maintenance (oil change, repairs, diagnostics), your body goes into service mode every night. No service = the machine breaks down."
     }
+  ],
+
+  "key_terms_glossary": [
+    {
+      "term": "Sleep deprivation",
+      "meaning": "A condition caused by not getting enough sleep regularly. It leads to tiredness, poor memory, reduced concentration, mood swings, and weakened immunity."
+    },
+    {
+      "term": "NREM sleep (Non-Rapid Eye Movement)",
+      "meaning": "The phase of sleep during which the body is in deep rest, the brain waves slow down, and the body repairs tissues and releases growth hormones. It has three stages."
+    },
+    {
+      "term": "REM sleep (Rapid Eye Movement)",
+      "meaning": "The active dream phase of sleep during which the eyes move rapidly, the brain is highly active, and new memories and learning are consolidated into long-term storage."
+    },
+    {
+      "term": "Consolidation",
+      "meaning": "The process by which the brain transfers information from short-term (temporary) memory to long-term (permanent) memory during sleep, especially during REM sleep."
+    },
+    {
+      "term": "Growth hormone",
+      "meaning": "A chemical released by the body during deep NREM sleep that helps repair tissues, build muscle, and support physical growth in children and teenagers."
+    },
+    {
+      "term": "Immune system",
+      "meaning": "The body's defence system that fights germs, viruses, and infections. During sleep, the immune system produces important protective proteins, making sleep essential for fighting illness."
+    },
+    {
+      "term": "Sleep cycle",
+      "meaning": "A complete sequence of sleep stages — from light NREM to deep NREM to REM sleep — that lasts approximately 90 minutes. A healthy night's sleep involves 4–5 complete cycles."
+    },
+    {
+      "term": "Insomnia",
+      "meaning": "A sleep disorder in which a person has difficulty falling asleep or staying asleep regularly, leading to tiredness and reduced functioning during the day."
+    },
+    {
+      "term": "Circadian rhythm",
+      "meaning": "The body's internal 24-hour biological clock that regulates when we feel awake and sleepy. It is influenced by light and darkness, and disrupted by irregular sleep schedules or night-time screen use."
+    },
+    {
+      "term": "Glymphatic system",
+      "meaning": "A recently discovered waste-clearance system in the brain that is most active during sleep. It flushes out harmful toxins that accumulate during waking hours, protecting brain health."
+    }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Comprehension",
+      "question": "What are the two main types of sleep, and what does the body do during each?",
+      "step_by_step_answer": [
+        "Step 1: Identify the two types — The two main types of sleep are NREM (Non-Rapid Eye Movement) sleep and REM (Rapid Eye Movement) sleep.",
+        "Step 2: Describe NREM — During NREM sleep, the body is in deep rest. The brain waves slow down, growth hormones are released, body tissues are repaired, muscles grow, and the immune system is strengthened.",
+        "Step 3: Describe REM — During REM sleep, the brain becomes very active, the eyes move rapidly under closed eyelids, and we dream. This is the phase when the brain consolidates memories — transferring new learning into long-term storage.",
+        "Step 4: How they work together — NREM and REM alternate through the night in 90-minute cycles, with 4–5 cycles in a full night's sleep. Both types are essential.",
+        "Conclusion: NREM heals and restores the body, while REM restores and organises the mind. Both types are necessary for complete health and effective learning."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Vocabulary in context",
+      "question": "Use the word 'consolidation' in a sentence connected to the chapter.",
+      "step_by_step_answer": [
+        "Step 1: Recall meaning — 'Consolidation' means the process by which the brain permanently stores new information during sleep, particularly during REM sleep.",
+        "Step 2: Connect to chapter — The chapter explains that after learning something new during the day, REM sleep helps the brain consolidate that information into long-term memory.",
+        "Step 3: Write sentence: 'The consolidation of new vocabulary words happens during REM sleep, which is why students who sleep well after studying remember more in the morning.'"
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Moral application",
+      "question": "How can the information in this chapter help you make better decisions about your daily routine as a student?",
+      "step_by_step_answer": [
+        "Step 1: State the key lesson — Sleep is an active biological necessity, and students aged 10–12 need 9–11 hours of sleep per night for good health, memory, and concentration.",
+        "Step 2: Think of a school/life situation — Many students stay up late to study or watch screens, believing this is productive. They end up sleeping only 5–6 hours.",
+        "Step 3: Apply it — Knowing that REM sleep consolidates memory, a student should plan to finish studying by 9:30 p.m., avoid screens for 30 minutes before bed, and sleep by 10 p.m. to wake at 6 a.m. with 8 hours of sleep.",
+        "Step 4: Conclusion — The chapter shows that a good daily routine that prioritises sleep will lead to better exam results and healthier wellbeing than burning the midnight oil."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "NREM and REM Sleep",
+      "questions": [
+        {
+          "type": "Recall",
+          "q": "What does REM stand for?",
+          "a": "REM stands for Rapid Eye Movement — a stage of sleep during which the eyes move quickly under closed eyelids and the brain is very active."
+        },
+        {
+          "type": "Recall",
+          "q": "How long does one complete sleep cycle last?",
+          "a": "One complete sleep cycle — covering all stages of NREM and REM sleep — lasts approximately 90 minutes."
+        },
+        {
+          "type": "Understanding",
+          "q": "Why is REM sleep important for a student who has just learned new material?",
+          "a": "During REM sleep, the brain consolidates new information — transferring it from short-term memory to long-term memory. This means a student who sleeps well after studying will remember the material better than one who did not sleep."
+        },
+        {
+          "type": "Understanding",
+          "q": "What does the body repair and produce during NREM sleep?",
+          "a": "During NREM sleep, the body releases growth hormones that repair damaged tissues and build muscle. The immune system also produces proteins that help fight infections."
+        },
+        {
+          "type": "Application",
+          "q": "You have an important maths test tomorrow. Is it better to study until 2 a.m. and sleep 4 hours, or to study until 10 p.m. and sleep 8 hours? Explain why.",
+          "a": "It is much better to study until 10 p.m. and sleep 8 hours. Studying until 2 a.m. means only 4 hours of sleep — the brain will have insufficient REM sleep to consolidate what you studied. You will feel tired, your memory will be impaired, and you will likely perform worse. 8 hours of sleep allows your brain to properly store the information."
+        }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Sleep is an active biological process — the body and brain are busy repairing, growing, and organising memories during sleep.",
+    "There are two main types of sleep: NREM (deep rest — body repairs) and REM (active dreaming — brain stores memories).",
+    "A complete sleep cycle lasts 90 minutes; we go through 4–5 cycles per healthy night of sleep.",
+    "Students aged 10–12 need 9–11 hours of sleep per night for optimal health and learning.",
+    "Sleep deprivation causes poor concentration, memory loss, irritability, weakened immunity, and long-term health risks.",
+    "REM sleep is essential for memory consolidation — learning cannot be fully retained without adequate REM sleep.",
+    "Screens (phones, tablets, TV) before bed disrupt the circadian rhythm and reduce sleep quality.",
+    "NIMHANS in Bengaluru, Karnataka, is a leading institution studying sleep and brain health in India.",
+    "Sleep cannot be fully 'caught up' on weekends — consistent daily sleep is far more beneficial.",
+    "A regular sleep schedule (same bedtime and wake time every day) supports the body's natural circadian rhythm."
+  ],
+
+  "mind_map": {
+    "root": "The Wonder Called Sleep",
+    "branches": [
+      {
+        "branch": "Types of Sleep",
+        "sub": ["NREM — body repair, deep rest", "REM — dreaming, memory storage", "4–5 cycles per night, 90 min each"]
+      },
+      {
+        "branch": "Benefits of Sleep",
+        "sub": ["Body heals and grows", "Brain consolidates memories", "Immune system strengthens", "Mood and energy restored"]
+      },
+      {
+        "branch": "Sleep Deprivation",
+        "sub": ["Poor concentration", "Memory loss", "Mood swings and irritability", "Weakened immunity"]
+      },
+      {
+        "branch": "Sleep Requirements",
+        "sub": ["Children 10–12: 9–11 hours", "Adults: 7–8 hours", "Consistent schedule essential"]
+      },
+      {
+        "branch": "Scientific Connections",
+        "sub": ["NIMHANS research, Bengaluru", "Circadian rhythm and body clock", "Glymphatic system — brain detox during sleep"]
+      }
+    ]
+  },
+
+  "revision_notes": "The Wonder Called Sleep is an informational chapter that explains the science of sleep in simple language. Sleep is not passive rest but an active biological process essential for the body and mind. There are two main types of sleep: NREM (Non-Rapid Eye Movement) and REM (Rapid Eye Movement) sleep. During NREM sleep — the deep rest phase — the body releases growth hormones, repairs tissues, builds muscle, and strengthens the immune system. During REM sleep — the dreaming phase — the brain is very active and consolidates memories by transferring new learning from short-term to long-term storage. A complete sleep cycle lasts about 90 minutes, and we go through 4–5 cycles per night. Students aged 10–12 need 9–11 hours of sleep per night. Sleep deprivation — not getting enough sleep — causes tiredness, poor concentration, memory loss, irritability, and weakened immunity. Chronic sleep deprivation is linked to serious health conditions. Key vocabulary: NREM sleep, REM sleep, consolidation, sleep cycle, circadian rhythm, insomnia, glymphatic system, growth hormone, immune system, sleep deprivation. NIMHANS in Bengaluru is India's leading brain and sleep research institution. The key lesson is that sleep is one of the most productive things a student can do — it is when the brain saves everything learned during the day.",
+
+  "must_remember_facts": [
+    "Sleep is an active biological process, not mere rest — the body and brain are very busy during sleep.",
+    "Two types of sleep: NREM (body heals, brain waves slow) and REM (dreaming, memory consolidation).",
+    "One sleep cycle = approximately 90 minutes; a full night involves 4–5 cycles.",
+    "Students aged 10–12 need 9–11 hours of sleep per night.",
+    "REM sleep is critical for memory consolidation — learning cannot be retained without it.",
+    "During NREM, growth hormones are released to repair muscles and tissues.",
+    "Sleep deprivation causes: poor concentration, memory loss, irritability, and weakened immune system.",
+    "NIMHANS (National Institute of Mental Health and Neurosciences) in Bengaluru, Karnataka, studies sleep and brain health.",
+    "The circadian rhythm is the body's 24-hour internal clock that regulates sleep and wakefulness.",
+    "Screens before bed disrupt the circadian rhythm by suppressing melatonin — the sleep hormone."
   ]
 }

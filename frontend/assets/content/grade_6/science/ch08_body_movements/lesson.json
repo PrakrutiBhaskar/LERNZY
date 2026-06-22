@@ -1,114 +1,200 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "science",
-  "chapter_id": "ch08_body_movements",
-  "chapter_title": {
-    "en": "Body Movements",
-    "hi": "शरीर में गति",
-    "kn": "ದೇಹದ ಚಲನೆಗಳು"
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 8,
+  "chapter_title": "Body Movements",
+  "estimated_study_time_minutes": 50,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Identify and describe the different types of joints in the human body",
+    "Explain how bones, joints, and muscles work together to produce movement",
+    "Describe the skeletal system: skull, backbone (vertebral column), rib cage, limb bones",
+    "Understand the role of cartilage and its differences from bone",
+    "Describe how different animals move: earthworm, snail, cockroach, fish, birds, snake",
+    "Explain the function of muscles — they can only pull (contract), not push",
+    "Connect body movement concepts to sports, posture, and health in the Karnataka context"
+  ],
+
+  "prerequisite_knowledge": [
+    "Basic awareness of human body parts — arms, legs, neck, spine",
+    "Everyday experience of moving — walking, running, bending, turning",
+    "Awareness that different animals move differently (fish swims, bird flies, snake slithers)"
+  ],
+
+  "introduction": {
+    "why_important": "Movement is one of the most fundamental characteristics of living organisms. Understanding how our skeleton, joints, and muscles work together helps us appreciate our body's design, prevent injuries, maintain good posture, and understand sports science.",
+    "real_life_relevance": "Every time you pick up a pen, kick a football, nod your head, or do yoga, you are using specific joints and muscles. Understanding which joint does what helps you understand physical education, physio­therapy, and injury prevention.",
+    "karnataka_context": "Karnataka has a rich tradition of physical arts that rely on body movement: Yakshagana (traditional dance-drama from coastal Karnataka) uses elaborate body movements and head rotations. Kabbadi (a popular sport across Karnataka, especially in rural areas) demands understanding of agile body movement. The Mysuru Dasara procession involves the decorated elephant walking — elephants have a unique gait because their legs act as rigid pillars. Karnataka's traditional Kalaripayattu martial arts (practiced in some coastal districts) requires deep understanding of joint flexibility.",
+    "connection_to_previous_learning": "This chapter is the first to study the human body in Grade 6. It builds on students' intuitive knowledge of their own body and introduces scientific vocabulary for structures they use every day."
   },
-  "topics": [
+
+  "story_summary": {
+    "characters": [
+      { "name": "Bones (Skeleton)", "role": "The rigid framework that gives the body shape, protects organs, and provides the attachment points for muscles" },
+      { "name": "Joints", "role": "The points where two or more bones meet; they allow different types of movement" },
+      { "name": "Muscles", "role": "The soft tissue that contracts (pulls) to move bones at joints" },
+      { "name": "Cartilage", "role": "Flexible, smooth tissue at joint surfaces that cushions bones and reduces friction" }
+    ],
+    "plot": [
+      "The chapter opens with the question: how do we move? And how do different animals move?",
+      "It introduces the skeleton — the framework of bones that gives the body shape and protection.",
+      "Key skeletal structures are identified: skull (protects brain), rib cage (protects heart/lungs), vertebral column/backbone (supports body, protects spinal cord).",
+      "Joints are introduced as the points where bones meet. Different types of joints allow different movements.",
+      "Ball and socket joints (shoulder, hip) allow movement in all directions.",
+      "Hinge joints (elbow, knee) allow movement in one plane only (like a door hinge).",
+      "Pivot joints (neck — atlas and axis vertebrae) allow rotational movement.",
+      "Fixed/immovable joints (skull bones) allow no movement.",
+      "Gliding joints (wrist, ankle) allow limited sliding movement.",
+      "Muscles are explained — they can only contract (pull), not push. Muscles work in pairs (biceps and triceps at the elbow).",
+      "The chapter then explores animal locomotion: earthworm (muscles + setae), snail (muscular foot + slime), cockroach (legs + wings), fish (body muscles + fins + tail), birds (wings + hollow bones + streamlined body), snake (scales + body muscles).",
+      "The chapter ends by connecting movement to posture and the importance of physical exercise."
+    ],
+    "moral": "The human body is a masterpiece of engineering — bones give structure, joints give flexibility, and muscles give power. Understanding this helps us move better, stay healthier, and appreciate the diversity of life."
+  },
+
+  "core_concepts": [
     {
-      "topic_id": "science_grade6_ch08_body_movements_basics",
-      "title": {
-        "en": "Body Movements - Fundamentals",
-        "hi": "शरीर में गति - बुनियादी बातें",
-        "kn": "ದೇಹದ ಚಲನೆಗಳು - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of Body Movements",
-        "Solve exercises and apply rules related to Body Movements",
-        "Analyze practical examples of Body Movements in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Body Movements. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम शरीर में गति का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ದೇಹದ ಚಲನೆಗಳು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Body Movements in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम शरीर में गति का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ದೇಹದ ಚಲನೆಗಳು ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Body Movements.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Body Movements.",
-            "hi": "चरण 1: शरीर में गति के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ದೇಹದ ಚಲನೆಗಳು ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Body Movements builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "शरीर में गति में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ದೇಹದ ಚಲನೆಗಳು ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "The Human Skeleton",
+      "simple_explanation": "The skeleton is the framework of bones inside our body. It gives us shape, supports our weight, protects our organs, and gives muscles a place to attach.",
+      "detailed_explanation": "The human skeleton has 206 bones in an adult (babies have more — about 270, which fuse as we grow). Key skeletal structures and their functions: (1) Skull: a rigid bony case enclosing and protecting the brain. The skull has many bones fused together with immovable joints (sutures). The lower jaw (mandible) is the only movable bone of the skull. (2) Vertebral column (backbone/spine): made of 33 vertebrae stacked one on top of another. It supports the body's weight, allows us to bend and twist, and protects the spinal cord. The bones are separated by cartilage discs (intervertebral discs) that act as shock absorbers. (3) Rib cage: 12 pairs of ribs connected to the vertebral column (behind) and most connect to the sternum (breastbone, in front). Ribs form a protective cage around the lungs and heart. Some lower ribs are 'floating ribs' connected only to the backbone. (4) Pectoral girdle (shoulder bones): connects arms to the main skeleton. (5) Pelvic girdle (hip bones): connects legs to the main skeleton and supports the organs of the lower abdomen. (6) Limb bones: femur (thigh — longest bone), tibia and fibula (lower leg), humerus (upper arm), radius and ulna (forearm).",
+      "real_life_example": "Touch the top of your head — that is your skull protecting your brain. Feel your backbone running down your back — each bump is a vertebra. Feel your ribs forming a cage on your chest — they protect your heart and lungs. Move your fingers — dozens of small bones in your hands and wrists work together.",
+      "karnataka_example": "The Dasara elephant (Ambari elephant) at Mysuru Dasara has a massive skeleton adapted for carrying loads — its leg bones are nearly straight (column-like) to support enormous weight. Elephants cannot jump because their heavy skeleton requires all four legs for support. This is a contrast to the human skeleton, which is designed for bipedal walking and complex movement.",
+      "common_mistakes": "Students often think the skull is one single bone — it is made of several bones fused together. The lower jaw (mandible) is the only movable part. Also, students confuse the number of ribs (12 pairs = 24 ribs total). Not all ribs connect to the sternum — the lowest 2 pairs are 'floating ribs'.",
+      "memory_tip": "Skeleton = S-S-V-R-L: Skull (brain), Spine (support), Vertebral column (spinal cord), Ribs (heart/lungs), Limbs (movement). Your body's scaffolding and protective armour."
+    },
+    {
+      "concept_name": "Joints and Types of Joints",
+      "simple_explanation": "A joint is where two bones meet. Different joints allow different types of movement — some allow full rotation, some allow only bending, some allow no movement at all.",
+      "detailed_explanation": "Types of joints: (1) Ball and socket joint: the rounded end (ball) of one bone fits into the cup-shaped socket of another. Allows movement in ALL directions — up/down, left/right, rotation. Examples: shoulder joint (humerus fits into socket of scapula), hip joint (femur fits into pelvis). (2) Hinge joint: works like a door hinge — allows movement in ONE direction only (flexion and extension). Examples: elbow (humerus and ulna), knee (femur and tibia), finger joints, ankle (limited). (3) Pivot joint: one bone rotates around another. Allows rotational movement. Example: the joint between the atlas (1st vertebra) and axis (2nd vertebra) in the neck — allows you to turn your head left and right (say 'no'). (4) Fixed joint (immovable/fibrous joint): bones are fused together and allow NO movement. Example: the joints between the bones of the skull (called sutures). (5) Gliding joint: flat bone surfaces slide past each other in limited directions. Example: the wrist (carpals) and ankle (tarsals). Cartilage: a smooth, flexible tissue that covers the ends of bones at joints, reducing friction and acting as a cushion. Unlike bone, cartilage has no blood supply and is flexible. The tip of your nose and the outer ear are made of cartilage.",
+      "real_life_example": "Demonstrate on your body: move your shoulder in a full circle (ball and socket). Bend and straighten your elbow (hinge). Turn your head left and right — 'no' motion (pivot). Clench your skull — no movement (fixed). Flex your wrist in small sliding motions (gliding).",
+      "karnataka_example": "Yakshagana performers from coastal Karnataka use extreme range of ball-and-socket joint movement in shoulder and hip gestures. Kabbadi players use their knee hinge joints under tremendous stress during raids and tackles — knee injuries in Kabbadi are common, usually involving the cartilage or ligaments of the hinge joint.",
+      "common_mistakes": "Students confuse which joint is at the shoulder vs elbow. Shoulder = ball and socket (all-direction). Elbow = hinge (one direction). Also, students think cartilage is the same as bone — cartilage is SOFTER, FLEXIBLE, and has NO blood vessels. Bones are hard, rigid, and have blood supply.",
+      "memory_tip": "Ball-socket = Ball goes into Bowl = moves in ALL directions. Hinge = door HINGE = opens ONE way. Pivot = spins around a pin. Fixed = FIXED in place (skull). Gliding = slides smoothly (wrist/ankle)."
+    },
+    {
+      "concept_name": "Muscles and How They Work",
+      "simple_explanation": "Muscles produce movement by contracting (shortening and pulling). Muscles can only PULL — they cannot push. They work in pairs: when one contracts, the other relaxes.",
+      "detailed_explanation": "Muscles are attached to bones by tendons (strong, cord-like fibrous tissue). When a muscle contracts, it becomes shorter and thicker, pulling the bone it is attached to. Muscles CANNOT push — they only pull. To move a bone in two directions, you need two muscles working in opposition (antagonistic pairs). Example at the elbow — Biceps and Triceps: To bend the elbow (flex): the BICEPS (on the front of the upper arm) contracts and SHORTENS, pulling the forearm upward. The TRICEPS (on the back of the upper arm) relaxes and becomes longer. To straighten the elbow (extend): the TRICEPS contracts, pulling the forearm downward. The BICEPS relaxes. This paired-muscle system is called antagonistic muscle action. The same principle applies at the knee (quadriceps and hamstrings) and every other joint. When you feel a hard lump when you flex your arm — that is the contracted biceps muscle.",
+      "real_life_example": "Flex your arm (make a muscle pose): feel the bulge on the front of your upper arm — that is your BICEPS contracting. Now feel the back of your upper arm while it's flexed — the TRICEPS is relaxed and soft. Now straighten your arm: the bulge at the front (biceps) disappears and the triceps at the back tightens.",
+      "karnataka_example": "Kabbadi players in Karnataka rely heavily on powerful biceps/triceps coordination for raiding. Wrestlers at Karnataka's traditional Kushti (wrestling) competitions (especially at Dasara celebrations) must develop strong antagonistic muscle pairs. Yoga practitioners at Mysuru's famous yoga institutions understand muscle pairs deeply for correct asana (posture) practice.",
+      "common_mistakes": "Students often say muscles can push and pull — they CANNOT push. Muscles ONLY contract (shorten/pull). Pushing in daily life is done by BONES transferring force, while muscles are the source of pulling force. Also, students sometimes think the triceps bends the elbow — it is the BICEPS that bends (flexes) and the TRICEPS that straightens (extends).",
+      "memory_tip": "BI-ceps = BEnd (flexes). TRI-ceps = sTraighTen (extends). 'BI bends, TRI tries to straighten'. Muscles ONLY pull — they are pullers, not pushers."
+    },
+    {
+      "concept_name": "How Different Animals Move",
+      "simple_explanation": "Different animals have different body structures for movement: earthworms use muscles and bristles, snails use a muscular foot, cockroaches use legs and wings, fish use fins and tail, birds use wings and hollow bones, snakes use scales and body muscles.",
+      "detailed_explanation": "Earthworm: Has no bones or legs. Moves using two sets of muscles (circular muscles that make the body thin and long; longitudinal muscles that make it short and thick). Has tiny bristles called setae on each segment that grip the soil and prevent backward slipping. Alternating contraction of circular and longitudinal muscles creates a wave-like motion that propels the worm forward. Snail: Has no bones. Moves using a single large muscular foot. Produces mucus (slime) that reduces friction with the ground. The muscular foot ripples in waves, pushing the snail forward. Cockroach: Has 3 pairs of legs (6 legs total) and 2 pairs of wings. Uses legs for walking and wings for flying. The exoskeleton (hard outer shell) protects it. Fish: Has a streamlined body (tapers at both ends) to reduce water resistance. Uses muscles along the body to create side-to-side tail movement (undulation). Fins provide steering (pectoral fins), stability (dorsal fins), and propulsion (caudal/tail fin). A swim bladder allows the fish to stay at different water depths without sinking. Bird: Has lightweight hollow bones (less dense = easier to fly). Wings are modified forelimbs with flight feathers. Streamlined body reduces air resistance. Strong flight muscles (breast muscles) power the wings. Snake: Has a very long vertebral column with many vertebrae (may have 200–400 vertebrae). Has scales on its belly (ventral scales/scutes) that grip the ground. Uses body muscles to create waves of movement that push against the ground, propelling the snake forward. No legs.",
+      "real_life_example": "Observe an earthworm in your garden after rain — watch the wave-like muscular movement propel it forward. Watch a cockroach run and count its 6 legs. Watch how a fish in an aquarium uses its tail to propel itself and fins to turn. Watch how a sparrow lands — it uses its wing feathers to brake and legs to absorb impact.",
+      "karnataka_example": "The fish in Karnataka's rivers (Cauvery, Tungabhadra) like the Mahseer (Tor fish) use powerful tail muscles for swimming upstream against strong currents. Karnataka's coastal fishing communities (Mangaluru, Karwar) understand fish movement for setting nets effectively. The Mysuru Zoo has snakes (like the Indian Rock Python) where students can observe how ventral scales grip and propel the snake without legs.",
+      "common_mistakes": "Students often confuse how a fish moves — it is the TAIL (caudal fin) that provides thrust; other fins provide steering and balance. Students also think birds have solid bones like mammals — birds have hollow bones specifically to reduce weight for flight. Also, earthworm movement is NOT rolling — it is a wave-like muscular contraction through segments.",
+      "memory_tip": "Movement memory: Earth-WORM = waves. SNAIL = slime foot. COCKROACH = 6 legs + wings. FISH = tail thrust + fins steer. BIRD = hollow bones + wings. SNAKE = scales + vertebrae waves. Each animal's body is perfectly designed for its movement style."
     }
+  ],
+
+  "key_vocabulary": [
+    { "term": "Skeleton", "definition": "The framework of bones that gives the body its shape, supports weight, and protects internal organs." },
+    { "term": "Joint", "definition": "The point where two or more bones meet. Different types of joints allow different types of movement." },
+    { "term": "Ball and socket joint", "definition": "A joint where a ball-shaped bone end fits into a cup-shaped socket, allowing movement in all directions. Found at shoulder and hip." },
+    { "term": "Hinge joint", "definition": "A joint that allows movement in only one direction (like a door hinge). Found at elbow and knee." },
+    { "term": "Pivot joint", "definition": "A joint that allows one bone to rotate around another. Found in the neck (atlas and axis vertebrae)." },
+    { "term": "Fixed joint", "definition": "A joint that allows no movement. Found between the bones of the skull (sutures)." },
+    { "term": "Cartilage", "definition": "A flexible, smooth connective tissue that covers bone ends at joints, reducing friction. Also found in nose, ears. Has no blood vessels." },
+    { "term": "Muscle", "definition": "Soft tissue attached to bones that contracts (shortens) to produce movement. Muscles can only pull, not push." },
+    { "term": "Tendon", "definition": "A strong, cord-like fibrous tissue that connects a muscle to a bone." },
+    { "term": "Biceps", "definition": "The muscle on the front of the upper arm that contracts to bend (flex) the elbow." },
+    { "term": "Triceps", "definition": "The muscle on the back of the upper arm that contracts to straighten (extend) the elbow." },
+    { "term": "Vertebral column", "definition": "The backbone — a column of 33 vertebrae that supports the body and protects the spinal cord." },
+    { "term": "Rib cage", "definition": "12 pairs of ribs enclosing the chest cavity, protecting the heart and lungs." },
+    { "term": "Setae", "definition": "Tiny bristles on each segment of an earthworm that grip the soil and prevent backward slipping during movement." },
+    { "term": "Streamlined", "definition": "A body shape that tapers at both ends (like a fish or bird), reducing resistance to water or air." }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "The Human Skeleton",
+      "questions": [
+        { "type": "Recall", "q": "What is the function of the rib cage?", "a": "The rib cage (12 pairs of ribs) encloses and protects the heart and lungs. It also plays a role in breathing by expanding and contracting with the chest muscles." },
+        { "type": "Recall", "q": "What is the vertebral column made of, and what does it protect?", "a": "The vertebral column (backbone) is made of 33 vertebrae stacked on top of each other with cartilage discs between them. It provides structural support for the body and protects the spinal cord — the main nerve pathway running down the back." }
+      ]
+    },
+    {
+      "after_concept": "Joints and Types of Joints",
+      "questions": [
+        { "type": "Application", "q": "Which type of joint allows you to turn your head to say 'no'? Name the bones involved.", "a": "A pivot joint. The atlas (1st vertebra) rotates around the axis (2nd vertebra), allowing left-right head rotation — the 'no' movement. The 'yes' (up-down nodding) movement is a different joint — between the skull and the atlas." },
+        { "type": "Application", "q": "Why can you swing your arm in a full circle but can only bend your elbow in one direction?", "a": "The shoulder has a ball and socket joint (allows movement in all directions including full rotation). The elbow has a hinge joint (allows movement in only one plane — bending and straightening, like a door hinge)." }
+      ]
+    },
+    {
+      "after_concept": "Muscles and How They Work",
+      "questions": [
+        { "type": "Understanding", "q": "Why do muscles work in pairs? Give an example.", "a": "Muscles can only contract (pull) — they cannot push. To move a bone in two different directions, two muscles are needed: one pulls it one way, the other pulls it back. Example: Biceps (front of upper arm) contracts to BEND the elbow; Triceps (back of upper arm) contracts to STRAIGHTEN the elbow. When one contracts, the other relaxes." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "The skeleton gives shape, support, and protection to the body (skull → brain; ribs → heart/lungs; vertebral column → spinal cord).",
+    "Joints are where bones meet. Types: ball-and-socket (all directions — shoulder, hip), hinge (one direction — elbow, knee), pivot (rotation — neck), fixed (no movement — skull), gliding (limited sliding — wrist).",
+    "Cartilage is flexible, smooth tissue at joints that cushions bones and reduces friction. It is softer than bone and has no blood vessels.",
+    "Muscles contract (shorten/pull) to move bones. Muscles CANNOT push.",
+    "Muscles work in antagonistic pairs: biceps bends elbow; triceps straightens elbow.",
+    "Earthworm: moves using circular + longitudinal muscles and setae (bristles) on segments.",
+    "Snail: moves using a muscular foot with mucus for lubrication.",
+    "Cockroach: 6 legs + 2 pairs of wings; exoskeleton for protection.",
+    "Fish: streamlined body, tail (caudal fin) for thrust, fins for steering.",
+    "Bird: hollow bones (lightweight), wings (modified forelimbs), strong breast muscles.",
+    "Snake: many vertebrae, ventral scales grip ground, muscular body waves.",
+    "Karnataka: Yakshagana and Kabbadi demonstrate joints/muscles; Mysuru Dasara elephant shows column-like leg joints."
+  ],
+
+  "mind_map": {
+    "root": "Body Movements",
+    "branches": [
+      {
+        "branch": "Human Skeleton",
+        "sub": ["Skull — protects brain", "Vertebral column — 33 vertebrae, protects spinal cord", "Rib cage — 12 pairs, protects heart/lungs", "Limb bones — femur (longest), humerus, radius, ulna"]
+      },
+      {
+        "branch": "Types of Joints",
+        "sub": ["Ball & socket — all directions (shoulder, hip)", "Hinge — one direction (elbow, knee)", "Pivot — rotation (neck)", "Fixed — no movement (skull)", "Gliding — limited slide (wrist, ankle)"]
+      },
+      {
+        "branch": "Muscles",
+        "sub": ["Can only CONTRACT (pull)", "Work in antagonistic pairs", "Biceps bends elbow (contracts)", "Triceps straightens elbow (contracts)", "Tendons connect muscle to bone"]
+      },
+      {
+        "branch": "Cartilage",
+        "sub": ["Softer than bone", "No blood vessels", "Cushions joints", "Found in nose, ears, joints"]
+      },
+      {
+        "branch": "Animal Locomotion",
+        "sub": ["Earthworm — muscles + setae", "Snail — muscular foot + mucus", "Cockroach — 6 legs + wings", "Fish — streamlined, tail thrust, fins steer", "Bird — hollow bones, wings, breast muscles", "Snake — scales + vertebrae waves"]
+      },
+      {
+        "branch": "Karnataka Connections",
+        "sub": ["Yakshagana — ball & socket movements", "Kabbadi — hinge joint (knee) stress", "Mysuru elephant — column-like legs", "Cauvery Mahseer fish — tail thrust", "Mysuru Zoo snakes — vertebral waves"]
+      }
+    ]
+  },
+
+  "revision_notes": "Chapter 8 covers body movement in humans and animals. Human skeleton: skull (brain protection, fixed joints/sutures, only mandible moves), vertebral column (33 vertebrae, protects spinal cord, cartilage discs between vertebrae), rib cage (12 pairs ribs, protects heart and lungs). Types of joints: ball and socket (shoulder, hip — all directions), hinge (elbow, knee — one direction), pivot (atlas-axis in neck — rotation, 'no' movement), fixed/immovable (skull sutures), gliding (wrist, ankle). Cartilage: smooth, flexible, no blood vessels, cushions bones at joints, tip of nose and outer ear are cartilage. Muscles: only contract (pull, never push); work in antagonistic pairs. Biceps (front upper arm) contracts = elbow bends. Triceps (back upper arm) contracts = elbow straightens. Tendons attach muscle to bone. Animal locomotion: earthworm (circular + longitudinal muscles, setae grip soil), snail (muscular foot + mucus), cockroach (6 legs + 2 pairs wings, exoskeleton), fish (streamlined body, tail/caudal fin = thrust, other fins = steering, swim bladder), bird (hollow bones, wings = modified forelimbs, streamlined body, strong breast muscles), snake (many vertebrae, ventral scales grip, muscular waves). Karnataka: Yakshagana ball-socket joints; Kabbadi hinge joint stress; Mysuru Dasara elephant column legs.",
+
+  "must_remember_facts": [
+    "Skeleton functions: shape + support + protection of organs (brain/spinal cord/heart/lungs).",
+    "Ball and socket joint: shoulder and hip — movement in ALL directions.",
+    "Hinge joint: elbow and knee — movement in ONE direction only.",
+    "Pivot joint: neck (atlas + axis) — rotation left/right ('no' movement).",
+    "Fixed joint: skull bones (sutures) — NO movement.",
+    "Cartilage: smooth, flexible, NO blood vessels; cushions joint surfaces. Nose and ears = cartilage.",
+    "Muscles ONLY contract (pull). They CANNOT push.",
+    "Biceps = bends elbow (front of arm). Triceps = straightens elbow (back of arm). They are antagonistic pairs.",
+    "Earthworm: circular + longitudinal muscles + setae (bristles) for locomotion.",
+    "Fish: streamlined body + caudal (tail) fin for thrust + pectoral fins for steering.",
+    "Bird: hollow bones (lightweight) + wings (modified forelimbs) + streamlined body.",
+    "Snake: many vertebrae + ventral scales for grip + muscular wave movement."
   ]
 }

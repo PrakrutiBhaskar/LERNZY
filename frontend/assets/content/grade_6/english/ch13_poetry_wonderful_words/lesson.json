@@ -1,114 +1,212 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "english",
-  "chapter_id": "ch13_poetry_wonderful_words",
-  "chapter_title": {
-    "en": "Poetry: The Wonderful Words",
-    "hi": "कविता: अद्भुत शब्द",
-    "kn": "ಪದ್ಯ: ಅದ್ಭುತ ಪದಗಳು"
+  "subject": "English",
+  "textbook": "Honeysuckle",
+  "chapter_number": 13,
+  "chapter_title": "The Wonderful Words",
+  "type": "Poetry",
+  "poet": "Mary O'Neill",
+  "estimated_study_time_minutes": 40,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Understand the central message of the poem: never let thoughts go unexpressed for lack of words",
+    "Identify the poet's comparison of English to a 'wonderful game'",
+    "Learn and use at least 8 key vocabulary words from the poem in sentences",
+    "Appreciate the relationship between thoughts, words, and expression",
+    "Understand the metaphor of thoughts as 'captives' imprisoned behind the eyes",
+    "Answer comprehension questions based on the poem with textual evidence",
+    "Recite the poem with correct rhythm and expression",
+    "Apply the poem's message by practising expressing their own thoughts clearly in writing"
+  ],
+
+  "prerequisite_knowledge": [
+    "Basic understanding of what a poem is and how it differs from a story",
+    "Familiarity with concepts of stanzas and rhyming words",
+    "Ability to read and understand simple English sentences"
+  ],
+
+  "introduction": {
+    "why_important": "Words are the tools we use to share our innermost thoughts, feelings, and ideas with the world. If we do not find the right words, our brightest ideas remain hidden inside us and are lost forever. This poem teaches us never to give up on expressing ourselves.",
+    "real_life_relevance": "Think of a time when you had a brilliant idea in class but could not find the words to say it, so someone else said the same thing and got the credit. This poem encourages you to keep searching for the right words so that your thoughts can finally be heard.",
+    "karnataka_context": "Karnataka has a rich tradition of literary expression. The great Kannada poet Kuvempu (K. V. Puttappa) once said that language is the mirror of the human soul. Just as Kuvempu used Kannada words to express the beauty of the Malnad forests in his epic 'Ramayana Darshanam', this poem urges every student to find English words that match their brightest thoughts.",
+    "connection_to_previous_learning": "In earlier chapters, you read stories where characters communicated through actions and dialogue. This poem shifts focus to language itself and makes you think about how important it is to find the right words to express what you feel and think."
   },
-  "topics": [
+
+  "poem_summary": {
+    "poet": "Mary O'Neill",
+    "stanzas": 3,
+    "rhyme_scheme": "Alternating rhyme (ABCB pattern)",
+    "central_theme": "The power and importance of words in expressing thoughts",
+    "stanza_summaries": [
+      "Stanza 1: The poet urges readers never to let a thought die unexpressed. She calls English a wonderful game that everyone can play — all you need to do is match the right words to your brightest thoughts.",
+      "Stanza 2: The poet says that many of the most beautiful and important things have never yet been said because people could not find the words. She appeals to the reader to be the one who finally says those beautiful, unspoken things.",
+      "Stanza 3: The poet explains that words are the food and dress of thought — they nourish and clothe ideas. Only words can free a thought from its prison behind your eyes and give it life in the world."
+    ],
+    "moral": "Never let your thoughts die unexpressed. Language is a powerful, wonderful tool available to everyone. By finding the right words, you set your thoughts free and share something valuable with the world."
+  },
+
+  "core_concepts": [
     {
-      "topic_id": "english_grade6_ch13_poetry_wonderful_words_basics",
-      "title": {
-        "en": "Poetry: The Wonderful Words - Fundamentals",
-        "hi": "कविता: अद्भुत शब्द - बुनियादी बातें",
-        "kn": "ಪದ್ಯ: ಅದ್ಭುತ ಪದಗಳು - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of Poetry: The Wonderful Words",
-        "Solve exercises and apply rules related to Poetry: The Wonderful Words",
-        "Analyze practical examples of Poetry: The Wonderful Words in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Poetry: The Wonderful Words. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम कविता: अद्भुत शब्द का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಪದ್ಯ: ಅದ್ಭುತ ಪದಗಳು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Poetry: The Wonderful Words in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम कविता: अद्भुत शब्द का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಪದ್ಯ: ಅದ್ಭುತ ಪದಗಳು ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Poetry: The Wonderful Words.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Poetry: The Wonderful Words.",
-            "hi": "चरण 1: कविता: अद्भुत शब्द के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಪದ್ಯ: ಅದ್ಭುತ ಪದಗಳು ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Poetry: The Wonderful Words builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "कविता: अद्भुत शब्द में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಪದ್ಯ: ಅದ್ಭುತ ಪದಗಳು ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Words as Tools of Expression",
+      "simple_explanation": "Words are like keys that unlock the thoughts locked inside your mind. Without words, your ideas stay trapped and no one can know what you are thinking.",
+      "detailed_explanation": "The poet Mary O'Neill compares English to a 'wonderful game' to show that using words is not scary — it is fun and open to everyone. Every thought you have is like a seed. Without the right words to express it, that seed never grows. When you find the perfect word, the thought comes alive and others can share it. The poem reminds us that great ideas are useless if they remain unexpressed. A scientist who discovers something new but cannot describe it, or a student who understands a solution but cannot explain it, loses the value of that thought. Words make thoughts real and shareable.",
+      "real_life_example": "When you understand how to solve a maths problem but struggle to explain the method to a classmate, that is exactly the situation the poem describes. Practising the right words to explain your thinking helps both you and your classmate.",
+      "karnataka_example": "The Vachana movement in 12th-century Karnataka, led by social reformers like Basavanna and Akka Mahadevi, is a perfect example. These saints expressed profound spiritual thoughts in simple Kannada Vachanas (short prose poems) so that even ordinary farmers and weavers could understand them. They chose words carefully to set their ideas free from the 'prison' of silence.",
+      "common_mistakes": "Students often think this poem is only about learning English grammar or vocabulary. This is wrong. The poem is about the courage to express any thought — not just about language rules. The poet is not saying 'speak perfect English'; she is saying 'do not let your thoughts die unexpressed.'",
+      "memory_tip": "Think of the phrase: 'Words = Keys, Thoughts = Locked Rooms.' Every time you feel you cannot say something, remember: you just need to find the right key (word) to open that room."
+    },
+    {
+      "concept_name": "The Metaphor of Thought as Captive",
+      "simple_explanation": "The poet imagines your thoughts as prisoners locked inside your head, behind your eyes. Only the right words can open the door and let them out.",
+      "detailed_explanation": "A metaphor is a comparison that does not use 'like' or 'as'. The poet uses a powerful metaphor: she says thoughts are like captives (prisoners) held 'behind your eyes', and only words can free them. This image helps us understand that an unexpressed thought is like a person locked in a room — alive and real, but invisible to the world. The poem goes even further by calling words the 'food and dress' of thought, meaning words nourish thoughts and give them a form that others can see. This double metaphor — prison and clothing — makes the poem very vivid and emotionally powerful for readers of any age.",
+      "real_life_example": "Imagine drawing a beautiful picture in your mind of your hometown but not knowing how to paint it. The picture is 'captive' inside you. When you learn to paint (or describe it in words), you free it for others to see. This is exactly what the poem is about.",
+      "karnataka_example": "The great Kannada poet Purandaradasa (1484–1564), known as the 'Father of Carnatic Music', expressed deep devotion through simple Kannada songs called Devaranamas. Before him, such spiritual feelings were often kept to Sanskrit texts accessible only to scholars. Purandaradasa 'freed' those feelings using words and melodies that every common person in Karnataka could understand and sing.",
+      "common_mistakes": "Students sometimes confuse the metaphor 'food and dress of thought' with a literal meaning, thinking the poem is about eating and clothing. Remember, it is figurative language: 'food' means words nourish and give life to thoughts, and 'dress' means words give thoughts a shape and form that others can see.",
+      "memory_tip": "Remember: Thought = Prisoner. Words = Prison Key + Clothes for the prisoner when they walk free. No words = thought stays locked forever."
+    },
+    {
+      "concept_name": "English as a Game Everyone Can Play",
+      "simple_explanation": "The poet says English is like a fun game. Anyone can play it — you just need practice and the courage to try. There are no 'losers' as long as you keep trying to express yourself.",
+      "detailed_explanation": "Many students feel afraid of English because they think only 'smart' or 'native' speakers can use it well. The poet challenges this fear directly by calling English 'a wonderful game' that 'all of you can play'. A game has rules, but it also has joy, participation, and improvement through practice. The poet is saying: do not be scared of making mistakes in English. Play with words. Try different words until you find the right one. This approach removes the fear of failure and replaces it with curiosity and enthusiasm. The poem also hints that there are many beautiful thoughts yet to be expressed — meaning there is always room for a new voice, including yours.",
+      "real_life_example": "Think of learning to play cricket or kabaddi. At first you miss catches and make mistakes. But you keep practising because the game is fun, not because you are already perfect. The poet asks you to treat English the same way — play it joyfully and improve as you go.",
+      "karnataka_example": "Karnataka's Rajyotsava Day on November 1 celebrates the Kannada language and its speakers. Schools across Karnataka hold elocution and essay competitions where students express themselves in Kannada. The spirit is the same: every child, regardless of background, is encouraged to participate and express. This is exactly what the poet means — language belongs to everyone who is willing to play.",
+      "common_mistakes": "Students sometimes think the poem says English is easy and requires no effort. This is not accurate. The poem says it is a 'game' — and games require practice, skill, and effort to play well. The point is that everyone is welcome to participate, not that it requires no work.",
+      "memory_tip": "Game = Fun + Practice + Everyone Included. Whenever English feels scary, say to yourself: 'It is a game — and games are meant to be played, not feared!'"
     }
+  ],
+
+  "key_terms_glossary": [
+    {
+      "term": "shrivel",
+      "meaning": "To shrink, dry up, or wither away. In the poem, a thought 'shrivels and dies' when it is not expressed — just like a plant shrivels without water."
+    },
+    {
+      "term": "captive",
+      "meaning": "A prisoner; someone or something that is trapped and cannot get out. The poet uses this word to describe thoughts that are locked inside the mind because the right words have not been found."
+    },
+    {
+      "term": "metaphor",
+      "meaning": "A figure of speech that compares two different things by saying one thing IS another, without using 'like' or 'as'. Example: 'Words are the food and dress of thought' is a metaphor."
+    },
+    {
+      "term": "express",
+      "meaning": "To put your thoughts, feelings, or ideas into words, actions, or art so that others can understand them. The whole poem is about the importance of expression."
+    },
+    {
+      "term": "loveliest",
+      "meaning": "Most beautiful, most wonderful. The poet says 'many of the loveliest things have never yet been said' — meaning the most beautiful ideas are still waiting for someone to express them."
+    },
+    {
+      "term": "match",
+      "meaning": "To find or select something that fits or goes perfectly with something else. In the poem, 'match the words to the brightest thoughts in your head' means finding words that perfectly capture your ideas."
+    },
+    {
+      "term": "stanza",
+      "meaning": "A group of lines in a poem, separated from other groups by a blank line. 'The Wonderful Words' is divided into three stanzas."
+    },
+    {
+      "term": "rhyme scheme",
+      "meaning": "The pattern of rhyming words at the end of lines in a poem. In this poem, alternating lines rhyme — for example, 'die' and 'it', 'game' and 'play'."
+    },
+    {
+      "term": "prison",
+      "meaning": "A place where someone is held and cannot escape. The poet uses 'prison' metaphorically to describe the mind — thoughts are like prisoners inside your head until words set them free."
+    },
+    {
+      "term": "nourish",
+      "meaning": "To provide what is needed for growth, health, and strength. The poet calls words the 'food' of thought, meaning words nourish and develop ideas."
+    }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Comprehension",
+      "question": "What does the poet mean when she says 'Never let a thought shrivel and die for want of a way to say it'?",
+      "step_by_step_answer": [
+        "Step 1: Identify the key words — 'shrivel', 'die', 'for want of a way to say it'.",
+        "Step 2: Understand 'shrivel and die' — this means a thought becomes weak and disappears if not expressed, just like a plant dies without water.",
+        "Step 3: Understand 'for want of a way to say it' — this means because you could not find the right words to express it.",
+        "Step 4: Put it together — the poet is warning us: do not allow your thoughts to disappear just because you cannot immediately find the right words.",
+        "Step 5: Connect to the poem's message — the poet believes every thought is valuable and deserves to be expressed. Giving up on finding words kills the thought permanently.",
+        "Conclusion: The poet urges readers to keep searching for the right words rather than letting valuable thoughts fade away unexpressed."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Vocabulary in context",
+      "question": "Use the word 'captive' in a sentence that connects to the poem's main idea.",
+      "step_by_step_answer": [
+        "Step 1: Recall meaning — 'captive' means a prisoner; something or someone trapped and unable to escape.",
+        "Step 2: Connect to the poem — the poet uses 'captive' to describe thoughts locked inside the mind. They are trapped until words free them.",
+        "Step 3: Write a sentence: 'My idea for the school project remained a captive in my mind until I found the perfect words to describe it to my teacher.'"
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Moral application",
+      "question": "How can the message of 'The Wonderful Words' help you in your day-to-day school life?",
+      "step_by_step_answer": [
+        "Step 1: State the moral — Never let a thought die unexpressed. Words are tools that set your thoughts free. English is a game everyone can play.",
+        "Step 2: Think of a school situation — During a class discussion, a student knows the answer but is afraid of saying it wrong in English, so they stay silent.",
+        "Step 3: Apply the poem's message — The poem encourages that student to speak up anyway, to try different words, and to see language as a fun game rather than a scary test.",
+        "Step 4: Conclusion — By treating English as a game and practising expression daily — in essays, discussions, and even conversations — every student can become more confident and articulate, honouring the poem's core message."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Words as Tools of Expression",
+      "questions": [
+        { "type": "Recall", "q": "What does the poet call English in the poem?", "a": "The poet calls English 'a wonderful game' that everyone can play." },
+        { "type": "Recall", "q": "What happens to a thought that is not expressed, according to the poem?", "a": "The thought shrivels and dies, meaning it fades away and is lost forever." },
+        { "type": "Understanding", "q": "Why does the poet compare English to a game?", "a": "To show that language is fun, not frightening, and that everyone — regardless of ability — is welcome to participate and practise." },
+        { "type": "Understanding", "q": "What does 'match the words to the brightest thoughts in your head' mean?", "a": "It means finding words that best capture and accurately represent your most vivid and important ideas." },
+        { "type": "Application", "q": "Think of one thought you have had recently that you found difficult to express. What words could you use to express it now?", "a": "Answers will vary. Students should attempt to describe a personal idea or feeling using descriptive words from their vocabulary." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "The poem 'The Wonderful Words' is written by Mary O'Neill.",
+    "The central message is: never let a thought die unexpressed for lack of words.",
+    "The poet compares English to a 'wonderful game' that everyone can play — removing the fear of language.",
+    "Key metaphor: thoughts are 'captives' behind your eyes; only words can set them free.",
+    "Words are called the 'food and dress' of thought — they nourish and give form to ideas.",
+    "The poem says many beautiful things have never been said — encouraging readers to be the first to say them.",
+    "The rhyme scheme of the poem follows an alternating pattern (ABCB).",
+    "The poem has three stanzas, each building on the theme of expression and language.",
+    "Karnataka connection: Basavanna's Vachanas and Purandaradasa's Devaranamas show the power of finding simple words for deep thoughts.",
+    "Exam tip: Remember the key phrases — 'shrivel and die', 'wonderful game', 'food and dress of thought', 'captives', 'prison behind your eyes'."
+  ],
+
+  "mind_map": {
+    "root": "The Wonderful Words",
+    "branches": [
+      { "branch": "Poet", "sub": ["Mary O'Neill", "American poet", "Celebrates language"] },
+      { "branch": "Key Message", "sub": ["Never let thoughts die", "Express yourself", "Find the right words"] },
+      { "branch": "Metaphors", "sub": ["Thought = Captive", "Words = Prison key", "Words = Food and dress of thought"] },
+      { "branch": "Theme", "sub": ["Power of language", "Courage to express", "English as a game for all"] },
+      { "branch": "Literary Devices", "sub": ["Metaphor", "Rhyme scheme (ABCB)", "Personification of thoughts"] }
+    ]
+  },
+
+  "revision_notes": "The poem 'The Wonderful Words' is written by Mary O'Neill and consists of three stanzas. Its central theme is the importance of expressing thoughts through words. The poet begins by urging readers never to let a thought 'shrivel and die' just because they cannot find the right words. She calls English a 'wonderful game' that everyone can play, making language feel accessible and joyful rather than intimidating. The second stanza appeals to readers to express the many beautiful things that have never yet been said — hinting that new, original expression is always possible and needed. The third stanza contains the poem's most powerful ideas: that thoughts are like captives locked 'behind your eyes', and that only words can free them. The poet also calls words the 'food and dress of thought', using metaphor to show that words both nourish ideas and give them a visible form. Key vocabulary includes: shrivel (to wither), captive (prisoner), express (to put thoughts into words), loveliest (most beautiful), and match (to find what fits). The moral is clear: be brave, play with language, and never let your ideas go unspoken. Karnataka connection: like Basavanna's Vachanas, which freed spiritual thoughts from Sanskrit into simple Kannada, this poem urges every student to free their thoughts into words.",
+
+  "must_remember_facts": [
+    "Poet: Mary O'Neill (American poet).",
+    "The poem is from NCERT Class 6 English Honeysuckle.",
+    "Central idea: Never let a thought die unexpressed — find the right words.",
+    "Key phrase 1: English is a 'wonderful game' that everyone can play.",
+    "Key phrase 2: 'Never let a thought shrivel and die for want of a way to say it.'",
+    "Key phrase 3: 'Words are the food and dress of thought.'",
+    "Key metaphor: Thoughts are 'captives' imprisoned 'behind your eyes' — words are the key that frees them.",
+    "The poem has 3 stanzas with an alternating rhyme scheme (ABCB).",
+    "Many of the 'loveliest things have never yet been said' — the poet challenges readers to say them.",
+    "Karnataka link: Basavanna and Purandaradasa used simple words to free profound thoughts for ordinary people."
   ]
 }

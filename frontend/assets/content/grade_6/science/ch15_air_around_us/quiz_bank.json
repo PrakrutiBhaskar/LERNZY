@@ -1,366 +1,237 @@
 {
-  "version": "1.0",
-  "topic_id": "science_grade6_ch15_air_around_us_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 15,
+  "chapter_title": "Air Around Us",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Air Around Us? (Q1)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Air Around Us? (Q1)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Air Around Us? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "What is the most abundant gas in air?",
+      "options": ["A) Oxygen", "B) Carbon dioxide", "C) Nitrogen", "D) Water vapour"],
+      "correct_answer": "C) Nitrogen",
+      "explanation": "Nitrogen (N₂) makes up approximately 78% of dry air — it is the most abundant gas. Oxygen is second at about 21%. Carbon dioxide is only about 0.04%. Water vapour varies but is generally less than 4%. A very common misconception is that oxygen is the most abundant gas — it is not."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Air Around Us experiment? (Q2)",
-        "hi": "What is the standard tool used to measure changes in a Air Around Us experiment? (Q2)",
-        "kn": "What is the standard tool used to measure changes in a Air Around Us experiment? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "What percentage of dry air is oxygen?",
+      "options": ["A) 78%", "B) 21%", "C) 0.04%", "D) 50%"],
+      "correct_answer": "B) 21%",
+      "explanation": "Oxygen (O₂) makes up approximately 21% of dry air — about one-fifth. This is sufficient for respiration and combustion, while being low enough to prevent uncontrolled burning. Nitrogen at 78% dilutes oxygen to this safe level. Carbon dioxide is 0.04% (400 ppm)."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Air Around Us? (Q3)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Air Around Us? (Q3)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Air Around Us? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "Which gas in air is essential for respiration in animals?",
+      "options": ["A) Nitrogen", "B) Carbon dioxide", "C) Oxygen", "D) Argon"],
+      "correct_answer": "C) Oxygen",
+      "explanation": "Oxygen (O₂) is the gas used in cellular respiration — the process by which all living cells break down food (glucose) to release energy. This produces carbon dioxide and water as waste products. Animals (and plants, during non-photosynthesis periods) must inhale oxygen and exhale carbon dioxide."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Air Around Us experiment? (Q4)",
-        "hi": "What is the standard tool used to measure changes in a Air Around Us experiment? (Q4)",
-        "kn": "What is the standard tool used to measure changes in a Air Around Us experiment? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "Which gas do plants use during photosynthesis?",
+      "options": ["A) Oxygen", "B) Nitrogen", "C) Carbon dioxide", "D) Argon"],
+      "correct_answer": "C) Carbon dioxide",
+      "explanation": "Plants absorb carbon dioxide (CO₂) from the air through tiny pores (stomata) in their leaves and use it as a raw material for photosynthesis. The equation: CO₂ + Water + Sunlight → Glucose + Oxygen. Plants thus reduce atmospheric CO₂ and release O₂ — the reverse of what animals do during respiration."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Air Around Us? (Q5)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Air Around Us? (Q5)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Air Around Us? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "A burning candle placed under a glass jar goes out after a few seconds. Why?",
+      "options": [
+        "A) The jar blocks sunlight needed for burning",
+        "B) The oxygen inside the jar gets used up, stopping combustion",
+        "C) The heat melts the candle too quickly",
+        "D) Carbon dioxide from the candle cools down the flame"
+      ],
+      "correct_answer": "B) The oxygen inside the jar gets used up, stopping combustion",
+      "explanation": "Combustion (burning) requires oxygen. In the closed jar, the candle consumes the available oxygen. Once oxygen is depleted, the candle can no longer burn and goes out. This classic experiment demonstrates that oxygen is necessary for combustion. The same principle is used in fire extinguishers, which cut off oxygen supply to extinguish fires."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Air Around Us experiment? (Q6)",
-        "hi": "What is the standard tool used to measure changes in a Air Around Us experiment? (Q6)",
-        "kn": "What is the standard tool used to measure changes in a Air Around Us experiment? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "How do fish breathe underwater?",
+      "options": [
+        "A) They hold their breath until they reach the surface",
+        "B) They absorb dissolved oxygen from water through their gills",
+        "C) They breathe carbon dioxide dissolved in water",
+        "D) They do not need to breathe"
+      ],
+      "correct_answer": "B) They absorb dissolved oxygen from water through their gills",
+      "explanation": "Fish breathe by passing water over their gills, which extract dissolved oxygen from the water. Oxygen from the air dissolves into water at the surface. This proves that air (specifically oxygen) is present even in water. If the dissolved oxygen level drops too low (due to heat or pollution), fish die."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Air Around Us? (Q7)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Air Around Us? (Q7)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Air Around Us? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "What is the role of the ozone layer in the atmosphere?",
+      "options": [
+        "A) It produces oxygen for animals to breathe",
+        "B) It provides carbon dioxide for plants",
+        "C) It absorbs harmful ultraviolet (UV) radiation from the Sun",
+        "D) It causes rainfall by condensing water vapour"
+      ],
+      "correct_answer": "C) It absorbs harmful ultraviolet (UV) radiation from the Sun",
+      "explanation": "The ozone layer is a region in the stratosphere (about 15–50 km above Earth's surface) with concentrated ozone (O₃) gas. It acts as a shield, absorbing 97–99% of the Sun's harmful UV radiation. Without it, increased UV radiation would cause skin cancer, eye damage, and destruction of phytoplankton at the base of ocean food chains."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Air Around Us experiment? (Q8)",
-        "hi": "What is the standard tool used to measure changes in a Air Around Us experiment? (Q8)",
-        "kn": "What is the standard tool used to measure changes in a Air Around Us experiment? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "What happens to air when you pour water on dry soil?",
+      "options": [
+        "A) Water evaporates immediately",
+        "B) Air bubbles rise up as water displaces air from soil pores",
+        "C) Soil absorbs the water without releasing anything",
+        "D) CO₂ is released from the soil"
+      ],
+      "correct_answer": "B) Air bubbles rise up as water displaces air from soil pores",
+      "explanation": "Dry soil contains air in its tiny pores and spaces between soil particles. When water is poured on it, the water displaces this trapped air, causing air bubbles to rise. This simple observation proves that air is present in soil — an important fact because soil organisms (earthworms, bacteria) breathe this soil air."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which scientific term describes the fundamental unit or phenomenon of Air Around Us? (Q9)",
-        "hi": "Which scientific term describes the fundamental unit or phenomenon of Air Around Us? (Q9)",
-        "kn": "Which scientific term describes the fundamental unit or phenomenon of Air Around Us? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "hi": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ],
-        "kn": [
-          "Matter and energy exchange",
-          "Chemical solution",
-          "Inertial frame",
-          "Biological cell structure"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "hi": "Science chapters investigate matter, energy, and physical or biological properties.",
-        "kn": "Science chapters investigate matter, energy, and physical or biological properties."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "Which gas in the atmosphere is responsible for the greenhouse effect and global warming?",
+      "options": ["A) Nitrogen", "B) Oxygen", "C) Argon", "D) Carbon dioxide"],
+      "correct_answer": "D) Carbon dioxide",
+      "explanation": "Carbon dioxide (CO₂) is the primary human-influenced greenhouse gas. It allows sunlight to pass through the atmosphere but traps the heat radiated back from Earth's surface, causing global warming. While water vapour is actually the most abundant greenhouse gas, CO₂ is the one most significantly increased by human activities — burning fossil fuels, deforestation, and industrial processes."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the standard tool used to measure changes in a Air Around Us experiment? (Q10)",
-        "hi": "What is the standard tool used to measure changes in a Air Around Us experiment? (Q10)",
-        "kn": "What is the standard tool used to measure changes in a Air Around Us experiment? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "hi": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ],
-        "kn": [
-          "Calibrated sensor or thermometer",
-          "Barometer",
-          "Microscope",
-          "Stethoscope"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "hi": "Calibrated instruments record temperature and reaction rates in scientific trials.",
-        "kn": "Calibrated instruments record temperature and reaction rates in scientific trials."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "Karnataka districts known for wind energy production include:",
+      "options": ["A) Mysuru and Kodagu", "B) Chitradurga, Gadag, and Davangere", "C) Dakshina Kannada and Udupi", "D) Ballari and Vijayapura"],
+      "correct_answer": "B) Chitradurga, Gadag, and Davangere",
+      "explanation": "Karnataka's Deccan Plateau districts like Chitradurga, Gadag, Davangere, and Tumakuru experience consistent strong winds due to their elevated terrain and temperature gradients. These areas host large wind energy farms. Karnataka is among India's top wind energy states. Wind turbines in these districts convert the kinetic energy of moving air into clean, renewable electricity."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "A student says: 'Nitrogen is the most abundant gas in air but it seems useless.' Which of the following BEST challenges this statement?",
+      "options": [
+        "A) Nitrogen is used by humans directly for energy",
+        "B) Nitrogen dilutes oxygen to a safe level and is converted by soil bacteria into nitrates that plants need for growth",
+        "C) Nitrogen forms clouds that give us rain",
+        "D) Nitrogen is needed for combustion of fuels"
+      ],
+      "correct_answer": "B) Nitrogen dilutes oxygen to a safe level and is converted by soil bacteria into nitrates that plants need for growth",
+      "explanation": "Nitrogen has two crucial roles: (1) Safety buffer — it dilutes oxygen from 100% to 21%, preventing fires from burning uncontrollably (pure O₂ air would cause catastrophic combustion). (2) Nutrition — nitrogen-fixing bacteria in soil convert atmospheric N₂ into soluble nitrates, which plants absorb to make proteins. Without nitrogen, plant growth would be severely limited. Nitrogen is not 'useless' — it is essential."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "Which of the following CORRECTLY describes the exchange of gases between plants and the atmosphere over a 24-hour period?",
+      "options": [
+        "A) Plants only absorb CO₂ and only release O₂ throughout the day and night",
+        "B) Plants release O₂ and absorb CO₂ during the day (photosynthesis exceeds respiration); at night, only respiration occurs, releasing CO₂",
+        "C) Plants always release CO₂ because they always respire, day and night",
+        "D) Plants do not exchange any gases at night"
+      ],
+      "correct_answer": "B) Plants release O₂ and absorb CO₂ during the day (photosynthesis exceeds respiration); at night, only respiration occurs, releasing CO₂",
+      "explanation": "Plants respire continuously (day and night), using O₂ and releasing CO₂. During daylight, they also photosynthesize — which uses CO₂ and releases O₂ at a rate much faster than respiration. So the net effect during the day is: CO₂ absorbed, O₂ released. At night, photosynthesis stops; only respiration continues — so plants release CO₂. Overall, plants are net oxygen producers, which is why they are essential for life on Earth."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "If CO₂ makes up only 0.04% of air, why is it so important for life on Earth?",
+      "options": [
+        "A) CO₂ provides energy to animals for respiration",
+        "B) CO₂ is used by plants for photosynthesis — the foundation of all food chains — and regulates Earth's temperature as a greenhouse gas",
+        "C) CO₂ is the main ingredient of soil nutrients",
+        "D) CO₂ protects Earth from UV radiation"
+      ],
+      "correct_answer": "B) CO₂ is used by plants for photosynthesis — the foundation of all food chains — and regulates Earth's temperature as a greenhouse gas",
+      "explanation": "Despite being only 0.04% of air, CO₂ plays two critical roles: (1) Photosynthesis — plants use CO₂ to make food (glucose), which forms the base of all food chains. Without CO₂, there would be no plant food, and therefore no animal food. (2) Greenhouse gas — CO₂ traps heat in Earth's atmosphere, keeping average temperatures warm enough for life. Without any CO₂, Earth's average temperature would be about -18°C. Small quantity, enormous impact."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "How does wind form?",
+      "options": [
+        "A) Water evaporation creates wind when water vapour rises quickly",
+        "B) Unequal heating of Earth's surface by the Sun creates pressure differences; air moves from high pressure to low pressure, creating wind",
+        "C) The Moon's gravity pulls air from one place to another",
+        "D) Wind is created only over oceans by waves"
+      ],
+      "correct_answer": "B) Unequal heating of Earth's surface by the Sun creates pressure differences; air moves from high pressure to low pressure, creating wind",
+      "explanation": "The Sun heats different parts of Earth's surface unequally. Warm air becomes less dense and rises, creating low pressure. Cooler, denser air from nearby areas rushes in to fill the low-pressure zone — this horizontal movement of air is wind. This is the fundamental mechanism behind all winds, from gentle breezes to monsoon winds and trade winds."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "Why is the atmosphere described as an 'insulating blanket' for Earth?",
+      "options": [
+        "A) The atmosphere is made of a gas that physically feels like a blanket",
+        "B) The atmosphere traps heat near Earth's surface, preventing extreme temperature variations between day and night",
+        "C) The atmosphere keeps rain from falling on the ground",
+        "D) The atmosphere reduces wind speeds to keep Earth warm"
+      ],
+      "correct_answer": "B) The atmosphere traps heat near Earth's surface, preventing extreme temperature variations between day and night",
+      "explanation": "Without an atmosphere, Earth would behave like the Moon: scorching hot (~127°C) during the day when sunlight hits directly, and bitterly cold (~-173°C) at night when no sunlight warms the surface. Earth's atmosphere traps heat radiated from the surface (greenhouse effect) and distributes it, moderating temperature extremes. This stable temperature range is essential for life as we know it."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Western Ghats forests in Karnataka are described as the 'lungs of Karnataka'. Why?",
+      "options": [
+        "A) The forests produce carbon dioxide that animals breathe",
+        "B) The forests absorb CO₂ and release O₂, while filtering air pollutants and maintaining the regional water cycle",
+        "C) The forests are shaped like lungs when seen from a satellite",
+        "D) Animals in these forests produce oxygen through special organs"
+      ],
+      "correct_answer": "B) The forests absorb CO₂ and release O₂, while filtering air pollutants and maintaining the regional water cycle",
+      "explanation": "The Western Ghats forest ecosystem is called the 'lungs of Karnataka' because: (1) Trees photosynthesize, absorbing CO₂ and releasing O₂. (2) The dense forest canopy traps and filters air-borne dust and pollutants. (3) Transpiration from forests adds moisture to the atmosphere, contributing to the monsoon water cycle. (4) The forests store carbon in their biomass, preventing it from entering the atmosphere as CO₂. Protecting these forests is essential for clean air, water, and biodiversity."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "What gas does an organism produce as a waste product of respiration?",
+      "options": ["A) Oxygen", "B) Nitrogen", "C) Carbon dioxide", "D) Water vapour only"],
+      "correct_answer": "C) Carbon dioxide",
+      "explanation": "During cellular respiration, organisms oxidise glucose using oxygen: Glucose + O₂ → CO₂ + H₂O + Energy. Carbon dioxide (and water vapour) is the waste product exhaled by animals. This CO₂ is then used by plants in photosynthesis — completing the carbon cycle. Both CO₂ and water vapour are exhaled, but CO₂ is the primary metabolic waste gas."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "Air pollution in Bengaluru is mainly caused by which of the following?",
+      "options": [
+        "A) Too many trees releasing excess oxygen",
+        "B) Vehicle exhaust emissions, industrial fumes, and construction dust",
+        "C) Excessive rainfall dissolving dust into the air",
+        "D) Wind bringing pollution from other countries"
+      ],
+      "correct_answer": "B) Vehicle exhaust emissions, industrial fumes, and construction dust",
+      "explanation": "Bengaluru has over 10 million registered vehicles whose exhaust releases CO, CO₂, NOₓ, and PM2.5 particulates. Industrial areas and ongoing construction add dust, smoke, and chemicals to the air. Combined with Bengaluru's bowled geography that can trap pollutants, this causes poor air quality, especially in winter. Karnataka State Pollution Control Board (KSPCB) monitors and regulates these sources."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "Forests are being cut down globally at an alarming rate. Predict the direct effect on the composition of air.",
+      "options": [
+        "A) Nitrogen levels in air will increase significantly",
+        "B) Atmospheric CO₂ will increase because less CO₂ is being absorbed by photosynthesis and stored carbon is released",
+        "C) Atmospheric oxygen will immediately become too low to breathe",
+        "D) Water vapour in air will increase due to exposed soil"
+      ],
+      "correct_answer": "B) Atmospheric CO₂ will increase because less CO₂ is being absorbed by photosynthesis and stored carbon is released",
+      "explanation": "Deforestation has two CO₂ effects: (1) Less photosynthesis means less CO₂ absorbed from the atmosphere. (2) When trees are burned or decay, their stored carbon (biomass) is released as CO₂. This dual effect significantly increases atmospheric CO₂, intensifying the greenhouse effect and global warming. Note: the O₂ levels would not immediately drop dangerously — the ocean and remaining vegetation still produce oxygen — but the CO₂ rise is more immediate and significant."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "A student inverts a glass filled with water and then slowly lifts it out of a water container — the water stays in the glass without falling out. Which property of air explains this?",
+      "options": [
+        "A) Air has no weight, so it cannot push water down",
+        "B) Atmospheric pressure pushes upward on the bottom of the water column, preventing it from falling",
+        "C) The glass creates a vacuum that sucks water in",
+        "D) Water molecules stick to glass and cannot fall"
+      ],
+      "correct_answer": "B) Atmospheric pressure pushes upward on the bottom of the water column, preventing it from falling",
+      "explanation": "Air has weight and exerts pressure in all directions — including upward. When you invert the water-filled glass, the atmospheric pressure pushing upward on the open bottom of the water is greater than the downward weight of the water column (for short columns). This upward air pressure supports the water and prevents it from falling. This is the same principle behind barometers. It demonstrates that air has mass and exerts pressure — key properties of air."
     }
   ]
 }

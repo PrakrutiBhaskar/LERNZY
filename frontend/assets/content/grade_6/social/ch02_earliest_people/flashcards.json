@@ -1,96 +1,32 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch02_earliest_people_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science — History",
+  "textbook": "Our Pasts-I",
+  "chapter_number": 2,
+  "chapter_title": "On the Trail of the Earliest People",
+  "total_cards": 20,
   "cards": [
-    {
-      "id": "fc01",
-      "front": {
-        "en": "What is the core idea of On the Trail of the Earliest People? (FC1)",
-        "hi": "What is the core idea of On the Trail of the Earliest People? (FC1)",
-        "kn": "What is the core idea of On the Trail of the Earliest People? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc02",
-      "front": {
-        "en": "Why is On the Trail of the Earliest People important? (FC2)",
-        "hi": "Why is On the Trail of the Earliest People important? (FC2)",
-        "kn": "Why is On the Trail of the Earliest People important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc03",
-      "front": {
-        "en": "What is the core idea of On the Trail of the Earliest People? (FC3)",
-        "hi": "What is the core idea of On the Trail of the Earliest People? (FC3)",
-        "kn": "What is the core idea of On the Trail of the Earliest People? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    },
-    {
-      "id": "fc04",
-      "front": {
-        "en": "Why is On the Trail of the Earliest People important? (FC4)",
-        "hi": "Why is On the Trail of the Earliest People important? (FC4)",
-        "kn": "Why is On the Trail of the Earliest People important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
-    },
-    {
-      "id": "fc05",
-      "front": {
-        "en": "What is the core idea of On the Trail of the Earliest People? (FC5)",
-        "hi": "What is the core idea of On the Trail of the Earliest People? (FC5)",
-        "kn": "What is the core idea of On the Trail of the Earliest People? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
-    }
+    { "id": "fc01", "type": "Recall", "difficulty": "Easy", "front": "Who were hunter-gatherers and how did they get their food?", "back": "Hunter-gatherers were the earliest humans who got all their food from nature — they hunted wild animals, caught fish and birds, and gathered fruits, roots, nuts, seeds, leaves, stalks, and eggs from forests and fields. They did not farm or keep domestic animals. All humans were hunter-gatherers for most of our species' history.", "memory_hook": "HUNT + GATHER = their supermarket had no address! The forest and fields were their store, and moving around was their delivery service!" },
+    { "id": "fc02", "type": "Recall", "difficulty": "Easy", "front": "Give four reasons why hunter-gatherers moved from place to place.", "back": "Four reasons: (1) FOOD: If they stayed too long, they would eat all available food in the area. (2) ANIMALS: Wild animals they hunted moved seasonally — hunters had to follow. (3) SEASONS: Different plants produce food in different seasons and places. (4) WATER: They needed reliable water sources. This four-part reason is remembered as FAWS: Food, Animals, Water, Seasons.", "memory_hook": "FAWS = Food runs out, Animals move, Water needed, Seasons change. The FAWS of nature kept hunter-gatherers forever on the move!" },
+    { "id": "fc03", "type": "Definition", "difficulty": "Easy", "front": "What are lithic tools? Why are they so important for studying early people?", "back": "Lithic tools (from Greek 'lithos' = stone) are tools made from stone by chipping, flaking, or grinding. They include hand axes, scrapers, blades, and microliths. They are the most important source for studying early people because stone is extremely durable — it can survive for millions of years even when organic materials (wood, cloth, food) have completely decayed. Stone tools are the most abundant and oldest evidence of human activity.", "memory_hook": "LITHIC = Lasting In The Hard-stone, Incredibly Calcified. Stone outlasts everything — wood rots, bone dissolves, but STONE STAYS. That's why stone tools tell us the story of the earliest humans!" },
+    { "id": "fc04", "type": "Recall", "difficulty": "Easy", "front": "What is Bhimbetka? What can we learn from it?", "back": "Bhimbetka is a famous prehistoric rock shelter site in Madhya Pradesh, India. Its cave walls are covered with paintings made by early humans using natural pigments (ochre, charcoal). The paintings show animals (bison, elephants, deer), hunting scenes, dancing figures, and everyday activities. They tell us about what animals existed, what early people ate, and aspects of their social and cultural life. Bhimbetka was declared a UNESCO World Heritage Site in 2003.", "memory_hook": "BHIMBETKA = BIG HUMAN Memories Brought Every Time Keepers Arrived. It is a natural photo album of early human life — painted on stone walls that have lasted thousands of years!" },
+    { "id": "fc05", "type": "Recall", "difficulty": "Easy", "front": "Where is Mehrgarh located and why is it important?", "back": "Mehrgarh is located in Balochistan, present-day Pakistan, near the Bolan Pass — an important route into Iran. It is one of the earliest known farming villages in South Asia, dating to about 8000 years ago (approximately 6000 BCE). People at Mehrgarh grew wheat and barley and herded sheep and goats. It represents the earliest evidence of settled agricultural life in the Indian subcontinent.", "memory_hook": "MEHRGARH = where the 'MEHR' (more settled) life 'GARHned' (built). Near the Bolan Pass in Pakistan, 8000 years ago = South Asia's first farming village!" },
+    { "id": "fc06", "type": "Definition", "difficulty": "Easy", "front": "What does 'domestication' mean? Give two examples from the chapter.", "back": "Domestication is the process by which wild animals or plants are gradually tamed, bred, or cultivated under human control over many generations. Examples from the chapter: (1) Sheep and goats — wild animals domesticated (tamed) for herding at Mehrgarh; (2) Wheat and barley — wild grasses domesticated (selectively grown) as crops at Mehrgarh. Domestication was the foundation of farming and herding.", "memory_hook": "DOMESTICATION = bringing wild things into the DOMUS (Latin for 'home'). Wild sheep + humans over generations = tame flock. Wild wheat grass + farmers selecting seeds = cultivated crop. WILD to TAME = the story of domestication!" },
+    { "id": "fc07", "type": "Recall", "difficulty": "Easy", "front": "What is the difference between a perennial and a seasonal water source? Why did it matter to hunter-gatherers?", "back": "A perennial water source (river, lake) has water throughout the year — even in summer. A seasonal water source (many streams, wetlands) has water only at certain times of year and dries up in summer or winter. Hunter-gatherers preferred to live near perennial sources because they could be sure of water supply all year. Near seasonal sources, they would have to move when the water dried up — adding to their already mobile lifestyle.", "memory_hook": "PERENNIAL = 'Per year' = always has water. SEASONAL = has water only in some seasons. Hunter-gatherers needed PERennial sources = water they could count on PERmanently!" },
+    { "id": "fc08", "type": "Concept", "difficulty": "Easy", "front": "How was fire used by early people? Give three uses.", "back": "Early humans used fire in at least three important ways: (1) For warmth — especially in cold nights and winters; (2) To cook food — cooking made food safer to eat (killing bacteria) and easier to digest, and opened up new foods that were inedible raw; (3) To protect themselves from wild animals — animals fear fire, so a campfire kept predators away at night. Additional use: fire for light in caves and at night, and possibly for communication/signalling.", "memory_hook": "FIRE's three jobs: WARM + COOK + PROTECT. Remember WCP: Warmth, Cooking, Protection. Fire was early humanity's Swiss Army knife — it did everything!" },
+    { "id": "fc09", "type": "Recall", "difficulty": "Easy", "front": "What evidence was found at Mehrgarh that showed people were transitioning from hunting to herding?", "back": "At Mehrgarh, archaeologists found two types of animal bones together: (1) Bones of domesticated animals — sheep and goats (showing herding had begun); and (2) Bones of wild animals — deer and pig (showing hunting still continued). This mix of wild and domesticated animal bones proves that the transition from hunting to herding was gradual, not sudden. People at Mehrgarh were doing both at the same time.", "memory_hook": "Wild bones + Tame bones = TRANSITION IN PROGRESS. If Mehrgarh was a menu: 'Today's specials: hunted deer (old way) + herded goat (new way)'. Both dishes on the same table = gradual change!" },
+    { "id": "fc10", "type": "Concept", "difficulty": "Moderate", "front": "How did the environment change around 12,000 years ago, and how did this affect early humans?", "back": "Around 12,000 years ago (approximately 10,000 BCE), the global climate became warmer. This led to: (1) Development of grasslands in many areas; (2) New kinds of animals (cattle, deer, sheep) that thrived on grass; (3) Wild grasses producing edible seeds (precursors of wheat, barley, rice). These changes created the conditions for farming and herding — humans could now grow grasses as crops and herd grass-eating animals. The environmental change essentially created the opportunity for agriculture.", "memory_hook": "12,000 years ago = WARMING WORLD = GRASSLAND GROWS = FARMING POSSIBLE. The Earth's climate changed and handed humans a new opportunity. Those who grabbed it became farmers!" },
+    { "id": "fc11", "type": "Why/How", "difficulty": "Moderate", "front": "Why did hunter-gatherers choose to live in caves and rock shelters rather than building their own shelters?", "back": "Hunter-gatherers chose natural shelters for several practical reasons: (1) Caves and rock shelters required no construction effort — they were ready-made; (2) They provided protection from rain, cold winds, and extreme temperatures; (3) They offered safety from wild animals — with a narrow entrance, they were defensible; (4) Since hunter-gatherers moved frequently, investing labour in building permanent structures made no sense. Natural caves were ideal temporary bases.", "memory_hook": "CAVE = nature's free hotel — no rent, no construction, just move in! For a nomadic group who moves every few weeks, building a house is pointless. A cave is the perfect 'nomad's solution'!" },
+    { "id": "fc12", "type": "Why/How", "difficulty": "Moderate", "front": "How do archaeologists know what hunter-gatherers ate, even though their food decayed thousands of years ago?", "back": "Archaeologists use several indirect methods: (1) Animal bones: bones are more durable than flesh — bones of animals found at campsites show what animals were hunted and eaten; (2) Plant remains: seeds, pollen, and charred (burned) plant fragments can be preserved for thousands of years; (3) Stone tools: scrapers and cutting tools show that animal carcasses were processed; (4) Cave paintings: show animals being hunted and gathered foods. Combining these sources gives a picture of the diet.", "memory_hook": "BONE + SEED + TOOL + PAINTING = 4 Food Detectives. When the meal is gone, these four clues stay behind to tell future archaeologists what was on the menu!" },
+    { "id": "fc13", "type": "Concept", "difficulty": "Moderate", "front": "What new developments came with the farming and herding way of life?", "back": "The farming and herding lifestyle brought several new developments: (1) Pottery — pots were made for cooking grains (rice, wheat, lentils) and for storing food; (2) Weaving — cloth was woven using plant fibres like cotton; (3) Settled villages — people no longer moved constantly; (4) Animal storage — keeping live animals was like a 'walking larder' (live food reserve); (5) Specialisation — with food storage and settled life, some people could specialise in crafts (pottery, weaving) rather than food production.", "memory_hook": "NEW LIFE = POTS + CLOTH + VILLAGE + ANIMALS STORED. Remember PCVA: Pottery, Cloth (weaving), Village (settled), Animals stored. PCVA = the four pillars of the new farming way of life!" },
+    { "id": "fc14", "type": "Why/How", "difficulty": "Moderate", "front": "Why were microliths (tiny stone blades) an advance over earlier, larger stone tools?", "back": "Microliths were an important technological advance for several reasons: (1) They were smaller and lighter, making tools easier to carry on long journeys; (2) Multiple microliths could be combined into a single composite tool — for example, several tiny blades fixed in a row to make a serrated knife or sickle; (3) They used less raw stone material; (4) They could be hafted (fixed to wooden handles) to make arrows, spears, and other tools. Microliths represent increasing sophistication in stone tool technology.", "memory_hook": "MICRO = tiny, LITH = stone. MICROLITHS = tiny stones that do BIG jobs! Like how a phone's microchips are tiny but incredibly powerful — microliths were the high-tech tools of the Stone Age!" },
+    { "id": "fc15", "type": "Application", "difficulty": "Moderate", "front": "If you were a hunter-gatherer and you had to choose where to set up camp, what would you look for? List four things.", "back": "A hunter-gatherer would look for: (1) A perennial water source nearby — a river or lake that does not dry up; (2) A cave or rock shelter for protection from rain, cold, and animals; (3) A forest with diverse plants — fruits, roots, tubers for food; (4) Evidence of animal activity — tracks, droppings — indicating good hunting nearby. Additional considerations: not too far from the next food zone (for seasonal movement), and proximity to sources of good stone for making tools.", "memory_hook": "WATER + SHELTER + PLANTS + ANIMALS = the hunter-gatherer's real estate checklist! Before humans built cities, this was the perfect location: nature's complete package." },
+    { "id": "fc16", "type": "Recall", "difficulty": "Easy", "front": "What crops were grown and what animals were herded at Mehrgarh?", "back": "At Mehrgarh: Crops grown — wheat and barley (the first cultivated grains in this region). Animals herded — sheep and goats (the first domesticated animals in this region). Wild animals also hunted — deer and pig (as shown by the bones found). This combination of early farming and early herding, alongside continued hunting, shows Mehrgarh as a transitional farming village about 8000 years ago.", "memory_hook": "MEHRGARH MENU: Wheat + Barley (crops) + Sheep + Goats (herded) + Deer + Pig (still hunted). A mixed economy = the smart way to transition! Don't give up the old before the new is fully reliable." },
+    { "id": "fc17", "type": "Application", "difficulty": "Hard", "front": "Why was cooking food over fire such an important development for early humans?", "back": "Cooking with fire was transformative for several reasons: (1) Safety: Heat kills harmful bacteria, parasites, and pathogens in raw meat — cooked food was safer to eat; (2) Nutrition: Cooking breaks down tough plant fibres and animal proteins, making nutrients easier to absorb — cooked food is more nutritious; (3) New foods: Many plants (roots, tubers, grains) are inedible or toxic when raw but safe and nutritious when cooked; (4) Social: Cooking around a fire may have promoted social bonding, sharing, and communication; (5) Reduced jaw effort: Cooked food is softer — over evolutionary time, cooking may have allowed human jaw muscles to become smaller and brains to grow larger.", "memory_hook": "FIRE = SAFE + NUTRITIOUS + NEW FOODS + SOCIAL + BRAIN GROWTH. Fire cooking gave humans five upgrades at once — it was the first 'app update' for the human operating system!" },
+    { "id": "fc18", "type": "Application", "difficulty": "Hard", "front": "The chapter says hunting and gathering continued alongside farming for thousands of years. Why would people not abandon hunting immediately after farming began?", "back": "Farming and hunting coexisted for multiple reasons: (1) Risk management: Farming was new and uncertain — a bad harvest could mean starvation. Hunting provided a backup food source; (2) Nutritional variety: Wild game provided protein and nutrients that early crops alone could not supply; (3) Cultural habit: Hunting was a skill passed down for tens of thousands of generations — deeply embedded in communities; (4) Seasonal food gap: Before crops were harvested, people needed food. Hunting filled this gap; (5) Not everyone farmed: In the same region, some communities continued as full-time hunter-gatherers while neighbouring communities farmed.", "memory_hook": "FARMING + HUNTING = INSURANCE POLICY. A smart farmer doesn't throw away the old phone before the new one is proven to work! Keeping hunting was the 'backup plan' while farming became reliable." },
+    { "id": "fc19", "type": "Why/How", "difficulty": "Hard", "front": "Why is it important that the NCERT mentions both men AND women in discussing early communities (e.g., 'women and men first began to grow crops')?", "back": "The NCERT's specific mention of 'women and men' is historically significant: Archaeological and anthropological evidence suggests that women may have played a central role in the discovery of plant cultivation. As the primary gatherers of plants, women would have had the most knowledge of plant growth cycles, seasonal availability, and edible species. By explicitly mentioning women, the NCERT acknowledges that the history of farming is not just a story of male hunters becoming farmers — women's gathering knowledge was fundamental to the agricultural revolution. It is part of the 'many pasts' approach from Chapter 1.", "memory_hook": "WOMEN + MEN = FARMING TOGETHER. Gathering was traditionally associated with women (who knew plant cycles best) — the 'genius of the garden' may well have been female! NCERT acknowledges this by writing 'women and men' explicitly." },
+    { "id": "fc20", "type": "Application", "difficulty": "Hard", "front": "How do cave paintings like those at Bhimbetka serve as historical evidence? What are their limitations?", "back": "Cave paintings as evidence: They show animals that existed (helping us identify species); they depict hunting methods (spears, traps); they show social activities (dancing, groups); they may reflect spiritual beliefs (some animals are painted repeatedly). Limitations: (1) We cannot be certain what the paintings meant to the people who made them — our interpretation may be wrong; (2) We cannot date all paintings precisely; (3) They only show what artists chose to depict — we miss much of daily life; (4) Cave paintings were made in accessible caves — activities in open areas are not recorded.", "memory_hook": "CAVE PAINTINGS = ancient Instagram — people posted what they thought was important! But like Instagram, it shows the highlights, not the full picture. Great for glimpses, limited for complete understanding." }
   ]
 }

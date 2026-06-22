@@ -1,366 +1,212 @@
 {
-  "version": "1.0",
-  "topic_id": "science_grade6_ch07_getting_to_know_plants_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 7,
+  "chapter_title": "Getting to Know Plants",
+  "quiz_type": "MCQ only",
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which of the following is essential for photosynthesis to capture energy? (Q1)",
-        "hi": "Which of the following is essential for photosynthesis to capture energy? (Q1)",
-        "kn": "Which of the following is essential for photosynthesis to capture energy? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Chlorophyll",
-          "Nitrogen",
-          "Oxygen",
-          "Iron"
-        ],
-        "hi": [
-          "Chlorophyll",
-          "Nitrogen",
-          "Oxygen",
-          "Iron"
-        ],
-        "kn": [
-          "Chlorophyll",
-          "Nitrogen",
-          "Oxygen",
-          "Iron"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
-        "hi": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
-        "kn": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Which of the following is classified as a HERB?",
+      "options": ["A) Mango tree", "B) Rose plant", "C) Wheat plant", "D) Coconut tree"],
+      "correct_answer": "C) Wheat plant",
+      "explanation": "Wheat is a herb — it has a soft, green, non-woody stem and is short-lived (seasonal crop). Mango and coconut are trees (tall, thick woody trunks). Rose is a shrub (slightly woody, branches near base). Herbs are typically small, soft-stemmed plants."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "What gas do plants absorb from the atmosphere for photosynthesis? (Q2)",
-        "hi": "What gas do plants absorb from the atmosphere for photosynthesis? (Q2)",
-        "kn": "What gas do plants absorb from the atmosphere for photosynthesis? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Carbon Dioxide",
-          "Oxygen",
-          "Hydrogen",
-          "Helium"
-        ],
-        "hi": [
-          "Carbon Dioxide",
-          "Oxygen",
-          "Hydrogen",
-          "Helium"
-        ],
-        "kn": [
-          "Carbon Dioxide",
-          "Oxygen",
-          "Hydrogen",
-          "Helium"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Plants take in carbon dioxide through stomata to produce glucose.",
-        "hi": "Plants take in carbon dioxide through stomata to produce glucose.",
-        "kn": "Plants take in carbon dioxide through stomata to produce glucose."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "A banana plant is scientifically classified as a:",
+      "options": ["A) Tree, because it is very tall", "B) Shrub, because it has a thick stem", "C) Herb, because its trunk is made of leaf sheaths, not wood", "D) Climber, because it needs support to grow tall"],
+      "correct_answer": "C) Herb, because its trunk is made of leaf sheaths, not wood",
+      "explanation": "Despite its impressive height, the banana plant is a herb. Its 'trunk' is a pseudostem made of tightly packed leaf bases (leaf sheaths), not true woody tissue. Since a herb is defined by its non-woody stem, and the banana has no wood, it is classified as the world's tallest herb. After fruiting, the pseudostem dies."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which of the following is essential for photosynthesis to capture energy? (Q3)",
-        "hi": "Which of the following is essential for photosynthesis to capture energy? (Q3)",
-        "kn": "Which of the following is essential for photosynthesis to capture energy? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Chlorophyll",
-          "Nitrogen",
-          "Oxygen",
-          "Iron"
-        ],
-        "hi": [
-          "Chlorophyll",
-          "Nitrogen",
-          "Oxygen",
-          "Iron"
-        ],
-        "kn": [
-          "Chlorophyll",
-          "Nitrogen",
-          "Oxygen",
-          "Iron"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
-        "hi": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
-        "kn": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "A plant has reticulate venation in its leaves. What type of root system does it most likely have?",
+      "options": ["A) Fibrous root system", "B) Taproot system", "C) Aerial root system", "D) No roots"],
+      "correct_answer": "B) Taproot system",
+      "explanation": "There is a reliable correlation: reticulate venation (net-like vein pattern) is associated with the taproot system. Plants like bean, mango, rose, and neem have reticulate venation and taproots. Parallel venation, on the other hand, is associated with fibrous roots (rice, grass, ragi)."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "What gas do plants absorb from the atmosphere for photosynthesis? (Q4)",
-        "hi": "What gas do plants absorb from the atmosphere for photosynthesis? (Q4)",
-        "kn": "What gas do plants absorb from the atmosphere for photosynthesis? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Carbon Dioxide",
-          "Oxygen",
-          "Hydrogen",
-          "Helium"
-        ],
-        "hi": [
-          "Carbon Dioxide",
-          "Oxygen",
-          "Hydrogen",
-          "Helium"
-        ],
-        "kn": [
-          "Carbon Dioxide",
-          "Oxygen",
-          "Hydrogen",
-          "Helium"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Plants take in carbon dioxide through stomata to produce glucose.",
-        "hi": "Plants take in carbon dioxide through stomata to produce glucose.",
-        "kn": "Plants take in carbon dioxide through stomata to produce glucose."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "Which of the following plants has PARALLEL venation in its leaves?",
+      "options": ["A) Mango", "B) Rose", "C) Grass", "D) Neem"],
+      "correct_answer": "C) Grass",
+      "explanation": "Grass has parallel venation — the veins run parallel to each other from the base to the tip of the leaf blade. Mango, rose, and neem all have reticulate (net-like) venation. Parallel venation is characteristic of monocot plants like grasses, cereals (rice, wheat, maize), and banana."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which of the following is essential for photosynthesis to capture energy? (Q5)",
-        "hi": "Which of the following is essential for photosynthesis to capture energy? (Q5)",
-        "kn": "Which of the following is essential for photosynthesis to capture energy? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Chlorophyll",
-          "Nitrogen",
-          "Oxygen",
-          "Iron"
-        ],
-        "hi": [
-          "Chlorophyll",
-          "Nitrogen",
-          "Oxygen",
-          "Iron"
-        ],
-        "kn": [
-          "Chlorophyll",
-          "Nitrogen",
-          "Oxygen",
-          "Iron"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
-        "hi": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
-        "kn": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "Which of these is the MALE reproductive part of a flower?",
+      "options": ["A) Petal", "B) Sepal", "C) Pistil", "D) Stamen"],
+      "correct_answer": "D) Stamen",
+      "explanation": "The stamen is the male reproductive part of the flower. It consists of the anther (which produces pollen grains) and the filament (the stalk). The pistil is the female part. Petals attract pollinators. Sepals protect the bud before it opens."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "What gas do plants absorb from the atmosphere for photosynthesis? (Q6)",
-        "hi": "What gas do plants absorb from the atmosphere for photosynthesis? (Q6)",
-        "kn": "What gas do plants absorb from the atmosphere for photosynthesis? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Carbon Dioxide",
-          "Oxygen",
-          "Hydrogen",
-          "Helium"
-        ],
-        "hi": [
-          "Carbon Dioxide",
-          "Oxygen",
-          "Hydrogen",
-          "Helium"
-        ],
-        "kn": [
-          "Carbon Dioxide",
-          "Oxygen",
-          "Hydrogen",
-          "Helium"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Plants take in carbon dioxide through stomata to produce glucose.",
-        "hi": "Plants take in carbon dioxide through stomata to produce glucose.",
-        "kn": "Plants take in carbon dioxide through stomata to produce glucose."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "The female reproductive part of a flower is the:",
+      "options": ["A) Sepal", "B) Petal", "C) Stamen", "D) Pistil"],
+      "correct_answer": "D) Pistil",
+      "explanation": "The pistil (also called carpel or gynoecium) is the female reproductive organ. It has three parts: stigma (sticky top that receives pollen), style (tube connecting stigma to ovary), and ovary (contains ovules that become seeds after fertilisation). The pistil is located at the centre of the flower."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which of the following is essential for photosynthesis to capture energy? (Q7)",
-        "hi": "Which of the following is essential for photosynthesis to capture energy? (Q7)",
-        "kn": "Which of the following is essential for photosynthesis to capture energy? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Chlorophyll",
-          "Nitrogen",
-          "Oxygen",
-          "Iron"
-        ],
-        "hi": [
-          "Chlorophyll",
-          "Nitrogen",
-          "Oxygen",
-          "Iron"
-        ],
-        "kn": [
-          "Chlorophyll",
-          "Nitrogen",
-          "Oxygen",
-          "Iron"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
-        "hi": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
-        "kn": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "Which part of the flower protects the bud before it opens?",
+      "options": ["A) Petals", "B) Stamens", "C) Sepals", "D) Pistil"],
+      "correct_answer": "C) Sepals",
+      "explanation": "Sepals are the outermost, usually green, leaf-like structures of the flower. Before the flower opens, sepals enclose and protect the developing bud from physical damage, dehydration, and insects. After the flower opens, sepals are visible at the base. Petals attract pollinators; stamens and pistil are reproductive parts."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "What gas do plants absorb from the atmosphere for photosynthesis? (Q8)",
-        "hi": "What gas do plants absorb from the atmosphere for photosynthesis? (Q8)",
-        "kn": "What gas do plants absorb from the atmosphere for photosynthesis? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Carbon Dioxide",
-          "Oxygen",
-          "Hydrogen",
-          "Helium"
-        ],
-        "hi": [
-          "Carbon Dioxide",
-          "Oxygen",
-          "Hydrogen",
-          "Helium"
-        ],
-        "kn": [
-          "Carbon Dioxide",
-          "Oxygen",
-          "Hydrogen",
-          "Helium"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Plants take in carbon dioxide through stomata to produce glucose.",
-        "hi": "Plants take in carbon dioxide through stomata to produce glucose.",
-        "kn": "Plants take in carbon dioxide through stomata to produce glucose."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "What is the correct order of floral whorls from outermost to innermost?",
+      "options": [
+        "A) Petals → Sepals → Pistil → Stamens",
+        "B) Sepals → Petals → Stamens → Pistil",
+        "C) Stamens → Petals → Sepals → Pistil",
+        "D) Pistil → Stamens → Petals → Sepals"
+      ],
+      "correct_answer": "B) Sepals → Petals → Stamens → Pistil",
+      "explanation": "The correct order from outside to inside: Sepals (outermost, protect bud) → Petals (attract pollinators) → Stamens (male, produce pollen) → Pistil (female, contains ovary, innermost). Mnemonic: 'Some Pretty Students Pass' — Sepal, Petal, Stamen, Pistil."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which of the following is essential for photosynthesis to capture energy? (Q9)",
-        "hi": "Which of the following is essential for photosynthesis to capture energy? (Q9)",
-        "kn": "Which of the following is essential for photosynthesis to capture energy? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Chlorophyll",
-          "Nitrogen",
-          "Oxygen",
-          "Iron"
-        ],
-        "hi": [
-          "Chlorophyll",
-          "Nitrogen",
-          "Oxygen",
-          "Iron"
-        ],
-        "kn": [
-          "Chlorophyll",
-          "Nitrogen",
-          "Oxygen",
-          "Iron"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
-        "hi": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy.",
-        "kn": "Chlorophyll is the green pigment in leaves that absorbs sunlight energy."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "Which of the following plants is a CLIMBER?",
+      "options": ["A) Pumpkin", "B) Watermelon", "C) Grapevine", "D) Bitter gourd spreading on the ground"],
+      "correct_answer": "C) Grapevine",
+      "explanation": "Grapevine is a climber — it uses tendrils to grip and grow upward on fences or trellises. Pumpkin, watermelon, and bitter gourd (when spreading on the ground) are creepers — they grow along the ground. The key difference: creepers spread horizontally; climbers grow upward using support."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "What gas do plants absorb from the atmosphere for photosynthesis? (Q10)",
-        "hi": "What gas do plants absorb from the atmosphere for photosynthesis? (Q10)",
-        "kn": "What gas do plants absorb from the atmosphere for photosynthesis? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Carbon Dioxide",
-          "Oxygen",
-          "Hydrogen",
-          "Helium"
-        ],
-        "hi": [
-          "Carbon Dioxide",
-          "Oxygen",
-          "Hydrogen",
-          "Helium"
-        ],
-        "kn": [
-          "Carbon Dioxide",
-          "Oxygen",
-          "Hydrogen",
-          "Helium"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Plants take in carbon dioxide through stomata to produce glucose.",
-        "hi": "Plants take in carbon dioxide through stomata to produce glucose.",
-        "kn": "Plants take in carbon dioxide through stomata to produce glucose."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "Karnataka's most important food crop, ragi (finger millet), has what type of root system?",
+      "options": ["A) Taproot system", "B) Aerial root system", "C) Fibrous root system", "D) Prop root system"],
+      "correct_answer": "C) Fibrous root system",
+      "explanation": "Ragi is a cereal/grass-family plant (monocot) with parallel venation. Parallel venation is associated with fibrous roots — many thin roots of similar size spreading from the base of the stem. This fibrous root system helps prevent soil erosion in Karnataka's farm fields. Ragi is widely grown in Tumakuru, Kolar, and Ramanagara districts."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "A student examines a plant and finds: broad leaves with net-like veins, one thick root going deep with many lateral branches, slightly woody stem branching near the base. What type of plant is this?",
+      "options": ["A) Herb with fibrous roots", "B) Tree with taproot", "C) Shrub with taproot", "D) Creeper with fibrous roots"],
+      "correct_answer": "C) Shrub with taproot",
+      "explanation": "Broad leaves with net-like veins = reticulate venation → taproot (confirmed by the thick main root going deep). Slightly woody stem branching near base = shrub. All three clues consistently point to a shrub with taproot. Rose and hibiscus are examples — they have reticulate venation, taproot systems, and are shrubs."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "Which of the following statements about the stem is INCORRECT?",
+      "options": [
+        "A) The stem provides support to the plant",
+        "B) The stem transports water from roots to leaves",
+        "C) The stem can store food in some plants",
+        "D) The stem absorbs water and minerals from the soil"
+      ],
+      "correct_answer": "D) The stem absorbs water and minerals from the soil",
+      "explanation": "Roots absorb water and minerals from the soil — not the stem. The stem's functions are: (1) support, (2) conducting water upward via xylem, (3) conducting food downward via phloem, and (4) food storage in modified stems (potato, sugarcane). Absorption is the root's job, not the stem's."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "The anther is to the stamen as the ovary is to the:",
+      "options": ["A) Sepal", "B) Petal", "C) Pistil", "D) Filament"],
+      "correct_answer": "C) Pistil",
+      "explanation": "The anther is the pollen-producing part of the stamen (the anther is a component of the stamen). Similarly, the ovary is the seed-forming part of the pistil (the ovary is a component of the pistil). Stamen = filament + anther. Pistil = stigma + style + ovary. The relationship is: anther : stamen :: ovary : pistil."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "A student places a white carnation flower in red-coloured water. After 2 hours, the petals turn slightly pink. What does this experiment prove?",
+      "options": [
+        "A) Flowers absorb colour only through petals",
+        "B) Water with dissolved colour travels upward through the stem",
+        "C) Red water changes the chemical composition of the flower",
+        "D) The petals were already pink before the experiment"
+      ],
+      "correct_answer": "B) Water with dissolved colour travels upward through the stem",
+      "explanation": "This classic experiment demonstrates that water (and dissolved substances in it) travels upward through the stem via xylem vessels. The red dye dissolves in water and is carried upward through the xylem, eventually reaching the petals and colouring them. This proves the stem's transport function — water moves upward from roots to leaves and flowers."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "Which of the following correctly pairs the plant, its venation, and its root type?",
+      "options": [
+        "A) Rice — reticulate venation — taproot",
+        "B) Mango — parallel venation — fibrous root",
+        "C) Grass — parallel venation — fibrous root",
+        "D) Bean — parallel venation — taproot"
+      ],
+      "correct_answer": "C) Grass — parallel venation — fibrous root",
+      "explanation": "Grass has parallel venation (veins run side by side) and fibrous roots (many thin equal roots). Rice — parallel venation — fibrous root (not taproot). Mango — reticulate venation — taproot (not parallel/fibrous). Bean — reticulate venation — taproot (not parallel). Only option C is fully correct."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Karnataka's state tree is the Sandal tree. Which classification best describes it?",
+      "options": [
+        "A) Herb with fibrous roots and parallel venation",
+        "B) Tree with taproot and reticulate venation",
+        "C) Shrub with taproot and reticulate venation",
+        "D) Climber with fibrous roots and parallel venation"
+      ],
+      "correct_answer": "B) Tree with taproot and reticulate venation",
+      "explanation": "The Sandal tree (Santalum album) is a tree — it is tall, long-lived, and has a thick woody trunk. Like most dicot trees, it has reticulate venation and a taproot system. It is semi-parasitic, meaning its roots attach to and absorb nutrients from neighbouring plants' roots. Karnataka (especially Mysuru and Chamrajnagar) is India's primary sandalwood production region."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "Which part of the pistil receives pollen during pollination?",
+      "options": ["A) Style", "B) Ovary", "C) Stigma", "D) Ovule"],
+      "correct_answer": "C) Stigma",
+      "explanation": "The stigma is the sticky top portion of the pistil designed to receive pollen. When a pollinator (bee, butterfly) visits the flower, pollen grains from the anther stick to the pollinator and are transferred to the stigma of another flower. The pollen then germinates, and the pollen tube grows down through the style into the ovary to fertilise the ovule."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "Why do flowers have brightly coloured petals and sweet-smelling fragrance?",
+      "options": [
+        "A) To protect the reproductive parts from rain",
+        "B) To attract pollinators like insects and birds for pollination",
+        "C) To absorb more sunlight for photosynthesis",
+        "D) To repel harmful insects from eating the flower"
+      ],
+      "correct_answer": "B) To attract pollinators like insects and birds for pollination",
+      "explanation": "Brightly coloured petals and fragrance are adaptations to attract pollinators. Pollinators visit flowers for nectar and inadvertently transfer pollen between flowers, enabling fertilisation. Without pollination, seeds and fruits cannot form. The colour and fragrance are the flower's evolutionary strategy for attracting the right pollinators."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "A farmer notices that ragi fields on sloped farmland have less soil erosion than fields of other crops. The most scientifically accurate reason is:",
+      "options": [
+        "A) Ragi plants are tall and block wind",
+        "B) Ragi leaves are waxy and repel rainwater",
+        "C) Ragi's dense fibrous root system binds soil particles tightly, preventing erosion",
+        "D) Ragi has taproots that penetrate deep and hold large soil blocks"
+      ],
+      "correct_answer": "C) Ragi's dense fibrous root system binds soil particles tightly, preventing erosion",
+      "explanation": "Ragi (and grasses in general) have fibrous root systems — many thin roots spreading in all directions near the surface. This network of roots acts like a mesh or net that holds soil particles together, preventing them from being washed or blown away. This is why grass is planted on embankments and slopes to prevent erosion. Taproots go deep but don't bind surface soil as effectively."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "A student claims: 'If a plant has a taproot, it must be a tree.' Is this correct?",
+      "options": [
+        "A) Correct — all trees have taproots and all taprooted plants are trees",
+        "B) Incorrect — many herbs and shrubs also have taproots; taproot ≠ tree",
+        "C) Correct — herbs always have fibrous roots, never taproots",
+        "D) Incorrect — all plants, including trees, have fibrous roots"
+      ],
+      "correct_answer": "B) Incorrect — many herbs and shrubs also have taproots; taproot ≠ tree",
+      "explanation": "The taproot-tree equation is wrong. Many herbs have taproots — for example, carrot, radish, and beetroot are herbs with modified taproots we eat as food. Many shrubs also have taproots (rose, hibiscus). The taproot-reticulate venation correlation holds for dicot plants as a group, not just trees. Similarly, trees can have fibrous-like root systems. Taproot type does not determine whether a plant is an herb, shrub, or tree."
     }
   ]
 }

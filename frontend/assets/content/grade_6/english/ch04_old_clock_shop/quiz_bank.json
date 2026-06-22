@@ -1,366 +1,62 @@
 {
-  "version": "1.0",
-  "topic_id": "english_grade6_ch04_old_clock_shop_basics",
-  "questions": [
-    {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the primary objective of studying The Old-Clock Shop? (Q1)",
-        "hi": "What is the primary objective of studying The Old-Clock Shop? (Q1)",
-        "kn": "What is the primary objective of studying The Old-Clock Shop? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of The Old-Clock Shop in a text. (Q2)",
-        "hi": "Identify the grammatical or descriptive role of The Old-Clock Shop in a text. (Q2)",
-        "kn": "Identify the grammatical or descriptive role of The Old-Clock Shop in a text. (Q2)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the primary objective of studying The Old-Clock Shop? (Q3)",
-        "hi": "What is the primary objective of studying The Old-Clock Shop? (Q3)",
-        "kn": "What is the primary objective of studying The Old-Clock Shop? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of The Old-Clock Shop in a text. (Q4)",
-        "hi": "Identify the grammatical or descriptive role of The Old-Clock Shop in a text. (Q4)",
-        "kn": "Identify the grammatical or descriptive role of The Old-Clock Shop in a text. (Q4)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the primary objective of studying The Old-Clock Shop? (Q5)",
-        "hi": "What is the primary objective of studying The Old-Clock Shop? (Q5)",
-        "kn": "What is the primary objective of studying The Old-Clock Shop? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of The Old-Clock Shop in a text. (Q6)",
-        "hi": "Identify the grammatical or descriptive role of The Old-Clock Shop in a text. (Q6)",
-        "kn": "Identify the grammatical or descriptive role of The Old-Clock Shop in a text. (Q6)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the primary objective of studying The Old-Clock Shop? (Q7)",
-        "hi": "What is the primary objective of studying The Old-Clock Shop? (Q7)",
-        "kn": "What is the primary objective of studying The Old-Clock Shop? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of The Old-Clock Shop in a text. (Q8)",
-        "hi": "Identify the grammatical or descriptive role of The Old-Clock Shop in a text. (Q8)",
-        "kn": "Identify the grammatical or descriptive role of The Old-Clock Shop in a text. (Q8)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the primary objective of studying The Old-Clock Shop? (Q9)",
-        "hi": "What is the primary objective of studying The Old-Clock Shop? (Q9)",
-        "kn": "What is the primary objective of studying The Old-Clock Shop? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of The Old-Clock Shop in a text. (Q10)",
-        "hi": "Identify the grammatical or descriptive role of The Old-Clock Shop in a text. (Q10)",
-        "kn": "Identify the grammatical or descriptive role of The Old-Clock Shop in a text. (Q10)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
-    }
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "English",
+  "textbook": "A Pact with the Sun",
+  "chapter_number": 4,
+  "chapter_title": "The Old-Clock Shop",
+
+  "level_1_mcqs": [
+    { "id": "mcq01", "difficulty": "Easy", "question": "What kind of shop does Ray own?", "options": ["A toy shop", "A book shop", "An old-clock shop", "A jewellery shop"], "correct_answer": "An old-clock shop", "explanation": "Ray owns an old-clock shop filled with clocks of all kinds that tick and chime." },
+    { "id": "mcq02", "difficulty": "Easy", "question": "What disability does Ray have?", "options": ["He is blind", "He is deaf and mute", "He cannot walk", "He cannot read"], "correct_answer": "He is deaf and mute", "explanation": "Ray is deaf (cannot hear) and mute (cannot speak). He communicates by writing on a pad." },
+    { "id": "mcq03", "difficulty": "Easy", "question": "How does Ray communicate with the customers?", "options": ["Through sign language", "By shouting loudly", "By writing notes on a pad", "Through a helper"], "correct_answer": "By writing notes on a pad", "explanation": "Since Ray cannot speak, he communicates by writing notes on a pad." },
+    { "id": "mcq04", "difficulty": "Easy", "question": "Why did the two men enter Ray's shop?", "options": ["To buy clocks for Christmas", "To repair their watch", "To rob the shop", "To ask for directions"], "correct_answer": "To rob the shop", "explanation": "The two young men appeared poor and desperate. They entered with the intention of robbing the shop." },
+    { "id": "mcq05", "difficulty": "Easy", "question": "How did Ray understand the men's real intention?", "options": ["He heard them whispering", "He read their minds", "He observed their body language carefully", "A customer warned him"], "correct_answer": "He observed their body language carefully", "explanation": "Ray was deaf, so he relied heavily on observation. He noticed the men were not genuinely interested in clocks — they were looking around the shop suspiciously." },
+    { "id": "mcq06", "difficulty": "Easy", "question": "What did Ray offer the two young men?", "options": ["Free clocks", "A warning to leave", "Food, clothing, and money", "A job in his shop"], "correct_answer": "Food, clothing, and money", "explanation": "Ray understood the men's real need — desperation. He offered them a meal, warm clothing, and money to address that need compassionately." },
+    { "id": "mcq07", "difficulty": "Easy", "question": "What happened after Ray made his offer?", "options": ["The men ran away", "The men robbed him anyway", "The men were moved and gave up their plan", "The men refused and called the police"], "correct_answer": "The men were moved and gave up their plan", "explanation": "Ray's compassion transformed the men. Ashamed and moved by his kindness, they gave up their plan to rob him and accepted his help." },
+    { "id": "mcq08", "difficulty": "Easy", "question": "What is the moral of 'The Old-Clock Shop'?", "options": ["Never trust strangers", "Deaf people are not to be robbed", "Compassion and kindness can transform even those who intend to do wrong", "Always call the police when in danger"], "correct_answer": "Compassion and kindness can transform even those who intend to do wrong", "explanation": "Ray's compassionate response — offering food and money instead of confronting the men — changed their hearts and prevented a crime." },
+    { "id": "mcq09", "difficulty": "Easy", "question": "When does the story take place?", "options": ["New Year's Day", "Diwali night", "Christmas Eve", "A regular Sunday"], "correct_answer": "Christmas Eve", "explanation": "The story is set on Christmas Eve — a time of giving and goodwill, which reinforces the theme of compassion." },
+    { "id": "mcq10", "difficulty": "Easy", "question": "What does the story teach us about differently-abled people?", "options": ["They need constant help", "They should not run shops", "Physical disability does not limit intelligence or wisdom", "They cannot handle difficult situations"], "correct_answer": "Physical disability does not limit intelligence or wisdom", "explanation": "Ray was deaf and mute yet was the wisest and most perceptive character in the story. The story challenges prejudice against differently-abled individuals." }
+  ],
+
+  "level_2_short_answer": [
+    { "id": "sa01", "difficulty": "Moderate", "question": "Describe Ray's character. What makes him special despite his disability?", "model_answer": "Ray is a kind, gentle, and wise old man who owns a clock shop. Despite being deaf and mute — unable to hear or speak — he is extraordinarily perceptive and observant. Because he cannot hear, he relies heavily on watching people carefully. This makes him highly skilled at reading body language and understanding what people truly feel and intend. He is also compassionate — when he understands that the two young men plan to rob him, he responds not with anger or fear but with generosity, offering them food, clothing, and money. His disability has not limited him; it has sharpened other qualities that make him exceptional." },
+    { "id": "sa02", "difficulty": "Moderate", "question": "Why did Ray offer the men food and money rather than calling the police?", "model_answer": "Ray understood that the men were desperate, not inherently evil. They appeared poor and likely had no other way to meet their basic needs. Rather than punishing the effect (attempted robbery), Ray addressed the cause (desperation and poverty). By offering food, clothing, and money, he removed the very reason they had to rob. This was a wiser and more humane response than calling the police, which might have led to violence or punishment without solving the men's real problem. Ray's compassion was both kind and practical." },
+    { "id": "sa03", "difficulty": "Moderate", "question": "How does the story show that compassion is more powerful than confrontation?", "model_answer": "If Ray had confronted the men, shouted for help, or called the police, the situation could have escalated into violence. The men might have carried out the robbery, hurt Ray, and escaped. Instead, Ray's compassionate offer — food, clothing, money — completely disarmed the men. They had come prepared to steal, but they left transformed, ashamed of their plan and grateful for the kindness shown. No crime was committed, no one was hurt, and two desperate people received genuine help. This shows that compassion, when wisely applied, is far more powerful and effective than force or punishment." },
+    { "id": "sa04", "difficulty": "Moderate", "question": "Write the meanings of: deaf, mute, compassion, perceptive, desperate, dignity.", "model_answer": "Deaf — unable to hear; a deaf person cannot perceive sounds. Mute — unable to speak; a mute person cannot produce speech. Compassion — deep sympathy for someone suffering, along with the desire and action to help them. Perceptive — having a sharp ability to notice and understand things that others might miss, especially regarding people's feelings and intentions. Desperate — in a very difficult situation with little hope; willing to take extreme measures to improve the situation. Dignity — the quality of being worthy of respect; being treated with honour and care rather than humiliation." },
+    { "id": "sa05", "difficulty": "Moderate", "question": "What lesson from this story can you apply when someone behaves badly in your school or neighbourhood?", "model_answer": "When someone behaves badly — bullying, stealing, or causing trouble — we often react with anger or punishment. But Ray's story teaches us to first ask: WHY are they behaving this way? Is there a deeper need or pain driving their behaviour? A student who steals food from the canteen might be hungry. A bully might be going through trouble at home. Like Ray, we can choose compassion over confrontation — report to a counsellor, offer help, or try to understand the situation. This does not mean accepting bad behaviour, but addressing its root cause is often more effective and more humane than simple punishment." }
+  ],
+
+  "level_3_application": [
+    { "id": "app01", "difficulty": "Advanced", "question": "Compare Ray with the characters from Chapters 1–3. What quality does each character in the book seem to embody?", "detailed_solution": "Across the first four chapters, each main character embodies a key life lesson. The Rishi/Hermit in Ch 1 (A Tale of Two Birds) embodies wisdom — understanding the power of environment on character. The Mongoose in Ch 2 (The Friendly Mongoose) embodies loyalty — unwavering dedication even at personal cost. The Shepherd in Ch 3 (The Shepherd's Treasure) embodies humility and integrity — staying grounded and honest regardless of success. Ray in Ch 4 (The Old-Clock Shop) embodies compassion — responding to wrongdoing with understanding and kindness rather than confrontation. Together these four characters create a portrait of ideal human qualities: wisdom, loyalty, humility, and compassion — all values the book is trying to build in Grade 6 students." },
+    { "id": "app02", "difficulty": "Advanced", "question": "The story is set in an 'old-clock shop.' What significance might the setting have for the story's themes?", "detailed_solution": "The old-clock shop is a setting rich with symbolism. Clocks measure time — and the story is really about how a single moment of choice (compassion vs. confrontation) can change everything. The shop is full of clocks ticking away — a reminder that every second counts, and every decision has a consequence in time. Ironically, the owner cannot hear these clocks — yet he understands time and people better than most who can. The old clocks also suggest age and wisdom — Ray has lived long enough to understand human nature deeply. The clocks chiming on Christmas Eve adds a festive, generous atmosphere that reinforces the theme of giving. The setting is not just background — it is woven into the meaning of the story." },
+    { "id": "app03", "difficulty": "Advanced", "question": "Imagine you are one of the two young men. Write a diary entry (6–8 sentences) after leaving Ray's shop.", "detailed_solution": "Sample Diary Entry: 'Tonight I am ashamed — and also strangely grateful. We went into the old clock shop with the worst intentions. The old man behind the counter, deaf and mute, should have been an easy target. But when he pushed that piece of paper across the counter — offering us food, clothes, money — I felt something crack inside me. He had seen through us completely. He knew. And still he chose to help, not harm us. I could not have taken a single coin from him after that. We walked out with our heads low but our hearts somehow... lighter. I do not know what tomorrow holds, but tonight I know this: I do not want to be the person I was walking into that shop. I want to be more like the man behind the counter.'" },
+    { "id": "app04", "difficulty": "Advanced", "question": "India's 'Rights of Persons with Disabilities Act 2016' ensures equal rights for differently-abled people. How does Ray's character support the ideas behind such laws?", "detailed_solution": "The Rights of Persons with Disabilities Act 2016 recognises that differently-abled individuals have the same inherent worth, intelligence, and capability as anyone else — and that society must create conditions for them to exercise these fully. Ray embodies this principle. Despite being deaf and mute, he runs a successful business, communicates effectively, makes sharp judgments, and demonstrates greater wisdom and compassion than most able-bodied people. His story challenges the prejudice that disability means incapability. It shows that given opportunity and respect, differently-abled individuals can contribute enormously to society. The law and the story share the same message: judge people by their character and capability, not their physical condition." },
+    { "id": "app05", "difficulty": "Advanced", "question": "Design a 'compassion-first' school rule inspired by Ray's approach. What would it look like in practice?", "detailed_solution": "A Compassion-First School Rule could be: 'Before any punishment, understand the reason.' In practice: When a student breaks a rule, the first step is to have a private conversation — 'Why did you do this?' If the answer reveals a genuine need (hunger, bullying at home, personal crisis), support is arranged first. Only if the behaviour is repeated or intentional without cause does formal punishment follow. This mirrors Ray's approach exactly: he identified the root cause (desperation) and addressed it (food, money, clothing) before any notion of punishment. Schools that practice restorative justice — asking 'What happened? What do you need? How can we fix this?' — use this very approach. Studies show it reduces repeat offences more effectively than punitive-only models." }
+  ],
+
+  "level_4_exam_oriented": {
+    "one_mark_questions": [
+      { "id": "em01", "question": "What disability did Ray have?", "answer": "Ray was deaf (could not hear) and mute (could not speak).", "marks": 1 },
+      { "id": "em02", "question": "What is the moral of 'The Old-Clock Shop'?", "answer": "Compassion and kindness are more powerful than confrontation; treating people with dignity can transform even those who intend to do wrong.", "marks": 1 }
+    ],
+    "two_mark_questions": [
+      { "id": "em03", "question": "How did Ray understand the two men's real intention?", "answer": "Ray carefully observed the two men's body language and behaviour. They were not genuinely interested in looking at clocks — they were sizing up the shop. Since Ray was deaf and relied heavily on observation, he was especially skilled at reading people's non-verbal cues and understood they planned to rob him.", "marks": 2, "marking_scheme": "1 mark for observation of body language. 1 mark for linking to his deafness making him a sharper observer." },
+      { "id": "em04", "question": "Why did Ray offer the men food and money instead of calling the police?", "answer": "Ray understood that the men were desperate — their root problem was poverty and hunger, not evil. By offering food, clothing, and money, he addressed the actual cause of their intended crime. This was both kinder and more effective than calling the police, which would only punish but not help.", "marks": 2, "marking_scheme": "1 mark for understanding their desperation. 1 mark for addressing root cause vs. confrontation." }
+    ],
+    "three_mark_questions": [
+      { "id": "em05", "question": "Describe the character of Ray. What makes him a memorable character?", "answer": "Ray is an old, kind, deaf-and-mute man who owns a clock shop. He is memorable for several reasons. First, despite his disability, he is the most perceptive character in the story — he reads the men's intentions through careful observation alone. Second, he is compassionate — rather than reacting with fear or aggression, he offers the men genuine help. Third, he is wise — his response transforms the men and prevents a crime without any confrontation. Ray shows us that true ability is not about physical senses but about the quality of one's mind and heart.", "marks": 3, "marking_scheme": "1 mark for physical characteristics and disability. 1 mark for perceptiveness. 1 mark for compassion and wisdom." },
+      { "id": "em06", "question": "How does the story challenge prejudice against differently-abled individuals?", "answer": "The story challenges this prejudice by making Ray — a deaf-and-mute man — the wisest and most effective character. Rather than portraying him as helpless or limited, the story shows that his disability sharpened his observation skills and deepened his empathy. He handles a dangerous situation better than most able-bodied people would. This directly challenges the common assumption that physical disability means limited capability or reduced intelligence. Ray's success in the story argues powerfully for equal respect and opportunity for all people, regardless of physical ability.", "marks": 3, "marking_scheme": "1 mark for Ray as a differently-abled character. 1 mark for how his disability enhanced his perception. 1 mark for the broader message of equal capability." }
+    ],
+    "five_mark_questions": [
+      { "id": "em07", "question": "Narrate the story of 'The Old-Clock Shop' in your own words and state its moral.", "answer": "Ray is a kind, old man who owns a shop full of clocks. He is deaf and mute — he cannot hear or speak — and communicates by writing on a pad. On Christmas Eve, two young men enter his shop. They look poor and desperate, and though they pretend to be interested in buying clocks, Ray studies them carefully. His sharp powers of observation, developed through years of relying on sight rather than hearing, tell him the men are not there to buy — they are planning to rob him. But Ray does not panic or shout. He writes a note and passes it to them. In the note, he offers them a good meal, warm clothing, and money — everything they truly need. The two men are stunned. They had expected to be caught or confronted, not helped. Ashamed and deeply moved by Ray's compassion, they give up their plan entirely. They accept his offer and leave the shop without committing any crime. Ray's kindness had transformed them. The moral of the story is: compassion and kindness are more powerful than confrontation or punishment. Treating people with dignity and understanding their real needs can change even those who intend to do wrong.", "marks": 5, "marking_scheme": "1 mark: Ray's character and shop. 1 mark: Men's suspicious behaviour and Ray's observation. 1 mark: Ray's compassionate response. 1 mark: Men's transformation. 1 mark: Moral stated clearly." },
+      { "id": "em08", "question": "What does 'The Old-Clock Shop' teach us about how to handle difficult or dangerous situations? How can you apply Ray's approach in your own life?", "answer": "The story teaches us that in difficult or dangerous situations, the wisest response is not always force or confrontation — often it is compassion and understanding. Ray faced a potential robbery but chose to address the root cause (the men's desperation) rather than the symptom (their threat). This completely transformed the situation and resulted in a peaceful, positive outcome. In our own lives, we can apply Ray's approach in several ways. When we see someone behaving badly, we should ask why before reacting. A friend who is rude might be going through personal trouble — a kind word might help more than an argument. A classmate who acts out might need help, not punishment. In our homes, when siblings fight, sometimes offering to help rather than competing is more effective. Ray also teaches us never to underestimate anyone — including people who are differently-abled. His disability did not stop him from being the wisest person in the room. We should judge people by their character and compassion, not by their physical abilities or social status. Above all, Ray teaches us that a single act of genuine kindness can change lives.", "marks": 5, "marking_scheme": "1 mark: Core lesson about compassion vs confrontation. 1 mark: Example from story. 1 mark: School application. 1 mark: Broader life application. 1 mark: Lesson about differently-abled, coherent conclusion." }
+    ]
+  },
+
+  "common_misconceptions": [
+    { "misconception": "Ray was lucky that the men happened to be good people who responded to kindness.", "why_confused": "Students may think any robbers would simply ignore kindness and rob anyway.", "correct_explanation": "Ray was not lucky — he was wise and perceptive. He correctly read that the men were desperate, not hardened criminals. His compassion was calculated and targeted. The story also carries a universal message: most people who do wrong are driven by need, and genuine compassion often does reach them. It is not about luck but about understanding human nature.", "mini_practice_question": "Was Ray's success a result of luck or wisdom? Explain.", "answer": "It was wisdom. Ray correctly identified the men's desperation and chose the most effective response — compassion. This was an informed, thoughtful decision, not luck." },
+    { "misconception": "Ray's deafness and muteness are sad aspects of the story and he should be pitied.", "why_confused": "Students may focus on disability as a limitation.", "correct_explanation": "The story presents Ray as admirable, not pitiable. His disability sharpened his observational powers. He is the story's hero — the wisest, kindest, most effective character. The story challenges us to see differently-abled individuals with respect and admiration, not pity.", "mini_practice_question": "Does the story ask us to feel sorry for Ray or to admire him? Why?", "answer": "To admire him. Ray is the wisest, most compassionate character. His disability does not diminish him — it has sharpened his other qualities." }
   ]
 }

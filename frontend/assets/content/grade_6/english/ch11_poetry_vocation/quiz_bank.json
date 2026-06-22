@@ -1,366 +1,273 @@
 {
-  "version": "1.0",
-  "topic_id": "english_grade6_ch11_poetry_vocation_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "English",
+  "textbook": "Honeysuckle",
+  "chapter_number": 11,
+  "chapter_title": "Vocation",
+  "poet": "Rabindranath Tagore",
+  "total_mcqs": 20,
+  "mcqs": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: Vocation? (Q1)",
-        "hi": "What is the primary objective of studying Poetry: Vocation? (Q1)",
-        "kn": "What is the primary objective of studying Poetry: Vocation? (Q1)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Who is the poet of the poem 'Vocation'?",
+      "options": [
+        "A) Peter Dixon",
+        "B) Rabindranath Tagore",
+        "C) Mary O'Neill",
+        "D) E-Yeh-Shure"
+      ],
+      "correct_answer": "B) Rabindranath Tagore",
+      "explanation": "The poem 'Vocation' is written by Rabindranath Tagore, the celebrated Bengali poet who won the Nobel Prize in Literature in 1913 — the first Asian to do so. The other options are poets of different poems in the Honeysuckle textbook: Peter Dixon wrote 'Where Do All the Teachers Go?', Mary O'Neill wrote 'The Wonderful Words', and E-Yeh-Shure wrote 'Beauty'."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: Vocation in a text. (Q2)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: Vocation in a text. (Q2)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: Vocation in a text. (Q2)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "Who is the speaker of the poem 'Vocation'?",
+      "options": [
+        "A) A hawker",
+        "B) A gardener",
+        "C) A school-going child",
+        "D) A watchman"
+      ],
+      "correct_answer": "C) A school-going child",
+      "explanation": "The speaker of the poem is a school-going child who observes three different workers — a hawker, a gardener, and a watchman — at three different times of the day. The child envies each worker's apparent freedom. The hawker, gardener, and watchman are characters the child observes, not the speaker himself."
     },
     {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: Vocation? (Q3)",
-        "hi": "What is the primary objective of studying Poetry: Vocation? (Q3)",
-        "kn": "What is the primary objective of studying Poetry: Vocation? (Q3)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "What does the hawker in the poem sell?",
+      "options": [
+        "A) Flowers",
+        "B) Vegetables",
+        "C) Crystal bangles",
+        "D) Books"
+      ],
+      "correct_answer": "C) Crystal bangles",
+      "explanation": "The hawker in the poem sells crystal bangles and cries out 'Bangles, crystal bangles!' to attract customers as he walks the roads. This is the opening image of the poem — the child sees the hawker on his morning walk to school and envies his freedom of movement."
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: Vocation in a text. (Q4)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: Vocation in a text. (Q4)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: Vocation in a text. (Q4)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "At what time does the child walk to school in the poem?",
+      "options": [
+        "A) When the gong sounds eight",
+        "B) When the gong sounds nine",
+        "C) When the gong sounds ten",
+        "D) When the gong sounds eleven"
+      ],
+      "correct_answer": "C) When the gong sounds ten",
+      "explanation": "The poem begins with 'When the gong sounds ten in the morning and I walk to school by the road'. 'The gong sounds ten' means when the clock strikes ten o'clock. This establishes the child's fixed morning routine, which he contrasts with the hawker's complete freedom of time and movement."
     },
     {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: Vocation? (Q5)",
-        "hi": "What is the primary objective of studying Poetry: Vocation? (Q5)",
-        "kn": "What is the primary objective of studying Poetry: Vocation? (Q5)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "Which worker does the child see in the afternoon?",
+      "options": [
+        "A) The hawker",
+        "B) The watchman",
+        "C) The gardener",
+        "D) A blacksmith"
+      ],
+      "correct_answer": "C) The gardener",
+      "explanation": "In the afternoon, when the child returns from school and must sit with lessons, he sees the gardener through the window digging in the garden. The hawker is seen in the morning and the watchman is seen in the evening. The gardener represents freedom from the child's afternoon restriction of doing homework."
     },
     {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: Vocation in a text. (Q6)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: Vocation in a text. (Q6)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: Vocation in a text. (Q6)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "What does the watchman carry as he walks the street at night?",
+      "options": [
+        "A) A torch",
+        "B) A lantern",
+        "C) A candle",
+        "D) A lamp-post"
+      ],
+      "correct_answer": "B) A lantern",
+      "explanation": "The watchman 'swings his lantern and walks with his shadow at his side'. A lantern is a portable light in a case with a handle, used before modern electric torches. The image of the watchman swinging his lantern in the dark lane is one of the most vivid images in the poem."
     },
     {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: Vocation? (Q7)",
-        "hi": "What is the primary objective of studying Poetry: Vocation? (Q7)",
-        "kn": "What is the primary objective of studying Poetry: Vocation? (Q7)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "What does the phrase 'nobody takes him to task' mean in the poem?",
+      "options": [
+        "A) Nobody gives him any work to do",
+        "B) Nobody scolds or reprimands him",
+        "C) Nobody pays him for his work",
+        "D) Nobody notices him working"
+      ],
+      "correct_answer": "B) Nobody scolds or reprimands him",
+      "explanation": "'Takes him to task' is an idiom meaning to scold or hold someone accountable. The gardener soils his clothes, gets wet, and gets baked in the sun — but nobody scolds him for it. The child envies this because he knows he would be reprimanded if he behaved the same way."
     },
     {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: Vocation in a text. (Q8)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: Vocation in a text. (Q8)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: Vocation in a text. (Q8)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "What poetic device is used in the line 'the street-lamp stands like a giant with one red eye in its head'?",
+      "options": [
+        "A) Metaphor",
+        "B) Alliteration",
+        "C) Simile",
+        "D) Onomatopoeia"
+      ],
+      "correct_answer": "C) Simile",
+      "explanation": "This line uses a simile — a comparison using the word 'like'. The street-lamp is compared to a giant with one red eye. A metaphor would say 'the street-lamp IS a giant'; alliteration involves repetition of consonant sounds; onomatopoeia involves words that sound like what they describe. Here, the comparison with 'like' makes it clearly a simile."
     },
     {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "What is the primary objective of studying Poetry: Vocation? (Q9)",
-        "hi": "What is the primary objective of studying Poetry: Vocation? (Q9)",
-        "kn": "What is the primary objective of studying Poetry: Vocation? (Q9)"
-      },
-      "options": {
-        "en": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "hi": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ],
-        "kn": [
-          "Improving comprehension and communication",
-          "Solving equations",
-          "Measuring gravity",
-          "Trading goods"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "hi": "Language lessons enhance descriptive vocabulary and structural communication.",
-        "kn": "Language lessons enhance descriptive vocabulary and structural communication."
-      },
-      "diagram_ref": null
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "How many stanzas does the poem 'Vocation' have?",
+      "options": [
+        "A) Two",
+        "B) Three",
+        "C) Four",
+        "D) Five"
+      ],
+      "correct_answer": "B) Three",
+      "explanation": "The poem 'Vocation' has three stanzas. The first stanza is set in the morning (the hawker), the second in the afternoon (the gardener), and the third in the evening (the watchman). Each stanza follows a similar structure: the child's restriction, the worker's freedom, and the child's wish."
     },
     {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Identify the grammatical or descriptive role of Poetry: Vocation in a text. (Q10)",
-        "hi": "Identify the grammatical or descriptive role of Poetry: Vocation in a text. (Q10)",
-        "kn": "Identify the grammatical or descriptive role of Poetry: Vocation in a text. (Q10)"
-      },
-      "options": {
-        "en": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "hi": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ],
-        "kn": [
-          "Expressing ideas clearly",
-          "Adding numbers",
-          "Drawing diagrams",
-          "Forming chemical bonds"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "hi": "Language lessons focus on contextual clarity, grammar, and expressions.",
-        "kn": "Language lessons focus on contextual clarity, grammar, and expressions."
-      },
-      "diagram_ref": null
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "Why does the child wish he were a watchman?",
+      "options": [
+        "A) Because the watchman earns a lot of money",
+        "B) Because the watchman never has to go to bed",
+        "C) Because the watchman gets to carry a sword",
+        "D) Because the watchman lives in a big house"
+      ],
+      "correct_answer": "B) Because the watchman never has to go to bed",
+      "explanation": "The child is sent to bed by his mother when it gets dark, but through his window he sees the watchman walking the street all night. The poem says the watchman 'never once goes to bed in his life'. This is the freedom the child longs for — the ability to stay awake at night without being forced to sleep."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "What does the word 'vocation' mean in the context of this poem?",
+      "options": [
+        "A) A holiday or vacation",
+        "B) A job or profession that one is called to",
+        "C) A song sung by children",
+        "D) A type of school subject"
+      ],
+      "correct_answer": "B) A job or profession that one is called to",
+      "explanation": "Vocation means a job, profession, or calling — especially one that feels natural or destined. The poem's title refers to the three vocations (hawker, gardener, watchman) that the child envies. Students often confuse 'vocation' with 'vacation' because they sound similar, but they have entirely different meanings."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "What is the central theme of the poem 'Vocation'?",
+      "options": [
+        "A) The hardships faced by street workers in India",
+        "B) A child's longing for freedom from rules and routines",
+        "C) The importance of going to school and following rules",
+        "D) The beauty of night-time and darkness"
+      ],
+      "correct_answer": "B) A child's longing for freedom from rules and routines",
+      "explanation": "The central theme is a child's desire for freedom from the restrictions of school, homework, and bedtime. The child envies three workers who appear to live without these rules. The poem does not glorify the workers' hardships (Option A), does not promote following rules (Option C), and is not primarily about the beauty of night (Option D)."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "Which poetic device is used when the same phrase 'I wish I were' is repeated in each stanza?",
+      "options": [
+        "A) Simile",
+        "B) Metaphor",
+        "C) Repetition",
+        "D) Alliteration"
+      ],
+      "correct_answer": "C) Repetition",
+      "explanation": "The phrase 'I wish I were' appearing in each of the three stanzas is an example of repetition — a poetic device where words or phrases are repeated for emphasis and rhythmic effect. Repetition reinforces the child's persistent longing for freedom. It is not a simile (no comparison with 'like/as'), not a metaphor (no direct comparison), and not alliteration (not the same consonant sound)."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "What does the gardener do that makes the child envy him?",
+      "options": [
+        "A) The gardener gets to water plants and earn money",
+        "B) The gardener can dig freely, soil his clothes, and work in any weather without being scolded",
+        "C) The gardener gets to sleep in the garden all afternoon",
+        "D) The gardener is allowed to eat as many vegetables as he wants"
+      ],
+      "correct_answer": "B) The gardener can dig freely, soil his clothes, and work in any weather without being scolded",
+      "explanation": "The gardener 'does what he likes with his spade, soils his clothes with dust, nobody takes him to task if he gets baked in the sun or gets wet'. The child envies this freedom from restrictions — he would be scolded for getting dirty or being out in the rain. Options A, C, and D are not mentioned in the poem."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "The line 'the watchman walks with his shadow at his side' is an example of which poetic device?",
+      "options": [
+        "A) Simile",
+        "B) Personification",
+        "C) Alliteration",
+        "D) Onomatopoeia"
+      ],
+      "correct_answer": "B) Personification",
+      "explanation": "Personification is giving human qualities or actions to non-human things. The shadow is treated as a companion — it 'walks at his side' like a friend would. A shadow cannot actually walk; it is simply a projection of light. By making the shadow walk alongside the watchman, Tagore gives it a human, companionable quality — this is personification."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "What does the child do in the afternoon when he returns from school?",
+      "options": [
+        "A) He plays cricket in the garden",
+        "B) He watches the hawker on the road",
+        "C) He sits with his lessons to learn",
+        "D) He goes to sleep immediately"
+      ],
+      "correct_answer": "C) He sits with his lessons to learn",
+      "explanation": "The second stanza begins: 'When school is over and it is afternoon, I am home with my lessons to learn.' While the child is forced to sit with his homework, he watches the gardener through the window. This contrast between the child's lesson-time and the gardener's apparent free digging drives the envy of the second stanza."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Hard",
+      "question": "What is the deeper irony of the poem 'Vocation'?",
+      "options": [
+        "A) The child actually enjoys school but pretends not to",
+        "B) The child envies the workers' freedom, but their lives are actually filled with hardship and toil",
+        "C) The hawker, gardener, and watchman all secretly wish they could go to school",
+        "D) The child's mother actually encourages him to become a watchman"
+      ],
+      "correct_answer": "B) The child envies the workers' freedom, but their lives are actually filled with hardship and toil",
+      "explanation": "The poem's deeper irony is that the child sees only the surface — the apparent freedom from rules — but not the reality. The hawker walks long distances in all weather; the gardener does heavy physical labour; the watchman stays awake in a dark, lonely lane all night. The child's vision of 'freedom' is incomplete and innocent, which is the poem's gentle, humorous truth."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Hard",
+      "question": "Why is 'Vocation' considered a poem about childhood rather than simply a poem about three workers?",
+      "options": [
+        "A) Because it only describes what the workers do, not who they are",
+        "B) Because the poem focuses on the child's feelings, perspective, and longing — not on the workers' actual lives",
+        "C) Because all three workers were once children themselves",
+        "D) Because Tagore wrote it while he was still a child"
+      ],
+      "correct_answer": "B) Because the poem focuses on the child's feelings, perspective, and longing — not on the workers' actual lives",
+      "explanation": "The poem uses the three workers as mirrors for the child's emotions. We learn very little about the workers themselves — what they earn, what their families are like, what hardships they face. Everything is filtered through the child's perspective and desire. The poem is fundamentally about how children perceive the world and what they long for — making it a poem about childhood experience, not labour."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Hard",
+      "question": "Which of the following best describes the structure of each stanza in 'Vocation'?",
+      "options": [
+        "A) Introduction of a worker, the child's complaint about school, the child's plan to run away",
+        "B) Time of day, description of the worker's freedom, the child's wish to be that worker",
+        "C) The child's dream, the worker's reply, and the moral of the stanza",
+        "D) Description of nature, the child's school activity, and a question to the reader"
+      ],
+      "correct_answer": "B) Time of day, description of the worker's freedom, the child's wish to be that worker",
+      "explanation": "Each stanza follows a clear three-part structure: (1) a time of day (morning/afternoon/evening) establishing the child's restriction, (2) a description of a worker's apparent freedom from those restrictions, and (3) the child's wish — 'I wish I were a hawker/gardener/watchman'. This consistent structure creates the poem's rhythm and builds its emotional effect."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Hard",
+      "question": "Tagore chose a hawker, gardener, and watchman rather than a doctor, teacher, or king as figures of envy. What does this choice tell us about the poem's message?",
+      "options": [
+        "A) Tagore believed only poor people were truly happy",
+        "B) Tagore wanted to show that ordinary working people, seen daily, spark a child's imagination more than distant or powerful figures",
+        "C) Tagore was criticising the Indian education system by choosing uneducated workers",
+        "D) Tagore chose them because they were the richest people in his village"
+      ],
+      "correct_answer": "B) Tagore wanted to show that ordinary working people, seen daily, spark a child's imagination more than distant or powerful figures",
+      "explanation": "Tagore's choice of humble, visible workers is deliberate. The child does not dream of being a king or a doctor — abstract, distant figures. He envies what he sees every day on his own street and through his own window. This grounds the poem in everyday childhood reality and shows how a child's imagination is sparked by the familiar, not the grand. It also honours the ordinary working person as a source of beauty and wonder."
     }
   ]
 }

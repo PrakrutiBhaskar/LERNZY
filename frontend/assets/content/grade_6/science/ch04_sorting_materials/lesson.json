@@ -1,114 +1,260 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "science",
-  "chapter_id": "ch04_sorting_materials",
-  "chapter_title": {
-    "en": "Sorting Materials into Groups",
-    "hi": "वस्तुओं के समूह बनाना",
-    "kn": "ವಸ್ತುಗಳನ್ನು ಗುಂಪುಗಳಾಗಿ ವಿಂಗಡಿಸುವುದು"
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 4,
+  "chapter_title": "Sorting Materials into Groups",
+  "estimated_study_time_minutes": 45,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Understand why it is useful to group or classify materials based on their properties",
+    "Identify and describe key properties of materials: appearance, hardness, solubility, transparency, and conductivity",
+    "Classify common materials as hard or soft, rough or smooth, transparent or translucent or opaque",
+    "Distinguish between materials that dissolve in water (soluble) and those that do not (insoluble)",
+    "Classify materials as conductors or insulators of heat and electricity",
+    "Understand the difference between lustrous (shiny) and non-lustrous materials",
+    "Apply classification skills to everyday objects and Karnataka-relevant examples",
+    "Use correct scientific vocabulary: property, solubility, transparency, lustre, conductivity, malleability, ductility"
+  ],
+
+  "prerequisite_knowledge": [
+    "Basic awareness that different objects around us are made of different materials",
+    "Familiarity with common materials like wood, metal, glass, plastic, rubber, stone, and cloth",
+    "Understanding that different materials are chosen for different uses based on their properties",
+    "Ability to make simple observations and comparisons between objects"
+  ],
+
+  "introduction": {
+    "why_important": "Scientists sort and classify things to study them more efficiently. Grouping materials by their properties — hardness, solubility, transparency — helps us understand why certain materials are used for certain purposes. This systematic approach to the world around us is one of the foundations of scientific thinking.",
+    "real_life_relevance": "Every choice of material in daily life — glass for windows (transparent), rubber for eraser (soft, flexible), copper for wires (conductor), steel for bridges (hard, strong) — is based on a material's properties. Understanding these properties helps us make better design decisions and understand the world we live in.",
+    "karnataka_context": "Karnataka has a rich tradition of using materials based on their properties. The famous Bidriware from Bidar uses zinc and copper alloys (metals) for their malleability and ability to take intricate inlaid silver designs. The Channapatna toys from Ramanagara district are made from soft wood (non-conductor, carveable) and traditionally coloured with non-toxic lacquer. The granite used extensively in ancient Hoysala temples (like Belur and Halebidu) was chosen for its hardness and durability. Even the traditional clay pots used across Karnataka reflect the properties of clay — mouldable when wet, hard and opaque when fired.",
+    "connection_to_previous_learning": "Chapters 1–3 showed us that plants, animals, and fibres are sources of food and clothing. Chapter 4 broadens the scientific view — it teaches us to look at all materials around us and classify them by their observable properties, developing a systematic scientific approach."
   },
-  "topics": [
-    {
-      "topic_id": "science_grade6_ch04_sorting_materials_basics",
-      "title": {
-        "en": "Sorting Materials into Groups - Fundamentals",
-        "hi": "वस्तुओं के समूह बनाना - बुनियादी बातें",
-        "kn": "ವಸ್ತುಗಳನ್ನು ಗುಂಪುಗಳಾಗಿ ವಿಂಗಡಿಸುವುದು - ಮೂಲತಮxt್ವಗಳು"
+
+  "story_summary": {
+    "characters": [
+      {
+        "name": "Materials",
+        "role": "The objects of study — wood, metal, glass, plastic, rubber, stone, fabric, paper, wax, oil, and many more everyday substances that students observe and classify"
       },
-      "learning_objectives": [
-        "Understand key concepts of Sorting Materials into Groups",
-        "Solve exercises and apply rules related to Sorting Materials into Groups",
-        "Analyze practical examples of Sorting Materials into Groups in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Sorting Materials into Groups. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम वस्तुओं के समूह बनाना का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ವಸ್ತುಗಳನ್ನು ಗುಂಪುಗಳಾಗಿ ವಿಂಗಡಿಸುವುದು ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Sorting Materials into Groups in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम वस्तुओं के समूह बनाना का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ವಸ್ತುಗಳನ್ನು ಗುಂಪುಗಳಾಗಿ ವಿಂಗಡಿಸುವುದು ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Sorting Materials into Groups.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Sorting Materials into Groups.",
-            "hi": "चरण 1: वस्तुओं के समूह बनाना के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ವಸ್ತುಗಳನ್ನು ಗುಂಪುಗಳಾಗಿ ವಿಂಗಡಿಸುವುದು ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Sorting Materials into Groups builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "वस्तुओं के समूह बनाना में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ವಸ್ತುಗಳನ್ನು ಗುಂಪುಗಳಾಗಿ ವಿಂಗಡಿಸುವುದು ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
+      {
+        "name": "Properties",
+        "role": "The measurable or observable characteristics of materials (hardness, lustre, solubility, transparency, conductivity) used as the basis for classification"
       }
+    ],
+    "plot": [
+      "The chapter opens by pointing out the enormous variety of materials around us and asks: how do scientists make sense of this variety?",
+      "It introduces classification — grouping things based on common properties — as a fundamental scientific skill.",
+      "Properties of materials are introduced one by one, each with examples and simple tests.",
+      "Appearance: Some materials are shiny (lustrous) like metals; others are dull (non-lustrous) like wood or rubber.",
+      "Hardness: Some materials resist scratching and pressure (hard — iron, stone, diamond); others deform easily (soft — cotton, wax, rubber).",
+      "Solubility: Some materials dissolve in water (soluble — salt, sugar); others do not (insoluble — sand, chalk, oil).",
+      "Transparency: Materials can be transparent (glass — light passes through clearly), translucent (wax paper, frosted glass — light passes but objects not clear), or opaque (wood, stone — no light passes through).",
+      "Conductivity: Materials that allow heat or electricity to flow through them (conductors — metals) or block it (insulators — rubber, wood, plastic).",
+      "Additional properties briefly introduced: materials that float or sink in water; materials that are attracted to magnets (magnetic — iron, nickel) vs non-magnetic.",
+      "The chapter emphasises that the same material can be classified differently under different properties — glass is transparent AND hard AND non-magnetic.",
+      "Students are encouraged to create simple classification tables of everyday objects."
+    ],
+    "moral": "The ability to observe, compare, and classify is the starting point of all scientific thinking. When we group materials by their properties, we discover patterns in nature that help us understand and use materials wisely."
+  },
+
+  "core_concepts": [
+    {
+      "concept_name": "Properties Used to Classify Materials",
+      "simple_explanation": "Materials can be sorted into groups based on what they look like and how they behave — their properties. Properties include whether a material is hard or soft, shiny or dull, transparent or opaque, and whether it dissolves in water.",
+      "detailed_explanation": "Classification of materials is based on observable and measurable properties. The key properties studied in this chapter are: (1) Appearance/Lustre — some materials have a shiny surface called lustre (metals like gold, silver, iron, copper); others are dull (wood, rubber, plastic). (2) Hardness — hard materials resist being scratched or dented (diamond, iron, stone); soft materials deform or scratch easily (cotton, wax, chalk). (3) Solubility — some materials dissolve uniformly in water, forming a solution (salt, sugar); others do not dissolve and remain as separate particles (sand, chalk, oil). (4) Transparency — transparent materials allow light to pass through clearly so objects behind can be seen (clear glass, water); translucent materials allow some light but scatter it so objects are not clear (frosted glass, wax paper, oiled paper); opaque materials block all light (wood, metal, stone). (5) Conductivity — conductors allow heat or electricity to flow through (copper, iron, aluminium); insulators block it (rubber, wood, plastic, glass). Each property is a tool for grouping — just as a librarian groups books by subject, scientists group materials by properties.",
+      "real_life_example": "Think about your classroom: the window glass is transparent (you can see outside), the wooden desk is opaque (you cannot see through it), the plastic ruler is translucent in some cases (light passes but is scattered). The copper wires in the electrical fittings are conductors; the rubber sheath around them is an insulator. The steel legs of chairs are hard and lustrous; the eraser is soft and non-lustrous. Every object around you demonstrates multiple properties simultaneously.",
+      "karnataka_example": "The ancient Hoysala temples at Belur and Halebidu (Hassan district, Karnataka) were built using chloritic schist — a soapstone that is soft when freshly quarried (allowing intricate carving) but hardens over time on exposure to air. This unique property was deliberately exploited by Hoysala architects and sculptors — a real-world application of understanding material hardness. Similarly, Channapatna toys (Ramanagara) use soft, lightweight wood that is easy to turn on a lathe and paint — properties specifically chosen for toy-making.",
+      "common_mistakes": "Students often confuse transparent with translucent. Transparent = you can see through it clearly (clear glass, water). Translucent = light passes through but you cannot see objects clearly (frosted glass, wax paper). Opaque = no light passes through (wood, stone). Also, students sometimes think only liquids can be solvents — the dissolving (soluble) property is about whether the material dissolves in water, not about the physical state of the material itself.",
+      "memory_tip": "Remember 'LHSTC': Lustre, Hardness, Solubility, Transparency, Conductivity — the five key properties. Or: 'Lions Hate Salty Transparent Copper' — Lustre, Hardness, Solubility, Transparency, Conductivity."
+    },
+    {
+      "concept_name": "Solubility and Transparency",
+      "simple_explanation": "Solubility means whether a material dissolves in water. Transparency means whether light can pass through a material. Both are properties that help us classify and choose materials for specific uses.",
+      "detailed_explanation": "Solubility: When a material dissolves in water, it breaks apart uniformly and the particles spread throughout the water — the water becomes a solution. The material seems to disappear but is still present (you can taste salt in saltwater even when it looks clear). Materials that dissolve are called soluble (salt, sugar, copper sulphate). Materials that do not dissolve are called insoluble (sand, chalk powder, iron filings, oil). Note: oil does not dissolve in water but floats on it — oil is also insoluble but less dense than water. Solubility has practical uses: medicines often dissolve in water for easy consumption; water treatment removes insoluble contaminants. Transparency: transparent materials (clear glass, clear plastic) let light through so we can see clearly — used in windows, spectacles, camera lenses. Translucent materials (frosted glass, butter paper, thin fabric) let light through but scatter it — used in lampshades, bathroom glass, tracing paper. Opaque materials (metals, wood, stone, thick plastic) block all light — used for walls, containers, and privacy.",
+      "real_life_example": "Mix a spoonful of salt into water and stir — the salt dissolves (soluble) and the water remains clear. Try the same with sand — the sand sinks to the bottom (insoluble). Now try oil — the oil floats in a layer (insoluble and less dense than water). In your kitchen, many cooking activities use solubility: sugar dissolves in tea, salt dissolves in dough, but oil separates from water in salad dressing.",
+      "karnataka_example": "The process of making traditional Karnataka savouries like chakli and nippattu uses water to dissolve salt and spices (solubility in action). The clear glass windows in the Vidhana Soudha (Karnataka State Legislature building) in Bengaluru exemplify transparency — they allow light in while providing a view. The stained glass used in old churches in Bengaluru (like St. Mary's Basilica) and Mangaluru demonstrates translucency — light passes through but in coloured, scattered form. These are direct, locally relevant applications of transparency classification.",
+      "common_mistakes": "Students frequently confuse 'soluble in water' with 'melts.' Melting is a change of physical state due to heat (ice melting to water, chocolate melting). Dissolving is mixing uniformly with a liquid without a change in state (salt dissolving in water — the salt stays as a solid compound but breaks into ions). Another mistake: students think that if water turns cloudy, the material dissolved. Cloudy water means the material did NOT dissolve — it is suspended as tiny particles (like chalk in water). True solutions are always clear.",
+      "memory_tip": "Solubility test: 'Does it disappear into water and stay clear? YES = soluble. Does it stay visible, sink, or make water cloudy? NO = insoluble.' Transparency test: 'Can I see through it to read a text? YES = transparent. Blurry but bright? Translucent. Nothing? Opaque.' T-T-O: Transparent-Translucent-Opaque = Clear-Blurry-Nothing."
+    },
+    {
+      "concept_name": "Conductors and Insulators",
+      "simple_explanation": "Conductors are materials that allow heat or electricity to pass through them easily. Insulators are materials that block or slow down heat or electricity. Most metals are conductors; rubber, plastic, and wood are insulators.",
+      "detailed_explanation": "The ability of a material to allow electricity or heat to flow through it is called conductivity. Electrical conductors allow electric current to flow freely — mostly metals (copper, aluminium, iron, gold, silver). Copper is used for electrical wires because it is an excellent conductor and also flexible (ductile). Electrical insulators block the flow of electricity — rubber, plastic, glass, and dry wood. This is why electrical wires are covered with rubber or plastic insulation — to prevent electric shocks. Thermal conductors allow heat to flow through — metals feel cold because they quickly conduct heat away from your hand. Thermal insulators slow heat transfer — wood, plastic, cloth, and air are poor heat conductors. This is why cooking pans are made of metal (conducts heat from flame to food) but have plastic or wooden handles (insulate the hand from the heat). The concepts of conductor and insulator are essential for electrical safety and engineering design.",
+      "real_life_example": "Touch a metal spoon and a plastic spoon left in a warm room — both are at room temperature, but the metal feels cooler because it is a good thermal conductor (conducts heat from your warmer hand away quickly). This is why a metal chair on a cold morning feels colder than a plastic or wooden chair at the same temperature. For electrical safety: a rubber eraser on an electrician's screwdriver handle insulates their hand from electric current flowing through the metal tip.",
+      "karnataka_example": "Bidriware, the famous craft from Bidar, Karnataka, uses zinc and copper alloy (metals — conductors) as the base material because they can be melted and cast into shape (malleability), then finely worked and inlaid with silver. The artisans use wood and cloth tools (insulators) to handle the hot metal during production — a direct practical application of conductor/insulator knowledge. Karnataka's growing solar energy industry (it has one of India's largest solar parks at Pavagada, Tumakuru) uses copper wiring (conductor) to carry electricity from solar panels to the grid — another real-world Karnataka connection.",
+      "common_mistakes": "Students often think only metals conduct electricity and that all non-metals insulate. This is mostly true but not always: graphite (a form of carbon — non-metal) is a conductor; salt water (a liquid) conducts electricity; wet wood conducts electricity partially. Also, students sometimes think insulators do not transmit any heat at all. In fact, insulators slow down heat transfer — they are not perfect barriers. A wooden table will eventually heat up near a fire, just much more slowly than a metal table.",
+      "memory_tip": "Conductor = opens the gate for electricity/heat. Insulator = closes the gate. Metal = gate open (conductor). Rubber/plastic/wood = gate closed (insulator). Remember: 'Copper Conducts, Rubber Refuses.' CCR = Copper Conducts (electricity), Rubber Refuses (to conduct)."
     }
+  ],
+
+  "key_terms_glossary": [
+    {
+      "term": "Property",
+      "meaning": "An observable or measurable characteristic of a material that helps identify and classify it. Examples of properties: colour, hardness, solubility, transparency, conductivity, and lustre."
+    },
+    {
+      "term": "Lustre",
+      "meaning": "The shininess of a material's surface. Metals typically have lustre (they are shiny). Non-metals like wood, rubber, and paper are non-lustrous (dull)."
+    },
+    {
+      "term": "Hardness",
+      "meaning": "The ability of a material to resist scratching or deformation. Diamond is the hardest natural material. Soft materials like wax, rubber, and chalk deform or scratch easily."
+    },
+    {
+      "term": "Soluble",
+      "meaning": "A material that dissolves uniformly in a liquid (usually water) to form a solution. Examples: salt, sugar, and copper sulphate are soluble in water."
+    },
+    {
+      "term": "Insoluble",
+      "meaning": "A material that does not dissolve in a liquid. Examples: sand, chalk, and oil are insoluble in water. They either sink to the bottom or float on the surface."
+    },
+    {
+      "term": "Transparent",
+      "meaning": "A material through which light passes clearly, allowing objects behind it to be seen distinctly. Examples: clear glass, clean water, and clear plastic are transparent."
+    },
+    {
+      "term": "Translucent",
+      "meaning": "A material that allows some light to pass through but scatters it, so objects behind cannot be seen clearly. Examples: frosted glass, wax paper, and oiled paper are translucent."
+    },
+    {
+      "term": "Opaque",
+      "meaning": "A material through which no light passes, so objects behind it cannot be seen at all. Examples: wood, metals, stone, and thick plastic are opaque."
+    },
+    {
+      "term": "Conductor",
+      "meaning": "A material that allows heat or electricity to pass through it easily. Most metals (copper, iron, aluminium) are good electrical and thermal conductors."
+    },
+    {
+      "term": "Insulator",
+      "meaning": "A material that resists or slows the flow of heat or electricity. Rubber, plastic, dry wood, and glass are electrical insulators. They prevent electric shocks and unwanted heat transfer."
+    }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Comprehension",
+      "question": "A student tests four materials: iron nail, sugar, sand, and glass sheet. For each, state whether it is hard/soft, soluble/insoluble in water, and transparent/opaque.",
+      "step_by_step_answer": [
+        "Step 1: Iron nail — Hard (resists scratching), Insoluble in water (iron does not dissolve), Opaque (no light passes through metal).",
+        "Step 2: Sugar — Relatively soft (can be crushed), Soluble in water (sugar dissolves completely to form a clear sweet solution), Opaque (solid sugar crystals block light but the solution formed is transparent).",
+        "Step 3: Sand — Hard (mineral particles, resist scratching), Insoluble in water (sand sinks and does not dissolve — water turns cloudy not clear), Opaque (each sand grain blocks light).",
+        "Step 4: Glass sheet — Hard (resists scratching), Insoluble in water (glass does not dissolve), Transparent (clear glass allows light to pass through clearly).",
+        "Conclusion: Different materials have different combinations of properties. A material can be hard AND insoluble AND opaque (iron nail), or hard AND insoluble AND transparent (glass). Properties are independent of each other."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Vocabulary in context",
+      "question": "Use the words 'conductor' and 'insulator' in sentences that explain why copper is used for electrical wires and rubber is used to coat them.",
+      "step_by_step_answer": [
+        "Step 1: Recall meanings — A conductor allows electricity to flow through it. An insulator blocks electricity flow.",
+        "Step 2: Connect to copper — Copper is an excellent electrical conductor — electricity flows through it easily and with very little energy loss. It is also ductile (can be drawn into thin wires) and strong.",
+        "Step 3: Connect to rubber — Rubber is an electrical insulator — it blocks electricity from flowing. The rubber coating prevents electric current from leaking out of the wire and causing shocks.",
+        "Step 4: Write sentences: 'Copper is used for electrical wires because it is an excellent conductor — electricity flows through it freely and efficiently. Rubber is used to coat the wires because it is an insulator — it prevents the electricity from escaping the wire and causing electric shocks to anyone who touches it.'"
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Moral application",
+      "question": "Why is it important to classify materials by their properties? Give a practical example where using the wrong material (based on its properties) could cause harm or failure.",
+      "step_by_step_answer": [
+        "Step 1: State the lesson — Understanding material properties allows us to choose the right material for each use. Using a material without understanding its properties can cause failures or accidents.",
+        "Step 2: Think of a situation — Imagine someone uses a plastic bucket to boil water over a direct flame instead of a metal pot.",
+        "Step 3: Apply — Plastic is a thermal insulator and a poor conductor of heat — but more importantly, plastic has a low melting point and will melt or burn when exposed to direct high heat. Metal pots conduct heat from the flame to the water without melting. Using plastic for direct-flame cooking would cause the bucket to melt, the water to spill, and could cause a fire or burns.",
+        "Step 4: Conclusion — Classifying materials by properties (heat resistance, conductivity, melting point) is not just academic — it is essential for safety in design, engineering, and everyday life. The right material for the right job requires understanding its properties."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Conductors and Insulators",
+      "questions": [
+        {
+          "type": "Recall",
+          "q": "Name two materials that are electrical conductors and two that are electrical insulators.",
+          "a": "Conductors: copper, iron, aluminium, gold, silver (any two). Insulators: rubber, plastic, dry wood, glass, porcelain (any two)."
+        },
+        {
+          "type": "Recall",
+          "q": "Why are copper wires coated with rubber or plastic?",
+          "a": "Copper is a conductor — electricity flows through it. The rubber or plastic coating is an insulator — it prevents the electricity from escaping and causing electric shocks to people who handle the wires."
+        },
+        {
+          "type": "Understanding",
+          "q": "Why does a metal chair feel colder than a plastic chair on a cold morning, even though both are at the same room temperature?",
+          "a": "Metal is a thermal conductor — it quickly conducts (draws away) heat from your warmer body when you sit on it, making you feel cold. Plastic is a thermal insulator — it does not draw heat away as quickly, so it feels warmer even though both are at the same temperature."
+        },
+        {
+          "type": "Understanding",
+          "q": "Why do cooking pans have metal bodies but plastic or wooden handles?",
+          "a": "The metal body of the pan is a thermal conductor — it allows heat from the flame to pass through and cook the food. The plastic or wooden handle is a thermal insulator — it does not conduct heat well, so the handle stays cool enough to be held safely without burning the hand."
+        },
+        {
+          "type": "Application",
+          "q": "You are designing a kettle for boiling water. Which part should be made of a conductor and which of an insulator? Explain.",
+          "a": "The body/base of the kettle that contacts the heat source should be made of a conductor (metal — such as stainless steel or copper) so that heat transfers efficiently from the heat source to the water. The handle should be made of an insulator (plastic, rubber, or wood) so that the user can hold it safely without burning their hand. This design applies conductor-insulator classification directly."
+        }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Materials are classified based on their properties — observable characteristics like hardness, solubility, transparency, lustre, and conductivity.",
+    "Lustrous materials are shiny (metals). Non-lustrous materials are dull (wood, rubber, plastic).",
+    "Hard materials resist scratching (diamond, iron, stone). Soft materials deform easily (wax, chalk, rubber).",
+    "Soluble materials dissolve in water (salt, sugar). Insoluble materials do not dissolve (sand, chalk, oil).",
+    "Transparent materials let light pass clearly (glass, water). Translucent allow partial light (frosted glass). Opaque block all light (wood, metal, stone).",
+    "Conductors allow heat/electricity to flow (metals — copper, iron). Insulators block it (rubber, plastic, wood).",
+    "The same material can have multiple properties — classified differently under each property.",
+    "Karnataka examples: Hoysala temples used hard soapstone; Bidriware uses metal conductors; Channapatna toys use soft wood; Pavagada solar park uses copper conductors.",
+    "Properties guide material selection in engineering and everyday design — the right material must match the required properties.",
+    "Soluble ≠ melts. Dissolving (solubility) is mixing with water at room temperature; melting requires heat to change solid to liquid."
+  ],
+
+  "mind_map": {
+    "root": "Sorting Materials into Groups",
+    "branches": [
+      {
+        "branch": "Properties of Materials",
+        "sub": ["Lustre — shiny (metals) vs dull (rubber)", "Hardness — hard (iron, diamond) vs soft (wax, rubber)", "Solubility — soluble (salt, sugar) vs insoluble (sand, chalk)", "Transparency — transparent / translucent / opaque"]
+      },
+      {
+        "branch": "Conductors vs Insulators",
+        "sub": ["Conductors: copper, iron, aluminium — allow heat/electricity", "Insulators: rubber, plastic, wood — block heat/electricity", "Application: wire = copper conductor + rubber insulator coat"]
+      },
+      {
+        "branch": "Transparency Classification",
+        "sub": ["Transparent — clear glass, water (see through clearly)", "Translucent — frosted glass, wax paper (blurry light)", "Opaque — wood, stone, metal (no light)"]
+      },
+      {
+        "branch": "Karnataka Connections",
+        "sub": ["Hoysala temples — soapstone (soft when carved, hardens later)", "Bidriware, Bidar — zinc-copper alloy (conductor, malleable)", "Channapatna toys — soft wood (non-conductor, carveable)", "Pavagada solar park — copper wires (conductors)"]
+      },
+      {
+        "branch": "Key Vocabulary",
+        "sub": ["Property, Lustre, Hardness", "Soluble / Insoluble", "Transparent / Translucent / Opaque", "Conductor / Insulator"]
+      }
+    ]
+  },
+
+  "revision_notes": "Chapter 4 teaches classification of materials based on their properties. Five key properties: (1) Lustre — metals are lustrous (shiny); wood, rubber are non-lustrous (dull). (2) Hardness — hard materials resist scratching (iron, stone, diamond); soft materials deform easily (wax, chalk, rubber). (3) Solubility — soluble materials dissolve in water (salt, sugar); insoluble do not (sand, chalk, oil). (4) Transparency — transparent materials allow clear light passage (glass, water); translucent allow partial light (frosted glass, wax paper); opaque block all light (wood, metal, stone). (5) Conductivity — conductors allow heat/electricity to flow (metals: copper, iron, aluminium); insulators block flow (rubber, plastic, wood). Other properties: lustre (shiny vs dull), materials that float/sink in water, magnetic vs non-magnetic. Key distinctions: soluble ≠ melts (dissolving is at room temperature; melting requires heat). Transparent ≠ translucent (transparent = see through clearly; translucent = blurry light; opaque = no light). Karnataka examples: Hoysala temples (soapstone — soft then hardens), Bidriware (metal conductors), Channapatna toys (soft wood), Pavagada solar park (copper conductors). Key vocabulary: property, lustre, hardness, soluble, insoluble, transparent, translucent, opaque, conductor, insulator.",
+
+  "must_remember_facts": [
+    "Five key properties for classifying materials: Lustre, Hardness, Solubility, Transparency, Conductivity.",
+    "Lustrous = shiny surface (most metals). Non-lustrous = dull (wood, rubber, plastic).",
+    "Hard = resists scratching (diamond, iron, stone). Soft = deforms easily (wax, rubber, chalk).",
+    "Soluble = dissolves in water (salt, sugar). Insoluble = does not dissolve (sand, oil, chalk).",
+    "Transparent = clear light passage (glass, water). Translucent = blurry light (frosted glass). Opaque = no light (wood, metal).",
+    "Conductor = allows heat/electricity to flow (copper, iron, aluminium). Insulator = blocks it (rubber, plastic, wood).",
+    "Copper wire (conductor) is coated with rubber/plastic (insulator) for electrical safety.",
+    "Dissolving (solubility) is different from melting — dissolving happens in liquid at room temperature; melting is a change of state due to heat.",
+    "Hoysala temples (Karnataka) used soapstone — soft when carved, hardens over time — a real material property application.",
+    "The same material can have multiple properties — e.g., glass is transparent + hard + insoluble + insulator + non-lustrous."
   ]
 }

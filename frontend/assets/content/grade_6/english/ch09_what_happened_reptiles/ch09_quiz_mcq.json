@@ -1,0 +1,273 @@
+{
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "English",
+  "textbook": "A Pact with the Sun",
+  "chapter_number": 9,
+  "chapter_title": "What Happened to the Reptiles",
+  "quiz_type": "MCQ only",
+
+  "mcqs": [
+    {
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Why does Prem come to the forest of Pambupatti at the beginning of the story?",
+      "options": [
+        "A) He is a wildlife photographer looking for reptiles",
+        "B) He has fled communal violence in his village and is confused about why people cannot live in peace",
+        "C) He is a forest officer on a routine patrol",
+        "D) He is searching for medicinal herbs to cure a family member"
+      ],
+      "correct_answer": "B) He has fled communal violence in his village and is confused about why people cannot live in peace",
+      "explanation": "Prem is a man traumatised by communal violence — people from different communities fighting each other in his village. He flees to the forest, frightened and seeking answers. His question about why communities cannot coexist peacefully is exactly what Makara's story answers."
+    },
+    {
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "Who is Makara in the story?",
+      "options": [
+        "A) A wise old tortoise who is the leader of Pambupatti",
+        "B) A young monkey who befriends Prem in the forest",
+        "C) A wise old crocodile who shelters Prem and tells him the story of the reptiles",
+        "D) A forest spirit who takes the shape of a crocodile"
+      ],
+      "correct_answer": "C) A wise old crocodile who shelters Prem and tells him the story of the reptiles",
+      "explanation": "Makara is an elderly, wise crocodile living in Pambupatti who finds Prem in the forest. He offers shelter, food, and friendship, and answers Prem's question about communal harmony by narrating the story of what once happened in Pambupatti. He is the wise narrator of the inner story."
+    },
+    {
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "Which animal first suggests expelling other animals from Pambupatti?",
+      "options": [
+        "A) The crocodile",
+        "B) The snake",
+        "C) The lizard",
+        "D) The tortoise"
+      ],
+      "correct_answer": "D) The tortoise",
+      "explanation": "The tortoise is the first to raise the idea of expulsion. He complains about snakes — calling them slimy, dangerous, and ugly — and persuades the other reptiles to drive them out. His intolerance and prejudice spark the entire chain of events that destroys Pambupatti's balance."
+    },
+    {
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "What happens to Pambupatti after the snakes are expelled?",
+      "options": [
+        "A) The forest becomes quieter and more peaceful",
+        "B) Rats and frogs multiply uncontrollably, disrupting the forest",
+        "C) Plants grow more abundantly without snakes eating their roots",
+        "D) The other reptiles feel safer and happier"
+      ],
+      "correct_answer": "B) Rats and frogs multiply uncontrollably, disrupting the forest",
+      "explanation": "Snakes are natural predators of rats and frogs. Without them, these populations explode — rats destroy food stores and spread disease, frogs create constant noise. The forest suffers immediately, demonstrating that snakes played an essential ecological role that no other animal can replace."
+    },
+    {
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "What is the result of expelling the lizards from Pambupatti?",
+      "options": [
+        "A) Snakes return to take over the lizards' role",
+        "B) The rivers become cleaner without lizards muddying the banks",
+        "C) Flies and mosquitoes multiply uncontrollably, overrunning the forest",
+        "D) The trees grow taller because lizards are no longer eating their bark"
+      ],
+      "correct_answer": "C) Flies and mosquitoes multiply uncontrollably, overrunning the forest",
+      "explanation": "Lizards are insect predators. Without them, flies and mosquitoes multiply explosively and make life miserable for all the remaining animals. Each expulsion adds a new layer of suffering, demonstrating that every species has an irreplaceable ecological function."
+    },
+    {
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "What happens after the crocodiles are expelled from Pambupatti?",
+      "options": [
+        "A) The rivers become cleaner and safer for other animals to drink from",
+        "B) Water plants choke the rivers and fish populations explode, destroying the aquatic ecosystem",
+        "C) The remaining animals are able to use the riverbanks freely without fear",
+        "D) The forest's insect problem is solved because fish eat more insects"
+      ],
+      "correct_answer": "B) Water plants choke the rivers and fish populations explode, destroying the aquatic ecosystem",
+      "explanation": "Crocodiles regulate both fish populations and aquatic vegetation. Without them, water plants choke the rivers and fish multiply beyond the ecosystem's capacity to sustain them. The collapse of the water system — which all animals depend on — represents the final, catastrophic consequence of the expulsions."
+    },
+    {
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "What is an allegory?",
+      "options": [
+        "A) A story told entirely in verse and rhyme",
+        "B) A biography of a historical person written in fictional form",
+        "C) A story with a hidden deeper meaning where characters and events symbolise real human ideas",
+        "D) A scientific report written in simple language for children"
+      ],
+      "correct_answer": "C) A story with a hidden deeper meaning where characters and events symbolise real human ideas",
+      "explanation": "An allegory has two levels of meaning — a surface story and a deeper symbolic meaning. In this chapter, the surface story is about reptiles in a forest. The deeper meaning is about human communities, communal harmony, and what happens when any community is excluded from society."
+    },
+    {
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "What does the term 'frame story' mean? Which part is the frame story in this chapter?",
+      "options": [
+        "A) A story set inside a picture frame; the picture of Pambupatti is the frame",
+        "B) A story within a story; Prem's journey is the outer frame and Makara's tale is the inner story",
+        "C) A story told in chapters like a picture frame with borders; each section is a frame",
+        "D) A story told from two different characters' viewpoints; Prem and Makara each tell a frame"
+      ],
+      "correct_answer": "B) A story within a story; Prem's journey is the outer frame and Makara's tale is the inner story",
+      "explanation": "A frame story is a narrative where one story contains another. Prem's journey to the forest — his fleeing, meeting Makara, and eventually deciding to return home — is the outer (frame) story. Makara's tale about the reptiles' expulsion is the inner story told within that frame."
+    },
+    {
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "What is 'communal harmony' as illustrated in this story?",
+      "options": [
+        "A) All animals speaking the same language in the forest",
+        "B) The peaceful coexistence of different communities with mutual respect and cooperation",
+        "C) A government scheme for animals to share forest resources equally",
+        "D) The agreement among reptiles to divide Pambupatti into separate zones"
+      ],
+      "correct_answer": "B) The peaceful coexistence of different communities with mutual respect and cooperation",
+      "explanation": "Communal harmony is the state where people (or in this allegory, animals) of different backgrounds, beliefs, and types live together peacefully, respecting each other's differences and contributions. The story shows that harmony requires all communities to be present and valued — exclusion destroys it."
+    },
+    {
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "What does the name 'Pambupatti' mean?",
+      "options": [
+        "A) Forest of peace",
+        "B) Home of all animals",
+        "C) Snake village",
+        "D) River of wisdom"
+      ],
+      "correct_answer": "C) Snake village",
+      "explanation": "Pambupatti comes from the Tamil/Kannada words 'pambu' (snake) and 'patti' (village or settlement). The name is fitting because the story is about all reptiles living together — and snakes are the first group to be unjustly expelled. The name signals that reptiles, including snakes, naturally belong in this place."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "In the allegory, what do the reptiles of Pambupatti symbolise in human society?",
+      "options": [
+        "A) Different species of animals that need wildlife protection",
+        "B) Different professional groups like doctors, farmers, and teachers",
+        "C) Different communities such as religious, linguistic, or ethnic groups in society",
+        "D) Children of different ages in a school"
+      ],
+      "correct_answer": "C) Different communities such as religious, linguistic, or ethnic groups in society",
+      "explanation": "The reptiles are an allegory for human communities. Snakes, lizards, tortoises, and crocodiles represent different religious, ethnic, linguistic, or cultural communities in a diverse society like India. Each has a unique role; excluding any one group (as the tortoise does) harms the whole society (as Pambupatti's collapse shows)."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "What character flaw does the tortoise represent in the story's moral framework?",
+      "options": [
+        "A) Cowardice — he is afraid of snakes and hides from them",
+        "B) Intolerance and prejudice — he judges and condemns snakes based on appearance and unfounded fear",
+        "C) Greed — he wants the snakes' food and territory for himself",
+        "D) Laziness — he is too slow to understand the consequences of his actions"
+      ],
+      "correct_answer": "B) Intolerance and prejudice — he judges and condemns snakes based on appearance and unfounded fear",
+      "explanation": "The tortoise's fundamental flaw is intolerance rooted in prejudice. He dislikes snakes because they look different and have a fearsome reputation — not because they have actually harmed him or the community. His prejudice-driven words poison the community and set off the entire ecological and social collapse."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "What is the ecological concept the story accurately illustrates through the expulsion of each reptile group?",
+      "options": [
+        "A) Photosynthesis — plants need animals to survive",
+        "B) Food chain / ecological balance — every species is interdependent and essential",
+        "C) Migration — animals move when their environment becomes hostile",
+        "D) Adaptation — animals change behaviour when threatened"
+      ],
+      "correct_answer": "B) Food chain / ecological balance — every species is interdependent and essential",
+      "explanation": "The story is ecologically accurate. Snakes control rats and frogs, lizards control insects, and crocodiles control fish and aquatic plants. Each removal cascades into further imbalance. This is the food chain and ecological balance principle: every species has a role, and removing any one disrupts the whole interconnected system."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "How does Basavanna's Anubhava Mantapa (12th century, Karnataka) connect to the theme of this chapter?",
+      "options": [
+        "A) It was a court where reptiles were used as symbols in royal debates",
+        "B) It was a hall open to all people regardless of caste, embodying the same principle of inclusive coexistence",
+        "C) It was a school where Basavanna taught students about ecological balance",
+        "D) It was a legal institution that punished those who caused communal violence"
+      ],
+      "correct_answer": "B) It was a hall open to all people regardless of caste, embodying the same principle of inclusive coexistence",
+      "explanation": "Basavanna's Anubhava Mantapa was a 12th-century open hall of spiritual discourse in Karnataka where people of all castes — weavers, cobblers, priests — spoke as equals. This embodies exactly the chapter's lesson: every community's voice and contribution matters. Exclusion based on caste (like excluding reptiles based on type) weakens the whole."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "Why does the author use animals instead of human characters to tell the story of communal harmony?",
+      "options": [
+        "A) Because the author was a wildlife expert and preferred writing about nature",
+        "B) To create an allegory that allows readers to see the effects of prejudice objectively, without defensiveness",
+        "C) Because human characters would make the story too long and complex for Grade 6",
+        "D) Because the story is based on a true event that happened in a real forest"
+      ],
+      "correct_answer": "B) To create an allegory that allows readers to see the effects of prejudice objectively, without defensiveness",
+      "explanation": "Using animals creates allegorical distance — readers can understand the moral about intolerance and exclusion without feeling personally accused or becoming defensive about their own community or religion. The animal allegory makes it possible to communicate a sensitive social message in a way that is accessible and emotionally effective."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "Article 51A of the Indian Constitution is relevant to this chapter because it:",
+      "options": [
+        "A) Gives animals the right to live in forests without human interference",
+        "B) Protects reptiles as an endangered species under wildlife law",
+        "C) Lists the duty of every citizen to promote harmony and brotherhood among all communities",
+        "D) Requires schools to teach ecological conservation as a mandatory subject"
+      ],
+      "correct_answer": "C) Lists the duty of every citizen to promote harmony and brotherhood among all communities",
+      "explanation": "Article 51A of the Indian Constitution lists fundamental duties, including the duty to promote harmony and the spirit of common brotherhood among all people regardless of religion, language, or region. This is precisely the lesson of Pambupatti — inclusion and harmony are not optional but a civic duty."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "What does Prem decide to do at the end of the story, and what has caused this change?",
+      "options": [
+        "A) He decides to stay in Pambupatti permanently and live with the reptiles",
+        "B) He decides to return home and work towards communal harmony in his village",
+        "C) He decides to report the communal violence to the government authorities",
+        "D) He decides to bring the other villagers to Pambupatti to learn from Makara"
+      ],
+      "correct_answer": "B) He decides to return home and work towards communal harmony in his village",
+      "explanation": "After hearing Makara's story of the reptiles, Prem understands that exclusion and intolerance destroy entire communities — including those who cause the division. This understanding gives him the framework and resolve to return home and actively work for communal harmony rather than flee from the problem."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "The story ends with all the expelled reptiles being invited back to Pambupatti. What does this resolution represent at the allegorical level?",
+      "options": [
+        "A) That animals can always forgive each other because they do not hold grudges like humans",
+        "B) That excluded communities, once welcomed back, restore balance and harmony to society",
+        "C) That the tortoise was eventually punished for starting the expulsions",
+        "D) That reptiles are more intelligent than other animals because they learned from their mistake"
+      ],
+      "correct_answer": "B) That excluded communities, once welcomed back, restore balance and harmony to society",
+      "explanation": "The return of the expelled reptiles and the restoration of Pambupatti's balance is the story's allegorical resolution. In human terms, it represents that when excluded communities are welcomed back — respected and included — the whole society recovers its balance, creativity, and prosperity. Inclusion heals what exclusion broke."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "The tortoise suffers along with the other animals after the expulsions he caused. What deeper lesson does this illustrate about the nature of intolerance?",
+      "options": [
+        "A) That the tortoise was punished specifically to teach him a lesson",
+        "B) That intolerance ultimately harms the intolerant person as much as those they exclude",
+        "C) That the tortoise was too slow to escape the consequences of his actions",
+        "D) That nature punishes all animals equally, regardless of who caused the problem"
+      ],
+      "correct_answer": "B) That intolerance ultimately harms the intolerant person as much as those they exclude",
+      "explanation": "The tortoise initiated the expulsions but suffers equally from the resulting ecological collapse — the rats, insects, and choking rivers affect him too. This is the story's deepest moral insight: those who practise intolerance do not protect themselves from its consequences. Exclusion harms the excluder as much as the excluded. Hatred is self-defeating."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "Chapters 6, 8, and 9 all feature a character who causes harm through selfish or intolerant behaviour and gains nothing in return. What common theme do these three chapters share?",
+      "options": [
+        "A) That animals are better moral teachers than human beings",
+        "B) That selfishness, greed, and intolerance always harm the one who practices them, not only their victims",
+        "C) That Karnataka's stories always feature villains who are eventually punished by nature",
+        "D) That children are always wiser than adults in moral matters"
+      ],
+      "correct_answer": "B) That selfishness, greed, and intolerance always harm the one who practices them, not only their victims",
+      "explanation": "In Chapter 6, the crocodile's greed-driven betrayal leaves him with neither the monkey's heart nor the friendship. In Chapter 8, the old doctor's greed loses him the patient when a better doctor steps in. In Chapter 9, the tortoise's intolerance causes suffering for himself too. All three chapters teach the same cross-cutting moral: selfish, harmful behaviour ultimately destroys the one who practices it."
+    }
+  ]
+}

@@ -1,96 +1,173 @@
 {
-  "version": "1.0",
-  "topic_id": "english_grade6_ch12_poetry_teachers_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "English",
+  "textbook": "Honeysuckle",
+  "chapter_number": 12,
+  "chapter_title": "Where Do All the Teachers Go?",
+  "poet": "Peter Dixon",
+  "total_cards": 20,
   "cards": [
     {
       "id": "fc01",
-      "front": {
-        "en": "What is the core idea of Poetry: Where Do All the Teachers Go? (FC1)",
-        "hi": "What is the core idea of Poetry: Where Do All the Teachers Go? (FC1)",
-        "kn": "What is the core idea of Poetry: Where Do All the Teachers Go? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Who wrote the poem 'Where Do All the Teachers Go?'?",
+      "back": "The poem was written by Peter Dixon, a British poet celebrated for his humorous, warm, and child-friendly poetry. He is known for writing poems that capture everyday childhood experiences with wit and gentle insight.",
+      "memory_hook": "PETER DIXON = Poet Entertaining Teachers, Every Rhyme Delights — Imagines Xtra-ordinary human teachers! His name sounds like a playful schoolboy himself!"
     },
     {
       "id": "fc02",
-      "front": {
-        "en": "Why is Poetry: Where Do All the Teachers Go important? (FC2)",
-        "hi": "Why is Poetry: Where Do All the Teachers Go important? (FC2)",
-        "kn": "Why is Poetry: Where Do All the Teachers Go important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "At what time does the child in the poem wonder where teachers go?",
+      "back": "The child wonders where teachers go at four o'clock — when school ends. The opening lines are: 'Where do all the teachers go / When it's four o'clock?' The child cannot imagine what teachers do once they leave the school building.",
+      "memory_hook": "FOUR O'CLOCK = Freedom O'Clock for teachers! The moment school ends, teachers seem to disappear into another world — and the child desperately wants to know where!"
     },
     {
       "id": "fc03",
-      "front": {
-        "en": "What is the core idea of Poetry: Where Do All the Teachers Go? (FC3)",
-        "hi": "What is the core idea of Poetry: Where Do All the Teachers Go? (FC3)",
-        "kn": "What is the core idea of Poetry: Where Do All the Teachers Go? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "How many stanzas does the poem 'Where Do All the Teachers Go?' have? How many lines per stanza?",
+      "back": "The poem has six stanzas, each with four lines. This gives the poem a compact, bouncy structure. The six stanzas take the child's questions from basic everyday activities (washing socks) through to childhood misbehaviours (scribbling on desks), ending with the child's plan to write a poem.",
+      "memory_hook": "6 stanzas × 4 lines = 24 lines of pure curiosity! Think of it as 6 rounds of questions, each one funnier than the last — like a game show where the child is quizzing the universe about teachers!"
     },
     {
       "id": "fc04",
-      "front": {
-        "en": "Why is Poetry: Where Do All the Teachers Go important? (FC4)",
-        "hi": "Why is Poetry: Where Do All the Teachers Go important? (FC4)",
-        "kn": "Why is Poetry: Where Do All the Teachers Go important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What is the child's plan in the final stanza of the poem?",
+      "back": "In the final stanza, the child plans to: (1) follow a teacher home after school, (2) find out what the teacher actually does at home, and (3) write a poem about it that the teacher can then read aloud to the students. This is a clever, warm ending — the curious child becomes a poet, just like Peter Dixon!",
+      "memory_hook": "The child's plan = FOLLOW → FIND OUT → WRITE. It's a detective mission that ends in a poem! The child becomes the poet — a beautiful full circle."
     },
     {
       "id": "fc05",
-      "front": {
-        "en": "What is the core idea of Poetry: Where Do All the Teachers Go? (FC5)",
-        "hi": "What is the core idea of Poetry: Where Do All the Teachers Go? (FC5)",
-        "kn": "What is the core idea of Poetry: Where Do All the Teachers Go? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Name any four normal human activities the child wonders if teachers do.",
+      "back": "The child wonders if teachers: (1) live in houses, (2) wash their socks, (3) wear pyjamas, (4) watch TV, (5) pick their noses, (6) have mums and dads, (7) were ever children, (8) made spelling mistakes, (9) scribbled on desk tops, (10) wore old dirty jeans. Any four of these are correct.",
+      "memory_hook": "The child's list = everything a teacher tells you NOT to do! Picking noses, scribbling, wearing dirty clothes — the child imagines teachers once did it all. Funny because it's probably true!"
+    },
+    {
+      "id": "fc06",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a rhetorical question? Give one example from the poem.",
+      "back": "A rhetorical question is a question asked for effect or to express a point — not because a real answer is expected. Almost the entire poem is made of rhetorical questions. Example: 'Do they wear pyjamas and do they watch TV?' — the child is not literally asking for a yes/no answer; the question expresses amazed curiosity about teachers' private lives.",
+      "memory_hook": "RHETORICAL = Really Having Effect Through Obvious Results In Creating Amazement, Laughs! A rhetorical question is a '?' that secretly wants to be a '!' — it expresses feeling, not a request for facts."
+    },
+    {
+      "id": "fc07",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What does 'pinched' mean in the poem? Give the full line.",
+      "back": "'Pinched' in the poem means to secretly steal or take something, especially food. The full line is: 'Were they punished in the corner / If they pinched the chocolate flakes?' The child imagines teachers as children who might have secretly stolen chocolate and been punished for it — just as students today might be.",
+      "memory_hook": "PINCHED = secretly snatched! Imagine a young teacher-to-be, tiptoeing to the biscuit tin, pinching a chocolate flake... and getting caught. That's the funny image the poem plants in your head!"
+    },
+    {
+      "id": "fc08",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is the rhyme scheme of the poem 'Where Do All the Teachers Go?'?",
+      "back": "The poem follows an ABCB rhyme scheme — meaning the second and fourth lines of each stanza rhyme, while the first and third lines do not necessarily rhyme. For example: 'When it's four o'clock? (B) / Do they live in houses (A) / And do they wash their socks? (B)' — 'clock' and 'socks' rhyme. This gives the poem a bouncy, song-like rhythm.",
+      "memory_hook": "ABCB = After Bedtime, Children Bounce! The rhyme at lines 2 and 4 gives the poem a skip-and-hop rhythm — perfect for a poem about children's bouncy curiosity!"
+    },
+    {
+      "id": "fc09",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What does 'scribble' mean? How is it used in the poem?",
+      "back": "'Scribble' means to write or draw carelessly, messily, or randomly. In the poem, the child asks 'Did they scribble on the desk tops?' — imagining that teachers, when they were children, might have written or drawn on school desks just as students sometimes do today. This is one of the funnier questions because scribbling on desks is something teachers actively scold students for.",
+      "memory_hook": "SCRIBBLE = messy, scratchy writing. Imagine a tiny future-teacher secretly drawing on a desk and then growing up to be the very person who scolds students for doing the same thing. That's the funny irony!"
+    },
+    {
+      "id": "fc10",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is the central theme of the poem 'Where Do All the Teachers Go?'?",
+      "back": "The central theme is children's tendency to see teachers as extraordinary or superhuman beings, separate from ordinary humanity. The child cannot imagine a teacher washing socks, watching TV, or having been a naughty child. The poem gently corrects this view — teachers are ordinary people with real, everyday lives. The deeper theme is empathy: learning to see those in authority as full human beings.",
+      "memory_hook": "THEME = Teachers Are People Too! T-A-P-T. Every funny question in the poem is actually asking: 'Are you human like me?' And the answer — never stated but always implied — is YES!"
+    },
+    {
+      "id": "fc11",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "How does Peter Dixon use humour in the poem? What effect does it have?",
+      "back": "Dixon uses humour by asking increasingly funny, incongruous questions about teachers' private habits — from washing socks (mildly funny) to picking noses and wearing dirty jeans (very funny). The humour works because it contrasts the teacher's formal, authoritative image with silly, ordinary, human behaviour. The effect is to make the reader laugh while also gently making the serious point that teachers are fully human — with all the ordinary (and undignified) habits of human beings.",
+      "memory_hook": "HUMOUR LADDER: Each stanza climbs higher on the funny scale — socks → pyjamas → picking noses → stealing chocolate. The laughs get bigger as the humanity gets more obvious!"
+    },
+    {
+      "id": "fc12",
+      "type": "Concept",
+      "difficulty": "Moderate",
+      "front": "How does the structure of the poem (six stanzas of questions + one action stanza) support its theme?",
+      "back": "The first five stanzas are entirely questions — building curiosity and humour while showing how thoroughly the child cannot imagine the teacher's human life. The sixth stanza shifts to action: 'I'll follow one back home today / I'll find out what they do.' This structural shift from wondering to doing is significant — the child moves from passive curiosity to active investigation and then to creative expression (writing a poem). The structure mirrors the theme: moving from seeing teachers as mysterious to understanding them as human.",
+      "memory_hook": "5 stanzas of '?' + 1 stanza of '!' = the child's journey from WONDER to ACTION. The poem itself is that action — Peter Dixon wrote it, just as the child plans to!"
+    },
+    {
+      "id": "fc13",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why does the child ask 'Were they ever children and were they ever bad?'",
+      "back": "The child asks this because teachers always appear to be perfectly behaved, knowledgeable adults who correct students' mistakes. It seems impossible to the child that a teacher was ever young, ever made spelling mistakes, ever got into trouble. By asking if teachers were 'ever bad', the child is trying to bridge the gap between the teacher's authoritative image and the child's own imperfect, rule-breaking reality. It is an act of humanising — looking for shared experience.",
+      "memory_hook": "The real question behind 'Were they ever bad?' is 'Were they ever like ME?' The child is looking for a shared past — a secret bond with the teacher hidden in their childhood!"
+    },
+    {
+      "id": "fc14",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why does the child want to write a poem and share it with the teacher?",
+      "back": "The child wants to share the poem with the teacher for two reasons. First, it would complete the investigation — the child would reveal what they discovered and the teacher would see themselves through the child's eyes. Second, it is a gesture of connection — writing and sharing a poem is an act of creative empathy. The child is not writing to mock but to understand and share. It is also subtly funny: the child imagines showing the teacher a poem about the teacher's own private life!",
+      "memory_hook": "Sharing the poem = the ultimate plot twist! Imagine the teacher reading a poem about their own socks and pyjamas, written by their student. That would be one very memorable class!"
+    },
+    {
+      "id": "fc15",
+      "type": "Why/How",
+      "difficulty": "Moderate",
+      "front": "How is the poem 'Where Do All the Teachers Go?' similar to and different from 'Vocation' (ch11)?",
+      "back": "Similarities: Both poems are told from a child's perspective. Both show how children imagine the lives of adults they see regularly. Both use curiosity and longing as central emotions. Differences: In 'Vocation', the child envies the workers' freedom and wishes to escape school rules. In 'Where Do All the Teachers Go?', the child is curious about the teacher's humanity — there is no envy, only wonder. 'Vocation' has three stanzas structured around time of day; 'Teachers' has six stanzas structured as escalating questions. The tone of 'Vocation' is wistful; the tone of 'Teachers' is playfully humorous.",
+      "memory_hook": "Vocation = I WISH I were them. Teachers = I WONDER what they do. Both poems = a child looking at adults through curious eyes — but the feelings are different: envy vs wonder!"
+    },
+    {
+      "id": "fc16",
+      "type": "Why/How",
+      "difficulty": "Moderate",
+      "front": "The child asks 'Did they ever, never spell right / Did they ever make mistakes?' What does this reveal about the child's relationship with their teacher?",
+      "back": "This question reveals that the child feels intimidated or separated from the teacher by the teacher's apparent perfection. Teachers correct mistakes — they always seem to know the right answer. By imagining the teacher as someone who once misspelled words and made errors, the child is trying to equalise the relationship — to find common ground. It also shows the child's desire for reassurance: if teachers made mistakes too, then making mistakes is not shameful, just human.",
+      "memory_hook": "The child is asking: 'Did your pencil make mistakes before your red pen?' It's a search for permission to be imperfect — the most deeply human question in the whole poem!"
+    },
+    {
+      "id": "fc17",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "If you were the child in the poem, what question would you most want to ask your teacher? Why?",
+      "back": "This is a personal reflection card. Think of something about your teacher that seems mysterious or surprising outside school. Examples: Does your maths teacher listen to film songs? Does your English teacher read comic books? Does your science teacher get scared during thunderstorms? The best question is one that shows a human side you cannot currently imagine. Then ask yourself why that question matters — usually, it is because imagining the answer makes the teacher feel more approachable and human.",
+      "memory_hook": "Your question = your empathy in action! Whatever you wonder about your teacher, asking it (even in your head) is the beginning of seeing them as a full person. That is exactly what Peter Dixon wants!"
+    },
+    {
+      "id": "fc18",
+      "type": "Application",
+      "difficulty": "Moderate",
+      "front": "Write two lines of your own in the style of the poem, asking a question about a teacher.",
+      "back": "Model answer (students may write their own): 'Do they sing in the shower / And forget all the words? / Do they talk to their houseplants / And chat with the birds?' The key features to maintain: a question format ('Do they...?'), an everyday or funny domestic activity, and the ABCB rhyme scheme (the second and fourth lines should rhyme).",
+      "memory_hook": "To write like Peter Dixon: PICK something funny, FRAME it as a question, RHYME lines 2 and 4. Socks rhymes with clocks. Jeans rhymes with greens. What do YOUR new lines rhyme with?"
+    },
+    {
+      "id": "fc19",
+      "type": "Application",
+      "difficulty": "Hard",
+      "front": "The poem ends with the child planning to write a poem. In what way is this ending self-referential or meta?",
+      "back": "The ending is self-referential (or 'meta') because the poem we are reading IS the poem the child planned to write. Peter Dixon, the poet, wrote a poem from the perspective of a child who plans to write a poem about teachers — which means the poem we hold in our hands is the very outcome the child described. This creates a charming loop: the child says 'I'll put it in a poem that they can read to you', and Peter Dixon does exactly that. The reader (and the teacher reading it aloud) is the 'you' mentioned in the final line.",
+      "memory_hook": "META MOMENT: The child's PLAN = The poet's POEM = The page you're READING. It's a poem about writing a poem — the most playfully clever trick in the book!"
+    },
+    {
+      "id": "fc20",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What does the child wonder about the teacher's past in stanza 4 and stanza 5?",
+      "back": "In stanza 4, the child wonders: Did teachers ever spell wrong? Did they ever make mistakes? Were they punished in the corner for stealing chocolate flakes? In stanza 5, the child wonders: Did they ever lose their hymn books? Did they ever refuse to eat their greens? Did they scribble on desk tops? Did they wear old dirty jeans? Both stanzas imagine the teacher as a former child who was as imperfect and naughty as students are today.",
+      "memory_hook": "Stanzas 4 & 5 = THE TEACHER'S SECRET NAUGHTY PAST. The child is trying to find the teacher's 'student record' — every funny question is a search for proof that teachers were once just like us!"
     }
   ]
 }

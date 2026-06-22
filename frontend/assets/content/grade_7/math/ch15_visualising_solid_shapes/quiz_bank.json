@@ -1,366 +1,49 @@
 {
-  "version": "1.0",
-  "topic_id": "math_grade7_ch15_visualising_solid_shapes_basics",
-  "questions": [
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 7,
+  "subject": "Mathematics",
+  "textbook": "Mathematics – Class 7",
+  "chapter_number": 15,
+  "chapter_title": "Visualising Solid Shapes",
+
+  "level_1_mcqs": [
+    { "id": "mcq01", "difficulty": "Easy", "question": "How many faces does a cube have?", "options": ["4", "6", "8", "12"], "correct_answer": "6", "explanation": "A cube has 6 faces — all square and equal in size. A cube also has 12 edges and 8 vertices. F+V−E = 6+8−12 = 2 (Euler's formula verified)." },
+    { "id": "mcq02", "difficulty": "Easy", "question": "How many edges does a cube have?", "options": ["6", "8", "10", "12"], "correct_answer": "12", "explanation": "A cube has 12 edges — the line segments where two faces meet. 4 on the top square + 4 on the bottom square + 4 vertical edges connecting top to bottom = 12 edges." },
+    { "id": "mcq03", "difficulty": "Easy", "question": "Euler's formula for polyhedra states:", "options": ["F + V + E = 2", "F − V + E = 2", "F + V − E = 2", "F × V = E"], "correct_answer": "F + V − E = 2", "explanation": "Euler's formula: F + V − E = 2, where F = faces, V = vertices, E = edges. This holds for all convex polyhedra. For a cube: 6 + 8 − 12 = 2 ✓." },
+    { "id": "mcq04", "difficulty": "Easy", "question": "A triangular prism has how many faces?", "options": ["3", "4", "5", "6"], "correct_answer": "5", "explanation": "A triangular prism has 5 faces: 2 triangular bases (top and bottom) + 3 rectangular lateral faces (one for each side of the triangle). Total: 2 + 3 = 5." },
+    { "id": "mcq05", "difficulty": "Easy", "question": "A square pyramid has how many vertices?", "options": ["4", "5", "6", "8"], "correct_answer": "5", "explanation": "A square pyramid has 5 vertices: 4 corners of the square base + 1 apex (the tip at the top). It also has 5 faces and 8 edges. F+V−E = 5+5−8 = 2 ✓." },
+    { "id": "mcq06", "difficulty": "Easy", "question": "What is the top view of a cylinder?", "options": ["Rectangle", "Triangle", "Circle", "Square"], "correct_answer": "Circle", "explanation": "Looking at a cylinder directly from above (top view), you see the circular top face — a circle. The front and side views of a cylinder are rectangles." },
+    { "id": "mcq07", "difficulty": "Easy", "question": "What is the front view of a cone?", "options": ["Circle", "Triangle", "Rectangle", "Square"], "correct_answer": "Triangle", "explanation": "Looking at a cone from the front, you see an isosceles triangle (the two slant sides and the base). The top view of a cone is a circle (with a dot at the centre for the apex)." },
+    { "id": "mcq08", "difficulty": "Easy", "question": "What is a 'net' of a solid?", "options": ["A 3D model of the solid", "A flat 2D arrangement of faces that folds to make the 3D solid", "The shadow cast by the solid", "The cross-section of the solid"], "correct_answer": "A flat 2D arrangement of faces that folds to make the 3D solid", "explanation": "A net is a flat (2D) unfolding of a solid's faces. When all faces are laid flat, connected at their edges, and then folded back along those edges, the net forms the 3D solid. A cube has 11 different valid nets." },
+    { "id": "mcq09", "difficulty": "Easy", "question": "Which solid has all three standard views (front, side, top) as circles?", "options": ["Cylinder", "Cone", "Sphere", "Cube"], "correct_answer": "Sphere", "explanation": "A sphere looks like a circle from every direction — front, side, and top views are all circles. A cylinder shows rectangle (front/side) and circle (top). A cone shows triangle (front/side) and circle (top)." },
+    { "id": "mcq10", "difficulty": "Easy", "question": "Euler's formula applies to which of the following?", "options": ["Sphere", "Cylinder", "Cone", "Cube"], "correct_answer": "Cube", "explanation": "Euler's formula F+V−E=2 applies only to POLYHEDRA — solids with flat polygonal faces. Cube is a polyhedron (6 flat square faces). Sphere, cylinder, and cone have curved surfaces and are not polyhedra." },
+    { "id": "mcq11", "difficulty": "Easy", "question": "A solid has F=5, V=6, E=9. What type of solid is this?", "options": ["Square pyramid", "Cube", "Triangular prism", "Cylinder"], "correct_answer": "Triangular prism", "explanation": "Triangular prism has F=5 (2 triangles + 3 rectangles), V=6 (two triangles × 3 corners each), E=9 (3+3+3). F+V−E = 5+6−9 = 2 ✓. Square pyramid has F=5, V=5, E=8 — different vertex/edge counts." },
+    { "id": "mcq12", "difficulty": "Easy", "question": "The net of a cylinder consists of:", "options": ["2 circles and 1 rectangle", "1 circle and 1 rectangle", "2 rectangles and 1 circle", "3 rectangles"], "correct_answer": "2 circles and 1 rectangle", "explanation": "A cylinder's net has: 2 circles (one for each circular face — top and bottom) and 1 rectangle (the lateral curved surface, which unrolls flat). The rectangle's length = circumference of the circle (2πr) and width = height of the cylinder." },
+    { "id": "mcq13", "difficulty": "Easy", "question": "How many valid nets does a cube have?", "options": ["6", "8", "11", "12"], "correct_answer": "11", "explanation": "A cube has exactly 11 different valid nets — 11 different flat arrangements of 6 squares that all fold into a cube. Not all arrangements of 6 squares form valid cube nets (e.g., 6 in a straight line does not work)." },
+    { "id": "mcq14", "difficulty": "Easy", "question": "What is the front view of a cylinder placed upright (tall)?", "options": ["Circle", "Triangle", "Rectangle", "Oval"], "correct_answer": "Rectangle", "explanation": "Looking at an upright cylinder from the front, you see the curved lateral surface appearing as a rectangle (width = diameter, height = height of cylinder). The circular faces are hidden behind this rectangular view." },
+    { "id": "mcq15", "difficulty": "Easy", "question": "A polyhedron has 6 faces and 8 vertices. How many edges does it have?", "options": ["10", "12", "14", "16"], "correct_answer": "12", "explanation": "Using Euler's formula: F + V − E = 2 → 6 + 8 − E = 2 → 14 − E = 2 → E = 12. This is the cube (or cuboid), which has 6 faces, 8 vertices, and 12 edges." },
+    { "id": "mcq16", "difficulty": "Easy", "question": "Which of the following is NOT a polyhedron?", "options": ["Cube", "Triangular prism", "Square pyramid", "Sphere"], "correct_answer": "Sphere", "explanation": "A polyhedron is a solid with ALL flat polygonal faces. A sphere has NO flat faces (its entire surface is curved) — so it is NOT a polyhedron. Cube, triangular prism, and square pyramid all have flat faces and are polyhedra." },
+    { "id": "mcq17", "difficulty": "Easy", "question": "The net of a square pyramid consists of:", "options": ["4 triangles only", "1 square and 4 triangles", "4 squares and 1 triangle", "2 squares and 4 triangles"], "correct_answer": "1 square and 4 triangles", "explanation": "A square pyramid has 5 faces: 1 square base + 4 triangular lateral faces. Its net therefore consists of 1 square (the base) surrounded by 4 triangles (the lateral faces), which fold up to meet at the apex." },
+    { "id": "mcq18", "difficulty": "Easy", "question": "Which view of a solid is also called the 'plan view' or 'bird's eye view'?", "options": ["Front view", "Side view", "Top view", "Oblique view"], "correct_answer": "Top view", "explanation": "The top view (also called plan view or bird's eye view) is what you see when looking directly down at a solid from above. Architects use this view for floor plans; town planners use it for city maps." },
+    { "id": "mcq19", "difficulty": "Easy", "question": "The Gol Gumbaz at Bijapur, Karnataka, can be described as a combination of which two solid shapes?", "options": ["Cube and cone", "Cylinder and sphere", "Cuboid and hemisphere", "Pyramid and cylinder"], "correct_answer": "Cuboid and hemisphere", "explanation": "The Gol Gumbaz has a large square (cube-like) base which is a CUBOID, topped by a massive rounded dome which is a HEMISPHERE (half of a sphere). It is one of the world's largest domes, and its front view shows a rectangle (cuboid) with a semicircle (hemisphere) on top." },
+    { "id": "mcq20", "difficulty": "Easy", "question": "A polyhedron has F = 12, V = 20, E = 30. Does it satisfy Euler's formula?", "options": ["Yes, F+V−E = 2", "No, F+V−E = 1", "No, F+V−E = 3", "Cannot be determined"], "correct_answer": "Yes, F+V−E = 2", "explanation": "F + V − E = 12 + 20 − 30 = 32 − 30 = 2 ✓. Yes, it satisfies Euler's formula. (This describes a regular dodecahedron — a solid with 12 pentagonal faces, 20 vertices, and 30 edges.)" }
+  ],
+
+  "common_misconceptions": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "question": {
-        "en": "Determine the primary value when resolving a standard Visualising Solid Shapes expression with coefficients 8 and 4. (Q1)",
-        "hi": "Determine the primary value when resolving a standard Visualising Solid Shapes expression with coefficients 8 and 4. (Q1)",
-        "kn": "Determine the primary value when resolving a standard Visualising Solid Shapes expression with coefficients 8 and 4. (Q1)"
-      },
-      "options": {
-        "en": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "hi": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "kn": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "hi": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "kn": "Adding the coefficients 8 and 4 gives the sum of 12."
-      },
-      "diagram_ref": null
+      "misconception": "A cylinder, cone, or sphere satisfies Euler's formula (F+V−E=2).",
+      "why_confused": "Students learn the formula and apply it to ALL 3D shapes without checking whether the shape is a polyhedron.",
+      "correct_explanation": "Euler's formula F+V−E=2 applies ONLY to polyhedra — solids with flat polygonal faces. A cylinder, cone, and sphere have curved surfaces and are NOT polyhedra. A cylinder has 0 vertices, 0 edges (in the polyhedron sense), and technically 3 faces (2 circles + 1 curved surface) but these don't fit the formula's definition. Always ask: 'Are ALL faces flat polygons?' If yes → polyhedron → Euler's formula applies. If any face is curved → NOT a polyhedron → formula does NOT apply.",
+      "mini_practice_question": "Does Euler's formula apply to a cone? Justify your answer.",
+      "answer": "No. A cone is NOT a polyhedron — it has a curved lateral surface, not a flat polygonal face. Euler's formula F+V−E=2 only applies to polyhedra (all flat faces). A cone has 1 circular base, 1 curved surface, 1 apex vertex, and 1 circular edge — these don't fit the polyhedron formula."
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "question": {
-        "en": "Which mathematical property is most useful when working with Visualising Solid Shapes? (Q2)",
-        "hi": "Which mathematical property is most useful when working with Visualising Solid Shapes? (Q2)",
-        "kn": "Which mathematical property is most useful when working with Visualising Solid Shapes? (Q2)"
-      },
-      "options": {
-        "en": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "hi": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "kn": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "The distributive property helps simplify operations on expressions.",
-        "hi": "The distributive property helps simplify operations on expressions.",
-        "kn": "The distributive property helps simplify operations on expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q03",
-      "difficulty": "easy",
-      "question": {
-        "en": "Determine the primary value when resolving a standard Visualising Solid Shapes expression with coefficients 8 and 4. (Q3)",
-        "hi": "Determine the primary value when resolving a standard Visualising Solid Shapes expression with coefficients 8 and 4. (Q3)",
-        "kn": "Determine the primary value when resolving a standard Visualising Solid Shapes expression with coefficients 8 and 4. (Q3)"
-      },
-      "options": {
-        "en": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "hi": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "kn": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "hi": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "kn": "Adding the coefficients 8 and 4 gives the sum of 12."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q04",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which mathematical property is most useful when working with Visualising Solid Shapes? (Q4)",
-        "hi": "Which mathematical property is most useful when working with Visualising Solid Shapes? (Q4)",
-        "kn": "Which mathematical property is most useful when working with Visualising Solid Shapes? (Q4)"
-      },
-      "options": {
-        "en": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "hi": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "kn": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "The distributive property helps simplify operations on expressions.",
-        "hi": "The distributive property helps simplify operations on expressions.",
-        "kn": "The distributive property helps simplify operations on expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q05",
-      "difficulty": "medium",
-      "question": {
-        "en": "Determine the primary value when resolving a standard Visualising Solid Shapes expression with coefficients 8 and 4. (Q5)",
-        "hi": "Determine the primary value when resolving a standard Visualising Solid Shapes expression with coefficients 8 and 4. (Q5)",
-        "kn": "Determine the primary value when resolving a standard Visualising Solid Shapes expression with coefficients 8 and 4. (Q5)"
-      },
-      "options": {
-        "en": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "hi": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "kn": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "hi": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "kn": "Adding the coefficients 8 and 4 gives the sum of 12."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q06",
-      "difficulty": "medium",
-      "question": {
-        "en": "Which mathematical property is most useful when working with Visualising Solid Shapes? (Q6)",
-        "hi": "Which mathematical property is most useful when working with Visualising Solid Shapes? (Q6)",
-        "kn": "Which mathematical property is most useful when working with Visualising Solid Shapes? (Q6)"
-      },
-      "options": {
-        "en": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "hi": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "kn": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "The distributive property helps simplify operations on expressions.",
-        "hi": "The distributive property helps simplify operations on expressions.",
-        "kn": "The distributive property helps simplify operations on expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q07",
-      "difficulty": "medium",
-      "question": {
-        "en": "Determine the primary value when resolving a standard Visualising Solid Shapes expression with coefficients 8 and 4. (Q7)",
-        "hi": "Determine the primary value when resolving a standard Visualising Solid Shapes expression with coefficients 8 and 4. (Q7)",
-        "kn": "Determine the primary value when resolving a standard Visualising Solid Shapes expression with coefficients 8 and 4. (Q7)"
-      },
-      "options": {
-        "en": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "hi": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "kn": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "hi": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "kn": "Adding the coefficients 8 and 4 gives the sum of 12."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q08",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which mathematical property is most useful when working with Visualising Solid Shapes? (Q8)",
-        "hi": "Which mathematical property is most useful when working with Visualising Solid Shapes? (Q8)",
-        "kn": "Which mathematical property is most useful when working with Visualising Solid Shapes? (Q8)"
-      },
-      "options": {
-        "en": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "hi": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "kn": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "The distributive property helps simplify operations on expressions.",
-        "hi": "The distributive property helps simplify operations on expressions.",
-        "kn": "The distributive property helps simplify operations on expressions."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q09",
-      "difficulty": "hard",
-      "question": {
-        "en": "Determine the primary value when resolving a standard Visualising Solid Shapes expression with coefficients 8 and 4. (Q9)",
-        "hi": "Determine the primary value when resolving a standard Visualising Solid Shapes expression with coefficients 8 and 4. (Q9)",
-        "kn": "Determine the primary value when resolving a standard Visualising Solid Shapes expression with coefficients 8 and 4. (Q9)"
-      },
-      "options": {
-        "en": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "hi": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ],
-        "kn": [
-          "12",
-          "32",
-          "4",
-          "2"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "hi": "Adding the coefficients 8 and 4 gives the sum of 12.",
-        "kn": "Adding the coefficients 8 and 4 gives the sum of 12."
-      },
-      "diagram_ref": null
-    },
-    {
-      "id": "q010",
-      "difficulty": "hard",
-      "question": {
-        "en": "Which mathematical property is most useful when working with Visualising Solid Shapes? (Q10)",
-        "hi": "Which mathematical property is most useful when working with Visualising Solid Shapes? (Q10)",
-        "kn": "Which mathematical property is most useful when working with Visualising Solid Shapes? (Q10)"
-      },
-      "options": {
-        "en": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "hi": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ],
-        "kn": [
-          "Distributive property",
-          "Quadratic formula",
-          "Pythagorean theorem",
-          "Trigonometric ratio"
-        ]
-      },
-      "correct_index": 0,
-      "explanation": {
-        "en": "The distributive property helps simplify operations on expressions.",
-        "hi": "The distributive property helps simplify operations on expressions.",
-        "kn": "The distributive property helps simplify operations on expressions."
-      },
-      "diagram_ref": null
+      "misconception": "The front view and top view of a cylinder are both rectangles.",
+      "why_confused": "Students see the rectangular sides of a cylinder and assume all views are rectangles, forgetting to think about what the circular top looks like from above.",
+      "correct_explanation": "A cylinder's views: Front view = RECTANGLE (you see the curved side appearing flat = rectangle). Side view = RECTANGLE (same as front). Top view = CIRCLE (looking down from above, you see the circular top face — definitely a circle, not a rectangle). The key is to actually imagine where you are standing: for top view, you are directly ABOVE the cylinder looking DOWN — you see the circular top. Practice by mentally placing yourself in different positions around the solid.",
+      "mini_practice_question": "What are the front view and top view of a cone placed with its base on the ground?",
+      "answer": "Front view = TRIANGLE (isosceles triangle — the slant sides and the base). Top view = CIRCLE (looking from above, you see the circular base, with a dot in the centre representing the apex projected downward)."
     }
   ]
 }

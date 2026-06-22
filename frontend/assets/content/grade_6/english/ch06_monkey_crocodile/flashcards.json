@@ -1,96 +1,172 @@
 {
-  "version": "1.0",
-  "topic_id": "english_grade6_ch06_monkey_crocodile_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "English",
+  "textbook": "A Pact with the Sun",
+  "chapter_number": 6,
+  "chapter_title": "The Monkey and the Crocodile",
+  "total_cards": 20,
   "cards": [
     {
       "id": "fc01",
-      "front": {
-        "en": "What is the core idea of The Monkey and the Crocodile? (FC1)",
-        "hi": "What is the core idea of The Monkey and the Crocodile? (FC1)",
-        "kn": "What is the core idea of The Monkey and the Crocodile? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Where does the monkey live at the beginning of the story?",
+      "back": "The monkey lives on a rose-apple tree on the bank of a river. He enjoys the sweet, juicy rose-apples that grow on the tree every day.",
+      "memory_hook": "Think R-R-R: Rose-apple, River, and the monkey's Residence are all the same place."
     },
     {
       "id": "fc02",
-      "front": {
-        "en": "Why is The Monkey and the Crocodile important? (FC2)",
-        "hi": "Why is The Monkey and the Crocodile important? (FC2)",
-        "kn": "Why is The Monkey and the Crocodile important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Why does the crocodile's wife want the monkey's heart?",
+      "back": "She reasons that since the monkey eats sweet rose-apples all day, his heart must be even sweeter than the fruits. She wants to eat it as a delicacy.",
+      "memory_hook": "Greed logic: Sweet fruit → sweeter heart. She followed the fruit trail straight to trouble."
     },
     {
       "id": "fc03",
-      "front": {
-        "en": "What is the core idea of The Monkey and the Crocodile? (FC3)",
-        "hi": "What is the core idea of The Monkey and the Crocodile? (FC3)",
-        "kn": "What is the core idea of The Monkey and the Crocodile? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What does 'presence of mind' mean?",
+      "back": "Presence of mind means the ability to think clearly and act wisely in a sudden or dangerous situation without panicking. The monkey shows this perfectly when he calmly invents an excuse mid-river.",
+      "memory_hook": "STOP-THINK-ACT: presence of mind is what lets you do all three when danger strikes."
     },
     {
       "id": "fc04",
-      "front": {
-        "en": "Why is The Monkey and the Crocodile important? (FC4)",
-        "hi": "Why is The Monkey and the Crocodile important? (FC4)",
-        "kn": "Why is The Monkey and the Crocodile important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "How does the crocodile lure the monkey onto his back?",
+      "back": "The crocodile falsely invites the monkey to his home across the river, promising a warm welcome and hospitality. Since the monkey cannot swim, he climbs onto the crocodile's back to cross.",
+      "memory_hook": "The crocodile used the oldest trick — a false invitation to dinner. The monkey accepted."
     },
     {
       "id": "fc05",
-      "front": {
-        "en": "What is the core idea of The Monkey and the Crocodile? (FC5)",
-        "hi": "What is the core idea of The Monkey and the Crocodile? (FC5)",
-        "kn": "What is the core idea of The Monkey and the Crocodile? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What clever trick does the monkey use to escape?",
+      "back": "Midway across the river, the monkey calmly tells the crocodile that he has left his heart back on the rose-apple tree. The gullible crocodile turns back to the bank, and the monkey leaps to safety.",
+      "memory_hook": "Hearts don't hang on trees — but the crocodile believed it. Greed made him foolish."
+    },
+    {
+      "id": "fc06",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What does 'gullible' mean? Who is gullible in this story?",
+      "back": "Gullible means easily tricked or deceived because of being too trusting or not thinking critically. The crocodile is gullible — he believes the monkey's impossible story about leaving his heart on the tree without questioning it.",
+      "memory_hook": "Gullible = Gulps down any story without chewing. The crocodile gulped the monkey's lie whole."
+    },
+    {
+      "id": "fc07",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is the Panchatantra, and how is this story connected to it?",
+      "back": "The Panchatantra is an ancient Indian collection of animal fables compiled by Vishnu Sharma, designed to teach wisdom and practical knowledge. 'The Monkey and the Crocodile' is based on a tale from the Panchatantra. In Karnataka, it was translated into Kannada by Durgasimha during the 12th-century Hoysala period.",
+      "memory_hook": "Pancha = five, tantra = strategy. Five books of animal stories — India's oldest wisdom school."
+    },
+    {
+      "id": "fc08",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a 'fable'? Is this chapter a fable?",
+      "back": "A fable is a short story with animal characters that teaches a moral lesson. Yes, this chapter is a fable — the monkey and crocodile are animal characters, and the story ends with a clear moral about intelligence, friendship, and betrayal.",
+      "memory_hook": "Fable = Furry characters + A Big Lesson. Animals teach what humans sometimes forget."
+    },
+    {
+      "id": "fc09",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why does the crocodile betray his friend the monkey?",
+      "back": "The crocodile betrays the monkey because his wife demands the monkey's heart and he is too weak-willed to refuse her. He chooses his wife's greedy wish over loyalty to his friend, showing that he is disloyal and spineless.",
+      "memory_hook": "B-R-E-A-K: Betrayal Really Ends A Kindship. The crocodile chose greed over friendship and broke both."
+    },
+    {
+      "id": "fc10",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What does 'betrayal' mean? Give an example from the story.",
+      "back": "Betrayal means being disloyal to someone who trusted you, often for personal gain. In the story, the crocodile betrays the monkey — his friend who shared rose-apples generously — by pretending to invite him home while actually planning to kill him.",
+      "memory_hook": "Betrayal = Back-stab. The crocodile smiled to the monkey's face and planned a knife for his back."
+    },
+    {
+      "id": "fc11",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "How does the monkey demonstrate 'wit over strength' in this story?",
+      "back": "The monkey cannot swim, fight, or run — he is physically helpless on the crocodile's back. Yet he escapes entirely through wit: he identifies the crocodile's weakness (greed and gullibility) and uses a clever lie to turn them against him. Brain beats brawn.",
+      "memory_hook": "Brain beats brawn. The monkey had no muscles to fight — only a mind to outwit."
+    },
+    {
+      "id": "fc12",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is the role of the crocodile's wife in the story?",
+      "back": "The crocodile's wife is greedy and manipulative. She desires the monkey's heart and refuses to eat until her husband agrees to bring it. She represents how greed and selfishness can corrupt relationships and lead good people into betrayal.",
+      "memory_hook": "She is the G in the story — the Greed Engine that drives everything bad that follows."
+    },
+    {
+      "id": "fc13",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why does the crocodile lose both his wife's wish and his friendship with the monkey?",
+      "back": "The crocodile loses both because he chose betrayal. He failed to get the monkey's heart (the monkey escaped) and the monkey ended the friendship forever. Betrayal brings no real gain — the crocodile ended up with nothing.",
+      "memory_hook": "Two Ls: The crocodile Loses the monkey AND Loses his wife's wish. Betrayal = Double Loss."
+    },
+    {
+      "id": "fc14",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why is it important that the monkey stays calm when he discovers the crocodile's plan?",
+      "back": "If the monkey had panicked — screamed, struggled, or jumped into the river — he would have drowned or been caught. Staying calm allowed him to think clearly, identify the crocodile's weakness, and invent his escape plan in seconds. Panic would have killed him.",
+      "memory_hook": "Calm = Clarity. Panic = Paralysis. The monkey chose calm and earned his life."
+    },
+    {
+      "id": "fc15",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "How can you apply the monkey's lesson of 'presence of mind' during a difficult exam?",
+      "back": "If you forget an answer during an exam, instead of panicking, take a breath and think calmly — recall clues from the question, related topics you studied, or examples from class. Staying calm helps the brain retrieve information. Panic blocks memory. The monkey's composure is the model.",
+      "memory_hook": "Exam panic = crocodile in the middle of the river. Calm = your rose-apple tree escape route."
+    },
+    {
+      "id": "fc16",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What are the two key qualities the monkey demonstrates in this story?",
+      "back": "The monkey demonstrates (1) Presence of mind — staying calm and thinking quickly in a life-threatening situation, and (2) Wit — using intelligence and clever reasoning to outwit a physically stronger enemy. Both together save his life.",
+      "memory_hook": "P + W = Safety: Presence of mind + Wit = the monkey's winning formula."
+    },
+    {
+      "id": "fc17",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why does the monkey's claim about leaving his heart on the tree work on the crocodile?",
+      "back": "The crocodile is greedy (he really wants the heart) and gullible (he does not stop to think logically). His desire for the reward blinds him to the impossibility of the claim. The monkey correctly reads the crocodile's weakness and exploits it.",
+      "memory_hook": "Greed + Gullibility = the two locks the monkey's key opened."
+    },
+    {
+      "id": "fc18",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "A classmate is pressuring you to cheat in an exam, threatening to stop being your friend. How does the monkey's story help you respond?",
+      "back": "Like the monkey, stay calm and think clearly. You can say: 'If we both cheat, we both get in trouble. That is not real friendship.' The monkey taught us that intelligence and calm resolve a crisis better than giving in to pressure or threats.",
+      "memory_hook": "The monkey never gave in to the crocodile's power. You don't give in to peer pressure either."
+    },
+    {
+      "id": "fc19",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Who translated the Panchatantra into Kannada and during which period?",
+      "back": "Durgasimha translated the Panchatantra into Kannada during the 12th century, during the Hoysala period in Karnataka. The Hoysalas were a powerful dynasty who ruled Karnataka and patronised Kannada literature.",
+      "memory_hook": "D for Durgasimha, D for Dynasty (Hoysala). Double D brought Panchatantra to Kannada."
+    },
+    {
+      "id": "fc20",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "What is the moral of 'The Monkey and the Crocodile'? State it in your own words.",
+      "back": "The moral has two parts: (1) Intelligence and presence of mind can overcome even the most dangerous situations — brain beats brawn. (2) True friendship should never be betrayed for greed or selfish reasons. Betrayal brings no real gain.",
+      "memory_hook": "Two morals, one story: BRAIN beats BRAWN, and BETRAYAL beats the BETRAYER."
     }
   ]
 }

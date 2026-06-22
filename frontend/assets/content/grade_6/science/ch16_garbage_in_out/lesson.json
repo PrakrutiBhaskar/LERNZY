@@ -1,114 +1,169 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "science",
-  "chapter_id": "ch16_garbage_in_out",
-  "chapter_title": {
-    "en": "Garbage In, Garbage Out",
-    "hi": "कचरा - संग्रहण एवं निपटान",
-    "kn": "ತ್ಯಾಜ್ಯ ನಿರ್ವಹಣೆ"
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 16,
+  "chapter_title": "Garbage In, Garbage Out",
+  "estimated_study_time_minutes": 50,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Define garbage and distinguish between biodegradable and non-biodegradable waste",
+    "Explain the concept of landfill and its problems",
+    "Understand composting and how it converts biodegradable waste into manure",
+    "Understand the meaning and importance of the 3Rs: Reduce, Reuse, Recycle",
+    "Explain vermicomposting (earthworm composting) and its benefits",
+    "Describe how recycling paper saves trees and resources",
+    "Understand the hazards of burning garbage",
+    "Connect waste management practices to Karnataka's urban and rural context"
+  ],
+
+  "prerequisite_knowledge": [
+    "Awareness that we produce waste every day",
+    "Basic understanding that some materials decay naturally (fruit peels) while others do not (plastic)",
+    "Familiarity with garbage collection in the local area",
+    "Understanding of basic food chains and decomposers from earlier chapters"
+  ],
+
+  "introduction": {
+    "why_important": "Waste management is one of the most urgent environmental challenges of the 21st century. India generates over 62 million tonnes of municipal solid waste per year, of which less than 20% is processed. Understanding the science of garbage — what it is made of, how it decomposes, how to reduce it — empowers students to make a real difference in their communities.",
+    "real_life_relevance": "Every plastic bag you use, every food scrap you throw, every paper you waste — all become garbage that must go somewhere. Understanding where 'away' is when you throw something 'away' is the foundation of responsible citizenship.",
+    "karnataka_context": "Bengaluru generates approximately 5,000–6,000 tonnes of solid waste per day — one of the highest in India. The city faced a severe garbage crisis in 2012 when landfills overflowed and residents blocked garbage trucks. This led to the Bruhat Bengaluru Mahanagara Palike (BBMP) implementing mandatory source segregation — separating wet (green bin) and dry (white/blue bin) waste at home before collection. Mandur landfill, 30 km from Bengaluru, has been a site of major controversy. Karnataka's Solid Waste Management Rules 2016 require composting of wet waste. Bengaluru's IISc campus and many RWAs (Resident Welfare Associations) have set up model composting units. Rural Karnataka traditionally practised composting through farm pits. Kudremukh National Park and other protected areas have strict no-plastic policies. Karnataka is moving towards 'zero waste' models in some towns like Mysuru, which has won awards for cleanliness.",
+    "connection_to_previous_learning": "Students have studied food sources (Chapter 1), living organisms, materials, and air/water. This chapter connects those to the end-of-life of materials — what happens after we use food, paper, plastic, and other materials — bringing together science and environmental responsibility."
   },
-  "topics": [
+
+  "story_summary": {
+    "characters": [
+      { "name": "Garbage / Waste", "role": "The central subject — discarded material that needs to be managed responsibly" },
+      { "name": "Biodegradable waste", "role": "Organic waste (food scraps, paper, leaves) that microorganisms can break down naturally" },
+      { "name": "Non-biodegradable waste", "role": "Waste (plastic, glass, metals) that does not break down naturally and accumulates in the environment" },
+      { "name": "Earthworm", "role": "The vermicomposting hero — breaks down organic waste into rich compost (vermicompost)" },
+      { "name": "3Rs", "role": "The three principles of waste reduction: Reduce, Reuse, Recycle" }
+    ],
+    "plot": [
+      "The chapter opens by tracing the journey of garbage from our homes to collection points, and eventually to landfills or processing centres.",
+      "It classifies waste into biodegradable (breaks down naturally: food waste, paper, leaves) and non-biodegradable (does not break down: plastic, glass, metals).",
+      "The landfill problem: modern landfills fill up rapidly; they produce leachate (toxic liquid) and methane; they cannot be used for agriculture or buildings for decades after closing.",
+      "Composting: biodegradable kitchen and garden waste can be turned into compost (manure) by microorganisms. Compost enriches soil and reduces waste going to landfills.",
+      "Vermicomposting: earthworms can be used to speed up composting. Vermicompost is richer in nutrients than regular compost.",
+      "The 3Rs: Reduce (use less), Reuse (use again instead of discarding), Recycle (convert waste into new material).",
+      "Paper recycling: 1 tonne of recycled paper saves 17 trees, 26,000 litres of water, and large amounts of energy.",
+      "Hazards of burning garbage: releases harmful gases (dioxins, CO, CO₂, particulate matter); causes air pollution and health problems.",
+      "The chapter ends with a call to action — each student can make a difference through daily choices."
+    ],
+    "moral": "There is no 'away' when you throw something away. Responsible waste management begins with each individual — reduce what you can, reuse what you must discard, recycle what is left."
+  },
+
+  "core_concepts": [
     {
-      "topic_id": "science_grade6_ch16_garbage_in_out_basics",
-      "title": {
-        "en": "Garbage In, Garbage Out - Fundamentals",
-        "hi": "कचरा - संग्रहण एवं निपटान - बुनियादी बातें",
-        "kn": "ತ್ಯಾಜ್ಯ ನಿರ್ವಹಣೆ - ಮೂಲತಮxt್ವಗಳು"
-      },
-      "learning_objectives": [
-        "Understand key concepts of Garbage In, Garbage Out",
-        "Solve exercises and apply rules related to Garbage In, Garbage Out",
-        "Analyze practical examples of Garbage In, Garbage Out in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Garbage In, Garbage Out. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम कचरा - संग्रहण एवं निपटान का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ತ್ಯಾಜ್ಯ ನಿರ್ವಹಣೆ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
-      },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Garbage In, Garbage Out in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम कचरा - संग्रहण एवं निपटान का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ತ್ಯಾಜ್ಯ ನಿರ್ವಹಣೆ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
-      },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Garbage In, Garbage Out.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Garbage In, Garbage Out.",
-            "hi": "चरण 1: कचरा - संग्रहण एवं निपटान के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ತ್ಯಾಜ್ಯ ನಿರ್ವಹಣೆ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Garbage In, Garbage Out builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "कचरा - संग्रहण एवं निपटान में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ತ್ಯಾಜ್ಯ ನಿರ್ವಹಣೆ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
-      }
+      "concept_name": "Biodegradable and Non-biodegradable Waste",
+      "simple_explanation": "Waste that can be broken down by microorganisms in nature is biodegradable. Waste that cannot be broken down (or takes centuries to do so) is non-biodegradable.",
+      "detailed_explanation": "Biodegradable waste: Materials that can be decomposed by bacteria, fungi, and other decomposers into simpler, natural substances. Examples: food scraps (vegetable peels, fruit skins, leftover food), paper, cardboard, leaves, garden waste, wood, cotton cloth. These materials were once living organisms and contain organic carbon that microorganisms can consume. They decompose in days to months. Non-biodegradable waste: Materials that resist decomposition by microorganisms. Examples: most plastics (takes 100–1000 years), glass (millions of years), metals (decades to centuries), synthetic rubber, polystyrene (thermocol). These accumulate in the environment indefinitely. Some materials are partially biodegradable (e.g. certain bioplastics). Hazardous waste (batteries, paint, chemicals, medicines) is a special category — non-biodegradable AND toxic.",
+      "real_life_example": "Leave a banana peel in the garden — within 2–5 weeks it will decompose into dark, moist soil. Leave a plastic bag in the same garden — it will still be there after 100 years, unchanged. This contrast is the most vivid demonstration of biodegradable vs. non-biodegradable.",
+      "karnataka_example": "Bengaluru's BBMP mandates segregation of waste into a green bin (wet/biodegradable: vegetable peels, food waste) and a white/blue bin (dry/non-biodegradable: paper, plastic, glass). Biodegradable waste is sent to composting or biogas plants; non-biodegradable to recyclers or landfills. In rural Karnataka, farmers traditionally dumped organic waste (leaves, crop residue, kitchen scraps) in farm pits — this was biodegradable composting. Modern plastic waste in these same areas now creates a new problem — it does not compost.",
+      "common_mistakes": "Students sometimes think paper is non-biodegradable because it feels like plastic. Paper is made from wood (organic) and IS biodegradable — it decomposes in weeks to months. However, coated or laminated paper may take longer. Also, students think all garbage is the same — the biodegradable/non-biodegradable distinction is fundamental to waste management.",
+      "memory_tip": "Bio = life. Biodegradable = broken down BY life (bacteria, fungi). Non-biodegradable = cannot be broken down BY life. If it was once alive (plant/animal material) → usually biodegradable. If it was made in a factory from petroleum → usually non-biodegradable."
+    },
+    {
+      "concept_name": "Landfills and Their Problems",
+      "simple_explanation": "A landfill is a site where garbage is dumped and buried. Landfills fill up quickly and cause soil, water, and air pollution. They are not a long-term solution.",
+      "detailed_explanation": "A landfill (also called a dump or garbage dump) is a large area where municipal solid waste is deposited and compacted. Problems with landfills: (1) Capacity — they fill up rapidly; Bengaluru's Mandur landfill was designed for a few years but was overloaded within months due to the volume of waste. (2) Leachate — rainwater passing through garbage dissolves toxic substances, creating 'leachate' — a toxic liquid that contaminates nearby groundwater and soil. (3) Methane gas — biodegradable waste decomposing anaerobically (without oxygen) in a landfill produces methane, a greenhouse gas 25x more potent than CO₂ for global warming. (4) Land wastage — the land used for landfills cannot be used for agriculture or buildings for decades. (5) Air pollution — landfills emit foul odours and may spontaneously catch fire. (6) Disease — landfills attract rodents and flies that spread disease. Modern sanitary landfills have liners and leachate collection systems, but are still not ideal.",
+      "real_life_example": "Bengaluru's Mandur landfill (30 km from the city) became so overloaded that in 2012, villagers near the landfill blockaded garbage trucks, causing garbage to pile up across the city — a public health crisis. This event forced Bengaluru to take waste management seriously and implement source segregation.",
+      "karnataka_example": "BBMP manages waste disposal for Bengaluru through landfills at Mandur, Mavallipura, and Bellahalli. All three have faced severe community opposition and court cases due to groundwater contamination and health impacts on nearby villages. Karnataka's Solid Waste Management Rules 2016 mandate reducing the volume of waste going to landfills by promoting composting and recycling. Mysuru city has been a model — with much higher recycling and composting rates, it sends far less waste to landfill.",
+      "common_mistakes": "Students think garbage is 'gone' once it goes to a landfill. It is not — it remains in the environment for decades to centuries. Also, students think modern landfills are completely safe — even well-designed landfills leak eventually. The best solution is not a better landfill but less waste going to any landfill.",
+      "memory_tip": "Landfill = land FILLED with waste. Once full, it's a problem forever. The 5 evils of landfills: Capacity problem, Leachate, Methane, Land wastage, Disease. CLLMD = Can Landfills Last Much? No — Damage is permanent."
+    },
+    {
+      "concept_name": "Composting and Vermicomposting",
+      "simple_explanation": "Composting turns biodegradable kitchen and garden waste into useful manure (compost) through the action of microorganisms. Vermicomposting uses earthworms to speed up the process and produce even richer compost.",
+      "detailed_explanation": "Composting: A process in which biodegradable organic waste (vegetable peels, fruit skins, leaves, food scraps, paper) is collected in a pit or bin and allowed to decompose naturally by bacteria, fungi, and other microorganisms. After 4–8 weeks, the waste transforms into dark, rich compost (manure) that can be added to soil to improve its fertility and structure. It is free, natural, and reduces waste going to landfills. Vermicomposting: The use of earthworms (typically the Red Wiggler species, Eisenia fetida) to accelerate composting. Earthworms eat organic waste and their excretions (called worm castings or vermicompost) are extremely rich in nutrients (nitrogen, phosphorus, potassium). Vermicompost is considered superior to regular compost. A vermicompost bin can be set up at home, in a school, or on a farm. Key conditions for good composting: moisture, aeration, correct ratio of 'green' (nitrogen-rich: food scraps) to 'brown' (carbon-rich: dry leaves, paper), and no oily, salty, or meat waste.",
+      "real_life_example": "Many apartment complexes in Bengaluru now have composting units in their compounds — residents deposit vegetable and fruit peels, and within 4–6 weeks receive compost to use in potted plants and gardens. This keeps biodegradable waste entirely within the building complex, reducing the volume sent to BBMP collection.",
+      "karnataka_example": "IISc Bengaluru operates a large composting unit on campus. Many Bengaluru RWAs (Resident Welfare Associations) have won BBMP awards for on-site composting. In rural Karnataka, farmers traditionally composted crop residue and cow dung in farm pits — these are now being revived and improved. The government's Swachh Bharat Mission provides funding to municipalities for setting up composting plants. Vermicomposting units have been established in several government schools in Karnataka under science education programs.",
+      "common_mistakes": "Students think composting is only for farmers. Any household with kitchen waste can compost — even in a small pot or bucket. Also, students think composting smells bad — properly done composting is almost odourless. Bad smells indicate too much 'green' waste or poor aeration. Meat and oily food should NOT be composted as they attract pests.",
+      "memory_tip": "Compost = nature's recycling. What was once a banana peel becomes food for the next banana plant. Circle of life in a pit. Vermi-compost = earthworm compost = WORM POOP (castings) = best natural fertiliser. The humble earthworm is the gardener's best friend."
+    },
+    {
+      "concept_name": "The 3Rs: Reduce, Reuse, Recycle",
+      "simple_explanation": "The best approach to waste is to: Reduce (use less in the first place), Reuse (use items again instead of discarding), and Recycle (convert waste material into new products).",
+      "detailed_explanation": "The 3Rs are a hierarchy — listed in order of importance: Reduce (most important): The best waste is waste never generated. Use less packaging, buy durable goods, avoid single-use items, print on both sides of paper, bring your own bag. Every item not bought or used means no waste to manage. Reuse (second): Use items multiple times before discarding. Reuse glass bottles, plastic containers, cloth bags, old clothes (as cleaning rags), and paper (rough work). Repairing items instead of replacing them is also reuse. Recycle (third): When items cannot be reduced or reused, recycle them — convert waste into raw material for new products. Paper → recycled paper. Glass → new glass. Plastic → new plastic products. Metals → new metal. Recycling reduces the need for virgin raw materials, saves energy, and reduces landfill volume. A fourth R sometimes added: Recover (energy from waste) and Rot (composting for organic waste). Paper recycling fact: 1 tonne of recycled paper saves 17 trees, 26,000 litres of water, 4,000 kWh of electricity, and reduces landfill load.",
+      "real_life_example": "Reduce: Carry a cloth bag instead of getting a new plastic bag every time. Reuse: Use the back side of printed paper for rough work. Use old jam jars to store spices. Recycle: Separate paper, plastic, glass, and metal from regular waste and give them to recyclers (kabadiwala). Each of these is a real, daily action a student can take.",
+      "karnataka_example": "Karnataka was one of the first states to ban single-use plastics (under 40 micron thickness) in 2016 — a direct application of the 'Reduce' principle. Bengaluru has a network of kabadiwala (informal recyclers) who collect newspapers, glass, cardboard, and metal for recycling — they are the backbone of Bengaluru's informal recycling economy. Mysuru's 'zero waste' movement has successfully promoted reuse (cloth bags, steel tiffin carriers) in markets. KSPCB runs awareness campaigns on 3R practices in schools and colleges.",
+      "common_mistakes": "Students think recycling is the most important R. It is actually the THIRD choice. Reducing waste (not generating it in the first place) is the most important. Recycling still consumes energy and water — it is better than landfilling but worse than reducing or reusing. The order matters: Reduce first, Reuse second, Recycle third.",
+      "memory_tip": "3Rs ladder: Reduce (top rung — best), Reuse (middle rung), Recycle (bottom rung — last resort). Going down the ladder = more impact on environment. The higher you stay, the better. 'Reduce Reuse Recycle' = 'R-R-R' — like a tiger's roar — fierce action for the environment."
     }
+  ],
+
+  "key_vocabulary": [
+    { "term": "Garbage / Waste", "definition": "Discarded material — solid, liquid, or gas — that is no longer wanted or useful" },
+    { "term": "Biodegradable", "definition": "Waste that can be broken down by microorganisms into simpler natural substances — e.g. food scraps, paper, leaves" },
+    { "term": "Non-biodegradable", "definition": "Waste that cannot be decomposed by microorganisms — e.g. most plastics, glass, metals, synthetic rubber" },
+    { "term": "Landfill", "definition": "A site where garbage is deposited, compacted, and buried — the most common but least sustainable waste disposal method" },
+    { "term": "Leachate", "definition": "Toxic liquid formed when rainwater passes through a landfill, dissolving harmful chemicals; contaminates groundwater" },
+    { "term": "Composting", "definition": "The process of converting biodegradable organic waste into rich manure (compost) through microbial decomposition" },
+    { "term": "Vermicomposting", "definition": "Composting accelerated by earthworms, which eat organic waste and produce highly nutritious vermicompost (worm castings)" },
+    { "term": "Reduce", "definition": "The first R — generating less waste in the first place by using fewer resources and avoiding unnecessary consumption" },
+    { "term": "Reuse", "definition": "The second R — using an item more than once before discarding it, extending its useful life" },
+    { "term": "Recycle", "definition": "The third R — processing waste materials to create new products, saving raw materials and energy" },
+    { "term": "Source segregation", "definition": "Separating waste into different categories (wet/dry, biodegradable/non-biodegradable) at the point of generation — i.e. at home or school" }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Biodegradable and Non-biodegradable Waste",
+      "questions": [
+        { "type": "Recall", "q": "Name three biodegradable and three non-biodegradable waste items.", "a": "Biodegradable: vegetable peels, fruit skins, leaves (any organic waste). Non-biodegradable: plastic bags, glass bottles, metal cans (any synthetic/inorganic material)." },
+        { "type": "Understanding", "q": "Is paper biodegradable or non-biodegradable? Justify.", "a": "Paper is biodegradable — it is made from wood (plant fibre), which microorganisms can break down. It decomposes in weeks to months." },
+        { "type": "Application", "q": "You have the following waste items: orange peel, plastic wrapper, newspaper, aluminium foil, egg shell, glass bottle. Sort them into biodegradable and non-biodegradable.", "a": "Biodegradable: orange peel, newspaper, egg shell. Non-biodegradable: plastic wrapper, aluminium foil, glass bottle." }
+      ]
+    },
+    {
+      "after_concept": "The 3Rs",
+      "questions": [
+        { "type": "Recall", "q": "What do the 3Rs stand for? Which is the most important?", "a": "Reduce, Reuse, Recycle. Reduce is the most important — preventing waste from being generated is better than managing it after it is created." },
+        { "type": "Application", "q": "Give one example each of Reduce, Reuse, and Recycle in your daily school life.", "a": "Reduce: Print on both sides of paper. Reuse: Use old newspaper as wrapping paper. Recycle: Collect used notebooks and give them to a paper recycler." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Garbage is classified as biodegradable (breaks down naturally: food, paper, leaves) and non-biodegradable (does not: plastic, glass, metals).",
+    "Landfills fill up fast and cause leachate (water pollution), methane (greenhouse gas), and land wastage — they are not a sustainable solution.",
+    "Composting converts biodegradable kitchen/garden waste into manure (compost) through microbial action — takes 4–8 weeks.",
+    "Vermicomposting uses earthworms to produce vermicompost, which is richer in nutrients than regular compost.",
+    "The 3Rs: Reduce (use less) > Reuse (use again) > Recycle (convert to new material). Reduce is most important.",
+    "1 tonne of recycled paper saves 17 trees, 26,000 litres of water, and much energy.",
+    "Burning garbage releases toxic gases (dioxins, CO₂, particulates) and causes air pollution — avoid it.",
+    "Source segregation (separating wet from dry waste at home) is the first step to effective waste management.",
+    "Karnataka: Bengaluru generates 5000–6000 tonnes/day of waste; BBMP mandates green bin (wet) and white bin (dry) segregation.",
+    "Karnataka banned single-use plastics under 40 microns in 2016 — a direct application of the Reduce principle."
+  ],
+
+  "mind_map": {
+    "root": "Garbage In, Garbage Out",
+    "branches": [
+      { "branch": "Types of Waste", "sub": ["Biodegradable: food, paper, leaves", "Non-biodegradable: plastic, glass, metal", "Hazardous: batteries, chemicals"] },
+      { "branch": "Landfill Problems", "sub": ["Fills up fast", "Leachate (groundwater pollution)", "Methane (greenhouse gas)", "Disease and odour"] },
+      { "branch": "Composting", "sub": ["Biodegradable waste → microbes → compost (manure)", "4–8 weeks", "Enriches soil"] },
+      { "branch": "Vermicomposting", "sub": ["Earthworms eat waste → vermicompost", "Richer than regular compost", "Can be done at home"] },
+      { "branch": "3Rs", "sub": ["Reduce (most important): use less", "Reuse: use again", "Recycle: convert to new material"] },
+      { "branch": "Karnataka Links", "sub": ["Bengaluru 5000+ tonnes/day", "BBMP green/white bin segregation", "Mandur landfill controversy", "Karnataka plastic ban 2016", "Mysuru zero-waste model"] }
+    ]
+  },
+
+  "revision_notes": "Chapter 16 covers waste management. Waste types: biodegradable (food, paper, leaves — broken down by microorganisms) and non-biodegradable (plastic, glass, metal — do not decompose). Landfills: cause leachate (toxic liquid → groundwater contamination), methane (greenhouse gas), and land wastage. Composting: biodegradable waste + microorganisms → compost/manure (4–8 weeks). Vermicomposting: earthworms + organic waste → vermicompost (nutrient-rich). 3Rs (in order of importance): Reduce > Reuse > Recycle. Recycling 1 tonne of paper saves 17 trees and 26,000 litres of water. Burning garbage = air pollution (toxic gases). Source segregation = separating wet from dry waste at home. Karnataka: Bengaluru's waste crisis (Mandur landfill), BBMP green/white bin system, Karnataka plastic ban (2016), Mysuru as clean city model.",
+
+  "must_remember_facts": [
+    "Biodegradable = breaks down by microorganisms (food, paper, leaves). Non-biodegradable = does not (plastic, glass, metal).",
+    "Paper IS biodegradable (made from wood). Plastic is NOT biodegradable.",
+    "Landfills produce leachate (poisons groundwater) and methane (greenhouse gas).",
+    "Composting: biodegradable waste → compost (manure) via microorganisms. Takes 4–8 weeks.",
+    "Vermicomposting: earthworms eat organic waste → vermicompost (richer manure).",
+    "3Rs order: Reduce (most important) → Reuse → Recycle.",
+    "1 tonne of recycled paper = 17 trees saved + 26,000 litres of water saved.",
+    "Burning garbage releases dioxins, CO₂, and particulates — causes serious air pollution.",
+    "Source segregation = wet (green bin) + dry (white/blue bin) at home — mandatory in Bengaluru.",
+    "Karnataka banned single-use plastic under 40 microns in 2016."
   ]
 }

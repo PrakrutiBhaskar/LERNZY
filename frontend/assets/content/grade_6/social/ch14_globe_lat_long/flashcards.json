@@ -1,96 +1,172 @@
 {
-  "version": "1.0",
-  "topic_id": "social_grade6_ch14_globe_lat_long_basics",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 6,
+  "subject": "Social Science — Geography",
+  "textbook": "Our Environment — Textbook for Class VI",
+  "chapter_number": 14,
+  "chapter_title": "Globe: Latitudes and Longitudes",
+  "total_cards": 20,
   "cards": [
     {
       "id": "fc01",
-      "front": {
-        "en": "What is the core idea of Globe: Latitudes and Longitudes? (FC1)",
-        "hi": "What is the core idea of Globe: Latitudes and Longitudes? (FC1)",
-        "kn": "What is the core idea of Globe: Latitudes and Longitudes? (FC1)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a globe? Why is it better than a flat map for representing Earth?",
+      "back": "A globe is a three-dimensional, spherical model of Earth. It is better than a flat map because: (1) It preserves the true shape of continents and oceans. (2) It shows accurate relative sizes (flat maps distort size — e.g. Greenland looks as large as Africa on Mercator maps, though Africa is 14× larger). (3) It correctly shows distances between places. (4) It represents the curvature of Earth accurately. The drawback: a globe cannot be folded or printed on paper — flat maps are more practical for everyday use.",
+      "memory_hook": "Globe = God's-eye view of Earth. A globe lies to you less than a flat map. Flat maps are like trying to flatten an orange peel — something has to stretch or tear. The globe is the undistorted truth."
     },
     {
       "id": "fc02",
-      "front": {
-        "en": "Why is Globe: Latitudes and Longitudes important? (FC2)",
-        "hi": "Why is Globe: Latitudes and Longitudes important? (FC2)",
-        "kn": "Why is Globe: Latitudes and Longitudes important? (FC2)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is latitude? How is it measured?",
+      "back": "Latitude is the angular distance of a point on Earth's surface north or south of the Equator, measured in degrees (°). The Equator is 0°. Moving north, latitude increases to 90°N (North Pole). Moving south, it increases to 90°S (South Pole). Latitudes are also called parallels because all latitude lines run parallel to each other and never intersect. Each degree of latitude is approximately 111 km apart.",
+      "memory_hook": "lATitude = horiZontal (both have the fat middle letter going across). Measured N or S. Range: 0° (Equator) to 90° (Pole). 111 km per degree — easy to remember: 1°lat = ~111 km."
     },
     {
       "id": "fc03",
-      "front": {
-        "en": "What is the core idea of Globe: Latitudes and Longitudes? (FC3)",
-        "hi": "What is the core idea of Globe: Latitudes and Longitudes? (FC3)",
-        "kn": "What is the core idea of Globe: Latitudes and Longitudes? (FC3)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is longitude? How does it differ from latitude?",
+      "back": "Longitude is the angular distance of a point east or west of the Prime Meridian (0°), measured in degrees. Longitudes are called meridians and run from the North Pole to the South Pole. Key differences from latitude: (1) Latitude = horizontal lines; Longitude = vertical lines. (2) All parallels are different lengths (Equator is longest, poles are points); all meridians are equal length (~20,000 km). (3) Parallels never meet; meridians meet at both poles. (4) Latitude measured N/S; Longitude measured E/W.",
+      "memory_hook": "LONG-itude = LONG lines going from top to bottom (pole to pole). Lat = lAT (horizontal, flat). Two easy rules: if the line goes across = latitude. If the line goes up-down = longitude."
     },
     {
       "id": "fc04",
-      "front": {
-        "en": "Why is Globe: Latitudes and Longitudes important? (FC4)",
-        "hi": "Why is Globe: Latitudes and Longitudes important? (FC4)",
-        "kn": "Why is Globe: Latitudes and Longitudes important? (FC4)"
-      },
-      "back": {
-        "en": "It connects theoretical knowledge to practical everyday applications.",
-        "hi": "It connects theoretical knowledge to practical everyday applications.",
-        "kn": "It connects theoretical knowledge to practical everyday applications."
-      },
-      "memory_hook": {
-        "en": "Theory meets practice.",
-        "hi": "Theory meets practice.",
-        "kn": "Theory meets practice."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "What is the Equator? What is its latitude value and significance?",
+      "back": "The Equator is the imaginary circle at 0° latitude that runs around the middle of Earth, equidistant from both the North Pole and South Pole. Significance: (1) It is the longest parallel (~40,075 km). (2) It divides Earth into Northern Hemisphere and Southern Hemisphere. (3) The Sun is directly overhead here on the equinoxes (March 21 and September 23). (4) It receives the most solar energy year-round, making equatorial regions the hottest on Earth. (5) Day and night are approximately equal (12 hours each) year-round at the Equator.",
+      "memory_hook": "Equator = EQUAl-ator: equal distance from both poles, equal day and night, equal solar heating. The fat belly of the Earth. 0° is the starting line — everything north or south is measured from here."
     },
     {
       "id": "fc05",
-      "front": {
-        "en": "What is the core idea of Globe: Latitudes and Longitudes? (FC5)",
-        "hi": "What is the core idea of Globe: Latitudes and Longitudes? (FC5)",
-        "kn": "What is the core idea of Globe: Latitudes and Longitudes? (FC5)"
-      },
-      "back": {
-        "en": "The essential principles and definitions taught in this syllabus.",
-        "hi": "The essential principles and definitions taught in this syllabus.",
-        "kn": "The essential principles and definitions taught in this syllabus."
-      },
-      "memory_hook": {
-        "en": "Focus on fundamentals.",
-        "hi": "Focus on fundamentals.",
-        "kn": "Focus on fundamentals."
-      }
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "Name and give the degree of the five key parallels of latitude.",
+      "back": "1. Equator — 0° (divides N and S hemispheres). 2. Tropic of Cancer — 23.5°N (Sun directly overhead June 21). 3. Tropic of Capricorn — 23.5°S (Sun directly overhead December 22). 4. Arctic Circle — 66.5°N (start of midnight sun/polar night zone). 5. Antarctic Circle — 66.5°S (southern equivalent of Arctic Circle). Note: 23.5° + 66.5° = 90° (the poles) — the two pairs are perfectly complementary.",
+      "memory_hook": "0, 23.5N, 23.5S, 66.5N, 66.5S. Memory trick: 23.5 and 66.5 add up to 90. Cancer = N (the letter N is in caNcer). Capricorn = S (Cap is at the bottom, South). Arctic = N. Antarctic = S. Perfect pairs."
+    },
+    {
+      "id": "fc06",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is the Tropic of Cancer? Why is it significant?",
+      "back": "The Tropic of Cancer is 23.5°N latitude. It marks the northernmost point where the Sun can be directly overhead (at noon on June 21 — the Summer Solstice in the Northern Hemisphere). This is because Earth's axis is tilted 23.5° from vertical. Countries through which the Tropic of Cancer passes: India (Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Mizoram), China, Egypt, Mexico, The Bahamas. India uses the Tropic of Cancer as a reference for seasonal and agricultural planning.",
+      "memory_hook": "Tropic of Cancer = 23.5°N = the 'northernmost summer point'. On June 21, if you stand exactly on the Tropic of Cancer at noon, your shadow disappears — the Sun is perfectly overhead. This happens nowhere north of this line. N is in caNcer → North."
+    },
+    {
+      "id": "fc07",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What are the three heat zones of Earth defined by latitude? Describe each.",
+      "back": "1. Torrid Zone (Tropical Zone): Between Tropic of Cancer (23.5°N) and Tropic of Capricorn (23.5°S). The Sun shines most directly here. Hottest zone; receives maximum solar energy year-round. Karnataka is in this zone. 2. Temperate Zones: Between 23.5° and 66.5° in each hemisphere. The Sun never shines directly overhead. Moderate temperatures. Europe and most of USA are in this zone. 3. Frigid Zones (Polar Zones): Above 66.5°N (Arctic) and below 66.5°S (Antarctic). Sun never rises high in the sky; extremely cold. Polar bears (Arctic) and penguins (Antarctic) live here.",
+      "memory_hook": "Torrid = Terribly hot (Tropics). Temperate = Totally moderate. Frigid = Freezing cold. TTF from Equator to Pole: Torrid → Temperate → Frigid. Three T's, three zones, getting colder as you go from Equator to poles."
+    },
+    {
+      "id": "fc08",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is the Prime Meridian? Where does it pass through?",
+      "back": "The Prime Meridian is the 0° longitude line — the reference meridian from which all other longitudes are measured east or west. It passes through the Royal Observatory, Greenwich, near London, England. It was internationally agreed upon at the International Meridian Conference in Washington, D.C., in 1884. The Prime Meridian divides Earth into Eastern Hemisphere (0°–180°E) and Western Hemisphere (0°–180°W). Together with the 180° meridian, it forms a great circle dividing Earth into two equal hemispheres.",
+      "memory_hook": "Prime Meridian = the PRIME (first/zero) reference. Greenwich, England = the 'global address zero'. Decided in 1884 at a Washington conference. Why Greenwich? Because the British Royal Navy was the world's dominant naval power then, and their observatory was already widely used for navigation."
+    },
+    {
+      "id": "fc09",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "How many degrees of longitude does Earth rotate per hour? What is the formula?",
+      "back": "Earth completes 360° of rotation in 24 hours. So: 360° ÷ 24 hours = 15° per hour. Equivalently: every 4 minutes = 1° of longitude. This relationship between longitude and time is used to calculate time zone differences. Formula: Time difference (hours) = Difference in longitude (degrees) ÷ 15. Example: The difference between London (0°) and Bengaluru (75°E approximately) = 75° ÷ 15 = 5 hours → Bengaluru is 5 hours ahead of London (in practice, 5.5 hours because India uses 82.5°E).",
+      "memory_hook": "360 ÷ 24 = 15. Fifteen degrees per hour. Dead simple. Divide the longitude difference by 15 to get hours. If east of reference → add hours. If west → subtract hours. 15° = 1 hour. 1° = 4 minutes. Write it once and remember it forever."
+    },
+    {
+      "id": "fc10",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is Indian Standard Time (IST)? Which meridian is it based on?",
+      "back": "Indian Standard Time (IST) is the official time used throughout India. It is based on the 82.5°E meridian (India's Standard Meridian), which passes through Mirzapur, Uttar Pradesh. IST = UTC + 5 hours 30 minutes (UTC is the time at 0° longitude, Greenwich). Calculation: 82.5° ÷ 15 = 5.5 hours ahead of UTC. India uses a single time zone for the whole country despite its geographic spread of approximately 68°E to 97°E (which would normally span about 2 time zones). All railway timetables, official documents, and broadcasts use IST.",
+      "memory_hook": "IST = 82.5°E = UTC + 5:30. Easy check: 82.5 ÷ 15 = 5.5 → 5 hours 30 minutes ahead of Greenwich. When it's 12:00 noon in London, it's 5:30 PM in India. India runs ahead of the world's clock."
+    },
+    {
+      "id": "fc11",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is the International Date Line (IDL)? What happens when you cross it?",
+      "back": "The International Date Line (IDL) is an imaginary line at approximately 180° longitude (with deviations to avoid splitting island nations). It marks the boundary where one calendar day changes to another. Crossing the IDL: Travelling eastward (e.g. from Asia to North America) → subtract one calendar day (you repeat a day). Travelling westward (e.g. from North America to Asia) → add one calendar day (you skip a day). Example: A traveller flying from Fiji (east of IDL) to Samoa (west of IDL) would 'gain' a day on their calendar.",
+      "memory_hook": "International Date Line = Earth's calendar reset button. Cross going east → go back one day (relive yesterday). Cross going west → jump forward one day (skip tomorrow). Located at 180° — exactly opposite the Prime Meridian (0°). One creates time zones, the other resets the date."
+    },
+    {
+      "id": "fc12",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Karnataka lies between approximately 11°N–18°N, 74°E–78°E. What does this tell us about its climate and position?",
+      "back": "Latitude (11°N–18°N): Karnataka is in the tropical zone, between the Equator and Tropic of Cancer (23.5°N). This means: the Sun is nearly overhead for much of the year, giving Karnataka a hot tropical climate; monsoon rains reach Karnataka as part of the tropical circulation; temperatures are warm throughout the year (20–35°C typically). Longitude (74°E–78°E): Karnataka is in the Eastern hemisphere, west of India's Standard Meridian (82.5°E). The Sun rises slightly later in Bengaluru than in eastern India. Coastal Karnataka (Dakshina Kannada at ~74°E) and inland Karnataka (Kalaburagi at ~76°E) differ by ~2° longitude = about 8 minutes of sun timing.",
+      "memory_hook": "Karnataka's address: ~12–18°N (latitude, tropical zone, warm + monsoon) and ~74–78°E (longitude, Eastern hemisphere, west of IST meridian). Two numbers tell the whole climatic story."
+    },
+    {
+      "id": "fc13",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why do all meridians (longitudes) meet at the poles, while parallels (latitudes) never meet?",
+      "back": "Meridians are semi-circles running from the North Pole to the South Pole — like the segments of an orange. All orange segments meet at the top and bottom of the orange (the poles). Parallels are complete circles running horizontally around Earth at different distances from the Equator — like slices of an orange. These circles are concentric (one inside the other) and never touch. The Equator is the largest circle; as you go north or south, the circles get smaller, eventually becoming points at the poles.",
+      "memory_hook": "Think of a globe like an orange: meridians = orange peel segments (all meet at top and bottom). Parallels = slices from top to bottom (circles that never meet, just get smaller). Peel the orange = meridians. Slice the orange = parallels."
+    },
+    {
+      "id": "fc14",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "How do you locate a place using latitude and longitude? What is the format?",
+      "back": "To locate a place: first state the latitude (N or S), then the longitude (E or W). Format: (latitude°N/S, longitude°E/W). Examples: Bengaluru: 12.97°N, 77.59°E. North Pole: 90°N (no longitude — all meridians meet here). New Delhi: 28.6°N, 77.2°E. London: 51.5°N, 0.1°W. Sydney: 33.9°S, 151.2°E. The latitude is always written first. Together, these two coordinates pinpoint any location on Earth's surface with precision — this is what GPS uses to locate your phone.",
+      "memory_hook": "Latitude FIRST, Longitude SECOND. Always. Like street address: first the street (latitude = N/S row), then the building number (longitude = E/W column). Bengaluru: 12.97°N (12 rows north of Equator), 77.59°E (77 columns east of Greenwich)."
+    },
+    {
+      "id": "fc15",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is the significance of the Arctic Circle (66.5°N) and Antarctic Circle (66.5°S)?",
+      "back": "Arctic Circle (66.5°N): Above this latitude, there is at least one day per year when the Sun does not set (24-hour daylight = midnight sun) around June 21, and at least one day when the Sun does not rise (24-hour darkness = polar night) around December 21. This is because of Earth's 23.5° axial tilt. Antarctic Circle (66.5°S): The same phenomena occur in the Southern hemisphere, but 6 months out of phase — midnight sun in December (Southern hemisphere summer) and polar night in June. Countries above the Arctic Circle include Norway, Sweden, Finland, Russia, and Canada. The effect increases towards the poles — at the poles themselves, 6 months of continuous light and 6 months of continuous darkness.",
+      "memory_hook": "Arctic Circle = 66.5°N = where the midnight sun party begins. At 66.5°N in June, the Sun refuses to set. At 66.5°N in December, it refuses to rise. Earth's axial tilt plays tricks on the day/night cycle. 66.5 = 90 - 23.5. The tilt angle defines both."
+    },
+    {
+      "id": "fc16",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why was Greenwich (England) chosen as the location of the Prime Meridian?",
+      "back": "Greenwich was chosen at the International Meridian Conference in Washington, D.C., in 1884. The reasons: (1) The Royal Observatory, Greenwich, had been producing the most widely used nautical charts and navigation tables for centuries — most ships were already using Greenwich as their reference. (2) Britain had the world's largest navy and merchant fleet at the time, so most of the world's navigators already used Greenwich time. (3) It was a practical choice: using the already-dominant reference point minimised disruption. The decision was not based on geography — it is a human convention. Any meridian could have been chosen as 0°.",
+      "memory_hook": "Greenwich = the old 'Google Maps' of the sea navigation era. British ships dominated the world's oceans in the 1800s; British charts used Greenwich. When the world decided on a standard, they went with what was already most used. Practical, not mathematical, reasoning."
+    },
+    {
+      "id": "fc17",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "The Tropic of Cancer passes through India. Name three Indian states it passes through.",
+      "back": "The Tropic of Cancer (23.5°N) passes through eight Indian states from west to east: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram. It does NOT pass through Karnataka — Karnataka (11°N–18°N) is entirely south of the Tropic of Cancer. The Tropic of Cancer is important in India because it broadly marks the boundary between the more arid north-western regions and the wetter regions to its south, and it influences agricultural and seasonal patterns.",
+      "memory_hook": "Tropic of Cancer through India: Gujrat Rajasthan MP Chhattisgarh Jharkhand WB Tripura Mizoram = GRM CJW TM. Eight states. Karnataka is too far south (max 18°N) to be touched by the 23.5°N line."
+    },
+    {
+      "id": "fc18",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Why does India use a single time zone (IST) despite its wide east-west spread?",
+      "back": "India spans from about 68°E (Gujarat coast) to 97°E (Arunachal Pradesh) — a difference of ~29°, which would theoretically require about 2 time zones (one every 15°). India uses a single IST (82.5°E = UTC+5:30) for: (1) Administrative simplicity — a single national time helps railways, airlines, broadcasting, and official communication. (2) National unity — one time zone reinforces a sense of a single nation. The downside: at 68°E (Gujarat), sunrise is over an hour later (in clock time) than at 97°E (Arunachal Pradesh). People in the northeast and extreme west adjust their daily schedules accordingly — some northeast states de facto use 'tea garden time' (1 hour ahead of IST).",
+      "memory_hook": "India = 1 time zone for unity. Wide country, single clock. Advantage: no confusion for trains and national broadcasts. Disadvantage: the Sun rises at 4 AM in Arunachal (summer) while it rises at 7 AM in Gujarat — same clock time, very different actual sunrise."
+    },
+    {
+      "id": "fc19",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "If the time in London (0°) is 8:00 AM, what is the time in Bengaluru (approximately 77.5°E)?",
+      "back": "Using the 15° = 1 hour rule: 77.5° ÷ 15 = 5.17 hours ≈ 5 hours 10 minutes. So Bengaluru would be approximately 5 hours 10 minutes ahead of London. But India uses the Standard Meridian of 82.5°E, giving IST = UTC + 5 hours 30 minutes. So: London 8:00 AM + 5:30 = 1:30 PM IST in Bengaluru. This is a standard exam-type calculation — remember: east is ahead, so ADD the time difference for places east of Greenwich.",
+      "memory_hook": "East = ahead. London 8 AM → add 5:30 (IST offset) → 1:30 PM Bengaluru. Quick formula: IST = London time + 5 hours 30 minutes. When London wakes up at 8 AM, Bengaluru is already having lunch at 1:30 PM."
+    },
+    {
+      "id": "fc20",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "How does ISRO use latitude and longitude in its space missions?",
+      "back": "ISRO uses latitude and longitude for multiple critical purposes: (1) Launch trajectory: The latitude of the launch site (Sriharikota is at ~13.7°N) affects the satellite orbit — launching near the Equator gives maximum benefit from Earth's rotational speed. (2) Satellite positioning: Geostationary satellites are placed at specific longitudes (e.g. INSAT-3D at 82°E, directly above India's Standard Meridian). (3) Remote sensing: ISRO's IRS satellites photograph Earth using latitude/longitude grids to precisely identify locations in imagery. (4) Mission tracking: ISTRAC (ISRO Telemetry, Tracking and Command) in Bengaluru tracks spacecraft using precise coordinate data. Chandrayaan-3 landed at ~69.37°S on the Moon — even the Moon is mapped with latitude/longitude coordinates.",
+      "memory_hook": "ISRO = latitude/longitude in action every day. From launch site (13.7°N Sriharikota) to satellite orbit (exact °E longitude) to landing site (69°S on Moon) — coordinates are the language of space science. The same system you learn in Class 6 is what ISRO engineers use daily."
     }
   ]
 }

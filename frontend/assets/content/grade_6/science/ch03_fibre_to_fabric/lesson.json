@@ -1,114 +1,270 @@
 {
-  "version": "1.0",
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
   "grade": 6,
-  "subject": "science",
-  "chapter_id": "ch03_fibre_to_fabric",
-  "chapter_title": {
-    "en": "Fibre to Fabric",
-    "hi": "तंतु से वस्त्र तक",
-    "kn": "ಎಳೆಯಿಂದ ಬಟ್ಟೆಯವರೆಗೆ"
+  "subject": "Science",
+  "textbook": "Science — Textbook for Class VI",
+  "chapter_number": 3,
+  "chapter_title": "Fibre to Fabric",
+  "estimated_study_time_minutes": 45,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Distinguish between natural fibres (plant and animal origin) and synthetic fibres",
+    "Describe the sources of cotton and jute fibres and the process of obtaining them from plants",
+    "Explain the process of converting fibre into yarn (spinning) and yarn into fabric (weaving/knitting)",
+    "Identify different types of fabric and their uses in daily life",
+    "Understand the historical and cultural significance of cotton and silk in India and Karnataka",
+    "Perform a simple activity to separate cotton fibres from cotton bolls",
+    "Define key vocabulary: fibre, yarn, fabric, weaving, knitting, ginning, spinning",
+    "Connect the chapter content to Karnataka's textile heritage"
+  ],
+
+  "prerequisite_knowledge": [
+    "Awareness that clothes are made from different materials like cotton, wool, and silk",
+    "Basic knowledge that plants and animals are sources of many useful materials",
+    "Understanding that raw materials are processed to make finished products",
+    "Familiarity with everyday fabric items — clothes, bedsheets, towels, bags"
+  ],
+
+  "introduction": {
+    "why_important": "The clothes we wear every day begin as fibres from plants or animals. Understanding how fibre becomes fabric connects science to everyday life, teaches us about natural resources, and helps us appreciate the labour of farmers and weavers.",
+    "real_life_relevance": "Every piece of clothing you wear went through a long journey: a plant grew fibres (like cotton bolls), those fibres were separated and cleaned, twisted into yarn, and woven or knitted into fabric, which was then dyed, cut, and stitched into the garment. Knowing this process makes us more aware and appreciative consumers.",
+    "karnataka_context": "Karnataka is deeply connected to this chapter. It is the largest producer of silk in India — accounting for about 40% of total national silk production. The city of Mysuru (Mysore) is world-famous for Mysore silk sarees, which are made from silk thread produced by silkworms. The Ramanagara district is called the 'Silk City of India' because of its major silk cocoon market. Karnataka also has a strong handloom tradition — the Ilkal saree (from Bagalkot district) and Dharwad saree are famous across the country. Dharwad and Gadag are known for Khana cloth weaving. Understanding fibre to fabric is thus directly part of Karnataka's cultural and economic identity.",
+    "connection_to_previous_learning": "Chapter 1 established that plants and animals are sources of food. Chapter 3 extends this idea — plants and animals are also sources of fibres used to make our clothes. The same natural world that feeds us also clothes us."
   },
-  "topics": [
-    {
-      "topic_id": "science_grade6_ch03_fibre_to_fabric_basics",
-      "title": {
-        "en": "Fibre to Fabric - Fundamentals",
-        "hi": "तंतु से वस्त्र तक - बुनियादी बातें",
-        "kn": "ಎಳೆಯಿಂದ ಬಟ್ಟೆಯವರೆಗೆ - ಮೂಲತಮxt್ವಗಳು"
+
+  "story_summary": {
+    "characters": [
+      {
+        "name": "Cotton Plant",
+        "role": "A plant that produces fluffy white fibres (cotton bolls) around its seeds, which are harvested and processed into cotton yarn and fabric"
       },
-      "learning_objectives": [
-        "Understand key concepts of Fibre to Fabric",
-        "Solve exercises and apply rules related to Fibre to Fabric",
-        "Analyze practical examples of Fibre to Fabric in daily life"
-      ],
-      "estimated_minutes": 15,
-      "base_story_template": {
-        "en": "Welcome {{STUDENT_NAME}} to our learning session at the {{INTEREST_PLACE}}! Today we explore Fibre to Fabric. This lesson is key to mapping how inputs transform to outputs.",
-        "hi": "{{INTEREST_PLACE}} में आपका स्वागत है {{STUDENT_NAME}}! आज हम तंतु से वस्त्र तक का अध्ययन करेंगे॥",
-        "kn": "{{INTEREST_PLACE}} ಗೆ ಸುವಾಗತ {{STUDENT_NAME}}! ಇಢು ನಾವು ಎಳೆಯಿಂದ ಬಟ್ಟೆಯವರೆಗೆ ದ ಬಗ್ಗೆ ಕಲಿಯೋಣ."
+      {
+        "name": "Jute Plant",
+        "role": "A tall plant whose stem fibres are extracted through retting (soaking) to produce coarse jute fibre used for bags, ropes, and mats"
       },
-      "concept_explanation": {
-        "en": "In this chapter, we explore Fibre to Fabric in detail. This topic is essential for Grade 6 academic standards. We study the core principles, terminology, and real-world relevance.",
-        "hi": "इस अध्योय में हम तंतु से वस्त्र तक का विस्तार से अध्ययन करते हैं॥",
-        "kn": "ಈ ಅಧ್ಯಾಯದಲ್ಲಿ, ನಾವು ಎಳೆಯಿಂದ ಬಟ್ಟೆಯವರೆಗೆ ದ ಬಗ್ಗೆ ವಿವರವಾಗಿ ಕಲಿಯುತ್ಧೇವೆ."
+      {
+        "name": "Silkworm",
+        "role": "An insect larva that spins a continuous silk thread around itself to form a cocoon; the thread is unwound to produce silk fibre"
       },
-      "worked_example": {
-        "problem": "Worked problem illustrating the main mechanics of Fibre to Fabric.",
-        "steps": [
-          {
-            "en": "Step 1: Identify key variables in Fibre to Fabric.",
-            "hi": "चरण 1: तंतु से वस्त्र तक के मुख्य चरों की पहचान करें॥",
-            "kn": "ಹಂತ 1: ಎಳೆಯಿಂದ ಬಟ್ಟೆಯವರೆಗೆ ನಲ್ನಿನ ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಗುರುತಿಸಿ."
-          },
-          {
-            "en": "Step 2: Apply the primary rules of this domain.",
-            "hi": "चरण 2: इस क्षेत्र के नियम लागू करें॥",
-            "kn": "ಹಂತ 2: ಈ ವಿಷಯದ ಮೂಲ ನಿಯಮಗಳನ್ನು ಅನ್ಯವಿಸಿ."
-          },
-          {
-            "en": "Step 3: Resolve the values to calculate the final answer.",
-            "hi": "चरण 3: अंतिम उत्तर करें॥",
-            "kn": "ಹಂತ 3: ಅನ್ತಿಮ ಉತ್ತರ ಲೆಕ್ಕ ಹಾಕಿ."
-          }
-        ],
-        "answer": "Solved successfully"
-      },
-      "key_points": {
-        "en": [
-          "Mastering Fibre to Fabric builds foundational academic knowledge.",
-          "Active problem solving helps retain concepts.",
-          "Pay close attention to key definitions."
-        ],
-        "hi": [
-          "तंतु से वस्त्र तक में महारत हासिल करने से शैक्षणिक कौशल बनता है॥",
-          "सक्रिय अभ्यास से समझ बढ़ती है॥",
-          "मुख्य परिभाषाओं पर ध्यान दें॥"
-        ],
-        "kn": [
-          "ಎಳೆಯಿಂದ ಬಟ್ಟೆಯವರೆಗೆ ನಲ್ನಿ ಪರಿಣತಿ ಪಡೆಯುವುದು ಶೈಕ್ಷಣಿಕ ಕೌಶಲ್ಯ ಬೆಳೆಸುತ್ತದೆ.",
-          "ನಿರಂತರ ಅಭ್ಯಾಸವು ನೆನಪಿನ ಶಕ್ತಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-          "ಮೂಲ ವ್ಯಾಖ್ಯಾನಗಳ ಗಮನ ಹರಿಸಿ."
-        ]
-      },
-      "interest_placeholders": {
-        "INTEREST_PLACE": {
-          "space": {
-            "en": "inside the control deck of a space shuttle",
-            "hi": "अंतरिक्ष यान के नियंत्रण डेक के भीतर",
-            "kn": "ಬಾಹ್ಯಾಕಾಶ ನೌಖೆಯ ನಿಯన್ತ್ರಣ ಡೆಕ್ ಒಳಗೆ"
-          },
-          "nature": {
-            "en": "at the forest wildlife sanctuary camp",
-            "hi": "वन्यजीव अभ्यारण्य शिविर में",
-            "kn": "ವನ್ಯಜೀವಿ ಧಾಮದ ಶಿರದಲ್ಲಿ"
-          },
-          "robots": {
-            "en": "next to the compiler terminal in a robot lab",
-            "hi": "रोबोट लैब में कंपाइलर टर्मिनल के पास",
-            "kn": "ರೋಬೋಟ್ ಲ್ಯಾಬ್ ನಲ್ಲಿನ ಕಂಪೈಲರ್ ತುದಿಯ ಹತ್ತಿರ"
-          },
-          "sports": {
-            "en": "on the stadium practice field",
-            "hi": "खेल के म्यान में",
-            "kn": "ಕ್ರೀಡಾಂಗಣದ ಮೈದಾನದಲ್ಲಿ"
-          },
-          "stories": {
-            "en": "near the ancient archives desk of the library",
-            "hi": "पुस्तकालय के प्राचीन अभिलेखागार के पास",
-            "kn": "ಗ್ರಂಥಾಲಯದ ಪುರಾತನ ಲೇಖನಗಳ ಮೇಜಿನ ಹತ್ತಿರ"
-          },
-          "history": {
-            "en": "near the watchtower of Chitradurga Fort",
-            "hi": "चित्रदुर्ग किले के वॉचटावर के पास",
-            "kn": "ಚಿತ್ರದುರ್ಗ ಕೋಟೆಯ ಕಾವಲು ಗೋಪುರದ ಹತ್ತಿರ"
-          },
-          "default": {
-            "en": "in the school study room",
-            "hi": "स्कूल के अध्ययन कक्ष में",
-            "kn": "ಶಾಲೆಯ ಓದುವ ಕೋಣೆಯಲ್ಲಿ"
-          }
-        }
+      {
+        "name": "Sheep / Animal source",
+        "role": "Animals like sheep provide wool fibre through shearing of their fleece, which is then cleaned and spun into wool yarn"
       }
+    ],
+    "plot": [
+      "The chapter opens by asking students to observe the variety of fabrics around them — cotton shirts, woollen sweaters, silk sarees, jute bags.",
+      "It introduces fibres as the basic unit of fabric — thin, thread-like structures that come from plants or animals.",
+      "Natural fibres are classified: plant-based (cotton, jute, coir, flax) and animal-based (silk, wool).",
+      "Synthetic fibres made from chemicals are briefly mentioned (nylon, polyester) as contrast to natural fibres.",
+      "The cotton plant and its growth are described — cotton bolls appear after flowering, containing seeds surrounded by soft white fibres.",
+      "The process of obtaining cotton fibre is described: harvesting cotton bolls, ginning (separating fibres from seeds), cleaning, and baling.",
+      "The jute plant is described — fibres are found in the stem, extracted by retting (soaking stalks in water for weeks).",
+      "The process of spinning is explained: twisting clean fibres together to form yarn (thread).",
+      "Weaving — interlacing two sets of yarn at right angles on a loom to form fabric — is explained.",
+      "Knitting — looping yarn together using needles — is introduced as another way of making fabric.",
+      "The chapter includes activities: separating cotton from bolls, making a simple yarn by twisting fibres.",
+      "Silk and wool are introduced as animal fibres — silk from silkworm cocoons, wool from sheep's fleece.",
+      "Karnataka's silk industry and India's cotton heritage are connected to the chapter."
+    ],
+    "moral": "Natural fibres are gifts of the plant and animal kingdoms. The journey from a cotton field or silkworm cocoon to a finished garment involves immense skill, labour, and knowledge — all of which deserve our respect and appreciation."
+  },
+
+  "core_concepts": [
+    {
+      "concept_name": "Natural Fibres: Plant and Animal Sources",
+      "simple_explanation": "Fibres are thin, hair-like strands used to make thread and fabric. Natural fibres come from plants (like cotton and jute) or animals (like silk and wool).",
+      "detailed_explanation": "Natural fibres are divided into two groups based on their origin. Plant fibres (cellulose-based): Cotton — obtained from the seed hair (fluffy fibres surrounding seeds) of the cotton plant (Gossypium species). Jute — obtained from the stem of the jute plant (Corchorus species); fibres run along the length of the stem. Coir — obtained from the husk of coconut (outer fibrous layer around the shell). Flax (linen) — obtained from the stem of the flax plant. Animal fibres (protein-based): Silk — a continuous protein thread spun by silkworm larvae (Bombyx mori) to form their cocoon. Wool — the fleece (coat of soft curly hair) of sheep, goats (cashmere, angora), or rabbits (angora). Each natural fibre has unique properties — cotton is breathable and absorbs moisture; silk is smooth, lustrous, and strong; wool is warm and elastic; jute is coarse and strong.",
+      "real_life_example": "Look at the label inside your shirt. If it says '100% cotton,' the fibre came from cotton bolls on a plant. If it says 'silk' or 'resham,' the fibre was unwound from silkworm cocoons. If it says 'polyester' or 'nylon,' it is synthetic — made from petroleum-based chemicals, not from nature.",
+      "karnataka_example": "Karnataka produces approximately 40% of India's total silk. The Ramanagara district hosts Asia's second-largest silk cocoon market. The silk thread produced there is woven into the world-famous Mysore silk saree — a Geographical Indication (GI)-tagged product known for its purity (pure silk + real gold zari). The sericulture (silk farming) industry employs lakhs of farmers and weavers across Karnataka's districts of Ramanagara, Kolar, Mysuru, and Tumakuru.",
+      "common_mistakes": "Students often confuse fibre and fabric. A fibre is the raw, thin strand (like a cotton hair from the boll). Yarn is made by twisting many fibres together. Fabric is made by weaving or knitting yarn. The sequence is: Fibre → Yarn → Fabric. Also, students sometimes think all soft, white material is cotton. Wool is also soft but comes from animals. Synthetic fibres like polyester can also feel soft but are not natural.",
+      "memory_tip": "Remember FYF: Fibre → Yarn → Fabric. Or: 'Fields give Fibre, Fibre becomes Yarn, Yarn becomes Fabric.' Plant fibre = cellulose. Animal fibre = protein. P for Plant = P for cellulose (Polysaccharide). A for Animal = A for amino acids (protein)."
+    },
+    {
+      "concept_name": "From Cotton Boll to Fabric: The Process",
+      "simple_explanation": "Cotton goes through several steps before it becomes the fabric in your shirt: first the bolls are harvested, then fibres are separated from seeds (ginning), then fibres are twisted into yarn (spinning), then yarn is woven into fabric.",
+      "detailed_explanation": "The journey from cotton plant to cotton fabric involves distinct steps: (1) Growing and Harvesting — cotton plants flower, then form bolls (capsules) filled with seeds wrapped in soft white fibres. Bolls are picked by hand or machine when they burst open. (2) Ginning — the process of separating cotton fibres from the seeds using a cotton gin (machine). After ginning, the clean fibres are compressed into bales for transport. (3) Cleaning and Carding — the fibres are cleaned to remove impurities and combed (carded) to align the fibres parallel to each other. (4) Spinning — the aligned fibres are drawn out and twisted together to form yarn (thread). The twist gives the yarn strength. Traditionally done on a charkha (spinning wheel); industrially done on spinning machines. (5) Weaving — two sets of yarn are interlaced at right angles on a loom: the lengthwise threads (warp) and the cross threads (weft). The interlacing creates fabric. (6) Finishing — the woven fabric is washed, dyed, printed, and finished before being cut and sewn into garments.",
+      "real_life_example": "Mahatma Gandhi popularised the charkha (hand spinning wheel) as a symbol of self-reliance during India's independence movement. He spun khadi cloth himself every day and encouraged all Indians to do the same, reducing dependence on British textile mills. The khadi cloth produced by spinning on a charkha and hand-weaving is still sold through Khadi Gramodyog shops across India — a living example of the cotton-to-fabric process.",
+      "karnataka_example": "The Ilkal saree from Bagalkot district in Karnataka is a famous handwoven cotton-silk saree with a distinctive contrasting pallu (border). Weavers in Ilkal town have been practising this traditional weaving technique for over a century. The Dharwad saree, the Gadag textile, and the Khana cloth are other Karnataka handloom traditions where locally spun yarn is woven on handlooms — preserving the complete fibre-to-fabric process in artisanal form.",
+      "common_mistakes": "Students often confuse ginning with spinning. Ginning = separating fibre from seed (removing the seed). Spinning = twisting fibres into yarn (making thread). These are completely different steps. Also, weaving (using a loom, interlacing threads at right angles) is often confused with knitting (using needles, looping one continuous yarn). Fabric in most shirts is woven; fabric in most sweaters is knitted.",
+      "memory_tip": "Remember the cotton journey with 'HGCSW': Harvest → Gin → Card → Spin → Weave. Or: 'Happy Grandmothers Can Spin Wool' = Harvest, Gin, Card, Spin, Weave."
+    },
+    {
+      "concept_name": "Weaving and Knitting: Making Fabric from Yarn",
+      "simple_explanation": "Fabric is made from yarn in two main ways: weaving (interlacing two sets of threads at right angles on a loom) and knitting (looping one yarn using needles to create interlocked loops).",
+      "detailed_explanation": "Weaving is done on a loom — a frame that holds one set of threads (warp threads) vertically while another set (weft threads) is passed horizontally over and under alternate warp threads. This interlacing at right angles creates a strong, stable fabric. Most cotton and silk fabrics (sarees, shirts, bedsheets) are woven. The tightness of weave determines the fabric's texture and strength. Knitting uses one or more yarns that are looped together using needles (hand knitting) or machines. Each loop is pulled through the previous loop, creating an interlocked structure. Knitted fabrics are stretchy (elastic) because the loops can expand and contract. Sweaters, socks, T-shirts, and stockings are typically knitted. The key difference: woven fabrics have threads running in two directions; knitted fabrics have loops. Woven fabrics are generally less stretchy; knitted fabrics stretch easily.",
+      "real_life_example": "Pull gently on a cotton shirt at the hem — if the threads separate and you can see a grid-like structure of horizontal and vertical threads, it is woven. Pull on a woollen sweater — if it stretches and the material has a loop-like structure, it is knitted. You can see this difference with a magnifying glass or even a careful naked-eye look.",
+      "karnataka_example": "The handloom weavers of Molakalmuru (Chitradurga district, Karnataka) produce some of India's finest silk sarees using traditional pit looms — wooden frames set into the ground where weavers sit and work the weft threads by hand. This weaving technique, unchanged for generations, demonstrates the exact process described in the chapter. The Molakalmuru saree is a GI-tagged Karnataka product whose beauty comes entirely from the precision of the weaving process.",
+      "common_mistakes": "Students frequently confuse the warp and weft threads in weaving. Warp threads run lengthwise (vertical on the loom — they are stretched tight before weaving begins). Weft threads run crosswise (horizontal — they are passed over and under the warp threads). Remember: Warp = lengthWise. Also, students may think all T-shirts are woven — most T-shirts are actually made from knitted jersey fabric because knit is stretchy and comfortable for body-fitting garments.",
+      "memory_tip": "WARP = Waits vertically (it is set up first, running the length of the loom). WEFT = Wanders horizontally (it is passed back and forth across the warp). Or: Warp = Wall (vertical, like a wall), Weft = walkWay (horizontal, like a path). Knitting = loops, Weaving = grid."
     }
+  ],
+
+  "key_terms_glossary": [
+    {
+      "term": "Fibre",
+      "meaning": "A thin, thread-like strand that is the basic unit of textile materials. Fibres can be natural (from plants or animals) or synthetic (man-made from chemicals)."
+    },
+    {
+      "term": "Yarn",
+      "meaning": "A long, continuous strand made by twisting together many fibres. Yarn is the intermediate product between raw fibre and finished fabric."
+    },
+    {
+      "term": "Fabric",
+      "meaning": "A material made by weaving or knitting yarn together. Fabric is used to make clothes, bedsheets, bags, and many other textile products."
+    },
+    {
+      "term": "Spinning",
+      "meaning": "The process of twisting clean fibres together to form yarn. Traditionally done on a charkha (spinning wheel); today mostly done by machines in textile mills."
+    },
+    {
+      "term": "Weaving",
+      "meaning": "The process of making fabric by interlacing two sets of yarn — warp (lengthwise) and weft (crosswise) — at right angles on a loom."
+    },
+    {
+      "term": "Knitting",
+      "meaning": "The process of making fabric by using needles to loop yarn into interlocking chains. Knitted fabrics are stretchy; examples include sweaters, socks, and T-shirts."
+    },
+    {
+      "term": "Ginning",
+      "meaning": "The process of separating cotton fibres from cotton seeds after harvesting. Done using a cotton gin (machine). After ginning, the clean fibres are ready for spinning."
+    },
+    {
+      "term": "Retting",
+      "meaning": "The process of soaking jute stalks in water for several weeks to loosen and separate the jute fibres from the woody stem. An essential step in jute fibre extraction."
+    },
+    {
+      "term": "Sericulture",
+      "meaning": "The practice of rearing silkworms (Bombyx mori) to produce silk. The silkworm spins a cocoon of continuous silk thread, which is carefully unwound to produce raw silk fibre."
+    },
+    {
+      "term": "Loom",
+      "meaning": "A device or machine used for weaving fabric. A loom holds the warp threads taut while the weft threads are interlaced through them. Traditional handlooms are still used by Karnataka's weavers."
+    }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Comprehension",
+      "question": "Describe the steps involved in converting cotton from a plant to a woven fabric.",
+      "step_by_step_answer": [
+        "Step 1: Harvesting — Cotton bolls (containing seeds wrapped in soft white fibres) are picked from the cotton plant when fully mature and burst open.",
+        "Step 2: Ginning — Cotton fibres are separated from the seeds using a cotton gin. The clean fibres are compressed into bales.",
+        "Step 3: Carding — Fibres are cleaned and combed to remove impurities and align the fibres parallel to each other.",
+        "Step 4: Spinning — The aligned fibres are drawn out and twisted together to form yarn (thread). This can be done on a charkha or by machine.",
+        "Step 5: Weaving — The yarn is threaded onto a loom. Warp threads are stretched lengthwise; weft threads are passed crosswise over and under alternate warp threads, creating interlaced fabric.",
+        "Conclusion: The journey from cotton plant to woven fabric involves harvesting → ginning → carding → spinning → weaving — each step transforming the raw material into a more refined product."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Vocabulary in context",
+      "question": "Use the word 'sericulture' in a sentence and explain how silk fibre is obtained from a silkworm.",
+      "step_by_step_answer": [
+        "Step 1: Recall meaning — Sericulture is the practice of rearing silkworms to produce silk thread.",
+        "Step 2: Connect to process — The silkworm (larva of the silk moth, Bombyx mori) spins a continuous thread of silk protein around itself to form a cocoon. The cocoon protects the pupa inside. To harvest silk, cocoons are steamed or boiled to kill the pupa (otherwise the emerging moth would break the thread), and then the thread is carefully unwound from the cocoon.",
+        "Step 3: Write sentence: 'Karnataka leads India in sericulture — the practice of rearing silkworms to obtain silk thread — with the Ramanagara district being one of Asia's largest silk cocoon markets.'"
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Moral application",
+      "question": "How does understanding the journey from fibre to fabric change the way we should treat our clothes?",
+      "step_by_step_answer": [
+        "Step 1: State the lesson — Making fabric from fibre is a long, labour-intensive process involving farmers growing cotton or jute, workers ginning and spinning, and weavers weaving on looms — sometimes for days to produce a single saree.",
+        "Step 2: Think of a real situation — Many students carelessly tear clothes, throw them away after minimal use, or waste cloth. A cotton shirt involved months of farming, ginning, spinning, weaving, dyeing, cutting, and stitching before it reached the shop.",
+        "Step 3: Apply it — Knowing this process builds respect for the labour behind every garment. We should care for clothes, repair them rather than discard them, and avoid buying more than we need.",
+        "Step 4: Conclusion — Understanding the fibre-to-fabric journey encourages responsible consumption — a habit important both for respecting artisan labour and for protecting our environment from textile waste."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Natural Fibres: Plant and Animal Sources",
+      "questions": [
+        {
+          "type": "Recall",
+          "q": "Name two natural fibres obtained from plants.",
+          "a": "Cotton (from the seed hair of the cotton plant) and jute (from the stem of the jute plant). Coir (from coconut husk) and flax (from flax plant stem) are also plant fibres."
+        },
+        {
+          "type": "Recall",
+          "q": "Which insect produces silk fibre, and how?",
+          "a": "The silkworm (larva of the silk moth, Bombyx mori) produces silk. It spins a continuous thread of silk protein around itself to form a protective cocoon. This thread is unwound to produce raw silk fibre."
+        },
+        {
+          "type": "Understanding",
+          "q": "How is a plant fibre chemically different from an animal fibre?",
+          "a": "Plant fibres are made of cellulose — a complex carbohydrate that forms the cell walls of plant cells. Animal fibres (silk and wool) are made of proteins (specifically fibroin in silk and keratin in wool). This chemical difference gives them different properties: plant fibres absorb water well (cotton is breathable), while protein fibres are naturally warm and elastic (wool)."
+        },
+        {
+          "type": "Understanding",
+          "q": "Why is Karnataka called the 'silk state of India'?",
+          "a": "Karnataka produces approximately 40% of India's total silk, making it the largest silk-producing state. The Ramanagara district hosts Asia's second-largest silk cocoon market. The world-famous Mysore silk saree, made from Karnataka silk, is a GI-tagged product known globally."
+        },
+        {
+          "type": "Application",
+          "q": "A friend says cotton and polyester are both used to make shirts, so they must be similar materials. How would you correct them?",
+          "a": "Cotton is a natural fibre from the cotton plant — it is cellulose-based, breathable, absorbs sweat, and is biodegradable. Polyester is a synthetic fibre made from petroleum chemicals in a factory — it is plastic-based, less breathable, does not absorb moisture, and takes hundreds of years to decompose. Both make shirts but they are fundamentally different in origin, chemistry, and environmental impact."
+        }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Fibres are thin, thread-like strands — the basic unit of textile materials. They come from plants or animals (natural) or are made in factories (synthetic).",
+    "Plant fibres: cotton (from seed hair), jute (from stem), coir (from coconut husk), flax (from stem).",
+    "Animal fibres: silk (from silkworm cocoon), wool (from sheep's fleece).",
+    "The cotton-to-fabric process: Harvest → Gin → Card → Spin → Weave.",
+    "Ginning = separating cotton fibre from seeds. Retting = soaking jute in water to separate stem fibres.",
+    "Spinning = twisting fibres into yarn. Weaving = interlacing yarn at right angles on a loom.",
+    "Knitting = looping yarn using needles — produces stretchy fabric (sweaters, socks).",
+    "Warp threads run lengthwise on a loom; weft threads run crosswise.",
+    "Karnataka produces ~40% of India's silk; Ramanagara is Asia's second-largest silk cocoon market; Mysore silk saree is GI-tagged.",
+    "Handloom traditions of Karnataka: Ilkal saree (Bagalkot), Molakalmuru saree (Chitradurga), Dharwad saree — all involve the full fibre-to-fabric process."
+  ],
+
+  "mind_map": {
+    "root": "Fibre to Fabric",
+    "branches": [
+      {
+        "branch": "Natural Fibres",
+        "sub": ["Plant: Cotton (seed hair), Jute (stem), Coir (coconut husk), Flax (stem)", "Animal: Silk (silkworm cocoon), Wool (sheep fleece)"]
+      },
+      {
+        "branch": "Cotton Process",
+        "sub": ["Harvest cotton bolls", "Ginning — separate fibre from seed", "Carding — align fibres", "Spinning — twist into yarn", "Weaving — interlace into fabric"]
+      },
+      {
+        "branch": "Fabric Making Methods",
+        "sub": ["Weaving — loom, warp + weft, right angles, less stretchy", "Knitting — needles, loops, stretchy fabric"]
+      },
+      {
+        "branch": "Key Terms",
+        "sub": ["Fibre → Yarn → Fabric", "Ginning (cotton)", "Retting (jute)", "Sericulture (silk)", "Loom, Warp, Weft"]
+      },
+      {
+        "branch": "Karnataka Textile Heritage",
+        "sub": ["40% of India's silk from Karnataka", "Ramanagara — silk cocoon market", "Mysore silk saree — GI tagged", "Ilkal, Molakalmuru, Dharwad handloom traditions"]
+      }
+    ]
+  },
+
+  "revision_notes": "Chapter 3 explains how fabric is made from natural fibres. Fibres are thin strands from plants (cotton — from seed hair; jute — from stem; coir — from coconut husk) or animals (silk — from silkworm cocoon; wool — from sheep fleece). The cotton-to-fabric process: Harvest bolls → Ginning (separate fibre from seed) → Carding (align fibres) → Spinning (twist into yarn) → Weaving (interlace yarn into fabric). Jute fibres are extracted by retting (soaking stalks in water). Silk is obtained by unwinding the continuous thread spun by silkworms to form their cocoon — the practice is called sericulture. Spinning twists fibres into yarn. Weaving interlaces two sets of yarn (warp = lengthwise, weft = crosswise) at right angles on a loom. Knitting loops one yarn using needles to create stretchy fabric. Woven fabrics have a grid structure; knitted fabrics have loops. Karnataka produces ~40% of India's silk; Ramanagara hosts Asia's 2nd largest silk cocoon market; Mysore silk saree is GI-tagged. Karnataka handloom traditions include Ilkal saree (Bagalkot), Molakalmuru saree (Chitradurga), and Dharwad saree. Key vocabulary: fibre, yarn, fabric, spinning, weaving, knitting, ginning, retting, sericulture, loom, warp, weft.",
+
+  "must_remember_facts": [
+    "Two types of natural fibres: plant fibres (cotton, jute, coir) and animal fibres (silk, wool).",
+    "Cotton fibre comes from the seed hair of the cotton plant (inside the boll).",
+    "Jute fibre is extracted from the stem of the jute plant by retting (soaking in water).",
+    "Silk is produced by silkworms — they spin a continuous thread to form a cocoon (sericulture).",
+    "Ginning = separating cotton fibres from seeds (using a cotton gin).",
+    "Spinning = twisting fibres into yarn. Yarn is the intermediate product between fibre and fabric.",
+    "Weaving = interlacing warp (lengthwise) and weft (crosswise) threads at right angles on a loom.",
+    "Knitting = looping yarn using needles — produces stretchy fabric (sweaters, socks).",
+    "Karnataka produces ~40% of India's silk; Ramanagara is Asia's 2nd largest silk cocoon market.",
+    "Mysore silk saree is a Geographical Indication (GI)-tagged product; Ilkal saree (Bagalkot) is a famous Karnataka handloom tradition."
   ]
 }
