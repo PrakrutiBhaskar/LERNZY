@@ -80,7 +80,13 @@ export function OnboardingFrame({
         <View style={styles.header}>
           {showBack ? (
             <Pressable
-              onPress={() => router.back()}
+              onPress={() => {
+                if (router.canGoBack()) {
+                  router.back();
+                } else {
+                  router.replace('/(onboarding)/welcome');
+                }
+              }}
               style={({ pressed }) => [styles.backButton, pressed && styles.pressed]}
               accessibilityRole="button"
               accessibilityLabel={copy.back}

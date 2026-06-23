@@ -107,6 +107,8 @@ export default function QuizScreen(): React.JSX.Element {
   const [score, setScore] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [loadError, setLoadError] = useState<string | null>(null);
+  const [isSavingProgress, setIsSavingProgress] = useState(false);
+  const [saveNotice, setSaveNotice] = useState<{ type: 'success' | 'error'; message: string } | null>(null);
   const totalQuestions = questions.length;
 
   useEffect(() => {
@@ -114,6 +116,7 @@ export default function QuizScreen(): React.JSX.Element {
 
     async function loadQuizQuestions() {
       setLoadError(null);
+      setSaveNotice(null);
 
       try {
         const localQs = await getQuizQuestions(quizKey);
@@ -125,6 +128,7 @@ export default function QuizScreen(): React.JSX.Element {
         setSubmitted(false);
         setScore(0);
         setQuizCompleted(false);
+        setSaveNotice(null);
       } catch (localErr: any) {
         if (!active) return;
         console.error('[Quiz Integration] Failed to load local quiz questions:', localErr);
@@ -156,34 +160,46 @@ export default function QuizScreen(): React.JSX.Element {
     };
   }, [quizKey]);
 
-  useEffect(() => {
-    if (quizCompleted) {
-      async function saveResult() {
-        try {
-          const db = getDb();
-          const savedProfile = await getObject<any>(STORAGE_KEYS.STUDENT_PROFILE);
-          const studentId = await ensureLocalStudent(savedProfile || {});
-          
-          await db.runAsync(
-            `INSERT INTO quiz_results (student_id, topic_id, score, total, difficulty_level, attempted_at)
-             VALUES (?, ?, ?, ?, ?, ?)`,
-            [studentId, quizKey, score, totalQuestions, 'mixed', new Date().toISOString()]
-          );
-          
-          // Queue the progress event to be synched to backend
-          await queueProgressEvent('exercise_solved', getTopicSubject(quizKey), {
-            topicId: quizKey,
-            score,
-            total: totalQuestions
-          });
-          console.log(`[Quiz Sync] Saved & queued exercise_solved event for: ${quizKey}`);
-        } catch (err) {
-          console.error('[Quiz Sync] Failed to save quiz result:', err);
-        }
-      }
-      saveResult();
+  const saveQuizProgress = async (finalScore: number): Promise<boolean> => {
+    try {
+      const db = getDb();
+      const savedProfile = await getObject<any>(STORAGE_KEYS.STUDENT_PROFILE);
+      const studentId = await ensureLocalStudent(savedProfile || {});
+      
+      await db.runAsync(
+        `INSERT INTO quiz_results (student_id, topic_id, score, total, difficulty_level, attempted_at)
+         VALUES (?, ?, ?, ?, ?, ?)`,
+        [studentId, quizKey, finalScore, totalQuestions, 'mixed', new Date().toISOString()]
+      );
+      
+      await queueProgressEvent('exercise_solved', getTopicSubject(quizKey), {
+        topicId: quizKey,
+        score: finalScore,
+        total: totalQuestions
+      });
+      console.log(`[Quiz Sync] Saved & queued exercise_solved event for: ${quizKey}`);
+      setSaveNotice({
+        type: 'success',
+        message: language === 'en'
+          ? 'Progress saved. Your dashboard is up to date.'
+          : language === 'hi'
+          ? 'प्रगति सहेज ली गई। आपका डैशबोर्ड अपडेट है।'
+          : 'ಪ್ರಗತಿ ಉಳಿಸಲಾಗಿದೆ. ನಿಮ್ಮ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ನವೀಕರಿಸಲಾಗಿದೆ.'
+      });
+      return true;
+    } catch (err) {
+      console.error('[Quiz Sync] Failed to save quiz result:', err);
+      setSaveNotice({
+        type: 'error',
+        message: language === 'en'
+          ? 'Quiz complete, but progress could not be saved. Please try again from the dashboard.'
+          : language === 'hi'
+          ? 'क्विज़ पूरी हुई, लेकिन प्रगति सहेजी नहीं जा सकी। कृपया डैशबोर्ड से फिर कोशिश करें।'
+          : 'ರಸಪ್ರಶ್ನೆ ಪೂರ್ಣಗೊಂಡಿದೆ, ಆದರೆ ಪ್ರಗತಿಯನ್ನು ಉಳಿಸಲಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ನಿಂದ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.'
+      });
+      return false;
     }
-  }, [quizCompleted, quizKey, score, totalQuestions]);
+  };
 
   if (questions.length === 0) {
     return (
@@ -214,6 +230,7 @@ export default function QuizScreen(): React.JSX.Element {
 
   const handleSubmit = () => {
     if (selectedIdx === null) return;
+    setSaveNotice(null);
     
     if (selectedIdx === activeQuestion.correct_index) {
       setScore((prev) => prev + 1);
@@ -221,19 +238,27 @@ export default function QuizScreen(): React.JSX.Element {
     setSubmitted(true);
   };
 
-  const handleNext = () => {
+  const handleNext = async () => {
     setSelectedIdx(null);
     setSubmitted(false);
+    setSaveNotice(null);
 
     if (currentIdx + 1 < totalQuestions) {
       setCurrentIdx((prev) => prev + 1);
     } else {
+      setIsSavingProgress(true);
+      await saveQuizProgress(score);
+      setIsSavingProgress(false);
       setQuizCompleted(true);
     }
   };
 
   const handleFinish = () => {
     router.replace('/(home)');
+  };
+
+  const handleViewProgress = () => {
+    router.replace('/(home)/progress');
   };
 
   const getTutorMessage = () => {
@@ -289,6 +314,31 @@ export default function QuizScreen(): React.JSX.Element {
             }
           </AppText>
 
+          {saveNotice && (
+            <Card
+              style={[
+                styles.noticeCard,
+                { backgroundColor: saveNotice.type === 'success' ? colors.successSubtle : colors.errorSubtle }
+              ]}
+            >
+              <AppText
+                variant="body"
+                color={saveNotice.type === 'success' ? colors.success : colors.error}
+                style={styles.noticeText}
+              >
+                {saveNotice.message}
+              </AppText>
+              {saveNotice.type === 'error' && (
+                <Button
+                  variant="ghost"
+                  title={language === 'en' ? 'Clear' : language === 'hi' ? 'हटाएं' : 'ತೆರವುಗೊಳಿಸಿ'}
+                  onPress={() => setSaveNotice(null)}
+                  style={styles.clearNoticeBtn}
+                />
+              )}
+            </Card>
+          )}
+
           <TutorBubble
             message={passed
               ? (language === 'en' ? "Fantastic work! You've mastered this topic. Ready for the next adventure?" : "शानदार काम! आपने इस विषय में महारत हासिल कर ली है।")
@@ -300,6 +350,12 @@ export default function QuizScreen(): React.JSX.Element {
           <Button
             title={language === 'en' ? 'Back to Dashboard' : language === 'hi' ? 'डैशबोर्ड पर वापस जाएं' : 'ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ಗೆ ಹಿಂತಿರುಗಿ'}
             onPress={handleFinish}
+            style={styles.finishBtn}
+          />
+          <Button
+            variant="secondary"
+            title={language === 'en' ? 'View Progress' : language === 'hi' ? 'प्रगति देखें' : 'ಪ್ರಗತಿ ನೋಡಿ'}
+            onPress={handleViewProgress}
             style={styles.finishBtn}
           />
         </Card>
@@ -408,6 +464,7 @@ export default function QuizScreen(): React.JSX.Element {
               : (language === 'en' ? 'See Results' : language === 'hi' ? 'परिणाम देखें' : 'ಫಲಿತಾಂಶಗಳನ್ನು ನೋಡಿ')
             }
             onPress={handleNext}
+            loading={isSavingProgress}
           />
         )}
       </View>
@@ -493,6 +550,18 @@ const styles = StyleSheet.create({
   scoreText: {
     fontWeight: '700',
     textAlign: 'center',
+  },
+  noticeCard: {
+    width: '100%',
+    padding: 14,
+    gap: 8,
+  },
+  noticeText: {
+    textAlign: 'center',
+    fontWeight: '700',
+  },
+  clearNoticeBtn: {
+    minHeight: 40,
   },
   summaryBubble: {
     width: '100%',

@@ -49,7 +49,7 @@ export async function initSyncQueueTable(): Promise<void> {
       );
     `);
   } catch (error) {
-    console.error('Failed to initialize sync queue table:', error);
+    console.warn('Failed to initialize sync queue table:', error);
   }
 }
 
@@ -82,7 +82,7 @@ export async function queueProgressEvent(
       console.warn('Background sync failed (expected if offline):', err);
     });
   } catch (error) {
-    console.error('Failed to queue progress event:', error);
+    console.warn('Failed to queue progress event:', error);
   }
 }
 

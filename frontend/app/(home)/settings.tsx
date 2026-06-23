@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, StyleSheet, Alert, Pressable } from 'react-native';
+import { View, StyleSheet, Pressable } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { useTheme } from '@/theme/theme';
@@ -24,6 +24,8 @@ export default function SettingsScreen(): React.JSX.Element {
   const [grade, setGrade] = useState<number>(6);
   const [learningStyle, setLearningStyle] = useState<string>('mixed');
   const [profile, setProfile] = useState<any>(null);
+  const [isSavingProfile, setIsSavingProfile] = useState(false);
+  const [settingsNotice, setSettingsNotice] = useState<{ type: 'success' | 'error'; message: string } | null>(null);
 
   useEffect(() => {
     async function loadProfile() {
@@ -39,8 +41,16 @@ export default function SettingsScreen(): React.JSX.Element {
   }, []);
 
   const handleSaveProfile = async () => {
-    if (!name.trim()) return;
+    setSettingsNotice(null);
+    if (!name.trim()) {
+      setSettingsNotice({
+        type: 'error',
+        message: 'Enter your name before saving settings.',
+      });
+      return;
+    }
 
+    setIsSavingProfile(true);
     try {
       const updatedProfile = {
         ...profile,
@@ -59,21 +69,40 @@ export default function SettingsScreen(): React.JSX.Element {
       }
 
       setProfile(updatedProfile);
-      Alert.alert(
-        language === 'en' ? 'Success' : language === 'hi' ? 'सफलता' : 'ಯಶಸ್ಸು',
-        language === 'en' ? 'Profile updated successfully!' : language === 'hi' ? 'प्रोफ़ाइल सफलतापूर्वक अपडेट की गई!' : 'ಪ್ರೊಫೈಲ್ ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲ್ಪಟ್ಟಿದೆ!'
-      );
+      setSettingsNotice({
+        type: 'success',
+        message: 'Settings saved successfully.',
+      });
     } catch (e) {
       console.error(e);
+      setSettingsNotice({
+        type: 'error',
+        message: 'Settings could not be saved. Please try again.',
+      });
+    } finally {
+      setIsSavingProfile(false);
     }
   };
 
   const handleLanguageChange = async (lang: LanguageCode) => {
-    await setLanguage(lang);
-    if (profile) {
-      const updatedProfile = { ...profile, language: lang };
-      await setObject(STORAGE_KEYS.STUDENT_PROFILE, updatedProfile);
-      setProfile(updatedProfile);
+    setSettingsNotice(null);
+    try {
+      await setLanguage(lang);
+      if (profile) {
+        const updatedProfile = { ...profile, language: lang };
+        await setObject(STORAGE_KEYS.STUDENT_PROFILE, updatedProfile);
+        setProfile(updatedProfile);
+      }
+      setSettingsNotice({
+        type: 'success',
+        message: 'Language preference saved.',
+      });
+    } catch (e) {
+      console.error(e);
+      setSettingsNotice({
+        type: 'error',
+        message: 'Language preference could not be saved. Please try again.',
+      });
     }
   };
 
@@ -93,6 +122,29 @@ export default function SettingsScreen(): React.JSX.Element {
       scrollable={true}
     >
       <View style={styles.container}>
+        {settingsNotice && (
+          <Card
+            style={[
+              styles.noticeCard,
+              { backgroundColor: settingsNotice.type === 'success' ? colors.successSubtle : colors.errorSubtle },
+            ]}
+          >
+            <AppText
+              variant="body"
+              color={settingsNotice.type === 'success' ? colors.success : colors.error}
+              style={styles.noticeText}
+            >
+              {settingsNotice.message}
+            </AppText>
+            <Button
+              variant="ghost"
+              title="Clear"
+              onPress={() => setSettingsNotice(null)}
+              style={[styles.clearNoticeBtn, { backgroundColor: colors.surfaceAlt }]}
+            />
+          </Card>
+        )}
+
         {/* Profile Card */}
         <Card style={styles.settingsCard}>
           <AppText variant="heading2" style={styles.sectionTitle}>
@@ -101,7 +153,10 @@ export default function SettingsScreen(): React.JSX.Element {
           <InputField
             label={language === 'en' ? 'Name' : language === 'hi' ? 'नाम' : 'ಹೆಸರು'}
             value={name}
-            onChangeText={setName}
+            onChangeText={(value) => {
+              setName(value);
+              setSettingsNotice(null);
+            }}
             containerStyle={styles.input}
           />
 
@@ -114,7 +169,10 @@ export default function SettingsScreen(): React.JSX.Element {
                 key={g}
                 variant={grade === g ? 'primary' : 'secondary'}
                 title={`${language === 'en' ? 'Grade' : language === 'hi' ? 'कक्षा' : 'ತರಗತಿ'} ${g}`}
-                onPress={() => setGrade(g)}
+                onPress={() => {
+                  setGrade(g);
+                  setSettingsNotice(null);
+                }}
                 style={styles.langBtn}
               />
             ))}
@@ -135,7 +193,10 @@ export default function SettingsScreen(): React.JSX.Element {
                 key={styleOpt.id}
                 variant={learningStyle === styleOpt.id ? 'primary' : 'secondary'}
                 title={styleOpt.label[language as 'en' | 'hi' | 'kn'] || styleOpt.label.en}
-                onPress={() => setLearningStyle(styleOpt.id)}
+                onPress={() => {
+                  setLearningStyle(styleOpt.id);
+                  setSettingsNotice(null);
+                }}
                 style={{ flexBasis: '45%', minHeight: 40, paddingVertical: 8 }}
               />
             ))}
@@ -144,6 +205,7 @@ export default function SettingsScreen(): React.JSX.Element {
           <Button
             title={language === 'en' ? 'Save Changes' : language === 'hi' ? 'बदलाव सहेजें' : 'ಬದಲಾವಣೆ ಉಳಿಸಿ'}
             onPress={handleSaveProfile}
+            loading={isSavingProfile}
             style={styles.saveBtn}
           />
         </Card>
@@ -297,6 +359,17 @@ const styles = StyleSheet.create({
   },
   settingsCard: {
     padding: 18,
+  },
+  noticeCard: {
+    padding: 14,
+    gap: 10,
+  },
+  noticeText: {
+    fontWeight: '700',
+    textAlign: 'center',
+  },
+  clearNoticeBtn: {
+    minHeight: 40,
   },
   sectionTitle: {
     fontWeight: '700',

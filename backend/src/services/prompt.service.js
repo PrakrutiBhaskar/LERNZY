@@ -34,7 +34,44 @@ const sanitizePromptText = (text) => {
   return sanitized.slice(0, 1200).trim();
 };
 
-const buildUserPrompt = ({ question, level, language, topic, board, grade, history = [] }) => {
+const sanitizeChapterContext = (context = {}) => {
+  const pickList = (value, maxItems = 8) => {
+    if (!Array.isArray(value)) return [];
+    return value.map((item) => sanitizePromptText(String(item))).filter(Boolean).slice(0, maxItems);
+  };
+
+  return {
+    subjectName: sanitizePromptText(context.subjectName || ""),
+    chapterTitle: sanitizePromptText(context.chapterTitle || ""),
+    summary: sanitizePromptText(context.summary || ""),
+    lessonContent: sanitizePromptText(context.lessonContent || ""),
+    learningObjectives: pickList(context.learningObjectives, 6),
+    keyConcepts: pickList(context.keyConcepts, 8),
+    examples: pickList(context.examples, 5),
+    formulas: pickList(context.formulas, 8)
+  };
+};
+
+const buildChapterContextBlock = (chapterContext) => {
+  if (!chapterContext) return "";
+  const safe = sanitizeChapterContext(chapterContext);
+  const lines = [
+    "Current Chapter Context (authoritative; prioritize this before general knowledge):",
+    safe.subjectName ? `Subject: ${safe.subjectName}` : "",
+    safe.chapterTitle ? `Chapter: ${safe.chapterTitle}` : "",
+    safe.learningObjectives.length ? `Learning objectives: ${safe.learningObjectives.join("; ")}` : "",
+    safe.keyConcepts.length ? `Key concepts: ${safe.keyConcepts.join("; ")}` : "",
+    safe.formulas.length ? `Formulas: ${safe.formulas.join("; ")}` : "",
+    safe.examples.length ? `Examples: ${safe.examples.join(" | ")}` : "",
+    safe.summary ? `Chapter summary: ${safe.summary}` : "",
+    safe.lessonContent ? `Lesson content excerpt: ${safe.lessonContent}` : "",
+    "If the student's question is outside this chapter, first say it is outside the current chapter scope, then give a clearly separated general answer."
+  ].filter(Boolean);
+
+  return lines.length > 2 ? `${lines.join("\n")}\n\n` : "";
+};
+
+const buildUserPrompt = ({ question, level, language, topic, board, grade, history = [], chapterContext }) => {
   const prompts = loadPrompts();
   const langLabels = {
     en: "English",
@@ -58,6 +95,8 @@ const buildUserPrompt = ({ question, level, language, topic, board, grade, histo
     ).join("\n") + "\n\n";
   }
 
+  const chapterContextBlock = buildChapterContextBlock(chapterContext);
+
   const promptText = prompts.userPromptTemplate
     .replaceAll("{level}", level)
     .replaceAll("{languageLabel}", languageLabel)
@@ -66,7 +105,7 @@ const buildUserPrompt = ({ question, level, language, topic, board, grade, histo
     .replaceAll("{topic}", topic || "General Academic")
     .replaceAll("{question}", delimitedQuestion);
 
-  return `${historyContext}${promptText}`;
+  return `${chapterContextBlock}${historyContext}${promptText}`;
 };
 
 const getSystemPrompt = () => {
@@ -78,5 +117,7 @@ const getSystemPrompt = () => {
 module.exports = {
   buildUserPrompt,
   getSystemPrompt,
-  sanitizePromptText
+  sanitizePromptText,
+  sanitizeChapterContext,
+  buildChapterContextBlock
 };

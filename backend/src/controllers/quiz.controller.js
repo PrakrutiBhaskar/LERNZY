@@ -21,7 +21,7 @@ const submitQuiz = async (req, res, next) => {
 
     // Duplicate prevention based on client-generated ID during offline syncing / retries
     if (clientGeneratedId) {
-      const existing = await QuizSubmission.findOne({ clientGeneratedId });
+      const existing = await QuizSubmission.findOne({ studentId, clientGeneratedId });
       if (existing) {
         return successResponse(res, { submission: existing, isDuplicate: true }, "Quiz submission processed (duplicate)");
       }

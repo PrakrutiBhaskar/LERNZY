@@ -403,8 +403,8 @@ const generateTextResponse = async ({ prompt, abortSignal }) => {
   }
 };
 
-const generateTutorResponse = async ({ question, level, language, topic, board, grade, history = [], abortSignal }) => {
-  const prompt = buildUserPrompt({ question, level, language, topic, board, grade, history });
+const generateTutorResponse = async ({ question, level, language, topic, board, grade, history = [], chapterContext, abortSignal }) => {
+  const prompt = buildUserPrompt({ question, level, language, topic, board, grade, history, chapterContext });
   const provider = normalizeProvider();
 
   try {
@@ -455,8 +455,8 @@ const generateTutorResponse = async ({ question, level, language, topic, board, 
   }
 };
 
-const streamTutorResponse = async ({ question, level, language, topic, board, grade, history = [], onToken, abortSignal }) => {
-  const prompt = buildUserPrompt({ question, level, language, topic, board, grade, history });
+const streamTutorResponse = async ({ question, level, language, topic, board, grade, history = [], chapterContext, onToken, abortSignal }) => {
+  const prompt = buildUserPrompt({ question, level, language, topic, board, grade, history, chapterContext });
   const provider = normalizeProvider();
   let hasEmitted = false;
 

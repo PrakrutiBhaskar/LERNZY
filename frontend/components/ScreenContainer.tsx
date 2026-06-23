@@ -38,8 +38,10 @@ export const ScreenContainer: React.FC<ScreenContainerProps> = ({
   const handleBack = () => {
     if (onBackPress) {
       onBackPress();
-    } else {
+    } else if (router.canGoBack()) {
       router.back();
+    } else {
+      router.replace('/(home)');
     }
   };
 

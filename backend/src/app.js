@@ -21,6 +21,7 @@ const subjectsRoutes = require("./routes/subjects.routes");
 const topicsRoutes = require("./routes/topics.routes");
 const lessonsRoutes = require("./routes/lessons.routes");
 const quizRoutes = require("./routes/quiz.routes");
+const chapterTutorRoutes = require("./routes/chapterTutor.routes");
 const errorHandler = require("./middleware/error.middleware");
 const sanitizeRequest = require("./middleware/sanitize.middleware");
 const nosqlSanitize = require("./middleware/nosqlSanitize.middleware");
@@ -177,6 +178,7 @@ v1Router.use("/subjects", subjectsRoutes);
 v1Router.use("/topics", topicsRoutes);
 v1Router.use("/lessons", lessonsRoutes);
 v1Router.use("/quiz", quizRoutes);
+v1Router.use("/chapter-tutor", chapterTutorRoutes);
 
 // Mount versioned & legacy fallback APIs
 app.use("/api/v1", v1Router);

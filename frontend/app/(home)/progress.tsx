@@ -12,7 +12,7 @@ import { Card } from '../../components/Card';
 import { ProgressBar } from '../../components/ProgressBar';
 import { ScreenContainer } from '../../components/ScreenContainer';
 import { SectionHeader } from '../../components/SectionHeader';
-import { getDb, isLocalDatabaseAvailable } from '@/db/database';
+import { getDb } from '@/db/database';
 import { STORAGE_KEYS } from '@/utils/constants';
 import { getObject } from '@/utils/storage';
 import { TOPICS_BY_SUBJECT } from '@/content/learningContent';
@@ -206,44 +206,42 @@ export default function ProgressScreen(): React.JSX.Element {
       let sessionsList: { subject: string; duration_seconds: number; ended_at: string; mode: string }[] = [];
       let earnedBadges = new Set<string>();
 
-      if (isLocalDatabaseAvailable()) {
-        try {
-          const db = getDb();
-          const student = await db.getFirstAsync<{ id: number }>('SELECT id FROM students LIMIT 1');
-          if (student) {
-            studentId = student.id;
-            
-            // 1. Get completed topic IDs
-            const completedRows = await db.getAllAsync<{ topic_id: string }>(
-              `SELECT DISTINCT topic_id FROM sessions WHERE student_id = ? AND ended_at IS NOT NULL
-               UNION
-               SELECT DISTINCT topic_id FROM quiz_results WHERE student_id = ?`,
-              [student.id, student.id]
-            );
-            completedTopics = new Set(completedRows.map(r => r.topic_id));
+      try {
+        const db = getDb();
+        const student = await db.getFirstAsync<{ id: number }>('SELECT id FROM students LIMIT 1');
+        if (student) {
+          studentId = student.id;
+          
+          // 1. Get completed topic IDs
+          const completedRows = await db.getAllAsync<{ topic_id: string }>(
+            `SELECT DISTINCT topic_id FROM sessions WHERE student_id = ? AND ended_at IS NOT NULL
+             UNION
+             SELECT DISTINCT topic_id FROM quiz_results WHERE student_id = ?`,
+            [student.id, student.id]
+          );
+          completedTopics = new Set(completedRows.map(r => r.topic_id));
 
-            // 2. Get quiz results
-            quizResultsList = await db.getAllAsync<{ topic_id: string; score: number; total: number }>(
-              `SELECT topic_id, score, total FROM quiz_results WHERE student_id = ?`,
-              [student.id]
-            );
+          // 2. Get quiz results
+          quizResultsList = await db.getAllAsync<{ topic_id: string; score: number; total: number }>(
+            `SELECT topic_id, score, total FROM quiz_results WHERE student_id = ?`,
+            [student.id]
+          );
 
-            // 3. Get sessions
-            sessionsList = await db.getAllAsync<{ subject: string; duration_seconds: number; ended_at: string; mode: string }>(
-              `SELECT subject, duration_seconds, ended_at, mode FROM sessions WHERE student_id = ?`,
-              [student.id]
-            );
+          // 3. Get sessions
+          sessionsList = await db.getAllAsync<{ subject: string; duration_seconds: number; ended_at: string; mode: string }>(
+            `SELECT subject, duration_seconds, ended_at, mode FROM sessions WHERE student_id = ?`,
+            [student.id]
+          );
 
-            // 4. Get earned achievements
-            const achievementRows = await db.getAllAsync<{ badge_key: string }>(
-              `SELECT badge_key FROM achievements WHERE student_id = ?`,
-              [student.id]
-            );
-            earnedBadges = new Set(achievementRows.map(r => r.badge_key));
-          }
-        } catch (dbErr) {
-          console.error('Error fetching progress from SQLite:', dbErr);
+          // 4. Get earned achievements
+          const achievementRows = await db.getAllAsync<{ badge_key: string }>(
+            `SELECT badge_key FROM achievements WHERE student_id = ?`,
+            [student.id]
+          );
+          earnedBadges = new Set(achievementRows.map(r => r.badge_key));
         }
+      } catch (dbErr) {
+        console.error('Error fetching progress from local DB:', dbErr);
       }
 
       // Map dynamic subjects

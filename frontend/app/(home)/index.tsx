@@ -13,7 +13,7 @@ import { AchievementBadge } from '../../components/AchievementBadge';
 import { SectionHeader } from '../../components/SectionHeader';
 import { STORAGE_KEYS } from '@/utils/constants';
 import { getObject, removeItem } from '@/utils/storage';
-import { getDb, isLocalDatabaseAvailable } from '@/db/database';
+import { getDb } from '@/db/database';
 import { TOPICS_BY_SUBJECT } from '@/content/learningContent';
 
 import { SkeletonLoader } from '../../components/SkeletonLoader';
@@ -140,23 +140,21 @@ export default function Home(): React.JSX.Element {
           let studentId: number | null = null;
           let completedTopicIds = new Set<string>();
 
-          if (isLocalDatabaseAvailable()) {
-            try {
-              const db = getDb();
-              const student = await db.getFirstAsync<{ id: number }>('SELECT id FROM students LIMIT 1');
-              if (student) {
-                studentId = student.id;
-                const completedRows = await db.getAllAsync<{ topic_id: string }>(
-                  `SELECT DISTINCT topic_id FROM sessions WHERE student_id = ? AND ended_at IS NOT NULL
-                   UNION
-                   SELECT DISTINCT topic_id FROM quiz_results WHERE student_id = ?`,
-                  [student.id, student.id]
-                );
-                completedTopicIds = new Set(completedRows.map(r => r.topic_id));
-              }
-            } catch (dbErr) {
-              console.error('Error fetching dashboard progress from SQLite:', dbErr);
+          try {
+            const db = getDb();
+            const student = await db.getFirstAsync<{ id: number }>('SELECT id FROM students LIMIT 1');
+            if (student) {
+              studentId = student.id;
+              const completedRows = await db.getAllAsync<{ topic_id: string }>(
+                `SELECT DISTINCT topic_id FROM sessions WHERE student_id = ? AND ended_at IS NOT NULL
+                 UNION
+                 SELECT DISTINCT topic_id FROM quiz_results WHERE student_id = ?`,
+                [student.id, student.id]
+              );
+              completedTopicIds = new Set(completedRows.map(r => r.topic_id));
             }
+          } catch (dbErr) {
+            console.error('Error fetching dashboard progress from local DB:', dbErr);
           }
 
           const filteredSubjects: SubjectItem[] = SUBJECTS_DATA.map(subj => {
@@ -176,7 +174,7 @@ export default function Home(): React.JSX.Element {
 
           // Get the single most recent session for continue learning
           let recentResume = null;
-          if (studentId && isLocalDatabaseAvailable()) {
+          if (studentId) {
             try {
               const db = getDb();
               const recent = await db.getFirstAsync<{ subject: string; topic_id: string }>(
@@ -216,7 +214,7 @@ export default function Home(): React.JSX.Element {
                 };
               }
             } catch (dbErr) {
-              console.error('Error fetching resume session from SQLite:', dbErr);
+              console.error('Error fetching resume session from local DB:', dbErr);
             }
           }
 

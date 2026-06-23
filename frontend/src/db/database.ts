@@ -107,13 +107,76 @@ const mockDb = {
       return { lastInsertRowId: id, changes: 1 };
     }
 
-    if (lowerSql.includes('insert into achievements')) {
+    if (lowerSql.includes('insert into sync_queue')) {
+      const client_generated_id = params[0];
+      const type = params[1];
+      const module = params[2];
+      const payload = params[3];
+      const client_timestamp = params[4];
+      const retry_count = params[5] ?? 0;
+
+      const queue = JSON.parse(localStorage.getItem('lernzy_local_sync_queue') || '[]');
+      const existing = queue.find((event: any) => event.client_generated_id === client_generated_id);
+      if (existing) {
+        return { lastInsertRowId: existing.id, changes: 0 };
+      }
+
+      const id = queue.length + 1;
+      queue.push({ id, client_generated_id, type, module, payload, client_timestamp, retry_count });
+      localStorage.setItem('lernzy_local_sync_queue', JSON.stringify(queue));
+      return { lastInsertRowId: id, changes: 1 };
+    }
+
+    if (lowerSql.includes('delete from sync_queue')) {
+      const clientGeneratedId = params[0];
+      const queue = JSON.parse(localStorage.getItem('lernzy_local_sync_queue') || '[]');
+      const nextQueue = queue.filter((event: any) => event.client_generated_id !== clientGeneratedId);
+      localStorage.setItem('lernzy_local_sync_queue', JSON.stringify(nextQueue));
+      return { lastInsertRowId: 0, changes: queue.length - nextQueue.length };
+    }
+
+    if (lowerSql.includes('update sync_queue')) {
+      const retry_count = params[0];
+      const clientGeneratedId = params[1];
+      const queue = JSON.parse(localStorage.getItem('lernzy_local_sync_queue') || '[]');
+      const event = queue.find((item: any) => item.client_generated_id === clientGeneratedId);
+      if (event) {
+        event.retry_count = retry_count;
+      }
+      localStorage.setItem('lernzy_local_sync_queue', JSON.stringify(queue));
+      return { lastInsertRowId: 0, changes: event ? 1 : 0 };
+    }
+
+    if (lowerSql.includes('insert or ignore into dead_letter_queue')) {
+      const client_generated_id = params[0];
+      const type = params[1];
+      const module = params[2];
+      const payload = params[3];
+      const client_timestamp = params[4];
+      const retry_count = params[5];
+      const error_message = params[6];
+      const created_at = params[7];
+
+      const queue = JSON.parse(localStorage.getItem('lernzy_local_dead_letter_queue') || '[]');
+      const existing = queue.find((event: any) => event.client_generated_id === client_generated_id);
+      if (existing) {
+        return { lastInsertRowId: existing.id, changes: 0 };
+      }
+
+      const id = queue.length + 1;
+      queue.push({ id, client_generated_id, type, module, payload, client_timestamp, retry_count, error_message, created_at });
+      localStorage.setItem('lernzy_local_dead_letter_queue', JSON.stringify(queue));
+      return { lastInsertRowId: id, changes: 1 };
+    }
+
+    if (lowerSql.includes('insert into achievements') || lowerSql.includes('insert or ignore into achievements')) {
       const student_id = params[0];
       const badge_key = params[1];
+      const earned_at = params[2] || new Date().toISOString();
       const achievements = JSON.parse(localStorage.getItem('lernzy_local_achievements') || '[]');
       const exists = achievements.some((a: any) => a.student_id === student_id && a.badge_key === badge_key);
       if (!exists) {
-        achievements.push({ student_id, badge_key, earned_at: new Date().toISOString() });
+        achievements.push({ student_id, badge_key, earned_at });
         localStorage.setItem('lernzy_local_achievements', JSON.stringify(achievements));
       }
       return { lastInsertRowId: 1, changes: 1 };
@@ -222,6 +285,14 @@ const mockDb = {
       const achievements = JSON.parse(localStorage.getItem('lernzy_local_achievements') || '[]');
       const studentId = params[0];
       return achievements.filter((a: any) => a.student_id === studentId) as unknown as T[];
+    }
+
+    if (lowerSql.includes('from sync_queue')) {
+      const queue = JSON.parse(localStorage.getItem('lernzy_local_sync_queue') || '[]');
+      return queue
+        .slice()
+        .sort((a: any, b: any) => Number(a.client_timestamp) - Number(b.client_timestamp))
+        .slice(0, 20) as unknown as T[];
     }
     
     throw new Error(`[Mock DB Web] Unsupported SQL query (getAllAsync): ${sql}`);

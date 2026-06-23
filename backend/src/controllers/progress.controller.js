@@ -99,12 +99,12 @@ const createEvent = async (req, res, next) => {
           }
         }
 
-        // 2. Perform duplicate lookup by clientGeneratedId/eventId
+        // 2. Perform duplicate lookup by clientGeneratedId/eventId scoped to the authenticated user
         let existingEvent = null;
         if (eventId) {
-          existingEvent = await ProgressEvent.findOne({ eventId });
+          existingEvent = await ProgressEvent.findOne({ userId: req.user._id, eventId });
         } else if (clientGeneratedId) {
-          existingEvent = await ProgressEvent.findOne({ clientGeneratedId });
+          existingEvent = await ProgressEvent.findOne({ userId: req.user._id, clientGeneratedId });
         }
 
         if (existingEvent) {

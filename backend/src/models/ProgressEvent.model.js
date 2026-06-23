@@ -4,7 +4,7 @@ const progressEventSchema = new mongoose.Schema(
   {
     userId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
     studentId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
-    eventId: { type: String, unique: true, sparse: true },
+    eventId: { type: String, trim: true },
     eventType: { type: String, required: true },
     lessonId: { type: String, trim: true },
     module: { type: String, required: true },
@@ -33,6 +33,8 @@ const progressEventSchema = new mongoose.Schema(
 progressEventSchema.index({ studentId: 1 });
 progressEventSchema.index({ lessonId: 1 });
 progressEventSchema.index({ createdAt: 1 });
+progressEventSchema.index({ userId: 1, eventId: 1 }, { unique: true, sparse: true });
+progressEventSchema.index({ userId: 1, clientGeneratedId: 1 }, { unique: true, sparse: true });
 
 // Referential integrity check (Foreign Key validation)
 progressEventSchema.pre("save", async function validateUserId(next) {

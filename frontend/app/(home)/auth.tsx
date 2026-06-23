@@ -89,7 +89,11 @@ export default function AuthScreen(): React.JSX.Element {
             : 'आपका क्लाउड लर्निंग प्रोफाइल तैयार और सिंक हो गया है।'
         );
       }
-      router.back();
+      if (router.canGoBack()) {
+        router.back();
+      } else {
+        router.replace('/(home)');
+      }
     } catch (err: any) {
       Alert.alert(
         language === 'en' ? 'Authentication Failed' : 'प्रमाणीकरण विफल',

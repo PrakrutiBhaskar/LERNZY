@@ -36,9 +36,7 @@ const quizSubmissionSchema = new mongoose.Schema(
     },
     clientGeneratedId: {
       type: String,
-      trim: true,
-      unique: true,
-      sparse: true
+      trim: true
     },
     schemaVersion: {
       type: Number,
@@ -52,6 +50,7 @@ const quizSubmissionSchema = new mongoose.Schema(
 quizSubmissionSchema.index({ studentId: 1 });
 quizSubmissionSchema.index({ questionId: 1 });
 quizSubmissionSchema.index({ createdAt: 1 });
+quizSubmissionSchema.index({ studentId: 1, clientGeneratedId: 1 }, { unique: true, sparse: true });
 
 // Sync userId & studentId pre-save
 quizSubmissionSchema.pre("save", function (next) {
