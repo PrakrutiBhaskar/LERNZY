@@ -18,6 +18,7 @@ import { getObject } from '@/utils/storage';
 import {
   getQuizQuestions,
   getTopicSubject,
+  normalizeQuizQuestions,
   Question as QuizQuestion,
 } from '@/content/learningContent';
 
@@ -105,23 +106,41 @@ export default function QuizScreen(): React.JSX.Element {
   const [submitted, setSubmitted] = useState(false);
   const [score, setScore] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
+  const [loadError, setLoadError] = useState<string | null>(null);
+  const totalQuestions = questions.length;
 
   useEffect(() => {
+    let active = true;
+
     async function loadQuizQuestions() {
-      const localQs = await getQuizQuestions(quizKey);
-      setQuestions(localQs);
-      setCurrentIdx(0);
-      setSelectedIdx(null);
-      setSubmitted(false);
-      setScore(0);
-      setQuizCompleted(false);
+      setLoadError(null);
+
+      try {
+        const localQs = await getQuizQuestions(quizKey);
+        if (!active) return;
+
+        setQuestions(localQs);
+        setCurrentIdx(0);
+        setSelectedIdx(null);
+        setSubmitted(false);
+        setScore(0);
+        setQuizCompleted(false);
+      } catch (localErr: any) {
+        if (!active) return;
+        console.error('[Quiz Integration] Failed to load local quiz questions:', localErr);
+        setQuestions([]);
+        setLoadError(localErr?.message || 'Unable to load quiz questions.');
+      }
 
       try {
         const response = await apiFetch(`/api/v1/topics/${quizKey}`);
         if (response.ok) {
           const res = await response.json();
-          if (res && res.success && res.data && res.data.metadata && Array.isArray(res.data.metadata.quizQuestions)) {
-            setQuestions(res.data.metadata.quizQuestions);
+          const backendQuestions = normalizeQuizQuestions(res?.data?.metadata?.quizQuestions, quizKey);
+
+          if (active && backendQuestions.length > 0) {
+            setQuestions(backendQuestions);
+            setLoadError(null);
             console.log('[Quiz Integration] Successfully loaded quiz questions from backend for topic:', quizKey);
           }
         }
@@ -129,7 +148,12 @@ export default function QuizScreen(): React.JSX.Element {
         console.log('[Quiz Integration] Failed to fetch quiz questions from server, using local fallback bank:', apiErr.message);
       }
     }
+
     loadQuizQuestions();
+
+    return () => {
+      active = false;
+    };
   }, [quizKey]);
 
   useEffect(() => {
@@ -159,23 +183,34 @@ export default function QuizScreen(): React.JSX.Element {
       }
       saveResult();
     }
-  }, [quizCompleted]);
+  }, [quizCompleted, quizKey, score, totalQuestions]);
 
   if (questions.length === 0) {
     return (
       <ScreenContainer
-        title={language === 'en' ? 'Practice Challenge' : 'Loading...'}
+        title={language === 'en' ? 'Practice Challenge' : language === 'hi' ? 'अभ्यास चुनौती' : 'ಅಭ್ಯಾಸ ಸವಾಲು'}
         showBackButton={true}
       >
-        <AppText variant="body" style={{ textAlign: 'center', marginTop: 40 }}>
-          Loading questions...
-        </AppText>
+        <Card style={styles.emptyStateCard}>
+          <AppText variant="body" style={{ textAlign: 'center' }}>
+            {loadError
+              ? (language === 'en'
+                ? 'We could not load this quiz right now. Please go back and try again.'
+                : language === 'hi'
+                ? 'हम अभी यह क्विज़ लोड नहीं कर पाए। कृपया वापस जाकर फिर कोशिश करें।'
+                : 'ಈ ರಸಪ್ರಶ್ನೆಯನ್ನು ಈಗ ಲೋಡ್ ಮಾಡಲು ಆಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಹಿಂದಿರುಗಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.')
+              : (language === 'en'
+                ? 'Loading questions...'
+                : language === 'hi'
+                ? 'प्रश्न लोड हो रहे हैं...'
+                : 'ಪ್ರಶ್ನೆಗಳು ಲೋಡ್ ಆಗುತ್ತಿವೆ...')}
+          </AppText>
+        </Card>
       </ScreenContainer>
     );
   }
 
   const activeQuestion = questions[currentIdx];
-  const totalQuestions = questions.length;
 
   const handleSubmit = () => {
     if (selectedIdx === null) return;
@@ -437,6 +472,10 @@ const styles = StyleSheet.create({
   },
   actionSection: {
     marginTop: 14,
+  },
+  emptyStateCard: {
+    padding: 24,
+    marginTop: 40,
   },
   summaryCard: {
     padding: 30,

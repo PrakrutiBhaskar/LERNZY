@@ -132,7 +132,7 @@ const mockDb = {
       let studentId = 1;
       if (auth.isAuthenticated && auth.user) {
         studentName = auth.user.name || 'Friend';
-        const str = auth.user._id || auth.user.email || '1';
+        const str = auth.user.id || auth.user.email || '1';
         let hash = 0;
         for (let i = 0; i < str.length; i++) {
           hash = (hash << 5) - hash + str.charCodeAt(i);
@@ -307,7 +307,7 @@ export async function ensureLocalStudent(profile: LocalStudentProfile = {}): Pro
   if (!isLocalDatabaseAvailable()) {
     const auth = getAuthState();
     if (auth.isAuthenticated && auth.user) {
-      const str = auth.user._id || auth.user.email || '1';
+      const str = auth.user.id || auth.user.email || '1';
       let hash = 0;
       for (let i = 0; i < str.length; i++) {
         hash = (hash << 5) - hash + str.charCodeAt(i);

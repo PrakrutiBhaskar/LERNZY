@@ -2683,7 +2683,6 @@ export const LAZY_QUIZZES: Record<string, () => Promise<any>> = {
   "science_grade6_ch01_food_sources_basics": () => import('../../assets/content/grade_6/science/ch01_food_sources/quiz_bank.json'),
   "science_grade6_ch02_components_of_food_basics": () => import('../../assets/content/grade_6/science/ch02_components_of_food/quiz_bank.json'),
   "science_grade6_ch03_fibre_to_fabric_basics": () => import('../../assets/content/grade_6/science/ch03_fibre_to_fabric/quiz_bank.json'),
-  "science_grade6_ch04_sorting_materials_basics": () => import('../../assets/content/grade_6/science/ch04_sorting_materials/quiz_bank.json'),
   "science_grade6_ch05_separation_of_substances_basics": () => import('../../assets/content/grade_6/science/ch05_separation_of_substances/quiz_bank.json'),
   "science_grade6_ch06_changes_around_us_basics": () => import('../../assets/content/grade_6/science/ch06_changes_around_us/quiz_bank.json'),
   "science_grade6_ch07_getting_to_know_plants_basics": () => import('../../assets/content/grade_6/science/ch07_getting_to_know_plants/quiz_bank.json'),
@@ -2733,7 +2732,6 @@ export const LAZY_QUIZZES: Record<string, () => Promise<any>> = {
   "english_grade6_ch06_monkey_crocodile_basics": () => import('../../assets/content/grade_6/english/ch06_monkey_crocodile/quiz_bank.json'),
   "english_grade6_ch07_wonder_sleep_basics": () => import('../../assets/content/grade_6/english/ch07_wonder_sleep/quiz_bank.json'),
   "english_grade6_ch08_pact_with_sun_basics": () => import('../../assets/content/grade_6/english/ch08_pact_with_sun/quiz_bank.json'),
-  "english_grade6_ch09_what_happened_reptiles_basics": () => import('../../assets/content/grade_6/english/ch09_what_happened_reptiles/quiz_bank.json'),
   "english_grade6_ch10_strange_wrestling_match_basics": () => import('../../assets/content/grade_6/english/ch10_strange_wrestling_match/quiz_bank.json'),
   "english_grade6_ch11_poetry_vocation_basics": () => import('../../assets/content/grade_6/english/ch11_poetry_vocation/quiz_bank.json'),
   "english_grade6_ch12_poetry_teachers_basics": () => import('../../assets/content/grade_6/english/ch12_poetry_teachers/quiz_bank.json'),
@@ -2751,7 +2749,6 @@ export const LAZY_QUIZZES: Record<string, () => Promise<any>> = {
   "math_grade7_ch09_rational_numbers_basics": () => import('../../assets/content/grade_7/math/ch09_rational_numbers/quiz_bank.json'),
   "math_grade7_ch10_practical_geometry_basics": () => import('../../assets/content/grade_7/math/ch10_practical_geometry/quiz_bank.json'),
   "math_grade7_ch11_perimeter_area_basics": () => import('../../assets/content/grade_7/math/ch11_perimeter_area/quiz_bank.json'),
-  "math_grade7_ch12_algebraic_expressions_basics": () => import('../../assets/content/grade_7/math/ch12_algebraic_expressions/quiz_bank.json'),
   "math_grade7_ch13_exponents_powers_basics": () => import('../../assets/content/grade_7/math/ch13_exponents_powers/quiz_bank.json'),
   "math_grade7_ch14_symmetry_basics": () => import('../../assets/content/grade_7/math/ch14_symmetry/quiz_bank.json'),
   "math_grade7_ch15_visualising_solid_shapes_basics": () => import('../../assets/content/grade_7/math/ch15_visualising_solid_shapes/quiz_bank.json'),
@@ -2884,7 +2881,6 @@ export const LAZY_FLASHCARDS: Record<string, () => Promise<any>> = {
   "science_grade6_ch12_electricity_circuits_basics": () => import('../../assets/content/grade_6/science/ch12_electricity_circuits/flashcards.json'),
   "science_grade6_ch13_fun_with_magnets_basics": () => import('../../assets/content/grade_6/science/ch13_fun_with_magnets/flashcards.json'),
   "science_grade6_ch14_water_basics": () => import('../../assets/content/grade_6/science/ch14_water/flashcards.json'),
-  "science_grade6_ch15_air_around_us_basics": () => import('../../assets/content/grade_6/science/ch15_air_around_us/flashcards.json'),
   "science_grade6_ch16_garbage_in_out_basics": () => import('../../assets/content/grade_6/science/ch16_garbage_in_out/flashcards.json'),
   "social_grade6_ch01_history_sources_basics": () => import('../../assets/content/grade_6/social/ch01_history_sources/flashcards.json'),
   "social_grade6_ch02_earliest_people_basics": () => import('../../assets/content/grade_6/social/ch02_earliest_people/flashcards.json'),
@@ -2892,7 +2888,6 @@ export const LAZY_FLASHCARDS: Record<string, () => Promise<any>> = {
   "social_grade6_ch04_earliest_cities_basics": () => import('../../assets/content/grade_6/social/ch04_earliest_cities/flashcards.json'),
   "social_grade6_ch05_books_burials_basics": () => import('../../assets/content/grade_6/social/ch05_books_burials/flashcards.json'),
   "social_grade6_ch06_kingdoms_republic_basics": () => import('../../assets/content/grade_6/social/ch06_kingdoms_republic/flashcards.json'),
-  "social_grade6_ch07_new_ideas_basics": () => import('../../assets/content/grade_6/social/ch07_new_ideas/flashcards.json'),
   "social_grade6_ch08_ashoka_emperor_basics": () => import('../../assets/content/grade_6/social/ch08_ashoka_emperor/flashcards.json'),
   "social_grade6_ch09_thriving_towns_basics": () => import('../../assets/content/grade_6/social/ch09_thriving_towns/flashcards.json'),
   "social_grade6_ch10_traders_pilgrims_basics": () => import('../../assets/content/grade_6/social/ch10_traders_pilgrims/flashcards.json'),
@@ -2930,15 +2925,6 @@ export const LAZY_FLASHCARDS: Record<string, () => Promise<any>> = {
   "english_grade6_ch13_poetry_wonderful_words_basics": () => import('../../assets/content/grade_6/english/ch13_poetry_wonderful_words/flashcards.json'),
   "english_grade6_ch14_poetry_water_basics": () => import('../../assets/content/grade_6/english/ch14_poetry_water/flashcards.json'),
   "english_grade6_ch15_poetry_beauty_basics": () => import('../../assets/content/grade_6/english/ch15_poetry_beauty/flashcards.json'),
-  "kannada_grade6_ch01_prose_basics": () => import('../../assets/content/grade_6/kannada/ch01_prose/flashcards.json'),
-  "kannada_grade6_ch02_poetry_basics": () => import('../../assets/content/grade_6/kannada/ch02_poetry/flashcards.json'),
-  "kannada_grade6_ch03_sandhi_basics": () => import('../../assets/content/grade_6/kannada/ch03_sandhi/flashcards.json'),
-  "kannada_grade6_ch04_samasa_basics": () => import('../../assets/content/grade_6/kannada/ch04_samasa/flashcards.json'),
-  "kannada_grade6_ch05_vacana_basics": () => import('../../assets/content/grade_6/kannada/ch05_vacana/flashcards.json'),
-  "kannada_grade6_ch06_linga_basics": () => import('../../assets/content/grade_6/kannada/ch06_linga/flashcards.json'),
-  "kannada_grade6_ch07_vibhakti_basics": () => import('../../assets/content/grade_6/kannada/ch07_vibhakti/flashcards.json'),
-  "kannada_grade6_ch08_kriyapada_basics": () => import('../../assets/content/grade_6/kannada/ch08_kriyapada/flashcards.json'),
-  "kannada_grade6_ch09_alankara_basics": () => import('../../assets/content/grade_6/kannada/ch09_alankara/flashcards.json'),
   "math_grade7_ch01_integers_basics": () => import('../../assets/content/grade_7/math/ch01_integers/flashcards.json'),
   "math_grade7_ch02_fractions_decimals_basics": () => import('../../assets/content/grade_7/math/ch02_fractions_decimals/flashcards.json'),
   "math_grade7_ch03_data_handling_basics": () => import('../../assets/content/grade_7/math/ch03_data_handling/flashcards.json'),
@@ -2950,7 +2936,6 @@ export const LAZY_FLASHCARDS: Record<string, () => Promise<any>> = {
   "math_grade7_ch09_rational_numbers_basics": () => import('../../assets/content/grade_7/math/ch09_rational_numbers/flashcards.json'),
   "math_grade7_ch10_practical_geometry_basics": () => import('../../assets/content/grade_7/math/ch10_practical_geometry/flashcards.json'),
   "math_grade7_ch11_perimeter_area_basics": () => import('../../assets/content/grade_7/math/ch11_perimeter_area/flashcards.json'),
-  "math_grade7_ch12_algebraic_expressions_basics": () => import('../../assets/content/grade_7/math/ch12_algebraic_expressions/flashcards.json'),
   "math_grade7_ch13_exponents_powers_basics": () => import('../../assets/content/grade_7/math/ch13_exponents_powers/flashcards.json'),
   "math_grade7_ch14_symmetry_basics": () => import('../../assets/content/grade_7/math/ch14_symmetry/flashcards.json'),
   "math_grade7_ch15_visualising_solid_shapes_basics": () => import('../../assets/content/grade_7/math/ch15_visualising_solid_shapes/flashcards.json'),
@@ -3126,6 +3111,116 @@ function getQuizQuestionsFallback(topicId: string): Question[] {
   ];
 }
 
+function unwrapModule<T>(data: T | { default?: T }): T {
+  return data && typeof data === 'object' && 'default' in data && data.default
+    ? data.default
+    : (data as T);
+}
+
+function toLocalizedText(value: unknown, fallback = ''): LocalizedText {
+  if (value && typeof value === 'object') {
+    const text = value as Partial<LocalizedText>;
+    const en = String(text.en ?? text.hi ?? text.kn ?? fallback);
+    return {
+      en,
+      hi: String(text.hi ?? en),
+      kn: String(text.kn ?? en),
+    };
+  }
+
+  const text = String(value ?? fallback);
+  return { en: text, hi: text, kn: text };
+}
+
+function toLocalizedOptions(value: unknown): { en: string[]; hi: string[]; kn: string[] } {
+  if (Array.isArray(value)) {
+    const options = value.map((option) => String(option));
+    return { en: options, hi: options, kn: options };
+  }
+
+  if (value && typeof value === 'object') {
+    const options = value as Partial<Record<keyof LocalizedText, unknown>>;
+    const en = Array.isArray(options.en) ? options.en.map((option) => String(option)) : [];
+    const hi = Array.isArray(options.hi) ? options.hi.map((option) => String(option)) : en;
+    const kn = Array.isArray(options.kn) ? options.kn.map((option) => String(option)) : en;
+    return { en, hi, kn };
+  }
+
+  return { en: [], hi: [], kn: [] };
+}
+
+function getCorrectIndex(rawQuestion: any, options: { en: string[]; hi: string[]; kn: string[] }): number {
+  const explicitIndex =
+    rawQuestion.correct_index ??
+    rawQuestion.correctIndex ??
+    rawQuestion.answerIndex ??
+    rawQuestion.correctOptionIndex;
+
+  if (typeof explicitIndex === 'number' && Number.isInteger(explicitIndex)) {
+    return explicitIndex >= 0 && explicitIndex < options.en.length ? explicitIndex : 0;
+  }
+
+  if (typeof explicitIndex === 'string' && explicitIndex.trim() !== '') {
+    const parsedIndex = Number(explicitIndex);
+    if (Number.isInteger(parsedIndex) && parsedIndex >= 0 && parsedIndex < options.en.length) {
+      return parsedIndex;
+    }
+  }
+
+  const correctAnswer =
+    rawQuestion.correct_answer ??
+    rawQuestion.correctAnswer ??
+    rawQuestion.answer ??
+    rawQuestion.correctOption;
+
+  if (typeof correctAnswer === 'string') {
+    const normalizedAnswer = correctAnswer.trim();
+    const index = options.en.findIndex((option) => option.trim() === normalizedAnswer);
+    if (index >= 0) return index;
+
+    const letterMatch = normalizedAnswer.match(/^[A-D]\)?/i);
+    if (letterMatch) {
+      const letterIndex = letterMatch[0].toUpperCase().charCodeAt(0) - 65;
+      if (letterIndex >= 0 && letterIndex < options.en.length) return letterIndex;
+    }
+  }
+
+  return 0;
+}
+
+function normalizeQuizQuestion(rawQuestion: any, topicId: string, index: number): Question | null {
+  const question = toLocalizedText(rawQuestion.question ?? rawQuestion.prompt ?? rawQuestion.text);
+  const options = toLocalizedOptions(rawQuestion.options ?? rawQuestion.choices ?? rawQuestion.answers);
+
+  if (!question.en || options.en.length === 0) {
+    return null;
+  }
+
+  return {
+    id: String(rawQuestion.id ?? rawQuestion.questionId ?? `${topicId}-q${index + 1}`),
+    question,
+    options,
+    correct_index: getCorrectIndex(rawQuestion, options),
+    explanation: toLocalizedText(rawQuestion.explanation ?? rawQuestion.solution ?? rawQuestion.feedback),
+  };
+}
+
+export function normalizeQuizQuestions(data: unknown, topicId: string): Question[] {
+  const quizData = unwrapModule(data as any) as any;
+  const rawQuestions =
+    Array.isArray(quizData) ? quizData :
+    Array.isArray(quizData?.questions) ? quizData.questions :
+    Array.isArray(quizData?.mcqs) ? quizData.mcqs :
+    Array.isArray(quizData?.level_1_mcqs) ? quizData.level_1_mcqs :
+    Array.isArray(quizData?.quizQuestions) ? quizData.quizQuestions :
+    Array.isArray(quizData?.metadata?.quizQuestions) ? quizData.metadata.quizQuestions :
+    [];
+
+  return rawQuestions
+    .map((rawQuestion: any, index: number) => normalizeQuizQuestion(rawQuestion, topicId, index))
+    .filter((question: Question | null): question is Question => question !== null);
+}
+
 function getFlashcardsFallback(topicId: string): FlashcardItem[] {
   return [
     {
@@ -3141,7 +3236,7 @@ export async function getLessonContent(topicId: string): Promise<LessonContent> 
   const loader = LAZY_LESSONS[topicId];
   if (!loader) return getLessonContentFallback(topicId);
   try {
-    const data = await loader();
+    const data = unwrapModule(await loader());
     if (data && Array.isArray(data.topics) && data.topics.length > 0) {
       const topic = data.topics[0];
       let steps = topic.worked_example?.steps;
@@ -3250,30 +3345,8 @@ export async function getQuizQuestions(topicId: string): Promise<Question[]> {
   const loader = LAZY_QUIZZES[topicId];
   if (!loader) return getQuizQuestionsFallback(topicId);
   try {
-    const data = await loader();
-    if (data && Array.isArray(data.questions)) {
-      return data.questions;
-    }
-    
-    // Support version 2.0 quiz banks
-    if (data && data.version === '2.0' && Array.isArray(data.level_1_mcqs)) {
-      return data.level_1_mcqs.map((mcq: any) => {
-        const qText = mcq.question || '';
-        const opts = mcq.options || [];
-        const correctIndex = opts.indexOf(mcq.correct_answer);
-        const expText = mcq.explanation || '';
-        
-        return {
-          id: mcq.id || (topicId + '-' + Math.random()),
-          question: typeof qText === 'object' ? qText : { en: qText, hi: qText, kn: qText },
-          options: Array.isArray(opts) ? { en: opts, hi: opts, kn: opts } : opts,
-          correct_index: correctIndex >= 0 ? correctIndex : 0,
-          explanation: typeof expText === 'object' ? expText : { en: expText, hi: expText, kn: expText }
-        };
-      });
-    }
-    
-    return getQuizQuestionsFallback(topicId);
+    const questions = normalizeQuizQuestions(await loader(), topicId);
+    return questions.length > 0 ? questions : getQuizQuestionsFallback(topicId);
   } catch (e) {
     console.error('Error loading lazy quiz questions for ' + topicId, e);
     return getQuizQuestionsFallback(topicId);
