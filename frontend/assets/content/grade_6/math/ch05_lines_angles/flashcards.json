@@ -1,0 +1,172 @@
+{
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 7,
+  "subject": "Mathematics",
+  "textbook": "Mathematics — Textbook for Class VII",
+  "chapter_number": 5,
+  "chapter_title": "Lines and Angles",
+  "total_cards": 20,
+  "cards": [
+    {
+      "id": "fc01",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What are complementary angles? Give an example.",
+      "back": "Two angles are complementary if their measures sum to exactly 90°. They do NOT need to be adjacent (next to each other). Example: 35° and 55° are complementary (35 + 55 = 90). Also: 45° and 45°, or 20° and 70°. The complement of any angle x° = (90 − x)°.",
+      "memory_hook": "COMPLEMENTARY = 90° = C for Corner (right angle is a corner). C-9: Complementary = 9 tens = 90°."
+    },
+    {
+      "id": "fc02",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What are supplementary angles? Give an example.",
+      "back": "Two angles are supplementary if their measures sum to exactly 180°. They do NOT need to be adjacent. Example: 110° and 70° are supplementary (110 + 70 = 180). Also: 90° and 90°, or 135° and 45°. The supplement of any angle x° = (180 − x)°.",
+      "memory_hook": "SUPPLEMENTARY = 180° = S for Straight line (180° is a straight angle). S-18: Supplementary = 18 tens = 180°."
+    },
+    {
+      "id": "fc03",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a linear pair of angles? What is the linear pair axiom?",
+      "back": "A linear pair is a pair of adjacent angles formed when two rays emerge from the same point on a straight line. Their non-common arms together form a straight line (180°). Linear pair axiom: If two angles form a linear pair, they are supplementary — they sum to 180°. This is stated as an axiom (accepted without proof). Example: If ∠AOB = 65° and ∠AOB forms a linear pair with ∠BOC, then ∠BOC = 115°.",
+      "memory_hook": "LINEAR = straight LINE. Linear pair makes a LINE = 180°. If you see two angles sitting on a straight line, they're a linear pair and must sum to 180°."
+    },
+    {
+      "id": "fc04",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What are vertically opposite angles? State their key property.",
+      "back": "When two straight lines intersect at a point, four angles are formed. The two pairs of angles that are across from each other (not next to each other) are called vertically opposite angles. Key property: Vertically opposite angles are ALWAYS EQUAL. Example: if two lines intersect and one angle = 70°, then the angle directly opposite = 70°, and the two adjacent angles = 110° each. The word 'vertically' refers to the vertex, not direction.",
+      "memory_hook": "VERTICALLY OPPOSITE = V-O = Equal. Look for the X shape — opposite angles in an X are always equal. V-O-E: Vertically Opposite = Equal."
+    },
+    {
+      "id": "fc05",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Two lines intersect. One of the four angles is 130°. Find all four angles.",
+      "back": "Given: one angle = 130°. Vertically opposite angle = 130° (equal). Linear pair angle = 180° − 130° = 50°. The other vertically opposite angle = 50°. All four angles: 130°, 50°, 130°, 50°. Check: 130 + 50 + 130 + 50 = 360° ✓ (angles at a point sum to 360°).",
+      "memory_hook": "Two lines crossing = X shape = two pairs: equal opposites. Find one angle → opposite equals it → linear pair = 180 minus it → its opposite = it too. Always check they sum to 360°."
+    },
+    {
+      "id": "fc06",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What is a transversal? How many angles does it create when crossing two lines?",
+      "back": "A transversal is a line that intersects two or more other lines at distinct (different) points. When a transversal crosses TWO lines: it creates 8 angles — 4 at each intersection point. These 8 angles form special pairs: corresponding (4 pairs), alternate interior (2 pairs), alternate exterior (2 pairs), and co-interior/same-side interior (2 pairs). When the two lines are parallel, these angle pairs have specific equal or supplementary relationships.",
+      "memory_hook": "TRANSVERSAL = crosses lines. 2 lines crossed = 8 angles. Think of a road crossing two parallel railway tracks — the road creates 4 angles at each crossing = 8 total."
+    },
+    {
+      "id": "fc07",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What are corresponding angles? Are they equal? What shape do they form?",
+      "back": "Corresponding angles are the angles in the same position at each intersection when a transversal crosses two lines — for example, both are above-left of their intersection. Property: When the two lines are parallel, corresponding angles are EQUAL. Shape: They form an F-shape (or its mirror image). Example: if a transversal crosses two parallel lines and one angle is 65°, the corresponding angle at the other intersection is also 65°.",
+      "memory_hook": "CORRESPONDING = same position = equal (for parallel lines). F-shape: draw the letter F — the two horizontal arms show the corresponding angles. F = Friendly (they're equal when lines are parallel)."
+    },
+    {
+      "id": "fc08",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What are alternate interior angles? Are they equal? What shape do they form?",
+      "back": "Alternate interior angles are angles between the two lines (interior), on opposite sides (alternate) of the transversal. Property: When the two lines are parallel, alternate interior angles are EQUAL. Shape: They form a Z-shape or N-shape. Example: if a transversal crosses two parallel lines and one alternate interior angle is 55°, the other alternate interior angle is also 55°.",
+      "memory_hook": "ALTERNATE = ALTernate sides (opposite sides). INTERIOR = between the lines. Z-shape or N-shape. Z = zigzag between the lines to find the alternate interior angles. Equal when parallel."
+    },
+    {
+      "id": "fc09",
+      "type": "Definition",
+      "difficulty": "Easy",
+      "front": "What are co-interior angles? Are they equal? What is their relationship when lines are parallel?",
+      "back": "Co-interior angles (also called same-side interior angles or consecutive interior angles) are angles between the two lines (interior), on the SAME side of the transversal. Property: When the two lines are parallel, co-interior angles are SUPPLEMENTARY — they sum to 180°. Shape: They form a C-shape or U-shape. Note: They are NOT equal (unless each is 90°). Example: one co-interior angle = 70°, the other = 110°. Sum = 180°.",
+      "memory_hook": "CO-INTERIOR = Co (together) + Interior (between lines) + Same side. C-shape. They're like partners adding up to 180°. C = Complementary's bigger sibling (but C-interior = 180°, not 90°)."
+    },
+    {
+      "id": "fc10",
+      "type": "Recall",
+      "difficulty": "Easy",
+      "front": "State the FZC rule for angles formed by a transversal crossing parallel lines.",
+      "back": "FZC is a memory rule for the three main angle relationships: F-shape → Corresponding angles → EQUAL. Z-shape (or N) → Alternate interior angles → EQUAL. C-shape (or U) → Co-interior angles → SUM TO 180° (supplementary). All three are only guaranteed when the lines are PARALLEL. Converse: if F/Z angles are equal, or C angles sum to 180°, then the lines ARE parallel.",
+      "memory_hook": "FZC = Friendly Zebra Crossing. F (equal), Z (equal), C (180°). Or: F and Z are friends (equal). C is different (sums to 180°, not equal)."
+    },
+    {
+      "id": "fc11",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "A transversal crosses two parallel lines. One angle = 115°. Find the corresponding, alternate interior, and co-interior angle on the same side.",
+      "back": "Given angle = 115°. Corresponding angle = 115° (F-shape, equal). Alternate interior angle = 115° (Z-shape, equal). Co-interior angle = 180° − 115° = 65° (C-shape, supplementary). Check: 115° + 65° = 180° ✓.",
+      "memory_hook": "Corresponding and alternate interior both MATCH the given angle (equal). Co-interior is the DIFFERENCE from 180°. Two equals, one complement-to-180. FZC pattern every time."
+    },
+    {
+      "id": "fc12",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Find the complement of 67° and the supplement of 123°.",
+      "back": "Complement of 67° = 90° − 67° = 23°. Supplement of 123° = 180° − 123° = 57°. Quick check: does a complement make sense? 67° < 90°, so yes (angles > 90° have no complement). Does a supplement make sense? 123° < 180°, so yes.",
+      "memory_hook": "Complement → subtract from 90. Supplement → subtract from 180. Always check the original angle is less than 90° (for complement) or less than 180° (for supplement)."
+    },
+    {
+      "id": "fc13",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "Two supplementary angles are in the ratio 4:5. Find both angles.",
+      "back": "Let the angles be 4x and 5x. Supplementary means: 4x + 5x = 180°. 9x = 180°. x = 20°. Angles: 4 × 20° = 80° and 5 × 20° = 100°. Check: 80° + 100° = 180° ✓.",
+      "memory_hook": "Ratio problems: assign 'x' to each part. Set up the sum equation (90 for complementary, 180 for supplementary). Solve for x, then multiply. Always verify by checking the sum."
+    },
+    {
+      "id": "fc14",
+      "type": "Why/How",
+      "difficulty": "Easy",
+      "front": "Prove that vertically opposite angles are equal using the linear pair axiom.",
+      "back": "Proof: Let two lines intersect at O, forming angles ∠1, ∠2, ∠3, ∠4 in order. ∠1 and ∠2 form a linear pair → ∠1 + ∠2 = 180° ... (i). ∠2 and ∠3 form a linear pair → ∠2 + ∠3 = 180° ... (ii). From (i) and (ii): ∠1 + ∠2 = ∠2 + ∠3. Subtracting ∠2 from both sides: ∠1 = ∠3. Similarly, ∠2 = ∠4. Therefore vertically opposite angles are equal. QED.",
+      "memory_hook": "Proof strategy: Both angles share a linear pair with the SAME angle. If A+B=180 and B+C=180, then A=C. The shared middle angle cancels out."
+    },
+    {
+      "id": "fc15",
+      "type": "Application",
+      "difficulty": "Moderate",
+      "front": "Two lines are cut by a transversal. If ∠1 = 3x + 10° and its corresponding angle ∠2 = 5x − 30°, find x and both angles. Are the lines parallel?",
+      "back": "Corresponding angles are equal when lines are parallel. Set ∠1 = ∠2: 3x + 10 = 5x − 30. 10 + 30 = 5x − 3x. 40 = 2x. x = 20°. ∠1 = 3(20) + 10 = 70°. ∠2 = 5(20) − 30 = 70°. Since corresponding angles are equal (70° = 70°), the lines ARE parallel.",
+      "memory_hook": "Corresponding angles equal → lines parallel. Set them equal, solve for x. Then check: does it make sense? Both angles must be the same."
+    },
+    {
+      "id": "fc16",
+      "type": "Concept",
+      "difficulty": "Easy",
+      "front": "What is the difference between adjacent angles and a linear pair?",
+      "back": "Adjacent angles: share a common vertex AND a common arm, with their interiors not overlapping. They can have ANY sum (not necessarily 180°). Linear pair: a SPECIAL case of adjacent angles where the two non-common arms form a straight line — so they must sum to 180°. Key: all linear pairs are adjacent, but NOT all adjacent angles are linear pairs. Example: Two adjacent angles of 60° and 80° are adjacent but NOT a linear pair (60+80=140≠180).",
+      "memory_hook": "Adjacent = neighbours (share a side). Linear pair = neighbours on a STRAIGHT road (must sum to 180°). Not all neighbours live on a straight road."
+    },
+    {
+      "id": "fc17",
+      "type": "Application",
+      "difficulty": "Easy",
+      "front": "In the figure, two parallel lines are cut by a transversal. One angle is 73°. Find the co-interior angle on the same side.",
+      "back": "Co-interior angles (C-shape) are supplementary when lines are parallel: co-interior angle = 180° − 73° = 107°. Check: 73° + 107° = 180° ✓. These two angles are between the parallel lines on the same side of the transversal — the C-shape confirms they must sum to 180°.",
+      "memory_hook": "Co-interior → C-shape → sum = 180° → subtract given angle from 180°. Simple subtraction. Co-interior is always the 'other half' of 180°."
+    },
+    {
+      "id": "fc18",
+      "type": "Application",
+      "difficulty": "Moderate",
+      "front": "Angles at a point: five rays from a single point create five angles. Four of them are 45°, 60°, 85°, and 95°. Find the fifth angle.",
+      "back": "Angles around a complete point sum to 360°. Sum of four known angles = 45 + 60 + 85 + 95 = 285°. Fifth angle = 360° − 285° = 75°. Check: 45 + 60 + 85 + 95 + 75 = 360° ✓.",
+      "memory_hook": "Full rotation = 360°. All angles at a point sum to 360°. Missing angle = 360° minus the sum of all known angles. Like completing a pie chart to 100%."
+    },
+    {
+      "id": "fc19",
+      "type": "Application",
+      "difficulty": "Moderate",
+      "front": "Karnataka's railway tracks run parallel. A road crosses them at 65° to one track. Find the alternate interior angle and the co-interior angle formed with the second track.",
+      "back": "The road is a transversal crossing two parallel railway tracks. Given angle = 65°. Alternate interior angle (Z-shape) = 65° (equal, parallel lines). Co-interior angle (C-shape) = 180° − 65° = 115° (supplementary, parallel lines). This models a real situation: if a road crosses railway tracks at 65°, the angle on the other side of the road between the tracks is 65° (alternate), and the angle on the same side is 115° (co-interior).",
+      "memory_hook": "Real-world transversal problem: road = transversal, parallel tracks = parallel lines. Z = 65° (same as given). C = 180° − 65° = 115°."
+    },
+    {
+      "id": "fc20",
+      "type": "Concept",
+      "difficulty": "Moderate",
+      "front": "How do you use angle relationships to PROVE two lines are parallel?",
+      "back": "To prove lines are parallel using angle evidence: (1) If corresponding angles are EQUAL → lines are parallel. (2) If alternate interior angles are EQUAL → lines are parallel. (3) If co-interior angles SUM TO 180° → lines are parallel. These are the CONVERSES of the parallel line properties. Example: two lines cut by a transversal give co-interior angles of 112° and 68°. Sum = 112 + 68 = 180°. Therefore the lines ARE parallel. This converse reasoning is used constantly in geometry proofs.",
+      "memory_hook": "To PROVE parallel: check FZC. F equal → parallel. Z equal → parallel. C sums to 180° → parallel. Evidence of the pattern → conclusion of parallel lines. Converse logic."
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 7,
+  "subject": "Mathematics",
+  "textbook": "Mathematics — Textbook for Class VII",
+  "chapter_number": 4,
+  "chapter_title": "Simple Equations",
+  "estimated_study_time_minutes": 55,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Understand what an equation is and how it differs from an expression",
+    "Identify the LHS (left hand side), RHS (right hand side), and the variable in an equation",
+    "Solve simple linear equations in one variable using the balancing method",
+    "Solve equations using the transposing method",
+    "Set up equations from word problems and solve them",
+    "Verify solutions by substituting back into the original equation",
+    "Understand that the same operation applied to both sides preserves equality"
+  ],
+
+  "prerequisite_knowledge": [
+    "Knowledge of variables and algebraic expressions from earlier classes",
+    "Understanding of the four operations on integers",
+    "Basic understanding of LHS and RHS in mathematical statements",
+    "Concept of equality — that both sides of '=' must represent the same value"
+  ],
+
+  "introduction": {
+    "why_important": "Equations are the language of mathematics applied to real-world problem solving. Almost every real-life problem — calculating age, distance, price, time — can be set up as an equation and solved systematically. Algebra, calculus, physics, engineering, economics — all rest on the foundation of equation-solving.",
+    "real_life_relevance": "If you earn ₹x per day and ₹1,500 in 5 days, then 5x = 1500 → x = ₹300/day. If a rectangular field has perimeter 48 m and length is 3 more than width, you can set up and solve an equation to find the dimensions. Equations turn guesswork into certainty.",
+    "karnataka_context": "A Bengaluru IT professional calculates project timelines using equations. A Mysuru silk weaver calculates thread required using equations. A Karnataka farmer computes fertiliser quantity per acre using simple equations. Even splitting a restaurant bill in Bengaluru uses equation thinking: 'if 4 people pay equal shares and one coupon reduces total by ₹200, what does each person pay?'",
+    "connection_to_previous_learning": "Class VI introduced expressions and variables. Class VII introduces the equation — an expression with an equality sign — and the systematic method for finding the value of the unknown variable that makes the equation true."
+  },
+
+  "story_summary": {
+    "characters": [
+      {"name": "Variable (x, y, n…)", "role": "The unknown quantity we are trying to find — represents a number we don't yet know"},
+      {"name": "Equation", "role": "A mathematical statement that two expressions are equal — contains an '=' sign and a variable"},
+      {"name": "The Balance Method", "role": "Treating the equation as a balance scale — whatever you do to one side, you must do to the other to keep it balanced"},
+      {"name": "Transposition", "role": "Moving a term from one side of the equation to the other, changing its sign — a shortcut for the balance method"}
+    ],
+    "plot": [
+      "The chapter opens with a puzzle: 'I think of a number, add 5 to it, and get 12. What is the number?' This sets up: x + 5 = 12.",
+      "It introduces the concept of an equation — a statement asserting equality between two expressions — and defines LHS, RHS, and variable.",
+      "It develops the balancing method: an equation is like a balance scale; performing the same operation on both sides maintains equality.",
+      "It shows how to solve equations: x + 5 = 12 → subtract 5 from both sides → x = 7.",
+      "It introduces the transposing method as a shortcut: moving a term to the other side changes its sign.",
+      "It solves progressively complex equations: linear equations with variables on one side, then with variables and constants on both sides.",
+      "It develops word problems — translating English sentences into equations and solving them.",
+      "The chapter closes by emphasising verification — always substitute the answer back into the original equation to confirm."
+    ],
+    "moral": "An equation is a puzzle with a unique solution. The balancing method provides a systematic, reliable way to solve any linear equation. Checking your answer by substitution is not optional — it is the mathematical proof that your answer is correct."
+  },
+
+  "core_concepts": [
+    {
+      "concept_name": "What is an Equation?",
+      "simple_explanation": "An equation is a mathematical statement that two expressions are equal, connected by an '=' sign. It contains at least one variable (unknown). An expression does NOT have an '=' sign; an equation DOES.",
+      "detailed_explanation": "Expression vs Equation: '3x + 5' is an EXPRESSION (no equals sign). '3x + 5 = 14' is an EQUATION (has equals sign). Components: LHS (Left Hand Side) = the expression to the left of '='. RHS (Right Hand Side) = the expression to the right. Variable = the unknown (x, y, n, etc.). Solution = the value of the variable that makes LHS = RHS. Example: In 2x − 3 = 7: LHS = 2x−3, RHS = 7, Variable = x. Solution: 2(5)−3 = 7 ✓ → x=5 is the solution. An equation is like a balance scale — both sides weigh the same. Disturbing one side without doing the same to the other breaks the balance.",
+      "real_life_example": "'I think of a number, double it, and subtract 4 to get 10.' Equation: 2x − 4 = 10. Here x is the mystery number. Solving: 2x = 14, x = 7. Check: 2(7)−4 = 14−4 = 10 ✓.",
+      "karnataka_example": "'A Bengaluru auto driver charges ₹15 for the first km and ₹11 per km after that. A passenger pays ₹48. How many km did they travel after the first km?' Equation: 15 + 11n = 48 → 11n = 33 → n = 3 km.",
+      "common_mistakes": "Students confuse expressions with equations. '2x+3' is NOT an equation — you cannot 'solve' it because there is no equals sign. Only equations can be solved. Also, students sometimes think an equation can have any number of solutions — a simple linear equation in one variable has exactly ONE solution.",
+      "memory_tip": "Equation = EQUAL (has = sign). Expression = just a phrase (no = sign). 'Equation has an EQUAL sign. Expression is just an expression — it expresses a value but makes no claim about what it equals.' E = equation = equal sign present."
+    },
+    {
+      "concept_name": "Solving Equations — Balancing and Transposing",
+      "simple_explanation": "Balancing: perform the same operation on both sides to isolate the variable. Transposing: move a term to the other side, changing its sign. Both methods give the same result.",
+      "detailed_explanation": "Balancing Method: Goal = get the variable alone on one side. Rule = whatever you do to one side, do exactly the same to the other. Examples: x + 8 = 15 → subtract 8 from both sides → x = 7. 3x = 21 → divide both sides by 3 → x = 7. 2x − 5 = 11 → add 5 to both sides → 2x = 16 → divide by 2 → x = 8. Transposing Method (shortcut): when a term moves to the other side, its sign changes. Addition becomes subtraction; subtraction becomes addition; multiplication becomes division; division becomes multiplication. Example: x + 8 = 15 → x = 15 − 8 = 7 (8 'transposed' to RHS, sign changed from + to −). 3x = 21 → x = 21/3 = 7 (3 'transposed', × becomes ÷). Complex: 2x + 3 = x + 7 → 2x − x = 7 − 3 → x = 4.",
+      "real_life_example": "A shopkeeper has some apples (x). After selling 23 and buying 15 more, he has 42. Equation: x − 23 + 15 = 42 → x − 8 = 42 → x = 50. He started with 50 apples. Verify: 50 − 23 + 15 = 27 + 15 = 42 ✓.",
+      "karnataka_example": "Ravi and his sister together have ₹240. Ravi has ₹30 more than his sister. Find each person's amount. Let sister's amount = x. Ravi's = x+30. Equation: x + (x+30) = 240 → 2x + 30 = 240 → 2x = 210 → x = 105. Sister: ₹105, Ravi: ₹135. Check: 105+135 = 240 ✓.",
+      "common_mistakes": "Students sometimes transpose incorrectly — forgetting to change the sign. If 'x + 5 = 12' and they write 'x = 12 + 5 = 17' — that is WRONG (5 should become −5 on the other side). Always: when you MOVE a term across the '=' sign, FLIP its sign. Also, students forget to verify — always substitute the answer back to check.",
+      "memory_tip": "TRANSPOSE = MOVE and CHANGE SIGN. + becomes −, − becomes +, × becomes ÷, ÷ becomes ×. Think of 'teleporting' a term — it arrives on the other side in opposite form. Verify ALWAYS: substitute x back and check LHS = RHS."
+    },
+    {
+      "concept_name": "Setting Up Equations from Word Problems",
+      "simple_explanation": "Translate English statements into mathematical equations by identifying the unknown (variable), the relationship between quantities, and expressing that relationship as an equation. Then solve and verify.",
+      "detailed_explanation": "Steps for word problems: (1) READ carefully — identify what is unknown. (2) ASSIGN — let the unknown = x (or any variable). (3) TRANSLATE — convert the English conditions into an equation using mathematical operations. (4) SOLVE — use balancing or transposing. (5) VERIFY — substitute back and check. (6) STATE THE ANSWER — answer the question asked, with units. Key translation phrases: 'sum' = addition, 'difference' = subtraction, 'product' = multiplication, 'quotient' = division, 'exceeds by' = adds to, 'twice' = 2×, 'thrice' = 3×, 'is' or 'equals' = '='.",
+      "real_life_example": "The sum of three consecutive integers is 72. Let the integers be n, n+1, n+2. Equation: n + (n+1) + (n+2) = 72 → 3n + 3 = 72 → 3n = 69 → n = 23. Integers: 23, 24, 25. Check: 23+24+25 = 72 ✓.",
+      "karnataka_example": "A Karnataka farmer has a rectangular field. Its length is twice its breadth. Its perimeter is 120 m. Find the dimensions. Let breadth = x. Length = 2x. Perimeter = 2(l+b) = 2(2x+x) = 6x = 120 → x = 20 m. Breadth = 20 m, Length = 40 m. Check: 2(40+20) = 2×60 = 120 m ✓.",
+      "common_mistakes": "Students struggle with 'consecutive integers' — remember they are n, n+1, n+2 (not n, 2n, 3n). Also, 'a number is 5 more than another' means x+5 (not 5x). Carefully read: 'twice a number' = 2x, but 'a number twice' means the same thing. Always define what x represents before writing the equation.",
+      "memory_tip": "Word problem steps: READ → ASSIGN x → TRANSLATE to equation → SOLVE → VERIFY → ANSWER. 'RATS-VA': Read, Assign, Translate, Solve, Verify, Answer. Never skip the Verify step — it proves your answer is correct."
+    }
+  ],
+
+  "key_terms_glossary": [
+    {"term": "Equation", "meaning": "A mathematical statement asserting that two expressions are equal, connected by an '=' sign. Contains at least one variable. Example: 3x + 2 = 11."},
+    {"term": "Expression", "meaning": "A mathematical phrase consisting of numbers, variables, and operations — but WITHOUT an equals sign. Example: 3x + 2. Expressions cannot be 'solved'; equations can."},
+    {"term": "Variable", "meaning": "A symbol (usually a letter like x, y, or n) that represents an unknown or changing quantity in an equation."},
+    {"term": "LHS (Left Hand Side)", "meaning": "The expression to the left of the equals sign in an equation. In 2x + 3 = 11, the LHS is '2x + 3'."},
+    {"term": "RHS (Right Hand Side)", "meaning": "The expression to the right of the equals sign in an equation. In 2x + 3 = 11, the RHS is '11'."},
+    {"term": "Solution", "meaning": "The value of the variable that makes both sides of the equation equal. Also called the 'root' of the equation. Example: x = 4 is the solution of 2x + 3 = 11."},
+    {"term": "Balancing Method", "meaning": "A method of solving equations by performing the same mathematical operation on both sides to maintain equality, ultimately isolating the variable."},
+    {"term": "Transposing", "meaning": "Moving a term from one side of an equation to the other, changing its sign in the process. Addition becomes subtraction; multiplication becomes division."},
+    {"term": "Linear Equation", "meaning": "An equation where the highest power of the variable is 1. Example: 3x + 2 = 11 is linear. 3x² + 2 = 11 is NOT linear (x has power 2)."},
+    {"term": "Verification", "meaning": "The process of checking that the solution is correct by substituting the value of the variable back into the original equation and confirming LHS = RHS."}
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Solve by Balancing",
+      "question": "Solve: 4x − 3 = 13",
+      "step_by_step_answer": [
+        "Step 1: Add 3 to both sides (to eliminate −3 from LHS).",
+        "4x − 3 + 3 = 13 + 3 → 4x = 16.",
+        "Step 2: Divide both sides by 4.",
+        "4x/4 = 16/4 → x = 4.",
+        "Verify: LHS = 4(4) − 3 = 16 − 3 = 13 = RHS ✓.",
+        "Answer: x = 4."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Solve by Transposing",
+      "question": "Solve: 2x + 7 = 3x − 4",
+      "step_by_step_answer": [
+        "Step 1: Transpose 3x to LHS: 2x − 3x + 7 = −4.",
+        "−x + 7 = −4.",
+        "Step 2: Transpose 7 to RHS: −x = −4 − 7 = −11.",
+        "Step 3: x = 11 (multiply both sides by −1).",
+        "Verify: LHS = 2(11)+7 = 22+7 = 29. RHS = 3(11)−4 = 33−4 = 29. LHS=RHS ✓.",
+        "Answer: x = 11."
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Word Problem",
+      "question": "The sum of two consecutive even numbers is 74. Find the numbers.",
+      "step_by_step_answer": [
+        "Step 1: Let the first even number = x. Next consecutive even number = x + 2.",
+        "Step 2: Equation: x + (x+2) = 74 → 2x + 2 = 74.",
+        "Step 3: Transpose 2: 2x = 72 → x = 36.",
+        "Step 4: Numbers are 36 and 38.",
+        "Verify: 36 + 38 = 74 ✓."
+      ]
+    },
+    {
+      "example_number": 4,
+      "type": "Word Problem",
+      "question": "Sachin's age is 3 times his son's age. 10 years later, Sachin will be twice his son's age. Find their present ages.",
+      "step_by_step_answer": [
+        "Let son's present age = x. Sachin's present age = 3x.",
+        "After 10 years: Son = x+10. Sachin = 3x+10.",
+        "Equation: 3x + 10 = 2(x + 10).",
+        "3x + 10 = 2x + 20.",
+        "Transpose: 3x − 2x = 20 − 10 → x = 10.",
+        "Son's age = 10 years. Sachin's age = 30 years.",
+        "Verify: After 10 years: Son=20, Sachin=40. Is 40 = 2×20? Yes ✓."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Simple Equations — Balancing, Transposing, Word Problems",
+      "questions": [
+        {"type": "Recall", "q": "What is the difference between an expression and an equation?", "a": "An expression has no '=' sign (e.g., 3x+5). An equation has an '=' sign and states that two expressions are equal (e.g., 3x+5 = 14). Only equations can be solved."},
+        {"type": "Solve", "q": "Solve: 5x + 2 = 17", "a": "5x = 17−2 = 15. x = 15/5 = 3. Verify: 5(3)+2 = 15+2 = 17 ✓."},
+        {"type": "Solve", "q": "Solve: 3(x − 2) = 12", "a": "3x − 6 = 12. 3x = 18. x = 6. Verify: 3(6−2) = 3×4 = 12 ✓."},
+        {"type": "Application", "q": "A number when multiplied by 4 and then reduced by 6 gives 18. Find the number.", "a": "Equation: 4x − 6 = 18. 4x = 24. x = 6."},
+        {"type": "Understanding", "q": "Why must you verify the solution of an equation?", "a": "Verification confirms the solution is correct. If LHS ≠ RHS after substituting, there is a calculation error. It is the mathematical proof of correctness."}
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "An equation has an '=' sign; an expression does not. Only equations can be solved.",
+    "LHS = left of '='; RHS = right of '='; variable = unknown to be found.",
+    "Balancing method: perform the same operation on both sides to isolate the variable.",
+    "Transposing: move a term to the other side and change its sign (+ ↔ −, × ↔ ÷).",
+    "Steps to solve: isolate the variable, simplify, find x.",
+    "Always verify: substitute the solution back into the original equation and check LHS = RHS.",
+    "Word problems: Read → Assign variable → Translate → Solve → Verify → State answer.",
+    "Consecutive integers: n, n+1, n+2. Consecutive even/odd: n, n+2, n+4.",
+    "'Twice a number' = 2x. 'Exceeds by 5' = x+5. 'Is' or 'equals' = '='.",
+    "A linear equation in one variable has exactly ONE solution."
+  ],
+
+  "mind_map": {
+    "root": "Simple Equations",
+    "branches": [
+      {"branch": "What is an Equation?", "sub": ["Has '=' sign (unlike expression)", "LHS = RHS", "Variable = unknown", "Solution = value making LHS = RHS"]},
+      {"branch": "Solving Methods", "sub": ["Balancing: same op on both sides", "Transposing: move term, flip sign", "+ ↔ −, × ↔ ÷ when transposing", "Goal: isolate variable on one side"]},
+      {"branch": "Verification", "sub": ["Substitute solution into original equation", "Check LHS = RHS", "If not equal: error in working", "Always verify!"]},
+      {"branch": "Word Problems", "sub": ["Read → Assign x → Translate", "Solve → Verify → State answer", "Consecutive: n, n+1, n+2", "Consecutive even/odd: n, n+2, n+4"]},
+      {"branch": "Key Translations", "sub": ["'sum' = +", "'difference' = −", "'twice/thrice' = 2x/3x", "'exceeds by' = +", "'is/equals' = ="]}
+    ]
+  },
+
+  "revision_notes": "Chapter 4 — Simple Equations. Equation = mathematical statement with '=' sign containing a variable. Expression = no '=' sign. LHS = left of '='; RHS = right. Variable = unknown (x, y, n). Balancing method: same operation on both sides to isolate variable. Transposing: move term across '=', change sign (+ → −, × → ÷). Solving: add/subtract to remove constants, multiply/divide to remove coefficients. Verification: substitute answer back — LHS must equal RHS. Word problems: Assign variable → write equation → solve → verify → answer. Key phrases: sum(+), difference(−), twice(2x), 'is'(=), 'exceeds by n'(+n). Consecutive integers: n, n+1, n+2. Consecutive evens/odds: n, n+2, n+4. Linear equation in one variable has exactly one solution.",
+
+  "must_remember_facts": [
+    "Equation = has '=' sign. Expression = no '=' sign. Only equations are solved.",
+    "Balancing: do the SAME operation to BOTH sides.",
+    "Transposing: term moves to other side → sign changes (+ → −, × → ÷).",
+    "To solve ax + b = c: transpose b → ax = c−b; divide by a → x = (c−b)/a.",
+    "Verification: substitute x back. If LHS = RHS → correct. If not → error.",
+    "Word problems: Read, Assign (let x = ?), Translate (write equation), Solve, Verify.",
+    "Consecutive integers: n, n+1, n+2. Their sum = 3n+3.",
+    "Consecutive even/odd integers: n, n+2, n+4. Their sum = 3n+6.",
+    "'Twice' = 2×. 'Thrice' = 3×. 'Exceeds by k' = +k. 'Is' = '='.",
+    "A simple linear equation in one variable has exactly ONE unique solution."
+  ]
+}

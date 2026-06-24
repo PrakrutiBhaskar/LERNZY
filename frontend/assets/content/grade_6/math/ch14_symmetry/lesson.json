@@ -1,0 +1,170 @@
+{
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 7,
+  "subject": "Mathematics",
+  "textbook": "Mathematics – Class 7",
+  "chapter_number": 14,
+  "chapter_title": "Symmetry",
+  "estimated_study_time_minutes": 45,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Recall and extend the concept of line symmetry (reflection symmetry) from earlier classes",
+    "Identify lines of symmetry in regular polygons and other 2D figures",
+    "Understand rotational symmetry — what it means for a figure to look the same after rotation",
+    "Determine the order of rotational symmetry and the angle of rotation for given figures",
+    "Distinguish between figures that have only line symmetry, only rotational symmetry, or both",
+    "Identify lines of symmetry in alphabets and everyday objects",
+    "Understand the relationship between the number of lines of symmetry and order of rotational symmetry in regular polygons",
+    "Apply symmetry concepts to real-life designs, art, and nature"
+  ],
+
+  "prerequisite_knowledge": [
+    "Basic understanding of line symmetry (lines of symmetry) from Class 6",
+    "Knowledge of 2D shapes — triangles, quadrilaterals, circles, regular polygons",
+    "Understanding of angles and rotation from the angles chapter"
+  ],
+
+  "introduction": {
+    "why_important": "Symmetry is one of the most fundamental concepts in mathematics and nature. It governs everything from the shape of snowflakes and flowers to the architecture of buildings and the design of logos. Understanding symmetry develops spatial reasoning — a skill essential for geometry, engineering, art, and design.",
+    "real_life_relevance": "Every time you look at a butterfly, a rangoli pattern, a building's facade, a car logo, or a national flag, you are seeing symmetry. Architects design symmetric buildings for aesthetic balance. Engineers use symmetry to create structurally balanced bridges and aircraft. Artists use it to create beautiful, balanced compositions.",
+    "karnataka_context": "Karnataka is famous for its intricate temple architecture — the Hoysala temples at Belur and Halebidu feature extraordinary rotational and reflection symmetry in their star-shaped (stellate) ground plans and detailed sculptural friezes. The famous Mysuru Dasara rangoli designs showcase line symmetry. The Vidhana Soudha in Bengaluru has perfect bilateral (line) symmetry in its facade. Even Karnataka's state emblem (Gandaberunda — the two-headed mythical bird) displays bilateral symmetry.",
+    "connection_to_previous_learning": "In Class 6, you learned about line symmetry — a figure has line symmetry if a line divides it into two identical halves that are mirror images of each other. This chapter extends that to rotational symmetry — where a figure maps onto itself when rotated by less than 360°."
+  },
+
+  "core_concepts": [
+    {
+      "concept_name": "Line Symmetry (Reflection Symmetry)",
+      "simple_explanation": "A figure has line symmetry if you can draw a line through it so that both halves are perfect mirror images of each other. This line is called the axis of symmetry or line of symmetry.",
+      "detailed_explanation": "A line of symmetry (also called axis of symmetry) divides a figure into two congruent halves such that one half is the exact mirror image of the other. When you fold the figure along the line of symmetry, both halves coincide perfectly. Number of lines of symmetry in regular polygons: equilateral triangle = 3, square = 4, regular pentagon = 5, regular hexagon = 6. For a regular n-gon, number of lines of symmetry = n. A circle has infinitely many lines of symmetry (any diameter). Some shapes have no line of symmetry (scalene triangle, parallelogram). Letters of alphabet: A, B, C, D, E, M, T, U, V, W, X, Y have horizontal or vertical symmetry. H, I, O, X have both. Some have none (F, G, J, K, L, N, P, Q, R, S, Z).",
+      "real_life_example": "A butterfly's wings are a perfect example of line symmetry — the vertical line through its body is the axis of symmetry; fold the butterfly along its body and both wings match exactly. A human face has approximate bilateral symmetry. Most commercial logos (Mercedes, BMW, Audi) are designed with line symmetry for visual balance.",
+      "karnataka_example": "The Hoysala star-temple plan at Belur (Hassan district) has a complex stellate (star-shaped) ground plan that has multiple lines of symmetry — the temple's architect carefully designed perfect symmetrical layouts more than 900 years ago. The Gandaberunda (two-headed eagle) on Karnataka's state emblem has a vertical line of symmetry — each side is a mirror image of the other.",
+      "common_mistakes": "Students often count too few or too many lines of symmetry. A rectangle has ONLY 2 lines of symmetry (horizontal and vertical through midpoints) — NOT 4. A square has 4 lines (2 through midpoints + 2 diagonals). Students sometimes draw diagonal lines through rectangles and claim symmetry — the two halves formed are triangles but are NOT mirror images along that diagonal.",
+      "memory_tip": "LINE symmetry: fold the paper — if both halves match PERFECTLY, you found a line of symmetry! Regular polygon with n sides = n lines of symmetry. Square(4 sides) = 4 lines. Pentagon(5) = 5 lines. Hexagon(6) = 6 lines. Count the SIDES to count the LINES!"
+    },
+    {
+      "concept_name": "Rotational Symmetry",
+      "simple_explanation": "A figure has rotational symmetry if it looks exactly the same after you rotate it by some angle less than 360°. The number of times it looks the same in one full turn (360°) is called the order of rotational symmetry.",
+      "detailed_explanation": "A figure has rotational symmetry if, when rotated about a central point (centre of rotation) by some angle less than 360°, it maps exactly onto itself. The ORDER of rotational symmetry = the number of times the figure looks the same in one complete rotation of 360°. The ANGLE of rotation = 360° ÷ order. For a regular polygon with n sides: order of rotational symmetry = n; angle of rotation = 360°/n. Examples: Equilateral triangle — order 3, angle 120°. Square — order 4, angle 90°. Regular pentagon — order 5, angle 72°. Regular hexagon — order 6, angle 60°. A figure that only looks the same after a full 360° rotation has order 1 (no rotational symmetry, by convention). Note: Every figure has order of at least 1 (trivially, after full rotation). We say a figure has rotational symmetry only if its order is 2 or more.",
+      "real_life_example": "A ceiling fan with 3 blades has rotational symmetry of order 3 — rotate it 120° and it looks identical. A car tyre (circle) has rotational symmetry of infinite order. A windmill has rotational symmetry — order depends on the number of blades. The Star of David has rotational symmetry of order 6.",
+      "karnataka_example": "The 8-petal rangoli patterns common in Karnataka's Dasara and festival decorations have rotational symmetry of order 8 (each rotation of 45° maps the pattern onto itself). The elaborate circular mandala designs on the ceilings of Hoysala temples (like Chennakeshava temple, Belur) have rotational symmetry of high order — often 8, 12, or 16 — making them mathematically sophisticated artistic achievements.",
+      "common_mistakes": "Students confuse order 1 with 'no symmetry'. Every shape technically has order 1 (it coincides with itself after 360°). We say it has ROTATIONAL SYMMETRY only if order ≥ 2. Also, students often confuse angle and order: for a square, order = 4 and angle = 90°, not the other way. Remember: angle × order = 360°.",
+      "memory_tip": "ORDER of rotation = number of times shape LOOKS SAME in 360°. ANGLE = 360° ÷ ORDER. Think: 'How many pizza slices (order) and how big each slice (angle)?' 4-slice pizza: order 4, angle 90°. 6-slice pizza: order 6, angle 60°!"
+    },
+    {
+      "concept_name": "Relationship Between Line and Rotational Symmetry",
+      "simple_explanation": "For regular polygons, the number of lines of symmetry equals the order of rotational symmetry. Many figures have both types; some have only one type; a few have neither.",
+      "detailed_explanation": "For regular polygons with n sides: Lines of symmetry = n; Order of rotational symmetry = n; Angle of rotation = 360°/n. This perfect match is a beautiful mathematical relationship. However, this is NOT always true for all shapes: A rectangle has 2 lines of symmetry but order of rotational symmetry = 2 (matches here). A parallelogram has 0 lines of symmetry but has rotational symmetry of order 2 (it maps onto itself after 180°). An isosceles triangle has 1 line of symmetry but no rotational symmetry (order 1). A scalene triangle has 0 lines of symmetry and no rotational symmetry. Letters: H, I, N, S, X, Z have rotational symmetry. H, I, O, X have both line and rotational symmetry. Summary table: Regular n-gon: n lines, order n. Circle: infinite lines, infinite order. Rectangle: 2 lines, order 2. Parallelogram: 0 lines, order 2.",
+      "real_life_example": "A football (soccer ball) has rotational symmetry in many directions. A recycling symbol (♻) has rotational symmetry of order 3 but no lines of symmetry. A regular hexagonal honeycomb cell has 6 lines of symmetry AND rotational symmetry of order 6. Nature often combines both types — it is more stable and efficient.",
+      "karnataka_example": "The Hoysala star (stellate) temple plan typically has a ground plan with 16 or 32 projections — giving it rotational symmetry of order 16 or 32 AND the same number of lines of symmetry. The Channakeshava Temple at Belur took 103 years to build (1117–1220 CE), and its symmetrical complexity shows that medieval Karnataka architects had an intuitive mastery of mathematical symmetry centuries before it was formally studied.",
+      "common_mistakes": "Students assume that if a figure has n lines of symmetry, its order of rotational symmetry is always n. This is true for regular polygons but NOT for all figures. A parallelogram proves this: 0 lines of symmetry but order 2. Always check each type of symmetry independently.",
+      "memory_tip": "Regular polygon shortcut: n sides → n lines of symmetry → order n → angle 360°/n. All four values from ONE number n! Regular hexagon (n=6): 6 lines, order 6, angle 60°. The n-gon rule is your best friend for regular polygons!"
+    }
+  ],
+
+  "key_terms_glossary": [
+    { "term": "Line of symmetry", "meaning": "A line that divides a figure into two congruent halves that are mirror images of each other. Also called axis of symmetry or mirror line. A figure can have 0, 1, 2, or more lines of symmetry." },
+    { "term": "Reflection symmetry", "meaning": "Another name for line symmetry — the property of a figure that looks the same when reflected across a line (the line of symmetry)." },
+    { "term": "Rotational symmetry", "meaning": "A figure has rotational symmetry if it maps onto itself when rotated by an angle less than 360° about a central point. Order must be ≥ 2." },
+    { "term": "Centre of rotation", "meaning": "The fixed point around which a figure is rotated when checking for rotational symmetry. For regular polygons, this is the centre of the polygon." },
+    { "term": "Order of rotational symmetry", "meaning": "The number of times a figure looks identical to its original position during one complete rotation of 360°. For a regular n-gon, order = n." },
+    { "term": "Angle of rotation", "meaning": "The smallest angle by which a figure can be rotated to map onto itself. Angle of rotation = 360° ÷ order of rotational symmetry." },
+    { "term": "Regular polygon", "meaning": "A polygon with all sides equal and all angles equal. A regular n-gon has n lines of symmetry and rotational symmetry of order n." },
+    { "term": "Bilateral symmetry", "meaning": "Having exactly one line of symmetry. Butterflies, human faces, and many animals have bilateral symmetry — one left-right mirror line." },
+    { "term": "Axis of symmetry", "meaning": "The line of symmetry in a figure. For the letter A, the vertical centre line is the axis of symmetry." },
+    { "term": "Point symmetry", "meaning": "A special case of rotational symmetry with order 2 — the figure maps onto itself after rotation of exactly 180°. Letters S, N, Z and a parallelogram have point symmetry." }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Comprehension",
+      "question": "Find the number of lines of symmetry and the order of rotational symmetry of a regular hexagon.",
+      "step_by_step_answer": [
+        "Step 1: Identify the shape — regular hexagon (6 equal sides, 6 equal angles).",
+        "Step 2: Lines of symmetry — for a regular n-gon, lines of symmetry = n. For hexagon (n=6): 6 lines of symmetry. These are 3 lines joining opposite vertices and 3 lines joining midpoints of opposite sides.",
+        "Step 3: Order of rotational symmetry — for a regular n-gon, order = n = 6.",
+        "Step 4: Angle of rotation = 360° ÷ 6 = 60°.",
+        "Step 5: Verify — rotating a regular hexagon by 60° maps it exactly onto itself. This happens 6 times before returning to original position.",
+        "Conclusion: Regular hexagon has 6 lines of symmetry, rotational symmetry of order 6, angle of rotation = 60°."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Vocabulary in context",
+      "question": "A figure has rotational symmetry of order 4. What is its angle of rotation? Give an example of such a figure.",
+      "step_by_step_answer": [
+        "Step 1: Recall formula — angle of rotation = 360° ÷ order.",
+        "Step 2: Apply — angle = 360° ÷ 4 = 90°.",
+        "Step 3: The figure maps onto itself every 90° (at 90°, 180°, 270°, and 360°).",
+        "Step 4: Example — a square. Rotating a square by 90° gives the same-looking square. It does this 4 times in a full 360° rotation.",
+        "Conclusion: Order 4 → angle of rotation = 90°. A square is the most common example."
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Moral application",
+      "question": "Does a rectangle have rotational symmetry? If yes, what is its order and angle of rotation? Does it have line symmetry?",
+      "step_by_step_answer": [
+        "Step 1: Check rotational symmetry — rotate a rectangle. At 180°, it maps onto itself (the two ends swap but look identical). At 90°, it does NOT map onto itself (a tall rectangle becomes a wide one).",
+        "Step 2: Order of rotational symmetry = 2 (maps onto itself at 180° and 360°). Angle = 360° ÷ 2 = 180°.",
+        "Step 3: Check line symmetry — draw the horizontal midline: top half mirrors bottom half ✓. Draw the vertical midline: left half mirrors right half ✓. Draw a diagonal: the two triangles formed are NOT mirror images of each other ✗.",
+        "Step 4: Lines of symmetry = 2 (horizontal and vertical midlines only).",
+        "Conclusion: A rectangle has rotational symmetry of order 2 (angle 180°) AND 2 lines of symmetry. Note: order of rotational symmetry = number of lines of symmetry here (both = 2)."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "Rotational Symmetry",
+      "questions": [
+        { "type": "Recall", "q": "What is the order of rotational symmetry of a regular pentagon?", "a": "5. A regular pentagon has 5 sides, so its order of rotational symmetry = 5, and angle of rotation = 360°/5 = 72°." },
+        { "type": "Recall", "q": "What is the angle of rotation for a figure with rotational symmetry of order 3?", "a": "Angle = 360° ÷ 3 = 120°." },
+        { "type": "Understanding", "q": "Why does a parallelogram have rotational symmetry but no line symmetry?", "a": "A parallelogram maps onto itself after 180° rotation (order 2), so it has rotational symmetry. But no line divides it into two mirror-image halves (you can check — neither the diagonals nor midpoint lines work as symmetry lines). So it has rotational symmetry but zero lines of symmetry." },
+        { "type": "Understanding", "q": "How many lines of symmetry does an equilateral triangle have? What is its order of rotational symmetry?", "a": "3 lines of symmetry (one from each vertex to midpoint of opposite side). Order of rotational symmetry = 3. Angle = 360°/3 = 120°." },
+        { "type": "Application", "q": "A rangoli design looks the same every 45°. What is its order of rotational symmetry?", "a": "Order = 360° ÷ 45° = 8. The rangoli has rotational symmetry of order 8." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "Line symmetry: a line divides the figure into two identical mirror-image halves. Also called reflection symmetry or axis of symmetry.",
+    "Regular n-gon has exactly n lines of symmetry.",
+    "Rotational symmetry: figure maps onto itself after rotation by less than 360°. Order = how many times this happens in 360°.",
+    "Angle of rotation = 360° ÷ order of rotational symmetry.",
+    "Regular n-gon: n lines of symmetry AND rotational symmetry of order n.",
+    "Parallelogram: 0 lines of symmetry, rotational symmetry of order 2.",
+    "Circle: infinite lines of symmetry, rotational symmetry of infinite order.",
+    "Isosceles triangle: 1 line of symmetry, no rotational symmetry (order 1).",
+    "Letters with both symmetries: H, I, O, X. Letters with only rotational: S, N, Z.",
+    "Karnataka connection: Hoysala temples (Belur, Halebidu) and Dasara rangoli show both line and rotational symmetry in their intricate designs."
+  ],
+
+  "mind_map": {
+    "root": "Symmetry",
+    "branches": [
+      { "branch": "Line Symmetry", "sub": ["Axis of symmetry", "Mirror image halves", "Regular n-gon → n lines", "Letters: A, B, C, D, M, T, V, W"] },
+      { "branch": "Rotational Symmetry", "sub": ["Centre of rotation", "Order = times looks same", "Angle = 360°÷order", "Order ≥ 2 required"] },
+      { "branch": "Regular Polygons", "sub": ["n sides → n lines", "Order = n", "Angle = 360°/n", "Equilateral △: 3, Square: 4, Hexagon: 6"] },
+      { "branch": "Special Cases", "sub": ["Circle: infinite order", "Parallelogram: order 2, 0 lines", "Isosceles △: 1 line, order 1", "Scalene △: 0 lines, order 1"] },
+      { "branch": "Real Life", "sub": ["Hoysala temples (Karnataka)", "Rangoli designs", "Butterfly (bilateral)", "Recycling symbol (rotational)"] }
+    ]
+  },
+
+  "revision_notes": "Chapter 14 covers two types of symmetry. Line symmetry (reflection symmetry): a figure has line symmetry if a line (axis of symmetry) divides it into two congruent mirror-image halves. Regular n-gon has n lines of symmetry: equilateral triangle=3, square=4, pentagon=5, hexagon=6. Circle has infinite lines. Rectangle has 2 (horizontal + vertical midlines only — NOT diagonals). Rotational symmetry: a figure has rotational symmetry if it maps onto itself after rotation by angle < 360°. Order = number of times it does this per full 360° rotation. Angle of rotation = 360°÷order. For regular n-gon: order = n, angle = 360°/n. Special cases: Parallelogram — 0 lines of symmetry, order 2 rotational (angle 180°). Circle — infinite lines, infinite order. Isosceles triangle — 1 line, order 1 (no rotational symmetry). Letters with rotational symmetry: H, I, N, S, X, Z. Karnataka examples: Hoysala temples (stellate plans with high-order symmetry), Dasara rangoli (order 8 designs), Vidhana Soudha facade (bilateral symmetry).",
+
+  "must_remember_facts": [
+    "Line of symmetry = the fold line that creates two perfect mirror halves.",
+    "Regular n-gon: n lines of symmetry, rotational symmetry order n, angle = 360°/n.",
+    "Square: 4 lines (2 midpoint lines + 2 diagonals), order 4, angle 90°.",
+    "Rectangle: 2 lines (horizontal + vertical midlines), order 2, angle 180°.",
+    "Equilateral triangle: 3 lines, order 3, angle 120°.",
+    "Parallelogram: 0 lines of symmetry, order 2 rotational symmetry.",
+    "Circle: infinite lines of symmetry, infinite order rotational symmetry.",
+    "Angle of rotation formula: 360° ÷ order.",
+    "Order × angle = 360° always.",
+    "Karnataka link: Hoysala temples and Dasara rangoli are real-life examples of both line and rotational symmetry."
+  ]
+}

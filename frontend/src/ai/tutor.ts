@@ -1,3 +1,4 @@
+import { Platform } from 'react-native';
 import * as FileSystem from 'expo-file-system/legacy';
 import { InferenceError } from '../utils/errors';
 import { apiFetch, getAuthState } from '../services/api';
@@ -38,6 +39,11 @@ const STOP_WORDS = [
 ];
 
 async function getModelPath(): Promise<string> {
+  if (Platform.OS === 'web') {
+    // expo-file-system is not available on web; local model cannot run in a browser.
+    throw new InferenceError('Local LLM is not supported on web', false);
+  }
+
   const modelPath = `${FILESYSTEM_PATHS.MODELS_DIR}${MODEL_FILENAMES.LLM}`;
   const info = await FileSystem.getInfoAsync(modelPath);
 
@@ -169,10 +175,14 @@ export async function streamTutorResponseLocal(
     if (error.name === 'AbortError' || options.abortSignal?.aborted) {
       return;
     }
-    console.warn(`Local LLM stream failed, falling back gracefully: ${error.message || error}`);
-    const fallbackText = `I'm having trouble running my local AI engine right now. Let's study ${options.topic || 'the topic'} using the lesson examples and key points!`;
-    callbacks.onToken(fallbackText);
-    callbacks.onDone({ explanation: fallbackText });
+    // On web, getModelPath() throws InferenceError immediately — no warn needed.
+    // On native, log the unexpected failure.
+    if (Platform.OS !== 'web') {
+      console.warn(`Local LLM stream failed, falling back gracefully: ${error.message || error}`);
+    }
+    // Re-throw so callers (e.g. streamTutorResponseSSE) can decide what to do,
+    // rather than silently swallowing the error and showing a fake tutor message.
+    throw error;
   } finally {
     if (options.abortSignal && abortListener) {
       options.abortSignal.removeEventListener('abort', abortListener);
@@ -183,6 +193,11 @@ export async function streamTutorResponseLocal(
 /**
  * Streams the tutor's response from the cloud using SSE (Server-Sent Events) over HTTP POST.
  * Uses a chunk decoder to yield tokens as they arrive, and supports AbortSignal cancellation.
+ *
+ * Routing logic:
+ *  - Web (any auth state)      → always use SSE backend; local LLM is not available in browsers.
+ *  - Native, unauthenticated   → fall back to on-device local LLM (offline mode).
+ *  - Native, authenticated     → use SSE backend.
  */
 export async function streamTutorResponseSSE(
   question: string,
@@ -197,8 +212,9 @@ export async function streamTutorResponseSSE(
   callbacks: StreamCallbacks
 ): Promise<void> {
   const auth = getAuthState();
-  if (!auth.isAuthenticated) {
-    // Fall back to offline local response immediately
+
+  // Native + unauthenticated: use offline local model.
+  if (!auth.isAuthenticated && Platform.OS !== 'web') {
     try {
       await streamTutorResponseLocal(
         question,
@@ -216,6 +232,13 @@ export async function streamTutorResponseSSE(
     return;
   }
 
+  // Web + unauthenticated: cannot use local model; require sign-in.
+  if (!auth.isAuthenticated) {
+    callbacks.onError(new Error('Please sign in to use the tutor.'));
+    return;
+  }
+
+  // Authenticated (web or native): stream from backend.
   const { topic, board = 'state', grade = 6, language = 'en', outputType = 'text' } = options;
 
   const requestBody = {
@@ -242,7 +265,7 @@ export async function streamTutorResponseSSE(
     const reader = response.body?.getReader();
     if (!reader) {
       // Fallback: if environment doesn't support response.body.getReader (e.g. older JS engines)
-      // Call the non-streaming REST endpoint instead
+      // Call the non-streaming REST endpoint instead.
       console.warn('Streaming reader not available in this environment. Falling back to non-streaming endpoint.');
       const fallbackResponse = await apiFetch('/api/v1/ask', {
         method: 'POST',

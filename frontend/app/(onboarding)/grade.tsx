@@ -36,9 +36,6 @@ export default function GradeScreen(): React.JSX.Element {
     };
   }, []);
 
-  useEffect(() => {
-  console.log("THEME COLORS", colors);
-}, []);
 
   const handleNext = async () => {
     if (!grade) return;

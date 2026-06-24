@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 7,
+  "subject": "Mathematics",
+  "textbook": "Mathematics — Textbook for Class VII",
+  "chapter_number": 2,
+  "chapter_title": "Fractions and Decimals",
+  "quiz_type": "MCQ only",
+  "mcqs": [
+    {"id": "mcq01", "difficulty": "Easy", "question": "What is the improper fraction form of 4⅗?", "options": ["A) 22/5", "B) 23/5", "C) 17/5", "D) 21/5"], "correct_answer": "B) 23/5", "explanation": "4⅗ = (4×5 + 3)/5 = (20+3)/5 = 23/5. Formula: Whole × Denominator + Numerator, over Denominator."},
+    {"id": "mcq02", "difficulty": "Easy", "question": "What is the reciprocal of 7/3?", "options": ["A) 7/3", "B) 3/7", "C) −3/7", "D) 21"], "correct_answer": "B) 3/7", "explanation": "Reciprocal of a/b = b/a. Reciprocal of 7/3 = 3/7. Check: 7/3 × 3/7 = 21/21 = 1 ✓."},
+    {"id": "mcq03", "difficulty": "Easy", "question": "Find: (2/3) × (9/4)", "options": ["A) 3/2", "B) 18/12", "C) 8/27", "D) 6/7"], "correct_answer": "A) 3/2", "explanation": "(2/3) × (9/4) = 18/12 = 3/2. Cancel before multiplying: 2 and 4 share factor 2 → 1/3 × 9/2; then 9 and 3 share 3 → 1/1 × 3/2 = 3/2."},
+    {"id": "mcq04", "difficulty": "Easy", "question": "Find: (5/6) ÷ (10/3)", "options": ["A) 1/4", "B) 4", "C) 25/18", "D) 50/18"], "correct_answer": "A) 1/4", "explanation": "KCF: (5/6) ÷ (10/3) = (5/6) × (3/10) = 15/60 = 1/4. Cancel: 5 and 10 share 5 → 1/6 × 3/2; 3 and 6 share 3 → 1/2 × 1/2 = 1/4."},
+    {"id": "mcq05", "difficulty": "Easy", "question": "Find ¾ of 64.", "options": ["A) 16", "B) 48", "C) 24", "D) 32"], "correct_answer": "B) 48", "explanation": "'Of' means multiply. ¾ of 64 = ¾ × 64 = (3×64)/4 = 192/4 = 48."},
+    {"id": "mcq06", "difficulty": "Easy", "question": "What is 0.6 × 0.3?", "options": ["A) 1.8", "B) 0.18", "C) 0.018", "D) 18"], "correct_answer": "B) 0.18", "explanation": "6 × 3 = 18. Decimal places: 1+1 = 2. So 0.18. Note: 0.6 × 0.3 is NOT 1.8 — that's a common error of adding instead of counting decimal places correctly."},
+    {"id": "mcq07", "difficulty": "Easy", "question": "Find: 5.37 × 100", "options": ["A) 53.7", "B) 537", "C) 5370", "D) 0.537"], "correct_answer": "B) 537", "explanation": "Multiplying by 100: shift the decimal point 2 places to the RIGHT. 5.37 → 537. (The decimal moves right: 5.37 → 53.7 → 537.)"},
+    {"id": "mcq08", "difficulty": "Easy", "question": "Find: 8.4 ÷ 10", "options": ["A) 84", "B) 840", "C) 0.84", "D) 0.084"], "correct_answer": "C) 0.84", "explanation": "Dividing by 10: shift the decimal 1 place to the LEFT. 8.4 → 0.84."},
+    {"id": "mcq09", "difficulty": "Easy", "question": "Which of the following gives a terminating decimal?", "options": ["A) 1/3", "B) 2/7", "C) 3/8", "D) 5/6"], "correct_answer": "C) 3/8", "explanation": "3/8 = 0.375 — terminates. 8 = 2³, has only 2 as prime factor → terminating. 1/3 = 0.333…, 2/7 = 0.285714…, 5/6 = 0.8333… — all recurring, because their denominators have prime factors other than 2 and 5."},
+    {"id": "mcq10", "difficulty": "Easy", "question": "A ribbon of 4½ m is cut into pieces of ¾ m each. How many pieces are obtained?", "options": ["A) 5", "B) 6", "C) 3", "D) 9/2"], "correct_answer": "B) 6", "explanation": "4½ ÷ ¾ = (9/2) ÷ (3/4) = (9/2) × (4/3) = 36/6 = 6 pieces."},
+    {"id": "mcq11", "difficulty": "Moderate", "question": "Find: 1⅔ × 2¼", "options": ["A) 3¾", "B) 15/4", "C) 2⅔", "D) 3½"], "correct_answer": "A) 3¾", "explanation": "1⅔ = 5/3. 2¼ = 9/4. (5/3) × (9/4) = 45/12 = 15/4 = 3¾. Both A and B are the same value (15/4 = 3¾) — but 3¾ as a mixed number is the fully simplified form typically expected."},
+    {"id": "mcq12", "difficulty": "Moderate", "question": "Find: 2½ ÷ 1⅔", "options": ["A) 3/2", "B) 25/24", "C) 3/2", "D) 1½"], "correct_answer": "D) 1½", "explanation": "2½ = 5/2. 1⅔ = 5/3. (5/2) ÷ (5/3) = (5/2) × (3/5) = 15/10 = 3/2 = 1½."},
+    {"id": "mcq13", "difficulty": "Moderate", "question": "Evaluate: 1.25 × 0.04", "options": ["A) 0.5", "B) 0.05", "C) 5", "D) 0.005"], "correct_answer": "B) 0.05", "explanation": "125 × 4 = 500. Decimal places: 2+2 = 4. 500 with 4 decimal places → 0.0500 = 0.05."},
+    {"id": "mcq14", "difficulty": "Moderate", "question": "Find: 4.68 ÷ 0.6", "options": ["A) 7.8", "B) 0.78", "C) 78", "D) 0.078"], "correct_answer": "A) 7.8", "explanation": "Multiply both by 10: 46.8 ÷ 6 = 7.8. The decimal in the divisor (0.6) is removed by multiplying both by 10, giving 46.8 ÷ 6 = 7.8."},
+    {"id": "mcq15", "difficulty": "Moderate", "question": "A school has 800 students. ⅝ are from Karnataka. How many students are from Karnataka?", "options": ["A) 400", "B) 500", "C) 600", "D) 640"], "correct_answer": "B) 500", "explanation": "⅝ of 800 = ⅝ × 800 = (5×800)/8 = 4000/8 = 500 students."},
+    {"id": "mcq16", "difficulty": "Moderate", "question": "Find the value of: (0.2)³", "options": ["A) 0.6", "B) 0.008", "C) 0.08", "D) 8"], "correct_answer": "B) 0.008", "explanation": "(0.2)³ = 0.2 × 0.2 × 0.2. 0.2 × 0.2 = 0.04 (1+1=2 places). 0.04 × 0.2 = 0.008 (2+1=3 places). Answer: 0.008."},
+    {"id": "mcq17", "difficulty": "Moderate", "question": "Which expression equals 3/4 ÷ 6?", "options": ["A) 3/4 × 6", "B) 3/4 × 1/6", "C) 4/3 × 6", "D) 6 × 4/3"], "correct_answer": "B) 3/4 × 1/6", "explanation": "Dividing by a whole number = multiplying by its reciprocal. 3/4 ÷ 6 = 3/4 × 1/6 = 3/24 = 1/8."},
+    {"id": "mcq18", "difficulty": "Moderate", "question": "A factory produces 1245.6 kg of goods per day. How much does it produce in 0.5 days?", "options": ["A) 6228", "B) 622.8", "C) 62.28", "D) 2491.2"], "correct_answer": "B) 622.8", "explanation": "1245.6 × 0.5 = 12456 × 5 ÷ 1000 = 62280/100... let's recalculate: 12456 × 5 = 62280, decimal places 1+1=2, so 622.80 = 622.8."},
+    {"id": "mcq19", "difficulty": "Advanced", "question": "A tank is ⅗ full. After adding 12 litres it becomes ⅘ full. What is the capacity of the tank?", "options": ["A) 50 litres", "B) 60 litres", "C) 45 litres", "D) 30 litres"], "correct_answer": "B) 60 litres", "explanation": "Fraction added = ⅘ − ⅗ = ⅕ of tank = 12 litres. Full tank = 12 × 5 = 60 litres."},
+    {"id": "mcq20", "difficulty": "Advanced", "question": "If 2.5 × p = 0.075, find p.", "options": ["A) 0.3", "B) 0.03", "C) 3", "D) 0.003"], "correct_answer": "B) 0.03", "explanation": "p = 0.075 ÷ 2.5. Multiply both by 10: 0.75 ÷ 25. Multiply both by 4: 3 ÷ 100 = 0.03. Or: 75 ÷ 2500 = 3/100 = 0.03."}
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 7,
+  "subject": "Mathematics",
+  "textbook": "Mathematics — Class 7 (NCERT)",
+  "chapter_number": 9,
+  "chapter_title": "Rational Numbers",
+  "estimated_study_time_minutes": 55,
+  "difficulty": "Easy",
+
+  "learning_objectives": [
+    "Define rational numbers and express them in the form p/q where p, q are integers and q ≠ 0",
+    "Identify positive and negative rational numbers",
+    "Represent rational numbers on a number line",
+    "Reduce a rational number to its standard (simplest) form",
+    "Compare two or more rational numbers using a common denominator or number line",
+    "Find rational numbers between any two given rational numbers",
+    "Perform addition, subtraction, multiplication, and division of rational numbers",
+    "Solve real-life problems involving rational numbers"
+  ],
+
+  "prerequisite_knowledge": [
+    "Knowledge of integers — positive, negative, and zero",
+    "Understanding of fractions — numerator, denominator, equivalent fractions",
+    "Ability to find LCM and HCF of numbers",
+    "Basic operations with fractions — addition, subtraction, multiplication, division"
+  ],
+
+  "introduction": {
+    "why_important": "Rational numbers extend our number system beyond integers and whole fractions, allowing us to represent any quantity that can be expressed as a ratio. Every fraction, every negative fraction, every integer — all are rational numbers. This chapter builds the foundation for algebra, decimals, percentages, and all higher mathematics.",
+    "real_life_relevance": "Rational numbers appear everywhere: a temperature of −3/2 °C, splitting a pizza into 3/8 pieces, a profit/loss ratio, a map scale of 1/50000. Any measurement that is not a whole number requires rational numbers. Bank interest rates, medicine doses, and recipe proportions all use rational numbers.",
+    "karnataka_context": "Karnataka's engineering entrance exams (CET) and scholarship tests heavily test rational numbers. The concept of ratio and proportion — which is essentially rational numbers in action — is central to Karnataka's traditional crafts (weaving ratios, architectural proportions in Hoysala temples) and modern industries (IT coding ratios, pharmaceutical measurements in Bengaluru's biotech sector).",
+    "connection_to_previous_learning": "In earlier classes students learned about fractions (positive) and integers. This chapter combines both — rational numbers include positive fractions, negative fractions, integers, and zero. It bridges elementary arithmetic and secondary algebra."
+  },
+
+  "core_concepts": [
+    {
+      "concept_name": "What Are Rational Numbers?",
+      "simple_explanation": "A rational number is any number that can be written as p/q, where p and q are integers and q is not zero. This includes all fractions, all integers, and all negative fractions.",
+      "detailed_explanation": "A rational number is defined as any number of the form p/q where p (numerator) and q (denominator) are both integers and q ≠ 0. The condition q ≠ 0 is essential because division by zero is undefined. Examples: 3/4, −5/7, 0/1 (= 0), 6/1 (= 6), −3/1 (= −3). Every integer n is rational because it can be written as n/1. Positive rational numbers are those where p and q have the same sign (both positive or both negative after simplification). Negative rational numbers are those where p and q have opposite signs. Zero is a rational number (0/1 = 0/2 = 0/any non-zero integer). The same rational number can be written in many equivalent forms: 1/2 = 2/4 = 3/6 = −1/−2.",
+      "real_life_example": "When you say you completed 3/4 of your homework, or that the temperature is −5/2 degrees, or that you saved 2/5 of your pocket money — all these are rational numbers. Every fraction you have ever used in real life is a rational number.",
+      "karnataka_example": "The aspect ratio of traditional Hoysala architecture (e.g., the star-shaped plan of Belur temple) follows precise rational proportions. In Karnataka's silk weaving industry in Mysuru, the thread count ratios (warp to weft) are expressed as rational numbers like 4/3 or 5/2 to control fabric texture.",
+      "common_mistakes": "Students often think rational numbers are only fractions between 0 and 1. Wrong — all integers are rational (6 = 6/1), negative fractions are rational (−3/7), and numbers greater than 1 are rational (7/3). Also, students forget q ≠ 0 — the denominator can NEVER be zero.",
+      "memory_tip": "RATIONAL comes from RATIO. A rational number IS a ratio of two integers. If you can write it as (integer)/(non-zero integer), it's rational! R-A-T-I-O-nal = a RATIO of integers!"
+    },
+    {
+      "concept_name": "Standard Form and Comparison of Rational Numbers",
+      "simple_explanation": "A rational number is in standard form when the denominator is positive and the numerator and denominator have no common factor other than 1 (i.e., the fraction is fully reduced). To compare rational numbers, convert them to a common denominator.",
+      "detailed_explanation": "Standard form of a rational number p/q requires: (1) q > 0 (denominator must be positive); (2) HCF(|p|, |q|) = 1 (numerator and denominator share no common factor except 1). To reduce to standard form: step 1 — make the denominator positive (if negative, multiply both numerator and denominator by −1); step 2 — divide both numerator and denominator by their HCF. Example: −6/−8 → 6/8 (make denominator positive, but wait — denominator −8 is negative, so multiply both by −1 → 6/8) → divide by HCF(6,8)=2 → 3/4. To compare rational numbers: find LCM of denominators, convert all fractions to equivalent fractions with LCM as denominator, then compare numerators. On a number line, numbers to the right are greater. All positive rationals > 0 > all negative rationals.",
+      "real_life_example": "When comparing prices at a shop — 3/8 kg for ₹30 vs 2/5 kg for ₹28 — you need to compare rational numbers. Converting to a common denominator (LCM of 8 and 5 = 40): 3/8 = 15/40, 2/5 = 16/40. So 2/5 > 3/8. The shop selling 2/5 kg gives you more.",
+      "karnataka_example": "In Karnataka's competitive entrance exams (KCET), comparison of rational numbers appears frequently. A student scoring 47/75 in Chemistry vs 53/80 in Physics needs to compare: 47/75 ≈ 0.627 vs 53/80 = 0.6625. The rational number 53/80 > 47/75, so Physics score is higher.",
+      "common_mistakes": "When reducing −6/9 to standard form, students often write −6/9 = 2/3 (forgetting the negative sign). Correct: −6/9 = −2/3. Also, students sometimes make the numerator positive and leave the denominator negative — wrong! Standard form always has a positive denominator: −3/−5 should be reduced to 3/5 (not −3/−5).",
+      "memory_tip": "STANDARD FORM rule: Denominator ALWAYS positive, and reduce by HCF. Think of it as 'standard dress code' — the denominator must always be 'properly dressed' (positive), and the fraction must be 'neat' (no common factors)."
+    },
+    {
+      "concept_name": "Operations on Rational Numbers",
+      "simple_explanation": "You can add, subtract, multiply, and divide rational numbers using rules similar to fractions, but carefully handling the signs (positive/negative).",
+      "detailed_explanation": "ADDITION/SUBTRACTION: If denominators are equal: (p/q) + (r/q) = (p+r)/q. If denominators differ: find LCM, convert to equivalent fractions, then add/subtract numerators. Example: 1/3 + (−2/5): LCM=15 → 5/15 + (−6/15) = −1/15. MULTIPLICATION: (p/q) × (r/s) = (p×r)/(q×s). Signs: positive × positive = positive; negative × negative = positive; positive × negative = negative. Example: (−3/4) × (2/7) = −6/28 = −3/14. DIVISION: (p/q) ÷ (r/s) = (p/q) × (s/r) — multiply by the reciprocal. Example: (−3/5) ÷ (2/7) = (−3/5) × (7/2) = −21/10. KEY PROPERTIES: Rational numbers are closed under all four operations (except division by zero). Addition and multiplication are commutative and associative. 0 is the additive identity; 1 is the multiplicative identity.",
+      "real_life_example": "If you walk 3/4 km towards school and then walk back 1/2 km: net displacement = 3/4 − 1/2 = 3/4 − 2/4 = 1/4 km towards school. If you walk at −2/3 km/h (backwards) for 3/2 hours: displacement = (−2/3) × (3/2) = −1 km (1 km backwards).",
+      "karnataka_example": "Karnataka's borewell water table is often measured in negative rational values below ground. If the water level is at −7/2 metres and drops by a further 3/4 metres: new level = −7/2 − 3/4 = −14/4 − 3/4 = −17/4 metres. This is a real computation that engineers in drought-prone districts of Karnataka (Raichur, Kalaburagi) perform regularly.",
+      "common_mistakes": "Three most common mistakes: (1) Adding numerators AND denominators: 1/3 + 1/4 ≠ 2/7. Always find LCM first. (2) Forgetting sign rules in multiplication: (−3) × (−2) = +6, not −6. (3) Division — forgetting to take the RECIPROCAL of the divisor: (1/2) ÷ (3/4) = (1/2) × (4/3) = 4/6 = 2/3, NOT (1/2) × (3/4).",
+      "memory_tip": "Operations memory: ADD/SUB → LCM first, then operate numerators. MULTIPLY → straight across (p×r)/(q×s). DIVIDE → KCF: Keep the first, Change ÷ to ×, Flip the second. KCF = Keep, Change, Flip!"
+    }
+  ],
+
+  "key_terms_glossary": [
+    { "term": "Rational Number", "meaning": "Any number that can be expressed in the form p/q where p and q are integers and q ≠ 0. Includes all fractions, integers, negative fractions, and zero. Example: 3/7, −4/5, 0, −6 (= −6/1)." },
+    { "term": "Standard Form", "meaning": "A rational number p/q is in standard form when: (1) q > 0 (denominator is positive), and (2) HCF(|p|, q) = 1 (no common factor other than 1). Example: −6/9 in standard form is −2/3." },
+    { "term": "Equivalent Rational Numbers", "meaning": "Two rational numbers are equivalent if they represent the same value. Obtained by multiplying or dividing both numerator and denominator by the same non-zero integer. Example: 1/2 = 2/4 = 3/6 = −2/−4." },
+    { "term": "Positive Rational Number", "meaning": "A rational number p/q where both p and q are positive, or both are negative (same sign). Its value is greater than 0. Example: 3/5, −4/−7 (= 4/7). These lie to the right of 0 on the number line." },
+    { "term": "Negative Rational Number", "meaning": "A rational number p/q where p and q have opposite signs (one positive, one negative). Its value is less than 0. Example: −3/5, 4/−7 (= −4/7). These lie to the left of 0 on the number line." },
+    { "term": "Number Line", "meaning": "A straight line on which every rational number corresponds to exactly one point. Positive rationals are to the right of 0; negative rationals to the left. Used to represent and compare rational numbers visually." },
+    { "term": "Reciprocal", "meaning": "The reciprocal of a rational number p/q is q/p (numerator and denominator are swapped). Used in division: a ÷ b = a × (reciprocal of b). Example: reciprocal of 3/7 is 7/3; reciprocal of −2/5 is −5/2." },
+    { "term": "Additive Inverse", "meaning": "The additive inverse of a rational number p/q is −p/q. Their sum is 0. Example: additive inverse of 3/4 is −3/4 because 3/4 + (−3/4) = 0. Also called the 'opposite' of a rational number." },
+    { "term": "Multiplicative Inverse", "meaning": "Same as the reciprocal. The multiplicative inverse of p/q is q/p. Their product is 1. Example: (3/7) × (7/3) = 21/21 = 1. Every non-zero rational number has a multiplicative inverse." },
+    { "term": "Rational Numbers Between Two Rationals", "meaning": "Between any two distinct rational numbers, there are infinitely many rational numbers. One method: convert both to the same denominator (or multiply denominators), then list fractions with numerators between the two converted numerators." }
+  ],
+
+  "worked_examples": [
+    {
+      "example_number": 1,
+      "type": "Standard Form",
+      "question": "Reduce −36/−48 to standard form.",
+      "step_by_step_answer": [
+        "Step 1: Make the denominator positive. Both numerator and denominator are negative, so multiply both by −1: −36/−48 = 36/48.",
+        "Step 2: Find HCF of 36 and 48. Factors of 36: 1,2,3,4,6,9,12,18,36. Factors of 48: 1,2,3,4,6,8,12,16,24,48. HCF = 12.",
+        "Step 3: Divide both numerator and denominator by HCF: 36÷12 / 48÷12 = 3/4.",
+        "Step 4: Check — denominator 4 is positive ✓; HCF(3,4) = 1 ✓.",
+        "Answer: −36/−48 in standard form = 3/4."
+      ]
+    },
+    {
+      "example_number": 2,
+      "type": "Operations — Addition",
+      "question": "Find: (−3/8) + (5/12).",
+      "step_by_step_answer": [
+        "Step 1: Find LCM of 8 and 12. LCM(8,12) = 24.",
+        "Step 2: Convert −3/8 to denominator 24: multiply by 3/3 → −9/24.",
+        "Step 3: Convert 5/12 to denominator 24: multiply by 2/2 → 10/24.",
+        "Step 4: Add: (−9/24) + (10/24) = (−9 + 10)/24 = 1/24.",
+        "Step 5: Is 1/24 in standard form? HCF(1,24)=1 and denominator positive. ✓",
+        "Answer: (−3/8) + (5/12) = 1/24."
+      ]
+    },
+    {
+      "example_number": 3,
+      "type": "Finding Rational Numbers Between Two Rationals",
+      "question": "Find three rational numbers between 1/4 and 1/2.",
+      "step_by_step_answer": [
+        "Step 1: Make denominators the same. LCM(4,2) = 4. So 1/4 and 2/4.",
+        "Step 2: We need numbers between 1/4 and 2/4 — but there is only 1 integer (nothing) between 1 and 2. So multiply numerator and denominator of both by a larger number.",
+        "Step 3: Multiply both fractions by 4/4: 1/4 = 4/16 and 1/2 = 8/16.",
+        "Step 4: Rational numbers between 4/16 and 8/16: 5/16, 6/16, 7/16.",
+        "Step 5: Simplify if needed: 6/16 = 3/8. So three rational numbers are 5/16, 3/8 (=6/16), 7/16.",
+        "Answer: Three rational numbers between 1/4 and 1/2 are 5/16, 6/16 (=3/8), and 7/16."
+      ]
+    }
+  ],
+
+  "quick_check_questions": [
+    {
+      "after_concept": "What Are Rational Numbers?",
+      "questions": [
+        { "type": "Recall", "q": "Is −7 a rational number? Give a reason.", "a": "Yes. −7 = −7/1, which is of the form p/q where p = −7, q = 1 are integers and q ≠ 0. So −7 is a rational number." },
+        { "type": "Recall", "q": "Write three equivalent rational numbers for 2/3.", "a": "Multiply numerator and denominator by 2, 3, 4: 4/6, 6/9, 8/12. All are equivalent to 2/3." },
+        { "type": "Understanding", "q": "Is 0 a rational number? Is it positive or negative?", "a": "Yes, 0 is a rational number — it can be written as 0/1, 0/2, etc. 0 is neither positive nor negative. It is the boundary between positive and negative rational numbers on the number line." },
+        { "type": "Understanding", "q": "Where do negative rational numbers lie on the number line?", "a": "Negative rational numbers lie to the LEFT of 0 on the number line. The further left, the smaller (more negative) the value." },
+        { "type": "Application", "q": "A student says 3/0 is a rational number because 3 and 0 are both integers. Is the student correct?", "a": "No. The definition requires q ≠ 0. The denominator cannot be zero because division by zero is undefined. 3/0 is NOT a rational number." }
+      ]
+    }
+  ],
+
+  "key_takeaways": [
+    "A rational number is p/q where p, q are integers and q ≠ 0. All integers and fractions are rational numbers.",
+    "Positive rational numbers are greater than 0; negative rational numbers are less than 0; zero is neither.",
+    "Standard form: denominator is positive, HCF of |numerator| and denominator = 1.",
+    "To compare rational numbers: find LCM of denominators, convert, then compare numerators.",
+    "On the number line: right = larger. All positive rationals > 0 > all negative rationals.",
+    "Infinitely many rational numbers exist between any two rational numbers.",
+    "Addition/Subtraction: Find LCM, make denominators equal, then operate on numerators.",
+    "Multiplication: Multiply numerators together, denominators together. Handle signs separately.",
+    "Division: Multiply by the reciprocal of the divisor (KCF: Keep, Change, Flip).",
+    "Additive inverse of p/q is −p/q. Multiplicative inverse (reciprocal) of p/q is q/p."
+  ],
+
+  "mind_map": {
+    "root": "Rational Numbers",
+    "branches": [
+      { "branch": "Definition", "sub": ["p/q form", "p,q integers", "q ≠ 0", "Includes integers, fractions, negatives"] },
+      { "branch": "Types", "sub": ["Positive (p,q same sign)", "Negative (p,q opposite sign)", "Zero (0/any non-zero)"] },
+      { "branch": "Standard Form", "sub": ["Denominator > 0", "HCF(|p|,q) = 1", "Reduce by dividing by HCF"] },
+      { "branch": "Number Line", "sub": ["Negative ← 0 → Positive", "Right = greater", "Infinite rationals between any two"] },
+      { "branch": "Operations", "sub": ["Add/Sub: LCM method", "Multiply: straight across", "Divide: KCF (Keep Change Flip)", "Sign rules: same sign → positive, opposite → negative"] }
+    ]
+  },
+
+  "revision_notes": "Chapter 9 introduces rational numbers — numbers of the form p/q where p and q are integers and q ≠ 0. Every integer is rational (n = n/1); every fraction is rational. Positive rational numbers (p and q have same sign) lie right of 0 on the number line; negative rational numbers (p and q have opposite signs) lie left of 0. Standard form requires: (1) denominator positive, (2) HCF of |numerator| and denominator = 1 — reduce by dividing both by their HCF. Equivalent rational numbers: multiply or divide both p and q by the same non-zero integer. To compare: find LCM of denominators, convert, compare numerators. Infinitely many rational numbers exist between any two rationals. Operations: (1) Add/Subtract — find LCM, convert, operate on numerators; (2) Multiply — (p/q)×(r/s) = pr/qs, apply sign rules; (3) Divide — multiply by reciprocal (KCF). Key properties: additive inverse of p/q is −p/q; multiplicative inverse is q/p; 0 is additive identity; 1 is multiplicative identity. Sign rule for multiplication/division: same signs → positive result; different signs → negative result.",
+
+  "must_remember_facts": [
+    "Rational number: p/q where p, q are integers and q ≠ 0.",
+    "Every integer is a rational number (e.g., −5 = −5/1).",
+    "0 is a rational number — neither positive nor negative.",
+    "Standard form: denominator positive AND HCF(|numerator|, denominator) = 1.",
+    "Equivalent rationals: multiply/divide both p and q by the same non-zero integer.",
+    "Comparison: use LCM of denominators; larger numerator = larger rational (when denominators equal).",
+    "Add/Subtract: LCM first, then operate on numerators.",
+    "Multiply: (p/q) × (r/s) = pr/qs. Same signs → +ve, opposite signs → −ve.",
+    "Divide: (p/q) ÷ (r/s) = (p/q) × (s/r). KCF rule.",
+    "Infinitely many rational numbers between any two rational numbers."
+  ]
+}

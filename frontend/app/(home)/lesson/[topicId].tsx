@@ -8,7 +8,7 @@ import { AppText } from '../../../components/AppText';
 import { Card } from '../../../components/Card';
 import { Button } from '../../../components/Button';
 import { TutorBubble } from '../../../components/TutorBubble';
-import { DiagramViewer } from '../../../components/DiagramViewer';
+import { AskTutorPanel } from '../../../components/AskTutorPanel';
 import { VoiceInput } from '../../../components/VoiceInput';
 import { LoadingDots } from '../../../components/LoadingDots';
 import { ScreenContainer } from '../../../components/ScreenContainer';
@@ -32,8 +32,7 @@ function mergeLessonContent(fallback: LessonContent, metadata: Partial<LessonCon
     concept_explanation: metadata.concept_explanation || fallback.concept_explanation,
     worked_example: metadata.worked_example || fallback.worked_example,
     key_points: metadata.key_points || fallback.key_points,
-    interest_placeholders: metadata.interest_placeholders || fallback.interest_placeholders,
-    diagram: metadata.diagram || fallback.diagram,
+    interest_placeholders: metadata.interest_placeholders || fallback.interest_placeholders
   };
 }
 
@@ -120,7 +119,7 @@ export default function LessonScreen(): React.JSX.Element {
   const { colors, spacing, radius } = useTheme();
 
   const [isLoading, setIsLoading] = useState(true);
-  const [profile, setProfile] = useState<{ name: string; interests?: string[]; learningStyle?: string }>({ name: 'Friend', interests: ['space'], learningStyle: 'mixed' });
+  const [profile, setProfile] = useState<{ name: string; interests?: string[]; learningStyle?: string; grade?: number }>({ name: 'Friend', interests: ['space'], learningStyle: 'mixed' });
   const [isNarrating, setIsNarrating] = useState(false);
 
   const topicKey = topicId || 'fractions';
@@ -310,15 +309,6 @@ export default function LessonScreen(): React.JSX.Element {
     </Card>
   );
 
-  const renderDiagram = () => (
-    <View style={styles.diagramContainer}>
-      <DiagramViewer
-        source={currentTopic.diagram.source}
-        caption={currentTopic.diagram.caption}
-        description={currentTopic.diagram.description}
-      />
-    </View>
-  );
 
   const renderExample = () => (
     <Card style={styles.card}>
@@ -382,13 +372,23 @@ export default function LessonScreen(): React.JSX.Element {
     </Card>
   );
 
+  const renderAskTutor = () => (
+    <AskTutorPanel
+      topic={titleText}
+      grade={profile?.grade}
+      language={language}
+      studentName={profile?.name}
+      interests={profile?.interests}
+      lessonContext={`${conceptText}\n\nWorked example: ${currentTopic.worked_example?.problem || ''}`}
+    />
+  );
+
   // Determine block rendering order based on style preference
   const renderBlocks = () => {
     switch (learningStyle) {
       case 'visual':
         return (
           <>
-            {renderDiagram()}
             {renderStory()}
             {renderConcept()}
             {renderExample()}
@@ -409,7 +409,6 @@ export default function LessonScreen(): React.JSX.Element {
               </Card>
             )}
             {renderConcept()}
-            {renderDiagram()}
             {renderExample()}
             {renderKeyPoints()}
             {renderQuizCta()}
@@ -423,7 +422,6 @@ export default function LessonScreen(): React.JSX.Element {
             </View>
             {renderExample()}
             {renderConcept()}
-            {renderDiagram()}
             {renderStory()}
             {renderQuizCta()}
           </>
@@ -435,7 +433,6 @@ export default function LessonScreen(): React.JSX.Element {
             {renderStory()}
             {renderQuizCta()}
             {renderConcept()}
-            {renderDiagram()}
             {renderExample()}
             {renderKeyPoints()}
           </>
@@ -445,7 +442,6 @@ export default function LessonScreen(): React.JSX.Element {
           <>
             {renderStory()}
             {renderConcept()}
-            {renderDiagram()}
             {renderExample()}
             {renderKeyPoints()}
             {renderQuizCta()}
@@ -458,6 +454,11 @@ export default function LessonScreen(): React.JSX.Element {
     <ScreenContainer
       title={titleText}
       scrollable={true}
+      showBackButton={true}
+      onBackPress={() => router.replace({
+        pathname: '/(home)/subject/[id]',
+        params: { id: subjectKey }
+      })}
       contentContainerStyle={[styles.container, { paddingBottom: 40 }]}
     >
       {/* Estimated Reading Time / Header row */}
@@ -481,6 +482,8 @@ export default function LessonScreen(): React.JSX.Element {
       </View>
 
       {renderBlocks()}
+
+      {renderAskTutor()}
     </ScreenContainer>
   );
 }
@@ -544,9 +547,6 @@ const styles = StyleSheet.create({
   },
   bodyText: {
     lineHeight: 29,
-  },
-  diagramContainer: {
-    width: '100%',
   },
   problemBox: {
     paddingVertical: 20,

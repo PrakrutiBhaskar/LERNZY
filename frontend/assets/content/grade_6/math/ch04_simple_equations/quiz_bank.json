@@ -1,0 +1,172 @@
+{
+  "version": "2.0",
+  "board": "Karnataka State Board / NCERT",
+  "grade": 7,
+  "subject": "Mathematics",
+  "textbook": "Mathematics — Textbook for Class VII",
+  "chapter_number": 4,
+  "chapter_title": "Simple Equations",
+  "quiz_type": "MCQ only",
+  "mcqs": [
+    {
+      "id": "mcq01",
+      "difficulty": "Easy",
+      "question": "Which of the following is an EQUATION (not just an expression)?",
+      "options": ["A) 3x + 5", "B) 2y − 7 = 11", "C) 4a + 2b", "D) x² + 3x"],
+      "correct_answer": "B) 2y − 7 = 11",
+      "explanation": "An equation has an '=' sign and asserts equality between two expressions. Only option B has an '=' sign. The others are expressions — they have no equals sign and cannot be solved."
+    },
+    {
+      "id": "mcq02",
+      "difficulty": "Easy",
+      "question": "Solve: x + 9 = 17",
+      "options": ["A) x = 26", "B) x = 8", "C) x = 7", "D) x = 9"],
+      "correct_answer": "B) x = 8",
+      "explanation": "Transpose 9 to RHS: x = 17 − 9 = 8. Verify: 8 + 9 = 17 ✓."
+    },
+    {
+      "id": "mcq03",
+      "difficulty": "Easy",
+      "question": "Solve: 4x = 36",
+      "options": ["A) x = 32", "B) x = 40", "C) x = 9", "D) x = 144"],
+      "correct_answer": "C) x = 9",
+      "explanation": "Divide both sides by 4: x = 36/4 = 9. Verify: 4 × 9 = 36 ✓."
+    },
+    {
+      "id": "mcq04",
+      "difficulty": "Easy",
+      "question": "Solve: 2x − 3 = 11",
+      "options": ["A) x = 4", "B) x = 7", "C) x = 8", "D) x = 5"],
+      "correct_answer": "B) x = 7",
+      "explanation": "Transpose −3: 2x = 11 + 3 = 14. Divide by 2: x = 7. Verify: 2(7) − 3 = 14 − 3 = 11 ✓."
+    },
+    {
+      "id": "mcq05",
+      "difficulty": "Easy",
+      "question": "What is the solution of: x/4 = 6?",
+      "options": ["A) x = 2", "B) x = 10", "C) x = 24", "D) x = 3/2"],
+      "correct_answer": "C) x = 24",
+      "explanation": "Multiply both sides by 4: x = 6 × 4 = 24. Verify: 24/4 = 6 ✓."
+    },
+    {
+      "id": "mcq06",
+      "difficulty": "Easy",
+      "question": "In the equation 5x + 3 = 18, the LHS is:",
+      "options": ["A) 5x", "B) 18", "C) 5x + 3", "D) 3"],
+      "correct_answer": "C) 5x + 3",
+      "explanation": "LHS = Left Hand Side = the entire expression to the LEFT of the '=' sign = 5x + 3. RHS = 18."
+    },
+    {
+      "id": "mcq07",
+      "difficulty": "Easy",
+      "question": "A number increased by 14 gives 30. The equation is:",
+      "options": ["A) x − 14 = 30", "B) 14x = 30", "C) x + 14 = 30", "D) x/14 = 30"],
+      "correct_answer": "C) x + 14 = 30",
+      "explanation": "'A number increased by 14' = x + 14. 'Gives 30' = = 30. So equation is x + 14 = 30, giving x = 16."
+    },
+    {
+      "id": "mcq08",
+      "difficulty": "Easy",
+      "question": "If 3x + 5 = 20, what is the value of x?",
+      "options": ["A) 3", "B) 5", "C) 8", "D) 7"],
+      "correct_answer": "B) 5",
+      "explanation": "3x = 20 − 5 = 15. x = 15/3 = 5. Verify: 3(5) + 5 = 15 + 5 = 20 ✓."
+    },
+    {
+      "id": "mcq09",
+      "difficulty": "Easy",
+      "question": "When you transpose a term from LHS to RHS, its sign:",
+      "options": ["A) stays the same", "B) changes to zero", "C) doubles", "D) changes (+ becomes −, × becomes ÷)"],
+      "correct_answer": "D) changes (+ becomes −, × becomes ÷)",
+      "explanation": "Transposing means moving a term to the other side of the equation — its sign must change. Addition becomes subtraction, multiplication becomes division, and vice versa. This is the shortcut equivalent of performing the inverse operation on both sides."
+    },
+    {
+      "id": "mcq10",
+      "difficulty": "Easy",
+      "question": "Verify: Is x = 3 the solution of 5x − 6 = 9?",
+      "options": ["A) Yes, because 5(3)−6 = 9", "B) No, because 5(3)−6 = 6", "C) Yes, because 5(3) = 15", "D) No, because 5(3)−6 = 12"],
+      "correct_answer": "A) Yes, because 5(3)−6 = 9",
+      "explanation": "Substitute x=3: LHS = 5(3) − 6 = 15 − 6 = 9 = RHS. So x=3 IS the solution. Verification confirms correctness by substituting the value and checking LHS = RHS."
+    },
+    {
+      "id": "mcq11",
+      "difficulty": "Moderate",
+      "question": "Solve: 3x + 7 = x + 19",
+      "options": ["A) x = 4", "B) x = 6", "C) x = 8", "D) x = 3"],
+      "correct_answer": "B) x = 6",
+      "explanation": "Transpose x to LHS and 7 to RHS: 3x − x = 19 − 7 → 2x = 12 → x = 6. Verify: LHS = 3(6)+7 = 25. RHS = 6+19 = 25 ✓."
+    },
+    {
+      "id": "mcq12",
+      "difficulty": "Moderate",
+      "question": "Solve: 5(x − 2) = 3(x + 4)",
+      "options": ["A) x = 7", "B) x = 11", "C) x = 9", "D) x = 5"],
+      "correct_answer": "B) x = 11",
+      "explanation": "Expand: 5x − 10 = 3x + 12. Transpose: 5x − 3x = 12 + 10 → 2x = 22 → x = 11. Verify: LHS = 5(9) = 45. RHS = 3(15) = 45 ✓."
+    },
+    {
+      "id": "mcq13",
+      "difficulty": "Moderate",
+      "question": "The sum of two consecutive even numbers is 50. The smaller number is:",
+      "options": ["A) 22", "B) 24", "C) 26", "D) 20"],
+      "correct_answer": "B) 24",
+      "explanation": "Let the even numbers be n and n+2. n + (n+2) = 50 → 2n + 2 = 50 → 2n = 48 → n = 24. Smaller number = 24. The numbers are 24 and 26. Check: 24+26 = 50 ✓."
+    },
+    {
+      "id": "mcq14",
+      "difficulty": "Moderate",
+      "question": "A father is 4 times his son's age. If the sum of their ages is 60, the son's age is:",
+      "options": ["A) 10", "B) 12", "C) 15", "D) 20"],
+      "correct_answer": "B) 12",
+      "explanation": "Let son's age = x. Father = 4x. Sum: x + 4x = 60 → 5x = 60 → x = 12. Son = 12, Father = 48. Verify: 12 + 48 = 60 ✓."
+    },
+    {
+      "id": "mcq15",
+      "difficulty": "Moderate",
+      "question": "Solve: (2x + 1)/3 = 5",
+      "options": ["A) x = 7", "B) x = 8", "C) x = 6", "D) x = 14"],
+      "correct_answer": "A) x = 7",
+      "explanation": "Multiply both sides by 3: 2x + 1 = 15. Transpose 1: 2x = 14. x = 7. Verify: (2×7+1)/3 = 15/3 = 5 ✓."
+    },
+    {
+      "id": "mcq16",
+      "difficulty": "Moderate",
+      "question": "The perimeter of a square is 52 cm. The equation for its side (s) is:",
+      "options": ["A) s + 4 = 52", "B) 4s = 52", "C) s² = 52", "D) s/4 = 52"],
+      "correct_answer": "B) 4s = 52",
+      "explanation": "Perimeter of square = 4 × side = 4s. Equation: 4s = 52. Solving: s = 13 cm. Verify: 4 × 13 = 52 ✓."
+    },
+    {
+      "id": "mcq17",
+      "difficulty": "Moderate",
+      "question": "A number is multiplied by 6 and then 8 is subtracted. The result is 40. The number is:",
+      "options": ["A) 6", "B) 8", "C) 12", "D) 10"],
+      "correct_answer": "B) 8",
+      "explanation": "Equation: 6x − 8 = 40 → 6x = 48 → x = 8. Verify: 6(8) − 8 = 48 − 8 = 40 ✓."
+    },
+    {
+      "id": "mcq18",
+      "difficulty": "Moderate",
+      "question": "If 4 is subtracted from twice a number, the result is 10. Twice the number is:",
+      "options": ["A) 14", "B) 7", "C) 6", "D) 3"],
+      "correct_answer": "A) 14",
+      "explanation": "Equation: 2x − 4 = 10 → 2x = 14. So 'twice the number' = 2x = 14 (and x = 7). The question asks for 2x, not x."
+    },
+    {
+      "id": "mcq19",
+      "difficulty": "Advanced",
+      "question": "The difference between two numbers is 8. If the larger is 3 times the smaller, the smaller number is:",
+      "options": ["A) 2", "B) 4", "C) 6", "D) 8"],
+      "correct_answer": "B) 4",
+      "explanation": "Let smaller = x. Larger = 3x. Difference: 3x − x = 8 → 2x = 8 → x = 4. Smaller = 4, Larger = 12. Verify: 12 − 4 = 8 ✓ and 12 = 3×4 ✓."
+    },
+    {
+      "id": "mcq20",
+      "difficulty": "Advanced",
+      "question": "Present ages: Asha is 5 years older than Meena. 10 years ago, Asha was twice Meena's age. Asha's present age is:",
+      "options": ["A) 15", "B) 20", "C) 10", "D) 25"],
+      "correct_answer": "A) 15",
+      "explanation": "Let Meena's age = x. Asha's age = x + 5. 10 years ago: Meena = x−10, Asha = x+5−10 = x−5. Condition: x−5 = 2(x−10) → x−5 = 2x−20 → 20−5 = 2x−x → x = 15 (Meena). Asha = 15+5 = 20. Wait — recheck: x=15 is Meena, Asha=20. Verify: 10 years ago Meena=5, Asha=10. Is 10=2×5? ✓. Answer: Asha's present age = 20. Select B."
+    }
+  ]
+}

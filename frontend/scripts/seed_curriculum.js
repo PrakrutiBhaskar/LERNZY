@@ -72,17 +72,23 @@ const CURRICULUM = {
       { id: "ch14_poetry_water", title: "Poetry: Water", titleHi: "कविता: पानी", titleKn: "ಪದ್ಯ: ನೀರು" },
       { id: "ch15_poetry_beauty", title: "Poetry: Beauty", titleHi: "कविता: सुंदरता", titleKn: "ಪದ್ಯ: ಸೌಂದರ್ಯ" }
     ],
-    "kannada": [
-      { id: "ch01_prose", title: "Prose (ಗದ್ಯ)", titleHi: "गद्य (ಕನ್ನಡ)", titleKn: "ಗದ್ಯ ಭಾಗ" },
-      { id: "ch02_poetry", title: "Poetry (ಪದ್ಯ)", titleHi: "पद्य (ಕನ್ನಡ)", titleKn: "ಪದ್ಯ ಭಾಗ" },
-      { id: "ch03_sandhi", title: "Sandhi (ಸಂಧಿ)", titleHi: "ಕನ್ನಡ ಸಂಧಿ", titleKn: "ಸಂಧಿ ಪ್ರಕರಣ" },
-      { id: "ch04_samasa", title: "Samasa (ಸಮಾಸ)", titleHi: "ಕನ್ನಡ ಸಮಾಸ", titleKn: "ಸಮಾಸ ಪ್ರಕರಣ" },
-      { id: "ch05_vacana", title: "Vacana (ವಚನ)", titleHi: "ಕನ್ನಡ ವಚನಗಳು", titleKn: "ವಚನಗಳು" },
-      { id: "ch06_linga", title: "Linga (ಲಿಂಗ)", titleHi: "ಕನ್ನಡ ಲಿಂಗಗಳು", titleKn: "ಲಿಂಗಗಳು" },
-      { id: "ch07_vibhakti", title: "Vibhakti (ವಿಭಕ್ತಿ)", titleHi: "ಕನ್ನಡ ವಿಭಕ್ತಿ ಪ್ರತ್ಯಯಗಳು", titleKn: "ವಿಭಕ್ತಿ ಪ್ರತ್ಯಯಗಳು" },
-      { id: "ch08_kriyapada", title: "Verb forms (ಕ್ರಿಯಾಪದ)", titleHi: "ಕನ್ನಡ ಕ್ರಿಯಾಪದಗಳು", titleKn: "ಕ್ರಿಯಾಪದಗಳು" },
-      { id: "ch09_alankara", title: "Figures of speech (ಅಲಂಕಾರ)", titleHi: "ಕನ್ನಡ ಅಲಂಕಾರಗಳು", titleKn: "ಅಲಂಕಾರಗಳು" }
-    ]
+    "math": [
+      { id: "ch01_integers", title: "Integers", titleHi: "पूर्णांक", titleKn: "ಪೂರ್ಣಾಂಕಗಳು" },
+      { id: "ch02_fractions_decimals", title: "Fractions and Decimals", titleHi: "भिन्न एवं दशमलव", titleKn: "ಭಿನ್ನರಾಶಿಗಳು ಮತ್ತು ದಶಮಾಂಶಗಳು" },
+      { id: "ch03_data_handling", title: "Data Handling", titleHi: "आंकड़ों का प्रबंधन", titleKn: "ದತ್ತಾಂಶಗಳ ನಿರ್ವಹಣೆ" },
+      { id: "ch04_simple_equations", title: "Simple Equations", titleHi: "सरल समीकरण", titleKn: "ಸರಳ ಸಮೀಕರಣಗಳು" },
+      { id: "ch05_lines_angles", title: "Lines and Angles", titleHi: "रेखा एवं कोण", titleKn: "ರೇಖೆಗಳು ಮತ್ತು ಕೋನಗಳು" },
+      { id: "ch06_triangle_properties", title: "The Triangle and Its Properties", titleHi: "त्रिभुज और उसके गुण", titleKn: "ತ್ರಿಕೋನ ಮತ್ತು ಅದರ ಗುಣಲಕ್ಷಣಗಳು" },
+      { id: "ch07_congruence", title: "Congruence of Triangles", titleHi: "त्रिभुजों की सर्वांगसमता", titleKn: "ತ್ರಿಕೋನಗಳ ಸರ್ವಸಮತೆ" },
+      { id: "ch08_comparing_quantities", title: "Comparing Quantities", titleHi: "राशियों की तुलना", titleKn: "ಪ್ರಮಾಣಗಳ ಹೋಲಿಕೆ" },
+      { id: "ch09_rational_numbers", title: "Rational Numbers", titleHi: "परिमेय संख्याएँ", titleKn: "ಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆಗಳು" },
+      { id: "ch10_practical_geometry", title: "Practical Geometry", titleHi: "प्रायोगिक ज्यामिति", titleKn: "ಪ್ರಾಯೋಗಿಕ ರೇಖಾಗಣಿತ" },
+      { id: "ch11_perimeter_area", title: "Perimeter and Area", titleHi: "परिमाप और क्षेत्रफल", titleKn: "ಸುತ್ತಳತೆ ಮತ್ತು ವಿಸ್ತೀರ್ಣ" },
+      { id: "ch12_algebraic_expressions", title: "Algebraic Expressions", titleHi: "बीजीय व्यंजक", titleKn: "ಬೀಜಗಣಿತದ ಅಭಿವ್ಯಕ್ತಿಗಳು" },
+      { id: "ch13_exponents_powers", title: "Exponents and Powers", titleHi: "घातांक और घात", titleKn: "ಘಾತಾಂಕಗಳು ಮತ್ತು ಘಾತಗಳು" },
+      { id: "ch14_symmetry", title: "Symmetry", titleHi: "सममिति", titleKn: "ಸಮಮಿತಿ" },
+      { id: "ch15_visualising_solid_shapes", title: "Visualising Solid Shapes", titleHi: "ठोस आकारों का चित्रण", titleKn: "ಘನ ಆಕಾರಗಳ ದೃಶ್ಯೀಕರಣ" }
+    ],
   },
   "7": {
     "math": [
