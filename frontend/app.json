@@ -7,7 +7,6 @@
     "icon": "./assets/images/icon.png",
     "scheme": "lernzy",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
@@ -26,10 +25,18 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-image",
+      "expo-sqlite"
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "655c60df-b98e-45a0-a880-82660c305811"
+      }
     }
   }
 }

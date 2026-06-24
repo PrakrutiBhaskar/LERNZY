@@ -1,3 +1,4 @@
+import "../global.css";
 import React, { useEffect, useState } from 'react';
 import { Slot, useRouter, useSegments } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';

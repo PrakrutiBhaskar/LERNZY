@@ -36,6 +36,10 @@ export default function GradeScreen(): React.JSX.Element {
     };
   }, []);
 
+  useEffect(() => {
+  console.log("THEME COLORS", colors);
+}, []);
+
   const handleNext = async () => {
     if (!grade) return;
     await saveOnboardingProfile({ grade });
@@ -98,8 +102,8 @@ const createStyles = (colors: ColorsType) => StyleSheet.create({
     alignItems: 'center',
   },
   gradeCardActive: {
-    backgroundColor: colors.primarySubtle,
-  },
+  backgroundColor: '#FF0000',
+},
   pressed: {
     opacity: 0.78,
   },
