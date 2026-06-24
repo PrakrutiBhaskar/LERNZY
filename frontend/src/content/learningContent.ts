@@ -48,6 +48,201 @@ export interface LessonContent {
 export const TOPICS_BY_SUBJECT: Record<string, TopicItem[]> = {
   "math": [
     {
+      "id": "math_grade6_ch01_integers_basics",
+      "title": {
+        "en": "Integers (G6)",
+        "hi": "पूर्णांक (G6)",
+        "kn": "ಪೂರ್ಣಾಂಕಗಳು (G6)"
+      },
+      "desc": {
+        "en": "Learn and master Integers for Grade 6.",
+        "hi": "कक्षा 6 के लिए पूर्णांक में महारत हासिल करें।",
+        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಪೂರ್ಣಾಂಕಗಳು ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
+      }
+    },
+    {
+      "id": "math_grade6_ch02_fractions_decimals_basics",
+      "title": {
+        "en": "Fractions and Decimals (G6)",
+        "hi": "भिन्न एवं दशमलव (G6)",
+        "kn": "ಭಿನ್ನರಾಶಿಗಳು ಮತ್ತು ದಶಮಾಂಶಗಳು (G6)"
+      },
+      "desc": {
+        "en": "Learn and master Fractions and Decimals for Grade 6.",
+        "hi": "कक्षा 6 के लिए भिन्न एवं दशमलव में महारत हासिल करें।",
+        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಭಿನ್ನರಾಶಿಗಳು ಮತ್ತು ದಶಮಾಂಶಗಳು ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
+      }
+    },
+    {
+      "id": "math_grade6_ch03_data_handling_basics",
+      "title": {
+        "en": "Data Handling (G6)",
+        "hi": "आंकड़ों का प्रबंधन (G6)",
+        "kn": "ದತ್ತಾಂಶಗಳ ನಿರ್ವಹಣೆ (G6)"
+      },
+      "desc": {
+        "en": "Learn and master Data Handling for Grade 6.",
+        "hi": "कक्षा 6 के लिए आंकड़ों का प्रबंधन में महारत हासिल करें।",
+        "kn": "ತರಗತಿ 6 ಗಾಗಿ ದತ್ತಾಂಶಗಳ ನಿರ್ವಹಣೆ ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
+      }
+    },
+    {
+      "id": "math_grade6_ch04_simple_equations_basics",
+      "title": {
+        "en": "Simple Equations (G6)",
+        "hi": "सरल समीकरण (G6)",
+        "kn": "ಸರಳ ಸಮೀಕರಣಗಳು (G6)"
+      },
+      "desc": {
+        "en": "Learn and master Simple Equations for Grade 6.",
+        "hi": "कक्षा 6 के लिए सरल समीकरण में महारत हासिल करें।",
+        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಸರಳ ಸಮೀಕರಣಗಳು ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
+      }
+    },
+    {
+      "id": "math_grade6_ch05_lines_angles_basics",
+      "title": {
+        "en": "Lines and Angles (G6)",
+        "hi": "रेखा एवं कोण (G6)",
+        "kn": "ರೇಖೆಗಳು ಮತ್ತು ಕೋನಗಳು (G6)"
+      },
+      "desc": {
+        "en": "Learn and master Lines and Angles for Grade 6.",
+        "hi": "कक्षा 6 के लिए रेखा एवं कोण में महारत हासिल करें।",
+        "kn": "ತರಗತಿ 6 ಗಾಗಿ ರೇಖೆಗಳು ಮತ್ತು ಕೋನಗಳು ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
+      }
+    },
+    {
+      "id": "math_grade6_ch06_triangle_properties_basics",
+      "title": {
+        "en": "The Triangle and Its Properties (G6)",
+        "hi": "त्रिभुज और उसके गुण (G6)",
+        "kn": "ತ್ರಿಕೋನ ಮತ್ತು ಅದರ ಗುಣಲಕ್ಷಣಗಳು (G6)"
+      },
+      "desc": {
+        "en": "Learn and master The Triangle and Its Properties for Grade 6.",
+        "hi": "कक्षा 6 के लिए त्रिभुज और उसके गुण में महारत हासिल करें।",
+        "kn": "ತರಗತಿ 6 ಗಾಗಿ ತ್ರಿಕೋನ ಮತ್ತು ಅದರ ಗುಣಲಕ್ಷಣಗಳು ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
+      }
+    },
+    {
+      "id": "math_grade6_ch07_congruence_basics",
+      "title": {
+        "en": "Congruence of Triangles (G6)",
+        "hi": "त्रिभुजों की सर्वांगसमता (G6)",
+        "kn": "ತ್ರಿಕೋನಗಳ ಸರ್ವಸಮತೆ (G6)"
+      },
+      "desc": {
+        "en": "Learn and master Congruence of Triangles for Grade 6.",
+        "hi": "कक्षा 6 के लिए त्रिभुजों की सर्वांगसमता में महारत हासिल करें।",
+        "kn": "ತರಗತಿ 6 ಗಾಗಿ ತ್ರಿಕೋನಗಳ ಸರ್ವಸಮತೆ ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
+      }
+    },
+    {
+      "id": "math_grade6_ch08_comparing_quantities_basics",
+      "title": {
+        "en": "Comparing Quantities (G6)",
+        "hi": "राशियों की तुलना (G6)",
+        "kn": "ಪ್ರಮಾಣಗಳ ಹೋಲಿಕೆ (G6)"
+      },
+      "desc": {
+        "en": "Learn and master Comparing Quantities for Grade 6.",
+        "hi": "कक्षा 6 के लिए राशियों की तुलना में महारत हासिल करें।",
+        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಪ್ರಮಾಣಗಳ ಹೋಲಿಕೆ ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
+      }
+    },
+    {
+      "id": "math_grade6_ch09_rational_numbers_basics",
+      "title": {
+        "en": "Rational Numbers (G6)",
+        "hi": "परिमेय संख्याएँ (G6)",
+        "kn": "ಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆಗಳು (G6)"
+      },
+      "desc": {
+        "en": "Learn and master Rational Numbers for Grade 6.",
+        "hi": "कक्षा 6 के लिए परिमेय संख्याएँ में महारत हासिल करें।",
+        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆಗಳು ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
+      }
+    },
+    {
+      "id": "math_grade6_ch10_practical_geometry_basics",
+      "title": {
+        "en": "Practical Geometry (G6)",
+        "hi": "प्रायोगिक ज्यामिति (G6)",
+        "kn": "ಪ್ರಾಯೋಗಿಕ ರೇಖಾಗಣಿತ (G6)"
+      },
+      "desc": {
+        "en": "Learn and master Practical Geometry for Grade 6.",
+        "hi": "कक्षा 6 के लिए प्रायोगिक ज्यामिति में महारत हासिल करें।",
+        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಪ್ರಾಯೋಗಿಕ ರೇಖಾಗಣಿತ ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
+      }
+    },
+    {
+      "id": "math_grade6_ch11_perimeter_area_basics",
+      "title": {
+        "en": "Perimeter and Area (G6)",
+        "hi": "परिमाप और क्षेत्रफल (G6)",
+        "kn": "ಸುತ್ತಳತೆ ಮತ್ತು ವಿಸ್ತೀರ್ಣ (G6)"
+      },
+      "desc": {
+        "en": "Learn and master Perimeter and Area for Grade 6.",
+        "hi": "कक्षा 6 के लिए परिमाप और क्षेत्रफल में महारत हासिल करें।",
+        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಸುತ್ತಳತೆ ಮತ್ತು ವಿಸ್ತೀರ್ಣ ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
+      }
+    },
+    {
+      "id": "math_grade6_ch12_algebraic_expressions_basics",
+      "title": {
+        "en": "Algebraic Expressions (G6)",
+        "hi": "बीजीय व्यंजक (G6)",
+        "kn": "ಬೀಜಗಣಿತದ ಅಭಿವ್ಯಕ್ತಿಗಳು (G6)"
+      },
+      "desc": {
+        "en": "Learn and master Algebraic Expressions for Grade 6.",
+        "hi": "कक्षा 6 के लिए बीजीय व्यंजक में महारत हासिल करें।",
+        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಬೀಜಗಣಿತದ ಅಭಿವ್ಯಕ್ತಿಗಳು ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
+      }
+    },
+    {
+      "id": "math_grade6_ch13_exponents_powers_basics",
+      "title": {
+        "en": "Exponents and Powers (G6)",
+        "hi": "घातांक और घात (G6)",
+        "kn": "ಘಾತಾಂಕಗಳು ಮತ್ತು ಘಾತಗಳು (G6)"
+      },
+      "desc": {
+        "en": "Learn and master Exponents and Powers for Grade 6.",
+        "hi": "कक्षा 6 के लिए घातांक और घात में महारत हासिल करें।",
+        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಘಾತಾಂಕಗಳು ಮತ್ತು ಘಾತಗಳು ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
+      }
+    },
+    {
+      "id": "math_grade6_ch14_symmetry_basics",
+      "title": {
+        "en": "Symmetry (G6)",
+        "hi": "सममिति (G6)",
+        "kn": "ಸಮಮಿತಿ (G6)"
+      },
+      "desc": {
+        "en": "Learn and master Symmetry for Grade 6.",
+        "hi": "कक्षा 6 के लिए सममिति में महारत हासिल करें।",
+        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಸಮಮಿತಿ ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
+      }
+    },
+    {
+      "id": "math_grade6_ch15_visualising_solid_shapes_basics",
+      "title": {
+        "en": "Visualising Solid Shapes (G6)",
+        "hi": "ठोस आकारों का चित्रण (G6)",
+        "kn": "ಘನ ಆಕಾರಗಳ ದೃಶ್ಯೀಕರಣ (G6)"
+      },
+      "desc": {
+        "en": "Learn and master Visualising Solid Shapes for Grade 6.",
+        "hi": "कक्षा 6 के लिए ठोस आकारों का चित्रण में महारत हासिल करें।",
+        "kn": "ತರಗತಿ 6 ಗಾಗಿ ಘನ ಆಕಾರಗಳ ದೃಶ್ಯೀಕರಣ ಅನ್ನು ಕರಗತ ಮಾಡಿಕೊಳ್ಳಿ."
+      }
+    },
+    {
       "id": "math_grade7_ch01_integers_basics",
       "title": {
         "en": "Integers (G7)",
@@ -126,7 +321,7 @@ export const TOPICS_BY_SUBJECT: Record<string, TopicItem[]> = {
       }
     },
     {
-      "id": "math_grade7_ch07_congruence_basics",
+      "id": "math_grade7_ch06_congruence_basics",
       "title": {
         "en": "Congruence of Triangles (G7)",
         "hi": "त्रिभुजों की सर्वांगसमता (G7)",
@@ -2490,6 +2685,21 @@ export const TOPICS_BY_SUBJECT: Record<string, TopicItem[]> = {
 };
 
 export const LAZY_LESSONS: Record<string, () => Promise<any>> = {
+  "math_grade6_ch01_integers_basics": () => import('../../assets/content/grade_7/math/ch01_integers/lesson.json'),
+  "math_grade6_ch02_fractions_decimals_basics": () => import('../../assets/content/grade_7/math/ch02_fractions_decimals/lesson.json'),
+  "math_grade6_ch03_data_handling_basics": () => import('../../assets/content/grade_7/math/ch03_data_handling/lesson.json'),
+  "math_grade6_ch04_simple_equations_basics": () => import('../../assets/content/grade_7/math/ch04_simple_equations/lesson.json'),
+  "math_grade6_ch05_lines_angles_basics": () => import('../../assets/content/grade_7/math/ch05_lines_angles/lesson.json'),
+  "math_grade6_ch06_triangle_properties_basics": () => import('../../assets/content/grade_7/math/ch06_triangle_properties/lesson.json'),
+  "math_grade6_ch07_congruence_basics": () => import('../../assets/content/grade_7/math/ch07_congruence/lesson.json'),
+  "math_grade6_ch08_comparing_quantities_basics": () => import('../../assets/content/grade_7/math/ch08_comparing_quantities/lesson.json'),
+  "math_grade6_ch09_rational_numbers_basics": () => import('../../assets/content/grade_7/math/ch09_rational_numbers/lesson.json'),
+  "math_grade6_ch10_practical_geometry_basics": () => import('../../assets/content/grade_7/math/ch10_practical_geometry/lesson.json'),
+  "math_grade6_ch11_perimeter_area_basics": () => import('../../assets/content/grade_7/math/ch11_perimeter_area/lesson.json'),
+  "math_grade6_ch12_algebraic_expressions_basics": () => import('../../assets/content/grade_7/math/ch12_algebraic_expressions/lesson.json'),
+  "math_grade6_ch13_exponents_powers_basics": () => import('../../assets/content/grade_7/math/ch13_exponents_powers/lesson.json'),
+  "math_grade6_ch14_symmetry_basics": () => import('../../assets/content/grade_7/math/ch14_symmetry/lesson.json'),
+  "math_grade6_ch15_visualising_solid_shapes_basics": () => import('../../assets/content/grade_7/math/ch15_visualising_solid_shapes/lesson.json'),
   "science_grade6_ch01_food_sources_basics": () => import('../../assets/content/grade_6/science/ch01_food_sources/lesson.json'),
   "science_grade6_ch02_components_of_food_basics": () => import('../../assets/content/grade_6/science/ch02_components_of_food/lesson.json'),
   "science_grade6_ch03_fibre_to_fabric_basics": () => import('../../assets/content/grade_6/science/ch03_fibre_to_fabric/lesson.json'),
