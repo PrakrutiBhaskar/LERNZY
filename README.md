@@ -3,7 +3,7 @@
 
 > **Fully offline. Deeply personal. Built for Bharat.**
 > An on-device AI tutoring app for grades 6–8 that teaches every subject by weaving lessons around each student's own interests — in English, Hindi, or Kannada — with zero internet required after first setup.
-
+>DEMO LINK : https://drive.google.com/file/d/1LuyJvYMrjFxe9sW0nWMsZOXw08eUmPy6/view?usp=sharing
 ---
 
 ## Table of Contents
